@@ -110,8 +110,14 @@ FEEDS = {
              "https://feeds.marketwatch.com/marketwatch/marketpulse/"),
             ("Yahoo Finance",
              "https://finance.yahoo.com/news/rssindex"),
-            ("Google – Stocks",
-             "https://news.google.com/rss/search?q=S%26P+500+Nasdaq+Dow+Jones+stock+market&hl=en-US&gl=US&ceid=US:en"),
+            ("The Street",
+             "https://www.thestreet.com/rss/main.xml"),
+            ("Fortune",
+             "https://fortune.com/feed/"),
+            ("Axios Markets",
+             "https://api.axios.com/feed/topics/markets"),
+            ("Barron's",
+             "https://www.barrons.com/xml/rss/3_7510.xml"),
         ],
     },
     "Macro & Economy": {
@@ -120,14 +126,16 @@ FEEDS = {
         "sources": [
             ("CNBC Economy",
              "https://www.cnbc.com/id/20910258/device/rss/rss.html"),
+            ("AP Business",
+             "https://apnews.com/apf-business"),
+            ("NPR Business",
+             "https://feeds.npr.org/1014/rss.xml"),
+            ("Axios Economy",
+             "https://api.axios.com/feed/topics/economy"),
+            ("Project Syndicate",
+             "https://www.project-syndicate.org/rss"),
             ("Google – Fed & Rates",
-             "https://news.google.com/rss/search?q=Federal+Reserve+interest+rates+economy&hl=en-US&gl=US&ceid=US:en"),
-            ("Google – Inflation & GDP",
-             "https://news.google.com/rss/search?q=inflation+GDP+unemployment+recession+consumer+spending&hl=en-US&gl=US&ceid=US:en"),
-            ("Google – AP Economics",
-             "https://news.google.com/rss/search?q=economy+source%3AAssociated+Press&hl=en-US&gl=US&ceid=US:en"),
-            ("Google – Reuters Economy",
-             "https://news.google.com/rss/search?q=economy+Federal+Reserve+source%3AReuters&hl=en-US&gl=US&ceid=US:en"),
+             "https://news.google.com/rss/search?q=Federal+Reserve+interest+rates+economy+2026&hl=en-US&gl=US&ceid=US:en"),
         ],
     },
     "Investment Banking & Deals": {
@@ -141,44 +149,52 @@ FEEDS = {
         "sources": [
             ("CNBC M&A",
              "https://www.cnbc.com/id/100003114/device/rss/rss.html"),
+            ("Dealbreaker",
+             "https://dealbreaker.com/feed"),
+            ("Axios Pro Rata",
+             "https://api.axios.com/feed/topics/deals-investing"),
+            ("Crunchbase News",
+             "https://news.crunchbase.com/feed/"),
             ("Google – Active Deals",
              "https://news.google.com/rss/search?q=%22acquires%22+OR+%22to+acquire%22+OR+%22merger+agreement%22+OR+%22buyout%22+OR+%22taken+private%22+billion&hl=en-US&gl=US&ceid=US:en"),
             ("Google – IPO",
              "https://news.google.com/rss/search?q=%22IPO%22+OR+%22S-1%22+OR+%22going+public%22+OR+%22initial+public+offering%22+OR+%22direct+listing%22+2026&hl=en-US&gl=US&ceid=US:en"),
             ("Google – PE / LBO",
              "https://news.google.com/rss/search?q=%22private+equity%22+%22acquisition%22+OR+%22buyout%22+OR+%22LBO%22+OR+%22portfolio+company%22+billion&hl=en-US&gl=US&ceid=US:en"),
-            ("Google – Advisors",
-             "https://news.google.com/rss/search?q=%22Goldman+Sachs%22+OR+%22Morgan+Stanley%22+OR+%22JPMorgan%22+OR+%22Lazard%22+OR+%22Evercore%22+deal+OR+advises+OR+mandate&hl=en-US&gl=US&ceid=US:en"),
-            ("Crunchbase News",
-             "https://news.crunchbase.com/feed/"),
         ],
     },
     "Real Estate & REITs": {
         "icon":  "🏢",
         "color": "#06b6d4",
         "sources": [
+            ("The Real Deal",
+             "https://therealdeal.com/feed/"),
+            ("Commercial Observer",
+             "https://commercialobserver.com/feed/"),
+            ("Globe St",
+             "https://www.globest.com/rss/"),
+            ("Bisnow",
+             "https://www.bisnow.com/national/rss"),
+            ("Mortgage News Daily",
+             "https://www.mortgagenewsdaily.com/rss/headlines"),
             ("Google – REITs",
-             "https://news.google.com/rss/search?q=REIT+%22real+estate+investment+trust%22+dividend+%22commercial+real+estate%22&hl=en-US&gl=US&ceid=US:en"),
-            ("Google – CRE",
-             "https://news.google.com/rss/search?q=%22commercial+real+estate%22+office+retail+multifamily+industrial+%22cap+rate%22&hl=en-US&gl=US&ceid=US:en"),
-            ("Google – Housing Market",
-             "https://news.google.com/rss/search?q=housing+market+%22home+prices%22+%22mortgage+rate%22+%22existing+home+sales%22+2026&hl=en-US&gl=US&ceid=US:en"),
-            ("Google – Real Estate Deals",
-             "https://news.google.com/rss/search?q=%22real+estate%22+%22acquisition%22+OR+%22development%22+OR+%22leasing%22+billion+2026&hl=en-US&gl=US&ceid=US:en"),
+             "https://news.google.com/rss/search?q=REIT+%22real+estate+investment+trust%22+dividend+acquisition&hl=en-US&gl=US&ceid=US:en"),
         ],
     },
     "Earnings & Results": {
         "icon":  "📊",
         "color": "#ec4899",
         "sources": [
+            ("Zacks",
+             "https://www.zacks.com/rss.php"),
+            ("Seeking Alpha",
+             "https://seekingalpha.com/tag/earnings/feed.xml"),
+            ("Motley Fool",
+             "https://www.fool.com/investing/feeds/"),
             ("Google – Earnings Beats",
-             "https://news.google.com/rss/search?q=earnings+%22beats+estimates%22+OR+%22tops+expectations%22+OR+%22earnings+per+share%22&hl=en-US&gl=US&ceid=US:en"),
-            ("Google – Earnings Reports",
-             "https://news.google.com/rss/search?q=%22quarterly+results%22+OR+%22earnings+report%22+OR+%22earnings+call%22+revenue+profit+2026&hl=en-US&gl=US&ceid=US:en"),
+             "https://news.google.com/rss/search?q=earnings+%22beats+estimates%22+OR+%22tops+expectations%22+OR+%22misses+estimates%22&hl=en-US&gl=US&ceid=US:en"),
             ("Google – Guidance",
              "https://news.google.com/rss/search?q=%22raised+guidance%22+OR+%22lowered+guidance%22+OR+%22full+year+outlook%22+OR+%22earnings+forecast%22&hl=en-US&gl=US&ceid=US:en"),
-            ("Yahoo Finance",
-             "https://finance.yahoo.com/news/rssindex"),
         ],
     },
 }
@@ -410,6 +426,17 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime) -> 
     </h2>
     <div class="grid">
 {cards}
+    </div>
+  </section>
+"""
+        if name == "Investment Banking & Deals":
+            sections_html += f"""\
+  <section class="section" id="careers-recruiting" data-section>
+    <h2 class="section-heading" style="color:#f97316">
+      \U0001f4bc Careers &amp; Recruiting <span class="pill">{len(INTERNSHIP_RESOURCES)}</span>
+    </h2>
+    <div class="career-grid">
+{render_careers_section()}
     </div>
   </section>
 """
@@ -781,15 +808,6 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime) -> 
 
   <main>
 {sections_html}
-  <section class="section" id="careers-recruiting" data-section>
-    <h2 class="section-heading" style="color:#f97316">
-      💼 Careers &amp; Recruiting <span class="pill">{len(INTERNSHIP_RESOURCES)}</span>
-    </h2>
-    <div class="career-grid">
-{render_careers_section()}
-    </div>
-  </section>
-
   <section class="premium-section" id="premium">
     <h2 class="section-heading" style="color:var(--gold)">
       🔒 Premium Sources <span class="pill">{len(PREMIUM_SITES)}</span>
