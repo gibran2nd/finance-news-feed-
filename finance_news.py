@@ -18,25 +18,34 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 # ── Config ────────────────────────────────────────────────────────────────────
-OUTPUT_DIR      = Path(__file__).parent / "output"
-OUTPUT_FILE     = OUTPUT_DIR / "index.html"
-MAX_PER_SECTION = 12    # articles shown per category
-LOOKBACK_HOURS  = 36    # ignore articles older than this
+OUTPUT_DIR    = Path(__file__).parent / "output"
+OUTPUT_FILE   = OUTPUT_DIR / "index.html"
+MAX_FREE      = 8     # free articles shown per section
+MAX_PREMIUM   = 6     # premium articles shown per section
+LOOKBACK_HOURS = 36   # ignore articles older than this
 
-# ── Feed Sources ──────────────────────────────────────────────────────────────
+# ── Feed Sources ───────────────────────────────────────────────────────────────
+# Each source: (display_name, rss_url, is_premium)
 FEEDS = {
     "Stock Market & Equities": {
         "icon":  "📈",
         "color": "#22c55e",
         "sources": [
             ("CNBC Markets",
-             "https://www.cnbc.com/id/15839135/device/rss/rss.html"),
-            ("MarketWatch Pulse",
-             "https://feeds.marketwatch.com/marketwatch/marketpulse/"),
+             "https://www.cnbc.com/id/15839135/device/rss/rss.html",
+             False),
+            ("MarketWatch",
+             "https://feeds.marketwatch.com/marketwatch/marketpulse/",
+             False),
             ("Yahoo Finance",
-             "https://finance.yahoo.com/news/rssindex"),
+             "https://finance.yahoo.com/news/rssindex",
+             False),
             ("Google – Stocks",
-             "https://news.google.com/rss/search?q=S%26P+500+Nasdaq+Dow+Jones+stock+market&hl=en-US&gl=US&ceid=US:en"),
+             "https://news.google.com/rss/search?q=S%26P+500+Nasdaq+Dow+Jones+stock+market&hl=en-US&gl=US&ceid=US:en",
+             False),
+            ("WSJ Markets",
+             "https://feeds.a.wsj.com/rss/RSSMarketsMain.xml",
+             True),
         ],
     },
     "Macro & Economy": {
@@ -44,39 +53,49 @@ FEEDS = {
         "color": "#3b82f6",
         "sources": [
             ("CNBC Economy",
-             "https://www.cnbc.com/id/20910258/device/rss/rss.html"),
+             "https://www.cnbc.com/id/20910258/device/rss/rss.html",
+             False),
             ("Google – Macro",
-             "https://news.google.com/rss/search?q=Federal+Reserve+inflation+GDP+interest+rates+Treasury&hl=en-US&gl=US&ceid=US:en"),
+             "https://news.google.com/rss/search?q=Federal+Reserve+inflation+GDP+interest+rates+Treasury&hl=en-US&gl=US&ceid=US:en",
+             False),
             ("Investopedia",
-             "https://www.investopedia.com/feeds/rss.aspx"),
+             "https://www.investopedia.com/feeds/rss.aspx",
+             False),
+            ("Financial Times",
+             "https://www.ft.com/rss/home/us",
+             True),
         ],
     },
     "Investment Banking & Deals": {
         "icon":  "🏦",
         "color": "#a78bfa",
-        # Blocklist: reject articles whose titles contain any of these (case-insensitive).
-        # Keeps the section focused on active deals rather than macro/political noise.
         "blocklist": [
             "trump", "tariff", "tariffs", "opec", "oil price", "gas price",
             "inflation", "fed rate", "interest rate", "federal reserve",
             "ukraine", "russia", "china trade", "sanctions", "geopolit",
         ],
         "sources": [
-            # CNBC M&A / deals vertical
             ("CNBC M&A",
-             "https://www.cnbc.com/id/100003114/device/rss/rss.html"),
-            # Action-verb query: only catches articles about live transactions
+             "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+             False),
             ("Google – Active Deals",
-             "https://news.google.com/rss/search?q=%22acquires%22+OR+%22to+acquire%22+OR+%22merger+agreement%22+OR+%22buyout%22+OR+%22taken+private%22+billion&hl=en-US&gl=US&ceid=US:en"),
-            # IPO / listing pipeline
+             "https://news.google.com/rss/search?q=%22acquires%22+OR+%22to+acquire%22+OR+%22merger+agreement%22+OR+%22buyout%22+OR+%22taken+private%22+billion&hl=en-US&gl=US&ceid=US:en",
+             False),
             ("Google – IPO",
-             "https://news.google.com/rss/search?q=%22IPO%22+OR+%22S-1%22+OR+%22going+public%22+OR+%22initial+public+offering%22+OR+%22direct+listing%22+2026&hl=en-US&gl=US&ceid=US:en"),
-            # Private equity / LBO deal flow
+             "https://news.google.com/rss/search?q=%22IPO%22+OR+%22S-1%22+OR+%22going+public%22+OR+%22initial+public+offering%22+OR+%22direct+listing%22+2026&hl=en-US&gl=US&ceid=US:en",
+             False),
             ("Google – PE / LBO",
-             "https://news.google.com/rss/search?q=%22private+equity%22+%22acquisition%22+OR+%22buyout%22+OR+%22LBO%22+OR+%22portfolio+company%22+billion&hl=en-US&gl=US&ceid=US:en"),
-            # Bulge bracket advisory mandates & league tables
+             "https://news.google.com/rss/search?q=%22private+equity%22+%22acquisition%22+OR+%22buyout%22+OR+%22LBO%22+OR+%22portfolio+company%22+billion&hl=en-US&gl=US&ceid=US:en",
+             False),
             ("Google – Advisors",
-             "https://news.google.com/rss/search?q=%22Goldman+Sachs%22+OR+%22Morgan+Stanley%22+OR+%22JPMorgan%22+OR+%22Lazard%22+OR+%22Evercore%22+deal+OR+advises+OR+mandate&hl=en-US&gl=US&ceid=US:en"),
+             "https://news.google.com/rss/search?q=%22Goldman+Sachs%22+OR+%22Morgan+Stanley%22+OR+%22JPMorgan%22+OR+%22Lazard%22+OR+%22Evercore%22+deal+OR+advises+OR+mandate&hl=en-US&gl=US&ceid=US:en",
+             False),
+            ("Crunchbase News",
+             "https://news.crunchbase.com/feed/",
+             False),
+            ("WSJ Deals",
+             "https://feeds.a.wsj.com/rss/WSJcomUSBusiness.xml",
+             True),
         ],
     },
 }
@@ -124,7 +143,7 @@ def fetch_section(config: dict, cutoff: datetime) -> list[dict]:
     blocklist = [kw.lower() for kw in config.get("blocklist", [])]
 
     articles = []
-    for source_name, url in config["sources"]:
+    for source_name, url, is_premium in config["sources"]:
         print(f"  Fetching {source_name}...", end=" ", flush=True)
         try:
             feed = feedparser.parse(
@@ -145,7 +164,6 @@ def fetch_section(config: dict, cutoff: datetime) -> list[dict]:
                 link = getattr(entry, "link", "#")
                 if not title:
                     continue
-                # Drop articles whose title contains any blocklisted term
                 title_lower = title.lower()
                 if any(kw in title_lower for kw in blocklist):
                     continue
@@ -155,6 +173,7 @@ def fetch_section(config: dict, cutoff: datetime) -> list[dict]:
                     "link":    link,
                     "source":  source_name,
                     "pub":     pub,
+                    "premium": is_premium,
                 })
                 count += 1
             print(f"✓ {count}")
@@ -190,11 +209,16 @@ def render_card(article: dict, color: str) -> str:
     lk  = article["link"]
     src = esc(article["source"])
     ts  = time_ago(article["pub"])
+    is_premium = article.get("premium", False)
+
+    badge_color  = "#f59e0b" if is_premium else color
+    lock         = "🔒 " if is_premium else ""
     summary_html = f'<p class="card-summary">{s}</p>' if s else ""
+
     return f"""\
     <a class="card" href="{lk}" target="_blank" rel="noopener noreferrer">
       <div class="card-meta">
-        <span class="badge" style="border-color:{color};color:{color}">{src}</span>
+        <span class="badge" style="border-color:{badge_color};color:{badge_color}">{lock}{src}</span>
         <span class="ts">{ts}</span>
       </div>
       <p class="card-title">{t}</p>
@@ -207,22 +231,34 @@ def build_html(sections: dict, generated: datetime) -> str:
     time_str = generated.strftime("%-I:%M %p UTC")
 
     sections_html = ""
-    for name, (config, articles) in sections.items():
+    for name, (config, free_articles, premium_articles) in sections.items():
         color = config["color"]
         icon  = config["icon"]
-        count = len(articles)
-        if articles:
-            cards = "\n".join(render_card(a, color) for a in articles)
+        count = len(free_articles) + len(premium_articles)
+
+        if free_articles:
+            free_cards = "\n".join(render_card(a, color) for a in free_articles)
+            free_grid  = f'<div class="grid">\n{free_cards}\n    </div>'
         else:
-            cards = '<p class="empty">No articles found for this period.</p>'
+            free_grid  = '<p class="empty">No free articles found for this period.</p>'
+
+        if premium_articles:
+            premium_cards = "\n".join(render_card(a, color) for a in premium_articles)
+            premium_block = f"""\
+    <div class="tier-divider"><span>Premium Sources</span></div>
+    <div class="grid">
+{premium_cards}
+    </div>"""
+        else:
+            premium_block = ""
+
         sections_html += f"""\
   <section class="section">
     <h2 class="section-heading" style="color:{color}">
       {icon} {name} <span class="pill">{count}</span>
     </h2>
-    <div class="grid">
-{cards}
-    </div>
+    {free_grid}
+    {premium_block}
   </section>
 """
 
@@ -295,6 +331,26 @@ def build_html(sections: dict, generated: datetime) -> str:
       padding: 2px 9px;
       border-radius: 99px;
       letter-spacing: .04em;
+    }}
+
+    /* ── Tier Divider ── */
+    .tier-divider {{
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 22px 0 14px;
+      color: #f59e0b;
+      font-size: .68rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }}
+    .tier-divider::before,
+    .tier-divider::after {{
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: #2a2010;
     }}
 
     /* ── Cards ── */
@@ -387,8 +443,9 @@ def build_html(sections: dict, generated: datetime) -> str:
   </main>
 
   <footer>
-    Sources: CNBC &middot; MarketWatch &middot; Yahoo Finance &middot; Investopedia &middot; Google News &nbsp;|&nbsp;
-    Regenerates daily at 7:00 AM
+    Free: CNBC &middot; MarketWatch &middot; Yahoo Finance &middot; Investopedia &middot; Crunchbase &middot; Google News &nbsp;|&nbsp;
+    Premium: WSJ &middot; Financial Times &nbsp;|&nbsp;
+    Regenerates 3&times; daily
   </footer>
 </body>
 </html>"""
@@ -407,15 +464,28 @@ def main() -> None:
     sections: dict = {}
     for name, config in FEEDS.items():
         print(f"[{config['icon']} {name}]")
-        raw      = fetch_section(config, cutoff)
-        articles = dedupe(raw)
-        articles.sort(
+        raw = fetch_section(config, cutoff)
+
+        free_raw     = [a for a in raw if not a["premium"]]
+        premium_raw  = [a for a in raw if a["premium"]]
+
+        free_articles    = dedupe(free_raw)
+        premium_articles = dedupe(premium_raw)
+
+        free_articles.sort(
             key=lambda a: a["pub"] or datetime.min.replace(tzinfo=timezone.utc),
             reverse=True,
         )
-        articles = articles[:MAX_PER_SECTION]
-        sections[name] = (config, articles)
-        print(f"  → {len(articles)} unique articles\n")
+        premium_articles.sort(
+            key=lambda a: a["pub"] or datetime.min.replace(tzinfo=timezone.utc),
+            reverse=True,
+        )
+
+        free_articles    = free_articles[:MAX_FREE]
+        premium_articles = premium_articles[:MAX_PREMIUM]
+
+        sections[name] = (config, free_articles, premium_articles)
+        print(f"  → {len(free_articles)} free · {len(premium_articles)} premium\n")
 
     page = build_html(sections, now)
     OUTPUT_FILE.write_text(page, encoding="utf-8")
