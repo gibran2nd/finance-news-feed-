@@ -17,18 +17,19 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 # ── Config ────────────────────────────────────────────────────────────────────
-OUTPUT_DIR     = Path(__file__).parent / "output"
-OUTPUT_FILE    = OUTPUT_DIR / "index.html"
+OUTPUT_DIR      = Path(__file__).parent / "output"
+OUTPUT_FILE     = OUTPUT_DIR / "index.html"
 MAX_PER_SECTION = 12
 LOOKBACK_HOURS  = 36
+NEW_THRESHOLD_H = 2   # articles newer than this get a "NEW" badge
 
 # ── Premium Sites (static links — no RSS fetching) ────────────────────────────
 PREMIUM_SITES = [
-    {"name": "Wall Street Journal", "short": "WSJ",      "url": "https://www.wsj.com",          "desc": "Markets, deals & economy"},
-    {"name": "Financial Times",     "short": "FT",       "url": "https://www.ft.com",            "desc": "Global financial news"},
-    {"name": "Bloomberg",           "short": "BBG",      "url": "https://www.bloomberg.com",     "desc": "Markets data & analysis"},
-    {"name": "PitchBook",           "short": "PB",       "url": "https://pitchbook.com",         "desc": "PE, VC & M&A data"},
-    {"name": "The Economist",       "short": "ECO",      "url": "https://www.economist.com",     "desc": "Global business & macro"},
+    {"name": "Wall Street Journal", "short": "WSJ", "url": "https://www.wsj.com",        "desc": "Markets, deals & economy"},
+    {"name": "Financial Times",     "short": "FT",  "url": "https://www.ft.com",          "desc": "Global financial news"},
+    {"name": "Bloomberg",           "short": "BBG", "url": "https://www.bloomberg.com",   "desc": "Markets data & analysis"},
+    {"name": "PitchBook",           "short": "PB",  "url": "https://pitchbook.com",       "desc": "PE, VC & M&A data"},
+    {"name": "The Economist",       "short": "ECO", "url": "https://www.economist.com",   "desc": "Global business & macro"},
 ]
 
 # ── Feed Sources ───────────────────────────────────────────────────────────────
@@ -53,10 +54,14 @@ FEEDS = {
         "sources": [
             ("CNBC Economy",
              "https://www.cnbc.com/id/20910258/device/rss/rss.html"),
-            ("Google – Macro",
-             "https://news.google.com/rss/search?q=Federal+Reserve+inflation+GDP+interest+rates+Treasury&hl=en-US&gl=US&ceid=US:en"),
-            ("Investopedia",
-             "https://www.investopedia.com/feeds/rss.aspx"),
+            ("Google – Fed & Rates",
+             "https://news.google.com/rss/search?q=Federal+Reserve+interest+rates+economy&hl=en-US&gl=US&ceid=US:en"),
+            ("Google – Inflation & GDP",
+             "https://news.google.com/rss/search?q=inflation+GDP+unemployment+recession+consumer+spending&hl=en-US&gl=US&ceid=US:en"),
+            ("Google – AP Economics",
+             "https://news.google.com/rss/search?q=economy+source%3AAssociated+Press&hl=en-US&gl=US&ceid=US:en"),
+            ("Google – Reuters Economy",
+             "https://news.google.com/rss/search?q=economy+Federal+Reserve+source%3AReuters&hl=en-US&gl=US&ceid=US:en"),
         ],
     },
     "Investment Banking & Deals": {
@@ -86,14 +91,16 @@ FEEDS = {
         "icon":  "💼",
         "color": "#f97316",
         "sources": [
+            ("Wall Street Oasis",
+             "https://www.wallstreetoasis.com/rss.xml"),
+            ("Mergers & Inquisitions",
+             "https://mergersandinquisitions.com/feed/"),
             ("Google – IB Recruiting",
              "https://news.google.com/rss/search?q=%22investment+banking%22+%22summer+analyst%22+OR+%22internship%22+OR+%22analyst+program%22+OR+%22recruiting%22+2026&hl=en-US&gl=US&ceid=US:en"),
             ("Google – Bank Hiring",
-             "https://news.google.com/rss/search?q=%22Goldman+Sachs%22+OR+%22JPMorgan%22+OR+%22Morgan+Stanley%22+OR+%22Blackstone%22+OR+%22KKR%22+%22hiring%22+OR+%22layoffs%22+OR+%22headcount%22+OR+%22bonuses%22&hl=en-US&gl=US&ceid=US:en"),
+             "https://news.google.com/rss/search?q=%22Goldman+Sachs%22+OR+%22JPMorgan%22+OR+%22Morgan+Stanley%22+OR+%22Blackstone%22+OR+%22KKR%22+%22hiring%22+OR+%22layoffs%22+OR+%22bonuses%22+OR+%22headcount%22&hl=en-US&gl=US&ceid=US:en"),
             ("Google – PE & HF Careers",
              "https://news.google.com/rss/search?q=%22private+equity%22+OR+%22hedge+fund%22+%22analyst%22+OR+%22associate%22+OR+%22recruiting%22+OR+%22compensation%22+2026&hl=en-US&gl=US&ceid=US:en"),
-            ("Google – Finance Jobs",
-             "https://news.google.com/rss/search?q=%22Wall+Street%22+%22jobs%22+OR+%22hiring%22+OR+%22fired%22+OR+%22cuts%22+OR+%22bonus%22+2026&hl=en-US&gl=US&ceid=US:en"),
         ],
     },
 }
@@ -131,14 +138,15 @@ def time_ago(pub: datetime | None) -> str:
     return f"{diff.days}d ago"
 
 
-def fetch_section(config: dict, cutoff: datetime) -> list[dict]:
+def fetch_section(config: dict, cutoff: datetime, now: datetime) -> list[dict]:
     try:
         import feedparser
     except ImportError:
         print("  ✗ feedparser not installed. Run: pip3 install feedparser")
         return []
 
-    blocklist = [kw.lower() for kw in config.get("blocklist", [])]
+    blocklist    = [kw.lower() for kw in config.get("blocklist", [])]
+    new_cutoff   = now - timedelta(hours=NEW_THRESHOLD_H)
 
     articles = []
     for source_name, url in config["sources"]:
@@ -171,6 +179,7 @@ def fetch_section(config: dict, cutoff: datetime) -> list[dict]:
                     "link":    link,
                     "source":  source_name,
                     "pub":     pub,
+                    "is_new":  pub is not None and pub >= new_cutoff,
                 })
                 count += 1
             print(f"✓ {count}")
@@ -201,17 +210,18 @@ def esc(s: str) -> str:
 
 
 def render_card(article: dict, color: str) -> str:
-    t   = esc(article["title"])
-    s   = esc(article["summary"])
-    lk  = article["link"]
-    src = esc(article["source"])
-    ts  = time_ago(article["pub"])
+    t        = esc(article["title"])
+    s        = esc(article["summary"])
+    lk       = article["link"]
+    src      = esc(article["source"])
+    ts       = time_ago(article["pub"])
+    new_badge = '<span class="new-badge">NEW</span>' if article.get("is_new") else ""
     summary_html = f'<p class="card-summary">{s}</p>' if s else ""
     return f"""\
     <a class="card" href="{lk}" target="_blank" rel="noopener noreferrer">
       <div class="card-meta">
         <span class="badge" style="border-color:{color};color:{color}">{src}</span>
-        <span class="ts">{ts}</span>
+        <span class="ts">{new_badge}{ts}</span>
       </div>
       <p class="card-title">{t}</p>
       {summary_html}
@@ -247,7 +257,7 @@ def build_html(sections: dict, generated: datetime) -> str:
         else:
             cards = '<p class="empty">No articles found for this period.</p>'
         sections_html += f"""\
-  <section class="section">
+  <section class="section" data-section>
     <h2 class="section-heading" style="color:{color}">
       {icon} {name} <span class="pill">{count}</span>
     </h2>
@@ -271,13 +281,13 @@ def build_html(sections: dict, generated: datetime) -> str:
     *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
 
     :root {{
-      --bg:       #0b0e14;
-      --surface:  #111520;
-      --border:   #1c2332;
-      --text:     #dde4f0;
-      --muted:    #5a6a85;
-      --hover:    #161d2e;
-      --gold:     #f59e0b;
+      --bg:      #0b0e14;
+      --surface: #111520;
+      --border:  #1c2332;
+      --text:    #dde4f0;
+      --muted:   #5a6a85;
+      --hover:   #161d2e;
+      --gold:    #f59e0b;
     }}
 
     body {{
@@ -288,6 +298,12 @@ def build_html(sections: dict, generated: datetime) -> str:
       line-height: 1.55;
     }}
 
+    /* ── Ticker ── */
+    .ticker-wrap {{
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+    }}
+
     /* ── Header ── */
     header {{
       position: sticky;
@@ -295,16 +311,36 @@ def build_html(sections: dict, generated: datetime) -> str:
       z-index: 20;
       background: var(--surface);
       border-bottom: 1px solid var(--border);
-      padding: 18px 40px;
+      padding: 14px 40px;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 16px;
     }}
-    .logo {{ font-size: 1.2rem; font-weight: 700; letter-spacing: -.02em; }}
+    .logo {{ font-size: 1.2rem; font-weight: 700; letter-spacing: -.02em; white-space: nowrap; }}
     .logo em {{ color: #22c55e; font-style: normal; }}
-    .header-meta {{ text-align: right; }}
+    .header-meta {{ text-align: right; white-space: nowrap; }}
     .header-meta .date {{ font-size: .95rem; font-weight: 600; }}
     .header-meta .updated {{ font-size: .78rem; color: var(--muted); margin-top: 2px; }}
+
+    /* ── Search ── */
+    .search-wrap {{
+      flex: 1;
+      max-width: 360px;
+    }}
+    #search {{
+      width: 100%;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 7px 14px;
+      color: var(--text);
+      font-size: .85rem;
+      outline: none;
+      transition: border-color .15s;
+    }}
+    #search::placeholder {{ color: var(--muted); }}
+    #search:focus {{ border-color: #3b82f6; }}
 
     /* ── Layout ── */
     main {{ max-width: 1440px; margin: 0 auto; padding: 36px 28px 60px; }}
@@ -374,7 +410,17 @@ def build_html(sections: dict, generated: datetime) -> str:
       border: 1px solid;
     }}
 
-    .ts {{ font-size: .72rem; color: var(--muted); }}
+    .ts {{ font-size: .72rem; color: var(--muted); display: flex; align-items: center; gap: 5px; }}
+
+    .new-badge {{
+      font-size: .6rem;
+      font-weight: 800;
+      letter-spacing: .08em;
+      color: #fff;
+      background: #ef4444;
+      border-radius: 3px;
+      padding: 1px 5px;
+    }}
 
     .card-title {{
       font-size: .88rem;
@@ -392,9 +438,7 @@ def build_html(sections: dict, generated: datetime) -> str:
     .empty {{ color: var(--muted); font-style: italic; }}
 
     /* ── Premium Sites Section ── */
-    .premium-section {{
-      margin-bottom: 52px;
-    }}
+    .premium-section {{ margin-bottom: 52px; }}
 
     .premium-grid {{
       display: grid;
@@ -442,21 +486,16 @@ def build_html(sections: dict, generated: datetime) -> str:
       min-width: 0;
     }}
 
-    .premium-name {{
-      font-size: .82rem;
-      font-weight: 600;
-      color: var(--text);
-    }}
+    .premium-name {{ font-size: .82rem; font-weight: 600; color: var(--text); }}
+    .premium-desc {{ font-size: .72rem; color: var(--muted); }}
+    .premium-arrow {{ font-size: .9rem; color: var(--muted); flex-shrink: 0; }}
 
-    .premium-desc {{
-      font-size: .72rem;
+    /* ── No results ── */
+    .no-results {{
+      display: none;
       color: var(--muted);
-    }}
-
-    .premium-arrow {{
-      font-size: .9rem;
-      color: var(--muted);
-      flex-shrink: 0;
+      font-style: italic;
+      padding: 12px 0;
     }}
 
     /* ── Footer ── */
@@ -470,7 +509,8 @@ def build_html(sections: dict, generated: datetime) -> str:
 
     /* ── Responsive ── */
     @media (max-width: 680px) {{
-      header {{ padding: 14px 20px; flex-direction: column; align-items: flex-start; gap: 6px; }}
+      header {{ padding: 12px 16px; flex-wrap: wrap; }}
+      .search-wrap {{ order: 3; max-width: 100%; width: 100%; }}
       main {{ padding: 24px 16px 48px; }}
       .grid {{ grid-template-columns: 1fr; }}
       .premium-grid {{ grid-template-columns: 1fr; }}
@@ -478,8 +518,37 @@ def build_html(sections: dict, generated: datetime) -> str:
   </style>
 </head>
 <body>
+
+  <!-- ── TradingView Ticker Tape ── -->
+  <div class="ticker-wrap">
+    <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {{
+        "symbols": [
+          {{"proName": "FOREXCOM:SPXUSD", "title": "S&P 500"}},
+          {{"proName": "NASDAQ:QQQ",       "title": "Nasdaq"}},
+          {{"proName": "FOREXCOM:DJI",     "title": "Dow Jones"}},
+          {{"description": "10Y Treasury", "proName": "TVC:US10Y"}},
+          {{"description": "Bitcoin",      "proName": "COINBASE:BTCUSD"}},
+          {{"description": "Gold",         "proName": "COMEX:GC1!"}},
+          {{"description": "Crude Oil",    "proName": "NYMEX:CL1!"}}
+        ],
+        "showSymbolLogo": false,
+        "isTransparent": true,
+        "displayMode": "adaptive",
+        "colorTheme": "dark",
+        "locale": "en"
+      }}
+      </script>
+    </div>
+  </div>
+
   <header>
     <div class="logo">Finance <em>News</em></div>
+    <div class="search-wrap">
+      <input id="search" type="search" placeholder="Search all articles…" autocomplete="off">
+    </div>
     <div class="header-meta">
       <div class="date">{date_str}</div>
       <div class="updated">Updated {time_str} · auto-refreshes hourly</div>
@@ -499,10 +568,26 @@ def build_html(sections: dict, generated: datetime) -> str:
   </main>
 
   <footer>
-    Free: CNBC &middot; MarketWatch &middot; Yahoo Finance &middot; Investopedia &middot; Crunchbase &middot; Google News &nbsp;|&nbsp;
+    Free: CNBC &middot; MarketWatch &middot; Yahoo Finance &middot; WSO &middot; M&amp;I &middot; Crunchbase &middot; Google News &nbsp;|&nbsp;
     Premium: WSJ &middot; FT &middot; Bloomberg &middot; PitchBook &middot; The Economist &nbsp;|&nbsp;
     Regenerates 3&times; daily
   </footer>
+
+  <script>
+    const input = document.getElementById('search');
+    input.addEventListener('input', () => {{
+      const q = input.value.toLowerCase().trim();
+      document.querySelectorAll('[data-section]').forEach(section => {{
+        let visible = 0;
+        section.querySelectorAll('.card').forEach(card => {{
+          const match = !q || card.textContent.toLowerCase().includes(q);
+          card.style.display = match ? '' : 'none';
+          if (match) visible++;
+        }});
+        section.style.display = visible === 0 && q ? 'none' : '';
+      }});
+    }});
+  </script>
 </body>
 </html>"""
 
@@ -520,7 +605,7 @@ def main() -> None:
     sections: dict = {}
     for name, config in FEEDS.items():
         print(f"[{config['icon']} {name}]")
-        raw      = fetch_section(config, cutoff)
+        raw      = fetch_section(config, cutoff, now)
         articles = dedupe(raw)
         articles.sort(
             key=lambda a: a["pub"] or datetime.min.replace(tzinfo=timezone.utc),
