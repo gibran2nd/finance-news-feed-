@@ -13,39 +13,38 @@ Scheduling: see setup.sh (launchd, runs daily at 7 AM)
 from __future__ import annotations
 
 import re
-import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 # ── Config ────────────────────────────────────────────────────────────────────
-OUTPUT_DIR    = Path(__file__).parent / "output"
-OUTPUT_FILE   = OUTPUT_DIR / "index.html"
-MAX_FREE      = 8     # free articles shown per section
-MAX_PREMIUM   = 6     # premium articles shown per section
-LOOKBACK_HOURS = 36   # ignore articles older than this
+OUTPUT_DIR     = Path(__file__).parent / "output"
+OUTPUT_FILE    = OUTPUT_DIR / "index.html"
+MAX_PER_SECTION = 12
+LOOKBACK_HOURS  = 36
+
+# ── Premium Sites (static links — no RSS fetching) ────────────────────────────
+PREMIUM_SITES = [
+    {"name": "Wall Street Journal", "short": "WSJ",      "url": "https://www.wsj.com",          "desc": "Markets, deals & economy"},
+    {"name": "Financial Times",     "short": "FT",       "url": "https://www.ft.com",            "desc": "Global financial news"},
+    {"name": "Bloomberg",           "short": "BBG",      "url": "https://www.bloomberg.com",     "desc": "Markets data & analysis"},
+    {"name": "PitchBook",           "short": "PB",       "url": "https://pitchbook.com",         "desc": "PE, VC & M&A data"},
+    {"name": "The Economist",       "short": "ECO",      "url": "https://www.economist.com",     "desc": "Global business & macro"},
+]
 
 # ── Feed Sources ───────────────────────────────────────────────────────────────
-# Each source: (display_name, rss_url, is_premium)
 FEEDS = {
     "Stock Market & Equities": {
         "icon":  "📈",
         "color": "#22c55e",
         "sources": [
             ("CNBC Markets",
-             "https://www.cnbc.com/id/15839135/device/rss/rss.html",
-             False),
+             "https://www.cnbc.com/id/15839135/device/rss/rss.html"),
             ("MarketWatch",
-             "https://feeds.marketwatch.com/marketwatch/marketpulse/",
-             False),
+             "https://feeds.marketwatch.com/marketwatch/marketpulse/"),
             ("Yahoo Finance",
-             "https://finance.yahoo.com/news/rssindex",
-             False),
+             "https://finance.yahoo.com/news/rssindex"),
             ("Google – Stocks",
-             "https://news.google.com/rss/search?q=S%26P+500+Nasdaq+Dow+Jones+stock+market&hl=en-US&gl=US&ceid=US:en",
-             False),
-            ("WSJ Markets",
-             "https://feeds.a.wsj.com/rss/RSSMarketsMain.xml",
-             True),
+             "https://news.google.com/rss/search?q=S%26P+500+Nasdaq+Dow+Jones+stock+market&hl=en-US&gl=US&ceid=US:en"),
         ],
     },
     "Macro & Economy": {
@@ -53,17 +52,11 @@ FEEDS = {
         "color": "#3b82f6",
         "sources": [
             ("CNBC Economy",
-             "https://www.cnbc.com/id/20910258/device/rss/rss.html",
-             False),
+             "https://www.cnbc.com/id/20910258/device/rss/rss.html"),
             ("Google – Macro",
-             "https://news.google.com/rss/search?q=Federal+Reserve+inflation+GDP+interest+rates+Treasury&hl=en-US&gl=US&ceid=US:en",
-             False),
+             "https://news.google.com/rss/search?q=Federal+Reserve+inflation+GDP+interest+rates+Treasury&hl=en-US&gl=US&ceid=US:en"),
             ("Investopedia",
-             "https://www.investopedia.com/feeds/rss.aspx",
-             False),
-            ("Financial Times",
-             "https://www.ft.com/rss/home/us",
-             True),
+             "https://www.investopedia.com/feeds/rss.aspx"),
         ],
     },
     "Investment Banking & Deals": {
@@ -76,26 +69,31 @@ FEEDS = {
         ],
         "sources": [
             ("CNBC M&A",
-             "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-             False),
+             "https://www.cnbc.com/id/100003114/device/rss/rss.html"),
             ("Google – Active Deals",
-             "https://news.google.com/rss/search?q=%22acquires%22+OR+%22to+acquire%22+OR+%22merger+agreement%22+OR+%22buyout%22+OR+%22taken+private%22+billion&hl=en-US&gl=US&ceid=US:en",
-             False),
+             "https://news.google.com/rss/search?q=%22acquires%22+OR+%22to+acquire%22+OR+%22merger+agreement%22+OR+%22buyout%22+OR+%22taken+private%22+billion&hl=en-US&gl=US&ceid=US:en"),
             ("Google – IPO",
-             "https://news.google.com/rss/search?q=%22IPO%22+OR+%22S-1%22+OR+%22going+public%22+OR+%22initial+public+offering%22+OR+%22direct+listing%22+2026&hl=en-US&gl=US&ceid=US:en",
-             False),
+             "https://news.google.com/rss/search?q=%22IPO%22+OR+%22S-1%22+OR+%22going+public%22+OR+%22initial+public+offering%22+OR+%22direct+listing%22+2026&hl=en-US&gl=US&ceid=US:en"),
             ("Google – PE / LBO",
-             "https://news.google.com/rss/search?q=%22private+equity%22+%22acquisition%22+OR+%22buyout%22+OR+%22LBO%22+OR+%22portfolio+company%22+billion&hl=en-US&gl=US&ceid=US:en",
-             False),
+             "https://news.google.com/rss/search?q=%22private+equity%22+%22acquisition%22+OR+%22buyout%22+OR+%22LBO%22+OR+%22portfolio+company%22+billion&hl=en-US&gl=US&ceid=US:en"),
             ("Google – Advisors",
-             "https://news.google.com/rss/search?q=%22Goldman+Sachs%22+OR+%22Morgan+Stanley%22+OR+%22JPMorgan%22+OR+%22Lazard%22+OR+%22Evercore%22+deal+OR+advises+OR+mandate&hl=en-US&gl=US&ceid=US:en",
-             False),
+             "https://news.google.com/rss/search?q=%22Goldman+Sachs%22+OR+%22Morgan+Stanley%22+OR+%22JPMorgan%22+OR+%22Lazard%22+OR+%22Evercore%22+deal+OR+advises+OR+mandate&hl=en-US&gl=US&ceid=US:en"),
             ("Crunchbase News",
-             "https://news.crunchbase.com/feed/",
-             False),
-            ("WSJ Deals",
-             "https://feeds.a.wsj.com/rss/WSJcomUSBusiness.xml",
-             True),
+             "https://news.crunchbase.com/feed/"),
+        ],
+    },
+    "Careers & Recruiting": {
+        "icon":  "💼",
+        "color": "#f97316",
+        "sources": [
+            ("Google – IB Recruiting",
+             "https://news.google.com/rss/search?q=%22investment+banking%22+%22summer+analyst%22+OR+%22internship%22+OR+%22analyst+program%22+OR+%22recruiting%22+2026&hl=en-US&gl=US&ceid=US:en"),
+            ("Google – Bank Hiring",
+             "https://news.google.com/rss/search?q=%22Goldman+Sachs%22+OR+%22JPMorgan%22+OR+%22Morgan+Stanley%22+OR+%22Blackstone%22+OR+%22KKR%22+%22hiring%22+OR+%22layoffs%22+OR+%22headcount%22+OR+%22bonuses%22&hl=en-US&gl=US&ceid=US:en"),
+            ("Google – PE & HF Careers",
+             "https://news.google.com/rss/search?q=%22private+equity%22+OR+%22hedge+fund%22+%22analyst%22+OR+%22associate%22+OR+%22recruiting%22+OR+%22compensation%22+2026&hl=en-US&gl=US&ceid=US:en"),
+            ("Google – Finance Jobs",
+             "https://news.google.com/rss/search?q=%22Wall+Street%22+%22jobs%22+OR+%22hiring%22+OR+%22fired%22+OR+%22cuts%22+OR+%22bonus%22+2026&hl=en-US&gl=US&ceid=US:en"),
         ],
     },
 }
@@ -143,7 +141,7 @@ def fetch_section(config: dict, cutoff: datetime) -> list[dict]:
     blocklist = [kw.lower() for kw in config.get("blocklist", [])]
 
     articles = []
-    for source_name, url, is_premium in config["sources"]:
+    for source_name, url in config["sources"]:
         print(f"  Fetching {source_name}...", end=" ", flush=True)
         try:
             feed = feedparser.parse(
@@ -173,7 +171,6 @@ def fetch_section(config: dict, cutoff: datetime) -> list[dict]:
                     "link":    link,
                     "source":  source_name,
                     "pub":     pub,
-                    "premium": is_premium,
                 })
                 count += 1
             print(f"✓ {count}")
@@ -209,16 +206,11 @@ def render_card(article: dict, color: str) -> str:
     lk  = article["link"]
     src = esc(article["source"])
     ts  = time_ago(article["pub"])
-    is_premium = article.get("premium", False)
-
-    badge_color  = "#f59e0b" if is_premium else color
-    lock         = "🔒 " if is_premium else ""
     summary_html = f'<p class="card-summary">{s}</p>' if s else ""
-
     return f"""\
     <a class="card" href="{lk}" target="_blank" rel="noopener noreferrer">
       <div class="card-meta">
-        <span class="badge" style="border-color:{badge_color};color:{badge_color}">{lock}{src}</span>
+        <span class="badge" style="border-color:{color};color:{color}">{src}</span>
         <span class="ts">{ts}</span>
       </div>
       <p class="card-title">{t}</p>
@@ -226,41 +218,46 @@ def render_card(article: dict, color: str) -> str:
     </a>"""
 
 
+def render_premium_sites() -> str:
+    cards = ""
+    for site in PREMIUM_SITES:
+        cards += f"""\
+    <a class="premium-site-card" href="{site['url']}" target="_blank" rel="noopener noreferrer">
+      <span class="premium-short">{esc(site['short'])}</span>
+      <div class="premium-info">
+        <span class="premium-name">{esc(site['name'])}</span>
+        <span class="premium-desc">{esc(site['desc'])}</span>
+      </div>
+      <span class="premium-arrow">↗</span>
+    </a>"""
+    return cards
+
+
 def build_html(sections: dict, generated: datetime) -> str:
     date_str = generated.strftime("%A, %B %-d, %Y")
     time_str = generated.strftime("%-I:%M %p UTC")
 
     sections_html = ""
-    for name, (config, free_articles, premium_articles) in sections.items():
+    for name, (config, articles) in sections.items():
         color = config["color"]
         icon  = config["icon"]
-        count = len(free_articles) + len(premium_articles)
-
-        if free_articles:
-            free_cards = "\n".join(render_card(a, color) for a in free_articles)
-            free_grid  = f'<div class="grid">\n{free_cards}\n    </div>'
+        count = len(articles)
+        if articles:
+            cards = "\n".join(render_card(a, color) for a in articles)
         else:
-            free_grid  = '<p class="empty">No free articles found for this period.</p>'
-
-        if premium_articles:
-            premium_cards = "\n".join(render_card(a, color) for a in premium_articles)
-            premium_block = f"""\
-    <div class="tier-divider"><span>Premium Sources</span></div>
-    <div class="grid">
-{premium_cards}
-    </div>"""
-        else:
-            premium_block = ""
-
+            cards = '<p class="empty">No articles found for this period.</p>'
         sections_html += f"""\
   <section class="section">
     <h2 class="section-heading" style="color:{color}">
       {icon} {name} <span class="pill">{count}</span>
     </h2>
-    {free_grid}
-    {premium_block}
+    <div class="grid">
+{cards}
+    </div>
   </section>
 """
+
+    premium_html = render_premium_sites()
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -269,6 +266,7 @@ def build_html(sections: dict, generated: datetime) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="refresh" content="3600">
   <title>Finance News — {date_str}</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
   <style>
     *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
 
@@ -279,6 +277,7 @@ def build_html(sections: dict, generated: datetime) -> str:
       --text:     #dde4f0;
       --muted:    #5a6a85;
       --hover:    #161d2e;
+      --gold:     #f59e0b;
     }}
 
     body {{
@@ -333,27 +332,7 @@ def build_html(sections: dict, generated: datetime) -> str:
       letter-spacing: .04em;
     }}
 
-    /* ── Tier Divider ── */
-    .tier-divider {{
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin: 22px 0 14px;
-      color: #f59e0b;
-      font-size: .68rem;
-      font-weight: 700;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-    }}
-    .tier-divider::before,
-    .tier-divider::after {{
-      content: '';
-      flex: 1;
-      height: 1px;
-      background: #2a2010;
-    }}
-
-    /* ── Cards ── */
+    /* ── News Cards ── */
     .grid {{
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -412,6 +391,74 @@ def build_html(sections: dict, generated: datetime) -> str:
 
     .empty {{ color: var(--muted); font-style: italic; }}
 
+    /* ── Premium Sites Section ── */
+    .premium-section {{
+      margin-bottom: 52px;
+    }}
+
+    .premium-grid {{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 10px;
+    }}
+
+    .premium-site-card {{
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      background: var(--surface);
+      border: 1px solid #2a2010;
+      border-radius: 10px;
+      padding: 14px 16px;
+      text-decoration: none;
+      color: inherit;
+      transition: background .15s, border-color .15s, transform .1s;
+    }}
+
+    .premium-site-card:hover {{
+      background: #16120a;
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }}
+
+    .premium-short {{
+      font-size: .75rem;
+      font-weight: 800;
+      letter-spacing: .06em;
+      color: var(--gold);
+      background: #1f1608;
+      border: 1px solid #2a2010;
+      border-radius: 6px;
+      padding: 4px 8px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }}
+
+    .premium-info {{
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      flex: 1;
+      min-width: 0;
+    }}
+
+    .premium-name {{
+      font-size: .82rem;
+      font-weight: 600;
+      color: var(--text);
+    }}
+
+    .premium-desc {{
+      font-size: .72rem;
+      color: var(--muted);
+    }}
+
+    .premium-arrow {{
+      font-size: .9rem;
+      color: var(--muted);
+      flex-shrink: 0;
+    }}
+
     /* ── Footer ── */
     footer {{
       border-top: 1px solid var(--border);
@@ -426,6 +473,7 @@ def build_html(sections: dict, generated: datetime) -> str:
       header {{ padding: 14px 20px; flex-direction: column; align-items: flex-start; gap: 6px; }}
       main {{ padding: 24px 16px 48px; }}
       .grid {{ grid-template-columns: 1fr; }}
+      .premium-grid {{ grid-template-columns: 1fr; }}
     }}
   </style>
 </head>
@@ -440,11 +488,19 @@ def build_html(sections: dict, generated: datetime) -> str:
 
   <main>
 {sections_html}
+  <section class="premium-section">
+    <h2 class="section-heading" style="color:var(--gold)">
+      🔒 Premium Sources <span class="pill">{len(PREMIUM_SITES)}</span>
+    </h2>
+    <div class="premium-grid">
+{premium_html}
+    </div>
+  </section>
   </main>
 
   <footer>
     Free: CNBC &middot; MarketWatch &middot; Yahoo Finance &middot; Investopedia &middot; Crunchbase &middot; Google News &nbsp;|&nbsp;
-    Premium: WSJ &middot; Financial Times &nbsp;|&nbsp;
+    Premium: WSJ &middot; FT &middot; Bloomberg &middot; PitchBook &middot; The Economist &nbsp;|&nbsp;
     Regenerates 3&times; daily
   </footer>
 </body>
@@ -464,28 +520,15 @@ def main() -> None:
     sections: dict = {}
     for name, config in FEEDS.items():
         print(f"[{config['icon']} {name}]")
-        raw = fetch_section(config, cutoff)
-
-        free_raw     = [a for a in raw if not a["premium"]]
-        premium_raw  = [a for a in raw if a["premium"]]
-
-        free_articles    = dedupe(free_raw)
-        premium_articles = dedupe(premium_raw)
-
-        free_articles.sort(
+        raw      = fetch_section(config, cutoff)
+        articles = dedupe(raw)
+        articles.sort(
             key=lambda a: a["pub"] or datetime.min.replace(tzinfo=timezone.utc),
             reverse=True,
         )
-        premium_articles.sort(
-            key=lambda a: a["pub"] or datetime.min.replace(tzinfo=timezone.utc),
-            reverse=True,
-        )
-
-        free_articles    = free_articles[:MAX_FREE]
-        premium_articles = premium_articles[:MAX_PREMIUM]
-
-        sections[name] = (config, free_articles, premium_articles)
-        print(f"  → {len(free_articles)} free · {len(premium_articles)} premium\n")
+        articles = articles[:MAX_PER_SECTION]
+        sections[name] = (config, articles)
+        print(f"  → {len(articles)} unique articles\n")
 
     page = build_html(sections, now)
     OUTPUT_FILE.write_text(page, encoding="utf-8")
