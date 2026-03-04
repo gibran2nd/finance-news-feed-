@@ -33,6 +33,71 @@ PREMIUM_SITES = [
     {"name": "The Economist",       "short": "ECO", "url": "https://www.economist.com",   "desc": "Global business & macro"},
 ]
 
+# ── TradingView Ticker (plain string — kept outside f-string to avoid brace escaping) ──
+TICKER_HTML = """\
+  <div class="ticker-wrap">
+    <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+        "symbols": [
+          {"proName": "FOREXCOM:SPXUSD",  "title": "S&P 500"},
+          {"proName": "FOREXCOM:NSXUSD",  "title": "Nasdaq 100"},
+          {"proName": "DJ:DJI",           "title": "Dow Jones"},
+          {"proName": "TVC:US10Y",        "title": "10Y Treasury"},
+          {"proName": "COINBASE:BTCUSD",  "title": "Bitcoin"},
+          {"proName": "TVC:GOLD",         "title": "Gold"},
+          {"proName": "TVC:USOIL",        "title": "Crude Oil"}
+        ],
+        "showSymbolLogo": false,
+        "isTransparent": true,
+        "displayMode": "adaptive",
+        "colorTheme": "dark",
+        "locale": "en"
+      }
+      </script>
+    </div>
+  </div>"""
+
+# ── Internship Resources (static — The Trackr is a JS app, can't be scraped) ─
+INTERNSHIP_RESOURCES = [
+    {
+        "firm":     "The Trackr — Full Deadline Calendar",
+        "role":     "Summer 2027 Internships",
+        "deadline": "View all upcoming deadlines →",
+        "url":      "https://app.the-trackr.com/na-finance-2027/summer-internships",
+        "featured": True,
+    },
+    {
+        "firm":     "Wall Street Oasis",
+        "role":     "IB / PE / HF Recruiting Hub",
+        "deadline": "Guides, timelines & firm reviews",
+        "url":      "https://www.wallstreetoasis.com/finance-jobs",
+        "featured": False,
+    },
+    {
+        "firm":     "Mergers & Inquisitions",
+        "role":     "Breaking Into Finance",
+        "deadline": "Recruiting guides & career resources",
+        "url":      "https://mergersandinquisitions.com",
+        "featured": False,
+    },
+    {
+        "firm":     "LinkedIn Finance Internships",
+        "role":     "Summer 2027 Postings",
+        "deadline": "Browse open applications",
+        "url":      "https://www.linkedin.com/jobs/finance-internships/",
+        "featured": False,
+    },
+    {
+        "firm":     "Handshake",
+        "role":     "Campus Finance Recruiting",
+        "deadline": "College-focused internship board",
+        "url":      "https://joinhandshake.com/job-collections/finance-internships/",
+        "featured": False,
+    },
+]
+
 # ── Feed Sources ───────────────────────────────────────────────────────────────
 FEEDS = {
     "Stock Market & Equities": {
@@ -114,24 +179,6 @@ FEEDS = {
              "https://news.google.com/rss/search?q=%22raised+guidance%22+OR+%22lowered+guidance%22+OR+%22full+year+outlook%22+OR+%22earnings+forecast%22&hl=en-US&gl=US&ceid=US:en"),
             ("Yahoo Finance",
              "https://finance.yahoo.com/news/rssindex"),
-        ],
-    },
-    "Careers & Recruiting": {
-        "icon":  "💼",
-        "color": "#f97316",
-        "sources": [
-            ("Mergers & Inquisitions",
-             "https://mergersandinquisitions.com/feed/"),
-            ("Wall Street Oasis",
-             "https://www.wallstreetoasis.com/rss.xml"),
-            ("Google – Summer 2026 Internships",
-             "https://news.google.com/rss/search?q=%22summer+2026%22+internship+%22investment+banking%22+OR+%22private+equity%22+OR+%22hedge+fund%22+OR+%22asset+management%22&hl=en-US&gl=US&ceid=US:en"),
-            ("Google – Application Deadlines",
-             "https://news.google.com/rss/search?q=%22application+deadline%22+OR+%22recruiting+opens%22+OR+%22applications+open%22+%22finance%22+OR+%22banking%22+internship+2026&hl=en-US&gl=US&ceid=US:en"),
-            ("Google – Analyst Programs",
-             "https://news.google.com/rss/search?q=%22summer+analyst%22+OR+%22spring+week%22+OR+%22analyst+program%22+%22Goldman%22+OR+%22JPMorgan%22+OR+%22Morgan+Stanley%22+OR+%22Blackstone%22+OR+%22KKR%22&hl=en-US&gl=US&ceid=US:en"),
-            ("Google – Finance Campus",
-             "https://news.google.com/rss/search?q=%22on+campus+recruiting%22+OR+%22campus+recruitment%22+%22finance%22+OR+%22banking%22+2026&hl=en-US&gl=US&ceid=US:en"),
         ],
     },
 }
@@ -288,6 +335,19 @@ def render_card(article: dict, color: str | None = None) -> str:
     </a>"""
 
 
+def render_careers_section() -> str:
+    cards = ""
+    for item in INTERNSHIP_RESOURCES:
+        featured_cls = " career-featured" if item["featured"] else ""
+        cards += f"""\
+    <a class="career-card{featured_cls}" href="{item['url']}" target="_blank" rel="noopener noreferrer">
+      <div class="career-firm">{esc(item['firm'])}</div>
+      <div class="career-role">{esc(item['role'])}</div>
+      <div class="career-deadline">{esc(item['deadline'])}</div>
+    </a>"""
+    return cards
+
+
 def render_premium_sites() -> str:
     cards = ""
     for site in PREMIUM_SITES:
@@ -313,6 +373,7 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime) -> 
     for name, (config, _) in sections.items():
         sid = slugify(name)
         nav_items += f'    <a class="nav-item" href="#{sid}">{config["icon"]} {name.split(" & ")[0].split(" ")[0]}</a>\n'
+    nav_items += '    <a class="nav-item" href="#careers-recruiting">💼 Careers</a>\n'
     nav_items += '    <a class="nav-item" href="#premium">🔒 Premium</a>\n'
 
     # ── Top Stories section ──────────────────────────────────────────────────
@@ -558,6 +619,66 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime) -> 
     .card-summary {{ font-size: .78rem; color: var(--muted); line-height: 1.5; }}
     .empty {{ color: var(--muted); font-style: italic; }}
 
+    /* ── Career Cards ── */
+    .career-grid {{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 12px;
+    }}
+    .career-card {{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 18px;
+      text-decoration: none;
+      color: inherit;
+      transition: background .15s, border-color .15s, transform .1s;
+    }}
+    .career-card:hover {{
+      background: var(--hover);
+      border-color: #f97316;
+      transform: translateY(-1px);
+    }}
+    .career-card.career-featured {{
+      grid-column: 1 / -1;
+      border-color: #f97316;
+      background: #120d06;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      padding: 20px 24px;
+    }}
+    .career-card.career-featured:hover {{
+      background: #1a1209;
+    }}
+    .career-firm {{
+      font-size: .82rem;
+      font-weight: 700;
+      color: #f97316;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }}
+    .career-featured .career-firm {{ font-size: 1rem; }}
+    .career-role {{
+      font-size: .88rem;
+      font-weight: 600;
+      color: var(--text);
+    }}
+    .career-featured .career-role {{ font-size: 1rem; }}
+    .career-deadline {{
+      font-size: .78rem;
+      color: var(--muted);
+    }}
+    .career-featured .career-deadline {{
+      margin-left: auto;
+      font-size: .88rem;
+      color: #f97316;
+      white-space: nowrap;
+    }}
+
     /* ── Premium Sites ── */
     .premium-section {{ margin-bottom: 52px; scroll-margin-top: 120px; }}
     .premium-grid {{
@@ -639,30 +760,7 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime) -> 
 </head>
 <body>
 
-  <!-- TradingView Ticker Tape -->
-  <div class="ticker-wrap">
-    <div class="tradingview-widget-container">
-      <div class="tradingview-widget-container__widget"></div>
-      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-      {{
-        "symbols": [
-          {{"proName": "FOREXCOM:SPXUSD",  "title": "S&P 500"}},
-          {{"proName": "FOREXCOM:NSXUSD",  "title": "Nasdaq 100"}},
-          {{"proName": "INDEX:DJI",         "title": "Dow Jones"}},
-          {{"proName": "TVC:US10Y",         "title": "10Y Treasury"}},
-          {{"proName": "COINBASE:BTCUSD",   "title": "Bitcoin"}},
-          {{"proName": "TVC:GOLD",          "title": "Gold"}},
-          {{"proName": "TVC:USOIL",         "title": "Crude Oil"}}
-        ],
-        "showSymbolLogo": false,
-        "isTransparent": true,
-        "displayMode": "adaptive",
-        "colorTheme": "dark",
-        "locale": "en"
-      }}
-      </script>
-    </div>
-  </div>
+{TICKER_HTML}
 
   <header>
     <div class="header-row">
@@ -683,6 +781,15 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime) -> 
 
   <main>
 {sections_html}
+  <section class="section" id="careers-recruiting" data-section>
+    <h2 class="section-heading" style="color:#f97316">
+      💼 Careers &amp; Recruiting <span class="pill">{len(INTERNSHIP_RESOURCES)}</span>
+    </h2>
+    <div class="career-grid">
+{render_careers_section()}
+    </div>
+  </section>
+
   <section class="premium-section" id="premium">
     <h2 class="section-heading" style="color:var(--gold)">
       🔒 Premium Sources <span class="pill">{len(PREMIUM_SITES)}</span>
