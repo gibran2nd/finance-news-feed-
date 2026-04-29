@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "week": "2026-W18",
+    "label": "Week of April 27 \u2013 May 1, 2026",
+    "generated": "2026-04-29T09:05:53.062428+00:00",
+    "bullets": [
+      {
+        "headline": "Will rates go higher in Europe this week? Central banks confront stagflation threat",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/04/29/europes-central-banks-in-wait-and-see-mode-on-interest-rates.html"
+      },
+      {
+        "headline": "Ontex reports Q1 results; maintains its full year outlook",
+        "source": "Seeking Alpha",
+        "section": "Earnings & Results",
+        "link": "https://seekingalpha.com/news/4581314-ontex-reports-q1-results-maintains-its-full-year-outlook?source=feed_tag_earnings"
+      },
+      {
+        "headline": "Earnings call transcript: Enphase Energy Q1 2026 beats estimates, stock dips - Investing.com",
+        "source": "Google \u2013 Earnings Beats",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVlBXU25heGwxOUtobGJodWpQY0EybU9qREk5TFJmaFF3UUJJZGZfeWsyWnpQYi1mWHhxNTVWWUR5bmdKcDlFNi1XSkRGYzA3OE9NRnlyRlpZUHdVT3NmQkdmQndkTURBbUFpbVpsOU40YTgxeUd1NUlsbzZIM2tqMFFaT0tOZm1ERl82SkZjU2ZWQklEbTBWRC01YmlCTGdfTEE2OUs0QXVYU3Nud204VUFwZGROSVhQMDkwS0g2ZjFIb0VZUGw4OUJn?oc=5"
+      },
+      {
+        "headline": "Starbucks raises full-year outlook as turnaround takes hold \u2014 despite higher gas prices",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/04/28/starbucks-sbux-q2-2026-earnings.html"
+      },
+      {
+        "headline": "Red-hot Corning shares slide on earnings. Why that's a gift to investors",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/04/28/red-hot-corning-shares-slide-on-earnings-why-thats-a-gift-to-investors.html"
+      },
+      {
+        "headline": "Exclusive: Goldman Sachs Leads $60M Series C For Personal Loan Fintech Kashable",
+        "source": "Crunchbase News",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.crunchbase.com/fintech/kashable-secures-60m-seriesc-goldman-sachs/"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 77,
+      "Macro & Economy": 30,
+      "Investment Banking & Deals": 143,
+      "Real Estate & REITs": 20,
+      "Earnings & Results": 161,
+      "Tech & Fintech": 125
+    }
+  }
+]
