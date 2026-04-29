@@ -19,15 +19,17 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 # ── Config ────────────────────────────────────────────────────────────────────
-OUTPUT_DIR          = Path(__file__).parent / "output"
-OUTPUT_FILE         = OUTPUT_DIR / "index.html"
-WEEK_FILE           = OUTPUT_DIR / "week.html"
-MAX_PER_SECTION     = 12
+OUTPUT_DIR           = Path(__file__).parent / "output"
+OUTPUT_FILE          = OUTPUT_DIR / "index.html"
+WEEK_FILE            = OUTPUT_DIR / "week.html"
+RECAPS_FILE          = OUTPUT_DIR / "recaps.html"
+SUMMARIES_DATA_FILE  = Path(__file__).parent / "data" / "summaries.json"
+MAX_PER_SECTION      = 12
 MAX_PER_SECTION_WEEK = 20
-MAX_TOP_STORIES     = 6
-LOOKBACK_HOURS      = 36
-WEEK_HOURS          = 168
-NEW_THRESHOLD_H     = 2
+MAX_TOP_STORIES      = 6
+LOOKBACK_HOURS       = 36
+WEEK_HOURS           = 168
+NEW_THRESHOLD_H      = 2
 
 # Set to a non-empty string to show a pinned announcement banner on the site.
 # Example: "Recruiting season is OPEN — check deadlines in the Careers section below!"
@@ -66,6 +68,23 @@ TICKER_HTML = """\
       }
       </script>
     </div>
+  </div>"""
+
+# ── TradingView Economic Calendar (plain string — outside f-string) ──────────
+CALENDAR_HTML = """\
+  <div class="tradingview-widget-container" style="min-height:450px">
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+    {
+      "colorTheme": "dark",
+      "isTransparent": true,
+      "width": "100%",
+      "height": "450",
+      "locale": "en",
+      "importanceFilter": "-1,0,1,2,3",
+      "countryFilter": "us"
+    }
+    </script>
   </div>"""
 
 # ── Internship Resources ───────────────────────────────────────────────────────
@@ -224,6 +243,27 @@ FEEDS = {
              "https://news.google.com/rss/search?q=%22artificial+intelligence%22+%22banking%22+OR+%22investment%22+OR+%22trading%22&hl=en-US&gl=US&ceid=US:en"),
         ],
     },
+}
+
+# ── Ticker tokens to ignore when extracting trending companies ─────────────────
+TICKER_STOPWORDS = {
+    # Finance abbreviations
+    "US", "UK", "EU", "ECB", "FED", "SEC", "IPO", "GDP", "CEO", "CFO", "COO", "CTO",
+    "ETF", "PE", "VC", "AI", "IT", "ML", "CPI", "PPI", "IMF", "WTO", "NYSE", "FDIC",
+    "FOMC", "DOJ", "FTC", "DOE", "ESG", "LBO", "REIT", "SPX", "SPY", "ETH", "BTC",
+    "NEW", "TOP", "IRS", "APR", "APY", "AUM", "FY", "YTD", "EPS", "EV", "ROE",
+    "DCF", "IRR", "NAV", "NPV", "NIM", "NII", "ROA", "EBIT", "NFT",
+    # English words that appear in caps in headlines
+    "THE", "AND", "FOR", "INC", "LLC", "LTD", "PLC", "CORP", "CO", "AS", "AT", "IN",
+    "ON", "TO", "OF", "BY", "IS", "AN", "OR", "BE", "DO", "NOT", "ALL", "CAN",
+    "WAS", "OUT", "ONE", "TWO", "MAY", "HAS", "HAD", "WHO", "ARE", "BUT",
+    "SAYS", "SAID", "WILL", "AFTER", "OVER", "MORE", "DOWN", "WHAT", "HOW", "WHEN",
+    "THAN", "FROM", "WITH", "AMID", "INTO", "PLAN", "DEAL", "RATE", "RISE", "FALL",
+    "CUTS", "HIKE", "BANK", "FUND", "FIRM", "YEAR", "WEEK", "DAYS", "LAST", "NEXT",
+    "HIGH", "MAKE", "TAKE", "BACK", "WELL", "JUST", "ALSO", "ONLY", "ALSO",
+    "AMID", "FIRST", "THEIR", "COULD", "WOULD", "ABOUT", "THESE",
+    # Months
+    "JAN", "FEB", "MAR", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC",
 }
 
 # ── Shared CSS (real braces — inserted via {COMMON_STYLES} in f-strings) ──────
@@ -401,8 +441,55 @@ COMMON_STYLES = """\
     .nav-item.nav-ext { border-color: #22c55e40; color: #22c55e; }
     .nav-item.nav-ext:hover { border-color: #22c55e; background: #0c2314; }
 
+    /* ── Trending Companies Bar ── */
+    .trending-bar {
+      padding: 10px 28px 0;
+      max-width: 1440px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .trending-label {
+      font-size: .6rem;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .trending-chips { display: flex; gap: 6px; flex-wrap: wrap; }
+    .chip {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 99px;
+      padding: 3px 10px;
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+      cursor: pointer;
+      color: var(--text);
+      transition: background .12s, border-color .12s, color .12s;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .chip:hover { background: var(--hover); border-color: #3b82f6; color: #3b82f6; }
+    .chip.active { background: #172136; border-color: #3b82f6; color: #3b82f6; }
+    .chip-count {
+      font-size: .6rem;
+      font-weight: 600;
+      color: var(--muted);
+      background: var(--border);
+      border-radius: 99px;
+      padding: 1px 5px;
+    }
+    .chip.active .chip-count { color: #3b82f6; background: #1e3a5f; }
+
     /* ── Layout ── */
-    main { max-width: 1440px; margin: 0 auto; padding: 36px 28px 80px; }
+    main { max-width: 1440px; margin: 0 auto; padding: 24px 28px 80px; }
 
     .section { margin-bottom: 52px; scroll-margin-top: 120px; }
 
@@ -450,7 +537,7 @@ COMMON_STYLES = """\
       opacity: 1 !important;
     }
 
-    /* Recency fade — full brightness for fresh articles, muted for older */
+    /* Recency fade */
     .age-fresh  { opacity: 1; }
     .age-recent { opacity: 0.80; }
     .age-old    { opacity: 0.58; }
@@ -563,6 +650,72 @@ COMMON_STYLES = """\
     .premium-desc  { font-size: .72rem; color: var(--muted); }
     .premium-arrow { font-size: .9rem; color: var(--muted); flex-shrink: 0; }
 
+    /* ── Recap Cards ── */
+    .recap-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px 26px;
+      margin-bottom: 20px;
+    }
+    .recap-week-label {
+      font-size: .88rem;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .recap-week-label .current-tag {
+      background: #22c55e20;
+      border: 1px solid #22c55e40;
+      color: #22c55e;
+      font-size: .6rem;
+      padding: 2px 7px;
+      border-radius: 99px;
+    }
+    .recap-bullets { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .recap-bullet {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      font-size: .85rem;
+      line-height: 1.45;
+    }
+    .recap-bullet a { color: var(--text); text-decoration: none; flex: 1; }
+    .recap-bullet a:hover { color: #3b82f6; }
+    .recap-src {
+      font-size: .6rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2px 6px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .recap-stats {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+    }
+    .recap-stat {
+      font-size: .68rem;
+      color: var(--muted);
+      background: var(--border);
+      border-radius: 99px;
+      padding: 2px 9px;
+    }
+
     /* ── Back to top ── */
     #back-top {
       position: fixed;
@@ -610,13 +763,14 @@ COMMON_STYLES = """\
 
     /* ── Responsive ── */
     @media (max-width: 680px) {
-      .header-row  { padding: 10px 16px; flex-wrap: wrap; }
-      .search-wrap { order: 3; max-width: 100%; width: 100%; }
-      .section-nav { padding: 8px 16px; }
-      main         { padding: 24px 16px 80px; }
-      .grid        { grid-template-columns: 1fr; }
-      .premium-grid { grid-template-columns: 1fr; }
-      .fg-widget   { display: none; }
+      .header-row    { padding: 10px 16px; flex-wrap: wrap; }
+      .search-wrap   { order: 3; max-width: 100%; width: 100%; }
+      .section-nav   { padding: 8px 16px; }
+      main           { padding: 16px 16px 80px; }
+      .trending-bar  { padding: 8px 16px 0; }
+      .grid          { grid-template-columns: 1fr; }
+      .premium-grid  { grid-template-columns: 1fr; }
+      .fg-widget     { display: none; }
     }"""
 
 
@@ -677,6 +831,71 @@ def fetch_fear_greed() -> dict | None:
     except Exception as e:
         print(f"  Fear & Greed fetch failed: {e}")
         return None
+
+
+def find_trending(sections_raw: dict[str, list[dict]], top_n: int = 12) -> list[tuple[str, int]]:
+    """Extract most-mentioned company tickers/names from all article headlines."""
+    token_re = re.compile(r'\b([A-Z]{2,5})\b')
+    counts: dict[str, int] = {}
+    for articles in sections_raw.values():
+        for a in articles:
+            for token in token_re.findall(a["title"]):
+                if token not in TICKER_STOPWORDS:
+                    counts[token] = counts.get(token, 0) + 1
+    trending = [(t, c) for t, c in counts.items() if c >= 2]
+    trending.sort(key=lambda x: -x[1])
+    return trending[:top_n]
+
+
+def get_week_key(dt: datetime) -> str:
+    year, week, _ = dt.isocalendar()
+    return f"{year}-W{week:02d}"
+
+
+def get_week_label(dt: datetime) -> str:
+    monday = dt - timedelta(days=dt.weekday())
+    friday = monday + timedelta(days=4)
+    if monday.month == friday.month:
+        return f"Week of {monday.strftime('%B %-d')}–{friday.strftime('%-d, %Y')}"
+    return f"Week of {monday.strftime('%B %-d')} – {friday.strftime('%B %-d, %Y')}"
+
+
+def load_summaries() -> list:
+    if SUMMARIES_DATA_FILE.exists():
+        try:
+            return json.loads(SUMMARIES_DATA_FILE.read_text(encoding="utf-8"))
+        except Exception:
+            return []
+    return []
+
+
+def save_summaries(summaries: list) -> None:
+    SUMMARIES_DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
+    SUMMARIES_DATA_FILE.write_text(
+        json.dumps(summaries, indent=2, default=str), encoding="utf-8"
+    )
+
+
+def build_week_summary(top_stories_week: list[dict], sections_raw_week: dict,
+                        now: datetime) -> dict:
+    """Produce a summary dict for the current ISO week."""
+    section_counts = {name: len(arts) for name, arts in sections_raw_week.items()}
+    bullets = [
+        {
+            "headline": s["title"],
+            "source":   s["source"],
+            "section":  s.get("section", ""),
+            "link":     s["link"],
+        }
+        for s in top_stories_week[:8]
+    ]
+    return {
+        "week":           get_week_key(now),
+        "label":          get_week_label(now),
+        "generated":      now.isoformat(),
+        "bullets":        bullets,
+        "section_counts": section_counts,
+    }
 
 
 def fetch_section(config: dict, cutoff: datetime, now: datetime, color: str) -> list[dict]:
@@ -766,7 +985,6 @@ def find_top_stories(sections_raw: dict[str, list[dict]]) -> list[dict]:
         if not matched:
             clusters.append({"words": words, "sources": {a["source"]}, "articles": [a]})
 
-    # Only multi-source clusters; sort by most-recent article in cluster
     multi = [c for c in clusters if len(c["sources"]) >= 2]
     multi.sort(
         key=lambda c: max(
@@ -776,7 +994,6 @@ def find_top_stories(sections_raw: dict[str, list[dict]]) -> list[dict]:
         reverse=True,
     )
 
-    # Pick one article per cluster; prefer sources not yet seen in Top Stories
     seen_roots: set[str] = set()
     result: list[dict] = []
     for cluster in multi:
@@ -788,11 +1005,10 @@ def find_top_stories(sections_raw: dict[str, list[dict]]) -> list[dict]:
         )
         if not cands:
             continue
-        # Prefer an article from a publication root not already represented
         chosen = next(
             (a for a in cands
              if re.split(r"[\s\-]", a["source"].lower())[0] not in seen_roots),
-            cands[0],  # fallback: most recent regardless of source
+            cands[0],
         )
         seen_roots.add(re.split(r"[\s\-]", chosen["source"].lower())[0])
         result.append(chosen)
@@ -855,7 +1071,6 @@ def render_premium_sites() -> str:
 
 
 def render_fear_greed_widget(fg: dict | None) -> str:
-    """Render the Fear & Greed index widget for the header."""
     if not fg:
         return (
             '<a class="fg-widget" href="https://money.cnn.com/data/fear-and-greed/"'
@@ -890,23 +1105,35 @@ def render_fear_greed_widget(fg: dict | None) -> str:
     )
 
 
-def _render_sections_html(sections: dict, top_stories: list[dict], max_per: int) -> tuple[str, str, list[str]]:
-    """
-    Returns (nav_items_html, sections_html, section_ids_list).
-    Shared between build_html and build_week_html.
-    """
-    key_num = 1
+def render_trending_bar(trending: list[tuple[str, int]]) -> str:
+    if not trending:
+        return ""
+    chips = "".join(
+        f'<button class="chip" onclick="filterByChip(this,\'{t}\')">'
+        f'{t}<span class="chip-count">{c}</span></button>'
+        for t, c in trending
+    )
+    return f"""\
+  <div class="trending-bar" id="trending-bar">
+    <span class="trending-label">Trending</span>
+    <div class="trending-chips">{chips}</div>
+  </div>"""
 
-    # ── Top Stories ──────────────────────────────────────────────────────────
+
+def _render_sections_html(sections: dict, top_stories: list[dict],
+                           max_per: int) -> tuple[str, str, list[str]]:
+    """Returns (nav_items_html, sections_html, section_ids_list)."""
+    key_num     = 1
     section_ids = []
     nav_items   = ""
+
     if top_stories:
         nav_items += f'<a class="nav-item" href="#top-stories">🔥 Top Stories <kbd>{key_num}</kbd></a>\n'
         section_ids.append("top-stories")
         key_num += 1
 
     for name in sections:
-        sid = slugify(name)
+        sid   = slugify(name)
         first = name.split(" & ")[0].split(" ")[0]
         icon  = sections[name][0]["icon"]
         nav_items += f'    <a class="nav-item" href="#{sid}">{icon} {first} <kbd>{key_num}</kbd></a>\n'
@@ -916,11 +1143,15 @@ def _render_sections_html(sections: dict, top_stories: list[dict], max_per: int)
             nav_items += f'    <a class="nav-item" href="#careers-recruiting">💼 Careers <kbd>{key_num}</kbd></a>\n'
             section_ids.append("careers-recruiting")
             key_num += 1
+        if name == "Earnings & Results":
+            nav_items += f'    <a class="nav-item" href="#economic-calendar">📅 Calendar <kbd>{key_num}</kbd></a>\n'
+            section_ids.append("economic-calendar")
+            key_num += 1
 
     nav_items += f'    <a class="nav-item" href="#premium">🔒 Premium <kbd>{key_num}</kbd></a>\n'
     section_ids.append("premium")
 
-    # ── Top Stories section HTML ─────────────────────────────────────────────
+    # ── Build section HTML ───────────────────────────────────────────────────
     sections_html = ""
     if top_stories:
         top_cards = "\n".join(render_card(a) for a in top_stories)
@@ -935,17 +1166,14 @@ def _render_sections_html(sections: dict, top_stories: list[dict], max_per: int)
   </section>
 """
 
-    # ── News sections ────────────────────────────────────────────────────────
     for name, (config, articles) in sections.items():
         color = config["color"]
         icon  = config["icon"]
         sid   = slugify(name)
         shown = articles[:max_per]
         count = len(shown)
-        if shown:
-            cards = "\n".join(render_card(a, color) for a in shown)
-        else:
-            cards = '<p class="empty">No articles found for this period.</p>'
+        cards = "\n".join(render_card(a, color) for a in shown) if shown else \
+                '<p class="empty">No articles found for this period.</p>'
         sections_html += f"""\
   <section class="section" id="{sid}" data-section>
     <h2 class="section-heading" style="color:{color}">
@@ -967,12 +1195,21 @@ def _render_sections_html(sections: dict, top_stories: list[dict], max_per: int)
     </div>
   </section>
 """
+        if name == "Earnings & Results":
+            sections_html += f"""\
+  <section class="section" id="economic-calendar" data-section>
+    <h2 class="section-heading" style="color:#f59e0b">
+      \U0001f4c5 Economic Calendar
+    </h2>
+{CALENDAR_HTML}
+  </section>
+"""
 
     return nav_items, sections_html, section_ids
 
 
 def build_html(sections: dict, top_stories: list[dict], generated: datetime,
-               fg: dict | None) -> str:
+               fg: dict | None, trending: list[tuple[str, int]]) -> str:
     date_str  = generated.strftime("%A, %B %-d, %Y")
     time_str  = generated.strftime("%-I:%M %p UTC")
     total     = sum(len(arts) for _, arts in sections.values()) + len(top_stories)
@@ -981,10 +1218,12 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
         sections, top_stories, MAX_PER_SECTION
     )
     nav_items += '    <a class="nav-item nav-ext" href="week.html">📅 Weekly</a>\n'
+    nav_items += '    <a class="nav-item nav-ext" href="recaps.html">📋 Recaps</a>\n'
 
-    fg_widget        = render_fear_greed_widget(fg)
-    premium_html     = render_premium_sites()
-    section_ids_js   = json.dumps(section_ids)
+    fg_widget       = render_fear_greed_widget(fg)
+    trending_bar    = render_trending_bar(trending)
+    premium_html    = render_premium_sites()
+    section_ids_js  = json.dumps(section_ids)
 
     announcement_html = ""
     if ANNOUNCEMENT:
@@ -1032,6 +1271,7 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
     </nav>
   </header>
 
+{trending_bar}
   <main>
 {sections_html}
   <section class="premium-section" id="premium">
@@ -1047,7 +1287,9 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
   <footer>
     Free: CNBC &middot; MarketWatch &middot; Yahoo Finance &middot; AP &middot; NPR &middot; Axios &middot; TechCrunch &middot; Crunchbase &middot; Google News &nbsp;|&nbsp;
     Premium: WSJ &middot; FT &middot; Bloomberg &middot; PitchBook &middot; The Economist &nbsp;|&nbsp;
-    Regenerates 3&times; daily &nbsp;|&nbsp; <a href="week.html" style="color:inherit">📅 Weekly Digest</a>
+    Regenerates 3&times; daily &nbsp;|&nbsp;
+    <a href="week.html" style="color:inherit">📅 Weekly</a> &nbsp;|&nbsp;
+    <a href="recaps.html" style="color:inherit">📋 Recaps</a>
   </footer>
 
   <button id="back-top" title="Back to top">↑</button>
@@ -1055,22 +1297,40 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
   <script>
     // ── Search ──────────────────────────────────────────────────────────────
     const searchInput = document.getElementById('search');
-    searchInput.addEventListener('input', () => {{
-      const q = searchInput.value.toLowerCase().trim();
+    function runSearch(q) {{
+      const lower = q.toLowerCase().trim();
       let visible = 0;
       document.querySelectorAll('[data-section]').forEach(section => {{
-        let sectionVisible = 0;
+        let sv = 0;
         section.querySelectorAll('.card').forEach(card => {{
-          const match = !q || card.textContent.toLowerCase().includes(q);
+          const match = !lower || card.textContent.toLowerCase().includes(lower);
           card.style.display = match ? '' : 'none';
-          if (match) {{ sectionVisible++; visible++; }}
+          if (match) {{ sv++; visible++; }}
         }});
-        section.style.display = sectionVisible === 0 && q ? 'none' : '';
+        section.style.display = sv === 0 && lower ? 'none' : '';
       }});
-      document.title = q
+      document.title = lower
         ? `Finance News — ${{visible}} results`
         : `Finance News — {date_str} ({total} articles)`;
-    }});
+    }}
+    searchInput.addEventListener('input', () => runSearch(searchInput.value));
+
+    // ── Trending Chip Filter ─────────────────────────────────────────────────
+    let activeChip = null;
+    function filterByChip(btn, term) {{
+      if (activeChip === term) {{
+        activeChip = null;
+        btn.classList.remove('active');
+        searchInput.value = '';
+        runSearch('');
+      }} else {{
+        document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+        activeChip = term;
+        btn.classList.add('active');
+        searchInput.value = term;
+        runSearch(term);
+      }}
+    }}
 
     // ── Light / Dark Mode ────────────────────────────────────────────────────
     const html     = document.documentElement;
@@ -1101,24 +1361,19 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
     }}
 
     // ── Keyboard Shortcuts ───────────────────────────────────────────────────
-    // /        → focus search
-    // Escape   → clear & blur search
-    // 1–9      → jump to nth section
     const sectionIds = {section_ids_js};
     document.addEventListener('keydown', e => {{
       if (e.target === searchInput) {{
         if (e.key === 'Escape') {{
           searchInput.value = '';
           searchInput.blur();
-          searchInput.dispatchEvent(new Event('input'));
+          runSearch('');
+          document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+          activeChip = null;
         }}
         return;
       }}
-      if (e.key === '/' && !e.ctrlKey && !e.metaKey) {{
-        e.preventDefault();
-        searchInput.focus();
-        return;
-      }}
+      if (e.key === '/' && !e.ctrlKey && !e.metaKey) {{ e.preventDefault(); searchInput.focus(); return; }}
       const num = parseInt(e.key, 10);
       if (!isNaN(num) && num >= 1 && num <= sectionIds.length) {{
         const el = document.getElementById(sectionIds[num - 1]);
@@ -1140,8 +1395,8 @@ def build_week_html(sections: dict, top_stories: list[dict], generated: datetime
     nav_items, sections_html, section_ids = _render_sections_html(
         sections, top_stories, MAX_PER_SECTION_WEEK
     )
-    # Replace last nav item with back-to-today link
     nav_items += '    <a class="nav-item nav-ext" href="index.html">← Today</a>\n'
+    nav_items += '    <a class="nav-item nav-ext" href="recaps.html">📋 Recaps</a>\n'
 
     fg_widget      = render_fear_greed_widget(fg)
     premium_html   = render_premium_sites()
@@ -1196,29 +1451,27 @@ def build_week_html(sections: dict, top_stories: list[dict], generated: datetime
 
   <footer>
     Weekly Digest covers the past 7 days &nbsp;|&nbsp;
-    <a href="index.html" style="color:inherit">← Back to Today's Feed</a>
+    <a href="index.html" style="color:inherit">← Back to Today's Feed</a> &nbsp;|&nbsp;
+    <a href="recaps.html" style="color:inherit">📋 Past Recaps</a>
   </footer>
 
   <button id="back-top" title="Back to top">↑</button>
 
   <script>
-    // ── Search ──────────────────────────────────────────────────────────────
     const searchInput = document.getElementById('search');
     searchInput.addEventListener('input', () => {{
       const q = searchInput.value.toLowerCase().trim();
-      let visible = 0;
       document.querySelectorAll('[data-section]').forEach(section => {{
-        let sectionVisible = 0;
+        let sv = 0;
         section.querySelectorAll('.card').forEach(card => {{
           const match = !q || card.textContent.toLowerCase().includes(q);
           card.style.display = match ? '' : 'none';
-          if (match) {{ sectionVisible++; visible++; }}
+          if (match) sv++;
         }});
-        section.style.display = sectionVisible === 0 && q ? 'none' : '';
+        section.style.display = sv === 0 && q ? 'none' : '';
       }});
     }});
 
-    // ── Light / Dark Mode ────────────────────────────────────────────────────
     const html     = document.documentElement;
     const themeBtn = document.getElementById('theme-btn');
     const saved    = localStorage.getItem('theme') || 'dark';
@@ -1231,35 +1484,154 @@ def build_week_html(sections: dict, top_stories: list[dict], generated: datetime
       localStorage.setItem('theme', next);
     }});
 
-    // ── Back to Top ──────────────────────────────────────────────────────────
     const backTop = document.getElementById('back-top');
     window.addEventListener('scroll', () => {{
       backTop.style.display = window.scrollY > 400 ? 'flex' : 'none';
     }}, {{ passive: true }});
     backTop.addEventListener('click', () => window.scrollTo({{ top: 0, behavior: 'smooth' }}));
 
-    // ── Keyboard Shortcuts ───────────────────────────────────────────────────
     const sectionIds = {section_ids_js};
     document.addEventListener('keydown', e => {{
       if (e.target === searchInput) {{
-        if (e.key === 'Escape') {{
-          searchInput.value = '';
-          searchInput.blur();
-          searchInput.dispatchEvent(new Event('input'));
-        }}
+        if (e.key === 'Escape') {{ searchInput.value = ''; searchInput.blur(); searchInput.dispatchEvent(new Event('input')); }}
         return;
       }}
-      if (e.key === '/' && !e.ctrlKey && !e.metaKey) {{
-        e.preventDefault();
-        searchInput.focus();
-        return;
-      }}
+      if (e.key === '/' && !e.ctrlKey && !e.metaKey) {{ e.preventDefault(); searchInput.focus(); return; }}
       const num = parseInt(e.key, 10);
       if (!isNaN(num) && num >= 1 && num <= sectionIds.length) {{
         const el = document.getElementById(sectionIds[num - 1]);
         if (el) el.scrollIntoView({{ behavior: 'smooth' }});
       }}
     }});
+  </script>
+</body>
+</html>"""
+
+
+def build_recaps_html(summaries: list, generated: datetime,
+                      fg: dict | None) -> str:
+    """Render the weekly recaps archive page."""
+    date_str      = generated.strftime("%B %-d, %Y")
+    time_str      = generated.strftime("%-I:%M %p UTC")
+    fg_widget     = render_fear_greed_widget(fg)
+    current_week  = get_week_key(generated)
+    sorted_sums   = sorted(summaries, key=lambda s: s["week"], reverse=True)
+
+    cards_html = ""
+    if not sorted_sums:
+        cards_html = '<p class="empty" style="margin-top:24px">No past summaries yet — check back after the first full week of data is collected.</p>'
+    else:
+        for entry in sorted_sums:
+            is_current = entry["week"] == current_week
+            current_tag = '<span class="current-tag">THIS WEEK</span>' if is_current else ""
+            bullets_html = ""
+            for b in entry.get("bullets", []):
+                src_badge = f'<span class="recap-src">{esc(b.get("source",""))}</span>'
+                link = b.get("link", "#")
+                bullets_html += (
+                    f'<li class="recap-bullet">{src_badge}'
+                    f'<a href="{link}" target="_blank" rel="noopener noreferrer">'
+                    f'{esc(b["headline"])}</a></li>\n'
+                )
+
+            stats_html = ""
+            for sec, cnt in entry.get("section_counts", {}).items():
+                short = sec.split(" & ")[0].split(" ")[0]
+                stats_html += f'<span class="recap-stat">{short} {cnt}</span>\n'
+
+            cards_html += f"""\
+  <div class="recap-card">
+    <div class="recap-week-label">{esc(entry['label'])} {current_tag}</div>
+    <ul class="recap-bullets">
+{bullets_html}
+    </ul>
+    <div class="recap-stats">
+{stats_html}
+    </div>
+  </div>
+"""
+
+    return f"""<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Weekly finance news recaps — catch up on what you missed.">
+  <meta property="og:title" content="Finance News — Weekly Recaps">
+  <title>Finance News — Weekly Recaps</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
+  <style>
+{COMMON_STYLES}
+  </style>
+</head>
+<body>
+
+{TICKER_HTML}
+
+  <header>
+    <div class="header-row">
+      <div class="logo">Finance <em>News</em> <span class="week-badge">RECAPS</span></div>
+      {fg_widget}
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="Search recaps…" autocomplete="off">
+      </div>
+      <button id="theme-btn" title="Toggle light/dark mode">☀️</button>
+      <div class="header-meta">
+        <div class="date">Weekly Recaps</div>
+        <div class="updated">Updated {time_str} · {len(sorted_sums)} weeks archived</div>
+      </div>
+    </div>
+    <nav class="section-nav">
+      <a class="nav-item nav-ext" href="index.html">← Today</a>
+      <a class="nav-item nav-ext" href="week.html">📅 This Week</a>
+    </nav>
+  </header>
+
+  <main style="max-width:860px">
+    <h2 class="section-heading" style="color:#818cf8;margin-bottom:24px">
+      📋 Weekly Recaps <span class="pill">{len(sorted_sums)} weeks</span>
+    </h2>
+    <p style="color:var(--muted);font-size:.82rem;margin-bottom:28px">
+      Catch up on what you missed. Each recap shows the week's top cross-source stories
+      and article counts per section. New entries are added automatically each week.
+    </p>
+{cards_html}
+  </main>
+
+  <footer>
+    <a href="index.html" style="color:inherit">← Today's Feed</a> &nbsp;|&nbsp;
+    <a href="week.html" style="color:inherit">📅 Weekly Digest</a> &nbsp;|&nbsp;
+    Updated {date_str}
+  </footer>
+
+  <button id="back-top" title="Back to top">↑</button>
+
+  <script>
+    const searchInput = document.getElementById('search');
+    searchInput.addEventListener('input', () => {{
+      const q = searchInput.value.toLowerCase().trim();
+      document.querySelectorAll('.recap-card').forEach(card => {{
+        card.style.display = !q || card.textContent.toLowerCase().includes(q) ? '' : 'none';
+      }});
+    }});
+
+    const html     = document.documentElement;
+    const themeBtn = document.getElementById('theme-btn');
+    const saved    = localStorage.getItem('theme') || 'dark';
+    html.setAttribute('data-theme', saved);
+    themeBtn.textContent = saved === 'dark' ? '☀️' : '🌙';
+    themeBtn.addEventListener('click', () => {{
+      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      themeBtn.textContent = next === 'dark' ? '☀️' : '🌙';
+      localStorage.setItem('theme', next);
+    }});
+
+    const backTop = document.getElementById('back-top');
+    window.addEventListener('scroll', () => {{
+      backTop.style.display = window.scrollY > 300 ? 'flex' : 'none';
+    }}, {{ passive: true }});
+    backTop.addEventListener('click', () => window.scrollTo({{ top: 0, behavior: 'smooth' }}));
   </script>
 </body>
 </html>"""
@@ -1276,15 +1648,17 @@ def main() -> None:
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    sections_main: dict = {}
-    sections_week: dict = {}
+    sections_main:     dict = {}
+    sections_week:     dict = {}
     sections_raw_main: dict = {}
     sections_raw_week: dict = {}
 
     for name, config in FEEDS.items():
         print(f"[{config['icon']} {name}]")
-        # Single fetch at 7-day horizon; filter in Python for each page
         raw_week = fetch_section(config, week_cutoff, now, config["color"])
+        # Tag each article with its section name (used for recaps)
+        for a in raw_week:
+            a["section"] = name
         raw_main = [a for a in raw_week if not a["pub"] or a["pub"] >= main_cutoff]
 
         sections_raw_week[name] = raw_week
@@ -1315,15 +1689,37 @@ def main() -> None:
     else:
         print("  → unavailable\n")
 
+    print("[🔥 Trending Companies]")
+    trending = find_trending(sections_raw_main)
+    print(f"  → {[t for t, _ in trending[:6]]}\n")
+
+    print("[📋 Weekly Summaries]")
+    summaries    = load_summaries()
+    week_summary = build_week_summary(top_stories_week, sections_raw_week, now)
+    # Update existing entry for this week or prepend a new one
+    existing_idx = next((i for i, s in enumerate(summaries) if s["week"] == week_summary["week"]), None)
+    if existing_idx is not None:
+        summaries[existing_idx] = week_summary
+    else:
+        summaries.insert(0, week_summary)
+    # Keep at most 52 weeks of history
+    summaries = summaries[:52]
+    save_summaries(summaries)
+    print(f"  → {len(summaries)} weeks stored\n")
+
     # ── Generate pages ───────────────────────────────────────────────────────
-    page = build_html(sections_main, top_stories, now, fear_greed)
+    page = build_html(sections_main, top_stories, now, fear_greed, trending)
     OUTPUT_FILE.write_text(page, encoding="utf-8")
 
     week_page = build_week_html(sections_week, top_stories_week, now, fear_greed)
     WEEK_FILE.write_text(week_page, encoding="utf-8")
 
+    recaps_page = build_recaps_html(summaries, now, fear_greed)
+    RECAPS_FILE.write_text(recaps_page, encoding="utf-8")
+
     print(f" Saved → {OUTPUT_FILE}")
     print(f" Saved → {WEEK_FILE}")
+    print(f" Saved → {RECAPS_FILE}")
     print(f' Run:   open "{OUTPUT_FILE}"\n')
 
 
