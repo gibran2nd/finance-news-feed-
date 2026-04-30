@@ -2,31 +2,31 @@
   {
     "week": "2026-W18",
     "label": "Week of April 27 \u2013 May 1, 2026",
-    "generated": "2026-04-30T09:07:46.840982+00:00",
+    "generated": "2026-04-30T15:01:40.875077+00:00",
     "bullets": [
       {
-        "headline": "Shares of Jeep maker Stellantis fall as much as 10% after first-quarter results",
+        "headline": "Qualcomm shares soar 16% on CEO comments about China orders, hyperscaler customer",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/30/stellantis-q1-earnings-jeep-autos.html"
+        "link": "https://www.cnbc.com/2026/04/29/qualcomm-qcom-stock-earnings-china.html"
       },
       {
-        "headline": "Volkswagen warns planned cost cuts are not enough after 14% drop in first-quarter profit",
+        "headline": "Core inflation rate hit 3.2% in March as first-quarter growth disappointed at 2% - CNBC",
+        "source": "Google \u2013 Fed & Rates",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53M2p4S0stWVJ2UnBaRWpWbHJpakZabDR0OWJGOVI4ejYwcS1ORVFHTDZXUEtsWVJaaXI1XzBiM1c2Z0N3YUtmZzU1cHIxUEhBN1hJbVM2SWw3TmVkOVpnV3RuVk00STMtdTI0ZUpFSm93NkE00gF6QVVfeXFMT0NvZE5hM1RtbVRSa0dZb1NwTHp3QmF4YTNqV0pZUWRycVBfYjdTNk9hUFBoZGx6LW9vR3paQkdPbHRkUXowbUR0VlZhSG50X0d3bnk5WHVjc0YzTGZlTXhDY3V1LXM5eU1ucmZWRkZvQjBtRGQydHNubFE?oc=5"
+      },
+      {
+        "headline": "Eli Lilly blows past quarterly estimates, hikes outlook as Zepbound and Mounjaro sales skyrocket",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/30/volkswagen-q1-earnings-autos.html"
+        "link": "https://www.cnbc.com/2026/04/30/eli-lilly-lly-earnings-q1-2026.html"
       },
       {
-        "headline": "Climb Global Solutions Non-GAAP EPS of $0.19 misses by $0.06, revenue of $182.4M beats by $31.06M",
-        "source": "Seeking Alpha",
-        "section": "Earnings & Results",
-        "link": "https://seekingalpha.com/news/4582454-climb-global-solutions-non-gaap-eps-of-019-misses-by-006-revenue-of-1824m-beats-by-3106m?source=feed_tag_earnings"
-      },
-      {
-        "headline": "Amazon earnings beat expectations with strong cloud growth",
+        "headline": "Merck beats quarterly estimates on strength of Keytruda and new products, narrows outlook",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/29/amazon-amzn-q1-earnings-report-2026.html"
+        "link": "https://www.cnbc.com/2026/04/30/merck-mrk-earnings-q1-2026.html"
       },
       {
         "headline": "Alphabet ups 2026 capex to as much as $190 billion, expects to 'significantly increase' in 2027",
@@ -35,19 +35,19 @@
         "link": "https://www.cnbc.com/2026/04/29/alphabet-googl-q1-2026-earnings.html"
       },
       {
-        "headline": "Microsoft calls for $190 billion in 2026 capital spending on soaring memory prices",
+        "headline": "Shares of Jeep maker Stellantis fall as much as 10% after first-quarter results",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html"
+        "link": "https://www.cnbc.com/2026/04/30/stellantis-q1-earnings-jeep-autos.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 73,
-      "Macro & Economy": 53,
-      "Investment Banking & Deals": 160,
-      "Real Estate & REITs": 19,
-      "Earnings & Results": 180,
-      "Tech & Fintech": 132
+      "Stock Market & Equities": 87,
+      "Macro & Economy": 54,
+      "Investment Banking & Deals": 150,
+      "Real Estate & REITs": 20,
+      "Earnings & Results": 170,
+      "Tech & Fintech": 131
     }
   }
 ]
