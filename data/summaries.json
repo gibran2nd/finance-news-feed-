@@ -2,52 +2,52 @@
   {
     "week": "2026-W18",
     "label": "Week of April 27 \u2013 May 1, 2026",
-    "generated": "2026-04-29T20:06:50.927401+00:00",
+    "generated": "2026-04-30T09:07:46.840982+00:00",
     "bullets": [
       {
-        "headline": "Alphabet earnings are out \u2014 here are the numbers",
+        "headline": "Shares of Jeep maker Stellantis fall as much as 10% after first-quarter results",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/04/30/stellantis-q1-earnings-jeep-autos.html"
+      },
+      {
+        "headline": "Volkswagen warns planned cost cuts are not enough after 14% drop in first-quarter profit",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/04/30/volkswagen-q1-earnings-autos.html"
+      },
+      {
+        "headline": "Climb Global Solutions Non-GAAP EPS of $0.19 misses by $0.06, revenue of $182.4M beats by $31.06M",
+        "source": "Seeking Alpha",
+        "section": "Earnings & Results",
+        "link": "https://seekingalpha.com/news/4582454-climb-global-solutions-non-gaap-eps-of-019-misses-by-006-revenue-of-1824m-beats-by-3106m?source=feed_tag_earnings"
+      },
+      {
+        "headline": "Amazon earnings beat expectations with strong cloud growth",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/04/29/amazon-amzn-q1-earnings-report-2026.html"
+      },
+      {
+        "headline": "Alphabet ups 2026 capex to as much as $190 billion, expects to 'significantly increase' in 2027",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/04/29/alphabet-googl-q1-2026-earnings.html"
       },
       {
-        "headline": "NXP Semiconductors soars 26%, best day ever after earnings beat",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/29/nxp-semiconductors-stock-earnings-beat.html"
-      },
-      {
-        "headline": "Chipotle Mexican Grill is about to report earnings. Here's what to expect",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/29/chipotle-mexican-grill-cmg-q1-2026-earnings.html"
-      },
-      {
-        "headline": "Meta looks to report fastest revenue growth since 2021",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/29/meta-q1-earnings-report-2026.html"
-      },
-      {
-        "headline": "Microsoft's earnings report lands after stock's worst quarterly performance since 2008",
+        "headline": "Microsoft calls for $190 billion in 2026 capital spending on soaring memory prices",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html"
-      },
-      {
-        "headline": "Earnings call transcript: Euronet Worldwide Q1 2026 beats estimates, stock rises - Investing.com",
-        "source": "Google \u2013 Earnings Beats",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTTU2MDNZYlNGSEg5R3BBaVhWbmhESk5vZXhiNEFGaVBKNVRVVlpBTV9FbTR3UWZKdHp1X3ZhOE5NVms0ejdXa1JIdlhEWkVTcWJFcmFDTWFRakRCOHhrMDRmakp4dTRsaWZmd2FkZ0VkOVQwZkRDYUdlX0I3bVlzczI2Y2JhZG9wcktMNXJwQ3ZISHUxQ0ZuNzBGd0RJQTlIdUpxUDRDUTBZbWNVZFZ5WHBBSS1VZk9RLWlEZjM2X3U4YzE0RDVDVVlzaHNOaHBvUGdVd1VqeGFqdw?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 72,
-      "Macro & Economy": 48,
+      "Stock Market & Equities": 73,
+      "Macro & Economy": 53,
       "Investment Banking & Deals": 160,
-      "Real Estate & REITs": 21,
-      "Earnings & Results": 154,
-      "Tech & Fintech": 138
+      "Real Estate & REITs": 19,
+      "Earnings & Results": 180,
+      "Tech & Fintech": 132
     }
   }
 ]
