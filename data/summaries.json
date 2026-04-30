@@ -2,19 +2,31 @@
   {
     "week": "2026-W18",
     "label": "Week of April 27 \u2013 May 1, 2026",
-    "generated": "2026-04-30T15:01:40.875077+00:00",
+    "generated": "2026-04-30T20:05:25.083432+00:00",
     "bullets": [
       {
-        "headline": "Qualcomm shares soar 16% on CEO comments about China orders, hyperscaler customer",
+        "headline": "Google cloud growth tops Microsoft and Amazon as all three beat estimates on AI demand",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/29/qualcomm-qcom-stock-earnings-china.html"
+        "link": "https://www.cnbc.com/2026/04/30/google-microsoft-and-amazon-all-report-cloud-beats-in-earnings.html"
       },
       {
-        "headline": "Core inflation rate hit 3.2% in March as first-quarter growth disappointed at 2% - CNBC",
-        "source": "Google \u2013 Fed & Rates",
+        "headline": "Blue Owl shares surge after private credit firm cites 10X gains from SpaceX",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/04/30/blue-owl-shares-private-credit-spacex-gains.html"
+      },
+      {
+        "headline": "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
+        "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53M2p4S0stWVJ2UnBaRWpWbHJpakZabDR0OWJGOVI4ejYwcS1ORVFHTDZXUEtsWVJaaXI1XzBiM1c2Z0N3YUtmZzU1cHIxUEhBN1hJbVM2SWw3TmVkOVpnV3RuVk00STMtdTI0ZUpFSm93NkE00gF6QVVfeXFMT0NvZE5hM1RtbVRSa0dZb1NwTHp3QmF4YTNqV0pZUWRycVBfYjdTNk9hUFBoZGx6LW9vR3paQkdPbHRkUXowbUR0VlZhSG50X0d3bnk5WHVjc0YzTGZlTXhDY3V1LXM5eU1ucmZWRkZvQjBtRGQydHNubFE?oc=5"
+        "link": "https://www.cnbc.com/2026/04/30/inside-the-fed-powell-and-warsh-set-to-clash.html"
+      },
+      {
+        "headline": "S&P 500 heads for its best month since 2020 \u2014 plus, Apple earnings on deck",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/04/30/sp-500-heads-for-its-best-month-since-2020-plus-apple-earnings-on-deck.html"
       },
       {
         "headline": "Eli Lilly blows past quarterly estimates, hikes outlook as Zepbound and Mounjaro sales skyrocket",
@@ -23,31 +35,19 @@
         "link": "https://www.cnbc.com/2026/04/30/eli-lilly-lly-earnings-q1-2026.html"
       },
       {
-        "headline": "Merck beats quarterly estimates on strength of Keytruda and new products, narrows outlook",
+        "headline": "Apple eyes iPhone growth in first earnings report since Tim Cook's announced exit",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/30/merck-mrk-earnings-q1-2026.html"
-      },
-      {
-        "headline": "Alphabet ups 2026 capex to as much as $190 billion, expects to 'significantly increase' in 2027",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/29/alphabet-googl-q1-2026-earnings.html"
-      },
-      {
-        "headline": "Shares of Jeep maker Stellantis fall as much as 10% after first-quarter results",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/30/stellantis-q1-earnings-jeep-autos.html"
+        "link": "https://www.cnbc.com/2026/04/30/apple-aapl-q2-2026-earnings-report.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 87,
-      "Macro & Economy": 54,
+      "Stock Market & Equities": 80,
+      "Macro & Economy": 56,
       "Investment Banking & Deals": 150,
       "Real Estate & REITs": 20,
-      "Earnings & Results": 170,
-      "Tech & Fintech": 131
+      "Earnings & Results": 174,
+      "Tech & Fintech": 134
     }
   }
 ]
