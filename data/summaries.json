@@ -2,8 +2,20 @@
   {
     "week": "2026-W18",
     "label": "Week of April 27 \u2013 May 1, 2026",
-    "generated": "2026-05-01T14:14:09.714397+00:00",
+    "generated": "2026-05-01T20:00:38.884963+00:00",
     "bullets": [
+      {
+        "headline": "Fintech Acquires National Bank Charter Through $130 Million Deal - JD Supra",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc3pMNi1LWE0xYVM1ODdrc2t4NlFKLW9DRzlFQXBXMzJnOGt3UG9qLTJ6bnpUYWgxV0lpZ1dtbHp5SjR2bEU3Y21HZlYwRmxyMjFqQ2ZGMkREWkFrMEdCV3d2UkNaOW8telNDa18wNllQcjVlN0VhYVVEYTRLZVcxY0F1UXpNdmdi?oc=5"
+      },
+      {
+        "headline": "Atlassian stock soars 29% after earnings show strong cloud, data center growth",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/01/atlassian-team-q3-stock-2026-earnings.html"
+      },
       {
         "headline": "Fed dissenters explain 'no' votes, saying they disagreed with hinting next move would be a cut",
         "source": "CNBC Economy",
@@ -11,43 +23,31 @@
         "link": "https://www.cnbc.com/2026/05/01/fed-dissenters-explain-no-votes-saying-they-disagreed-with-hinting-next-move-would-be-a-cut.html"
       },
       {
-        "headline": "Atlassian stock soars 28% after earnings show strong cloud, data center growth",
+        "headline": "Apple stages sharpest rally in 9 months as execs cite iPhone, Mac demand in boosting guidance",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/01/atlassian-team-q3-stock-2026-earnings.html"
+        "link": "https://www.cnbc.com/2026/05/01/apple-stock-rallies-on-q2-earnings-and-q3-guidance.html"
       },
       {
-        "headline": "Earnings call transcript: Federated Hermes Q1 2026 beats earnings forecast, stock dips - Investing.com Canada",
+        "headline": "Roblox shares plummet 18% as child safety measures weigh on bookings",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/01/roblox-rblx-stock-child-safety-earnings.html"
+      },
+      {
+        "headline": "Earnings call transcript: Federated Hermes Q1 2026 beats earnings forecast, stock dips - Investing.com",
         "source": "Google \u2013 Guidance",
         "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOempGWGNFbm51RHhfclVmS3M3anhCV3BzbFYwWmZoYmVrV280RkkzeXduM0g0N1gtNW9xRkJMYk1GYmNfMFQwQ3JzT2lsaGtGUl9nNW9nZ0kwQ1dwZmttSmNsYzI3T0FTYi1Ea3lQU08ybS0xa0dFZ25nSUJzY0dPVE1sWmFWOHY2X084aERnRDVncmdaOE1UYjNZckJBSFFCd3RmNXBsNERWWXNObjlJQVhHWVhvWDFwclNWSk9uMVotV2ctR21Yb0RpZ0ZZTnF4ZXRiMHJHSm9nckVCYXc?oc=5"
-      },
-      {
-        "headline": "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/04/30/inside-the-fed-powell-and-warsh-set-to-clash.html"
-      },
-      {
-        "headline": "Apple revenue guidance tops estimates on booming iPhone, Mac demand",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/30/apple-aapl-q2-2026-earnings-report.html"
-      },
-      {
-        "headline": "Reddit reports 69% jump in revenue, topping analyst estimates",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/30/reddit-rddt-q1-2026-earnings-report.html"
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOM2RjUkdyXzZsZnBhQ21RdXl2Z0dEZlBxQTktcGRFdG5jRmk3em9MN3JzRU5jNTdRM3NHZ1dtQlY1T0VyV0FWeE9OaUE2c1ZHMndveXRlVm5DZy1mczhaa1FFU0ZjM2c3OGJLUFY5OFRianFBNVFtRnZpRldmcS1TZS1FOW9pbE42S1c2NHM5T0QtQ1NnenRFODJ5NkF5YXZER1Y2T29Bc21qMFRoUnBUMDNXa2hfZkxlaFhzd0xfbDljNDNnTE0xVjczTUF1ZW1BNUpDNTZCRQ?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 84,
+      "Stock Market & Equities": 85,
       "Macro & Economy": 57,
-      "Investment Banking & Deals": 138,
+      "Investment Banking & Deals": 135,
       "Real Estate & REITs": 19,
-      "Earnings & Results": 172,
-      "Tech & Fintech": 136
+      "Earnings & Results": 173,
+      "Tech & Fintech": 130
     }
   }
 ]
