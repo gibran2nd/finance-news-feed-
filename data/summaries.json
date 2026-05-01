@@ -2,8 +2,32 @@
   {
     "week": "2026-W18",
     "label": "Week of April 27 \u2013 May 1, 2026",
-    "generated": "2026-04-30T20:05:25.083432+00:00",
+    "generated": "2026-05-01T08:54:40.828926+00:00",
     "bullets": [
+      {
+        "headline": "Apple delivers a nearly perfect quarter, with a CEO change and an AI update ahead",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/04/30/apple-delivers-a-nearly-perfect-quarter-with-a-ceo-change-and-an-ai-update-ahead.html"
+      },
+      {
+        "headline": "Apple revenue guidance tops estimates on booming iPhone, Mac demand",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/04/30/apple-aapl-q2-2026-earnings-report.html"
+      },
+      {
+        "headline": "Reddit reports 69% jump in revenue, topping analyst estimates",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/04/30/reddit-rddt-q1-2026-earnings-report.html"
+      },
+      {
+        "headline": "Rivian renegotiates DOE loan down to $4.5 billion, adjusts capacity plans for Georgia plant",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/04/30/rivian-renegotiates-doe-loan-adjusts-capacity-plans-for-georgia-plant.html"
+      },
       {
         "headline": "Google cloud growth tops Microsoft and Amazon as all three beat estimates on AI demand",
         "source": "CNBC Markets",
@@ -15,39 +39,15 @@
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/04/30/blue-owl-shares-private-credit-spacex-gains.html"
-      },
-      {
-        "headline": "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/04/30/inside-the-fed-powell-and-warsh-set-to-clash.html"
-      },
-      {
-        "headline": "S&P 500 heads for its best month since 2020 \u2014 plus, Apple earnings on deck",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/30/sp-500-heads-for-its-best-month-since-2020-plus-apple-earnings-on-deck.html"
-      },
-      {
-        "headline": "Eli Lilly blows past quarterly estimates, hikes outlook as Zepbound and Mounjaro sales skyrocket",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/30/eli-lilly-lly-earnings-q1-2026.html"
-      },
-      {
-        "headline": "Apple eyes iPhone growth in first earnings report since Tim Cook's announced exit",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/30/apple-aapl-q2-2026-earnings-report.html"
       }
     ],
     "section_counts": {
       "Stock Market & Equities": 80,
-      "Macro & Economy": 56,
-      "Investment Banking & Deals": 150,
-      "Real Estate & REITs": 20,
-      "Earnings & Results": 174,
-      "Tech & Fintech": 134
+      "Macro & Economy": 55,
+      "Investment Banking & Deals": 148,
+      "Real Estate & REITs": 19,
+      "Earnings & Results": 175,
+      "Tech & Fintech": 133
     }
   }
 ]
