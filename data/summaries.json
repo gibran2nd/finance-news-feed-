@@ -2,13 +2,31 @@
   {
     "week": "2026-W18",
     "label": "Week of April 27 \u2013 May 1, 2026",
-    "generated": "2026-05-01T08:54:40.828926+00:00",
+    "generated": "2026-05-01T14:14:09.714397+00:00",
     "bullets": [
       {
-        "headline": "Apple delivers a nearly perfect quarter, with a CEO change and an AI update ahead",
+        "headline": "Fed dissenters explain 'no' votes, saying they disagreed with hinting next move would be a cut",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/05/01/fed-dissenters-explain-no-votes-saying-they-disagreed-with-hinting-next-move-would-be-a-cut.html"
+      },
+      {
+        "headline": "Atlassian stock soars 28% after earnings show strong cloud, data center growth",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/30/apple-delivers-a-nearly-perfect-quarter-with-a-ceo-change-and-an-ai-update-ahead.html"
+        "link": "https://www.cnbc.com/2026/05/01/atlassian-team-q3-stock-2026-earnings.html"
+      },
+      {
+        "headline": "Earnings call transcript: Federated Hermes Q1 2026 beats earnings forecast, stock dips - Investing.com Canada",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOempGWGNFbm51RHhfclVmS3M3anhCV3BzbFYwWmZoYmVrV280RkkzeXduM0g0N1gtNW9xRkJMYk1GYmNfMFQwQ3JzT2lsaGtGUl9nNW9nZ0kwQ1dwZmttSmNsYzI3T0FTYi1Ea3lQU08ybS0xa0dFZ25nSUJzY0dPVE1sWmFWOHY2X084aERnRDVncmdaOE1UYjNZckJBSFFCd3RmNXBsNERWWXNObjlJQVhHWVhvWDFwclNWSk9uMVotV2ctR21Yb0RpZ0ZZTnF4ZXRiMHJHSm9nckVCYXc?oc=5"
+      },
+      {
+        "headline": "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/04/30/inside-the-fed-powell-and-warsh-set-to-clash.html"
       },
       {
         "headline": "Apple revenue guidance tops estimates on booming iPhone, Mac demand",
@@ -21,33 +39,15 @@
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/04/30/reddit-rddt-q1-2026-earnings-report.html"
-      },
-      {
-        "headline": "Rivian renegotiates DOE loan down to $4.5 billion, adjusts capacity plans for Georgia plant",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/30/rivian-renegotiates-doe-loan-adjusts-capacity-plans-for-georgia-plant.html"
-      },
-      {
-        "headline": "Google cloud growth tops Microsoft and Amazon as all three beat estimates on AI demand",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/30/google-microsoft-and-amazon-all-report-cloud-beats-in-earnings.html"
-      },
-      {
-        "headline": "Blue Owl shares surge after private credit firm cites 10X gains from SpaceX",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/04/30/blue-owl-shares-private-credit-spacex-gains.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 80,
-      "Macro & Economy": 55,
-      "Investment Banking & Deals": 148,
+      "Stock Market & Equities": 84,
+      "Macro & Economy": 57,
+      "Investment Banking & Deals": 138,
       "Real Estate & REITs": 19,
-      "Earnings & Results": 175,
-      "Tech & Fintech": 133
+      "Earnings & Results": 172,
+      "Tech & Fintech": 136
     }
   }
 ]
