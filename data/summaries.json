@@ -2,8 +2,20 @@
   {
     "week": "2026-W18",
     "label": "Week of April 27 \u2013 May 1, 2026",
-    "generated": "2026-05-01T20:00:38.884963+00:00",
+    "generated": "2026-05-02T08:17:59.874003+00:00",
     "bullets": [
+      {
+        "headline": "Apple's stock gains as company execs cite iPhone, Mac demand in boosting guidance",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/01/apple-stock-rallies-on-q2-earnings-and-q3-guidance.html"
+      },
+      {
+        "headline": "Roblox shares plummet 18% as child safety measures weigh on bookings",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/01/roblox-rblx-stock-child-safety-earnings.html"
+      },
       {
         "headline": "Fintech Acquires National Bank Charter Through $130 Million Deal - JD Supra",
         "source": "Google \u2013 Active Deals",
@@ -23,18 +35,6 @@
         "link": "https://www.cnbc.com/2026/05/01/fed-dissenters-explain-no-votes-saying-they-disagreed-with-hinting-next-move-would-be-a-cut.html"
       },
       {
-        "headline": "Apple stages sharpest rally in 9 months as execs cite iPhone, Mac demand in boosting guidance",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/01/apple-stock-rallies-on-q2-earnings-and-q3-guidance.html"
-      },
-      {
-        "headline": "Roblox shares plummet 18% as child safety measures weigh on bookings",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/01/roblox-rblx-stock-child-safety-earnings.html"
-      },
-      {
         "headline": "Earnings call transcript: Federated Hermes Q1 2026 beats earnings forecast, stock dips - Investing.com",
         "source": "Google \u2013 Guidance",
         "section": "Earnings & Results",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 85,
-      "Macro & Economy": 57,
-      "Investment Banking & Deals": 135,
-      "Real Estate & REITs": 19,
-      "Earnings & Results": 173,
-      "Tech & Fintech": 130
+      "Stock Market & Equities": 80,
+      "Macro & Economy": 63,
+      "Investment Banking & Deals": 147,
+      "Real Estate & REITs": 18,
+      "Earnings & Results": 177,
+      "Tech & Fintech": 124
     }
   }
 ]
