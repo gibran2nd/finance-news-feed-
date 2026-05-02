@@ -2,8 +2,14 @@
   {
     "week": "2026-W18",
     "label": "Week of April 27 \u2013 May 1, 2026",
-    "generated": "2026-05-02T14:06:32.010271+00:00",
+    "generated": "2026-05-02T19:48:56.445061+00:00",
     "bullets": [
+      {
+        "headline": "The S&P 500 and Nasdaq kept their record rallies going. Here are 3 key takeaways",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/02/the-sp-500-and-nasdaq-kept-their-record-rallies-going-here-are-3-key-takeaways-.html"
+      },
       {
         "headline": "Apple's stock gains as company execs cite iPhone, Mac demand in boosting guidance",
         "source": "CNBC Markets",
@@ -33,20 +39,14 @@
         "source": "Google \u2013 Guidance",
         "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOM2RjUkdyXzZsZnBhQ21RdXl2Z0dEZlBxQTktcGRFdG5jRmk3em9MN3JzRU5jNTdRM3NHZ1dtQlY1T0VyV0FWeE9OaUE2c1ZHMndveXRlVm5DZy1mczhaa1FFU0ZjM2c3OGJLUFY5OFRianFBNVFtRnZpRldmcS1TZS1FOW9pbE42S1c2NHM5T0QtQ1NnenRFODJ5NkF5YXZER1Y2T29Bc21qMFRoUnBUMDNXa2hfZkxlaFhzd0xfbDljNDNnTE0xVjczTUF1ZW1BNUpDNTZCRQ?oc=5"
-      },
-      {
-        "headline": "Inside the Fed: Powell vows he won't be a 'shadow chair,' but a Warsh clash will be tough to avoid",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/04/30/inside-the-fed-powell-and-warsh-set-to-clash.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 82,
+      "Stock Market & Equities": 83,
       "Macro & Economy": 58,
-      "Investment Banking & Deals": 144,
-      "Real Estate & REITs": 19,
-      "Earnings & Results": 175,
+      "Investment Banking & Deals": 136,
+      "Real Estate & REITs": 20,
+      "Earnings & Results": 181,
       "Tech & Fintech": 121
     }
   }
