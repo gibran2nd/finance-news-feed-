@@ -2,37 +2,19 @@
   {
     "week": "2026-W19",
     "label": "Week of May 4\u20138, 2026",
-    "generated": "2026-05-04T09:12:11.928892+00:00",
+    "generated": "2026-05-04T15:06:01.646454+00:00",
     "bullets": [
       {
-        "headline": "Meme Stock GameStop Pitches $56 Billion Takeover of eBay - Bloomberg.com",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObUJId2dCOVVIYk1NVmwwWVcwMzdsWVdZTldLRk9RcDRjMkY4cjZTWGpkSGozMnBYX0xTbDlXZzJ3YnJHZXRJcFg3dVVnZzRGaEM4WkxCek13SmJSNjkzcEN4LTdRLWVGNkZEdF9QWVpNVGh1eGthcHdZb3AzbFFfcW96b1BkUktfbi14WW5zQnhZaFhVaVpacUhpM1RsSUVmd1diT3AtTUVTS3ZH?oc=5"
+        "headline": "GameStop stock falls after company proposes $56 billion deal for eBay",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/article/gamestop-stock-falls-after-company-proposes-56-billion-deal-for-ebay-122615350.html"
       },
       {
-        "headline": "JPMorgan's Jamie Dimon issued vague credit recession warning, but the bond market has more pressing issues",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/05/02/kevin-warsh-federal-reserve-interest-rates-bonds-fixed-income.html"
-      },
-      {
-        "headline": "Earnings call transcript: AIG Q1 2026 EPS beats estimates, stock rises 4% By Investing.com - Investing.com India",
+        "headline": "Earnings call transcript: Tokyo Electron Q4 2026 beats estimates, stock surges - Investing.com",
         "source": "Google \u2013 Earnings Beats",
         "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMVZzYXU3OXBvQnhuMEwwYmlOQUxQY2w2RF9tanhxb1lib1BZNmk1Mmk2amlfZm5mNWNqNlVhN2NhR3Y3YWkzSVBJeTBBZTQ5RWl4ZXhEWk9vd1ZNQ3NDTHo3NHhvTVVYS3o0RU5PMzczSWJ1V244SnhPcUs2eVNFV2ZEQWdnbEdDR2poMGRrQ1JFb2x0cmppOGlQeG9jWW85cVgzYkdKWmZVY1dEVGltcHpBSUtiTnVqRm1Zc3JlOWpTdGV5UVBIVjFORXlBb0hWWWY4VWlkZ18yU00?oc=5"
-      },
-      {
-        "headline": "Fintech Acquires National Bank Charter Through $130 Million Deal - JD Supra",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc3pMNi1LWE0xYVM1ODdrc2t4NlFKLW9DRzlFQXBXMzJnOGt3UG9qLTJ6bnpUYWgxV0lpZ1dtbHp5SjR2bEU3Y21HZlYwRmxyMjFqQ2ZGMkREWkFrMEdCV3d2UkNaOW8telNDa18wNllQcjVlN0VhYVVEYTRLZVcxY0F1UXpNdmdi?oc=5"
-      },
-      {
-        "headline": "Kone strikes $34 billion deal to acquire rival TK Elevator - irishsun.com",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbGctaklrUzlPY1dnb0lIeW9zaWNBOTBuUERFamVXcERjSzhfZFhmN21BSVNnMTNSVzZ6dk9lTUVtcHpzcDhWZW0xZVhMMFRDeUFFLW9nOTNySWpyaGh0M1A3RWNZbWpHckV0dEhCZS1qVFRuSkdLOHlMMk1lRGN3Yk96UHowcVotaDZYLXptOWRpQmpDTkY2SXUtMWZkX0x6WlE?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNT0ZVdW04bVgyTjM4aFBzaGZwTXZ0SW01eW80d0h3THNHb1Z2NXFWVVpmSEFSTXI5eXJZQ29BNm15aTFqTlQ3NjhMTTlRdHFRTG5lZnV1ekgwTDJ6RHBJcVg0Q2NXenhGS1ZBYUo1VlNPMElaR3FqNWRyRERQbmFjclQ3cjdMWTBId1kzaU4wbi14MVVGN3FuT1BUcU8wdnNLZjZ4ZkxSQ29DM0I2OTUzOU82NE1wMy1XRkk5YkxEYlpXbWlFMDBrV0xSMjE?oc=5"
       },
       {
         "headline": "Earnings call transcript: Independence Realty Trust misses Q1 2026 earnings forecast - Investing.com",
@@ -42,12 +24,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 82,
-      "Macro & Economy": 54,
-      "Investment Banking & Deals": 112,
+      "Stock Market & Equities": 88,
+      "Macro & Economy": 47,
+      "Investment Banking & Deals": 102,
       "Real Estate & REITs": 19,
-      "Earnings & Results": 183,
-      "Tech & Fintech": 107
+      "Earnings & Results": 184,
+      "Tech & Fintech": 119
     }
   },
   {
