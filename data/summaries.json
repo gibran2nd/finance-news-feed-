@@ -2,8 +2,26 @@
   {
     "week": "2026-W19",
     "label": "Week of May 4\u20138, 2026",
-    "generated": "2026-05-04T20:10:37.992930+00:00",
+    "generated": "2026-05-05T09:04:14.897830+00:00",
     "bullets": [
+      {
+        "headline": "HSBC shares drop as first-quarter pre-tax profit misses estimates on higher expected credit losses",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/05/hsbc-q1-earnings-banking-finance.html"
+      },
+      {
+        "headline": "UniCredit CEO says taking control of Commerzbank \u2018not the expected scenario\u2019",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/05/unicredit-takeover-commerzbank-ceo-control-scenario.html"
+      },
+      {
+        "headline": "Pinterest surges 15% after earnings beat as company posts strong guidance",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/04/pinterest-pins-q1-earnings-report-2026.html"
+      },
       {
         "headline": "Palantir tops estimates on 85% revenue growth, fastest expansion since market debut in 2020",
         "source": "CNBC Markets",
@@ -11,25 +29,25 @@
         "link": "https://www.cnbc.com/2026/05/04/palantir-pltr-q1-earnings-report-2026.html"
       },
       {
-        "headline": "Amex GBT agrees to $6.3 billion take-private deal with Long Lake - qz.com",
-        "source": "Google \u2013 Active Deals",
+        "headline": "OpenAI\u2019s cozy partner Cerebras is on track for a blockbuster IPO - TechCrunch",
+        "source": "Google \u2013 IPO",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wS2xnbkFFdWhJYzR1d21EU0JseWQwZ0JXenA0TWlqT2Vtck1uWUdFbGo0NEwtZkR5VEI3dTJHQlZmbVVxQWh2QUN2dFNLM3FHX0VxSXE2SlEzeFBPQjdKYkxDZTZ0UE9WaWc?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcTA0Z0FzNFZiUFRDNUlvVGQzaGJhZDZvMlVKTHlsdlhpSE13UXRDbWNuUFhSRFVVaUQ3eXNtclNzZDlndHAtalRKLUdoc3dXdmRsR21pV1BFVGJZdEhHYm11UDExTE5hc2JzRVNlTFN2aUtHZUxQbWM5dHRyY0lReW52TE0ySjFfelJFeExoSkpkdWJ5TFBEU2g4M0ppVjA?oc=5"
       },
       {
-        "headline": "Earnings call transcript: Independence Realty Trust misses Q1 2026 earnings forecast - Investing.com",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcHgxY3VYaEhaYVNIaDJneVZBZjhVeExUNDlidVI2TDJSb2FGd1RUMlVxMGJMeVpzTVViZTUyeEQxS1kxRnd6b0tqQ2FyQi1HVDBNSVBhTlN4VVlPRzBSaGZlLVJEcEdwVDdnTGRNUnZrSXBRZHFZaVVvRjN4T2RYVVRLU0EtY200cGhpdFlpVlpaam9yVi1DOUxGUlhIQlNEemU4WVFOODRWaVpxNlAwS01oeURNbXhRSmY1eXZLY1B3Tzl1RnVEY2ZOSE5sQUtaNmU5X3NR?oc=5"
+        "headline": "SEC and Elon Musk agree to settle lawsuit over Twitter buyout in 2022",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/05/04/sec-and-elon-musk-agree-to-settle-lawsuit-over-twitter-buyout-in-2022.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 86,
-      "Macro & Economy": 53,
-      "Investment Banking & Deals": 110,
+      "Stock Market & Equities": 82,
+      "Macro & Economy": 54,
+      "Investment Banking & Deals": 119,
       "Real Estate & REITs": 19,
-      "Earnings & Results": 186,
-      "Tech & Fintech": 117
+      "Earnings & Results": 182,
+      "Tech & Fintech": 120
     }
   },
   {
