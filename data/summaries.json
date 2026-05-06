@@ -2,25 +2,19 @@
   {
     "week": "2026-W19",
     "label": "Week of May 4\u20138, 2026",
-    "generated": "2026-05-06T09:15:30.026766+00:00",
+    "generated": "2026-05-06T15:23:45.234840+00:00",
     "bullets": [
       {
-        "headline": "AMD's stock soars 15% as data center growth pushes revenue and guidance past estimates",
+        "headline": "Restaurant Brands International earnings top estimates, fueled by Burger King turnaround",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/05/amd-q1-2026-earnings-report.html"
+        "link": "https://www.cnbc.com/2026/05/06/restaurant-brands-international-qsr-q1-2026-earnings.html"
       },
       {
-        "headline": "Wegovy pill sales smash forecasts, sending Novo Nordisk stock 7% higher",
+        "headline": "AMD's Su explains what's behind massive forecast change as stock roars 15% on earnings",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/06/wegovy-glp1-weight-loss-novo-nordisk-earnings-stock-nvo-ozempic.html"
-      },
-      {
-        "headline": "Disney reports earnings before the bell. Here's what to expect",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/06/disney-dis-earnings-q2-2026.html"
+        "link": "https://www.cnbc.com/2026/05/06/amd-lisa-su-stock-forecast-earnings.html"
       },
       {
         "headline": "EV maker Lucid suspends production guidance amid incoming CEO's business review",
@@ -29,25 +23,31 @@
         "link": "https://www.cnbc.com/2026/05/05/lucid-lcid-q1-2026.html"
       },
       {
-        "headline": "Super Micro stock jumps 18% on guidance beat as revenue more than doubles",
+        "headline": "CVS blows past estimates, hikes outlook as insurance business outperforms",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/05/super-micro-smci-q3-earnings-report-2026.html"
+        "link": "https://www.cnbc.com/2026/05/06/cvs-health-cvs-earnings-q1-2026.html"
       },
       {
-        "headline": "AMC to screen live concerts through Arena One partnership",
+        "headline": "Uber jumps 8% as company issues higher-than-expected bookings guidance",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/05/amc-arena-one-live-concerts.html"
+        "link": "https://www.cnbc.com/2026/05/06/uber-uber-2026-q1-earnings.html"
+      },
+      {
+        "headline": "Disney pops 7% after streaming, parks drive revenue beat in first report under CEO Josh D'Amaro",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/06/disney-dis-earnings-q2-2026.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 73,
-      "Macro & Economy": 51,
-      "Investment Banking & Deals": 141,
+      "Stock Market & Equities": 88,
+      "Macro & Economy": 47,
+      "Investment Banking & Deals": 143,
       "Real Estate & REITs": 20,
-      "Earnings & Results": 186,
-      "Tech & Fintech": 124
+      "Earnings & Results": 184,
+      "Tech & Fintech": 131
     }
   },
   {
