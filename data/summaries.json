@@ -2,14 +2,8 @@
   {
     "week": "2026-W19",
     "label": "Week of May 4\u20138, 2026",
-    "generated": "2026-05-07T15:25:36.140191+00:00",
+    "generated": "2026-05-07T20:07:58.495570+00:00",
     "bullets": [
-      {
-        "headline": "McDonald's CEO says consumer spending could be 'getting a little bit worse'",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/07/mcdonalds-mcd-q1-2026-earnings.html"
-      },
       {
         "headline": "Peloton stock rises as higher subscription prices help company drive a profitable quarter",
         "source": "CNBC Markets",
@@ -17,37 +11,43 @@
         "link": "https://www.cnbc.com/2026/05/07/peloton-pton-earnings-q3-2026.html"
       },
       {
-        "headline": "There's 'no chance' Warsh will be able to get the Fed to cut rates, Paul Tudor Jones says",
+        "headline": "Planet Fitness stock plunges 30% after company slashes guidance, cancels planned price hikes",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/07/planet-fitness-stock.html"
+      },
+      {
+        "headline": "Here's what to expect from Friday's release of the April jobs report",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/05/07/theres-no-chance-warsh-will-be-able-to-get-the-fed-to-cut-rates-paul-tudor-jones-says.html"
+        "link": "https://www.cnbc.com/2026/05/07/heres-what-to-expect-from-fridays-release-of-the-april-jobs-report.html"
       },
       {
-        "headline": "It\u2019s not just Big Oil. Wind giants welcome profit beats as Iran war spurs energy pivot",
+        "headline": "Shake Shack shares crater 30% after burger chain reports operating loss",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/07/iran-war-renewables-wind-oil-gas-equinor-orsted.html"
+        "link": "https://www.cnbc.com/2026/05/07/shake-shack-shak-shares-drop-earnings-report.html"
       },
       {
-        "headline": "Warner Bros. Discovery books $2.9 billion net loss tied to Paramount deal, restructuring costs",
+        "headline": "McDonald's CEO says consumer spending could be 'getting a little bit worse'",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/06/warner-bros-discovery-net-loss-paramount-deal.html"
+        "link": "https://www.cnbc.com/2026/05/07/mcdonalds-mcd-q1-2026-earnings.html"
       },
       {
-        "headline": "Earnings call transcript: Encore Capital Q1 2026 beats estimates, stock rises - Investing.com",
-        "source": "Google \u2013 Earnings Beats",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc0NxOUE3NU4tN0V5NnRIcmt4WjdSRG9MbDdaX3hLeFNzdjk4Ry11QTdTTngyWF9TUzBnelkwQThBbVpQUUxWbmlqbEFEM3VPZXhrYmtSMjRDNW5UbmNTNXVQcGhZbWFKR3NnWHNaTHlMQ0dpYkxqLWRoYnFXVlVPOXFqcVVOZjF3ZW9Hbm9LXzlWa2VxTURjcUtIR09ja05UbHBTU0NMQXIweVJTekQ3QVBiMzkxS2M1NGZsbFhhSE1aTWJKUzlLY0V6NnFfOVh2MGVsUTln?oc=5"
+        "headline": "Maersk shares drop as CEO warns Iran war will have bigger impact in coming months",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/07/maersk-ceo-warns-iran-war-will-have-bigger-impact-in-coming-months.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 87,
-      "Macro & Economy": 43,
-      "Investment Banking & Deals": 140,
-      "Real Estate & REITs": 20,
-      "Earnings & Results": 194,
-      "Tech & Fintech": 130
+      "Stock Market & Equities": 73,
+      "Macro & Economy": 40,
+      "Investment Banking & Deals": 131,
+      "Real Estate & REITs": 19,
+      "Earnings & Results": 199,
+      "Tech & Fintech": 126
     }
   },
   {
