@@ -2,52 +2,52 @@
   {
     "week": "2026-W19",
     "label": "Week of May 4\u20138, 2026",
-    "generated": "2026-05-06T20:16:47.974664+00:00",
+    "generated": "2026-05-07T09:26:35.575903+00:00",
     "bullets": [
       {
-        "headline": "DoorDash pops 8% on strong earnings, upbeat order guidance",
+        "headline": "Fastly stock tumbles despite earnings beat, raised guidance",
+        "source": "Seeking Alpha",
+        "section": "Earnings & Results",
+        "link": "https://seekingalpha.com/news/4588051-fastly-stock-tumbles-despite-earnings-beat-raised-guidance?source=feed_tag_earnings"
+      },
+      {
+        "headline": "It\u2019s not just Big Oil. Wind giants welcome profit beats as Iran war spurs energy pivot",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/07/iran-war-renewables-wind-oil-gas-equinor-orsted.html"
+      },
+      {
+        "headline": "McDonald's is about to report earnings. Here's what to expect",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/07/mcdonalds-mcd-q1-2026-earnings.html"
+      },
+      {
+        "headline": "Arm's quarter shows how it's carving a lucrative path in the crowded CPU resurgence",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/06/arms-quarter-shows-how-its-carving-a-lucrative-path-in-the-crowded-cpu-resurgence.html"
+      },
+      {
+        "headline": "Warner Bros. Discovery books $2.9 billion net loss tied to Paramount deal, restructuring costs",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/06/warner-bros-discovery-net-loss-paramount-deal.html"
+      },
+      {
+        "headline": "DoorDash pops 12% on strong earnings, upbeat order growth guidance",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/05/06/doordash-dash-earnings-q1-2026.html"
-      },
-      {
-        "headline": "Uber pops 8% as company issues higher-than-expected bookings guidance",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/06/uber-uber-2026-q1-earnings.html"
-      },
-      {
-        "headline": "AMD's Su explains what's behind massive forecast change as stock roars 19% on earnings",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/06/amd-lisa-su-stock-forecast-earnings.html"
-      },
-      {
-        "headline": "Disney pops 7% after streaming, parks drive revenue beat in first report under CEO Josh D'Amaro",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/06/disney-dis-earnings-q2-2026.html"
-      },
-      {
-        "headline": "How Elon Musk left OpenAI, according to Greg Brockman",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/"
-      },
-      {
-        "headline": "CVS blows past estimates, hikes outlook as insurance business outperforms",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/06/cvs-health-cvs-earnings-q1-2026.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 87,
-      "Macro & Economy": 42,
-      "Investment Banking & Deals": 139,
-      "Real Estate & REITs": 20,
-      "Earnings & Results": 199,
-      "Tech & Fintech": 137
+      "Stock Market & Equities": 59,
+      "Macro & Economy": 43,
+      "Investment Banking & Deals": 145,
+      "Real Estate & REITs": 18,
+      "Earnings & Results": 200,
+      "Tech & Fintech": 129
     }
   },
   {
