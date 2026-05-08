@@ -2,25 +2,13 @@
   {
     "week": "2026-W19",
     "label": "Week of May 4\u20138, 2026",
-    "generated": "2026-05-08T08:18:19.711638+00:00",
+    "generated": "2026-05-08T14:47:17.485588+00:00",
     "bullets": [
       {
-        "headline": "Nintendo hikes Switch 2 prices and expects console sales to decline as memory crunch bites",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/08/nintendo-switch-2-price-hike-sales-fall-memory-crunch.html"
-      },
-      {
-        "headline": "Earnings call transcript: MDU Resources Q1 2026 misses estimates, stock steady - Investing.com",
-        "source": "Google \u2013 Earnings Beats",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQM1ZzX2ZhOURKWU5YMHFyVFBhU0ZfUUxkV3pjYUQ4VlNzT1BjMVcxU08xbHNhbFExMU43MVFvUDB4WGZHTHFGWmZwN0xiUmNFR3RCb1ZBQzJaN1U2N0JPall3N3ZzR3RQTmtzd2hDUnMxeVRGSXUxejk0SGJJN2hRRkVWN0hQLTNyT2JHa2pjNWJtZFRxd0NGbEFRYXp3a2dVTWVTR1lINFk4cDd4Sy1vMDd5dXlfMjd3aHA4M256cy1wTVNTclBNNEFUVGhvY2NVem4tanY2aw?oc=5"
-      },
-      {
-        "headline": "CoreWeave stock sinks 10% on weak revenue guidance, increased spending forecast",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/07/coreweave-crwv-q1-earnings-report-2026.html"
+        "headline": "U.S. payrolls jump more than expected, but the report had several red flags for the economy",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/05/08/jobs-report-april-2026.html"
       },
       {
         "headline": "Coinbase posts steep first-quarter loss after slide in crypto prices; shares fall 4%",
@@ -29,25 +17,37 @@
         "link": "https://www.cnbc.com/2026/05/07/coinbase-coin-earnings-q1-2026.html"
       },
       {
-        "headline": "Cloudflare stock sinks 18% after earnings as company cuts 1,100 employees due to AI changes",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/07/cloudflare-net-q1-2026-stock-earnings-layoffs.html"
+        "headline": "Earnings call transcript: 1stDibs Q1 2026 misses earnings forecast By Investing.com - Investing.com Canada",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYmphUlZSaHpoYkNIZFp5dm4tdXFiZnY3YUpuZjI3OXVyYXNlTkJxUGtUSmJUR3hwS01mTmlYcjQwTFc1eFZ3R2xxSllWZVJtSkZobUFSLXBjTXI5S2c4ZC1Wc2g1NDFTUUlmUEVhc3RCbkxOaG1HR3EtTW5pLV8wczZuV0ltTUlhdU5XU3JuLU91S0hRWkdhOVNROThEN2Z2cy1YYjh0NEZONDh5NnJGUWlaRFRzSkQzcnMxTVY1MGE4MnZV?oc=5"
       },
       {
-        "headline": "Datadog stock soars 31% on blockbuster earnings as AI winners emerge in software",
+        "headline": "Nintendo hikes Switch 2 prices and expects console sales to decline as memory crunch bites",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/07/ai-winners-software-datadog-stock.html"
+        "link": "https://www.cnbc.com/2026/05/08/nintendo-switch-2-price-hike-sales-fall-memory-crunch.html"
+      },
+      {
+        "headline": "Earnings call transcript: Dine Brands beats Q1 2026 earnings forecast - Investing.com",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU0xvdThhV3VWVWZiMnQ4ek9wRU9xRG93VE45aDY0V09vQkk2a3NpX2Z0X3h3WG1WUENnRjRsbWFUQWR0YThPTlFubGpqaEhKUDJ5cFUwVGVrbFhMTFlydzM2X2xSZlkxN2s0UTlOSEhWZTdFN1NRdGxmcFptNWRMdUhFTmg0RVdZY3N4UDE5ZmtwdlkyTVh5bUtvb0EwZVItRTdPODNiTU9PUDNWVEJ4UjZVSy1UVzlkQU0zQ3VwX2dGZw?oc=5"
+      },
+      {
+        "headline": "Britain's Intertek weighs EQT's sweetened $12 billion buyout bid - Reuters",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONEc5b3pka3VYVW1OZ0tZTXJxSjlQMEhaVWwydE96d19scWJTT1lkdmdfYUdxYnJRczFEMzMyLTdUQ2tPYy1NVkdHYVV0WnJ3R2haNHNxODYyMkJxS0E3bnU1eGlvOEVpLXNKb3IxY2tRb2s1eV9TaGNZNmUxOTc2c3lZNlpxajM3WW5PMlVuNEdFSkw2N2phVG5FY25OSWlkWFNfV1BibnB5SzZXYUE?oc=5"
       }
     ],
     "section_counts": {
       "Stock Market & Equities": 81,
-      "Macro & Economy": 40,
-      "Investment Banking & Deals": 131,
+      "Macro & Economy": 45,
+      "Investment Banking & Deals": 128,
       "Real Estate & REITs": 19,
-      "Earnings & Results": 195,
-      "Tech & Fintech": 125
+      "Earnings & Results": 191,
+      "Tech & Fintech": 127
     }
   },
   {
