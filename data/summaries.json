@@ -2,8 +2,14 @@
   {
     "week": "2026-W19",
     "label": "Week of May 4\u20138, 2026",
-    "generated": "2026-05-09T14:14:22.866423+00:00",
+    "generated": "2026-05-09T19:51:50.322865+00:00",
     "bullets": [
+      {
+        "headline": "Block: Buy This Under-Appreciated Fintech Leader",
+        "source": "Seeking Alpha",
+        "section": "Earnings & Results",
+        "link": "https://seekingalpha.com/article/4901959-block-buy-this-under-appreciated-fintech-leader?source=feed_tag_earnings"
+      },
       {
         "headline": "The Federal Reserve is quickly running out of reasons to cut interest rates",
         "source": "CNBC Economy",
@@ -23,12 +29,6 @@
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeVdFbzlSeEZHQlZDSWE1TlhsTUJNeXJHX0l6MFhWLUVjRGNuTU9fMFZCVjgyZDc2ZEtWOGd6eUg2OHpiLXlSWTB4WFFYT0xCUkdBYXluaUQ2ZHdycXp1bS0wYWFRSDZXTzNzT2E5WXFkeU9HRHRlLTBHRFVhM3lRemtFQzdySUN3dlp5QnNFbnZ1RmkwNzQ1Wm55NmZ2YWh4Vi1ucGdLWlpRR0FWNDFFQWhhc2ItSmVHMl8xTTVHUUlSRmktejB1ZTRR?oc=5"
       },
       {
-        "headline": "Wall Street sees 'changing of the guard in AI' as Intel, AMD shares soar while Nvidia lags",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/08/wall-street-ai-chip-love-moves-from-nvidia-to-intel-amd-and-micron.html"
-      },
-      {
         "headline": "U.S. payrolls jump more than expected, but the report had several red flags for the economy",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 82,
-      "Macro & Economy": 47,
-      "Investment Banking & Deals": 125,
+      "Stock Market & Equities": 81,
+      "Macro & Economy": 48,
+      "Investment Banking & Deals": 128,
       "Real Estate & REITs": 20,
-      "Earnings & Results": 190,
-      "Tech & Fintech": 121
+      "Earnings & Results": 197,
+      "Tech & Fintech": 120
     }
   },
   {
