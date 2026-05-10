@@ -2,8 +2,14 @@
   {
     "week": "2026-W19",
     "label": "Week of May 4\u20138, 2026",
-    "generated": "2026-05-10T14:17:19.510040+00:00",
+    "generated": "2026-05-10T19:53:45.301540+00:00",
     "bullets": [
+      {
+        "headline": "Retailers are on a hiring spree. But consumers are sending warning signs",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/05/10/retailer-hiring-consumer-warning-jobs-report.html"
+      },
       {
         "headline": "Fintech startup Parker files for bankruptcy - The Tech Buzz",
         "source": "Google \u2013 Fintech",
@@ -29,25 +35,19 @@
         "link": "https://www.cnbc.com/2026/05/08/jobs-report-april-2026.html"
       },
       {
-        "headline": "Earnings call transcript: Xometry Q1 2026 beats estimates, stock surges - Investing.com",
+        "headline": "Earnings call transcript: Koppers Holdings Q1 2026 beats estimates, stock surges - Investing.com",
         "source": "Google \u2013 Earnings Beats",
         "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMGZzbHFUVG1MSlotVW9JdWtKbkJVbEszbFVPRTZWZXAtTjViRWZiZzIzcHhlVDJ5V2pyVmtrakdpS29BNlNIRkd0ZnN4U0FIbWNaZF80TktYTmxGTW1MZHdTOUJNb19VemR5MHR1VjVodm1MZzRnNVdPTVo1aERKWTVuVTF3aURLNE5XWTRXRmNwUW1yX2JmbjlyUGhGZTFZNkZUc0VPVldqMGRMV3pEaHhKRzNEN3BGN3JJUUJtS2tzdmM?oc=5"
-      },
-      {
-        "headline": "I Squared, Blackstone Eye \u20ac2.5 Billion Stroeer Buyout - Bloomberg.com",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTXY1MjFHNkFMeG12RnpOX1VtMTl3T0NnODlDTlZ6bkE4Z3h5M3VHRVNSZVl3MXRzOGIxZW9QTnlsS1pKSzk3eGZUd2lSQUpVVlVNb25vZEJ6UmltUFIzRVZyQ0plYXk0ZlpPeGhicXcwVERaekphOGktTXIyejhtOTkwT2Jld3pzeXdUdm40QmVCNk1QUDA2OGpHXzVQQXVCNnl6ag?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWEhOcmVGdHh0OTQtZG9RSDd2ZWdJS2NLbWlQMWVqN0t3SWFPQ0tpYUM4OUw4czdxM3lucTUzVUZHTUZFY2w1clFoeFlfb0pxWDFvWXByTkNreDZQa2NBUFkwREc5U1ZSUmdQaWNRcVU2SHB1WEU4bUhYWXczRXdYMm1VVHp0RFYtLWJ4RjVMdkV3aDlFdXNsMlpxS3RoR29WUnNDZmFDWnRQc0JETVdRU1p4eEtYNTdCVjM5VG0yN2RQMnJEclo1MlR4RXZZaXc?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 90,
-      "Macro & Economy": 54,
-      "Investment Banking & Deals": 126,
-      "Real Estate & REITs": 21,
-      "Earnings & Results": 195,
-      "Tech & Fintech": 116
+      "Stock Market & Equities": 89,
+      "Macro & Economy": 53,
+      "Investment Banking & Deals": 112,
+      "Real Estate & REITs": 20,
+      "Earnings & Results": 183,
+      "Tech & Fintech": 112
     }
   },
   {
