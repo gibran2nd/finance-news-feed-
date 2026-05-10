@@ -2,7 +2,7 @@
   {
     "week": "2026-W19",
     "label": "Week of May 4\u20138, 2026",
-    "generated": "2026-05-10T08:48:50.799821+00:00",
+    "generated": "2026-05-10T14:17:19.510040+00:00",
     "bullets": [
       {
         "headline": "Fintech startup Parker files for bankruptcy - The Tech Buzz",
@@ -11,22 +11,10 @@
         "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNc29wMzl4TE9sWXgzNWVpdjRrd2l3eTlyTVlMMzF3YXBlNUdab01EX2hLaU55UGdxT3dwTTllRk1BbnZFd2ZqUUM5VzA5R3RrSEJQSnBvNjBoWDRodmwwX19Zc0JmRzBrdTQwY2NVZ1Fva2twZFRvY2NuaW80MjBwakhR?oc=5"
       },
       {
-        "headline": "Block: Buy This Under-Appreciated Fintech Leader",
-        "source": "Seeking Alpha",
-        "section": "Earnings & Results",
-        "link": "https://seekingalpha.com/article/4901959-block-buy-this-under-appreciated-fintech-leader?source=feed_tag_earnings"
-      },
-      {
         "headline": "The Federal Reserve is quickly running out of reasons to cut interest rates",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/05/08/the-federal-reserve-is-quickly-running-out-of-reasons-to-cut-interest-rates.html"
-      },
-      {
-        "headline": "Rocket Lab surges 34% in best day ever on revenue beat, record-setting launch deal",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/08/rocket-lab-rklb-q1-earnings-2026.html"
       },
       {
         "headline": "Carlyle secures $5 billion for next buyout fund through financing that also delivers LP liquidity - Pensions & Investments",
@@ -39,15 +27,27 @@
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/05/08/jobs-report-april-2026.html"
+      },
+      {
+        "headline": "Earnings call transcript: Xometry Q1 2026 beats estimates, stock surges - Investing.com",
+        "source": "Google \u2013 Earnings Beats",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMGZzbHFUVG1MSlotVW9JdWtKbkJVbEszbFVPRTZWZXAtTjViRWZiZzIzcHhlVDJ5V2pyVmtrakdpS29BNlNIRkd0ZnN4U0FIbWNaZF80TktYTmxGTW1MZHdTOUJNb19VemR5MHR1VjVodm1MZzRnNVdPTVo1aERKWTVuVTF3aURLNE5XWTRXRmNwUW1yX2JmbjlyUGhGZTFZNkZUc0VPVldqMGRMV3pEaHhKRzNEN3BGN3JJUUJtS2tzdmM?oc=5"
+      },
+      {
+        "headline": "I Squared, Blackstone Eye \u20ac2.5 Billion Stroeer Buyout - Bloomberg.com",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTXY1MjFHNkFMeG12RnpOX1VtMTl3T0NnODlDTlZ6bkE4Z3h5M3VHRVNSZVl3MXRzOGIxZW9QTnlsS1pKSzk3eGZUd2lSQUpVVlVNb25vZEJ6UmltUFIzRVZyQ0plYXk0ZlpPeGhicXcwVERaekphOGktTXIyejhtOTkwT2Jld3pzeXdUdm40QmVCNk1QUDA2OGpHXzVQQXVCNnl6ag?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 82,
-      "Macro & Economy": 49,
-      "Investment Banking & Deals": 124,
-      "Real Estate & REITs": 20,
-      "Earnings & Results": 202,
-      "Tech & Fintech": 120
+      "Stock Market & Equities": 90,
+      "Macro & Economy": 54,
+      "Investment Banking & Deals": 126,
+      "Real Estate & REITs": 21,
+      "Earnings & Results": 195,
+      "Tech & Fintech": 116
     }
   },
   {
