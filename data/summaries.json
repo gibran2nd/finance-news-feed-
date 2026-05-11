@@ -1,5 +1,56 @@
 [
   {
+    "week": "2026-W20",
+    "label": "Week of May 11\u201315, 2026",
+    "generated": "2026-05-11T10:30:08.902535+00:00",
+    "bullets": [
+      {
+        "headline": "Nintendo plunges 8% after Switch 2 price hike and weak sales forecast",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/11/nintendo-stock-switch-2-price-rise-weak-sales-forecast.html"
+      },
+      {
+        "headline": "Saudi Aramco first-quarter profit jumps 26% as key pipeline reaches capacity amid Iran war",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/10/saudi-aramco-q1-profit-jumps-26percent-as-key-pipeline-reaches-capacity.html"
+      },
+      {
+        "headline": "Grant Thornton Australia worth $1b, partners set for $5m payout - AFR",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUnduSkJJbFBxWURkcUpVVXBjeF9fcjM5elVEN0dycy1LV0k0a0lrUXZnUmo5bzNURkw3UUJWQkdiWnRhYlRSbERfNkkxMkpUNGVlWVZsaE5NSmV5UnJmbkpySEEwT3VPb2hCNU4zSHV2WDFqdmRUOWVNWlB0a25wVm9UYjl6elZiWWpwWnlXZGdQRUhMMWoxZ19SdEFwb3lSVnhtd0JXbmVveGVYdGhOMmxoejh3aGd5MGpncklaUHg1Ym9LYTFZ?oc=5"
+      },
+      {
+        "headline": "TechCrunch Mobility: Lime\u2019s IPO gamble",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/05/10/techcrunch-mobility-limes-ipo-gamble/"
+      },
+      {
+        "headline": "Retailers are on a hiring spree. But consumers are sending warning signs",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/05/10/retailer-hiring-consumer-warning-jobs-report.html"
+      },
+      {
+        "headline": "Fintech startup Parker files for bankruptcy - The Tech Buzz",
+        "source": "Google \u2013 Fintech",
+        "section": "Tech & Fintech",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNc29wMzl4TE9sWXgzNWVpdjRrd2l3eTlyTVlMMzF3YXBlNUdab01EX2hLaU55UGdxT3dwTTllRk1BbnZFd2ZqUUM5VzA5R3RrSEJQSnBvNjBoWDRodmwwX19Zc0JmRzBrdTQwY2NVZ1Fva2twZFRvY2NuaW80MjBwakhR?oc=5"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 83,
+      "Macro & Economy": 55,
+      "Investment Banking & Deals": 97,
+      "Real Estate & REITs": 20,
+      "Earnings & Results": 205,
+      "Tech & Fintech": 113
+    }
+  },
+  {
     "week": "2026-W19",
     "label": "Week of May 4\u20138, 2026",
     "generated": "2026-05-10T19:53:45.301540+00:00",
