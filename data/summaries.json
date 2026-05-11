@@ -2,8 +2,20 @@
   {
     "week": "2026-W20",
     "label": "Week of May 11\u201315, 2026",
-    "generated": "2026-05-11T10:30:08.902535+00:00",
+    "generated": "2026-05-11T15:52:19.753299+00:00",
     "bullets": [
+      {
+        "headline": "The Federal Reserve is quickly running out of reasons to cut interest rates",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/05/08/the-federal-reserve-is-quickly-running-out-of-reasons-to-cut-interest-rates.html"
+      },
+      {
+        "headline": "At TV upfronts, AI is in and corporate shuffles are reshaping the lineup",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/11/tv-upfronts-ai-data-industry-shifts.html"
+      },
       {
         "headline": "Nintendo plunges 8% after Switch 2 price hike and weak sales forecast",
         "source": "CNBC Markets",
@@ -27,27 +39,15 @@
         "source": "TechCrunch",
         "section": "Tech & Fintech",
         "link": "https://techcrunch.com/2026/05/10/techcrunch-mobility-limes-ipo-gamble/"
-      },
-      {
-        "headline": "Retailers are on a hiring spree. But consumers are sending warning signs",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/05/10/retailer-hiring-consumer-warning-jobs-report.html"
-      },
-      {
-        "headline": "Fintech startup Parker files for bankruptcy - The Tech Buzz",
-        "source": "Google \u2013 Fintech",
-        "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNc29wMzl4TE9sWXgzNWVpdjRrd2l3eTlyTVlMMzF3YXBlNUdab01EX2hLaU55UGdxT3dwTTllRk1BbnZFd2ZqUUM5VzA5R3RrSEJQSnBvNjBoWDRodmwwX19Zc0JmRzBrdTQwY2NVZ1Fva2twZFRvY2NuaW80MjBwakhR?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 83,
-      "Macro & Economy": 55,
-      "Investment Banking & Deals": 97,
+      "Stock Market & Equities": 89,
+      "Macro & Economy": 53,
+      "Investment Banking & Deals": 86,
       "Real Estate & REITs": 20,
-      "Earnings & Results": 205,
-      "Tech & Fintech": 113
+      "Earnings & Results": 190,
+      "Tech & Fintech": 119
     }
   },
   {
