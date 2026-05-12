@@ -2,13 +2,31 @@
   {
     "week": "2026-W20",
     "label": "Week of May 11\u201315, 2026",
-    "generated": "2026-05-12T09:29:46.018908+00:00",
+    "generated": "2026-05-12T15:36:24.213708+00:00",
     "bullets": [
       {
-        "headline": "FinTech Global Posts Strong Half-Year Results and Lifts Full-Year Outlook - TipRanks",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUU1aVTByRXJoaFRnNXlOU0R3N0l6cG1QU1IzdUNmTWllN1RrNTczWmsxRzdNbV9TSnpZRUpPamRYLVlxajF2ajBoQVE5Ql9sVkY1TTRzb1lhTFVQdThwQWNhWW1wX2tsRzFDOVhaWi1mMjRtZlhPdzZEVC1faFp6YVlnYXJ1SjBPb09GYWZuOWs2VEdkWUN6RWhJTHV0YjNXZmoycmFPV1pPQXhhYmIzaG04QUdSc2p1NkJKdVFMSThOeVE?oc=5"
+        "headline": "OpenAI trial: Nadella says Musk never raised concerns to him about Microsoft investment",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/05/11/microsoft-ceo-satya-nadella-musk-altman-trial.html"
+      },
+      {
+        "headline": "Hims & Hers plummets 13% after first-quarter loss, weak earnings guidance",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/12/hims-hers-plummets-16percent-after-first-quarter-loss-weak-guidance-.html"
+      },
+      {
+        "headline": "EBay Rejects GameStop's $55 Billion Offer as 'Neither Credible Nor Attractive'",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/ebay-rejects-gamestops-55-billion-143748587.html"
+      },
+      {
+        "headline": "Consumer prices rose 3.8% annually in April, the highest since May 2023 - CNBC",
+        "source": "Google \u2013 Fed & Rates",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOOVBMcUpKVi1faTMwY1hxMms4RTVxeW1CQlFMd2J0NmFLMXBzWFBKUWhMSVIwVkRJeHZMM2ZvT1RnZ29aNWhnQjBSM1pFOHMyWkV4akV5Q1Bjel93dm5MRjMwNEVKVDRrOUlPaE82c9IBdEFVX3lxTFB6SU1BVXh4WXBPUkR0T2xUQ21pNUNfSWk4SnJIM0t4NUVvUmY1cWRHXzVvVlVIcW9VVDRwcEd1TGZVdlFSUzNKT0dpVldVUnVaZndCXzJuYkNpeV9fTE9ETUVLWGVFaUVBTlZILXdyY3V0c2sz?oc=5"
       },
       {
         "headline": "On Holding beats first-quarter expectations, sees double-digit growth in China as Nike lags",
@@ -17,37 +35,19 @@
         "link": "https://www.cnbc.com/2026/05/12/on-onon-earnings-q1-2026.html"
       },
       {
-        "headline": "Best Fintech Stocks to Buy in 2026 - The Motley Fool",
-        "source": "Google \u2013 Fintech",
-        "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLW5pSXB3LXphM1hsbGNnNjVsVnN2ZEJTbk9falU4LWkwenV6bkxQLXMxRDRwNFlKMTVzWEJRQTlQQi1DalhtaU9PbUo4b3AySWRjVXphbUphcUpxSGFuUGJFaXlYcXdfWEh2dGowQzAzYUJDbWtoZ2pjNFM4ZG9MMnB3Zw?oc=5"
-      },
-      {
-        "headline": "OpenAI trial: Nadella says Musk never raised concerns to him about Microsoft investment",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/05/11/microsoft-ceo-satya-nadella-musk-altman-trial.html"
-      },
-      {
-        "headline": "The Federal Reserve is quickly running out of reasons to cut interest rates",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/05/08/the-federal-reserve-is-quickly-running-out-of-reasons-to-cut-interest-rates.html"
-      },
-      {
-        "headline": "OpenAI creates new unit with $4 billion investment to aid corporate AI push - Reuters",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONzBVZGx1c2JvQTRJeWZ2d1FPQU1GTnhSaEZONVV0YmpaRnI4WE50Q25udWxlNC1LbVR0ZkJnTzJYM0dRekdNZWVVempHSEZJT1ZTS1Q3bDI0NHJRdW5lOURaUmNPX0UtQVNnUXNyQUhXQnhvd1lYT1JZdXl5dWtiNk9CblcxV1FHQmdoSGpiekJjX3kwSlZSeHVOcE93ZHY1VU92bldWRTZqb2NKck1yUlRqWjkzRk0?oc=5"
+        "headline": "FinTech Global Posts Strong Half-Year Results and Lifts Full-Year Outlook - TipRanks",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUU1aVTByRXJoaFRnNXlOU0R3N0l6cG1QU1IzdUNmTWllN1RrNTczWmsxRzdNbV9TSnpZRUpPamRYLVlxajF2ajBoQVE5Ql9sVkY1TTRzb1lhTFVQdThwQWNhWW1wX2tsRzFDOVhaWi1mMjRtZlhPdzZEVC1faFp6YVlnYXJ1SjBPb09GYWZuOWs2VEdkWUN6RWhJTHV0YjNXZmoycmFPV1pPQXhhYmIzaG04QUdSc2p1NkJKdVFMSThOeVE?oc=5"
       }
     ],
     "section_counts": {
       "Stock Market & Equities": 79,
-      "Macro & Economy": 48,
-      "Investment Banking & Deals": 85,
-      "Real Estate & REITs": 19,
-      "Earnings & Results": 202,
-      "Tech & Fintech": 130
+      "Macro & Economy": 52,
+      "Investment Banking & Deals": 92,
+      "Real Estate & REITs": 20,
+      "Earnings & Results": 190,
+      "Tech & Fintech": 131
     }
   },
   {
