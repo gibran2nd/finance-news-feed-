@@ -2,14 +2,8 @@
   {
     "week": "2026-W20",
     "label": "Week of May 11\u201315, 2026",
-    "generated": "2026-05-12T15:36:24.213708+00:00",
+    "generated": "2026-05-12T20:26:42.219565+00:00",
     "bullets": [
-      {
-        "headline": "OpenAI trial: Nadella says Musk never raised concerns to him about Microsoft investment",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/05/11/microsoft-ceo-satya-nadella-musk-altman-trial.html"
-      },
       {
         "headline": "Hims & Hers plummets 13% after first-quarter loss, weak earnings guidance",
         "source": "CNBC Markets",
@@ -17,16 +11,22 @@
         "link": "https://www.cnbc.com/2026/05/12/hims-hers-plummets-16percent-after-first-quarter-loss-weak-guidance-.html"
       },
       {
-        "headline": "EBay Rejects GameStop's $55 Billion Offer as 'Neither Credible Nor Attractive'",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/ebay-rejects-gamestops-55-billion-143748587.html"
-      },
-      {
-        "headline": "Consumer prices rose 3.8% annually in April, the highest since May 2023 - CNBC",
+        "headline": "Markets raise chances for a Fed rate hike following hot inflation report - CNBC",
         "source": "Google \u2013 Fed & Rates",
         "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOOVBMcUpKVi1faTMwY1hxMms4RTVxeW1CQlFMd2J0NmFLMXBzWFBKUWhMSVIwVkRJeHZMM2ZvT1RnZ29aNWhnQjBSM1pFOHMyWkV4akV5Q1Bjel93dm5MRjMwNEVKVDRrOUlPaE82c9IBdEFVX3lxTFB6SU1BVXh4WXBPUkR0T2xUQ21pNUNfSWk4SnJIM0t4NUVvUmY1cWRHXzVvVlVIcW9VVDRwcEd1TGZVdlFSUzNKT0dpVldVUnVaZndCXzJuYkNpeV9fTE9ETUVLWGVFaUVBTlZILXdyY3V0c2sz?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWm9qcWF5ZE1VRDl4cFhRRWhIM2hGZHc2QkZfVlhoU25BWXo0a3ZRcURJN2RtZXg0aEpBUW9wWXFVSGhFOUNGLWY5QVp1YklNR1dXWGVldlc5MmF0QUVZdlgtX0d6YVFiNmRKX1hWdnBJd20tZGR3bXJ4NWw2bzU1eVJtdFJpWDc2VjZPU1Q4OHd0R1NLdXdyWVNyVUl1Y3JVMFktYmFCdEUxZDRFbmfSAbMBQVVfeXFMT3pyT3lRUF9PZE1lMUlPb3dJeHJrSmpsWjQ4d0l1dXVwOGthYTIwTXpOV1JtSm1YUjEyTVZsRzdXb2xKZThJckNIUnVBamJjSnJtR3U5aUZackRYR2JyTlFBTFlRdUFweTQ2dUhhVjdtUlUwaUNKV3pIbHdfdHRfOVlLUm1nTUtfVzRyZzE3cTg3b05hOWdIenBENXpxaXl2UE04MzAtQW1SdHpBdjRwUUhvQ28?oc=5"
+      },
+      {
+        "headline": "EBay rejects GameStop's $56 billion takeover bid, calling it 'neither credible nor attractive'",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/05/12/ebay-rejects-gamestops-takeover-ryan-cohen.html"
+      },
+      {
+        "headline": "Consumer prices rose 3.8% annually in April, the highest since May 2023",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html"
       },
       {
         "headline": "On Holding beats first-quarter expectations, sees double-digit growth in China as Nike lags",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 79,
-      "Macro & Economy": 52,
-      "Investment Banking & Deals": 92,
+      "Stock Market & Equities": 82,
+      "Macro & Economy": 51,
+      "Investment Banking & Deals": 83,
       "Real Estate & REITs": 20,
-      "Earnings & Results": 190,
-      "Tech & Fintech": 131
+      "Earnings & Results": 183,
+      "Tech & Fintech": 129
     }
   },
   {
