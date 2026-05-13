@@ -2,8 +2,14 @@
   {
     "week": "2026-W20",
     "label": "Week of May 11\u201315, 2026",
-    "generated": "2026-05-13T15:39:42.266820+00:00",
+    "generated": "2026-05-13T20:27:09.484817+00:00",
     "bullets": [
+      {
+        "headline": "Cisco's stock pops 14% as surge in AI infrastructure orders leads to increased guidance",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/13/cisco-csco-q3-earnings-report-2026.html"
+      },
       {
         "headline": "Alibaba jumps as it strikes bullish tone on AI investments, even as profit plunges",
         "source": "CNBC Markets",
@@ -11,28 +17,10 @@
         "link": "https://www.cnbc.com/2026/05/13/alibaba-earnings-march-quarter-ai-cloud-growth.html"
       },
       {
-        "headline": "China's Tencent sees boost from gaming, AI demand even as revenue comes in weaker than expected",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/13/tencent-q1-earnings-gaming-ai-demand-revenue-miss.html"
-      },
-      {
-        "headline": "SoftBank posts $46 billion gain at Vision Fund driven mainly by massive OpenAI bet",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/13/softbank-earnings-fy-2025-vision-fund-openai-stake.html"
-      },
-      {
         "headline": "Consumer prices rose 3.8% annually in April, the highest since May 2023 - CNBC",
         "source": "Google \u2013 Fed & Rates",
         "section": "Macro & Economy",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOOVBMcUpKVi1faTMwY1hxMms4RTVxeW1CQlFMd2J0NmFLMXBzWFBKUWhMSVIwVkRJeHZMM2ZvT1RnZ29aNWhnQjBSM1pFOHMyWkV4akV5Q1Bjel93dm5MRjMwNEVKVDRrOUlPaE82c9IBdEFVX3lxTFB6SU1BVXh4WXBPUkR0T2xUQ21pNUNfSWk4SnJIM0t4NUVvUmY1cWRHXzVvVlVIcW9VVDRwcEd1TGZVdlFSUzNKT0dpVldVUnVaZndCXzJuYkNpeV9fTE9ETUVLWGVFaUVBTlZILXdyY3V0c2sz?oc=5"
-      },
-      {
-        "headline": "Markets raise chances for a Fed rate hike following hot inflation report",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html"
       },
       {
         "headline": "The Federal Reserve is quickly running out of reasons to cut interest rates",
@@ -42,11 +30,11 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 86,
-      "Macro & Economy": 51,
-      "Investment Banking & Deals": 97,
-      "Real Estate & REITs": 20,
-      "Earnings & Results": 180,
+      "Stock Market & Equities": 85,
+      "Macro & Economy": 49,
+      "Investment Banking & Deals": 98,
+      "Real Estate & REITs": 19,
+      "Earnings & Results": 179,
       "Tech & Fintech": 129
     }
   },
