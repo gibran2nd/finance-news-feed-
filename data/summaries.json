@@ -2,19 +2,19 @@
   {
     "week": "2026-W20",
     "label": "Week of May 11\u201315, 2026",
-    "generated": "2026-05-13T09:36:55.890710+00:00",
+    "generated": "2026-05-13T15:39:42.266820+00:00",
     "bullets": [
+      {
+        "headline": "Alibaba jumps as it strikes bullish tone on AI investments, even as profit plunges",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/13/alibaba-earnings-march-quarter-ai-cloud-growth.html"
+      },
       {
         "headline": "China's Tencent sees boost from gaming, AI demand even as revenue comes in weaker than expected",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/05/13/tencent-q1-earnings-gaming-ai-demand-revenue-miss.html"
-      },
-      {
-        "headline": "Earnings call transcript: FleetPartners misses Q1 2026 earnings forecast By Investing.com - Investing.com Canada",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQOXhkMDZzTXRJalVGNXNscktLT0dQdEtVSGdhcXJNVVFxVU1hb1JacE16Z0g2ZXpScmQteURVSVFuMzc4UnEtckZYbXBEdV9FYTNHZ3NKdlZvTGoybjcwWE5neVp1TnpKTlVZd3h0QjB4Qk9TRHpBN2NVMEsxY0N1cFFubkVEWnlqOThYcWplRnVNZ1paaUZpMVhwM3pvYnVtLVpDR2otR3BEbHpodkhpQXBBT2pSYzdBV2txWk5paHN6QmtYUUZ1UnZEbUs?oc=5"
       },
       {
         "headline": "SoftBank posts $46 billion gain at Vision Fund driven mainly by massive OpenAI bet",
@@ -23,31 +23,31 @@
         "link": "https://www.cnbc.com/2026/05/13/softbank-earnings-fy-2025-vision-fund-openai-stake.html"
       },
       {
-        "headline": "Consumer prices rose 3.8% annually in April, the highest since May 2023",
-        "source": "CNBC Economy",
+        "headline": "Consumer prices rose 3.8% annually in April, the highest since May 2023 - CNBC",
+        "source": "Google \u2013 Fed & Rates",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html"
-      },
-      {
-        "headline": "An under-the-radar AI stock just delivered the best quarter of the chip sector",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/12/an-under-the-radar-stock-delivered-the-best-quarter-of-the-chip-sector.html"
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOOVBMcUpKVi1faTMwY1hxMms4RTVxeW1CQlFMd2J0NmFLMXBzWFBKUWhMSVIwVkRJeHZMM2ZvT1RnZ29aNWhnQjBSM1pFOHMyWkV4akV5Q1Bjel93dm5MRjMwNEVKVDRrOUlPaE82c9IBdEFVX3lxTFB6SU1BVXh4WXBPUkR0T2xUQ21pNUNfSWk4SnJIM0t4NUVvUmY1cWRHXzVvVlVIcW9VVDRwcEd1TGZVdlFSUzNKT0dpVldVUnVaZndCXzJuYkNpeV9fTE9ETUVLWGVFaUVBTlZILXdyY3V0c2sz?oc=5"
       },
       {
         "headline": "Markets raise chances for a Fed rate hike following hot inflation report",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html"
+      },
+      {
+        "headline": "The Federal Reserve is quickly running out of reasons to cut interest rates",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/05/08/the-federal-reserve-is-quickly-running-out-of-reasons-to-cut-interest-rates.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 75,
+      "Stock Market & Equities": 86,
       "Macro & Economy": 51,
-      "Investment Banking & Deals": 89,
-      "Real Estate & REITs": 19,
-      "Earnings & Results": 175,
-      "Tech & Fintech": 125
+      "Investment Banking & Deals": 97,
+      "Real Estate & REITs": 20,
+      "Earnings & Results": 180,
+      "Tech & Fintech": 129
     }
   },
   {
