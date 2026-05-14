@@ -2,52 +2,52 @@
   {
     "week": "2026-W20",
     "label": "Week of May 11\u201315, 2026",
-    "generated": "2026-05-14T09:28:26.814184+00:00",
+    "generated": "2026-05-14T15:12:43.523053+00:00",
     "bullets": [
       {
-        "headline": "Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/13/cisco-csco-q3-earnings-report-2026.html"
-      },
-      {
-        "headline": "Burberry says turnaround on track as Americas and China fuel strong growth",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/14/burberry-stock-brby-earnings-fy-turnaround-americas-china-sales-growth.html"
-      },
-      {
-        "headline": "Cerebras prices IPO above expected range, as Wall Street braces for AI tsunami - CNBC",
-        "source": "Google \u2013 IPO",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSDBsVUI5Ykh6NXRVSDNLVUMzODdnbGtpZ0RxQlkxNVpGQzhqSC1QWm5aS2l3cUs0dHhJZ2wybDV6cmtISlhWb2Q3ZGw5eEFwSnAtS0Z1SV9tQWxuOWppNy1mT3R1dDFoM3FnOHNvUEV6RG14c3N2ZlZYNEl3YzhuV1B6dEVURUV2aENZdkw1WldlYWZVQ1lvXy1ZVTBKQUJvWE9vRzVEWjFYUdIBrwFBVV95cUxQQmJETnc0QlQtNzlnR0w1YkZIT1Yybjk3VmRMSFgxamh5U3JtU0JDVVprNjNhUWZIWVdQN09UYWRFdm1lT2pZRlMwWTJKWW82NEtPbVlHWV9rRlhTSUp5VlJFOWxLYTFtRnVMOUtDanFybHBob05XU0F4UUhGa29hWFpRa2Foa2s0U2ZUMHd4UjZWOVA2Z0hmejA5TWl5RE96NEhUNGsybXFxY0k3bmQw?oc=5"
-      },
-      {
-        "headline": "nLIGHT to Participate in William Blair 46th Conference & Baird 2026",
+        "headline": "Cisco raises full-year outlook as AI-driven demand powers Q1 beat",
         "source": "Yahoo Finance",
         "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/news/nlight-participate-william-blair-46th-221811667.html"
+        "link": "https://finance.yahoo.com/sectors/technology/articles/cisco-raises-full-outlook-ai-145300335.html"
       },
       {
-        "headline": "Consumer prices rose 3.8% annually in April, the highest since May 2023",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html"
+        "headline": "Cisco CEO says tech is entering a 'networking supercycle' as stock pops 14% on strong AI demand",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/14/cisco-csco-pops-on-ai-demand.html"
       },
       {
-        "headline": "The Federal Reserve is quickly running out of reasons to cut interest rates",
+        "headline": "Americans still feel pessimistic about the economy. When will it get better?",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/05/08/the-federal-reserve-is-quickly-running-out-of-reasons-to-cut-interest-rates.html"
+        "link": "https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html"
+      },
+      {
+        "headline": "Earnings call transcript: Wolverine beats Q1 2026 earnings forecast, stock surges - Investing.com Canada",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQzlKZVdRTG1IUVlzU2I1Ri1RMjdvcWQtY2FxUTNTTFZIMU5QUnFpWUVVTW1uTmFrMklBVG80S1FXU3RKNVR4U2FORzZzSjNzdl9OR3RGU3RoSjFOMlExamY3RFhYd3J1bVNudTdzNVZhdTMxSEl4Ql9ZRkl4UG9KX3pHUHlQTVU1dkxLUDhsV3A2cUt1N09Id1ZFSFVzRnlVX1ZLQXBhdk1tTjdaNVJPeTM4a1NPOGV5dnZuWVFQMXNEUkdyVG44T2xfUmdhbTBuRVdaTTM2QQ?oc=5"
+      },
+      {
+        "headline": "Versant stock jumps 10% after company's Q1 report shows bright spots in licensing, platforms",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/14/versant-vsnt-earnings-q1-2026.html"
+      },
+      {
+        "headline": "Cerebras stock set to start trading in biggest IPO of 2026",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/article/cerebras-stock-set-to-start-trading-in-biggest-ipo-of-2026-130757842.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 77,
-      "Macro & Economy": 49,
-      "Investment Banking & Deals": 103,
-      "Real Estate & REITs": 21,
-      "Earnings & Results": 180,
-      "Tech & Fintech": 127
+      "Stock Market & Equities": 85,
+      "Macro & Economy": 52,
+      "Investment Banking & Deals": 120,
+      "Real Estate & REITs": 20,
+      "Earnings & Results": 186,
+      "Tech & Fintech": 128
     }
   },
   {
