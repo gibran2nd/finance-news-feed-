@@ -2,25 +2,37 @@
   {
     "week": "2026-W20",
     "label": "Week of May 11\u201315, 2026",
-    "generated": "2026-05-13T20:27:09.484817+00:00",
+    "generated": "2026-05-14T09:28:26.814184+00:00",
     "bullets": [
       {
-        "headline": "Cisco's stock pops 14% as surge in AI infrastructure orders leads to increased guidance",
+        "headline": "Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/05/13/cisco-csco-q3-earnings-report-2026.html"
       },
       {
-        "headline": "Alibaba jumps as it strikes bullish tone on AI investments, even as profit plunges",
+        "headline": "Burberry says turnaround on track as Americas and China fuel strong growth",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/13/alibaba-earnings-march-quarter-ai-cloud-growth.html"
+        "link": "https://www.cnbc.com/2026/05/14/burberry-stock-brby-earnings-fy-turnaround-americas-china-sales-growth.html"
       },
       {
-        "headline": "Consumer prices rose 3.8% annually in April, the highest since May 2023 - CNBC",
-        "source": "Google \u2013 Fed & Rates",
+        "headline": "Cerebras prices IPO above expected range, as Wall Street braces for AI tsunami - CNBC",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSDBsVUI5Ykh6NXRVSDNLVUMzODdnbGtpZ0RxQlkxNVpGQzhqSC1QWm5aS2l3cUs0dHhJZ2wybDV6cmtISlhWb2Q3ZGw5eEFwSnAtS0Z1SV9tQWxuOWppNy1mT3R1dDFoM3FnOHNvUEV6RG14c3N2ZlZYNEl3YzhuV1B6dEVURUV2aENZdkw1WldlYWZVQ1lvXy1ZVTBKQUJvWE9vRzVEWjFYUdIBrwFBVV95cUxQQmJETnc0QlQtNzlnR0w1YkZIT1Yybjk3VmRMSFgxamh5U3JtU0JDVVprNjNhUWZIWVdQN09UYWRFdm1lT2pZRlMwWTJKWW82NEtPbVlHWV9rRlhTSUp5VlJFOWxLYTFtRnVMOUtDanFybHBob05XU0F4UUhGa29hWFpRa2Foa2s0U2ZUMHd4UjZWOVA2Z0hmejA5TWl5RE96NEhUNGsybXFxY0k3bmQw?oc=5"
+      },
+      {
+        "headline": "nLIGHT to Participate in William Blair 46th Conference & Baird 2026",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/news/nlight-participate-william-blair-46th-221811667.html"
+      },
+      {
+        "headline": "Consumer prices rose 3.8% annually in April, the highest since May 2023",
+        "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOOVBMcUpKVi1faTMwY1hxMms4RTVxeW1CQlFMd2J0NmFLMXBzWFBKUWhMSVIwVkRJeHZMM2ZvT1RnZ29aNWhnQjBSM1pFOHMyWkV4akV5Q1Bjel93dm5MRjMwNEVKVDRrOUlPaE82c9IBdEFVX3lxTFB6SU1BVXh4WXBPUkR0T2xUQ21pNUNfSWk4SnJIM0t4NUVvUmY1cWRHXzVvVlVIcW9VVDRwcEd1TGZVdlFSUzNKT0dpVldVUnVaZndCXzJuYkNpeV9fTE9ETUVLWGVFaUVBTlZILXdyY3V0c2sz?oc=5"
+        "link": "https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html"
       },
       {
         "headline": "The Federal Reserve is quickly running out of reasons to cut interest rates",
@@ -30,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 85,
+      "Stock Market & Equities": 77,
       "Macro & Economy": 49,
-      "Investment Banking & Deals": 98,
-      "Real Estate & REITs": 19,
-      "Earnings & Results": 179,
-      "Tech & Fintech": 129
+      "Investment Banking & Deals": 103,
+      "Real Estate & REITs": 21,
+      "Earnings & Results": 180,
+      "Tech & Fintech": 127
     }
   },
   {
