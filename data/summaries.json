@@ -2,31 +2,13 @@
   {
     "week": "2026-W20",
     "label": "Week of May 11\u201315, 2026",
-    "generated": "2026-05-14T15:12:43.523053+00:00",
+    "generated": "2026-05-14T20:24:13.554886+00:00",
     "bullets": [
       {
-        "headline": "Cisco raises full-year outlook as AI-driven demand powers Q1 beat",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/sectors/technology/articles/cisco-raises-full-outlook-ai-145300335.html"
-      },
-      {
-        "headline": "Cisco CEO says tech is entering a 'networking supercycle' as stock pops 14% on strong AI demand",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/14/cisco-csco-pops-on-ai-demand.html"
-      },
-      {
-        "headline": "Americans still feel pessimistic about the economy. When will it get better?",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html"
-      },
-      {
-        "headline": "Earnings call transcript: Wolverine beats Q1 2026 earnings forecast, stock surges - Investing.com Canada",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQzlKZVdRTG1IUVlzU2I1Ri1RMjdvcWQtY2FxUTNTTFZIMU5QUnFpWUVVTW1uTmFrMklBVG80S1FXU3RKNVR4U2FORzZzSjNzdl9OR3RGU3RoSjFOMlExamY3RFhYd3J1bVNudTdzNVZhdTMxSEl4Ql9ZRkl4UG9KX3pHUHlQTVU1dkxLUDhsV3A2cUt1N09Id1ZFSFVzRnlVX1ZLQXBhdk1tTjdaNVJPeTM4a1NPOGV5dnZuWVFQMXNEUkdyVG44T2xfUmdhbTBuRVdaTTM2QQ?oc=5"
+        "headline": "Cerebras pops 68% in Nasdaq debut, pushing the AI chipmaker's market cap to $95 billion",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/05/14/cerebras-cbrs-stock-trade-nasdaq-ipo.html"
       },
       {
         "headline": "Versant stock jumps 10% after company's Q1 report shows bright spots in licensing, platforms",
@@ -35,19 +17,37 @@
         "link": "https://www.cnbc.com/2026/05/14/versant-vsnt-earnings-q1-2026.html"
       },
       {
-        "headline": "Cerebras stock set to start trading in biggest IPO of 2026",
-        "source": "Yahoo Finance",
+        "headline": "Cisco CEO says tech is entering a 'networking supercycle' as stock pops 13% on strong AI demand",
+        "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/article/cerebras-stock-set-to-start-trading-in-biggest-ipo-of-2026-130757842.html"
+        "link": "https://www.cnbc.com/2026/05/14/cisco-csco-pops-on-ai-demand.html"
+      },
+      {
+        "headline": "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026 - TechCrunch",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcnBpaTVEQkdnNEtmRWk2MmNYX3M3eERpdTRPdm5GSTUxSnpVTG9FbFZyNlBsTzY4d0RFSW5vQjJzdnMxQy03c0RNeGlWVHREODRDT0tOdkl1V3hNbUhKV216NTNwWlpSR2ZYemxjay0zVTZETU5pYmZNXzZtX25WeEZib3lLd2RQRFd5QUV3S3JSUURGY3lDWHVpQlQ?oc=5"
+      },
+      {
+        "headline": "Americans still feel pessimistic about the economy. When will it get better?",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/05/14/consumer-confidence-us-economy-inflation-iran-war-trade.html"
+      },
+      {
+        "headline": "Earnings call transcript: Wolverine beats Q1 2026 earnings forecast, stock surges - Investing.com",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeTdjZzNET1RCbkdReXZxdjRYNVJZS25BWVJWbU5CUzM1T3R5VWlrS1F6RDNxSnA4X18yV2tJbmxNSm5Na3M1M18tZnBHeXRFdVNtN3ZKNmZJNlp3VkNvZHBnQ2FJYkJLVW1pcTh2RklpZlN0MUdDaGpONlpYano2OHJuTTVKSUQ2R2pBYXJ0V1N4QnZaRFVGNVBaWUVBTmg2MlYyV0RpRVRSd1ItMkhhaHQxMGNCYWhtWXJFVVY1M1RtTExLUFJCc25MRmhNUGh4?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 85,
-      "Macro & Economy": 52,
-      "Investment Banking & Deals": 120,
-      "Real Estate & REITs": 20,
-      "Earnings & Results": 186,
-      "Tech & Fintech": 128
+      "Stock Market & Equities": 83,
+      "Macro & Economy": 55,
+      "Investment Banking & Deals": 122,
+      "Real Estate & REITs": 22,
+      "Earnings & Results": 185,
+      "Tech & Fintech": 126
     }
   },
   {
