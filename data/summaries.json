@@ -2,8 +2,14 @@
   {
     "week": "2026-W20",
     "label": "Week of May 11\u201315, 2026",
-    "generated": "2026-05-15T09:39:57.354390+00:00",
+    "generated": "2026-05-15T15:09:31.499414+00:00",
     "bullets": [
+      {
+        "headline": "CIA director traveled to Cuba and met with Raul Castro\u2019s grandson, officials confirm",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/05/15/cia-director-traveled-to-cuba-and-met-with-raul-castros-grandson-officials-confirm/"
+      },
       {
         "headline": "Honda shares rise over 7% as investors shrug off first operating loss in nearly 70 years",
         "source": "CNBC Markets",
@@ -17,16 +23,10 @@
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ1VIM3g3Qm0xU0RETlRxQ1B4MWtkd3RxTnFFUXlzVFV0YUFENzRtOWVJS3RoNUpsUERFQVlUR3JZT0laTHJneHJRWDkwY2RFRHBhWEdFZ3NYQlp5RDV3UmItdG9RMkpXUXdXZldmME5SNVljR2s5NVc1UWpGNl8yRTMxMU50RzFrVHNycXZPMDBXTmJ6MUhJd1NCMmV1QUJFRXJNVdIBqgFBVV95cUxQY0tuUkJZY1hlQkhac0JKeUk1MGhlU1FWRGVjOElPa1ktWk9tblZNaTVaWllwVzJZWk5PY3JDYlo2WkRfT1ZOMEVReE9oaENFVTZHQjM3dHA0VFY1YXpyd2VSYmRoZVFuN296R1FFWC0wclZ0cTJQZ0xweF9oWVNCdmU5a3NUTnpDRWRyYzlhSFl0cElaMnpsUFFCZkVlSjViOEJhUmVyWHBGUQ?oc=5"
       },
       {
-        "headline": "Cerebras pops 68% in Nasdaq debut, pushing the AI chipmaker's market cap to $95 billion",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/05/14/cerebras-cbrs-stock-trade-nasdaq-ipo.html"
-      },
-      {
-        "headline": "Earnings call transcript: ALX Oncology beats Q1 2026 earnings forecast By Investing.com - Investing.com Canada",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcnRwbHlxMFVEWlB6OUFHU3FqaG1mQkRoV3VRSVRSbmNQcUJzTDYtdUFKWmlkUEpwclNmU1Bqcm5yRFJsZ0FSR3gtaGl4TzlKOTJ4UWFxTlBHai1EZG1URkRjbk9OdWZLTUNyaTdicktNVFVwcHI5OUV5NTctY1lWR3B1amlMc1plRmlya0xuclY3MnFEN3RDeGNsQVhpNzdBRlZEUE9jaGtDWUhQRVdyVWZyU1gtNnlQUFVWMlI0dzdLYzhLZGYyRVJB?oc=5"
+        "headline": "Bond market believes Fed behind the curve on inflation as Warsh takes over",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html"
       },
       {
         "headline": "Cerebras, A.I. Chip Maker, Rises 89% in Market Debut as Tech IPOs Ramp Up - The New York Times",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 58,
-      "Macro & Economy": 57,
-      "Investment Banking & Deals": 132,
+      "Stock Market & Equities": 69,
+      "Macro & Economy": 55,
+      "Investment Banking & Deals": 126,
       "Real Estate & REITs": 19,
-      "Earnings & Results": 186,
-      "Tech & Fintech": 125
+      "Earnings & Results": 183,
+      "Tech & Fintech": 127
     }
   },
   {
