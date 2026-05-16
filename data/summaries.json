@@ -2,13 +2,19 @@
   {
     "week": "2026-W20",
     "label": "Week of May 11\u201315, 2026",
-    "generated": "2026-05-16T08:44:31.806496+00:00",
+    "generated": "2026-05-16T14:18:54.059436+00:00",
     "bullets": [
       {
-        "headline": "Cerebras stock falls 10% in first full day of trading after blockbuster debut",
+        "headline": "SpaceX, OpenAI, and Anthropic: Here are the most anticipated IPOs in 2026",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/article/spacex-openai-and-anthropic-here-are-the-most-anticipated-ipos-in-2026-114439441.html"
+      },
+      {
+        "headline": "What you need to know about Nvidia competitor Cerebras after wild IPO",
         "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/05/15/cerebras-stock-ipo-debut-ai.html"
+        "link": "https://www.cnbc.com/2026/05/15/nvidia-cerebras-stock-price-ipo.html"
       },
       {
         "headline": "InPost's 4.2 Billion Buyout Loan Draws Fresh Bank Demand - TradingView",
@@ -29,12 +35,6 @@
         "link": "https://www.cnbc.com/2026/05/15/inflation-rate-projected-to-hit-6percent-in-the-second-quarter-top-economic-forecasters-say.html"
       },
       {
-        "headline": "Dominoes are steadily falling in the path of the rate cuts Trump wants to see from Kevin Warsh",
-        "source": "Fortune",
-        "section": "Stock Market & Equities",
-        "link": "https://fortune.com/2026/05/15/treasury-inflation-data-rate-cuts-fomc-trump-kevin-warsh/"
-      },
-      {
         "headline": "Cerebras, A.I. Chip Maker, Rises 89% in Market Debut as Tech IPOs Ramp Up - The New York Times",
         "source": "Google \u2013 IPO",
         "section": "Investment Banking & Deals",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 64,
-      "Macro & Economy": 59,
-      "Investment Banking & Deals": 125,
+      "Stock Market & Equities": 63,
+      "Macro & Economy": 58,
+      "Investment Banking & Deals": 115,
       "Real Estate & REITs": 18,
-      "Earnings & Results": 176,
-      "Tech & Fintech": 129
+      "Earnings & Results": 173,
+      "Tech & Fintech": 123
     }
   },
   {
