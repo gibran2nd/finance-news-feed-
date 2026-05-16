@@ -2,8 +2,20 @@
   {
     "week": "2026-W20",
     "label": "Week of May 11\u201315, 2026",
-    "generated": "2026-05-15T20:11:12.253703+00:00",
+    "generated": "2026-05-16T08:44:31.806496+00:00",
     "bullets": [
+      {
+        "headline": "Cerebras stock falls 10% in first full day of trading after blockbuster debut",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/05/15/cerebras-stock-ipo-debut-ai.html"
+      },
+      {
+        "headline": "InPost's 4.2 Billion Buyout Loan Draws Fresh Bank Demand - TradingView",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb0NMbHhNSzJGdlk4LXhFN0hmbEJuQkZxUHd2LVliZlNZOUVaWWoxYWx2c2ZQWFFUNmV0M2xTWl83NXdEdXJXVUxJRHlLajViamNkRDlxMFNFTC1XR2VNaU1DOVBlYzB4RXhTVWhSaTFhdFVRTXFnejVoNXFSNHVRVDd1V1F6N0RaNXJpU2lOU1pYQ2xNekUwdWxpTmZKZjJFdDRWc2JFY2hVZWF4RTlHa0s4NXRDQ2M?oc=5"
+      },
       {
         "headline": "Earnings call transcript: ADNOC Gas Q1 2026 misses earnings forecast By Investing.com - Investing.com Canada",
         "source": "Google \u2013 Guidance",
@@ -17,30 +29,24 @@
         "link": "https://www.cnbc.com/2026/05/15/inflation-rate-projected-to-hit-6percent-in-the-second-quarter-top-economic-forecasters-say.html"
       },
       {
+        "headline": "Dominoes are steadily falling in the path of the rate cuts Trump wants to see from Kevin Warsh",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/05/15/treasury-inflation-data-rate-cuts-fomc-trump-kevin-warsh/"
+      },
+      {
         "headline": "Cerebras, A.I. Chip Maker, Rises 89% in Market Debut as Tech IPOs Ramp Up - The New York Times",
         "source": "Google \u2013 IPO",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kOW1FOE5TMUp6Y2xYZWdwV3pMaVBnR0Rwb2R4d2lsb0JsOVlDSm5SSV8tSVBDUjlkY3dXT0lCUmFIRmRfa0NVSDdaUzRNaVg4ZU9vV0VUOVZNVldHVUdxT2hENS03cnJCcUFvMUx1a3NiOVNV?oc=5"
-      },
-      {
-        "headline": "Earnings call transcript: Wolverine beats Q1 2026 earnings forecast, stock surges - Investing.com",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeTdjZzNET1RCbkdReXZxdjRYNVJZS25BWVJWbU5CUzM1T3R5VWlrS1F6RDNxSnA4X18yV2tJbmxNSm5Na3M1M18tZnBHeXRFdVNtN3ZKNmZJNlp3VkNvZHBnQ2FJYkJLVW1pcTh2RklpZlN0MUdDaGpONlpYano2OHJuTTVKSUQ2R2pBYXJ0V1N4QnZaRFVGNVBaWUVBTmg2MlYyV0RpRVRSd1ItMkhhaHQxMGNCYWhtWXJFVVY1M1RtTExLUFJCc25MRmhNUGh4?oc=5"
-      },
-      {
-        "headline": "Markets raise chances for a Fed rate hike following hot inflation report",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 69,
-      "Macro & Economy": 58,
-      "Investment Banking & Deals": 123,
+      "Stock Market & Equities": 64,
+      "Macro & Economy": 59,
+      "Investment Banking & Deals": 125,
       "Real Estate & REITs": 18,
-      "Earnings & Results": 182,
+      "Earnings & Results": 176,
       "Tech & Fintech": 129
     }
   },
