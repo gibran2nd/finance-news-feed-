@@ -2,14 +2,8 @@
   {
     "week": "2026-W20",
     "label": "Week of May 11\u201315, 2026",
-    "generated": "2026-05-16T14:18:54.059436+00:00",
+    "generated": "2026-05-16T19:58:25.060843+00:00",
     "bullets": [
-      {
-        "headline": "SpaceX, OpenAI, and Anthropic: Here are the most anticipated IPOs in 2026",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/article/spacex-openai-and-anthropic-here-are-the-most-anticipated-ipos-in-2026-114439441.html"
-      },
       {
         "headline": "What you need to know about Nvidia competitor Cerebras after wild IPO",
         "source": "CNBC M&A",
@@ -23,16 +17,16 @@
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb0NMbHhNSzJGdlk4LXhFN0hmbEJuQkZxUHd2LVliZlNZOUVaWWoxYWx2c2ZQWFFUNmV0M2xTWl83NXdEdXJXVUxJRHlLajViamNkRDlxMFNFTC1XR2VNaU1DOVBlYzB4RXhTVWhSaTFhdFVRTXFnejVoNXFSNHVRVDd1V1F6N0RaNXJpU2lOU1pYQ2xNekUwdWxpTmZKZjJFdDRWc2JFY2hVZWF4RTlHa0s4NXRDQ2M?oc=5"
       },
       {
-        "headline": "Earnings call transcript: ADNOC Gas Q1 2026 misses earnings forecast By Investing.com - Investing.com Canada",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQXJuOFNlSWNUbGstXzZoQk8tZHZHbmZYRFlYa1pBYUhrdXZMVnlpWWNWVHJJS2doNngtWnBxVmVla0lTbWtsY0VremJ5VDAzWmNfWXpZcXJ6UTNPODA3WjM0QngxT015MEpBSHZWam41Z0RBdnZ3REcyZG5Td0NrY1JOdzhkVUpTajZtUkFUWHFzd0FVS1YzSFBJX09QN0I1NTVCQ0p3RE1wMzQ2Q24zUmNzT0ZDT3FqclpnQV9vMmRRMERRWTY0?oc=5"
-      },
-      {
         "headline": "Inflation rate projected to hit 6% in the second quarter, top economic forecasters say",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/05/15/inflation-rate-projected-to-hit-6percent-in-the-second-quarter-top-economic-forecasters-say.html"
+      },
+      {
+        "headline": "Earnings call transcript: GPS Q1 2026 misses estimates, stock dips - Investing.com",
+        "source": "Google \u2013 Earnings Beats",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbEFHYWlQa1JidHRqVTgyMUZ6U2dqeHRFYVJpQ0pudXh2dl9tZEsyS1NMZ1B6Z0lVay1FejB6X1RWZ1NIbE5hOF9UMlZKUEh2UmR4T2FSM1A0QjBMT0VMV1IyVmIzOVlwTWJUM3Y3S2J6MlJuMGZ1SjlMenpqMUtreXZpd2hNUVQxbXczbXBnSVhiMlBNVWdPQ0JwZ1pzalprdVZ5UWZ1NDUweW1fMzFiODVvS3E5Qzl4VFUyTA?oc=5"
       },
       {
         "headline": "Cerebras, A.I. Chip Maker, Rises 89% in Market Debut as Tech IPOs Ramp Up - The New York Times",
@@ -42,12 +36,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 63,
-      "Macro & Economy": 58,
-      "Investment Banking & Deals": 115,
+      "Stock Market & Equities": 58,
+      "Macro & Economy": 55,
+      "Investment Banking & Deals": 120,
       "Real Estate & REITs": 18,
-      "Earnings & Results": 173,
-      "Tech & Fintech": 123
+      "Earnings & Results": 168,
+      "Tech & Fintech": 125
     }
   },
   {
