@@ -2,13 +2,25 @@
   {
     "week": "2026-W20",
     "label": "Week of May 11\u201315, 2026",
-    "generated": "2026-05-17T08:58:35.358519+00:00",
+    "generated": "2026-05-17T14:22:28.684833+00:00",
     "bullets": [
       {
-        "headline": "Kratos Q1 2026 Earnings: Revenue Beat, Raised Guidance, and Analyst Q&A Highlights - News and Statistics - IndexBox",
-        "source": "Google \u2013 Guidance",
+        "headline": "GEO Group Q1 2026 Earnings Report: Revenue, EPS, EBITDA Beat Forecasts - News and Statistics - IndexBox",
+        "source": "Google \u2013 Earnings Beats",
         "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeXFKLV9vaHNCLXd0eXJSNG9oS2owZjNSOS12dTY3c3IzaDlPdmVuN1hsY0lMcV9vN0NxS3FJV3dReFpmVHdXcGJNQnduaC1wQzVvbWhlakdTQndmbWViZzBhaTF0cHNKb3ZRNXBYazRSWDhHajJpNGhTXzR5U2l5QVFWTnhuTE80cG1FTHI4UXVkMTRGNmw5SFF3RTFsRFcyU0ltcER0ejE?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNFZyZWpaMGhmVnAzbHpOUV8wN0xoclU3ODM0U2htVUhQU28yQmNYUmc5ODlFV3pkTzFDNFdMbFp5bGk4azBEUl9kWE5CUXN5b3RGRTJfcXNsZzktZmtESUIwN29TU2swaTJfR3U2dHk0dVFJOEktcURhM1hGeG1lMmxmVVYxQmZJMjNNNmdxQ1V0REwyT2lvQ2N1OWw?oc=5"
+      },
+      {
+        "headline": "Cerebras' blockbuster IPO boosts hype for SpaceX and OpenAI, but crowds out smaller players",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/05/16/cerebras-blockbuster-ipo-boosts-hype-for-spacex-openai-anthropic.html"
+      },
+      {
+        "headline": "SpaceX, OpenAI, and Anthropic: Here are the most anticipated IPOs in 2026",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/article/spacex-openai-and-anthropic-here-are-the-most-anticipated-ipos-in-2026-114439441.html"
       },
       {
         "headline": "What you need to know about Nvidia competitor Cerebras after wild IPO",
@@ -17,31 +29,25 @@
         "link": "https://www.cnbc.com/2026/05/15/nvidia-cerebras-stock-price-ipo.html"
       },
       {
-        "headline": "Earnings call transcript: ADNOC Gas Q1 2026 misses earnings forecast By Investing.com - Investing.com Canada",
+        "headline": "Earnings call transcript: ADNOC Gas Q1 2026 misses earnings forecast - Investing.com",
         "source": "Google \u2013 Guidance",
         "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQXJuOFNlSWNUbGstXzZoQk8tZHZHbmZYRFlYa1pBYUhrdXZMVnlpWWNWVHJJS2doNngtWnBxVmVla0lTbWtsY0VremJ5VDAzWmNfWXpZcXJ6UTNPODA3WjM0QngxT015MEpBSHZWam41Z0RBdnZ3REcyZG5Td0NrY1JOdzhkVUpTajZtUkFUWHFzd0FVS1YzSFBJX09QN0I1NTVCQ0p3RE1wMzQ2Q24zUmNzT0ZDT3FqclpnQV9vMmRRMERRWTY0?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQR3JOdkFnall3ME00dVprY2V6NElvWDFKaDlxY2tqYURrdjNhaGl2ZzZuRkh4eC1KRnNMb1haS1dfUW9BcGY1N0NRVTV6UHZDYTZtOEN3NmtwZDNvaUtYWGNWU193UnVmdlctMnhySGF3VXBtOHN0dUtGNzVLM0gzOW5DbDlIamFrYU8yQWdaOFVic0hrRkZoTGFsRGxhVnB1Y2Q0dHpWaUlJajFlYUxfZ3EyOXlOU2RMaFlvY1dtRV8?oc=5"
       },
       {
         "headline": "Inflation rate projected to hit 6% in the second quarter, top economic forecasters say",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/05/15/inflation-rate-projected-to-hit-6percent-in-the-second-quarter-top-economic-forecasters-say.html"
-      },
-      {
-        "headline": "A.I. Chip Maker Soars 68% in Market Debut, as Tech I.P.O.s Ramp Up - The New York Times",
-        "source": "Google \u2013 IPO",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kOW1FOE5TMUp6Y2xYZWdwV3pMaVBnR0Rwb2R4d2lsb0JsOVlDSm5SSV8tSVBDUjlkY3dXT0lCUmFIRmRfa0NVSDdaUzRNaVg4ZU9vV0VUOVZNVldHVUdxT2hENS03cnJCcUFvMUx1a3NiOVNV?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 58,
-      "Macro & Economy": 59,
-      "Investment Banking & Deals": 112,
+      "Stock Market & Equities": 68,
+      "Macro & Economy": 54,
+      "Investment Banking & Deals": 102,
       "Real Estate & REITs": 20,
-      "Earnings & Results": 170,
-      "Tech & Fintech": 118
+      "Earnings & Results": 175,
+      "Tech & Fintech": 116
     }
   },
   {
