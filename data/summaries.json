@@ -2,8 +2,14 @@
   {
     "week": "2026-W20",
     "label": "Week of May 11\u201315, 2026",
-    "generated": "2026-05-16T19:58:25.060843+00:00",
+    "generated": "2026-05-17T08:58:35.358519+00:00",
     "bullets": [
+      {
+        "headline": "Kratos Q1 2026 Earnings: Revenue Beat, Raised Guidance, and Analyst Q&A Highlights - News and Statistics - IndexBox",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeXFKLV9vaHNCLXd0eXJSNG9oS2owZjNSOS12dTY3c3IzaDlPdmVuN1hsY0lMcV9vN0NxS3FJV3dReFpmVHdXcGJNQnduaC1wQzVvbWhlakdTQndmbWViZzBhaTF0cHNKb3ZRNXBYazRSWDhHajJpNGhTXzR5U2l5QVFWTnhuTE80cG1FTHI4UXVkMTRGNmw5SFF3RTFsRFcyU0ltcER0ejE?oc=5"
+      },
       {
         "headline": "What you need to know about Nvidia competitor Cerebras after wild IPO",
         "source": "CNBC M&A",
@@ -11,10 +17,10 @@
         "link": "https://www.cnbc.com/2026/05/15/nvidia-cerebras-stock-price-ipo.html"
       },
       {
-        "headline": "InPost's 4.2 Billion Buyout Loan Draws Fresh Bank Demand - TradingView",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb0NMbHhNSzJGdlk4LXhFN0hmbEJuQkZxUHd2LVliZlNZOUVaWWoxYWx2c2ZQWFFUNmV0M2xTWl83NXdEdXJXVUxJRHlLajViamNkRDlxMFNFTC1XR2VNaU1DOVBlYzB4RXhTVWhSaTFhdFVRTXFnejVoNXFSNHVRVDd1V1F6N0RaNXJpU2lOU1pYQ2xNekUwdWxpTmZKZjJFdDRWc2JFY2hVZWF4RTlHa0s4NXRDQ2M?oc=5"
+        "headline": "Earnings call transcript: ADNOC Gas Q1 2026 misses earnings forecast By Investing.com - Investing.com Canada",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQXJuOFNlSWNUbGstXzZoQk8tZHZHbmZYRFlYa1pBYUhrdXZMVnlpWWNWVHJJS2doNngtWnBxVmVla0lTbWtsY0VremJ5VDAzWmNfWXpZcXJ6UTNPODA3WjM0QngxT015MEpBSHZWam41Z0RBdnZ3REcyZG5Td0NrY1JOdzhkVUpTajZtUkFUWHFzd0FVS1YzSFBJX09QN0I1NTVCQ0p3RE1wMzQ2Q24zUmNzT0ZDT3FqclpnQV9vMmRRMERRWTY0?oc=5"
       },
       {
         "headline": "Inflation rate projected to hit 6% in the second quarter, top economic forecasters say",
@@ -23,13 +29,7 @@
         "link": "https://www.cnbc.com/2026/05/15/inflation-rate-projected-to-hit-6percent-in-the-second-quarter-top-economic-forecasters-say.html"
       },
       {
-        "headline": "Earnings call transcript: GPS Q1 2026 misses estimates, stock dips - Investing.com",
-        "source": "Google \u2013 Earnings Beats",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbEFHYWlQa1JidHRqVTgyMUZ6U2dqeHRFYVJpQ0pudXh2dl9tZEsyS1NMZ1B6Z0lVay1FejB6X1RWZ1NIbE5hOF9UMlZKUEh2UmR4T2FSM1A0QjBMT0VMV1IyVmIzOVlwTWJUM3Y3S2J6MlJuMGZ1SjlMenpqMUtreXZpd2hNUVQxbXczbXBnSVhiMlBNVWdPQ0JwZ1pzalprdVZ5UWZ1NDUweW1fMzFiODVvS3E5Qzl4VFUyTA?oc=5"
-      },
-      {
-        "headline": "Cerebras, A.I. Chip Maker, Rises 89% in Market Debut as Tech IPOs Ramp Up - The New York Times",
+        "headline": "A.I. Chip Maker Soars 68% in Market Debut, as Tech I.P.O.s Ramp Up - The New York Times",
         "source": "Google \u2013 IPO",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kOW1FOE5TMUp6Y2xYZWdwV3pMaVBnR0Rwb2R4d2lsb0JsOVlDSm5SSV8tSVBDUjlkY3dXT0lCUmFIRmRfa0NVSDdaUzRNaVg4ZU9vV0VUOVZNVldHVUdxT2hENS03cnJCcUFvMUx1a3NiOVNV?oc=5"
@@ -37,11 +37,11 @@
     ],
     "section_counts": {
       "Stock Market & Equities": 58,
-      "Macro & Economy": 55,
-      "Investment Banking & Deals": 120,
-      "Real Estate & REITs": 18,
-      "Earnings & Results": 168,
-      "Tech & Fintech": 125
+      "Macro & Economy": 59,
+      "Investment Banking & Deals": 112,
+      "Real Estate & REITs": 20,
+      "Earnings & Results": 170,
+      "Tech & Fintech": 118
     }
   },
   {
