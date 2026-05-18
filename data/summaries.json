@@ -2,8 +2,14 @@
   {
     "week": "2026-W21",
     "label": "Week of May 18\u201322, 2026",
-    "generated": "2026-05-18T16:18:29.525232+00:00",
+    "generated": "2026-05-18T20:21:24.699271+00:00",
     "bullets": [
+      {
+        "headline": "Jury rules against Elon Musk in $150 billion lawsuit against OpenAI and Sam Altman",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/05/18/jury-rules-against-elon-musk-in-suit-against-openai/"
+      },
       {
         "headline": "The Fed will have to raise interest rates in July to appease 'bond vigilantes,' Yardeni says",
         "source": "CNBC Economy",
@@ -17,16 +23,16 @@
         "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNakhvV2xhU2doY2RCTmlxd29Fc1JIOWpuZkhmV1Bpc3lyVU5sVTRoY2lHT0dWVnRIeFBBVU5KaEV4TkRlcTN4Um1Ea1RqTTdjOXpzSzlwNEt3eVk1T0Z0VVlidFhoX1M1WGZ4WkdGQXRFSDRzaEN1dkFSdlVNOWhiSW5BZDFGVFpuazdDNm0taDl4dFdoZ3E3M1BtQTlNT1U4c0tLNFRrMUxZOXhZZXRya0hiNG1FMjhyUHZsTFYzMUJlVkZ3a3JrZDRrMWxYSHFRZGxmMXNQQ3ZGNkx1LXc?oc=5"
       },
       {
-        "headline": "BigCommerce Reports Q1 2026 Earnings: Revenue $86.84M, EPS $0.13 Beat Estimates - News and Statistics - IndexBox",
-        "source": "Google \u2013 Earnings Beats",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWmdiWTFVTThfQV9XOHdwWWFDWDhUZWdsbUE1NzF6S19IV1ZQOElTRmNsMFFQQ1J0ZDd6dGVobWZSdW5fb2lmd3VkUWIxTm4xQnRPM3hXNUQtTmF5SXJsT0FIRHBMOTdBOExUa1RCUW1oUVd4aFdnam1ISGQxbmtHbGh2aG5Kc3B3b0xtUEFyWEY5YndNYjlLU0FjMnYyUktSVzdCQmhfZEU5UzJfbG95c3ZLa3YxalYw?oc=5"
-      },
-      {
         "headline": "Datadog Q1 2026 Financial Results: Revenue Beat and Raised Guidance - News and Statistics - IndexBox",
         "source": "Google \u2013 Guidance",
         "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaXoxUmo5VUxuT1FMMDN3dkdwUkNjNEpCT0FpT3lSeURTeUYzZUp2M0Y2SERjOEcwTnlvTHlqX0NoeVBSNGYteHZoZXJFejNEVXRYY2FzNmNzSjFXQ2Z3WE13WUNvUVdaaXlsMHJUNmVEUWNBUlcyTFI3RHFtUURCVm1saE5FdllDQm1QSXQxdUh6bWpfYVBSbktGTzlPRGhYbFE?oc=5"
+      },
+      {
+        "headline": "McKesson Reports Q1 Fiscal 2026 Earnings: Revenue Miss, EPS Beat - News and Statistics - IndexBox",
+        "source": "Google \u2013 Earnings Beats",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSk5WUkVncDMtczFuUm5TSmlRYWpzalBHZlA4NXVVSzFjSnZmZkhwS1J0a0J2QVZIQzNmeG5jUXlfaGhqMVdSY2pjc2RINDVQQXZYcnM1aHBwNzhaY2FnSS0yNVJPa3dZeGxaNWNtcWVfdy13RFRjM0xXQmkyMTVTWjQzc25pdVlMZDZwTmk4TDBPMDA?oc=5"
       },
       {
         "headline": "InPost's 4.2 Billion Buyout Loan Draws Fresh Bank Demand - TradingView",
@@ -37,11 +43,11 @@
     ],
     "section_counts": {
       "Stock Market & Equities": 69,
-      "Macro & Economy": 53,
-      "Investment Banking & Deals": 107,
-      "Real Estate & REITs": 22,
-      "Earnings & Results": 170,
-      "Tech & Fintech": 110
+      "Macro & Economy": 56,
+      "Investment Banking & Deals": 105,
+      "Real Estate & REITs": 23,
+      "Earnings & Results": 166,
+      "Tech & Fintech": 113
     }
   },
   {
