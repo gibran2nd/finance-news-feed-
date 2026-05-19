@@ -2,7 +2,7 @@
   {
     "week": "2026-W21",
     "label": "Week of May 18\u201322, 2026",
-    "generated": "2026-05-19T16:14:27.957853+00:00",
+    "generated": "2026-05-19T20:25:43.871595+00:00",
     "bullets": [
       {
         "headline": "The AI economy is rewriting the American Dream \u2014 and blue-collar workers are poised to win",
@@ -11,16 +11,22 @@
         "link": "https://www.cnbc.com/2026/05/19/ai-hiring-slowdown-skilled-trade-workers.html"
       },
       {
+        "headline": "SpaceX\u2019s \u2018otherworldly\u2019 debut could squeeze the oxygen from Europe\u2019s IPO market, analysts say - CNBC",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZWtwS2dhdENYSGxQTXVrNW05ZFE0anBYNTZnTlFpZkRYTUhjcDM0dWphelcwWjhCM0JSVU04V05ZSTh1OHNMZHFYNS1INmJnWlFCMURLRGlFU0JaNjJndE1BNDdldWNSUW5LRktWWFptdkVTSFdnc1NyRDVMZ21XaTZNNHo2bF9jX29ySE8zeVhZS3g4V09sOVlwYk5ONW02SEs0VtIBqgFBVV95cUxQYTJPMW5ld09Janc4bnFhbHZWYWVCSlYxZjVNQXZQWmZPbWdDakEwOU5IZmdyMlJLdk9HYjM1QnVUUFVLbHhRQ3N3SFMxMWt2Q3dwdURueUNLRVJ5ZHY2YjRRc3lqeG1OS2ptSzJRLVYtMmtOTGYtSTFRVHZkUFpDT1ZJT3pwLWVLSHZvNy1RTHp2aGlMUTM0U004bnIzZnpjNmV0YjhOSEFZZw?oc=5"
+      },
+      {
+        "headline": "Kevin Warsh to be sworn in as Federal Reserve chair on Friday",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/05/18/kevin-warsh-trump-federal-reserve-chair.html"
+      },
+      {
         "headline": "Corpay Q1 2026 Results: Revenue $1.26B, EPS $5.80, Guidance Raised - News and Statistics - IndexBox",
         "source": "Google \u2013 Earnings Beats",
         "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeG5UeEQwU1VoTGY3NHFKcEFnV01xaXhQZHNyUXA5TS1Wcm5KRmFTaGJrMHp4dVUwclZMWGNlbVRWVWZ2LVpIakNFQUlxSTYzRlNBa0tDejRLNVRJZUFMYjRvWl9rSVdDNTNRd0MtZHpJZ0NaeXZuVVl3Vi03cUpFbHBlRVNUcC1sZGlSUnJSSVlQWS12djRkZw?oc=5"
-      },
-      {
-        "headline": "Elon Musk Loses Landmark Lawsuit Against OpenAI",
-        "source": "Wired Business",
-        "section": "Tech & Fintech",
-        "link": "https://www.wired.com/story/musk-v-altman-jury-verdict/"
       },
       {
         "headline": "The Fed will have to raise interest rates in July to appease 'bond vigilantes,' Yardeni says",
@@ -36,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 63,
-      "Macro & Economy": 52,
-      "Investment Banking & Deals": 110,
+      "Stock Market & Equities": 61,
+      "Macro & Economy": 51,
+      "Investment Banking & Deals": 107,
       "Real Estate & REITs": 19,
-      "Earnings & Results": 158,
-      "Tech & Fintech": 123
+      "Earnings & Results": 153,
+      "Tech & Fintech": 122
     }
   },
   {
