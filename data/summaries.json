@@ -2,13 +2,31 @@
   {
     "week": "2026-W21",
     "label": "Week of May 18\u201322, 2026",
-    "generated": "2026-05-18T20:21:24.699271+00:00",
+    "generated": "2026-05-19T10:33:39.251806+00:00",
     "bullets": [
       {
-        "headline": "Jury rules against Elon Musk in $150 billion lawsuit against OpenAI and Sam Altman",
-        "source": "Fortune",
+        "headline": "Corpay Q1 2026 Results: Revenue $1.26B, EPS $5.80, Guidance Raised - News and Statistics - IndexBox",
+        "source": "Google \u2013 Earnings Beats",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeG5UeEQwU1VoTGY3NHFKcEFnV01xaXhQZHNyUXA5TS1Wcm5KRmFTaGJrMHp4dVUwclZMWGNlbVRWVWZ2LVpIakNFQUlxSTYzRlNBa0tDejRLNVRJZUFMYjRvWl9rSVdDNTNRd0MtZHpJZ0NaeXZuVVl3Vi03cUpFbHBlRVNUcC1sZGlSUnJSSVlQWS12djRkZw?oc=5"
+      },
+      {
+        "headline": "The AI economy is rewriting the American Dream \u2014 and blue-collar workers are poised to win",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/05/19/ai-hiring-slowdown-skilled-trade-workers.html"
+      },
+      {
+        "headline": "Elon Musk loses court battle against OpenAI",
+        "source": "Yahoo Finance",
         "section": "Stock Market & Equities",
-        "link": "https://fortune.com/2026/05/18/jury-rules-against-elon-musk-in-suit-against-openai/"
+        "link": "https://finance.yahoo.com/news/elon-musk-loses-court-battle-against-openai-175338472.html"
+      },
+      {
+        "headline": "Kevin Warsh to be sworn in as Federal Reserve chair on Friday",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/05/18/kevin-warsh-trump-federal-reserve-chair.html"
       },
       {
         "headline": "The Fed will have to raise interest rates in July to appease 'bond vigilantes,' Yardeni says",
@@ -21,33 +39,15 @@
         "source": "Google \u2013 Earnings Beats",
         "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNakhvV2xhU2doY2RCTmlxd29Fc1JIOWpuZkhmV1Bpc3lyVU5sVTRoY2lHT0dWVnRIeFBBVU5KaEV4TkRlcTN4Um1Ea1RqTTdjOXpzSzlwNEt3eVk1T0Z0VVlidFhoX1M1WGZ4WkdGQXRFSDRzaEN1dkFSdlVNOWhiSW5BZDFGVFpuazdDNm0taDl4dFdoZ3E3M1BtQTlNT1U4c0tLNFRrMUxZOXhZZXRya0hiNG1FMjhyUHZsTFYzMUJlVkZ3a3JrZDRrMWxYSHFRZGxmMXNQQ3ZGNkx1LXc?oc=5"
-      },
-      {
-        "headline": "Datadog Q1 2026 Financial Results: Revenue Beat and Raised Guidance - News and Statistics - IndexBox",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaXoxUmo5VUxuT1FMMDN3dkdwUkNjNEpCT0FpT3lSeURTeUYzZUp2M0Y2SERjOEcwTnlvTHlqX0NoeVBSNGYteHZoZXJFejNEVXRYY2FzNmNzSjFXQ2Z3WE13WUNvUVdaaXlsMHJUNmVEUWNBUlcyTFI3RHFtUURCVm1saE5FdllDQm1QSXQxdUh6bWpfYVBSbktGTzlPRGhYbFE?oc=5"
-      },
-      {
-        "headline": "McKesson Reports Q1 Fiscal 2026 Earnings: Revenue Miss, EPS Beat - News and Statistics - IndexBox",
-        "source": "Google \u2013 Earnings Beats",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSk5WUkVncDMtczFuUm5TSmlRYWpzalBHZlA4NXVVSzFjSnZmZkhwS1J0a0J2QVZIQzNmeG5jUXlfaGhqMVdSY2pjc2RINDVQQXZYcnM1aHBwNzhaY2FnSS0yNVJPa3dZeGxaNWNtcWVfdy13RFRjM0xXQmkyMTVTWjQzc25pdVlMZDZwTmk4TDBPMDA?oc=5"
-      },
-      {
-        "headline": "InPost's 4.2 Billion Buyout Loan Draws Fresh Bank Demand - TradingView",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb0NMbHhNSzJGdlk4LXhFN0hmbEJuQkZxUHd2LVliZlNZOUVaWWoxYWx2c2ZQWFFUNmV0M2xTWl83NXdEdXJXVUxJRHlLajViamNkRDlxMFNFTC1XR2VNaU1DOVBlYzB4RXhTVWhSaTFhdFVRTXFnejVoNXFSNHVRVDd1V1F6N0RaNXJpU2lOU1pYQ2xNekUwdWxpTmZKZjJFdDRWc2JFY2hVZWF4RTlHa0s4NXRDQ2M?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 69,
-      "Macro & Economy": 56,
-      "Investment Banking & Deals": 105,
-      "Real Estate & REITs": 23,
-      "Earnings & Results": 166,
-      "Tech & Fintech": 113
+      "Stock Market & Equities": 63,
+      "Macro & Economy": 54,
+      "Investment Banking & Deals": 111,
+      "Real Estate & REITs": 20,
+      "Earnings & Results": 153,
+      "Tech & Fintech": 119
     }
   },
   {
