@@ -2,19 +2,25 @@
   {
     "week": "2026-W21",
     "label": "Week of May 18\u201322, 2026",
-    "generated": "2026-05-20T10:20:18.441547+00:00",
+    "generated": "2026-05-20T16:20:31.537116+00:00",
     "bullets": [
       {
-        "headline": "Target is set to report first-quarter earnings, offer read on consumer",
+        "headline": "Fintech firm Mercury hits $5.2 billion valuation after funding round, up 49% in 14 months",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/05/20/fintech-mercury-valuation-fundraise-bank-charter.html"
+      },
+      {
+        "headline": "Lowe's beats Wall Street expectations against 'challenging' housing backdrop",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/20/lowes-low-q1-2026-earnings.html"
+      },
+      {
+        "headline": "Target beats Wall Street estimates, hikes sales outlook as shoppers start to return",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/05/20/target-tgt-q1-2026-earnings.html"
-      },
-      {
-        "headline": "SpaceX picks Goldman Sachs for lead left position on record-breaking IPO, sources say - CNBC",
-        "source": "Google \u2013 IPO",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZV9CajFHN2J6ckZsT0QzUDlJUm9BY01BZ0hPd2tHUDNWcnpJc0RweXdXN3ZsZ0I4NjBWeG1nalFTOEc4b2lHeUxPNHo1ZWM5Q0JSSW1JNXBIRktWS3pUWE5OdlZERXp3T2hvdFZ4UjFfaWlGZTJIUDZxT01HSWZTUXpaRXpFcmstZWNNaFhZV211OTNlUmFsR1pVVnljajFUSUlWWDBR0gGrAUFVX3lxTE5CTHFCTEVHZVMzQXF5T1FSSFpVdTB0dThWb2pUM0dydEN3aVZsYjVjTDZGN0NiOHlDUmtLY3Bhd3NvVi1TTnBRV2ZEdF9xc2xTSlhHZ0tQTnVHWnFJWjRTYUJyVFdHbDdmZ1lhNEVOTUcwODlITU1JU1RRNFRXbHVRQ3lyaG91NDZqbWt2dlNtNGxfYU5QaURjdDU5OGFWZUdGbjFBakdfRWoybw?oc=5"
       },
       {
         "headline": "Grocery Outlet Q1 2026 Earnings: Revenue Beat, EPS Surprise, and Guidance Update - News and Statistics - IndexBox",
@@ -29,25 +35,19 @@
         "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYzdzQWhGX0MyU1lEY2VjT1VQSmRQSmMzLTVqaFE5TWdxUnAtS084UHFDNlhGNWF4M1VaT0tGMTZxVS1MYWE4bTlDOVdpT0hQTlB4T19QWHV6TVFyWkVkSmdMXzk4c3Rqd0NpR3lZQm1DTGs5WVREMzlqNTIxcXRlZjdVaENoRllOYW5CLVY4UVppWHdzNDdIX0g4eGY0VFZURDFqTUpUNmxMS3Jn?oc=5"
       },
       {
-        "headline": "Bolt CEO says he let go of his entire HR team for creating problems that didn\u2019t exist: \u2018Those problems disappeared when I let them go\u2019",
-        "source": "Fortune",
-        "section": "Stock Market & Equities",
-        "link": "https://fortune.com/2026/05/19/bolt-ceo-ryan-breslow-cut-hr-department-causing-problems-fintech-startup-turn-around/"
-      },
-      {
-        "headline": "Home Depot was a mistake but selling it now would compound it. Why we're hanging on",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/19/home-depot-was-a-mistake-but-selling-it-now-would-compound-it-why-were-hanging-on.html"
+        "headline": "Earnings call transcript: Ceragon Networks Q1 2026 revenue beats estimates By Investing.com - Investing.com Australia",
+        "source": "Google \u2013 Earnings Beats",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNXMzLWJxVXpNVDVzRkxYRjh1V0FNaHhUdl9jZlNtel9ERDA4d0VQbUNwTXRrbjNoejRaYklISjlBMC15RmpLdEE0MHp0bFNwWWhMZWg0b0xfaFEzQkItdm1IbVh6T0o4dlZMNTZ3R1dMU0thdGt3STN6by1xNDhWY05vWXNrTHNwVURxdHRLTkpXeGRJQVpQNUwwS25udEZHb3RsUXpmMlVmZ1o1REI3YW5FbDIyNWZCRkxmRW9tV0M2WUhpalZad1VwcUhoQ3M?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 60,
-      "Macro & Economy": 51,
-      "Investment Banking & Deals": 123,
+      "Stock Market & Equities": 59,
+      "Macro & Economy": 49,
+      "Investment Banking & Deals": 124,
       "Real Estate & REITs": 23,
-      "Earnings & Results": 145,
-      "Tech & Fintech": 133
+      "Earnings & Results": 146,
+      "Tech & Fintech": 134
     }
   },
   {
