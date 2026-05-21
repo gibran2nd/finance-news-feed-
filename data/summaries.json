@@ -2,25 +2,19 @@
   {
     "week": "2026-W21",
     "label": "Week of May 18\u201322, 2026",
-    "generated": "2026-05-21T10:33:15.238373+00:00",
+    "generated": "2026-05-21T16:11:26.581185+00:00",
     "bullets": [
       {
-        "headline": "Ubisoft shares plunge 14% after Assassin\u2019s Creed maker warns of annual profit loss",
+        "headline": "Ubisoft shares fall after Assassin\u2019s Creed maker warns of further losses to come",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/05/21/ubisoft-fy-earnings-profit-loss-assassins-creed.html"
       },
       {
-        "headline": "UK-Gulf trade deal a 'monumental achievement,' Bahrain industry minister tells CNBC",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/05/21/uk-gcc-trade-deal-bahrain-gulf-investment.html"
-      },
-      {
-        "headline": "Japan\u2019s megabanks post record profits, but analysts warn growth may slow as risks mount",
-        "source": "CNBC Markets",
+        "headline": "SpaceX Is Quietly Trading at a Price That Would Make It 23x Bigger Than Facebook\u2019s IPO",
+        "source": "Yahoo Finance",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/21/japan-megabanks-profits-growth-risks-sumitomo-mitsui-mizuho-mitsubishi-ufj.html"
+        "link": "https://finance.yahoo.com/markets/options/articles/spacex-quietly-trading-price-23x-155150831.html"
       },
       {
         "headline": "General Catalyst just led a $63M bet on India\u2019s travel payments market",
@@ -29,25 +23,31 @@
         "link": "https://techcrunch.com/2026/05/20/indian-travel-fintech-scapia-more-than-doubles-valuation-to-over-500m-in-a-year/"
       },
       {
-        "headline": "Walmart to report first-quarter earnings before the bell. Here's what Wall Street expects",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/21/walmart-wmt-earnings-q1-2027.html"
-      },
-      {
         "headline": "Anthropic set to hit $10.9 billion in revenue during second quarter, source says - CNBC",
         "source": "Google \u2013 IPO",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWjBGMXlvandTQTFWaHdfRVBxNXVIRVczYV8tbExMXzNRQ3dFM09qeTE2NnluWnZ2bXoxVG5mQ00tYnBRRnpSNnlkQlhJV3k2aDU3SGNRLVBqVzhvMktIeTVHZXNmWThHalVSNTd1Zk5IcjdZRkJYaU1VSWxWeW5Uc3F3X3dXX0pPSVJMWmp1dVliSy16cFZJQ1h30gGfAUFVX3lxTE0teWVONzJqY3U2Z1l5MTA2dDBSZmJLaW1iZURyQVB4T1htNHBBSVc5Y2h4c29CTDhGV1ZIYTB0VkFlMzRSSDdDS2hDaWJtYkVvVU9NTHRFUnZGQ2NJaE9RVGN5NV9wQmZLRG9xWUNJMUtwejFFMU44R3pkQ1VHSDRkaDNxYXJ6Mm1DUlpDclM5TTZUOVRLXzVPaTA3NGpqdw?oc=5"
+      },
+      {
+        "headline": "Digital Banking Startup Mercury Lands $200M At $5.2B Valuation Amid Fintech Funding Uptick",
+        "source": "Crunchbase News",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.crunchbase.com/venture/fintech-funding-digital-banking-startup-mercury-lands-200m/"
+      },
+      {
+        "headline": "OpenAI to confidentially file for IPO as soon as Friday: Source",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/05/20/openai-ipo-filing.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 60,
-      "Macro & Economy": 51,
-      "Investment Banking & Deals": 129,
-      "Real Estate & REITs": 24,
-      "Earnings & Results": 146,
-      "Tech & Fintech": 139
+      "Stock Market & Equities": 66,
+      "Macro & Economy": 46,
+      "Investment Banking & Deals": 139,
+      "Real Estate & REITs": 21,
+      "Earnings & Results": 135,
+      "Tech & Fintech": 142
     }
   },
   {
