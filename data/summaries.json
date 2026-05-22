@@ -2,8 +2,14 @@
   {
     "week": "2026-W21",
     "label": "Week of May 18\u201322, 2026",
-    "generated": "2026-05-22T15:45:06.278585+00:00",
+    "generated": "2026-05-22T20:28:26.794595+00:00",
     "bullets": [
+      {
+        "headline": "Kevin Warsh sworn in as new US Fed chair - Al Jazeera",
+        "source": "Google \u2013 Fed & Rates",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOY0NoNXl2bHVYaTFoYWNDWVlRZWgycnhJT01UV0FWU2cwaVRhcEJqd01fdUJHdXpraTRhdk0tR0UzbnJSeURidjlNZUl1WTF4eUFxM3JzVEFzYlQ0bVMtOWt6eVlYd2VNMUQ0a3ZOcW9fLTRldnJwRFV6OGUwS3U1WUlQcFlzM1c2VHF6a9IBkgFBVV95cUxNUWhRb05UZ1d1Q25udl9pdFBXWHYzbE1KcG5ZZzZMZERDcXNXS1FVaDhDMGo5Rlg5a3dnQ0thV3NwWHJXWTZHRTFsM1lXUllranY1UG03bGVxSjUxUzQ5YkJkd0stSkg0WTNKT2M3Um0yaHZia2tKMHJDeVdLMGRmUHpxSUlFX3hoWVhHdzM1ckJLZw?oc=5"
+      },
       {
         "headline": "Workday jumps 5% as it bumps up margin forecast on AI strength",
         "source": "CNBC Markets",
@@ -17,10 +23,10 @@
         "link": "https://techcrunch.com/2026/05/22/smart-ring-maker-oura-files-to-go-public/"
       },
       {
-        "headline": "Mega-IPOs could signal market top, say analysts as SpaceX and OpenAI prep record floats - CNBC",
-        "source": "Google \u2013 IPO",
+        "headline": "Mega-IPOs could signal market top, say analysts as SpaceX and OpenAI prep record floats",
+        "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRFh6TVlWb1hnUHRVeWc3Mm0tdmhBWmhRZWtFa0JZT0R3dFR2aG9XR1A3QUo1UXFxaVVrRWREcHZBblRzVDVxUTI5OXUtdEZRaHpUbC1BVVg1c3A1R3ktUDNGRjNaTlU1aGIxWnV2d00tbm1jdDJyWnpNdTFJMHJMZnNzUHBNQ3VsajU1c3FtVi02RFXSAZgBQVVfeXFMUE9QMi0weVJjanNFM09Eb1J3aHh0QVd3Zl9sa3F3bEMwREtqNE1qZDQ4cm1Qa3RRMXF6cThRLUgzZ3dHTVRQbTFKUmd6dXRNSGVDZjFfc1RqUVhtTTVVRGI5amp0aDVHeWRKbG5fT3M1R28yYXNnOVlTSmc1eUo2YjhUUWJManhsVmdVQXg4eW50TXF2dkQ4a0Q?oc=5"
+        "link": "https://www.cnbc.com/2026/05/22/ipo-flurry-top-market-analysts-ai-spacex-musk-altman.html"
       },
       {
         "headline": "Earnings call transcript: Indian Oil Q4 2026 beats earnings forecast, stock dips - Investing.com Canada",
@@ -33,20 +39,14 @@
         "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
         "link": "https://www.cnbc.com/2026/05/21/spacex-plans-12th-test-flight-of-massive-starship-rocket-as-ipo-looms.html"
-      },
-      {
-        "headline": "Anthropic, Microsoft in talks for AI chip deal after $5 billion investment",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/05/21/anthropic-microsoft-maia-200-ai-chip.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 71,
-      "Macro & Economy": 46,
-      "Investment Banking & Deals": 143,
+      "Stock Market & Equities": 60,
+      "Macro & Economy": 47,
+      "Investment Banking & Deals": 141,
       "Real Estate & REITs": 19,
-      "Earnings & Results": 121,
+      "Earnings & Results": 113,
       "Tech & Fintech": 138
     }
   },
