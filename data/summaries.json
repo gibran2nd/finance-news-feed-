@@ -2,8 +2,26 @@
   {
     "week": "2026-W21",
     "label": "Week of May 18\u201322, 2026",
-    "generated": "2026-05-21T20:46:58.983809+00:00",
+    "generated": "2026-05-22T10:18:12.363532+00:00",
     "bullets": [
+      {
+        "headline": "Earnings call transcript: Indian Oil Q4 2026 beats earnings forecast, stock dips - Investing.com Australia",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZDN0Sm1OT2VrQVVLdEZTOTJpbXJDZ2MzWVRyUWZQVlJndEZxeUs5RXNrckxtM3Mwdno4SEgtYzZVSEszMXdWMkdpOEUza1l5Z0x2dVhWR3RtbEdxWE5VODZfd244X05ydEFTUmlXeXBlM01CckE0ZTk5eG9GRzh2cGNpRFdMeElUV2ZiMlRZLXJxX2lNTF9uODlfUTJWU2FMT2YyX3pNdmdUN29sWVVuVThUWC1uZDA0cGpUWmJfcmQyelBzeS0zTmd1YnN0clZWNkQxbmtn?oc=5"
+      },
+      {
+        "headline": "Lenovo shares jump nearly 20% on record earnings as AI revenue nearly doubles",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/22/lenovo-shares-jump-15percent-on-record-earnings-as-ai-revenue-nearly-doubles.html"
+      },
+      {
+        "headline": "SpaceX scrubs test flight of massive Starship rocket, will retry Friday",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/05/21/spacex-plans-12th-test-flight-of-massive-starship-rocket-as-ipo-looms.html"
+      },
       {
         "headline": "Workday jumps 14% as it bumps up margin forecast on AI strength",
         "source": "CNBC Markets",
@@ -11,43 +29,25 @@
         "link": "https://www.cnbc.com/2026/05/21/workday-wday-q1-earnings-report-2027.html"
       },
       {
-        "headline": "Oura, smart ring maker, files confidentially for IPO - CNBC",
-        "source": "Google \u2013 IPO",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92WlB5cFQ0Wl9FVTZZQzRMWDVKYzFHRnBIeEc2SkFTSjlTdlBNR0o4cUtXWUYxc2ZSM1JaTG1VRzJ0bFp0MVlPVWtMalc3c2pYZElSS2NuR01lNEQ1UHM5WmxkV1hjZncxbmNZbmZWTWTSAXZBVV95cUxQemdGVDUwME9DNF9uLVV2VjQyUG9YVWoybUpGRUpfSjg2bldZOUJ0Y18wc3hyWXdfZzR6MXRnTTBZXzlQNF85S0txQ2tDOF9zQ3FVRVNTYjU5bjhiMWhxSDVjYmFrMWw1bUVYVi1VOG5qMHQ5LUVn?oc=5"
-      },
-      {
-        "headline": "Retail investors will get access to SpaceX's IPO\u2014here's what to know before buying",
+        "headline": "Anthropic, Microsoft in talks for AI chip deal after $5 billion investment",
         "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/05/21/spacex-ipo-what-retail-investors-need-to-know-before-buying-shares.html"
+        "link": "https://www.cnbc.com/2026/05/21/anthropic-microsoft-maia-200-ai-chip.html"
       },
       {
-        "headline": "Anthropic set to hit $10.9 billion in revenue during second quarter, source says",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/20/anthropic-revenue-explosive-growth-ipo-profitable-quarter.html"
-      },
-      {
-        "headline": "Digital Banking Startup Mercury Lands $200M At $5.2B Valuation Amid Fintech Funding Uptick",
-        "source": "Crunchbase News",
+        "headline": "Oura, smart ring maker, files confidentially for IPO",
+        "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
-        "link": "https://news.crunchbase.com/venture/fintech-funding-digital-banking-startup-mercury-lands-200m/"
-      },
-      {
-        "headline": "Jack in the Box Q1 Fiscal 2026 Results: Revenue Decline, Earnings Beat - News and Statistics - IndexBox",
-        "source": "Google \u2013 Earnings Beats",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYzdzQWhGX0MyU1lEY2VjT1VQSmRQSmMzLTVqaFE5TWdxUnAtS084UHFDNlhGNWF4M1VaT0tGMTZxVS1MYWE4bTlDOVdpT0hQTlB4T19QWHV6TVFyWkVkSmdMXzk4c3Rqd0NpR3lZQm1DTGs5WVREMzlqNTIxcXRlZjdVaENoRllOYW5CLVY4UVppWHdzNDdIX0g4eGY0VFZURDFqTUpUNmxMS3Jn?oc=5"
+        "link": "https://www.cnbc.com/2026/05/21/oura-smart-ring-ipo-filing.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 72,
-      "Macro & Economy": 44,
-      "Investment Banking & Deals": 135,
-      "Real Estate & REITs": 19,
-      "Earnings & Results": 131,
-      "Tech & Fintech": 140
+      "Stock Market & Equities": 64,
+      "Macro & Economy": 47,
+      "Investment Banking & Deals": 149,
+      "Real Estate & REITs": 20,
+      "Earnings & Results": 125,
+      "Tech & Fintech": 134
     }
   },
   {
