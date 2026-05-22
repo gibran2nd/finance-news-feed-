@@ -2,19 +2,31 @@
   {
     "week": "2026-W21",
     "label": "Week of May 18\u201322, 2026",
-    "generated": "2026-05-22T10:18:12.363532+00:00",
+    "generated": "2026-05-22T15:45:06.278585+00:00",
     "bullets": [
       {
-        "headline": "Earnings call transcript: Indian Oil Q4 2026 beats earnings forecast, stock dips - Investing.com Australia",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZDN0Sm1OT2VrQVVLdEZTOTJpbXJDZ2MzWVRyUWZQVlJndEZxeUs5RXNrckxtM3Mwdno4SEgtYzZVSEszMXdWMkdpOEUza1l5Z0x2dVhWR3RtbEdxWE5VODZfd244X05ydEFTUmlXeXBlM01CckE0ZTk5eG9GRzh2cGNpRFdMeElUV2ZiMlRZLXJxX2lNTF9uODlfUTJWU2FMT2YyX3pNdmdUN29sWVVuVThUWC1uZDA0cGpUWmJfcmQyelBzeS0zTmd1YnN0clZWNkQxbmtn?oc=5"
-      },
-      {
-        "headline": "Lenovo shares jump nearly 20% on record earnings as AI revenue nearly doubles",
+        "headline": "Workday jumps 5% as it bumps up margin forecast on AI strength",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/22/lenovo-shares-jump-15percent-on-record-earnings-as-ai-revenue-nearly-doubles.html"
+        "link": "https://www.cnbc.com/2026/05/21/workday-wday-q1-earnings-report-2027.html"
+      },
+      {
+        "headline": "Smart ring maker Oura files to go public",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/05/22/smart-ring-maker-oura-files-to-go-public/"
+      },
+      {
+        "headline": "Mega-IPOs could signal market top, say analysts as SpaceX and OpenAI prep record floats - CNBC",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRFh6TVlWb1hnUHRVeWc3Mm0tdmhBWmhRZWtFa0JZT0R3dFR2aG9XR1A3QUo1UXFxaVVrRWREcHZBblRzVDVxUTI5OXUtdEZRaHpUbC1BVVg1c3A1R3ktUDNGRjNaTlU1aGIxWnV2d00tbm1jdDJyWnpNdTFJMHJMZnNzUHBNQ3VsajU1c3FtVi02RFXSAZgBQVVfeXFMUE9QMi0weVJjanNFM09Eb1J3aHh0QVd3Zl9sa3F3bEMwREtqNE1qZDQ4cm1Qa3RRMXF6cThRLUgzZ3dHTVRQbTFKUmd6dXRNSGVDZjFfc1RqUVhtTTVVRGI5amp0aDVHeWRKbG5fT3M1R28yYXNnOVlTSmc1eUo2YjhUUWJManhsVmdVQXg4eW50TXF2dkQ4a0Q?oc=5"
+      },
+      {
+        "headline": "Earnings call transcript: Indian Oil Q4 2026 beats earnings forecast, stock dips - Investing.com Canada",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdzN5WVRQQU5zVkVSLVFDRm5obFVuM3BLeDhkU0xwbk1XWDRPdVIyYTFjNFlMZnFtZFY4ODVFWFY5UlZNcHpYWWtUWG5ieUM0Q3NLT2xtT1BfR1NYVi1YSlA3OWpIMU1BT1QzXzR2WDBNMXQ2OUl1aXAzeVR0N29OSmFkNGdyLU5xRjctWmdJM0gyeVYzRTdZeVA2alB3bkU3cWVRQUl3RUZJUHhWWEc4OVA5ZnRNOV9wTmFhbWxGR0h2TjFVVUozTlc4V2ZVUFowbHNGaURR?oc=5"
       },
       {
         "headline": "SpaceX scrubs test flight of massive Starship rocket, will retry Friday",
@@ -23,31 +35,19 @@
         "link": "https://www.cnbc.com/2026/05/21/spacex-plans-12th-test-flight-of-massive-starship-rocket-as-ipo-looms.html"
       },
       {
-        "headline": "Workday jumps 14% as it bumps up margin forecast on AI strength",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/21/workday-wday-q1-earnings-report-2027.html"
-      },
-      {
         "headline": "Anthropic, Microsoft in talks for AI chip deal after $5 billion investment",
         "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
         "link": "https://www.cnbc.com/2026/05/21/anthropic-microsoft-maia-200-ai-chip.html"
-      },
-      {
-        "headline": "Oura, smart ring maker, files confidentially for IPO",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/05/21/oura-smart-ring-ipo-filing.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 64,
-      "Macro & Economy": 47,
-      "Investment Banking & Deals": 149,
-      "Real Estate & REITs": 20,
-      "Earnings & Results": 125,
-      "Tech & Fintech": 134
+      "Stock Market & Equities": 71,
+      "Macro & Economy": 46,
+      "Investment Banking & Deals": 143,
+      "Real Estate & REITs": 19,
+      "Earnings & Results": 121,
+      "Tech & Fintech": 138
     }
   },
   {
