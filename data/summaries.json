@@ -2,13 +2,19 @@
   {
     "week": "2026-W21",
     "label": "Week of May 18\u201322, 2026",
-    "generated": "2026-05-22T20:28:26.794595+00:00",
+    "generated": "2026-05-23T08:58:09.927879+00:00",
     "bullets": [
       {
         "headline": "Kevin Warsh sworn in as new US Fed chair - Al Jazeera",
         "source": "Google \u2013 Fed & Rates",
         "section": "Macro & Economy",
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOY0NoNXl2bHVYaTFoYWNDWVlRZWgycnhJT01UV0FWU2cwaVRhcEJqd01fdUJHdXpraTRhdk0tR0UzbnJSeURidjlNZUl1WTF4eUFxM3JzVEFzYlQ0bVMtOWt6eVlYd2VNMUQ0a3ZOcW9fLTRldnJwRFV6OGUwS3U1WUlQcFlzM1c2VHF6a9IBkgFBVV95cUxNUWhRb05UZ1d1Q25udl9pdFBXWHYzbE1KcG5ZZzZMZERDcXNXS1FVaDhDMGo5Rlg5a3dnQ0thV3NwWHJXWTZHRTFsM1lXUllranY1UG03bGVxSjUxUzQ5YkJkd0stSkg0WTNKT2M3Um0yaHZia2tKMHJDeVdLMGRmUHpxSUlFX3hoWVhHdzM1ckJLZw?oc=5"
+      },
+      {
+        "headline": "Kevin Warsh's real Fed 'regime change' may happen deep inside Wall Street's plumbing",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/05/22/kevin-warshs-real-fed-regime-change-may-happen-deep-inside-wall-streets-plumbing.html"
       },
       {
         "headline": "Workday jumps 5% as it bumps up margin forecast on AI strength",
@@ -21,12 +27,6 @@
         "source": "TechCrunch",
         "section": "Tech & Fintech",
         "link": "https://techcrunch.com/2026/05/22/smart-ring-maker-oura-files-to-go-public/"
-      },
-      {
-        "headline": "Mega-IPOs could signal market top, say analysts as SpaceX and OpenAI prep record floats",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/05/22/ipo-flurry-top-market-analysts-ai-spacex-musk-altman.html"
       },
       {
         "headline": "Earnings call transcript: Indian Oil Q4 2026 beats earnings forecast, stock dips - Investing.com Canada",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 60,
-      "Macro & Economy": 47,
-      "Investment Banking & Deals": 141,
+      "Stock Market & Equities": 69,
+      "Macro & Economy": 48,
+      "Investment Banking & Deals": 139,
       "Real Estate & REITs": 19,
-      "Earnings & Results": 113,
-      "Tech & Fintech": 138
+      "Earnings & Results": 106,
+      "Tech & Fintech": 133
     }
   },
   {
