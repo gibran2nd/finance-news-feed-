@@ -2,7 +2,7 @@
   {
     "week": "2026-W21",
     "label": "Week of May 18\u201322, 2026",
-    "generated": "2026-05-23T08:58:09.927879+00:00",
+    "generated": "2026-05-23T14:25:49.510457+00:00",
     "bullets": [
       {
         "headline": "Kevin Warsh sworn in as new US Fed chair - Al Jazeera",
@@ -17,12 +17,6 @@
         "link": "https://www.cnbc.com/2026/05/22/kevin-warshs-real-fed-regime-change-may-happen-deep-inside-wall-streets-plumbing.html"
       },
       {
-        "headline": "Workday jumps 5% as it bumps up margin forecast on AI strength",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/21/workday-wday-q1-earnings-report-2027.html"
-      },
-      {
         "headline": "Smart ring maker Oura files to go public",
         "source": "TechCrunch",
         "section": "Tech & Fintech",
@@ -35,18 +29,24 @@
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdzN5WVRQQU5zVkVSLVFDRm5obFVuM3BLeDhkU0xwbk1XWDRPdVIyYTFjNFlMZnFtZFY4ODVFWFY5UlZNcHpYWWtUWG5ieUM0Q3NLT2xtT1BfR1NYVi1YSlA3OWpIMU1BT1QzXzR2WDBNMXQ2OUl1aXAzeVR0N29OSmFkNGdyLU5xRjctWmdJM0gyeVYzRTdZeVA2alB3bkU3cWVRQUl3RUZJUHhWWEc4OVA5ZnRNOV9wTmFhbWxGR0h2TjFVVUozTlc4V2ZVUFowbHNGaURR?oc=5"
       },
       {
-        "headline": "SpaceX scrubs test flight of massive Starship rocket, will retry Friday",
-        "source": "CNBC M&A",
+        "headline": "Digital Banking Startup Mercury Lands $200M At $5.2B Valuation Amid Fintech Funding Uptick",
+        "source": "Crunchbase News",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/05/21/spacex-plans-12th-test-flight-of-massive-starship-rocket-as-ipo-looms.html"
+        "link": "https://news.crunchbase.com/venture/fintech-funding-digital-banking-startup-mercury-lands-200m/"
+      },
+      {
+        "headline": "Gilead Sciences Q1 2026 Earnings: Revenue Beat, Raised Guidance, and Key Analyst Questions - News and Statistics - IndexBox",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbnpiMUlhNF9lQS1WelE4QmhQWmY4bldMOUtYcjhULUdJQnItdFU3VWJTTWV5U0MxY0V4WnRjQXpBZzBvelZYSnRNXy04cXZSanJuRGMwVlNTNm1xVDdvTlpNbHRYMjdLUGRDVVM3Y3BCMlB3MTByNnBqR0hzRnhJWjJGNUZ5Nml0d1FZUjQ4WlNQNHFjYlY0eUNB?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 69,
-      "Macro & Economy": 48,
+      "Stock Market & Equities": 70,
+      "Macro & Economy": 51,
       "Investment Banking & Deals": 139,
       "Real Estate & REITs": 19,
-      "Earnings & Results": 106,
+      "Earnings & Results": 98,
       "Tech & Fintech": 133
     }
   },
