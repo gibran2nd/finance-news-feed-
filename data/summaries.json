@@ -1,5 +1,44 @@
 [
   {
+    "week": "2026-W22",
+    "label": "Week of May 25\u201329, 2026",
+    "generated": "2026-05-25T11:04:55.563246+00:00",
+    "bullets": [
+      {
+        "headline": "Jardine Matheson to buy Australia's I-MED at $2.4 billion enterprise value in healthcare push",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/sectors/healthcare/articles/jardine-matheson-acquire-australias-med-013836145.html"
+      },
+      {
+        "headline": "Kevin Warsh sworn in as new US Fed chair - Al Jazeera",
+        "source": "Google \u2013 Fed & Rates",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOY0NoNXl2bHVYaTFoYWNDWVlRZWgycnhJT01UV0FWU2cwaVRhcEJqd01fdUJHdXpraTRhdk0tR0UzbnJSeURidjlNZUl1WTF4eUFxM3JzVEFzYlQ0bVMtOWt6eVlYd2VNMUQ0a3ZOcW9fLTRldnJwRFV6OGUwS3U1WUlQcFlzM1c2VHF6a9IBkgFBVV95cUxNUWhRb05UZ1d1Q25udl9pdFBXWHYzbE1KcG5ZZzZMZERDcXNXS1FVaDhDMGo5Rlg5a3dnQ0thV3NwWHJXWTZHRTFsM1lXUllranY1UG03bGVxSjUxUzQ5YkJkd0stSkg0WTNKT2M3Um0yaHZia2tKMHJDeVdLMGRmUHpxSUlFX3hoWVhHdzM1ckJLZw?oc=5"
+      },
+      {
+        "headline": "Kevin Warsh's real Fed 'regime change' may happen deep inside Wall Street's plumbing",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/05/22/kevin-warshs-real-fed-regime-change-may-happen-deep-inside-wall-streets-plumbing.html"
+      },
+      {
+        "headline": "Earnings call transcript: Ceragon Networks Q1 2026 revenue beats estimates - Investing.com",
+        "source": "Google \u2013 Earnings Beats",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRkwyQ1A3NmVabXI3VTA3dWNEZ2JlSDdENWNZbnhGdENUY01Jd21Lb0syT2NkcjB5VUk5eWpEQXQyeDFPRXdHZEtEN0VCam9HMU81VTJIWHNVLXNqWUdLWXZwakVPZTc1OENaUXNlX3FjNTQwY3lpZjlXUmtXUUdvZ3VncUVQZWRfaE1vQ1FsVW53emFETUNrV1hZU0lfZjFacTZmNUxvdXBVdVpVaVQ5Vk1wY1BWU3N6bVd2eHVfbkxxVGRZQUNLMg?oc=5"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 72,
+      "Macro & Economy": 51,
+      "Investment Banking & Deals": 118,
+      "Real Estate & REITs": 18,
+      "Earnings & Results": 84,
+      "Tech & Fintech": 123
+    }
+  },
+  {
     "week": "2026-W21",
     "label": "Week of May 18\u201322, 2026",
     "generated": "2026-05-24T20:00:15.720389+00:00",
