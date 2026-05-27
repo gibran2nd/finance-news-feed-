@@ -2,22 +2,16 @@
   {
     "week": "2026-W22",
     "label": "Week of May 25\u201329, 2026",
-    "generated": "2026-05-27T16:32:17.822615+00:00",
+    "generated": "2026-05-27T20:58:00.725097+00:00",
     "bullets": [
       {
-        "headline": "Could This Fintech Stock Help Make You a Millionaire? - The Motley Fool",
-        "source": "Google \u2013 Fintech",
-        "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUmlyMThQQ2NIVl9kMG95cWNJb2hqXzVvWFFpay1sTVZnQ2t6dXk3UlZsdTl6SWRTVk1fS3VrVnZnanlIY1ZKaTZNaFZtMTJ6MTVXcXM0LWoyZUpCNVFKSUJKeUxzeUx4aC1hREw3eEgtUmlKUllOcEN0SjFCSkVUS2daWHZsNXQ0d25rWGJsUkhYOUNrTHBEcA?oc=5"
+        "headline": "Zscaler tanks 31% for worst day ever on 'prudent' guidance, sales shakeup",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/27/zscaler-zs-earnings-q3-2026.html"
       },
       {
-        "headline": "Lululemon settles proxy battle with founder Chip Wilson, agrees to two board nominees",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/05/27/lululemon-settles-proxy-battle-with-founder-chip-wilson.html"
-      },
-      {
-        "headline": "Abercrombie shares jump 13% on earnings beat even as Iran conflict hits sales",
+        "headline": "Abercrombie shares jump 12% on earnings beat even as Iran conflict hits sales",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/05/27/abercrombie-fitch-anf-earnings-q1-2026.html"
@@ -30,12 +24,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 66,
-      "Macro & Economy": 41,
-      "Investment Banking & Deals": 84,
+      "Stock Market & Equities": 73,
+      "Macro & Economy": 40,
+      "Investment Banking & Deals": 108,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 68,
-      "Tech & Fintech": 144
+      "Earnings & Results": 73,
+      "Tech & Fintech": 128
     }
   },
   {
