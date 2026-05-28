@@ -2,40 +2,52 @@
   {
     "week": "2026-W22",
     "label": "Week of May 25\u201329, 2026",
-    "generated": "2026-05-28T10:46:34.712026+00:00",
+    "generated": "2026-05-28T16:48:00.060372+00:00",
     "bullets": [
       {
-        "headline": "Google employee charged with $1M Polymarket insider trading bet on search term",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html"
+        "headline": "Kohl's stock spikes 20% as slumping retailer says sales trends are improving",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/28/kohls-kss-earnings-q1-2026.html"
+      },
+      {
+        "headline": "Google Engineer Charged Over $2.75 Million in Alleged Polymarket Insider Trading Bets",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/google-engineer-charged-over-2-162722766.html"
+      },
+      {
+        "headline": "Snowflake surges 37% toward best day ever on AI frenzy, fueling software rally",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/28/snowflake-snow-software-stock-rally.html"
+      },
+      {
+        "headline": "Best Buy stock climbs 15% on earnings beat as retailer aims to reinvigorate sales",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/28/best-buy-bby-q1-2027-earnings.html"
+      },
+      {
+        "headline": "Tilman Fertitta Acquires Caesars Entertainment in Deal Valued at $17.6B",
+        "source": "Commercial Observer",
+        "section": "Real Estate & REITs",
+        "link": "https://commercialobserver.com/2026/05/tilman-fertitta-acquires-caesars-entertainment/"
       },
       {
         "headline": "Salesforce beats on earnings and revenue but full-year guidance comes in light",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/05/27/salesforce-crm-q1-earnings-report-2027.html"
-      },
-      {
-        "headline": "Zscaler tanks 31% for worst day ever on 'prudent' guidance, sales shakeup",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/27/zscaler-zs-earnings-q3-2026.html"
-      },
-      {
-        "headline": "Flowers Foods (FLO) Maintains Full-Year Outlook despite Rising Input Costs",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/flowers-foods-flo-maintains-full-225200641.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 55,
-      "Macro & Economy": 39,
-      "Investment Banking & Deals": 109,
+      "Stock Market & Equities": 63,
+      "Macro & Economy": 40,
+      "Investment Banking & Deals": 127,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 73,
-      "Tech & Fintech": 123
+      "Earnings & Results": 86,
+      "Tech & Fintech": 125
     }
   },
   {
