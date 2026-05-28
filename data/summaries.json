@@ -2,52 +2,52 @@
   {
     "week": "2026-W22",
     "label": "Week of May 25\u201329, 2026",
-    "generated": "2026-05-28T16:48:00.060372+00:00",
+    "generated": "2026-05-28T21:02:45.644336+00:00",
     "bullets": [
       {
-        "headline": "Kohl's stock spikes 20% as slumping retailer says sales trends are improving",
+        "headline": "Dell shares jump 23% after server maker reports fastest sales growth since return to public market in 2018",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/05/28/dell-q1-earnings-report-2027.html"
+      },
+      {
+        "headline": "Okta jumps 8%, tops first-quarter results on agentic AI demand",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/28/kohls-kss-earnings-q1-2026.html"
+        "link": "https://www.cnbc.com/2026/05/28/okta-okta-earnings-q1-2027.html"
       },
       {
-        "headline": "Google Engineer Charged Over $2.75 Million in Alleged Polymarket Insider Trading Bets",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/google-engineer-charged-over-2-162722766.html"
-      },
-      {
-        "headline": "Snowflake surges 37% toward best day ever on AI frenzy, fueling software rally",
+        "headline": "Snowflake surges 36% for best day ever on AI frenzy, fueling software rally",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/05/28/snowflake-snow-software-stock-rally.html"
+      },
+      {
+        "headline": "Gap shares tumble 13% as retailer cuts sales guidance after disappointing Old Navy performance",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/28/gap-gap-earnings-q1-2026.html"
+      },
+      {
+        "headline": "American Eagle's Aerie is booming, but its namesake brand is lagging despite Sydney Sweeney ads",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/28/american-eagle-aeo-earnings-q1-2026.html"
       },
       {
         "headline": "Best Buy stock climbs 15% on earnings beat as retailer aims to reinvigorate sales",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/05/28/best-buy-bby-q1-2027-earnings.html"
-      },
-      {
-        "headline": "Tilman Fertitta Acquires Caesars Entertainment in Deal Valued at $17.6B",
-        "source": "Commercial Observer",
-        "section": "Real Estate & REITs",
-        "link": "https://commercialobserver.com/2026/05/tilman-fertitta-acquires-caesars-entertainment/"
-      },
-      {
-        "headline": "Salesforce beats on earnings and revenue but full-year guidance comes in light",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/27/salesforce-crm-q1-earnings-report-2027.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 63,
-      "Macro & Economy": 40,
-      "Investment Banking & Deals": 127,
+      "Stock Market & Equities": 61,
+      "Macro & Economy": 42,
+      "Investment Banking & Deals": 139,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 86,
-      "Tech & Fintech": 125
+      "Earnings & Results": 90,
+      "Tech & Fintech": 46
     }
   },
   {
