@@ -2,8 +2,20 @@
   {
     "week": "2026-W22",
     "label": "Week of May 25\u201329, 2026",
-    "generated": "2026-05-27T20:58:00.725097+00:00",
+    "generated": "2026-05-28T10:46:34.712026+00:00",
     "bullets": [
+      {
+        "headline": "Google employee charged with $1M Polymarket insider trading bet on search term",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html"
+      },
+      {
+        "headline": "Salesforce beats on earnings and revenue but full-year guidance comes in light",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/27/salesforce-crm-q1-earnings-report-2027.html"
+      },
       {
         "headline": "Zscaler tanks 31% for worst day ever on 'prudent' guidance, sales shakeup",
         "source": "CNBC Markets",
@@ -11,25 +23,19 @@
         "link": "https://www.cnbc.com/2026/05/27/zscaler-zs-earnings-q3-2026.html"
       },
       {
-        "headline": "Abercrombie shares jump 12% on earnings beat even as Iran conflict hits sales",
-        "source": "CNBC Markets",
+        "headline": "Flowers Foods (FLO) Maintains Full-Year Outlook despite Rising Input Costs",
+        "source": "Yahoo Finance",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/27/abercrombie-fitch-anf-earnings-q1-2026.html"
-      },
-      {
-        "headline": "Foot Locker returns to growth but weighs on Dick's Sporting Goods as earnings miss",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/27/dicks-sporting-goods-dks-earnings-q1-2026.html"
+        "link": "https://finance.yahoo.com/markets/stocks/articles/flowers-foods-flo-maintains-full-225200641.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 73,
-      "Macro & Economy": 40,
-      "Investment Banking & Deals": 108,
+      "Stock Market & Equities": 55,
+      "Macro & Economy": 39,
+      "Investment Banking & Deals": 109,
       "Real Estate & REITs": 17,
       "Earnings & Results": 73,
-      "Tech & Fintech": 128
+      "Tech & Fintech": 123
     }
   },
   {
