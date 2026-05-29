@@ -2,52 +2,52 @@
   {
     "week": "2026-W22",
     "label": "Week of May 25\u201329, 2026",
-    "generated": "2026-05-29T16:37:38.695258+00:00",
+    "generated": "2026-05-29T21:05:01.703225+00:00",
     "bullets": [
       {
-        "headline": "Dell stock skyrockets 32%, heads for best day ever as AI server revenue soars",
+        "headline": "Dell stock skyrockets 32% for its best day ever as AI server revenue soars",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html"
       },
       {
-        "headline": "Blue Origin\u2019s New Glenn rocket explodes during testing in Florida",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/05/28/blue-origins-new-glenn-rocket-explodes-during-testing-in-florida/"
-      },
-      {
-        "headline": "SentinelOne stock drops 12% as cyber firm trims headcount to boost AI investments",
+        "headline": "SentinelOne stock drops 8% as cyber firm trims headcount to boost AI investments",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/05/29/sentinelone-s-stock-earnings-ai-layoffs.html"
       },
       {
-        "headline": "American Eagle's Aerie is booming, but its namesake brand is lagging despite Sydney Sweeney ads",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/28/american-eagle-aeo-earnings-q1-2026.html"
+        "headline": "Iran war cost: Average U.S. household paying $450 more on gas and energy",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/05/29/energy-costs-inflation-iran-war-trump.html"
       },
       {
-        "headline": "Okta jumps 8%, tops first-quarter results on agentic AI demand",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/28/okta-okta-earnings-q1-2027.html"
+        "headline": "SpaceX skeptics have added reason for concern after Musk comments diverge from IPO filing - CNBC",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUWNjOHRzZDUyU2p0dFFiOXJUQUxNalRsUWRRRjE1U1lMVzZYUWZxR1laa0Q2QUNrd3VFcmF1WkRyQl96OWFkWmxpdW5Zelpkcm1Wd29xUkJFN0JMS2RNcEw5N0hUckRzalJaVFRFN0QyMV9DZ1l1QTJCcTdyREJkMnI4UjdMZ2NtUklNVzlDUUtwX3UzV2Z3c3I2bENoN1hNTy1MR0xR0gGrAUFVX3lxTE1rWTQ3Tngzb0lmcWJqSkcxYzFhV3BsMHdGTWluYXBsU0NYMWhibTFmNWRZYktxRHhjT09FTlZueGVvTmxISXFqU0lOV3FsbUxWWDY2S3NKZVVOOUN6a2RISEMwck12X09BYWhlU1ZRUlBiN1lNZjRVU0x6bU92X2RtX2QzYThEMHBFRG0tWWtqNUlLd3RyRzQ5U1hfaGd5RDdpckVMR1ZNZVEzQQ?oc=5"
       },
       {
-        "headline": "Gap shares tumble 14% as retailer cuts sales guidance after disappointing Old Navy performance",
-        "source": "CNBC Markets",
+        "headline": "How Is Meta\u2019s Stock Performance Compared to Other Internet Stocks?",
+        "source": "Yahoo Finance",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/28/gap-gap-earnings-q1-2026.html"
+        "link": "https://finance.yahoo.com/markets/stocks/articles/meta-stock-performance-compared-other-111701807.html"
+      },
+      {
+        "headline": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 52,
-      "Macro & Economy": 43,
-      "Investment Banking & Deals": 137,
+      "Stock Market & Equities": 76,
+      "Macro & Economy": 42,
+      "Investment Banking & Deals": 146,
       "Real Estate & REITs": 18,
-      "Earnings & Results": 92,
-      "Tech & Fintech": 48
+      "Earnings & Results": 99,
+      "Tech & Fintech": 128
     }
   },
   {
