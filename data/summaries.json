@@ -2,19 +2,25 @@
   {
     "week": "2026-W22",
     "label": "Week of May 25\u201329, 2026",
-    "generated": "2026-05-29T10:38:52.792355+00:00",
+    "generated": "2026-05-29T16:37:38.695258+00:00",
     "bullets": [
       {
-        "headline": "Blue Origin rocket explodes on launchpad during ground test",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/05/29/blue-origin-new-glenn-rocket-explosion-florida-test-nasa-artemis.html"
-      },
-      {
-        "headline": "Costco issues a lukewarm quarter, but delivers on the metric that matters most",
+        "headline": "Dell stock skyrockets 32%, heads for best day ever as AI server revenue soars",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/28/costco-issues-a-lukewarm-quarter-but-delivers-on-the-metric-that-matters-most.html"
+        "link": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html"
+      },
+      {
+        "headline": "Blue Origin\u2019s New Glenn rocket explodes during testing in Florida",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/05/28/blue-origins-new-glenn-rocket-explodes-during-testing-in-florida/"
+      },
+      {
+        "headline": "SentinelOne stock drops 12% as cyber firm trims headcount to boost AI investments",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/29/sentinelone-s-stock-earnings-ai-layoffs.html"
       },
       {
         "headline": "American Eagle's Aerie is booming, but its namesake brand is lagging despite Sydney Sweeney ads",
@@ -33,21 +39,15 @@
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/05/28/gap-gap-earnings-q1-2026.html"
-      },
-      {
-        "headline": "Costco says it saw 'record-breaking' gas volumes amid rising prices",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/28/costco-cost-q3-2026-earnings.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 61,
-      "Macro & Economy": 23,
-      "Investment Banking & Deals": 142,
-      "Real Estate & REITs": 19,
-      "Earnings & Results": 86,
-      "Tech & Fintech": 128
+      "Stock Market & Equities": 52,
+      "Macro & Economy": 43,
+      "Investment Banking & Deals": 137,
+      "Real Estate & REITs": 18,
+      "Earnings & Results": 92,
+      "Tech & Fintech": 48
     }
   },
   {
