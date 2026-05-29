@@ -2,31 +2,19 @@
   {
     "week": "2026-W22",
     "label": "Week of May 25\u201329, 2026",
-    "generated": "2026-05-28T21:02:45.644336+00:00",
+    "generated": "2026-05-29T10:38:52.792355+00:00",
     "bullets": [
       {
-        "headline": "Dell shares jump 23% after server maker reports fastest sales growth since return to public market in 2018",
+        "headline": "Blue Origin rocket explodes on launchpad during ground test",
         "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/05/28/dell-q1-earnings-report-2027.html"
+        "link": "https://www.cnbc.com/2026/05/29/blue-origin-new-glenn-rocket-explosion-florida-test-nasa-artemis.html"
       },
       {
-        "headline": "Okta jumps 8%, tops first-quarter results on agentic AI demand",
+        "headline": "Costco issues a lukewarm quarter, but delivers on the metric that matters most",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/28/okta-okta-earnings-q1-2027.html"
-      },
-      {
-        "headline": "Snowflake surges 36% for best day ever on AI frenzy, fueling software rally",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/28/snowflake-snow-software-stock-rally.html"
-      },
-      {
-        "headline": "Gap shares tumble 13% as retailer cuts sales guidance after disappointing Old Navy performance",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/28/gap-gap-earnings-q1-2026.html"
+        "link": "https://www.cnbc.com/2026/05/28/costco-issues-a-lukewarm-quarter-but-delivers-on-the-metric-that-matters-most.html"
       },
       {
         "headline": "American Eagle's Aerie is booming, but its namesake brand is lagging despite Sydney Sweeney ads",
@@ -35,19 +23,31 @@
         "link": "https://www.cnbc.com/2026/05/28/american-eagle-aeo-earnings-q1-2026.html"
       },
       {
-        "headline": "Best Buy stock climbs 15% on earnings beat as retailer aims to reinvigorate sales",
+        "headline": "Okta jumps 8%, tops first-quarter results on agentic AI demand",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/05/28/best-buy-bby-q1-2027-earnings.html"
+        "link": "https://www.cnbc.com/2026/05/28/okta-okta-earnings-q1-2027.html"
+      },
+      {
+        "headline": "Gap shares tumble 14% as retailer cuts sales guidance after disappointing Old Navy performance",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/28/gap-gap-earnings-q1-2026.html"
+      },
+      {
+        "headline": "Costco says it saw 'record-breaking' gas volumes amid rising prices",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/05/28/costco-cost-q3-2026-earnings.html"
       }
     ],
     "section_counts": {
       "Stock Market & Equities": 61,
-      "Macro & Economy": 42,
-      "Investment Banking & Deals": 139,
-      "Real Estate & REITs": 17,
-      "Earnings & Results": 90,
-      "Tech & Fintech": 46
+      "Macro & Economy": 23,
+      "Investment Banking & Deals": 142,
+      "Real Estate & REITs": 19,
+      "Earnings & Results": 86,
+      "Tech & Fintech": 128
     }
   },
   {
