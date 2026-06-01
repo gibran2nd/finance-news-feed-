@@ -2,25 +2,25 @@
   {
     "week": "2026-W23",
     "label": "Week of June 1\u20135, 2026",
-    "generated": "2026-06-01T18:33:25.537773+00:00",
+    "generated": "2026-06-01T21:57:02.210919+00:00",
     "bullets": [
       {
-        "headline": "Anthropic confidentially files IPO prospectus with SEC, prepping Wall Street for landmark AI deal",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html"
+        "headline": "HPE skyrockets 30% on biggest earnings beat since 2018",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/01/hpe-stock-earnings-q2.html"
       },
       {
-        "headline": "Anthropic confidentially files for US IPO, beating OpenAI - Reuters",
+        "headline": "Anthropic confidentially files IPO prospectus with SEC, prepping Wall Street for landmark AI deal - CNBC",
         "source": "Google \u2013 IPO",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQlMzZlRMZHRFRVJRSUNpZWJMTTkwdnhmeDZFRmtOUWFlamZOMy00ejR2ZS1aMlVROEVHZzlnX1UxVDBvQTBkOVpJTVh3MHFpRDJISV9TRlR5bWhQRWIxUzktRlp6d0dKcUYxeFlmc0dKYTRyQWQ0UDE2dHk1UnJ6d3NvWVZoUnJfdGFmSzh0QmFQbVE4eWc?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBxQTZJNkYtaEJXdG55ZE82bUI0RzQwY19pWXdmUjhnQ2hUN2ExczY5X09JM2RwaXRYSVYzQVVZMVpndm9fN2JKbFlleTk5TnVKaWp2M01QRjRib08zcWliLWw3T2txTU5qS3JLa0Y1TGRaQdIBd0FVX3lxTE1mODdtYV9uNHVENzgxNVJhcnFjNGxraEpNNW5wMTkwdXVLZWQ0ZU5RUTFRYnBjREhrQUU2M2gwdjMzeVd0UkVGMFZQaDVURXF2S1pjcWRyYWlmTDd2R0FmSXpCRDBkSG5tTTBHbWlSM1Mwd2lobTkw?oc=5"
       },
       {
-        "headline": "SoftBank becomes Japan's most valuable company, announces $53 billion French investment",
-        "source": "CNBC M&A",
+        "headline": "Anthropic Files Confidentially For IPO",
+        "source": "Crunchbase News",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/05/31/softbank-to-build-up-ai-data-centers-in-france-with-major-investment.html"
+        "link": "https://news.crunchbase.com/public/ai-unicorn-anthropic-files-confidentially-for-ipo/"
       },
       {
         "headline": "Nvidia picks Unitree for humanoid robot platform as Chinese startup eyes IPO",
@@ -31,11 +31,11 @@
     ],
     "section_counts": {
       "Stock Market & Equities": 74,
-      "Macro & Economy": 43,
-      "Investment Banking & Deals": 101,
+      "Macro & Economy": 45,
+      "Investment Banking & Deals": 99,
       "Real Estate & REITs": 17,
       "Earnings & Results": 88,
-      "Tech & Fintech": 129
+      "Tech & Fintech": 127
     }
   },
   {
