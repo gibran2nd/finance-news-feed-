@@ -2,28 +2,40 @@
   {
     "week": "2026-W23",
     "label": "Week of June 1\u20135, 2026",
-    "generated": "2026-06-01T12:29:53.528821+00:00",
+    "generated": "2026-06-01T18:33:25.537773+00:00",
     "bullets": [
       {
-        "headline": "Berkshire buys Taylor Morrison for $6.8 billion. Buffett touts Abel\u2019s dealmaking",
+        "headline": "Anthropic confidentially files IPO prospectus with SEC, prepping Wall Street for landmark AI deal",
         "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/01/berkshire-hathaway-taylor-morrison-home-acquisition-housing-market.html"
+        "link": "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html"
       },
       {
-        "headline": "SoftBank becomes Japan's most valuable company, announces $53 billion French investment - CNBC",
-        "source": "Google \u2013 AI Finance",
-        "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeGdvazJVU0FLWWxqTjhBWS1CM2IyZThDc29uckwwc0h1US1Cd0NRcWpnLXpUNmpkck5Dc29MQmpxLXk4TDFNWlhUUHQ5YlAzTjk2Q2d0eW5GMVI4V29ZYWdXMjRnWC0zb3Z6NVp2Vll6TDlNV2gtb2tmTXBkQWE3RWFzaGQzczBuTlhhU1I3Z19WcG1hQ2hhYWVIYlFoQm9UWXVxRVVBRErSAa4BQVVfeXFMTTRzWVdjYzFEdTJZME5BSUxDaXBsd2pfLVdVMS12NFljOTFNN2MxS2hJNk95WTFlSnpvTm0tOGY4LTBmSTJXbXNLQk5uNXBidjJLWjZFYklLUW9ldGUwOXROTlM2M01GS2xNU2pHVS15UWs2aWY0b1YzUzdBaU9oelVNTlZYYUNOU2JDR2tFR2gyM3l6YlRVblVoOHhRamRDQnV3R3liVlA2UnQ3Y1l3?oc=5"
+        "headline": "Anthropic confidentially files for US IPO, beating OpenAI - Reuters",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQlMzZlRMZHRFRVJRSUNpZWJMTTkwdnhmeDZFRmtOUWFlamZOMy00ejR2ZS1aMlVROEVHZzlnX1UxVDBvQTBkOVpJTVh3MHFpRDJISV9TRlR5bWhQRWIxUzktRlp6d0dKcUYxeFlmc0dKYTRyQWQ0UDE2dHk1UnJ6d3NvWVZoUnJfdGFmSzh0QmFQbVE4eWc?oc=5"
+      },
+      {
+        "headline": "SoftBank becomes Japan's most valuable company, announces $53 billion French investment",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/05/31/softbank-to-build-up-ai-data-centers-in-france-with-major-investment.html"
+      },
+      {
+        "headline": "Nvidia picks Unitree for humanoid robot platform as Chinese startup eyes IPO",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/06/01/nvidia-unitree-humanoid-robotics-system-researchers.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 76,
-      "Macro & Economy": 44,
-      "Investment Banking & Deals": 89,
+      "Stock Market & Equities": 74,
+      "Macro & Economy": 43,
+      "Investment Banking & Deals": 101,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 84,
-      "Tech & Fintech": 122
+      "Earnings & Results": 88,
+      "Tech & Fintech": 129
     }
   },
   {
