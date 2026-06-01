@@ -1,5 +1,32 @@
 [
   {
+    "week": "2026-W23",
+    "label": "Week of June 1\u20135, 2026",
+    "generated": "2026-06-01T12:29:53.528821+00:00",
+    "bullets": [
+      {
+        "headline": "Berkshire buys Taylor Morrison for $6.8 billion. Buffett touts Abel\u2019s dealmaking",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/06/01/berkshire-hathaway-taylor-morrison-home-acquisition-housing-market.html"
+      },
+      {
+        "headline": "SoftBank becomes Japan's most valuable company, announces $53 billion French investment - CNBC",
+        "source": "Google \u2013 AI Finance",
+        "section": "Tech & Fintech",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeGdvazJVU0FLWWxqTjhBWS1CM2IyZThDc29uckwwc0h1US1Cd0NRcWpnLXpUNmpkck5Dc29MQmpxLXk4TDFNWlhUUHQ5YlAzTjk2Q2d0eW5GMVI4V29ZYWdXMjRnWC0zb3Z6NVp2Vll6TDlNV2gtb2tmTXBkQWE3RWFzaGQzczBuTlhhU1I3Z19WcG1hQ2hhYWVIYlFoQm9UWXVxRVVBRErSAa4BQVVfeXFMTTRzWVdjYzFEdTJZME5BSUxDaXBsd2pfLVdVMS12NFljOTFNN2MxS2hJNk95WTFlSnpvTm0tOGY4LTBmSTJXbXNLQk5uNXBidjJLWjZFYklLUW9ldGUwOXROTlM2M01GS2xNU2pHVS15UWs2aWY0b1YzUzdBaU9oelVNTlZYYUNOU2JDR2tFR2gyM3l6YlRVblVoOHhRamRDQnV3R3liVlA2UnQ3Y1l3?oc=5"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 76,
+      "Macro & Economy": 44,
+      "Investment Banking & Deals": 89,
+      "Real Estate & REITs": 17,
+      "Earnings & Results": 84,
+      "Tech & Fintech": 122
+    }
+  },
+  {
     "week": "2026-W22",
     "label": "Week of May 25\u201329, 2026",
     "generated": "2026-05-31T20:00:48.452892+00:00",
