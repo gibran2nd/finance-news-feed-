@@ -2,19 +2,31 @@
   {
     "week": "2026-W23",
     "label": "Week of June 1\u20135, 2026",
-    "generated": "2026-06-02T17:14:03.340822+00:00",
+    "generated": "2026-06-02T21:42:54.977687+00:00",
     "bullets": [
       {
-        "headline": "HPE surges 15% after blowout earnings, pacing for one of its best days ever",
+        "headline": "Palo Alto Networks tops earnings as AI fuels cybersecurity urgency",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/02/palo-alto-networks-panw-q3-earnings-2026.html"
+      },
+      {
+        "headline": "Ulta shares pop as beauty retailer beats Wall Street expectations and hikes earnings outlook",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/02/ulta-beauty-ulta-q1-earnings-2026.html"
+      },
+      {
+        "headline": "Victoria's Secret shares spike 40% after big earnings beat, raised sales outlook",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/02/victorias-secret-vsxy-earnings-q1-2026.html"
+      },
+      {
+        "headline": "HPE surges 19% after Monday's blowout earnings, closing its best day ever",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/06/02/hpe-stock-earnings-ai-cloud-servers.html"
-      },
-      {
-        "headline": "Blackstone raises $13.1 billion for its largest Asia private equity fund - The Manila Times",
-        "source": "Google \u2013 PE / LBO",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVHZQTkF0Q09vN1ZQd1dWTnVHbHpaUWs1QUhqSklsRW4xd0EyLTM4aWdILUlYZXRLNVI1RlhLejNhazdJajVvZGlHZThtYmVTVTZVenJtY0NfMGJmVEhHLVliR2Q0R1AtMGRnZEcwWlVqT1o5Q0p0djF1Qkt5WkJpX2dqS05KczFYUG83MTAxYVY2anlaNU56WklHOGdRTzl0SXlaeVpLMklVM1J2T3c3YzluYjVSWEVtRXBuWDA5eHlvOUhETTgtLWFkZHRVeGdBejVVbEJvX0VGdTjSAeABQVVfeXFMTW9uYVRCX1hBUnFFUXM3THJOYW8xcl9wSk00WU5kYVVoRlE4VWtnS2IwaFI3bC02V3BidktFODBsWGtpNEZEMmc1Z2tHSGxvQ3NZOWlrNE9kb1lDVjc5YkktYUFxRlh2V1J0X2gzMXp3T2JyeDFVbWxmOUx0RVRLZk5KX0N0NVp5V1lUTEt0WXpRTWxvSHJmX2VzV2xCV2ZWbXlPUW4tSlBVbWhpMkVIUnRveTE4LXkwVl9TdHczNG5GTjF1bFNzRG8ya0RUckJyT0l1d255UkpBNUNDVE1hYTA?oc=5"
       },
       {
         "headline": "Job openings in April surged to 7.6 million, the highest in nearly two years",
@@ -23,18 +35,18 @@
         "link": "https://www.cnbc.com/2026/06/02/job-openings-april-2026.html"
       },
       {
-        "headline": "Victoria's Secret shares spike 40% after big earnings beat, raised sales outlook",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/02/victorias-secret-vsxy-earnings-q1-2026.html"
+        "headline": "Honeywell's Quantinuum eyes $14.3 billion valuation in upsized US IPO - Reuters",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUGZWWjF2MFB2OUM0dm9Iem5QWml2aHgxdHdvRUJadENTakVVbnU3SU42Z1FEckt1RkFtdS1ja3luWEFUZUxRbU44cWpUbWFXcDJVQkpoYXFHeHBJR0VtRmdCQjZHT1NycjNFdktVS2tlcFdLVkRRQWg5RE8xQ3cySThvcWw3YVJtMndtU2Q3WENEajE0b1JTNGpDdC1kbG1PaG1kNUJMN1AzSTV6aGZQV1owZE1Dd2hBRUJj?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 68,
-      "Macro & Economy": 40,
-      "Investment Banking & Deals": 151,
+      "Stock Market & Equities": 67,
+      "Macro & Economy": 43,
+      "Investment Banking & Deals": 138,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 105,
+      "Earnings & Results": 93,
       "Tech & Fintech": 127
     }
   },
