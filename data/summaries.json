@@ -2,19 +2,13 @@
   {
     "week": "2026-W23",
     "label": "Week of June 1\u20135, 2026",
-    "generated": "2026-06-01T21:57:02.210919+00:00",
+    "generated": "2026-06-02T11:12:04.370032+00:00",
     "bullets": [
       {
-        "headline": "HPE skyrockets 30% on biggest earnings beat since 2018",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/01/hpe-stock-earnings-q2.html"
-      },
-      {
-        "headline": "Anthropic confidentially files IPO prospectus with SEC, prepping Wall Street for landmark AI deal - CNBC",
-        "source": "Google \u2013 IPO",
+        "headline": "Blackstone raises $13.1 billion for its largest Asia private equity fund - WTVB",
+        "source": "Google \u2013 PE / LBO",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBxQTZJNkYtaEJXdG55ZE82bUI0RzQwY19pWXdmUjhnQ2hUN2ExczY5X09JM2RwaXRYSVYzQVVZMVpndm9fN2JKbFlleTk5TnVKaWp2M01QRjRib08zcWliLWw3T2txTU5qS3JLa0Y1TGRaQdIBd0FVX3lxTE1mODdtYV9uNHVENzgxNVJhcnFjNGxraEpNNW5wMTkwdXVLZWQ0ZU5RUTFRYnBjREhrQUU2M2gwdjMzeVd0UkVGMFZQaDVURXF2S1pjcWRyYWlmTDd2R0FmSXpCRDBkSG5tTTBHbWlSM1Mwd2lobTkw?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMm4wejJURTZwMnhJazFndFJCcVZHWnJPenh2VUFLbTdhd1gxZG5MYl9qekk3dldKWVlXN3ZpUmlOYlRjeWRwVUNXVUpoQmx0SUVYT3FrbGItREVqN3VCOXlXUTU1azFNaDZmUEFzTUoxR2xIMXFnQlJTeVZHX18wOURrSVp1eHNWa0dHbXVwbGtPeDE1VFR5SmluYkRkYl9ndDhVNQ?oc=5"
       },
       {
         "headline": "Anthropic Files Confidentially For IPO",
@@ -23,19 +17,37 @@
         "link": "https://news.crunchbase.com/public/ai-unicorn-anthropic-files-confidentially-for-ipo/"
       },
       {
-        "headline": "Nvidia picks Unitree for humanoid robot platform as Chinese startup eyes IPO",
+        "headline": "HPE skyrockets 30% on biggest earnings beat since 2018",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/01/hpe-stock-earnings-q2.html"
+      },
+      {
+        "headline": "SpaceX sets aside up to 5% of shares in IPO for certain employees and friends",
         "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/01/nvidia-unitree-humanoid-robotics-system-researchers.html"
+        "link": "https://www.cnbc.com/2026/06/01/spacex-sets-aside-up-to-5percent-of-shares-in-ipo-for-employees-and-friends.html"
+      },
+      {
+        "headline": "Anthropic confidentially files IPO prospectus with SEC, prepping Wall Street for landmark AI deal",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html"
+      },
+      {
+        "headline": "Strava declares war on scrapers ahead of IPO",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/06/01/strava-declares-war-on-scrapers-ahead-of-ipo/"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 74,
-      "Macro & Economy": 45,
-      "Investment Banking & Deals": 99,
+      "Stock Market & Equities": 69,
+      "Macro & Economy": 44,
+      "Investment Banking & Deals": 135,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 88,
-      "Tech & Fintech": 127
+      "Earnings & Results": 93,
+      "Tech & Fintech": 119
     }
   },
   {
