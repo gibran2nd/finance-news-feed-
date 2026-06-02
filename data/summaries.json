@@ -2,52 +2,40 @@
   {
     "week": "2026-W23",
     "label": "Week of June 1\u20135, 2026",
-    "generated": "2026-06-02T11:12:04.370032+00:00",
+    "generated": "2026-06-02T17:14:03.340822+00:00",
     "bullets": [
       {
-        "headline": "Blackstone raises $13.1 billion for its largest Asia private equity fund - WTVB",
-        "source": "Google \u2013 PE / LBO",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMm4wejJURTZwMnhJazFndFJCcVZHWnJPenh2VUFLbTdhd1gxZG5MYl9qekk3dldKWVlXN3ZpUmlOYlRjeWRwVUNXVUpoQmx0SUVYT3FrbGItREVqN3VCOXlXUTU1azFNaDZmUEFzTUoxR2xIMXFnQlJTeVZHX18wOURrSVp1eHNWa0dHbXVwbGtPeDE1VFR5SmluYkRkYl9ndDhVNQ?oc=5"
-      },
-      {
-        "headline": "Anthropic Files Confidentially For IPO",
-        "source": "Crunchbase News",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.crunchbase.com/public/ai-unicorn-anthropic-files-confidentially-for-ipo/"
-      },
-      {
-        "headline": "HPE skyrockets 30% on biggest earnings beat since 2018",
+        "headline": "HPE surges 15% after blowout earnings, pacing for one of its best days ever",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/01/hpe-stock-earnings-q2.html"
+        "link": "https://www.cnbc.com/2026/06/02/hpe-stock-earnings-ai-cloud-servers.html"
       },
       {
-        "headline": "SpaceX sets aside up to 5% of shares in IPO for certain employees and friends",
-        "source": "CNBC M&A",
+        "headline": "Blackstone raises $13.1 billion for its largest Asia private equity fund - The Manila Times",
+        "source": "Google \u2013 PE / LBO",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/01/spacex-sets-aside-up-to-5percent-of-shares-in-ipo-for-employees-and-friends.html"
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVHZQTkF0Q09vN1ZQd1dWTnVHbHpaUWs1QUhqSklsRW4xd0EyLTM4aWdILUlYZXRLNVI1RlhLejNhazdJajVvZGlHZThtYmVTVTZVenJtY0NfMGJmVEhHLVliR2Q0R1AtMGRnZEcwWlVqT1o5Q0p0djF1Qkt5WkJpX2dqS05KczFYUG83MTAxYVY2anlaNU56WklHOGdRTzl0SXlaeVpLMklVM1J2T3c3YzluYjVSWEVtRXBuWDA5eHlvOUhETTgtLWFkZHRVeGdBejVVbEJvX0VGdTjSAeABQVVfeXFMTW9uYVRCX1hBUnFFUXM3THJOYW8xcl9wSk00WU5kYVVoRlE4VWtnS2IwaFI3bC02V3BidktFODBsWGtpNEZEMmc1Z2tHSGxvQ3NZOWlrNE9kb1lDVjc5YkktYUFxRlh2V1J0X2gzMXp3T2JyeDFVbWxmOUx0RVRLZk5KX0N0NVp5V1lUTEt0WXpRTWxvSHJmX2VzV2xCV2ZWbXlPUW4tSlBVbWhpMkVIUnRveTE4LXkwVl9TdHczNG5GTjF1bFNzRG8ya0RUckJyT0l1d255UkpBNUNDVE1hYTA?oc=5"
       },
       {
-        "headline": "Anthropic confidentially files IPO prospectus with SEC, prepping Wall Street for landmark AI deal",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html"
+        "headline": "Job openings in April surged to 7.6 million, the highest in nearly two years",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/06/02/job-openings-april-2026.html"
       },
       {
-        "headline": "Strava declares war on scrapers ahead of IPO",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/06/01/strava-declares-war-on-scrapers-ahead-of-ipo/"
+        "headline": "Victoria's Secret shares spike 40% after big earnings beat, raised sales outlook",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/02/victorias-secret-vsxy-earnings-q1-2026.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 69,
-      "Macro & Economy": 44,
-      "Investment Banking & Deals": 135,
+      "Stock Market & Equities": 68,
+      "Macro & Economy": 40,
+      "Investment Banking & Deals": 151,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 93,
-      "Tech & Fintech": 119
+      "Earnings & Results": 105,
+      "Tech & Fintech": 127
     }
   },
   {
