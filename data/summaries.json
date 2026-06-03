@@ -2,8 +2,14 @@
   {
     "week": "2026-W23",
     "label": "Week of June 1\u20135, 2026",
-    "generated": "2026-06-03T17:56:21.056126+00:00",
+    "generated": "2026-06-03T21:43:14.107864+00:00",
     "bullets": [
+      {
+        "headline": "Veeva falls after hours despite FY 2027 Q1 beats, raised guidance - MSN",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNM3JxZjJYdVVHalE2M0J4MHhrTzFmTHJ5eGhMcFV0S0gyS3ZXZXhmakllUnU5OUliZ1dweGhsb2ZyaXhpdTFHek9wbjNuY2pJT25nRnBkb3Q4YmotbXZpSnp3QS1FUjVnYURGcWUweC1XbjNNeC1OMVJwWHRYTk5rUTd3ZFBsNGpYcDF5MEZ6bnR1QkJrdmtmX05pWGtLNVJFdzJ3Y3A0STZycENULU1FUkgyWUVqUXg3YlJJTHp5ZWRYYU9MMEFkTFNZaUI1dk96UjV2Mkc3NFB2NkpY?oc=5"
+      },
       {
         "headline": "Private payrolls grew by 122,000 in May, stronger than expected, ADP reports",
         "source": "CNBC Economy",
@@ -18,11 +24,11 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 56,
-      "Macro & Economy": 48,
-      "Investment Banking & Deals": 148,
+      "Stock Market & Equities": 78,
+      "Macro & Economy": 51,
+      "Investment Banking & Deals": 138,
       "Real Estate & REITs": 18,
-      "Earnings & Results": 101,
+      "Earnings & Results": 95,
       "Tech & Fintech": 130
     }
   },
