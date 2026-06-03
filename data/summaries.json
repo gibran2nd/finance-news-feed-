@@ -2,40 +2,28 @@
   {
     "week": "2026-W23",
     "label": "Week of June 1\u20135, 2026",
-    "generated": "2026-06-03T11:50:32.589571+00:00",
+    "generated": "2026-06-03T17:56:21.056126+00:00",
     "bullets": [
       {
-        "headline": "Macy's Q1 2026 earnings beat, raises full-year outlook - qz.com",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9HWlNpanl0ME5fX0dTT0hwS1dFQlRkY0J2QjZmeWYwenJVMU9PS3d6Tm83cVE0bFZwUk1RTkRPQlVXMGk3a2lpWHU1eVktZllzRFF5Q1hwTzgwX3VOc0YyNlFDT0l4d25ycGJPSm1IZFVzZEt1VVVmRW9R?oc=5"
-      },
-      {
-        "headline": "We're upping our Palo Alto price target after strong earnings vanquish AI disruption fears",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/02/were-upping-our-palo-alto-price-target-after-strong-earnings-vanquish-ai-disruption-fears-.html"
+        "headline": "Private payrolls grew by 122,000 in May, stronger than expected, ADP reports",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/06/03/adp-jobs-report-may-2026-payrolls-increase-by-122000.html"
       },
       {
         "headline": "Palo Alto Networks tops earnings as AI fuels cybersecurity urgency",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/06/02/palo-alto-networks-panw-q3-earnings-2026.html"
-      },
-      {
-        "headline": "Ulta shares pop as beauty retailer beats Wall Street expectations and hikes earnings outlook",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/02/ulta-beauty-ulta-q1-earnings-2026.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 69,
-      "Macro & Economy": 45,
-      "Investment Banking & Deals": 142,
+      "Stock Market & Equities": 56,
+      "Macro & Economy": 48,
+      "Investment Banking & Deals": 148,
       "Real Estate & REITs": 18,
-      "Earnings & Results": 94,
-      "Tech & Fintech": 129
+      "Earnings & Results": 101,
+      "Tech & Fintech": 130
     }
   },
   {
