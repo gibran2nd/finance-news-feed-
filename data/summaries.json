@@ -2,8 +2,20 @@
   {
     "week": "2026-W23",
     "label": "Week of June 1\u20135, 2026",
-    "generated": "2026-06-02T21:42:54.977687+00:00",
+    "generated": "2026-06-03T11:50:32.589571+00:00",
     "bullets": [
+      {
+        "headline": "Macy's Q1 2026 earnings beat, raises full-year outlook - qz.com",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9HWlNpanl0ME5fX0dTT0hwS1dFQlRkY0J2QjZmeWYwenJVMU9PS3d6Tm83cVE0bFZwUk1RTkRPQlVXMGk3a2lpWHU1eVktZllzRFF5Q1hwTzgwX3VOc0YyNlFDT0l4d25ycGJPSm1IZFVzZEt1VVVmRW9R?oc=5"
+      },
+      {
+        "headline": "We're upping our Palo Alto price target after strong earnings vanquish AI disruption fears",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/02/were-upping-our-palo-alto-price-target-after-strong-earnings-vanquish-ai-disruption-fears-.html"
+      },
       {
         "headline": "Palo Alto Networks tops earnings as AI fuels cybersecurity urgency",
         "source": "CNBC Markets",
@@ -15,39 +27,15 @@
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/06/02/ulta-beauty-ulta-q1-earnings-2026.html"
-      },
-      {
-        "headline": "Victoria's Secret shares spike 40% after big earnings beat, raised sales outlook",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/02/victorias-secret-vsxy-earnings-q1-2026.html"
-      },
-      {
-        "headline": "HPE surges 19% after Monday's blowout earnings, closing its best day ever",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/02/hpe-stock-earnings-ai-cloud-servers.html"
-      },
-      {
-        "headline": "Job openings in April surged to 7.6 million, the highest in nearly two years",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/06/02/job-openings-april-2026.html"
-      },
-      {
-        "headline": "Honeywell's Quantinuum eyes $14.3 billion valuation in upsized US IPO - Reuters",
-        "source": "Google \u2013 IPO",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUGZWWjF2MFB2OUM0dm9Iem5QWml2aHgxdHdvRUJadENTakVVbnU3SU42Z1FEckt1RkFtdS1ja3luWEFUZUxRbU44cWpUbWFXcDJVQkpoYXFHeHBJR0VtRmdCQjZHT1NycjNFdktVS2tlcFdLVkRRQWg5RE8xQ3cySThvcWw3YVJtMndtU2Q3WENEajE0b1JTNGpDdC1kbG1PaG1kNUJMN1AzSTV6aGZQV1owZE1Dd2hBRUJj?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 67,
-      "Macro & Economy": 43,
-      "Investment Banking & Deals": 138,
-      "Real Estate & REITs": 17,
-      "Earnings & Results": 93,
-      "Tech & Fintech": 127
+      "Stock Market & Equities": 69,
+      "Macro & Economy": 45,
+      "Investment Banking & Deals": 142,
+      "Real Estate & REITs": 18,
+      "Earnings & Results": 94,
+      "Tech & Fintech": 129
     }
   },
   {
