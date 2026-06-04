@@ -2,8 +2,26 @@
   {
     "week": "2026-W23",
     "label": "Week of June 1\u20135, 2026",
-    "generated": "2026-06-04T16:16:53.119761+00:00",
+    "generated": "2026-06-04T20:53:48.213461+00:00",
     "bullets": [
+      {
+        "headline": "Lululemon cuts annual outlook and issues rough Q2 guidance, citing undisclosed 'headwinds'",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/04/lululemon-lulu-earnings-q1-2026.html"
+      },
+      {
+        "headline": "Long-term unemployment is surging in the U.S. There are hidden costs for workers and the economy",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/06/04/long-term-unemployment-economy-jobs.html"
+      },
+      {
+        "headline": "Elon Musk's net worth poised to sail past $1 trillion in SpaceX IPO - CNBC",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd3diYnF5MGl4MmdVWllWM2d5a1B0cmlkb0k4eEFpZ2RnYjVJeWhfS3NBeThRU3hmMmRqVWYwajBRZmNiRGlJRzBvU21YOFNMbmRsNFZSMm1NVkF6NFZVejRGSHpLd3NqTTBrelFTcFREaklPSVJIVXN6dnpPU3pIcTVfcy1IZkdqSXdQZUEtMDJGQXpZMDMzU1pFMktYeFl6V0VCWNIBqgFBVV95cUxQSUdxZEhwNzA5Q2VjbWlZcTdKS2E0bnN0Uk12M0FfcDRUQVpPYU9iSXhYSVAzdTI4NG9udm5YZjhFTms3dEYxaW9HTWhETVU2MFdBMDY5NTJ3MFNrVGpqZ05TejZoRkM1cXFQZEVqS0hmeERsMEk2aFRQTDFGZVZNaURYbzNuT1o3ZFdRSVlLYnV4eGxScWFtYUVpbEpJLXNsTmk1VUh1YVptZw?oc=5"
+      },
       {
         "headline": "CrowdStrike narrowly beats estimates on AI tailwinds, but stock falls 10%",
         "source": "CNBC Markets",
@@ -11,19 +29,19 @@
         "link": "https://www.cnbc.com/2026/06/03/crowdstrike-crwd-q1-2027-earnings.html"
       },
       {
-        "headline": "SpaceX targets $135 IPO price at valuation of $1.77 trillion - CNBC",
-        "source": "Google \u2013 IPO",
+        "headline": "SpaceX targets $135 IPO price at valuation of $1.77 trillion",
+        "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5CcXV1RmJIWVpjMUdZam81WkNrNEdSLTB3UTNtcm1YM0V1cjZ5MFdLSFdlWnhtR09wMDZNbmVSelgwZGJvY2s1c2daSDRTa2FHbnZ0YVZXa2pYWGMzeWpnd0NWX3Rub0hzOGhRV3h0VjctdjNUSEJKTnEwbE1rUdIBgwFBVV95cUxPTU5ja2gzSVlFWlYwRWJfQUVVX3IzazkxcnpGTmFld2Q0YnpHMmNMc1hkMGtqSVVpa3FhSWNUZDFiNHc1R3ZBVjF1QXpuaEU0S2FZMEpMYnZjd0dCY2ZyelhPSHNBVVZ1cGVqcUdnanhRUlk1c29yV3BZRnhnV2dJQ1ZJQQ?oc=5"
+        "link": "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 65,
-      "Macro & Economy": 44,
-      "Investment Banking & Deals": 140,
+      "Stock Market & Equities": 63,
+      "Macro & Economy": 50,
+      "Investment Banking & Deals": 144,
       "Real Estate & REITs": 19,
-      "Earnings & Results": 95,
-      "Tech & Fintech": 128
+      "Earnings & Results": 103,
+      "Tech & Fintech": 125
     }
   },
   {
