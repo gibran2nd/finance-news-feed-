@@ -2,34 +2,40 @@
   {
     "week": "2026-W23",
     "label": "Week of June 1\u20135, 2026",
-    "generated": "2026-06-03T21:43:14.107864+00:00",
+    "generated": "2026-06-04T10:33:58.776382+00:00",
     "bullets": [
       {
-        "headline": "Veeva falls after hours despite FY 2027 Q1 beats, raised guidance - MSN",
-        "source": "Google \u2013 Guidance",
+        "headline": "Why we're raising our price target on Broadcom despite its post-earnings sell-off",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/03/why-were-raising-our-price-target-on-broadcom-despite-sell-off-.html"
+      },
+      {
+        "headline": "CrowdStrike is a buy, just not yet. Here's why",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/03/crowdstrike-is-a-buy-just-not-yet-heres-why.html"
+      },
+      {
+        "headline": "CrowdStrike narrowly beats estimates on AI tailwinds, but stock falls 10% - CNBC",
+        "source": "Google \u2013 Earnings Beats",
         "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNM3JxZjJYdVVHalE2M0J4MHhrTzFmTHJ5eGhMcFV0S0gyS3ZXZXhmakllUnU5OUliZ1dweGhsb2ZyaXhpdTFHek9wbjNuY2pJT25nRnBkb3Q4YmotbXZpSnp3QS1FUjVnYURGcWUweC1XbjNNeC1OMVJwWHRYTk5rUTd3ZFBsNGpYcDF5MEZ6bnR1QkJrdmtmX05pWGtLNVJFdzJ3Y3A0STZycENULU1FUkgyWUVqUXg3YlJJTHp5ZWRYYU9MMEFkTFNZaUI1dk96UjV2Mkc3NFB2NkpY?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5mMmg0R2VTZFFEQXJXclJTQkQ1Zm04UV9PTFZuTnAwWlU0WGhTVGNEOGVLZE1RZ3FOaWw5SDU0clFtTFEtNDNibldlVHdtLUNEYm1YT0JuRGJxUjg2QUNKT1NfZG01dWxqaVAzLUNmSzZMYS1tclQyeE9n0gF_QVVfeXFMUFlxeTBqbXVLeUV2blJHdTdmbHUwRFRYbjd2ZFVHTThpbHVGeHBob3dRQm1qLWtMZ01MRTIzcU9ZTnlRc181Y19reTQyLVg4QndaUUMzbGZzSGxVcldZeEdhNTN4bDZsSHdXX0NINF9IWGpic0ZUbXN2QmhPUUlIOA?oc=5"
       },
       {
         "headline": "Private payrolls grew by 122,000 in May, stronger than expected, ADP reports",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/06/03/adp-jobs-report-may-2026-payrolls-increase-by-122000.html"
-      },
-      {
-        "headline": "Palo Alto Networks tops earnings as AI fuels cybersecurity urgency",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/02/palo-alto-networks-panw-q3-earnings-2026.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 78,
-      "Macro & Economy": 51,
-      "Investment Banking & Deals": 138,
-      "Real Estate & REITs": 18,
-      "Earnings & Results": 95,
-      "Tech & Fintech": 130
+      "Stock Market & Equities": 69,
+      "Macro & Economy": 47,
+      "Investment Banking & Deals": 139,
+      "Real Estate & REITs": 19,
+      "Earnings & Results": 97,
+      "Tech & Fintech": 143
     }
   },
   {
