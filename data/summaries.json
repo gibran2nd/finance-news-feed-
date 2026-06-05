@@ -2,13 +2,19 @@
   {
     "week": "2026-W23",
     "label": "Week of June 1\u20135, 2026",
-    "generated": "2026-06-05T15:48:43.680301+00:00",
+    "generated": "2026-06-05T20:46:25.933016+00:00",
     "bullets": [
       {
-        "headline": "The Tech Download: Anthropic\u2019s IPO sets up first big test of AI boom valuations",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/05/tech-download-anthropic-ipo-ai-valuations.html"
+        "headline": "Mythos rejuvenated the cybersecurity sector. Earnings put the recent rally to the test",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/05/mythos-cybersecurity-earnings-palo-alto-crowdstrike.html"
+      },
+      {
+        "headline": "Earnings call transcript: StealthGas Q1 2026 beats earnings forecast, stock rises - Investing.com India",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZC1oNjlYSVdqeXd0RWUybEh5U1Z1UF9IMDlyb1p5T0hRcEREcXRTYklQYWdCYndLWklkazdMSGRNZ3hTQjZYVGZjNmdxUFBTWVB4RkRzZ1NDR3FpYmdLQWxldnkteXkyNEZISXFicXA4Zkh6ampLRGh3UjRsc3kzUXRqSE9lRzU5SFdlRDROWmsyNWhSN05iVzU0QnRDS3VwMnJqNDF5aFNGMnNDUVJxcE55MlotYmhEWEFKVlBjN0d2bEZrM3REbXJqenl0Z19tdC1POWtjNA?oc=5"
       },
       {
         "headline": "Lululemon cuts annual outlook, citing 'negative' media commentary and disappointing product launches",
@@ -17,16 +23,10 @@
         "link": "https://www.cnbc.com/2026/06/04/lululemon-lulu-earnings-q1-2026.html"
       },
       {
-        "headline": "Ahead of its IPO, Anthropic\u2019s Daniela Amodei shrugs off doubts about AI\u2019s returns - TechCrunch",
-        "source": "Google \u2013 IPO",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMlBKWG9od29YLWVBZ0JUVkxKVVZOZ0N4dXpFSHU4RDZ3Y3VXUmYtVFNWUnJqODRKbkZkY1dwa2tYMzJIV2tvaVFZb19TWjNoUEthSi1LSzdzeDhrSk40X2JQVzNzQTUxX2hxWnlORGQxSXFLNEFZNWVjRWw4dWx6YjhCZHI5T01SdXZLM1BiWVByenJfY2ZTTVlLSTViSG1JOXZzNUxlNWQ0QTFnTU1IQTFhMA?oc=5"
-      },
-      {
-        "headline": "Quantinuum closes flat in Nasdaq debut, after upsized offering",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/04/quantinuum-qnt-stock-first-trade-ipo.html"
+        "headline": "Ahead of its IPO, Anthropic\u2019s Daniela Amodei shrugs off doubts about AI\u2019s returns",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/"
       },
       {
         "headline": "CrowdStrike narrowly beats estimates on AI tailwinds, but stock falls 10%",
@@ -36,11 +36,11 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 63,
-      "Macro & Economy": 44,
-      "Investment Banking & Deals": 135,
+      "Stock Market & Equities": 55,
+      "Macro & Economy": 47,
+      "Investment Banking & Deals": 123,
       "Real Estate & REITs": 18,
-      "Earnings & Results": 103,
+      "Earnings & Results": 106,
       "Tech & Fintech": 127
     }
   },
