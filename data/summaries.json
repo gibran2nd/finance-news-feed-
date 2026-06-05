@@ -2,13 +2,31 @@
   {
     "week": "2026-W23",
     "label": "Week of June 1\u20135, 2026",
-    "generated": "2026-06-04T20:53:48.213461+00:00",
+    "generated": "2026-06-05T10:41:00.316421+00:00",
     "bullets": [
       {
-        "headline": "Lululemon cuts annual outlook and issues rough Q2 guidance, citing undisclosed 'headwinds'",
+        "headline": "Lululemon cuts annual outlook, citing 'negative' media commentary and disappointing product launches",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/06/04/lululemon-lulu-earnings-q1-2026.html"
+      },
+      {
+        "headline": "Ahead of its IPO, Anthropic\u2019s Daniela Amodei shrugs off doubts about AI\u2019s returns - TechCrunch",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMlBKWG9od29YLWVBZ0JUVkxKVVZOZ0N4dXpFSHU4RDZ3Y3VXUmYtVFNWUnJqODRKbkZkY1dwa2tYMzJIV2tvaVFZb19TWjNoUEthSi1LSzdzeDhrSk40X2JQVzNzQTUxX2hxWnlORGQxSXFLNEFZNWVjRWw4dWx6YjhCZHI5T01SdXZLM1BiWVByenJfY2ZTTVlLSTViSG1JOXZzNUxlNWQ0QTFnTU1IQTFhMA?oc=5"
+      },
+      {
+        "headline": "The May jobs report will be released Friday. Here's what to expect",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/06/04/the-may-jobs-report-will-be-released-friday-heres-what-to-expect.html"
+      },
+      {
+        "headline": "Quantinuum closes flat in Nasdaq debut, after upsized offering",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/06/04/quantinuum-qnt-stock-first-trade-ipo.html"
       },
       {
         "headline": "Long-term unemployment is surging in the U.S. There are hidden costs for workers and the economy",
@@ -17,31 +35,19 @@
         "link": "https://www.cnbc.com/2026/06/04/long-term-unemployment-economy-jobs.html"
       },
       {
-        "headline": "Elon Musk's net worth poised to sail past $1 trillion in SpaceX IPO - CNBC",
-        "source": "Google \u2013 IPO",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd3diYnF5MGl4MmdVWllWM2d5a1B0cmlkb0k4eEFpZ2RnYjVJeWhfS3NBeThRU3hmMmRqVWYwajBRZmNiRGlJRzBvU21YOFNMbmRsNFZSMm1NVkF6NFZVejRGSHpLd3NqTTBrelFTcFREaklPSVJIVXN6dnpPU3pIcTVfcy1IZkdqSXdQZUEtMDJGQXpZMDMzU1pFMktYeFl6V0VCWNIBqgFBVV95cUxQSUdxZEhwNzA5Q2VjbWlZcTdKS2E0bnN0Uk12M0FfcDRUQVpPYU9iSXhYSVAzdTI4NG9udm5YZjhFTms3dEYxaW9HTWhETVU2MFdBMDY5NTJ3MFNrVGpqZ05TejZoRkM1cXFQZEVqS0hmeERsMEk2aFRQTDFGZVZNaURYbzNuT1o3ZFdRSVlLYnV4eGxScWFtYUVpbEpJLXNsTmk1VUh1YVptZw?oc=5"
-      },
-      {
-        "headline": "CrowdStrike narrowly beats estimates on AI tailwinds, but stock falls 10%",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/03/crowdstrike-crwd-q1-2027-earnings.html"
-      },
-      {
-        "headline": "SpaceX targets $135 IPO price at valuation of $1.77 trillion",
+        "headline": "Elon Musk's net worth poised to sail past $1 trillion in SpaceX IPO",
         "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html"
+        "link": "https://www.cnbc.com/2026/06/03/elon-musks-net-worth-poised-to-sail-past-1-trillion-in-spacex-ipo.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 63,
-      "Macro & Economy": 50,
-      "Investment Banking & Deals": 144,
-      "Real Estate & REITs": 19,
-      "Earnings & Results": 103,
-      "Tech & Fintech": 125
+      "Stock Market & Equities": 56,
+      "Macro & Economy": 42,
+      "Investment Banking & Deals": 130,
+      "Real Estate & REITs": 18,
+      "Earnings & Results": 99,
+      "Tech & Fintech": 128
     }
   },
   {
