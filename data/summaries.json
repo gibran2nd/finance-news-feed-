@@ -2,8 +2,14 @@
   {
     "week": "2026-W23",
     "label": "Week of June 1\u20135, 2026",
-    "generated": "2026-06-05T10:41:00.316421+00:00",
+    "generated": "2026-06-05T15:48:43.680301+00:00",
     "bullets": [
+      {
+        "headline": "The Tech Download: Anthropic\u2019s IPO sets up first big test of AI boom valuations",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/06/05/tech-download-anthropic-ipo-ai-valuations.html"
+      },
       {
         "headline": "Lululemon cuts annual outlook, citing 'negative' media commentary and disappointing product launches",
         "source": "CNBC Markets",
@@ -17,37 +23,25 @@
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMlBKWG9od29YLWVBZ0JUVkxKVVZOZ0N4dXpFSHU4RDZ3Y3VXUmYtVFNWUnJqODRKbkZkY1dwa2tYMzJIV2tvaVFZb19TWjNoUEthSi1LSzdzeDhrSk40X2JQVzNzQTUxX2hxWnlORGQxSXFLNEFZNWVjRWw4dWx6YjhCZHI5T01SdXZLM1BiWVByenJfY2ZTTVlLSTViSG1JOXZzNUxlNWQ0QTFnTU1IQTFhMA?oc=5"
       },
       {
-        "headline": "The May jobs report will be released Friday. Here's what to expect",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/06/04/the-may-jobs-report-will-be-released-friday-heres-what-to-expect.html"
-      },
-      {
         "headline": "Quantinuum closes flat in Nasdaq debut, after upsized offering",
         "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
         "link": "https://www.cnbc.com/2026/06/04/quantinuum-qnt-stock-first-trade-ipo.html"
       },
       {
-        "headline": "Long-term unemployment is surging in the U.S. There are hidden costs for workers and the economy",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/06/04/long-term-unemployment-economy-jobs.html"
-      },
-      {
-        "headline": "Elon Musk's net worth poised to sail past $1 trillion in SpaceX IPO",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/03/elon-musks-net-worth-poised-to-sail-past-1-trillion-in-spacex-ipo.html"
+        "headline": "CrowdStrike narrowly beats estimates on AI tailwinds, but stock falls 10%",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/03/crowdstrike-crwd-q1-2027-earnings.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 56,
-      "Macro & Economy": 42,
-      "Investment Banking & Deals": 130,
+      "Stock Market & Equities": 63,
+      "Macro & Economy": 44,
+      "Investment Banking & Deals": 135,
       "Real Estate & REITs": 18,
-      "Earnings & Results": 99,
-      "Tech & Fintech": 128
+      "Earnings & Results": 103,
+      "Tech & Fintech": 127
     }
   },
   {
