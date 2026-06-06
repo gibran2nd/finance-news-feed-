@@ -2,25 +2,13 @@
   {
     "week": "2026-W23",
     "label": "Week of June 1\u20135, 2026",
-    "generated": "2026-06-06T09:19:48.255545+00:00",
+    "generated": "2026-06-06T14:24:48.472361+00:00",
     "bullets": [
-      {
-        "headline": "The Class of 2026: Meet the 12 companies making their Fortune 500 debut",
-        "source": "Fortune",
-        "section": "Stock Market & Equities",
-        "link": "https://fortune.com/2026/06/05/fortune-500-debut-class-of-2026-galaxy-digital-marvell-technologies-bitgo-arista/"
-      },
       {
         "headline": "Mythos rejuvenated the cybersecurity sector. Earnings put the recent rally to the test",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/06/05/mythos-cybersecurity-earnings-palo-alto-crowdstrike.html"
-      },
-      {
-        "headline": "Odds of a Fed hike this year jump on prediction markets - CNBC",
-        "source": "Google \u2013 Fed & Rates",
-        "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZmdOSDV6X0dJSThYWnRSYnZKV1lqeWtlYmhBc1BJS0R2ckV1THpwcHVlTm10VlFjQUw5TEtreXlxd3BrdVJoay04NGVqOW9qeUpDX3k4VDd2SUZ3a1NnajJwWTNWWjNxWUFVa3dyQ05SaW5qTVRQclZ5OWpOa0NwWF9QWUJ1REVvRGxLbV96MWowV3lUMkpSR9IBngFBVV95cUxOd09tUl9ZNGlnaVRIclBnWHlQTHdyY0ptUjQ2cU5LaEhUeGMzWFVuazVuRllEZVQ0Skk0Ymc4WHAzcGdqNzk1d0NobktzanhLOVNOdjQtY0xtbjZtVnhlbnZaYXpLdUF5dWw0TlBqaDZqaXRaQVFjNWs2cUtKX2JiY0V0bjU1dm5VYVZOeGNKQ0VEcFluWjYta3o1dkMzZw?oc=5"
       },
       {
         "headline": "Lululemon cuts annual outlook, citing 'negative' media commentary and disappointing product launches",
@@ -29,10 +17,10 @@
         "link": "https://www.cnbc.com/2026/06/04/lululemon-lulu-earnings-q1-2026.html"
       },
       {
-        "headline": "Ahead of its IPO, Anthropic\u2019s Daniela Amodei shrugs off doubts about AI\u2019s returns",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/"
+        "headline": "Ahead of its IPO, Anthropic\u2019s Daniela Amodei shrugs off doubts about AI\u2019s returns - TechCrunch",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMlBKWG9od29YLWVBZ0JUVkxKVVZOZ0N4dXpFSHU4RDZ3Y3VXUmYtVFNWUnJqODRKbkZkY1dwa2tYMzJIV2tvaVFZb19TWjNoUEthSi1LSzdzeDhrSk40X2JQVzNzQTUxX2hxWnlORGQxSXFLNEFZNWVjRWw4dWx6YjhCZHI5T01SdXZLM1BiWVByenJfY2ZTTVlLSTViSG1JOXZzNUxlNWQ0QTFnTU1IQTFhMA?oc=5"
       },
       {
         "headline": "CrowdStrike narrowly beats estimates on AI tailwinds, but stock falls 10%",
@@ -42,12 +30,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 53,
-      "Macro & Economy": 64,
-      "Investment Banking & Deals": 142,
+      "Stock Market & Equities": 62,
+      "Macro & Economy": 52,
+      "Investment Banking & Deals": 136,
       "Real Estate & REITs": 19,
-      "Earnings & Results": 90,
-      "Tech & Fintech": 123
+      "Earnings & Results": 101,
+      "Tech & Fintech": 137
     }
   },
   {
