@@ -2,8 +2,14 @@
   {
     "week": "2026-W23",
     "label": "Week of June 1\u20135, 2026",
-    "generated": "2026-06-06T20:04:39.597180+00:00",
+    "generated": "2026-06-07T09:55:45.844739+00:00",
     "bullets": [
+      {
+        "headline": "SpaceX needs to grow 600x in a decade to justify a $1.75 trillion valuation. No company has ever come close",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/06/06/spacex-ipo-stock-price-valuation/"
+      },
       {
         "headline": "Mythos rejuvenated the cybersecurity sector. Earnings put the recent rally to the test",
         "source": "CNBC Markets",
@@ -11,31 +17,19 @@
         "link": "https://www.cnbc.com/2026/06/05/mythos-cybersecurity-earnings-palo-alto-crowdstrike.html"
       },
       {
-        "headline": "Earnings call transcript: StealthGas Q1 2026 beats earnings forecast, stock rises - Investing.com Nigeria",
-        "source": "Google \u2013 Guidance",
+        "headline": "CrowdStrike narrowly beats estimates on AI tailwinds, but stock falls 10% - CNBC",
+        "source": "Google \u2013 Earnings Beats",
         "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNG1fdzZIRG1FWl9heUdabkdiNlN4enNOaV9vQkRBYUtHRVEySk9GUVNUbjBjOXcwV1M4WWgyZEJoNHdiM0t1N09STTAxb0NKQjNrdGJoUHB0MWFDSmhNaUpMRTVQQVdIUEZYMXpCMU5TRnpLZVhtRFR1T2NpZUhxclUtZktIRHB2NnpCbTg0YlNWVkR4RGQwcmZCMlh0SWM1Xzc1N24zU3ZqTWFyX05neVFscTdnRnExSGlkbUo5dXd3blM2Q3JpaHRUUHNXeXFsLTllWWRXYw?oc=5"
-      },
-      {
-        "headline": "Lululemon cuts annual outlook, citing 'negative' media commentary and disappointing product launches",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/04/lululemon-lulu-earnings-q1-2026.html"
-      },
-      {
-        "headline": "CrowdStrike narrowly beats estimates on AI tailwinds, but stock falls 10%",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/03/crowdstrike-crwd-q1-2027-earnings.html"
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5mMmg0R2VTZFFEQXJXclJTQkQ1Zm04UV9PTFZuTnAwWlU0WGhTVGNEOGVLZE1RZ3FOaWw5SDU0clFtTFEtNDNibldlVHdtLUNEYm1YT0JuRGJxUjg2QUNKT1NfZG01dWxqaVAzLUNmSzZMYS1tclQyeE9n0gF_QVVfeXFMUFlxeTBqbXVLeUV2blJHdTdmbHUwRFRYbjd2ZFVHTThpbHVGeHBob3dRQm1qLWtMZ01MRTIzcU9ZTnlRc181Y19reTQyLVg4QndaUUMzbGZzSGxVcldZeEdhNTN4bDZsSHdXX0NINF9IWGpic0ZUbXN2QmhPUUlIOA?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 62,
-      "Macro & Economy": 53,
-      "Investment Banking & Deals": 129,
-      "Real Estate & REITs": 19,
-      "Earnings & Results": 102,
-      "Tech & Fintech": 119
+      "Stock Market & Equities": 59,
+      "Macro & Economy": 65,
+      "Investment Banking & Deals": 122,
+      "Real Estate & REITs": 18,
+      "Earnings & Results": 89,
+      "Tech & Fintech": 115
     }
   },
   {
