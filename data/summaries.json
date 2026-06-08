@@ -1,5 +1,44 @@
 [
   {
+    "week": "2026-W24",
+    "label": "Week of June 8\u201312, 2026",
+    "generated": "2026-06-08T11:49:39.615093+00:00",
+    "bullets": [
+      {
+        "headline": "\u2018Yet another way in which 2026 is looking like 1999\u2019: Top analyst fears bubble popping with investors and Wall Street out over their skis",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/06/08/ai-boom-tech-stocks-bubble-fears-earnings-growth-chipmakers-ipo/"
+      },
+      {
+        "headline": "SpaceX needs to grow at a rate no company has ever achieved to justify a $1.75 trillion valuation - Fortune",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBRaWdscE5qd2ZBMl9KUHlFUXUwb3p4cDkwVXNEQW5pdU53RDFsT2xQTDUwbmdPX1pmWjMtWWVySkN3V19YZHVkZy05RVVXNTFzZTZkaVM3UEdBSWItZWY4dlVhSFl4N1NhQU9rNVJyOTZLUQ?oc=5"
+      },
+      {
+        "headline": "Earnings call transcript: Encore Capital Q1 2026 beats estimates, stock rises - Investing.com",
+        "source": "Google \u2013 Earnings Beats",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMkYwX0d0T3h4ZHg2SnZJejlUT2t4ODRQVjU0azdSeU1rdk9mMFVFamdzU1h3LVRWaW80N0w5VmM1THNoX2FpTnVKYnozU0tJUXVtdDZNLWd6c21GUV9fdjA4U2d2WTIyQWRYejNCV284b2J0cF9uRmxuSUp3dXVBalFVOGhGcGhOaWw1MTk3anFqSUxOcVE5RTlmWExFWlEwbkNtdWNhNXU0SE5WUnJLS0hMN1B2d2ZUeXN3NTQxQlJUQlNJOUFiU3ZJYw?oc=5"
+      },
+      {
+        "headline": "CrowdStrike narrowly beats estimates on AI tailwinds, but stock falls 10%",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/03/crowdstrike-crwd-q1-2027-earnings.html"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 71,
+      "Macro & Economy": 49,
+      "Investment Banking & Deals": 99,
+      "Real Estate & REITs": 18,
+      "Earnings & Results": 84,
+      "Tech & Fintech": 109
+    }
+  },
+  {
     "week": "2026-W23",
     "label": "Week of June 1\u20135, 2026",
     "generated": "2026-06-07T20:06:49.838535+00:00",
