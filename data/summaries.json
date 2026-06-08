@@ -2,8 +2,14 @@
   {
     "week": "2026-W24",
     "label": "Week of June 8\u201312, 2026",
-    "generated": "2026-06-08T16:43:44.755239+00:00",
+    "generated": "2026-06-08T21:09:39.578798+00:00",
     "bullets": [
+      {
+        "headline": "How retail investors can participate in the SpaceX IPO",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/06/08/retail-investors-participate-spacex-ipo-spcx-elon-musk-brokerages/"
+      },
       {
         "headline": "Household worries over finances hit highest level since July 2022, New York Fed survey shows",
         "source": "CNBC Economy",
@@ -24,12 +30,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 67,
+      "Stock Market & Equities": 64,
       "Macro & Economy": 49,
-      "Investment Banking & Deals": 116,
-      "Real Estate & REITs": 18,
-      "Earnings & Results": 102,
-      "Tech & Fintech": 112
+      "Investment Banking & Deals": 124,
+      "Real Estate & REITs": 21,
+      "Earnings & Results": 92,
+      "Tech & Fintech": 117
     }
   },
   {
