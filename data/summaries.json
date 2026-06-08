@@ -2,19 +2,13 @@
   {
     "week": "2026-W24",
     "label": "Week of June 8\u201312, 2026",
-    "generated": "2026-06-08T11:49:39.615093+00:00",
+    "generated": "2026-06-08T16:43:44.755239+00:00",
     "bullets": [
       {
-        "headline": "\u2018Yet another way in which 2026 is looking like 1999\u2019: Top analyst fears bubble popping with investors and Wall Street out over their skis",
-        "source": "Fortune",
-        "section": "Stock Market & Equities",
-        "link": "https://fortune.com/2026/06/08/ai-boom-tech-stocks-bubble-fears-earnings-growth-chipmakers-ipo/"
-      },
-      {
-        "headline": "SpaceX needs to grow at a rate no company has ever achieved to justify a $1.75 trillion valuation - Fortune",
-        "source": "Google \u2013 IPO",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBRaWdscE5qd2ZBMl9KUHlFUXUwb3p4cDkwVXNEQW5pdU53RDFsT2xQTDUwbmdPX1pmWjMtWWVySkN3V19YZHVkZy05RVVXNTFzZTZkaVM3UEdBSWItZWY4dlVhSFl4N1NhQU9rNVJyOTZLUQ?oc=5"
+        "headline": "Household worries over finances hit highest level since July 2022, New York Fed survey shows",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/06/08/household-financial-worries-at-highest-level-since-2022-new-york-fed-says.html"
       },
       {
         "headline": "Earnings call transcript: Encore Capital Q1 2026 beats estimates, stock rises - Investing.com",
@@ -30,12 +24,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 71,
+      "Stock Market & Equities": 67,
       "Macro & Economy": 49,
-      "Investment Banking & Deals": 99,
+      "Investment Banking & Deals": 116,
       "Real Estate & REITs": 18,
-      "Earnings & Results": 84,
-      "Tech & Fintech": 109
+      "Earnings & Results": 102,
+      "Tech & Fintech": 112
     }
   },
   {
