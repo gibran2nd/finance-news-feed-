@@ -2,14 +2,8 @@
   {
     "week": "2026-W24",
     "label": "Week of June 8\u201312, 2026",
-    "generated": "2026-06-09T15:49:54.721567+00:00",
+    "generated": "2026-06-09T20:52:33.846704+00:00",
     "bullets": [
-      {
-        "headline": "Fintech M&A Watch: 3 Stocks That Could Be Next on the Block",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/fintech-m-watch-3-stocks-152001268.html"
-      },
       {
         "headline": "Nuvalent shares surge 39% after UK's GSK agrees to buy the cancer drugmaker for $10.6 billion",
         "source": "CNBC M&A",
@@ -29,25 +23,25 @@
         "link": "https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet/"
       },
       {
-        "headline": "OpenAI confidentially files for IPO, prepping Wall Street for mega AI debut",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html"
-      },
-      {
         "headline": "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic",
         "source": "Wired Business",
         "section": "Tech & Fintech",
         "link": "https://www.wired.com/story/openai-confidentially-files-for-ipo/"
+      },
+      {
+        "headline": "CrowdStrike narrowly beats estimates on AI tailwinds, but stock falls 10%",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/03/crowdstrike-crwd-q1-2027-earnings.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 66,
-      "Macro & Economy": 44,
-      "Investment Banking & Deals": 174,
-      "Real Estate & REITs": 21,
-      "Earnings & Results": 82,
-      "Tech & Fintech": 121
+      "Stock Market & Equities": 63,
+      "Macro & Economy": 46,
+      "Investment Banking & Deals": 169,
+      "Real Estate & REITs": 22,
+      "Earnings & Results": 74,
+      "Tech & Fintech": 118
     }
   },
   {
