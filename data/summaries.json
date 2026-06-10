@@ -2,8 +2,20 @@
   {
     "week": "2026-W24",
     "label": "Week of June 8\u201312, 2026",
-    "generated": "2026-06-10T16:29:12.594276+00:00",
+    "generated": "2026-06-10T21:22:12.397437+00:00",
     "bullets": [
+      {
+        "headline": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/10/oracle-orcl-q4-earnings-report-2026.html"
+      },
+      {
+        "headline": "Nuvei Reportedly In Advanced Talks To Acquire Payoneer For $2.7 Billion - Pulse 2.0",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVzJfZkxNcG5WSl9ZR3c2WlJkYmVDNEVpM25WNWh5Wjh6Nmo2bkNheUtReXctd3BhVGZqTE1SSTdHbXhCV0RfWFFtNjhEeVRKTk43aHN2eWpKQjJsUzFYRUJFVUZmejVnU0VQcUdOdkp4ZGNRQlhUd1RjUGZnVUNFTEhHMzJrMFlvc1ZzellzTFk1Z0ZV0gGaAUFVX3lxTFA2THcwaFZyaExId3Jzai1vYkRWRTBEOVoxTnIzRi0yZXN4eldQNFVXUTFlREtUTjdQaVMtU0dUN0NXWVRhYU55blBuNFo2anhfamNoSjhWM3FOVkZUZDRZNWRwWWQ1dWVxZU44T0xpbUlOUUYwbTJBS1ZwRG5kUWpoVHJfV24tWUFiLUFOa2lFaWtpdDFHbXpaMmc?oc=5"
+      },
       {
         "headline": "Consumer prices rose 4.2% annually in May, highest in three years",
         "source": "CNBC Economy",
@@ -17,37 +29,25 @@
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYmhydFRza0UzX3FKUmVVNWNELXNuTkhRQ0VYbkZfVmhrRlBDeExaNmZVZzM5R0UxNXUzVzRHUFlMSWFMeFdSR3ozWkJZaUs0UG1SRVNCZlVrQ200a3dkUHVuYVN2MndmWC1lajdDTFJHZDZOWTFwUWpqTnZISVlRR3dGNlBPa3pDUEJULUtHOGN5NVk2Q0I1ZnJDUjdaV04teHIwU0ZxeUhJZFVQMzdaQjZxNUFQNlR0X0w2OXB4RHdpZnNweXc?oc=5"
       },
       {
-        "headline": "SpaceX IPO explained: The price is set, but retail allocation still up in the air",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/09/spacex-ipo-explained-stock-price-date.html"
+        "headline": "How Is Fidelity National Information Services\u2019 Stock Performance Compared to Other Fintech Stocks?",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/fidelity-national-information-services-stock-123531797.html"
       },
       {
         "headline": "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic",
         "source": "Wired Business",
         "section": "Tech & Fintech",
         "link": "https://www.wired.com/story/openai-confidentially-files-for-ipo/"
-      },
-      {
-        "headline": "Earnings call transcript: StealthGas Q1 2026 beats earnings forecast, stock rises - Investing.com",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaDVSajBUU0dwZ005OWxiOG05MEw1RmVaTnJfQ0dOV1oyYzN5YzhFM1ZVZFZFcTI4dDBGcFUwMlIwS3BkR2tOXzZzdjVKaUY5Slo5WWxycFZISVdNdUViekRsdTdHZTFKQTVBb3A1bDBxVGFlM3RVZ19FRTZ6aWpNcHZPaTF1ejBKUHprczhGUzFCNjEzQjlLNDFCRjNQUk5Nd3F3b3p2aHloWTNMT2tQU3ZycXI1ZzI4N3FnMEg1NWg5S0J5VkVOQUpsWkExWW5I?oc=5"
-      },
-      {
-        "headline": "CrowdStrike narrowly beats estimates on AI tailwinds, but stock falls 10%",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/03/crowdstrike-crwd-q1-2027-earnings.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 60,
-      "Macro & Economy": 52,
-      "Investment Banking & Deals": 189,
+      "Stock Market & Equities": 63,
+      "Macro & Economy": 50,
+      "Investment Banking & Deals": 182,
       "Real Estate & REITs": 21,
-      "Earnings & Results": 76,
-      "Tech & Fintech": 119
+      "Earnings & Results": 88,
+      "Tech & Fintech": 124
     }
   },
   {
