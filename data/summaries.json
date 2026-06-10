@@ -2,31 +2,25 @@
   {
     "week": "2026-W24",
     "label": "Week of June 8\u201312, 2026",
-    "generated": "2026-06-10T10:50:04.655880+00:00",
+    "generated": "2026-06-10T16:29:12.594276+00:00",
     "bullets": [
       {
-        "headline": "Energy prices take center stage as the ECB prepares to decide on rates",
+        "headline": "Consumer prices rose 4.2% annually in May, highest in three years",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/06/10/ecb-rate-hike-energy-prices-inflation.html"
+        "link": "https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html"
       },
       {
-        "headline": "SpaceX IPO explained: The price is set, but retail allocation still up in the air - CNBC",
-        "source": "Google \u2013 IPO",
+        "headline": "Why private equity\u2019s buyout and exit slowdown is changing LP-GP relationships - Pensions & Investments",
+        "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kT2E5a1A2SllEYVpGXzBRc0x1UkE0SXZxb2NTaGJiMmh4NE5vZnZNbkt6MUxaTEw0YUYwNzRfblZZMnU0SHB5RkF1STg1Mkhkc3BYa1gzMDZ1WmtxcGxIeDI5MVZKVXBtYWRoNHN2QmlGRjl4QkwwRkZPRDZtbTjSAYQBQVVfeXFMTjlTQmlOZVZ1dmZOTXdLN0ZMbWF3dnlCNmxBdXZha1RYVktMOW5heVNxRmFST0R2SVNiYXVRTnpCN1g4TG54cGx4TW5OQS00aUt4NkhEaDRoVHh3UVhNek1pOXllUEtXY21yeXJFcV9FZjlMTUhVd0JhTFRsWVlFZnFjamRV?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYmhydFRza0UzX3FKUmVVNWNELXNuTkhRQ0VYbkZfVmhrRlBDeExaNmZVZzM5R0UxNXUzVzRHUFlMSWFMeFdSR3ozWkJZaUs0UG1SRVNCZlVrQ200a3dkUHVuYVN2MndmWC1lajdDTFJHZDZOWTFwUWpqTnZISVlRR3dGNlBPa3pDUEJULUtHOGN5NVk2Q0I1ZnJDUjdaV04teHIwU0ZxeUhJZFVQMzdaQjZxNUFQNlR0X0w2OXB4RHdpZnNweXc?oc=5"
       },
       {
-        "headline": "Perplexity plans 2028 IPO regardless of Anthropic or OpenAI listings, CNBC reports",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/perplexity-planning-ipo-2028-regardless-011835440.html"
-      },
-      {
-        "headline": "OpenAI files for US IPO after Anthropic as AI giants head to public markets",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/openai-files-us-ipo-anthropic-211708802.html"
+        "headline": "SpaceX IPO explained: The price is set, but retail allocation still up in the air",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/06/09/spacex-ipo-explained-stock-price-date.html"
       },
       {
         "headline": "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic",
@@ -39,15 +33,21 @@
         "source": "Google \u2013 Guidance",
         "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaDVSajBUU0dwZ005OWxiOG05MEw1RmVaTnJfQ0dOV1oyYzN5YzhFM1ZVZFZFcTI4dDBGcFUwMlIwS3BkR2tOXzZzdjVKaUY5Slo5WWxycFZISVdNdUViekRsdTdHZTFKQTVBb3A1bDBxVGFlM3RVZ19FRTZ6aWpNcHZPaTF1ejBKUHprczhGUzFCNjEzQjlLNDFCRjNQUk5Nd3F3b3p2aHloWTNMT2tQU3ZycXI1ZzI4N3FnMEg1NWg5S0J5VkVOQUpsWkExWW5I?oc=5"
+      },
+      {
+        "headline": "CrowdStrike narrowly beats estimates on AI tailwinds, but stock falls 10%",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/03/crowdstrike-crwd-q1-2027-earnings.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 54,
-      "Macro & Economy": 42,
-      "Investment Banking & Deals": 187,
-      "Real Estate & REITs": 22,
-      "Earnings & Results": 90,
-      "Tech & Fintech": 114
+      "Stock Market & Equities": 60,
+      "Macro & Economy": 52,
+      "Investment Banking & Deals": 189,
+      "Real Estate & REITs": 21,
+      "Earnings & Results": 76,
+      "Tech & Fintech": 119
     }
   },
   {
