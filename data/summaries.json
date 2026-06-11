@@ -2,40 +2,52 @@
   {
     "week": "2026-W24",
     "label": "Week of June 8\u201312, 2026",
-    "generated": "2026-06-11T11:18:12.095953+00:00",
+    "generated": "2026-06-11T16:44:45.902715+00:00",
     "bullets": [
       {
-        "headline": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/10/oracle-orcl-q4-earnings-report-2026.html"
-      },
-      {
-        "headline": "Unique SpaceX IPO is hedging challenge for Wall Street: 'What are you going to do, short NASA?' - CNBC",
-        "source": "Google \u2013 IPO",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMkZ3aG9zbXpYU2xBamVmWW9ZOUlxd1RKak9kbWptSTFkd1ItMGFQMGF4MXdiMVlWbWtKV3RUek1Cb2hrc3hwdk9LLVNnWUNOazlzdjdTQnZzSzJmVFhvRnVLa1JSMDdIOHJyTTkzQ1BMWkFydmZZaks4bFdkTkNyeGg2eUpuMWFabTlmTVFGbEx5Z9IBlwFBVV95cUxOX29aUld1RWs5NTJSUldlMUxZTVpFaXNxQ1pub212bk51QklPckR1MXc4aEdNUDdTVGtoaVlNWFJ2dW5ob1FNUDU5Rmk0RW1ETW9obkhITUdYVTh6bkxCWjhjd2hHVDktNC1JVjVFdjNSNGtacE5aRTNVVDc3Z0JZckhTcnpMel8yRFhwUWNWWDVXTlk4OWlz?oc=5"
-      },
-      {
-        "headline": "Sen. Warren calls on SEC to delay SpaceX IPO, flagging concerns about valuation and governance",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/10/spacex-elizabeth-warren-elon-musk-sec-ipo.html"
-      },
-      {
-        "headline": "Consumer prices rose 4.2% annually in May, highest in three years",
+        "headline": "Wholesale prices rose 1.1% in May, more than expected, on surge in energy",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html"
+        "link": "https://www.cnbc.com/2026/06/11/producer-price-index-may-2026-.html"
+      },
+      {
+        "headline": "Top IPO Expert: SpaceX IPO \u2018Will Blow Away\u2019 Records Set by Visa and Alibaba",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/top-ipo-expert-spacex-ipo-161644691.html"
+      },
+      {
+        "headline": "CalPERS allocates $20.1 billion across asset classes in fourth quarter - Pensions & Investments",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWWp3VV9neFp2cG5HeEUxc29wNzBMZDUyb28yUE9HN3V1V3FoT2pzQWJuckNWYXRzVjFHWm1mMWI4MWNhV3dsejZvNnNUV2NHUDU5NnkxdVJoQTlJbkNWeHVEc2E3bTJOZ09qamd3WUlnTThiTWt0a3dUUVp0WXVGRW5jRDF1YXg1cnlkV3JkT3FWXzU5cEtxOWEtNFhFV2Q0Uk5CTjZJcHNUWHpMaXlkWVhOdHJnZw?oc=5"
+      },
+      {
+        "headline": "Oracle shares tumble 11% on increased capital raise, cash concerns",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/11/oracle-shares-tumble-11percent-on-increased-capital-raise-cash-concerns.html"
+      },
+      {
+        "headline": "SpaceX IPO won\u2019t \u2018break\u2019 the bull market. But investors are worried about what comes next",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/06/11/spacex-ipo-wont-break-the-bull-market-but-investors-are-worried-about-what-comes-next.html"
+      },
+      {
+        "headline": "SpaceX IPO is a \u2018referendum\u2019 on Musk, say market watchers",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/06/11/spacex-ipo-elon-musk-valuation.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 48,
-      "Macro & Economy": 48,
-      "Investment Banking & Deals": 187,
+      "Stock Market & Equities": 62,
+      "Macro & Economy": 54,
+      "Investment Banking & Deals": 178,
       "Real Estate & REITs": 23,
-      "Earnings & Results": 76,
-      "Tech & Fintech": 128
+      "Earnings & Results": 75,
+      "Tech & Fintech": 132
     }
   },
   {
