@@ -2,19 +2,19 @@
   {
     "week": "2026-W24",
     "label": "Week of June 8\u201312, 2026",
-    "generated": "2026-06-11T21:13:52.657374+00:00",
+    "generated": "2026-06-12T10:56:52.828476+00:00",
     "bullets": [
+      {
+        "headline": "A Chinese start-up's unfolding dilemma exposes cracks in Beijing's tech funding machine",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/06/12/a-chinese-start-ups-dilemma-exposes-cracks-in-beijings-tech-funding.html"
+      },
       {
         "headline": "Oracle shares tumble 11% on increased capital raise, cash concerns",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/06/11/oracle-shares-tumble-11percent-on-increased-capital-raise-cash-concerns.html"
-      },
-      {
-        "headline": "SpaceX IPO won\u2019t \u2018break\u2019 the bull market. But investors are worried about what comes next - CNBC",
-        "source": "Google \u2013 IPO",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTmF3YzhVNFI0T0lycW0yZWdxMXQ2dU5jclJkTHJwcXlsY0M2ZEtGM2VPNEV3ODJuM2s3ZUIwTm40bDFBWU5VdFppSEU5NXFIMi00NkZIeXo4YldmYXN3eWExQUhJaC1nQlktX3d5VVlxaGZWZVBtNkllMmtCci1OcWRGYm53MlU2UXRlWlpYMmJoUjVOOFAtNDdzS0NUTGMwb2RMZ3pEN3RRRlBWekJUNE9jTlljc1FiMXVwQUxka9IBxAFBVV95cUxNdWZGVFl0YmF5b2N5VnNZVk9qQ3V2SEJyVmpUMHJmY0JRZWVDaHhiTy1XTFlndWk2OFF6ZWxlUUxVQ3dKWnJnSWJVM241c3gyRWtyRkd0ZjltVFl4ZVl6d2tSeFg5RjlMQlBpSm83OXI5N0lxaUk1d0x4UjU3dER4OGNsNF9fOXRmX3ZiLVVDUTkyR0lfRzJuVkQ5N09USzhOQTkycEZ3S1Y0d2xtcDA2UGFkclNsck8tMjdvaTlFU3JYSVpI?oc=5"
       },
       {
         "headline": "Wholesale prices rose 1.1% in May, more than expected, on surge in energy",
@@ -23,31 +23,25 @@
         "link": "https://www.cnbc.com/2026/06/11/producer-price-index-may-2026-.html"
       },
       {
-        "headline": "SpaceX IPO is a \u2018referendum\u2019 on Musk, say market watchers",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/11/spacex-ipo-elon-musk-valuation.html"
-      },
-      {
-        "headline": "Consumer prices rose 4.2% annually in May, highest in three years",
-        "source": "CNBC Economy",
+        "headline": "Consumer prices rose 4.2% annually in May, highest in three years - CNBC",
+        "source": "Google \u2013 Fed & Rates",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html"
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tRFFqM2kyTzM1aHVEUE9lLXNFUFVGLV95RDBmZS1nUjB5eFlaWVh1MU40UklnQ2JjY0pIUl9TOXFqRmlkaUNyUEM4a0FIaTdtZktUcmFabk9aODhxaHhzVy1rZWtWMnBKVUJWTWpVTGlrMk410gF6QVVfeXFMTm5KT2QtSmlfY2N3NnV3VWhoUDVLQmN3UmxRWXJ2WmxWNXRoVVlLWE5IT0hBYV9rc1VldDR1WXlIcmNEMWFKWUczWU0wUEkyQTZXSWR2RzY5RnhvOEM4dFRUZlhiZmJ1UWpVVkY4NW5SVFBxOWI3b1IyY2c?oc=5"
       },
       {
-        "headline": "Cracker Barrel Q3 2026 earnings beat, raises full-year outlook",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/cracker-barrel-q3-2026-earnings-131844193.html"
+        "headline": "DCC Inclined to Accept New \u00a35.7 Billion Bid From KKR and ECP - Bloomberg.com",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVkZqTGwydnkzZVI5aGQ5Nk1hRnZkZmZMZ2c5Vm9SMVNtZnJFZnRLLUR0Ukt0UFBJVXBlZHRaSnRwU2R6cDBCMnk4Y2lPUmp6VUVkb1ExRjlmOS10Y0RSQzBUQnQ3WGZqSUMxSkZFbkVTRVkxYnVrZmZDdk1fc1VUdmNOanVkenBUYWxSSGRrTUkyY1pZSUVacFF4RFBUZWExb1d2ekxXeW92S25ISVJB?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 56,
-      "Macro & Economy": 49,
-      "Investment Banking & Deals": 179,
-      "Real Estate & REITs": 22,
-      "Earnings & Results": 81,
-      "Tech & Fintech": 132
+      "Stock Market & Equities": 48,
+      "Macro & Economy": 53,
+      "Investment Banking & Deals": 163,
+      "Real Estate & REITs": 23,
+      "Earnings & Results": 73,
+      "Tech & Fintech": 127
     }
   },
   {
