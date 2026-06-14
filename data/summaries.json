@@ -2,19 +2,19 @@
   {
     "week": "2026-W24",
     "label": "Week of June 8\u201312, 2026",
-    "generated": "2026-06-14T10:19:56.152388+00:00",
+    "generated": "2026-06-14T15:04:38.800186+00:00",
     "bullets": [
+      {
+        "headline": "Here are the 3 big things we're watching in the stock market in the week ahead",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/06/14/3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html"
+      },
       {
         "headline": "EA Goes Private: $55B Buyout, Largest LBO Ever [2026] - tech-insider.org",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE91QVY3cmU0R1BBNVpNN2ZtZi0yRDVMenRhbDd5RnVUN2h2QWFyRnNTZlhiUXNwcDNUY181UzhsZjlqaXVHMlNXVmFmNVd3aXZIeWdRVEVRLU4zcXRJNVJsaDVKelIzajgwejdIWG1ZNEpoUQ?oc=5"
-      },
-      {
-        "headline": "From 10% chance of success to $2 trillion market cap: SpaceX's historic IPO",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/13/from-10percent-chance-of-success-to-2-trillion-spacexs-historic-ipo.html"
       },
       {
         "headline": "SpaceX IPO sticks the landing. Here's what investors are saying about its epic first trading day",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 55,
-      "Macro & Economy": 49,
-      "Investment Banking & Deals": 167,
+      "Stock Market & Equities": 63,
+      "Macro & Economy": 48,
+      "Investment Banking & Deals": 159,
       "Real Estate & REITs": 21,
-      "Earnings & Results": 76,
-      "Tech & Fintech": 111
+      "Earnings & Results": 70,
+      "Tech & Fintech": 117
     }
   },
   {
