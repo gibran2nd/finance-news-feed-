@@ -2,40 +2,52 @@
   {
     "week": "2026-W25",
     "label": "Week of June 15\u201319, 2026",
-    "generated": "2026-06-15T12:59:07.993116+00:00",
+    "generated": "2026-06-15T17:58:04.047946+00:00",
     "bullets": [
       {
-        "headline": "Fox to acquire Roku in $22 billion deal - CBS News",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFByclRjd1NHMjdLLVdvZmtueUN5cEZSTUlnUmpQOElPMG9qVjIyMV9yYUJfcEEtUGhpU3lqdERXbVlCcmNWQ3JPQlcxRDktSXdJdjM2OWRGcWtWalM4MW5HbHVMejlYaGZpZkx3anhR?oc=5"
-      },
-      {
-        "headline": "EA Goes Private: $55B Buyout, Largest LBO Ever [2026] - tech-insider.org",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE91QVY3cmU0R1BBNVpNN2ZtZi0yRDVMenRhbDd5RnVUN2h2QWFyRnNTZlhiUXNwcDNUY181UzhsZjlqaXVHMlNXVmFmNVd3aXZIeWdRVEVRLU4zcXRJNVJsaDVKelIzajgwejdIWG1ZNEpoUQ?oc=5"
-      },
-      {
-        "headline": "From 10% chance of success to $2 trillion market cap: SpaceX's historic IPO",
+        "headline": "Salesforce to buy AI customer service platform Fin for $3.6 billion to boost agentic offerings",
         "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/13/from-10percent-chance-of-success-to-2-trillion-spacexs-historic-ipo.html"
+        "link": "https://www.cnbc.com/2026/06/15/salesforce-ai-customer-service-fin-acquistion.html"
       },
       {
-        "headline": "SpaceX IPO: Live updates on everything you need to know",
+        "headline": "Roku Is Being Acquired. Here's What Investors Need to Know.",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/roku-being-acquired-heres-investors-172816911.html"
+      },
+      {
+        "headline": "Fox Shares Plunging 18.8% on Fox To Acquire Roku In $22 Billion Deal - AlphaStreet",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaHNCdjRqMDI3QkVlVFJwU2RVU1Z4OGVBbW9TS3I1TzlzdE1TbUIyX18xWTl2cU93RFZsM3V4bVhyV1hyZVNDWXlxb3BrcHRtZHZEWURWVGZidGlLR0MzVkp3ZnlIaEg3eUNJLVNGVWNnV0k2NTRPVXRpYjVoVFVJXzZFV0EtT1RxNmoxN05yTHFaNFp6Unl5ZHA0Zk3SAZwBQVVfeXFMTmhzQnY0ajAyN0JFZVRScFNkVVNWeDhlQW1vU0tyNU85c3RNU21CMl9fMVk5dnFPd0RWbDN1eG1YcldYcmVTQ1l5cW9wa3B0bWR2RFlEVlRmYnRpS0dDM1ZKd2Z5SGhIN3lDSS1TRlVjZ1dJNjU0T1V0aWI1aFRVSV82RVdBLU9UcTZqMTdOckxxWjRaelJ5eWRwNGZN?oc=5"
+      },
+      {
+        "headline": "UK unveils sweeping social media ban for users under 16",
         "source": "TechCrunch",
         "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/"
+        "link": "https://techcrunch.com/2026/06/15/uk-unveils-sweeping-social-media-ban-for-users-under-16/"
+      },
+      {
+        "headline": "Fox to buy streaming device maker Roku for $22 billion",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/06/15/fox-to-buy-roku.html"
+      },
+      {
+        "headline": "Elon Musk Is the World\u2019s First Trillionaire",
+        "source": "Wired Business",
+        "section": "Tech & Fintech",
+        "link": "https://www.wired.com/story/elon-musk-is-the-worlds-first-trillionaire-wow/"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 62,
-      "Macro & Economy": 45,
-      "Investment Banking & Deals": 169,
-      "Real Estate & REITs": 20,
+      "Stock Market & Equities": 52,
+      "Macro & Economy": 48,
+      "Investment Banking & Deals": 206,
+      "Real Estate & REITs": 19,
       "Earnings & Results": 86,
-      "Tech & Fintech": 110
+      "Tech & Fintech": 115
     }
   },
   {
