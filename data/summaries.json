@@ -2,52 +2,46 @@
   {
     "week": "2026-W25",
     "label": "Week of June 15\u201319, 2026",
-    "generated": "2026-06-16T12:05:02.535927+00:00",
+    "generated": "2026-06-16T17:56:15.727518+00:00",
     "bullets": [
       {
-        "headline": "Fox To Acquire Roku In $22 Billion Streaming Deal - Arise News",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tdXBvRW9DTjlXQThCS1U3SFZORGo2QWZBTmRIOEdqZkZmVmtMa21wMWNxeWNxWEZPT3dYRlF0M0hydlNGeWJQU3JudWdxVmN0ZWlmQkZSMlZRZk9id0VPZjdwVElkc0VBdDBuTWszamFjblFLR2taNTR3?oc=5"
-      },
-      {
-        "headline": "SpaceX agrees to buy Cursor parent Anysphere for $60 billion",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/technology/ai/articles/spacex-agrees-buy-cursor-parent-112849761.html"
-      },
-      {
-        "headline": "SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO",
+        "headline": "Payments startup Flutterwave hits $3.2B valuation, backed by Ripple",
         "source": "TechCrunch",
         "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/"
+        "link": "https://techcrunch.com/2026/06/16/payments-startup-flutterwave-hits-3-2b-valuation-backed-by-ripple/"
       },
       {
-        "headline": "SpaceX is public: Everything you need to know post-IPO - TechCrunch",
-        "source": "Google \u2013 IPO",
+        "headline": "SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO - TechCrunch",
+        "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeHlGeUtlVGFtZDBwSi1BazJNSF9LLWtVdjFyd3lkZ1dpazloNVluODJIUFVTeGIzekxCUmgtbndGdnFURmxoaERob0NqZjNpZlFfU0pMRDZiWjFIb0FuTkQ3NkswZU5seHY2N3I4dFM3ZTNkVmZWMjNFSms0UmhOVTFtejNLckdXOE5vYVFkR2JkUQ?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObGhMTGFDbnNPSU1USXBIVmo4VnBmempTZTBzc1d0WF9BN3VOYWhSeHdPcS0tQVBwSVh1WE0wRGpBbzRHV0JHMUQxQlROOHpoc2hpZm9ZaENHNmt2ZVlUYmc5bmNxeEt4ME5TMGQwb0dtUjZZYTZDdlZjUlN2UnpXYXc4S3dtOEVFWXpXTUFuN0M4SVlBSk03MXVieE14bFhtNkprZlZB?oc=5"
       },
       {
-        "headline": "Warsh's Fed is likely to hold rates steady \u2014 what the leadership change could mean for your money",
-        "source": "CNBC M&A",
+        "headline": "Western Union acquires Israeli fintech GMT in $70 million deal - CTech",
+        "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/15/warsh-fed-interest-rates.html"
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mWVNWX1hxNlZrNmU4Yk1PWXcyRHF2ZGo3eG1sRzFIWDYzYmNROUIzM0dZSFBlREpZWUkxM0NDMlI5TjQwYm5JeV9Mc3JrSlhzVHUwU2pIcTlLQ0t6V2kwVXRSUDFFRHZsRmc?oc=5"
       },
       {
-        "headline": "The UK Places a Sweeping Ban on Social Media for Kids Under 16",
+        "headline": "CalPERS\u2019 PE bet paid off. Now it looms larger under TPA. - Pensions & Investments",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM1Q0X3UzMWtHZk45dE93VmN5SFVYOVA0ZFJaNjlxeGJVRTUwc3NuM3hGSFdRWTBtd2dib3A1Qk9IU2xoLUtBZ2dZY1l5RTV3cEVaRWljM3FWb0NkdWcyRWttelg0T1pNWU1DTk1LczZlVkJjUG1vYVYtNDdCa09LRHhtYWlKR2NuMk1pSTV5dHQ0RHExejVNa0pSc0hmUTJMLUxiNzBRcXdOdw?oc=5"
+      },
+      {
+        "headline": "Elon Musk Is the World\u2019s First Trillionaire",
         "source": "Wired Business",
         "section": "Tech & Fintech",
-        "link": "https://www.wired.com/story/uk-social-media-under-16-ban/"
+        "link": "https://www.wired.com/story/elon-musk-is-the-worlds-first-trillionaire-wow/"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 47,
+      "Stock Market & Equities": 52,
       "Macro & Economy": 47,
       "Investment Banking & Deals": 198,
       "Real Estate & REITs": 19,
-      "Earnings & Results": 84,
-      "Tech & Fintech": 118
+      "Earnings & Results": 91,
+      "Tech & Fintech": 129
     }
   },
   {
