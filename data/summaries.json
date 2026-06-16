@@ -2,8 +2,26 @@
   {
     "week": "2026-W25",
     "label": "Week of June 15\u201319, 2026",
-    "generated": "2026-06-16T17:56:15.727518+00:00",
+    "generated": "2026-06-16T21:38:18.959769+00:00",
     "bullets": [
+      {
+        "headline": "Exclusive: PayPal winds down venture arm as fintech giant restructures under new CEO",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/06/16/paypal-ventures-wind-down-corporate-restructuring-enrique-lores/"
+      },
+      {
+        "headline": "SpaceX to Acquire AI Startup Cursor for $60 Billion - Not a Tesla App",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVWhhZDNmWU5TbkV0OFBsN2xfVnpWYXRjbExjZUdlMGZjUC1jaHJHZ2FocHFSQm42UEo0azBDbFhxNVJuQlk3SU1OSUczOVVIZkZhajRQSnItZm8wLXFsN0VqS0RkcnpPLXpWbXA1T0NCUUFURXN0dUM1RENORVlnMGlHeTR3cEQzR2s5djFWb1ZnTFE?oc=5"
+      },
+      {
+        "headline": "SpaceX is public: Everything you need to know post-IPO",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/06/16/spacex-is-public-everything-you-need-to-know-post-ipo/"
+      },
       {
         "headline": "Payments startup Flutterwave hits $3.2B valuation, backed by Ripple",
         "source": "TechCrunch",
@@ -11,36 +29,24 @@
         "link": "https://techcrunch.com/2026/06/16/payments-startup-flutterwave-hits-3-2b-valuation-backed-by-ripple/"
       },
       {
+        "headline": "Bain Capital Hits $15 Billion Windfall from Kioxia Buyout - Businesskorea",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5KMUtEa0J5UFJWOWtyTHZXYW1nTmd6LWwzMHhLVlVZNHp3SmJQVW5udnZDVGRwWFhMLUtyN3VpYmRjbWhBd3d4c2M3MDI4MWZCLUpjT1BZc2dsVHdqWXNVbGUtWFUwS3RMOXZOMnk3NGd2T1Jw?oc=5"
+      },
+      {
         "headline": "SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO - TechCrunch",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObGhMTGFDbnNPSU1USXBIVmo4VnBmempTZTBzc1d0WF9BN3VOYWhSeHdPcS0tQVBwSVh1WE0wRGpBbzRHV0JHMUQxQlROOHpoc2hpZm9ZaENHNmt2ZVlUYmc5bmNxeEt4ME5TMGQwb0dtUjZZYTZDdlZjUlN2UnpXYXc4S3dtOEVFWXpXTUFuN0M4SVlBSk03MXVieE14bFhtNkprZlZB?oc=5"
-      },
-      {
-        "headline": "Western Union acquires Israeli fintech GMT in $70 million deal - CTech",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mWVNWX1hxNlZrNmU4Yk1PWXcyRHF2ZGo3eG1sRzFIWDYzYmNROUIzM0dZSFBlREpZWUkxM0NDMlI5TjQwYm5JeV9Mc3JrSlhzVHUwU2pIcTlLQ0t6V2kwVXRSUDFFRHZsRmc?oc=5"
-      },
-      {
-        "headline": "CalPERS\u2019 PE bet paid off. Now it looms larger under TPA. - Pensions & Investments",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM1Q0X3UzMWtHZk45dE93VmN5SFVYOVA0ZFJaNjlxeGJVRTUwc3NuM3hGSFdRWTBtd2dib3A1Qk9IU2xoLUtBZ2dZY1l5RTV3cEVaRWljM3FWb0NkdWcyRWttelg0T1pNWU1DTk1LczZlVkJjUG1vYVYtNDdCa09LRHhtYWlKR2NuMk1pSTV5dHQ0RHExejVNa0pSc0hmUTJMLUxiNzBRcXdOdw?oc=5"
-      },
-      {
-        "headline": "Elon Musk Is the World\u2019s First Trillionaire",
-        "source": "Wired Business",
-        "section": "Tech & Fintech",
-        "link": "https://www.wired.com/story/elon-musk-is-the-worlds-first-trillionaire-wow/"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 52,
-      "Macro & Economy": 47,
-      "Investment Banking & Deals": 198,
+      "Stock Market & Equities": 60,
+      "Macro & Economy": 50,
+      "Investment Banking & Deals": 181,
       "Real Estate & REITs": 19,
-      "Earnings & Results": 91,
+      "Earnings & Results": 76,
       "Tech & Fintech": 129
     }
   },
