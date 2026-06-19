@@ -2,8 +2,20 @@
   {
     "week": "2026-W25",
     "label": "Week of June 15\u201319, 2026",
-    "generated": "2026-06-19T11:14:21.843084+00:00",
+    "generated": "2026-06-19T15:56:22.154459+00:00",
     "bullets": [
+      {
+        "headline": "Struggling to find a job? Try looking in Nevada",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/06/19/nevada-workforce-job-market.html"
+      },
+      {
+        "headline": "Fintech Firm Digital Asset Returns to 4 WTC With 19K-SF Lease",
+        "source": "Commercial Observer",
+        "section": "Real Estate & REITs",
+        "link": "https://commercialobserver.com/2026/06/digital-asset-lease-4-wtc/"
+      },
       {
         "headline": "Hormuz relief may not ease the economic toll that's already 'baked in,' analysts warn",
         "source": "CNBC Economy",
@@ -23,31 +35,19 @@
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTHJtb1JrN0RtMlF5Ql9za0Vyc2xpVktlaEMyWmwwRjRiV0lvbEVhWjh5UThVVXNHdktsVEEtMUpTUnl1SWhjQ2l5ejc0dWxUbVdjNHlIakNpd044dlk2ZjZtLUhmUVJmb2FLSEdMbzZ5UUZNLUppU2hWTDBtbmNYZFphT0ZuYnNHOE1Hd2ZHVjlZSWtUaHZFZ3dTdw?oc=5"
       },
       {
-        "headline": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/18/the-average-spacex-buyer-post-ipo-is-almost-under-water-after-two-day-slide.html"
-      },
-      {
         "headline": "OpenAI is bringing on some big guns in the lead-up to its IPO",
         "source": "TechCrunch",
         "section": "Tech & Fintech",
         "link": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/"
-      },
-      {
-        "headline": "UK product testing firm Intertek agrees to $14.5 billion EQT buyout - Reuters",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTTllMDdFODhMdWx1X25JalFuMHVnR2R4aVQ5WnhXcUtwNjMyTk1TWm1TaDFldjNGVUZkTDh2WlVTNWpZN0JWSXZVaVFsN3dXZGViZ1AxazdqWkVxQjVPa1FUZk1tRDBrMDJNYXZaVi1CTjlLM2hoSjJyeDdvbU94OUVOTGNuVUxWcUFMM1U4Y1RhNmwtZTVjaVNGVWJKVDdqOTI1RGFZZDV2Zw?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 49,
-      "Macro & Economy": 71,
-      "Investment Banking & Deals": 176,
+      "Stock Market & Equities": 50,
+      "Macro & Economy": 76,
+      "Investment Banking & Deals": 169,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 74,
-      "Tech & Fintech": 130
+      "Earnings & Results": 68,
+      "Tech & Fintech": 133
     }
   },
   {
