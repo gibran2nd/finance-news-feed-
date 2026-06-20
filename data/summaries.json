@@ -2,13 +2,25 @@
   {
     "week": "2026-W25",
     "label": "Week of June 15\u201319, 2026",
-    "generated": "2026-06-19T20:23:15.528249+00:00",
+    "generated": "2026-06-20T09:58:01.536500+00:00",
     "bullets": [
+      {
+        "headline": "Go eyes robotaxis and acquisitions after Japan\u2019s biggest IPO of 2026. Here\u2019s why it matters - TechCrunch",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa2VOeXRFa2tWRGFCaF83S3Q0WEtSbGxab1E2bUxpNTdzWHpsbmloTXVsR3YxNTlxb2lJMlFhUkRZN3E0SEpXWXd4MGJEajEyUlh1Nm1leWJZRUFZdzZwOFlHWFQwLWRvMlM4ZU5VWndpWF81NE5yLUdjNUliRUNxVlFJTUgyNkpuUHdnQ25MWTNLVE5ETDdKMmpVLXRZR3hxOWZHNGVnZExCXzh0V09sMy1JemNxZ0ZfcFZxQkVCcTE?oc=5"
+      },
       {
         "headline": "Struggling to find a job? Try looking in Nevada",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/06/19/nevada-workforce-job-market.html"
+      },
+      {
+        "headline": "The riskiest SpaceX stock trade of all had a big first week",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/06/19/spacex-stock-risk-buy-sell.html"
       },
       {
         "headline": "Fintech Firm Digital Asset Returns to 4 WTC With 19K-SF Lease",
@@ -17,22 +29,10 @@
         "link": "https://commercialobserver.com/2026/06/digital-asset-lease-4-wtc/"
       },
       {
-        "headline": "Hormuz relief may not ease the economic toll that's already 'baked in,' analysts warn",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/06/19/hormuz-relief-may-not-ease-the-economic-toll-thats-already-baked-in-analysts-warn.html"
-      },
-      {
-        "headline": "Flexstone Partners To Acquire Glouston Capital Partners To Form $15 Billion Private Equity Platform - Pulse 2.0",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNa09zd014ejJHZVNyQlI3RC0yNlpmSktRRF9NSWxtNGE3QjFxWkh1ODdoeXpVOGxvaHZhTFBvRkxEb2M0dG5yM001cUp4Mk14ZkRUT1BWY0dIQWc0dkNwYlZiRDE2QUJhQUNSS0F2aHFSVEw1ZUFYNVJuZ0pTeTh0N0ZkNWlXN0VWWktXY2I2LUhfSlo2Q2k1RC1ob2RBTjVCOWw3aVdwbVVScDEzWnpLclVCX1EyYTVTSWfSAb8BQVVfeXFMTmF5bldObkJBZEQ5TzloTG1JTXdWVkVNWmNDcW5rUTQ1cE12ZW9DVlVTV2pHckdoZWpRTFBtVUwxMGF0RGk1LXBET1o1R2hCTmFQWXRHRFVJZUdtRGFpek9zM0VLS1A0UEo2V2tfVElvbzFqdGJaUncwUkF4RjRPQjlBa0F1RW9USUprMmRnZmIwT1Y5NDhtaGlwT1B4SjZVUm9sTzJaeVFjVmVzY3R4VFR4bWdNeGQ4cXZFd0kxYzg?oc=5"
-      },
-      {
-        "headline": "Virginia Retirement System allocates more than $2 billion across multiple asset classes - Pensions & Investments",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTHJtb1JrN0RtMlF5Ql9za0Vyc2xpVktlaEMyWmwwRjRiV0lvbEVhWjh5UThVVXNHdktsVEEtMUpTUnl1SWhjQ2l5ejc0dWxUbVdjNHlIakNpd044dlk2ZjZtLUhmUVJmb2FLSEdMbzZ5UUZNLUppU2hWTDBtbmNYZFphT0ZuYnNHOE1Hd2ZHVjlZSWtUaHZFZ3dTdw?oc=5"
+        "headline": "Gemini Co-Lead Noam Shazeer Quits Google, Joins OpenAI Before IPO",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/technology/ai/articles/gemini-co-lead-noam-shazeer-062848194.html"
       },
       {
         "headline": "OpenAI is bringing on some big guns in the lead-up to its IPO",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 45,
-      "Macro & Economy": 74,
-      "Investment Banking & Deals": 166,
+      "Stock Market & Equities": 41,
+      "Macro & Economy": 75,
+      "Investment Banking & Deals": 149,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 65,
-      "Tech & Fintech": 128
+      "Earnings & Results": 64,
+      "Tech & Fintech": 115
     }
   },
   {
