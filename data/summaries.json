@@ -2,8 +2,14 @@
   {
     "week": "2026-W26",
     "label": "Week of June 22\u201326, 2026",
-    "generated": "2026-06-23T15:43:30.751331+00:00",
+    "generated": "2026-06-23T20:57:58.412469+00:00",
     "bullets": [
+      {
+        "headline": "FedEx posts strong earnings results in last quarter with freight business",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/23/fedex-fdx-q4-2026-earnings.html"
+      },
       {
         "headline": "Factory job cuts in June neared financial crisis and Covid levels, S&P says",
         "source": "CNBC Economy",
@@ -11,24 +17,24 @@
         "link": "https://www.cnbc.com/2026/06/23/factory-job-cuts-reported-around-financial-crisis-and-covid-levels-for-june-sp-says.html"
       },
       {
-        "headline": "How a $4 billion Indian startup won Meta's backing but lost its founder to WhatsApp - CNBC",
-        "source": "Google \u2013 Fintech",
-        "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAwbkltTFczVXVabDFxVi0zWDM3aGVrREU3UUdUb2V1YVB2ZXdzN0RCWHdwd0RYM21DM2FrRWRnNm1LVEFRX0hiendSaEltMTltVVpoSGxPbFZmV2FUNFM4ZDVGaXlYVk91SWJsa1ZYaUdnMU5oZmpURXJoQ28xd9IBgwFBVV95cUxQS3dJMDd3QVkxNG5aRS05WWh3NmVVRWp1V3o1M1ZHSkxZLU5xd0tFeWpGd3pnMmRMUjdvTmJ2d3BKeW1UbC01cy04N1FqVmRyaXFtMm9paksyb2NKR2IxUmlyYW52Nm1zemlrVVJPZVUwZUgyQ0FLTUJmV3pTd0VRWElvVQ?oc=5"
-      },
-      {
         "headline": "Godiva Japan said to seek extension on $464 million leveraged buyout loan - The Japan Times",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ0x4RTl1Ykh2TFBGMFMzN0dCQjlRcmZIc2o1MmN6SWVxdi0tVjJ4QWVfXzd3N2NUVndMM3d5amNqNElteEQ4cFpTUmQtWUREU3c2Y0gyUEFkNXRsSFc3NEpJN1BWZU1zajR1djZmelhNbW54cEVKMFpUc0M2Wi1hSHJVdGZtTUY4?oc=5"
+      },
+      {
+        "headline": "Former New York governor Andrew Cuomo to co-chair joint venture between NYSE owner and crypto exchange OKX",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/former-york-governor-andrew-cuomo-120045042.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 58,
-      "Macro & Economy": 72,
-      "Investment Banking & Deals": 122,
+      "Stock Market & Equities": 62,
+      "Macro & Economy": 69,
+      "Investment Banking & Deals": 124,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 72,
+      "Earnings & Results": 64,
       "Tech & Fintech": 111
     }
   },
