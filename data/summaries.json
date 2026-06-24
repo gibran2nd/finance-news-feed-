@@ -2,25 +2,37 @@
   {
     "week": "2026-W26",
     "label": "Week of June 22\u201326, 2026",
-    "generated": "2026-06-24T15:29:07.177809+00:00",
+    "generated": "2026-06-24T20:28:45.864411+00:00",
     "bullets": [
       {
-        "headline": "Qualcomm to acquire AI software player Modular for nearly USD4 billion - ANI News",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTHAzUDRsWE13Z1hULTNjZS1RVmdKN0lFM2JXaFZKbWRkQkdQSjU1R3RVRUxCRGtOZkpxWWxZalh6RDMxQkxqdjNhQ0JKWGpWaDRabGc4bkwwWElRd2dKeGNYZVRudVlDcGhhWGxLMmR3a01pZkwxNncxdWRDZGJDVERrQkF3XzlzWlhOdElDN1otYmxjRGpMUW9Hd2diRXJJWmY5VjNZTnFmYnNPWVVfZUdSZjFDNFJXZE9GOUZB?oc=5"
+        "headline": "Micron stock jumps 10% as soaring prices from memory crunch lead to quadrupling of revenue",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html"
+      },
+      {
+        "headline": "Cerebras CEO says margin forecast was 'misunderstood' as stock plummets after earnings",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/24/cerebras-cbrs-stock-earnings.html"
+      },
+      {
+        "headline": "Treasury Secretary Bessent says U.S. GDP growth can return to 3% before end of the year - CNBC",
+        "source": "Google \u2013 Fed & Rates",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeE9QRXhFX0ZiQUs1V0ZfRWVsaGliQkd6Q01XV2xQOHV6TEZSV1JRMUJhVDlLU2luM0xRb05WdTY0UV9pSWtQSFkwX3hLNG1hWXRHRnduLTVhczJYUTdIM3o4ZGx1TndNaG1xLVJwT3VEVjhXcmp6UkFrdXhSZTQweW9aVExoaURUS3lJaG1udnNVek9ZUzkzTS1oOFEtTkRvY2UyVzVEaXNoTTBQS1JaaldRVGNNWE01cjRpZnF2Xzg2NEpwS0tv0gHMAUFVX3lxTFBaVnhYVllLX1BNWnFLdEZ3eFNPVUFUaFdNbTJMSGF1NWpEUzNQVHdKVVBJQVBkaFJlaUVGV3VxdzZzZDNwelg4bmlmVk53RTZMUEpmSVVORDRSNkpTUVRrMnR5ck9lNndfSXNacFdPZWYtTm53MFRTMVpTWnBLRDVtM0wxanYtRzRpU1hGMWcwTk9BeGFaVko5ZDMySWpWMnhmOWhBNHhPSmdFTDBDY19ILWVNOXhfVTNFME5JbXJ1Z1BxdHJVNktFOGExSg?oc=5"
+      },
+      {
+        "headline": "Qualcomm Buys Buzzy Chip Startup Modular for Nearly $4 Billion",
+        "source": "Wired Business",
+        "section": "Tech & Fintech",
+        "link": "https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion/"
       },
       {
         "headline": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/06/23/cerebras-cbrs-q1-earnings-report-2026.html"
-      },
-      {
-        "headline": "SpaceX raises $25 billion in debt sale less than two weeks after IPO",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/23/spacex-debt-bond-market-ipo.html"
       },
       {
         "headline": "Factory job cuts in June neared financial crisis and Covid levels, S&P says",
@@ -30,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 56,
-      "Macro & Economy": 60,
-      "Investment Banking & Deals": 146,
+      "Stock Market & Equities": 53,
+      "Macro & Economy": 51,
+      "Investment Banking & Deals": 134,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 65,
-      "Tech & Fintech": 108
+      "Earnings & Results": 56,
+      "Tech & Fintech": 113
     }
   },
   {
