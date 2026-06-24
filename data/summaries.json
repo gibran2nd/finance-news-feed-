@@ -2,13 +2,25 @@
   {
     "week": "2026-W26",
     "label": "Week of June 22\u201326, 2026",
-    "generated": "2026-06-23T20:57:58.412469+00:00",
+    "generated": "2026-06-24T10:14:40.097162+00:00",
     "bullets": [
       {
-        "headline": "FedEx posts strong earnings results in last quarter with freight business",
+        "headline": "Why FedEx is down after a strong quarter \u2014 and its impact on our stock rating",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/23/fedex-fdx-q4-2026-earnings.html"
+        "link": "https://www.cnbc.com/2026/06/23/why-fedex-is-down-after-a-strong-quarter-and-its-impact-on-our-rating.html"
+      },
+      {
+        "headline": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO - CNBC",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2b1RtMEZBRHpKS0J1cVZIYVdnNnl5OVRmeklVVXVReG1qUjR1ZUVjbUxNZE5EZjhaZjBxcEtNMll3QmdoV3VwRmZ3YVBVWDhyRUVaY19yeUgwN2UzYk52a1hDLTNXd0pmRHFpQktUNVhmVTFLOVBndzFUOHRmMjTSAYQBQVVfeXFMUGpJQWFBN3hxUkxYeHAybG4tVWhpdS05MFpsSUxVRFhNLWNrZU90Q0hlXy1VNU1peFlpRXcyajNwY3pCVnoydWRfNXF4VkJmcVJwTFhONldJZ1E0VW1WVG9JTzJMem5yMlVTaGtwdzQ5TkhYVDJaLVNjQXIyV1lJd3o4QjM5?oc=5"
+      },
+      {
+        "headline": "SpaceX raises $25 billion in debt sale less than two weeks after IPO",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/06/23/spacex-debt-bond-market-ipo.html"
       },
       {
         "headline": "Factory job cuts in June neared financial crisis and Covid levels, S&P says",
@@ -21,21 +33,15 @@
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ0x4RTl1Ykh2TFBGMFMzN0dCQjlRcmZIc2o1MmN6SWVxdi0tVjJ4QWVfXzd3N2NUVndMM3d5amNqNElteEQ4cFpTUmQtWUREU3c2Y0gyUEFkNXRsSFc3NEpJN1BWZU1zajR1djZmelhNbW54cEVKMFpUc0M2Wi1hSHJVdGZtTUY4?oc=5"
-      },
-      {
-        "headline": "Former New York governor Andrew Cuomo to co-chair joint venture between NYSE owner and crypto exchange OKX",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/former-york-governor-andrew-cuomo-120045042.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 62,
-      "Macro & Economy": 69,
-      "Investment Banking & Deals": 124,
+      "Stock Market & Equities": 52,
+      "Macro & Economy": 60,
+      "Investment Banking & Deals": 135,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 64,
-      "Tech & Fintech": 111
+      "Earnings & Results": 68,
+      "Tech & Fintech": 106
     }
   },
   {
