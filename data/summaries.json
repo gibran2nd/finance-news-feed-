@@ -2,31 +2,31 @@
   {
     "week": "2026-W26",
     "label": "Week of June 22\u201326, 2026",
-    "generated": "2026-06-24T20:28:45.864411+00:00",
+    "generated": "2026-06-25T10:11:34.591222+00:00",
     "bullets": [
       {
-        "headline": "Micron stock jumps 10% as soaring prices from memory crunch lead to quadrupling of revenue",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html"
-      },
-      {
-        "headline": "Cerebras CEO says margin forecast was 'misunderstood' as stock plummets after earnings",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/24/cerebras-cbrs-stock-earnings.html"
-      },
-      {
-        "headline": "Treasury Secretary Bessent says U.S. GDP growth can return to 3% before end of the year - CNBC",
-        "source": "Google \u2013 Fed & Rates",
+        "headline": "Iran warns ships it's 'unacceptable and dangerous' to transit the Strait of Hormuz without their approval",
+        "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeE9QRXhFX0ZiQUs1V0ZfRWVsaGliQkd6Q01XV2xQOHV6TEZSV1JRMUJhVDlLU2luM0xRb05WdTY0UV9pSWtQSFkwX3hLNG1hWXRHRnduLTVhczJYUTdIM3o4ZGx1TndNaG1xLVJwT3VEVjhXcmp6UkFrdXhSZTQweW9aVExoaURUS3lJaG1udnNVek9ZUzkzTS1oOFEtTkRvY2UyVzVEaXNoTTBQS1JaaldRVGNNWE01cjRpZnF2Xzg2NEpwS0tv0gHMAUFVX3lxTFBaVnhYVllLX1BNWnFLdEZ3eFNPVUFUaFdNbTJMSGF1NWpEUzNQVHdKVVBJQVBkaFJlaUVGV3VxdzZzZDNwelg4bmlmVk53RTZMUEpmSVVORDRSNkpTUVRrMnR5ck9lNndfSXNacFdPZWYtTm53MFRTMVpTWnBLRDVtM0wxanYtRzRpU1hGMWcwTk9BeGFaVko5ZDMySWpWMnhmOWhBNHhPSmdFTDBDY19ILWVNOXhfVTNFME5JbXJ1Z1BxdHJVNktFOGExSg?oc=5"
+        "link": "https://www.cnbc.com/2026/06/25/iran-navy-shipping-recovery-strait-of-hormuz-unauthorized-routes-us-fragile-mou-.html"
       },
       {
-        "headline": "Qualcomm Buys Buzzy Chip Startup Modular for Nearly $4 Billion",
-        "source": "Wired Business",
+        "headline": "Cerebras stock plunges after earnings as CEO says margin outlook was misunderstood",
+        "source": "TechCrunch",
         "section": "Tech & Fintech",
-        "link": "https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion/"
+        "link": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/"
+      },
+      {
+        "headline": "Micron is tech's new margin king as memory crisis pushes company past Nvidia and Meta",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/24/micron-is-techs-margin-king-memory-crisis-pushes-it-past-nvidia-meta.html"
+      },
+      {
+        "headline": "Qualcomm to Acquire Startup Modular for Nearly $4 Billion - The Information",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYzNxTHhjY3ZHSEtZUk1yTVRvbHBHOHpYX3VnSW02WXFGOHlkdW50U2l5OWdRS3pkcXdrUjlVcU5vM0FpbkYtSy0xMXNJa081Sm1iekdoQWpUZkFBVkJHM3FvYjRSX0NTbVZuUExrVEJ3RFFLSU4zYmlpbVB3cW5OQXV5WjlzX2xJeXRsc2ZDUWNOWlpK?oc=5"
       },
       {
         "headline": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 53,
+      "Stock Market & Equities": 51,
       "Macro & Economy": 51,
-      "Investment Banking & Deals": 134,
+      "Investment Banking & Deals": 132,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 56,
-      "Tech & Fintech": 113
+      "Earnings & Results": 67,
+      "Tech & Fintech": 112
     }
   },
   {
