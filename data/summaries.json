@@ -2,13 +2,19 @@
   {
     "week": "2026-W26",
     "label": "Week of June 22\u201326, 2026",
-    "generated": "2026-06-25T10:11:34.591222+00:00",
+    "generated": "2026-06-25T15:36:40.645574+00:00",
     "bullets": [
       {
         "headline": "Iran warns ships it's 'unacceptable and dangerous' to transit the Strait of Hormuz without their approval",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/06/25/iran-navy-shipping-recovery-strait-of-hormuz-unauthorized-routes-us-fragile-mou-.html"
+      },
+      {
+        "headline": "Darden Restaurants earnings beat estimates but Olive Garden growth weakens",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/25/darden-restaurants-dri-q4-2026-earnings.html"
       },
       {
         "headline": "Cerebras stock plunges after earnings as CEO says margin outlook was misunderstood",
@@ -33,21 +39,15 @@
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/06/23/cerebras-cbrs-q1-earnings-report-2026.html"
-      },
-      {
-        "headline": "Factory job cuts in June neared financial crisis and Covid levels, S&P says",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/06/23/factory-job-cuts-reported-around-financial-crisis-and-covid-levels-for-june-sp-says.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 51,
-      "Macro & Economy": 51,
-      "Investment Banking & Deals": 132,
+      "Stock Market & Equities": 63,
+      "Macro & Economy": 50,
+      "Investment Banking & Deals": 123,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 67,
-      "Tech & Fintech": 112
+      "Earnings & Results": 69,
+      "Tech & Fintech": 114
     }
   },
   {
