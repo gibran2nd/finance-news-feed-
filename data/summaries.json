@@ -2,8 +2,26 @@
   {
     "week": "2026-W26",
     "label": "Week of June 22\u201326, 2026",
-    "generated": "2026-06-25T20:52:07.595429+00:00",
+    "generated": "2026-06-26T10:15:48.725871+00:00",
     "bullets": [
+      {
+        "headline": "Airwallex hits $11 billion valuation with $320 million raise as fintech pushes into finance run by AI agents",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/06/26/airwallex-series-h-funding-11-billion-valuation-ai-finance.html"
+      },
+      {
+        "headline": "FedEx Freight takes a step forward in its independent journey. Here's why we like the stock",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/25/fedex-freight-takes-a-step-forward-in-its-independent-journey-heres-why-we-like-the-stock.html"
+      },
+      {
+        "headline": "ON Semiconductor strikes $7 billion deal for Synaptics in physical AI push - CNBC",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBIbElaaWZlRDNuZ2hrSnU5cTVrcjduamt1SWRDb1VhUmt5c3lFa0dDWWJwVXBMeHFHTndiZ2s0UmZLblRERG04b3M2V3o3ZXVtZXE5SFlFUjZXcFU1Q3EteURPMXNadHhFSm01YlNHOVN4cnRfZFE3M1d1Y9IBgAFBVV95cUxNc3VMcElMaUdCdXFrV1ZURnJ4WVZHckdlVFd0TkdTNzZsUnFiV1Y4bEI1VW45OGVCMEI2b1g1XzY1NFA2RGN1aWg5Ry1QSUVvM090ZlcwRW5MZzdvM0JvMXJyWkZVUld5SU1GWlFlWjNNSXVockVVVmRMZVduUjBKVw?oc=5"
+      },
       {
         "headline": "Iran warns ships it's 'unacceptable and dangerous' to transit the Strait of Hormuz without their approval",
         "source": "CNBC Economy",
@@ -17,36 +35,18 @@
         "link": "https://www.cnbc.com/2026/06/25/darden-restaurants-dri-q4-2026-earnings.html"
       },
       {
-        "headline": "Micron is tech's new margin king as memory crisis pushes company past Nvidia and Meta",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/24/micron-is-techs-margin-king-memory-crisis-pushes-it-past-nvidia-meta.html"
-      },
-      {
-        "headline": "Qualcomm to Acquire Startup Modular for Nearly $4 Billion - The Information",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYzNxTHhjY3ZHSEtZUk1yTVRvbHBHOHpYX3VnSW02WXFGOHlkdW50U2l5OWdRS3pkcXdrUjlVcU5vM0FpbkYtSy0xMXNJa081Sm1iekdoQWpUZkFBVkJHM3FvYjRSX0NTbVZuUExrVEJ3RFFLSU4zYmlpbVB3cW5OQXV5WjlzX2xJeXRsc2ZDUWNOWlpK?oc=5"
-      },
-      {
-        "headline": "Qualcomm to buy startup Modular for $4 billion in AI software push",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/technology/ai/articles/qualcomm-buy-ai-startup-modular-120736810.html"
-      },
-      {
-        "headline": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/23/cerebras-cbrs-q1-earnings-report-2026.html"
+        "headline": "Qualcomm Buys Buzzy Chip Startup Modular for Nearly $4 Billion",
+        "source": "Wired Business",
+        "section": "Tech & Fintech",
+        "link": "https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion/"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 67,
-      "Macro & Economy": 51,
-      "Investment Banking & Deals": 121,
+      "Stock Market & Equities": 54,
+      "Macro & Economy": 54,
+      "Investment Banking & Deals": 134,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 61,
+      "Earnings & Results": 57,
       "Tech & Fintech": 111
     }
   },
