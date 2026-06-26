@@ -2,52 +2,46 @@
   {
     "week": "2026-W26",
     "label": "Week of June 22\u201326, 2026",
-    "generated": "2026-06-26T10:15:48.725871+00:00",
+    "generated": "2026-06-26T15:20:25.318256+00:00",
     "bullets": [
       {
-        "headline": "Airwallex hits $11 billion valuation with $320 million raise as fintech pushes into finance run by AI agents",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/06/26/airwallex-series-h-funding-11-billion-valuation-ai-finance.html"
-      },
-      {
-        "headline": "FedEx Freight takes a step forward in its independent journey. Here's why we like the stock",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/25/fedex-freight-takes-a-step-forward-in-its-independent-journey-heres-why-we-like-the-stock.html"
-      },
-      {
-        "headline": "ON Semiconductor strikes $7 billion deal for Synaptics in physical AI push - CNBC",
+        "headline": "ON Semiconductor to acquire Synaptics in $7 billion deal - qz.com",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBIbElaaWZlRDNuZ2hrSnU5cTVrcjduamt1SWRDb1VhUmt5c3lFa0dDWWJwVXBMeHFHTndiZ2s0UmZLblRERG04b3M2V3o3ZXVtZXE5SFlFUjZXcFU1Q3EteURPMXNadHhFSm01YlNHOVN4cnRfZFE3M1d1Y9IBgAFBVV95cUxNc3VMcElMaUdCdXFrV1ZURnJ4WVZHckdlVFd0TkdTNzZsUnFiV1Y4bEI1VW45OGVCMEI2b1g1XzY1NFA2RGN1aWg5Ry1QSUVvM090ZlcwRW5MZzdvM0JvMXJyWkZVUld5SU1GWlFlWjNNSXVockVVVmRMZVduUjBKVw?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84NG1HWUtwM1NZeTF3VUlHUlJQZko0Y2h6N2doQk1EWGt3QktCVkFsa2xiMWIzaWE0V3daVFJGbnJKVElFaDdOcVVGVHdscGhjOXhRa3VZalVIR2VJNlp0OE9aZ1B6QlZZU2MwUDZZZ2liZlFsUXMw?oc=5"
       },
       {
-        "headline": "Iran warns ships it's 'unacceptable and dangerous' to transit the Strait of Hormuz without their approval",
+        "headline": "Shipping rebounds in Strait of Hormuz one week after U.S.-Iran deal \u2013 but fragile confidence threatens recovery",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/06/25/iran-navy-shipping-recovery-strait-of-hormuz-unauthorized-routes-us-fragile-mou-.html"
-      },
-      {
-        "headline": "Darden Restaurants earnings beat estimates but Olive Garden growth weakens",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/25/darden-restaurants-dri-q4-2026-earnings.html"
+        "link": "https://www.cnbc.com/2026/06/26/strait-of-hormuz-shipping-oil-us-iran.html"
       },
       {
         "headline": "Qualcomm Buys Buzzy Chip Startup Modular for Nearly $4 Billion",
         "source": "Wired Business",
         "section": "Tech & Fintech",
         "link": "https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion/"
+      },
+      {
+        "headline": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/23/cerebras-cbrs-q1-earnings-report-2026.html"
+      },
+      {
+        "headline": "Godiva Japan said to seek extension on $464 million leveraged buyout loan - The Japan Times",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ0x4RTl1Ykh2TFBGMFMzN0dCQjlRcmZIc2o1MmN6SWVxdi0tVjJ4QWVfXzd3N2NUVndMM3d5amNqNElteEQ4cFpTUmQtWUREU3c2Y0gyUEFkNXRsSFc3NEpJN1BWZU1zajR1djZmelhNbW54cEVKMFpUc0M2Wi1hSHJVdGZtTUY4?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 54,
-      "Macro & Economy": 54,
-      "Investment Banking & Deals": 134,
+      "Stock Market & Equities": 53,
+      "Macro & Economy": 53,
+      "Investment Banking & Deals": 142,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 57,
-      "Tech & Fintech": 111
+      "Earnings & Results": 52,
+      "Tech & Fintech": 114
     }
   },
   {
