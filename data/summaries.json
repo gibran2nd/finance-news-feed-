@@ -2,8 +2,14 @@
   {
     "week": "2026-W26",
     "label": "Week of June 22\u201326, 2026",
-    "generated": "2026-06-27T14:23:11.328846+00:00",
+    "generated": "2026-06-27T20:03:50.881921+00:00",
     "bullets": [
+      {
+        "headline": "AbbVie (ABBV) to Acquire Apogee Therapeutics",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/healthcare/articles/abbvie-abbv-acquire-apogee-therapeutics-192139000.html"
+      },
       {
         "headline": "Qualcomm to Acquire Startup Modular for Nearly $4 Billion - The Information",
         "source": "Google \u2013 Active Deals",
@@ -19,11 +25,11 @@
     ],
     "section_counts": {
       "Stock Market & Equities": 61,
-      "Macro & Economy": 53,
-      "Investment Banking & Deals": 140,
+      "Macro & Economy": 52,
+      "Investment Banking & Deals": 115,
       "Real Estate & REITs": 17,
-      "Earnings & Results": 51,
-      "Tech & Fintech": 108
+      "Earnings & Results": 50,
+      "Tech & Fintech": 101
     }
   },
   {
