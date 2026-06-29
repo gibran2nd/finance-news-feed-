@@ -1,5 +1,38 @@
 [
   {
+    "week": "2026-W27",
+    "label": "Week of June 29 \u2013 July 3, 2026",
+    "generated": "2026-06-29T11:52:56.858070+00:00",
+    "bullets": [
+      {
+        "headline": "China widens Japan export curbs, targeting drone makers, nuclear firms and defense institutes",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/06/29/china-japan-export-controls-watch-list-defense-entities.html"
+      },
+      {
+        "headline": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO - CNBC",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2b1RtMEZBRHpKS0J1cVZIYVdnNnl5OVRmeklVVXVReG1qUjR1ZUVjbUxNZE5EZjhaZjBxcEtNMll3QmdoV3VwRmZ3YVBVWDhyRUVaY19yeUgwN2UzYk52a1hDLTNXd0pmRHFpQktUNVhmVTFLOVBndzFUOHRmMjTSAYQBQVVfeXFMUGpJQWFBN3hxUkxYeHAybG4tVWhpdS05MFpsSUxVRFhNLWNrZU90Q0hlXy1VNU1peFlpRXcyajNwY3pCVnoydWRfNXF4VkJmcVJwTFhONldJZ1E0VW1WVG9JTzJMem5yMlVTaGtwdzQ5TkhYVDJaLVNjQXIyV1lJd3o4QjM5?oc=5"
+      },
+      {
+        "headline": "Godiva Japan said to seek extension on $464 million leveraged buyout loan - The Japan Times",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ0x4RTl1Ykh2TFBGMFMzN0dCQjlRcmZIc2o1MmN6SWVxdi0tVjJ4QWVfXzd3N2NUVndMM3d5amNqNElteEQ4cFpTUmQtWUREU3c2Y0gyUEFkNXRsSFc3NEpJN1BWZU1zajR1djZmelhNbW54cEVKMFpUc0M2Wi1hSHJVdGZtTUY4?oc=5"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 67,
+      "Macro & Economy": 43,
+      "Investment Banking & Deals": 111,
+      "Real Estate & REITs": 17,
+      "Earnings & Results": 50,
+      "Tech & Fintech": 103
+    }
+  },
+  {
     "week": "2026-W26",
     "label": "Week of June 22\u201326, 2026",
     "generated": "2026-06-28T20:07:15.538399+00:00",
