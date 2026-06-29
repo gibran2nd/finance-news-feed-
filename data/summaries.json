@@ -2,14 +2,8 @@
   {
     "week": "2026-W27",
     "label": "Week of June 29 \u2013 July 3, 2026",
-    "generated": "2026-06-29T16:33:22.406246+00:00",
+    "generated": "2026-06-29T20:46:29.958940+00:00",
     "bullets": [
-      {
-        "headline": "Rocket Lab to acquire Iridium in $8B cash-and-stock deal",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-acquire-iridium-8b-161900539.html"
-      },
       {
         "headline": "U.K. Firm Bridgepoint Group to Acquire Kayne Anderson Real Estate in $1.4B Deal",
         "source": "Commercial Observer",
@@ -27,21 +21,15 @@
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/06/29/china-japan-export-controls-watch-list-defense-entities.html"
-      },
-      {
-        "headline": "Godiva Japan said to seek extension on $464 million leveraged buyout loan - The Japan Times",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ0x4RTl1Ykh2TFBGMFMzN0dCQjlRcmZIc2o1MmN6SWVxdi0tVjJ4QWVfXzd3N2NUVndMM3d5amNqNElteEQ4cFpTUmQtWUREU3c2Y0gyUEFkNXRsSFc3NEpJN1BWZU1zajR1djZmelhNbW54cEVKMFpUc0M2Wi1hSHJVdGZtTUY4?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 62,
+      "Stock Market & Equities": 64,
       "Macro & Economy": 41,
-      "Investment Banking & Deals": 117,
+      "Investment Banking & Deals": 122,
       "Real Estate & REITs": 18,
-      "Earnings & Results": 50,
-      "Tech & Fintech": 111
+      "Earnings & Results": 47,
+      "Tech & Fintech": 112
     }
   },
   {
