@@ -2,8 +2,26 @@
   {
     "week": "2026-W27",
     "label": "Week of June 29 \u2013 July 3, 2026",
-    "generated": "2026-06-30T10:26:41.853306+00:00",
+    "generated": "2026-06-30T15:22:57.702084+00:00",
     "bullets": [
+      {
+        "headline": "Supreme Court strikes down limits on political parties' campaign spending, in win for GOP",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/06/30/supreme-court-campaign-finance-republican.html"
+      },
+      {
+        "headline": "AeroVironment skyrockets 21% as dronemaker capitalizes on defense spending surge",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/30/aerovironment-avav-stock-earnings-defense.html"
+      },
+      {
+        "headline": "Do you really, really love your job? Then you're not alone, according to surprising results from this survey",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/06/30/surprising-survey-of-american-job-satisfaction-.html"
+      },
       {
         "headline": "Bridgepoint to Acquire Kayne Anderson Real Estate in $1.4 Billion Deal - Global Student Living",
         "source": "Google \u2013 Active Deals",
@@ -11,19 +29,19 @@
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSDBCYTA0bXVQZ0lGVXROd05PZ09wekZ2bGw2RUtsWUg1bnk2Szdjb3NHcmE2V212TE1FVnFVc2l6aDFFNGZROExCRDg4WTJEckZjMG0tUEtHYTBJb1ZVNzB2WXY4SGI5eGt5dl93QzFFSW5WazZ0NkhzQnRzd1JMOG1qaWpuMnRIeTBNNDA5eFdNZHZKOEhoT09veHU0R1h3WFc5Yzl3?oc=5"
       },
       {
-        "headline": "AeroVironment soars 19% on earnings beat, backlog grows to $1.2 billion",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/29/aerovironment-stock-soars-on-earnings-beat-backlog-grows-to-1point2b.html"
+        "headline": "Korn Ferry Announces Definitive Agreement to Acquire AMS - Business Wire",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTjg1MFc4WUZMTUY1Mmxnay1PWEhwYlFtZXpMZUxybTRXbmdYS2lGT1dmcGxkNVVZaFhoZnI5anMzaF96RjAxWnVSRDNiWWM1dFRiVmVqdmthVm9xSVpOLUxtUm9tWFVFYXhPaFNkN0xIRXF6UFlBMlFPODNoZVg4RlFjaUZRVzBPRElRZUhCOFVuS0l1azZZdUdLdGtITzRZbU9WcEhLVy1yX3ZxMk1KTlFQUQ?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 53,
-      "Macro & Economy": 44,
-      "Investment Banking & Deals": 127,
+      "Stock Market & Equities": 69,
+      "Macro & Economy": 42,
+      "Investment Banking & Deals": 129,
       "Real Estate & REITs": 18,
-      "Earnings & Results": 54,
-      "Tech & Fintech": 110
+      "Earnings & Results": 51,
+      "Tech & Fintech": 112
     }
   },
   {
