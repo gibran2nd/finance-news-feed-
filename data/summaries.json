@@ -2,25 +2,25 @@
   {
     "week": "2026-W27",
     "label": "Week of June 29 \u2013 July 3, 2026",
-    "generated": "2026-07-01T10:37:31.013026+00:00",
+    "generated": "2026-07-01T15:34:31.397613+00:00",
     "bullets": [
       {
-        "headline": "North Sea oil and renewables: The UK\u2019s next PM faces a defining energy policy decision",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/07/01/burnham-north-sea-oil-energy-security.html"
-      },
-      {
-        "headline": "Trump drops restrictions on Anthropic\u2019s Mythos and Fable models",
+        "headline": "Sony to end physical PlayStation game disc production in 2028",
         "source": "TechCrunch",
         "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/"
+        "link": "https://techcrunch.com/2026/07/01/sony-to-end-physical-playstation-game-discs-in-2028/"
       },
       {
-        "headline": "After a soft Nike quarter, we have a big decision to make on the stock",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/30/after-soft-nike-earnings-we-have-a-big-decision-to-make-on-the-stock.html"
+        "headline": "Private payrolls rose by 98,000 in June, less than expected, ADP reports",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/07/01/private-payrolls-rose-by-98000-in-june-less-than-expected-adp-reports.html"
+      },
+      {
+        "headline": "The Trump Administration Is Lifting Its Export Controls on Anthropic\u2019s Mythos and Fable AI Models",
+        "source": "Wired Business",
+        "section": "Tech & Fintech",
+        "link": "https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models/"
       },
       {
         "headline": "Korn Ferry Announces Definitive Agreement to Acquire AMS - Business Wire",
@@ -31,11 +31,11 @@
     ],
     "section_counts": {
       "Stock Market & Equities": 60,
-      "Macro & Economy": 47,
-      "Investment Banking & Deals": 117,
+      "Macro & Economy": 46,
+      "Investment Banking & Deals": 144,
       "Real Estate & REITs": 18,
-      "Earnings & Results": 54,
-      "Tech & Fintech": 118
+      "Earnings & Results": 53,
+      "Tech & Fintech": 123
     }
   },
   {
