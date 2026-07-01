@@ -2,31 +2,25 @@
   {
     "week": "2026-W27",
     "label": "Week of June 29 \u2013 July 3, 2026",
-    "generated": "2026-06-30T20:52:21.939627+00:00",
+    "generated": "2026-07-01T10:37:31.013026+00:00",
     "bullets": [
       {
-        "headline": "AeroVironment skyrockets 19% as dronemaker capitalizes on defense spending surge",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/06/30/aerovironment-avav-stock-earnings-defense.html"
-      },
-      {
-        "headline": "Supreme Court strikes down limits on political party spending",
-        "source": "NPR Business",
-        "section": "Macro & Economy",
-        "link": "https://www.npr.org/2026/06/30/nx-s1-5827039/supreme-court-campaign-finance"
-      },
-      {
-        "headline": "Do you really, really love your job? Then you're not alone, according to surprising results from this survey",
+        "headline": "North Sea oil and renewables: The UK\u2019s next PM faces a defining energy policy decision",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/06/30/surprising-survey-of-american-job-satisfaction-.html"
+        "link": "https://www.cnbc.com/2026/07/01/burnham-north-sea-oil-energy-security.html"
       },
       {
-        "headline": "Rocket Lab buys Iridium in $8 billion deal to take on SpaceX - ET Telecom",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWTdMaGtYX1pYaVdxRUFWZ1p4X1I3SlVtSEhxclhNUElvTXp4Rkh2ajJ0Y2lpLUJuT2RfMlExS2xFbUNfTkVOWU1DRjhvaXRZMzhaSWJOc2U0bVdydjZmTGx0OVBncUhlS0J2Y1Rtc096V29WMGhLRF83RzBJY1RpMDdnQ0EzcTB1VzJrNDMwQUhUYS1iUEtlS29CLVpJVUlRcEc0WTFOdEpUVWJVVUZxbGVYT0hqQzhSMVhuNGdiTGVIVVJuTENwNExBU3ZMaGZLSGJVZzFaN2xsbzQxMUlsU1pxbFA0RU0?oc=5"
+        "headline": "Trump drops restrictions on Anthropic\u2019s Mythos and Fable models",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/"
+      },
+      {
+        "headline": "After a soft Nike quarter, we have a big decision to make on the stock",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/06/30/after-soft-nike-earnings-we-have-a-big-decision-to-make-on-the-stock.html"
       },
       {
         "headline": "Korn Ferry Announces Definitive Agreement to Acquire AMS - Business Wire",
@@ -36,12 +30,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 61,
-      "Macro & Economy": 41,
-      "Investment Banking & Deals": 123,
+      "Stock Market & Equities": 60,
+      "Macro & Economy": 47,
+      "Investment Banking & Deals": 117,
       "Real Estate & REITs": 18,
-      "Earnings & Results": 52,
-      "Tech & Fintech": 111
+      "Earnings & Results": 54,
+      "Tech & Fintech": 118
     }
   },
   {
