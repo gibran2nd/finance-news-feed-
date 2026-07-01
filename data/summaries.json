@@ -2,8 +2,14 @@
   {
     "week": "2026-W27",
     "label": "Week of June 29 \u2013 July 3, 2026",
-    "generated": "2026-07-01T15:34:31.397613+00:00",
+    "generated": "2026-07-01T20:45:22.100586+00:00",
     "bullets": [
+      {
+        "headline": "World Cup could boost the June jobs report by 40,000, Goldman estimates",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/07/01/world-cup-could-boost-the-june-jobs-report-by-40000-goldman-estimates.html"
+      },
       {
         "headline": "Sony to end physical PlayStation game disc production in 2028",
         "source": "TechCrunch",
@@ -30,12 +36,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 60,
-      "Macro & Economy": 46,
-      "Investment Banking & Deals": 144,
+      "Stock Market & Equities": 66,
+      "Macro & Economy": 50,
+      "Investment Banking & Deals": 146,
       "Real Estate & REITs": 18,
-      "Earnings & Results": 53,
-      "Tech & Fintech": 123
+      "Earnings & Results": 48,
+      "Tech & Fintech": 126
     }
   },
   {
