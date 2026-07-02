@@ -2,8 +2,14 @@
   {
     "week": "2026-W27",
     "label": "Week of June 29 \u2013 July 3, 2026",
-    "generated": "2026-07-02T09:53:48.807860+00:00",
+    "generated": "2026-07-02T15:07:17.244781+00:00",
     "bullets": [
+      {
+        "headline": "U.S. job creation cools in June with payrolls growth of just 57,000; unemployment rate at 4.2%",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
+      },
       {
         "headline": "Europe wants to rebalance trade with Beijing, but can't quit Chinese air conditioners",
         "source": "CNBC Economy",
@@ -11,31 +17,19 @@
         "link": "https://www.cnbc.com/2026/07/02/european-union-china-meeting-summer-heatwave-trade-imbalance-tariffs-.html"
       },
       {
-        "headline": "World Cup could boost the June jobs report by 40,000, Goldman estimates",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/07/01/world-cup-could-boost-the-june-jobs-report-by-40000-goldman-estimates.html"
-      },
-      {
-        "headline": "Trump drops restrictions on Anthropic\u2019s Mythos and Fable models",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/"
-      },
-      {
-        "headline": "Korn Ferry Announces Definitive Agreement to Acquire AMS - Business Wire",
+        "headline": "Australia's Perpetual Turns Down AU$2.45 Billion EQT Buyout Bid - Yahoo Finance Australia",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTjg1MFc4WUZMTUY1Mmxnay1PWEhwYlFtZXpMZUxybTRXbmdYS2lGT1dmcGxkNVVZaFhoZnI5anMzaF96RjAxWnVSRDNiWWM1dFRiVmVqdmthVm9xSVpOLUxtUm9tWFVFYXhPaFNkN0xIRXF6UFlBMlFPODNoZVg4RlFjaUZRVzBPRElRZUhCOFVuS0l1azZZdUdLdGtITzRZbU9WcEhLVy1yX3ZxMk1KTlFQUQ?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX2YyLW9QaXFxU3lLUEtIN3pGSk1RLWl6YV8zS1pFdVhJQk9wMEVLUWxRUi1nSUFrRGhoU3hJNnNxNEZzWWx4c0JtSlFuYnJrNWJpVzNSWUpZNHd2bXFzZEp2RW16NXlrcGVFa0hnMXFRSXhXLXlkeVc4U1JYek8xdzBYVy1SWjd1YnkyRA?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 27,
-      "Macro & Economy": 51,
-      "Investment Banking & Deals": 154,
+      "Stock Market & Equities": 65,
+      "Macro & Economy": 44,
+      "Investment Banking & Deals": 155,
       "Real Estate & REITs": 18,
-      "Earnings & Results": 45,
-      "Tech & Fintech": 121
+      "Earnings & Results": 53,
+      "Tech & Fintech": 117
     }
   },
   {
