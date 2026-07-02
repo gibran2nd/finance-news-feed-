@@ -2,34 +2,46 @@
   {
     "week": "2026-W27",
     "label": "Week of June 29 \u2013 July 3, 2026",
-    "generated": "2026-07-02T15:07:17.244781+00:00",
+    "generated": "2026-07-02T20:13:59.464428+00:00",
     "bullets": [
       {
-        "headline": "U.S. job creation cools in June with payrolls growth of just 57,000; unemployment rate at 4.2%",
+        "headline": "Job seekers giving up: Labor force participation rate falls to lowest in 50 years, outside of Covid era",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
+        "link": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html"
       },
       {
-        "headline": "Europe wants to rebalance trade with Beijing, but can't quit Chinese air conditioners",
-        "source": "CNBC Economy",
+        "headline": "U.S. job creation cools in June with payrolls growth of just 57,000; unemployment rate at 4.2% - CNBC",
+        "source": "Google \u2013 Fed & Rates",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/07/02/european-union-china-meeting-summer-heatwave-trade-imbalance-tariffs-.html"
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MSXUteFN6ZVc1cUd1OW9UcDNOeVlya3E1aF9rWk5XVjJrZXh1ek5zN3lzaWhveXdOUEhlclFvMHplVHU5WURYZ3cyX2dIZC0tWUUyRGNhX1d1V3F0WlVOMUcwcmJmQWZsVWFz0gFwQVVfeXFMTkRNUkg5VlMtaVMwck9taVhoemFocnhNZ05Na2g3ZVl3WHRQWkZpeFdmMmxoMFBSQmVic1gtVnNUUkRFUmxqdkV5Q0t6bl9ueDM4bU9KSE9lVWFGeDJ3dk5xcFdrVkx1T2U0VzktX2lTWA?oc=5"
       },
       {
         "headline": "Australia's Perpetual Turns Down AU$2.45 Billion EQT Buyout Bid - Yahoo Finance Australia",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX2YyLW9QaXFxU3lLUEtIN3pGSk1RLWl6YV8zS1pFdVhJQk9wMEVLUWxRUi1nSUFrRGhoU3hJNnNxNEZzWWx4c0JtSlFuYnJrNWJpVzNSWUpZNHd2bXFzZEp2RW16NXlrcGVFa0hnMXFRSXhXLXlkeVc4U1JYek8xdzBYVy1SWjd1YnkyRA?oc=5"
+      },
+      {
+        "headline": "Kroger Agrees To Acquire Giant Eagle For $1.65B",
+        "source": "Bisnow",
+        "section": "Real Estate & REITs",
+        "link": "https://www.bisnow.com/national/news/retail/kroger-to-acquire-giant-eagle-for-165b-135262"
+      },
+      {
+        "headline": "Digital Realty Pays Blackstone $3.5B For Stake In 3 Virginia Data Centers",
+        "source": "Bisnow",
+        "section": "Real Estate & REITs",
+        "link": "https://www.bisnow.com/national/news/data-center-capital-markets/digital-realty-pays-blackstone-35b-for-stake-in-three-virginia-data-centers-135247"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 65,
-      "Macro & Economy": 44,
-      "Investment Banking & Deals": 155,
-      "Real Estate & REITs": 18,
-      "Earnings & Results": 53,
-      "Tech & Fintech": 117
+      "Stock Market & Equities": 53,
+      "Macro & Economy": 48,
+      "Investment Banking & Deals": 152,
+      "Real Estate & REITs": 41,
+      "Earnings & Results": 49,
+      "Tech & Fintech": 118
     }
   },
   {
