@@ -2,8 +2,14 @@
   {
     "week": "2026-W27",
     "label": "Week of June 29 \u2013 July 3, 2026",
-    "generated": "2026-07-01T20:45:22.100586+00:00",
+    "generated": "2026-07-02T09:53:48.807860+00:00",
     "bullets": [
+      {
+        "headline": "Europe wants to rebalance trade with Beijing, but can't quit Chinese air conditioners",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/07/02/european-union-china-meeting-summer-heatwave-trade-imbalance-tariffs-.html"
+      },
       {
         "headline": "World Cup could boost the June jobs report by 40,000, Goldman estimates",
         "source": "CNBC Economy",
@@ -11,22 +17,10 @@
         "link": "https://www.cnbc.com/2026/07/01/world-cup-could-boost-the-june-jobs-report-by-40000-goldman-estimates.html"
       },
       {
-        "headline": "Sony to end physical PlayStation game disc production in 2028",
+        "headline": "Trump drops restrictions on Anthropic\u2019s Mythos and Fable models",
         "source": "TechCrunch",
         "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/07/01/sony-to-end-physical-playstation-game-discs-in-2028/"
-      },
-      {
-        "headline": "Private payrolls rose by 98,000 in June, less than expected, ADP reports",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/07/01/private-payrolls-rose-by-98000-in-june-less-than-expected-adp-reports.html"
-      },
-      {
-        "headline": "The Trump Administration Is Lifting Its Export Controls on Anthropic\u2019s Mythos and Fable AI Models",
-        "source": "Wired Business",
-        "section": "Tech & Fintech",
-        "link": "https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models/"
+        "link": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/"
       },
       {
         "headline": "Korn Ferry Announces Definitive Agreement to Acquire AMS - Business Wire",
@@ -36,12 +30,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 66,
-      "Macro & Economy": 50,
-      "Investment Banking & Deals": 146,
+      "Stock Market & Equities": 27,
+      "Macro & Economy": 51,
+      "Investment Banking & Deals": 154,
       "Real Estate & REITs": 18,
-      "Earnings & Results": 48,
-      "Tech & Fintech": 126
+      "Earnings & Results": 45,
+      "Tech & Fintech": 121
     }
   },
   {
