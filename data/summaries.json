@@ -2,8 +2,14 @@
   {
     "week": "2026-W27",
     "label": "Week of June 29 \u2013 July 3, 2026",
-    "generated": "2026-07-02T20:13:59.464428+00:00",
+    "generated": "2026-07-03T09:50:46.165516+00:00",
     "bullets": [
+      {
+        "headline": "Christine Lagarde leaves door open to early ECB exit, as she mulls French politics",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/07/03/christine-lagarde-ecb-france-election.html"
+      },
       {
         "headline": "Job seekers giving up: Labor force participation rate falls to lowest in 50 years, outside of Covid era",
         "source": "CNBC Economy",
@@ -36,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 53,
+      "Stock Market & Equities": 31,
       "Macro & Economy": 48,
-      "Investment Banking & Deals": 152,
+      "Investment Banking & Deals": 153,
       "Real Estate & REITs": 41,
-      "Earnings & Results": 49,
-      "Tech & Fintech": 118
+      "Earnings & Results": 52,
+      "Tech & Fintech": 109
     }
   },
   {
