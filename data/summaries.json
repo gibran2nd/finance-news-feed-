@@ -2,8 +2,14 @@
   {
     "week": "2026-W27",
     "label": "Week of June 29 \u2013 July 3, 2026",
-    "generated": "2026-07-05T14:25:34.767024+00:00",
+    "generated": "2026-07-05T20:07:09.467901+00:00",
     "bullets": [
+      {
+        "headline": "Investment firm\u2019s cofounder sues after being fired for neglecting the in-person work mandate he signed, saying it applies to employees not owners",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/small-business/articles/investment-firm-cofounder-sues-being-171729024.html"
+      },
       {
         "headline": "Kroger to acquire Giant Eagle in $1.65 billion deal - qz.com",
         "source": "Google \u2013 Active Deals",
@@ -31,11 +37,11 @@
     ],
     "section_counts": {
       "Stock Market & Equities": 64,
-      "Macro & Economy": 52,
-      "Investment Banking & Deals": 129,
-      "Real Estate & REITs": 37,
-      "Earnings & Results": 73,
-      "Tech & Fintech": 80
+      "Macro & Economy": 50,
+      "Investment Banking & Deals": 119,
+      "Real Estate & REITs": 38,
+      "Earnings & Results": 72,
+      "Tech & Fintech": 79
     }
   },
   {
