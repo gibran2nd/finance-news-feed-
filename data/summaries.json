@@ -1,5 +1,38 @@
 [
   {
+    "week": "2026-W28",
+    "label": "Week of July 6\u201310, 2026",
+    "generated": "2026-07-06T11:22:38.916569+00:00",
+    "bullets": [
+      {
+        "headline": "Lockheed Martin leading race for $3.5 billion purchase of naval defense firm Ultra Maritime",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/07/06/lockheed-martin-leading-race-for-3point5-billion-buy-of-ultra-maritime-.html"
+      },
+      {
+        "headline": "What is Bending Spoons? The little-known AOL and Vimeo owner that\u2019s now public - TechCrunch",
+        "source": "Google \u2013 PE / LBO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMUxsanBNelRmSmljZG1JVFhwU3NVUmNSSmlLcWw3VDY0RjhBRGFvbU1ZX1VzMGswaTBydEFucENobGdKSWZScjJmUkl4eWR3ZGxRTEhBa0xFdDU3aGhnb0REbW9sX2dHaldVOUJSVjF3cnZUenZUak40SFgzR3FZSkZkZU1YeWxlakFZQ2FicU95RXVYeDlMOVBaU1I?oc=5"
+      },
+      {
+        "headline": "Kroger Agrees To Acquire Giant Eagle For $1.65B",
+        "source": "Bisnow",
+        "section": "Real Estate & REITs",
+        "link": "https://www.bisnow.com/national/news/retail/kroger-to-acquire-giant-eagle-for-165b-135262"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 63,
+      "Macro & Economy": 42,
+      "Investment Banking & Deals": 72,
+      "Real Estate & REITs": 39,
+      "Earnings & Results": 59,
+      "Tech & Fintech": 81
+    }
+  },
+  {
     "week": "2026-W27",
     "label": "Week of June 29 \u2013 July 3, 2026",
     "generated": "2026-07-05T20:07:09.467901+00:00",
