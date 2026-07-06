@@ -2,19 +2,37 @@
   {
     "week": "2026-W28",
     "label": "Week of July 6\u201310, 2026",
-    "generated": "2026-07-06T11:22:38.916569+00:00",
+    "generated": "2026-07-06T16:12:54.757689+00:00",
     "bullets": [
       {
-        "headline": "Lockheed Martin leading race for $3.5 billion purchase of naval defense firm Ultra Maritime",
-        "source": "CNBC M&A",
+        "headline": "Lockheed Martin to Acquire Ultra Maritime in $3.45 Billion Deal - WSJ",
+        "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/07/06/lockheed-martin-leading-race-for-3point5-billion-buy-of-ultra-maritime-.html"
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT3BZVEJMQU9fOG85eGkwTkJsV1VaQk5IOUJLWkQ3YzdvdUtYSnZFYk1UcGJiT0dEdkw4aUU3VHFmdzNxU2JxcmZGNlBfd0JySHFLOFNoVDQ3U19nazRfekNObFFMY2NHLW9HTTI4UWhBaFQ5NWwtSVc4dTVYX3RDNkxCSWtaZGF3bWM0QlZIaElrTE9XMjVQZzBGaEZhbFlkcTZ5T2FoQnE2dw?oc=5"
       },
       {
-        "headline": "What is Bending Spoons? The little-known AOL and Vimeo owner that\u2019s now public - TechCrunch",
-        "source": "Google \u2013 PE / LBO",
+        "headline": "Klarna seeks U.S. bank charter in latest push beyond buy now, pay later",
+        "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMUxsanBNelRmSmljZG1JVFhwU3NVUmNSSmlLcWw3VDY0RjhBRGFvbU1ZX1VzMGswaTBydEFucENobGdKSWZScjJmUkl4eWR3ZGxRTEhBa0xFdDU3aGhnb0REbW9sX2dHaldVOUJSVjF3cnZUenZUak40SFgzR3FZSkZkZU1YeWxlakFZQ2FicU95RXVYeDlMOVBaU1I?oc=5"
+        "link": "https://www.cnbc.com/2026/07/06/klarna-seeks-us-bank-charter-in-push-beyond-buy-now-pay-later.html"
+      },
+      {
+        "headline": "Versant to Acquire Golf Simulation Tech Company Full Swing for $530 Million - TheWrap",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYmlNemlva1I2Nk9jUzJwaUc2Ny1Tbm5Zdy0yeFFxYzdzRGhwekZuUTdYNjBQTGJ5Yl93VnJWdjJtQmtyMkg3MzZFa2k2cnJqYmFoNlpPYjdBYUo2cW5ycVY1WUo3WnVNUU1tajhyNVdOZkFMMklCTU1xR0xCN1hEVWJOLWNVQVBGb3dzZlRCU1hhbXZPaThSclA3V2pkTlU?oc=5"
+      },
+      {
+        "headline": "What is Bending Spoons? The little-known AOL and Vimeo owner that\u2019s now public",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/07/05/what-is-bending-spoons-everything-to-know-about-aols-acquirer/"
+      },
+      {
+        "headline": "U.S. job creation cools in June with payrolls growth of just 57,000; unemployment rate at 4.2%",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
       },
       {
         "headline": "Kroger Agrees To Acquire Giant Eagle For $1.65B",
@@ -24,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 63,
-      "Macro & Economy": 42,
-      "Investment Banking & Deals": 72,
-      "Real Estate & REITs": 39,
-      "Earnings & Results": 59,
-      "Tech & Fintech": 81
+      "Stock Market & Equities": 52,
+      "Macro & Economy": 43,
+      "Investment Banking & Deals": 103,
+      "Real Estate & REITs": 36,
+      "Earnings & Results": 68,
+      "Tech & Fintech": 91
     }
   },
   {
