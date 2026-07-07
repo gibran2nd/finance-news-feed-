@@ -2,15 +2,34 @@
   {
     "week": "2026-W28",
     "label": "Week of July 6\u201310, 2026",
-    "generated": "2026-07-07T15:39:57.062130+00:00",
-    "bullets": [],
+    "generated": "2026-07-07T20:45:59.268618+00:00",
+    "bullets": [
+      {
+        "headline": "Pressure grows on Platner to leave Maine Senate race",
+        "source": "NPR Business",
+        "section": "Macro & Economy",
+        "link": "https://www.npr.org/2026/07/07/nx-s1-5884803/pressure-grows-on-platner-to-leave-maine-senate-race"
+      },
+      {
+        "headline": "British budget carrier agrees to a $6.7 billion private equity buyout - The American Bazaar",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSTdtYm1kandLbGFqX3IybVNqdUtNeG1jb0VwbjhFNmtuSlozeXYyV0tZcmY2Yk1UbWl2MHM2RkdrVkp2TndHaUJpNUJaM1RYSXVtd1JEZXQta19fVWVOeGdycThSVkhCaFowdEhjcmpRT3FhNEQtQkNDZXhQVk9ENUMyQTJVcUhVNW5MZ0hvbTFJa0E4YlRyM3pMSWpXMHBFSnlZSU9ScDdnQnpFOVl6OFlkVHVxUUJRd2djTw?oc=5"
+      },
+      {
+        "headline": "Kroger Agrees To Acquire Giant Eagle For $1.65B",
+        "source": "Bisnow",
+        "section": "Real Estate & REITs",
+        "link": "https://www.bisnow.com/national/news/retail/kroger-to-acquire-giant-eagle-for-165b-135262"
+      }
+    ],
     "section_counts": {
-      "Stock Market & Equities": 59,
-      "Macro & Economy": 37,
-      "Investment Banking & Deals": 32,
-      "Real Estate & REITs": 37,
-      "Earnings & Results": 20,
-      "Tech & Fintech": 27
+      "Stock Market & Equities": 53,
+      "Macro & Economy": 40,
+      "Investment Banking & Deals": 128,
+      "Real Estate & REITs": 38,
+      "Earnings & Results": 87,
+      "Tech & Fintech": 99
     }
   },
   {
