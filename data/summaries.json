@@ -2,14 +2,8 @@
   {
     "week": "2026-W28",
     "label": "Week of July 6\u201310, 2026",
-    "generated": "2026-07-08T15:11:03.613635+00:00",
+    "generated": "2026-07-08T20:16:30.046701+00:00",
     "bullets": [
-      {
-        "headline": "Apple to produce Made in America wireless chips with Broadcom",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/07/08/apple-to-produce-made-in-america-wireless-chips-with-broadcom/"
-      },
       {
         "headline": "Fed meeting minutes to show 'family fight' over rates. The squabble could drag on for a while",
         "source": "CNBC M&A",
@@ -23,12 +17,6 @@
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMVY5b3BKNjlWNTZVODRiVFpTYzNoQ1JpekhFSWxDWl9Mb1VRa1Y0SmwzN1FyMGhTc1ZCOTFUR3VDdk5qVXNGV2ZoMW9tdmdLOGFtZHNRZDBSYXJhNW04UnZQcVRZWXdrTk16aldxU2FreGlpVHRMcFBkZFFDU1FMbTVKUVU2c0E?oc=5"
       },
       {
-        "headline": "Pressure grows on Platner to leave Maine Senate race",
-        "source": "NPR Business",
-        "section": "Macro & Economy",
-        "link": "https://www.npr.org/2026/07/07/nx-s1-5884803/pressure-grows-on-platner-to-leave-maine-senate-race"
-      },
-      {
         "headline": "British budget carrier agrees to a $6.7 billion private equity buyout - The American Bazaar",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
@@ -36,12 +24,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 56,
-      "Macro & Economy": 41,
-      "Investment Banking & Deals": 126,
-      "Real Estate & REITs": 37,
-      "Earnings & Results": 99,
-      "Tech & Fintech": 103
+      "Stock Market & Equities": 51,
+      "Macro & Economy": 40,
+      "Investment Banking & Deals": 124,
+      "Real Estate & REITs": 35,
+      "Earnings & Results": 107,
+      "Tech & Fintech": 107
     }
   },
   {
