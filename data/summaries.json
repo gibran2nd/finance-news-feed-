@@ -2,8 +2,20 @@
   {
     "week": "2026-W28",
     "label": "Week of July 6\u201310, 2026",
-    "generated": "2026-07-08T09:21:13.664578+00:00",
+    "generated": "2026-07-08T15:11:03.613635+00:00",
     "bullets": [
+      {
+        "headline": "Apple to produce Made in America wireless chips with Broadcom",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/07/08/apple-to-produce-made-in-america-wireless-chips-with-broadcom/"
+      },
+      {
+        "headline": "Fed meeting minutes to show 'family fight' over rates. The squabble could drag on for a while",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/07/08/with-minutes-due-feds-family-fight-over-interest-rates-could-drag-on.html"
+      },
       {
         "headline": "EQT Goes Back To Market With A New Asia Buyout Fund - Finimize",
         "source": "Google \u2013 Active Deals",
@@ -11,31 +23,25 @@
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMVY5b3BKNjlWNTZVODRiVFpTYzNoQ1JpekhFSWxDWl9Mb1VRa1Y0SmwzN1FyMGhTc1ZCOTFUR3VDdk5qVXNGV2ZoMW9tdmdLOGFtZHNRZDBSYXJhNW04UnZQcVRZWXdrTk16aldxU2FreGlpVHRMcFBkZFFDU1FMbTVKUVU2c0E?oc=5"
       },
       {
-        "headline": "Maine Senate race replacements circle amid pressure on Platner to drop out",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/07/07/graham-platner-sexual-assault-allegation-maine-senate.html"
+        "headline": "Pressure grows on Platner to leave Maine Senate race",
+        "source": "NPR Business",
+        "section": "Macro & Economy",
+        "link": "https://www.npr.org/2026/07/07/nx-s1-5884803/pressure-grows-on-platner-to-leave-maine-senate-race"
       },
       {
         "headline": "British budget carrier agrees to a $6.7 billion private equity buyout - The American Bazaar",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSTdtYm1kandLbGFqX3IybVNqdUtNeG1jb0VwbjhFNmtuSlozeXYyV0tZcmY2Yk1UbWl2MHM2RkdrVkp2TndHaUJpNUJaM1RYSXVtd1JEZXQta19fVWVOeGdycThSVkhCaFowdEhjcmpRT3FhNEQtQkNDZXhQVk9ENUMyQTJVcUhVNW5MZ0hvbTFJa0E4YlRyM3pMSWpXMHBFSnlZSU9ScDdnQnpFOVl6OFlkVHVxUUJRd2djTw?oc=5"
-      },
-      {
-        "headline": "Kroger Agrees To Acquire Giant Eagle For $1.65B",
-        "source": "Bisnow",
-        "section": "Real Estate & REITs",
-        "link": "https://www.bisnow.com/national/news/retail/kroger-to-acquire-giant-eagle-for-165b-135262"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 50,
-      "Macro & Economy": 38,
-      "Investment Banking & Deals": 133,
-      "Real Estate & REITs": 39,
+      "Stock Market & Equities": 56,
+      "Macro & Economy": 41,
+      "Investment Banking & Deals": 126,
+      "Real Estate & REITs": 37,
       "Earnings & Results": 99,
-      "Tech & Fintech": 39
+      "Tech & Fintech": 103
     }
   },
   {
