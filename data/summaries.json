@@ -2,25 +2,13 @@
   {
     "week": "2026-W28",
     "label": "Week of July 6\u201310, 2026",
-    "generated": "2026-07-09T15:52:34.076574+00:00",
+    "generated": "2026-07-09T20:42:16.259765+00:00",
     "bullets": [
       {
         "headline": "PepsiCo earnings miss estimates as U.S. consumers tighten their budgets",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/07/09/pepsico-pep-q2-2026-earnings.html"
-      },
-      {
-        "headline": "AI unicorn Mercor acquires Deeptune after founder Brendan Foody backed the startup",
-        "source": "Fortune",
-        "section": "Stock Market & Equities",
-        "link": "https://fortune.com/2026/07/09/ai-unicorn-mercor-acquires-deeptune-brendan-foody-investor-a16z-openai-anthropic/"
-      },
-      {
-        "headline": "Levi Strauss beats quarterly expectations, raises guidance and dividend",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/08/levi-strauss-levi-q2-2026-earnings.html"
       },
       {
         "headline": "British budget carrier agrees to a $6.7 billion private equity buyout - The American Bazaar",
@@ -30,12 +18,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 61,
-      "Macro & Economy": 42,
-      "Investment Banking & Deals": 118,
-      "Real Estate & REITs": 32,
-      "Earnings & Results": 117,
-      "Tech & Fintech": 112
+      "Stock Market & Equities": 60,
+      "Macro & Economy": 40,
+      "Investment Banking & Deals": 115,
+      "Real Estate & REITs": 33,
+      "Earnings & Results": 112,
+      "Tech & Fintech": 107
     }
   },
   {
