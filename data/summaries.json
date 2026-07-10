@@ -2,13 +2,13 @@
   {
     "week": "2026-W28",
     "label": "Week of July 6\u201310, 2026",
-    "generated": "2026-07-09T20:42:16.259765+00:00",
+    "generated": "2026-07-10T10:15:59.018161+00:00",
     "bullets": [
       {
-        "headline": "PepsiCo earnings miss estimates as U.S. consumers tighten their budgets",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/09/pepsico-pep-q2-2026-earnings.html"
+        "headline": "Anduril CEO says it's bad to IPO in \u2018middle of a hype cycle\u2019",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/07/09/anduril-ceo-ipo-defense.html"
       },
       {
         "headline": "British budget carrier agrees to a $6.7 billion private equity buyout - The American Bazaar",
@@ -18,12 +18,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 60,
+      "Stock Market & Equities": 54,
       "Macro & Economy": 40,
-      "Investment Banking & Deals": 115,
-      "Real Estate & REITs": 33,
-      "Earnings & Results": 112,
-      "Tech & Fintech": 107
+      "Investment Banking & Deals": 109,
+      "Real Estate & REITs": 35,
+      "Earnings & Results": 120,
+      "Tech & Fintech": 112
     }
   },
   {
