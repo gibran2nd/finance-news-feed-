@@ -2,13 +2,19 @@
   {
     "week": "2026-W28",
     "label": "Week of July 6\u201310, 2026",
-    "generated": "2026-07-10T10:15:59.018161+00:00",
+    "generated": "2026-07-10T15:26:47.829707+00:00",
     "bullets": [
       {
-        "headline": "Anduril CEO says it's bad to IPO in \u2018middle of a hype cycle\u2019",
-        "source": "CNBC M&A",
+        "headline": "Delta expects higher airfare to last, bringing 2026 profit goal in reach, CEO says",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/10/delta-air-lines-dal-q2-2026-earnings.html"
+      },
+      {
+        "headline": "Anduril CEO says it's bad to IPO in \u2018middle of a hype cycle\u2019 - CNBC",
+        "source": "Google \u2013 IPO",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/07/09/anduril-ceo-ipo-defense.html"
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WLTcyMVl6XzVZNHQ0OFROLXVKSjVUcXBHQW45aENENnpXRmRDZVlmTGMyeFVNa3liZmlCMVdjMVZ3S2tXckdERUNDVktEZU96NmRnSFVTSXNELThqR1NPN2pOZWlKcnVWQ01TWdIBckFVX3lxTE00bjROWl9aVXRMc29LOVlyQ05rM2NBd1JEb256RGVNaXhqUUNLNlZVYmdrSktqVjBTQVl5T1JLNVJxTkQ3RUFPRjJldnhCcE55MWg0bVMzbHRpNEh5aFd2WjZIcU45WmFwUE52UzlXb084dw?oc=5"
       },
       {
         "headline": "British budget carrier agrees to a $6.7 billion private equity buyout - The American Bazaar",
@@ -18,12 +24,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 54,
-      "Macro & Economy": 40,
-      "Investment Banking & Deals": 109,
-      "Real Estate & REITs": 35,
-      "Earnings & Results": 120,
-      "Tech & Fintech": 112
+      "Stock Market & Equities": 57,
+      "Macro & Economy": 39,
+      "Investment Banking & Deals": 104,
+      "Real Estate & REITs": 37,
+      "Earnings & Results": 124,
+      "Tech & Fintech": 113
     }
   },
   {
