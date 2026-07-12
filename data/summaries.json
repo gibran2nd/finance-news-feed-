@@ -2,8 +2,14 @@
   {
     "week": "2026-W28",
     "label": "Week of July 6\u201310, 2026",
-    "generated": "2026-07-12T14:23:11.157991+00:00",
+    "generated": "2026-07-12T20:02:28.697909+00:00",
     "bullets": [
+      {
+        "headline": "'Funflation' hits home: Why staying in isn't the cost-saver it used to be",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/07/11/funflation-streaming-video-games-xbox-apple-disney-netflix.html"
+      },
       {
         "headline": "Sen. Lindsey Graham, a foreign policy hawk who became a close Trump ally, dies suddenly at 71",
         "source": "Fortune",
@@ -17,22 +23,16 @@
         "link": "https://seekingalpha.com/article/4921388-nasdaq-fintech-strength-rising-profits-but-flat-stock-warrants-an-upgrade?source=feed_tag_earnings"
       },
       {
-        "headline": "'Funflation' hits home: Why staying in isn't the cost-saver it used to be",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/07/11/funflation-streaming-video-games-xbox-apple-disney-netflix.html"
-      },
-      {
-        "headline": "Why WD-40 Is Proving Great Businesses Never Go Out of Style - MarketBeat",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZEVJRm1fUDZETE8xczI3M01PbHNuYlJGR2Z5bDN2Q0JtQ3dVbFhIUGRjMkYxQnhNT3FZS05kTWtKT1Fta2ZTM0hJTkhaNGMxWk12UHhIZWkyOUtPZU0ybjVUY3oyZEJlczNKck5CS3hmS0otbFNjQUhadHBTazVfTE1BQjllb0FjdmxhcDRaSnFOdFZid1BaLVBsVE4?oc=5"
-      },
-      {
         "headline": "Apple sues OpenAI over alleged trade secret theft",
         "source": "TechCrunch",
         "section": "Tech & Fintech",
         "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/"
+      },
+      {
+        "headline": "OpenAI power consolidates under co-founder Greg Brockman ahead of prospective IPO - CNBC",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd0Nra1JBT1NMMEZvZjFHeEptY1p1cFJGQVVBTDJtUkJHUWtHVEVBczVRdW5McXpFdDhpZGdNa0QzeWl1SEozRXBXUU5URkJNXzNXY2RtMnhoZVV2YWhOZzZ2SmQ3cjhVOEpqQ01ueWR0cFJ1NnFUV3BZT3ZkRWFReTB0RjMyV2NCUUVSYzV3R1pSRXN2bEk1Vk1GLUVPYnZ4YUtWRnRHb2cwd9IBrwFBVV95cUxPUXRFUU1NdGFnQlEtWEozX19DZmdiTDduZjRQYnhWLVZSMkJ1cUgtcGtoWFp3WTBXOVBNeWlKYkhCc3F6NXJkYU5UMktyNldZM0U4MVVJc0tkR1hIWXN3cDNyc29zNVpNQ2w3UUgyMm92dE5WSWpxeUNESGhKQkZYbTNaYTJFYTNLSWg3YjFIcHNFZWdtVUE1TWl1RWpNSzRseTQ1TWpiZ09JZjNxV3FF?oc=5"
       },
       {
         "headline": "SK hynix IPO Delayed? Here\u2019s Why SKHY Still Isn\u2019t Trading Yet. - 24/7 Wall St.",
@@ -44,10 +44,10 @@
     "section_counts": {
       "Stock Market & Equities": 64,
       "Macro & Economy": 42,
-      "Investment Banking & Deals": 98,
-      "Real Estate & REITs": 42,
-      "Earnings & Results": 106,
-      "Tech & Fintech": 105
+      "Investment Banking & Deals": 101,
+      "Real Estate & REITs": 44,
+      "Earnings & Results": 127,
+      "Tech & Fintech": 102
     }
   },
   {
