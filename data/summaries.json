@@ -2,8 +2,14 @@
   {
     "week": "2026-W28",
     "label": "Week of July 6\u201310, 2026",
-    "generated": "2026-07-11T19:59:56.868465+00:00",
+    "generated": "2026-07-12T08:58:07.487722+00:00",
     "bullets": [
+      {
+        "headline": "Nasdaq: FinTech Strength, Rising Profits, But Flat Stock Warrants An Upgrade",
+        "source": "Seeking Alpha",
+        "section": "Earnings & Results",
+        "link": "https://seekingalpha.com/article/4921388-nasdaq-fintech-strength-rising-profits-but-flat-stock-warrants-an-upgrade?source=feed_tag_earnings"
+      },
       {
         "headline": "'Funflation' hits home: Why staying in isn't the cost-saver it used to be",
         "source": "CNBC Economy",
@@ -30,11 +36,11 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 53,
-      "Macro & Economy": 41,
-      "Investment Banking & Deals": 107,
+      "Stock Market & Equities": 46,
+      "Macro & Economy": 42,
+      "Investment Banking & Deals": 100,
       "Real Estate & REITs": 43,
-      "Earnings & Results": 133,
+      "Earnings & Results": 128,
       "Tech & Fintech": 108
     }
   },
