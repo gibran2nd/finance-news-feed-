@@ -2,8 +2,14 @@
   {
     "week": "2026-W28",
     "label": "Week of July 6\u201310, 2026",
-    "generated": "2026-07-12T08:58:07.487722+00:00",
+    "generated": "2026-07-12T14:23:11.157991+00:00",
     "bullets": [
+      {
+        "headline": "Sen. Lindsey Graham, a foreign policy hawk who became a close Trump ally, dies suddenly at 71",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/07/12/sen-lindsey-graham-dies-obituary-foreign-policy-hawk-close-trump-ally-71-iran-war-ukraine-israel/"
+      },
       {
         "headline": "Nasdaq: FinTech Strength, Rising Profits, But Flat Stock Warrants An Upgrade",
         "source": "Seeking Alpha",
@@ -17,6 +23,12 @@
         "link": "https://www.cnbc.com/2026/07/11/funflation-streaming-video-games-xbox-apple-disney-netflix.html"
       },
       {
+        "headline": "Why WD-40 Is Proving Great Businesses Never Go Out of Style - MarketBeat",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZEVJRm1fUDZETE8xczI3M01PbHNuYlJGR2Z5bDN2Q0JtQ3dVbFhIUGRjMkYxQnhNT3FZS05kTWtKT1Fta2ZTM0hJTkhaNGMxWk12UHhIZWkyOUtPZU0ybjVUY3oyZEJlczNKck5CS3hmS0otbFNjQUhadHBTazVfTE1BQjllb0FjdmxhcDRaSnFOdFZid1BaLVBsVE4?oc=5"
+      },
+      {
         "headline": "Apple sues OpenAI over alleged trade secret theft",
         "source": "TechCrunch",
         "section": "Tech & Fintech",
@@ -27,21 +39,15 @@
         "source": "Google \u2013 IPO",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdFV3am9ob3hkY1pFdXJBbUxrdHhjelhXYTRJaDk0X1EtS3p3aUNvQlpFU05fZDJ6N1RROHNqclBWTXlUNC16ZFZ4OTdjNjRDV3Nra1dVQTZrRGVXdFhXWDB6bDZBTzZ5bGVMdFJBbGpZb1BLVUdMbUtRcGhSaXBkTjk2WDk1REowemM1T3VOWHBucHhaSzZxSFRkSGRhYk93dW5KWA?oc=5"
-      },
-      {
-        "headline": "British budget carrier agrees to a $6.7 billion private equity buyout - The American Bazaar",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSTdtYm1kandLbGFqX3IybVNqdUtNeG1jb0VwbjhFNmtuSlozeXYyV0tZcmY2Yk1UbWl2MHM2RkdrVkp2TndHaUJpNUJaM1RYSXVtd1JEZXQta19fVWVOeGdycThSVkhCaFowdEhjcmpRT3FhNEQtQkNDZXhQVk9ENUMyQTJVcUhVNW5MZ0hvbTFJa0E4YlRyM3pMSWpXMHBFSnlZSU9ScDdnQnpFOVl6OFlkVHVxUUJRd2djTw?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 46,
+      "Stock Market & Equities": 64,
       "Macro & Economy": 42,
-      "Investment Banking & Deals": 100,
-      "Real Estate & REITs": 43,
-      "Earnings & Results": 128,
-      "Tech & Fintech": 108
+      "Investment Banking & Deals": 98,
+      "Real Estate & REITs": 42,
+      "Earnings & Results": 106,
+      "Tech & Fintech": 105
     }
   },
   {
