@@ -1,5 +1,44 @@
 [
   {
+    "week": "2026-W29",
+    "label": "Week of July 13\u201317, 2026",
+    "generated": "2026-07-13T10:16:31.413118+00:00",
+    "bullets": [
+      {
+        "headline": "TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/13/tsmc-june-revenue-rises-percent-ahead-second-quarter.html"
+      },
+      {
+        "headline": "'Funflation' hits home: Why staying in isn't the cost-saver it used to be",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/07/11/funflation-streaming-video-games-xbox-apple-disney-netflix.html"
+      },
+      {
+        "headline": "Nasdaq: FinTech Strength, Rising Profits, But Flat Stock Warrants An Upgrade",
+        "source": "Seeking Alpha",
+        "section": "Earnings & Results",
+        "link": "https://seekingalpha.com/article/4921388-nasdaq-fintech-strength-rising-profits-but-flat-stock-warrants-an-upgrade?source=feed_tag_earnings"
+      },
+      {
+        "headline": "Apple sues OpenAI over alleged trade secret theft",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 65,
+      "Macro & Economy": 41,
+      "Investment Banking & Deals": 93,
+      "Real Estate & REITs": 45,
+      "Earnings & Results": 135,
+      "Tech & Fintech": 113
+    }
+  },
+  {
     "week": "2026-W28",
     "label": "Week of July 6\u201310, 2026",
     "generated": "2026-07-12T20:02:28.697909+00:00",
