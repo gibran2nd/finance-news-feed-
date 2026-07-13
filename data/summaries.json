@@ -2,14 +2,8 @@
   {
     "week": "2026-W29",
     "label": "Week of July 13\u201317, 2026",
-    "generated": "2026-07-13T10:16:31.413118+00:00",
+    "generated": "2026-07-13T15:38:33.087251+00:00",
     "bullets": [
-      {
-        "headline": "TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/13/tsmc-june-revenue-rises-percent-ahead-second-quarter.html"
-      },
       {
         "headline": "'Funflation' hits home: Why staying in isn't the cost-saver it used to be",
         "source": "CNBC Economy",
@@ -17,25 +11,31 @@
         "link": "https://www.cnbc.com/2026/07/11/funflation-streaming-video-games-xbox-apple-disney-netflix.html"
       },
       {
+        "headline": "Apex Fintech Solutions Releases Q2 2026 Investor Pulse Report: SpaceX IPO Draws Universal Demand as Retail Rotates Into the AI Buildout - Yahoo! Finance Canada",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWlB5UExpeGU2V3hTLVpIZUVYNFhmbUl2ZGlrNEt0UGhWNTFUNzRfQUUxY2c4dkFRWXlSRjBZU0hINkhxREtYRlZ3WW5ucXBfdVMzMmxqRFQ1WjA5YnRUSmhwNThVd09MclNZZmVKZEliOWJEaDdIX3VVeHRwOWItdmk3Z2dsRGR2dC1R?oc=5"
+      },
+      {
+        "headline": "TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/13/tsmc-june-revenue-rises-percent-ahead-second-quarter.html"
+      },
+      {
         "headline": "Nasdaq: FinTech Strength, Rising Profits, But Flat Stock Warrants An Upgrade",
         "source": "Seeking Alpha",
         "section": "Earnings & Results",
         "link": "https://seekingalpha.com/article/4921388-nasdaq-fintech-strength-rising-profits-but-flat-stock-warrants-an-upgrade?source=feed_tag_earnings"
-      },
-      {
-        "headline": "Apple sues OpenAI over alleged trade secret theft",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 65,
-      "Macro & Economy": 41,
-      "Investment Banking & Deals": 93,
-      "Real Estate & REITs": 45,
-      "Earnings & Results": 135,
-      "Tech & Fintech": 113
+      "Stock Market & Equities": 64,
+      "Macro & Economy": 43,
+      "Investment Banking & Deals": 88,
+      "Real Estate & REITs": 43,
+      "Earnings & Results": 156,
+      "Tech & Fintech": 110
     }
   },
   {
