@@ -2,13 +2,19 @@
   {
     "week": "2026-W29",
     "label": "Week of July 13\u201317, 2026",
-    "generated": "2026-07-14T14:42:41.539476+00:00",
+    "generated": "2026-07-14T20:05:10.088096+00:00",
     "bullets": [
       {
-        "headline": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased",
-        "source": "CNBC Economy",
+        "headline": "Wells Fargo did enough to remain in our portfolio. What we liked about earnings",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/14/wells-fargo-did-enough-to-remain-in-our-portfolio-what-we-liked-about-earnings.html"
+      },
+      {
+        "headline": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased - CNBC",
+        "source": "Google \u2013 Fed & Rates",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVUlRVno2bmpjLWRiYnV1M2VxVDZPTGVWa0I4Wk9tY0JHajgxaWcyeUpDbDI5THZKQVBhcEx6WFo1RmszaEh0R19zNU85cXFmOVlxNjB5QWRvNTJncnFZUndDUTVXWXg1Rk5DQTRPREF4OV9DQjRsMVYxV3QxOTY3cnBpWXhFM2lLSVFMMNIBkgFBVV95cUxOVmZJaUpQd0wwYXJrSmp0eVlGbjV6eWhkNGxtZEd1aTlWb2x1cjNNa09ZSnFyMzlpUzRuMV95VW9oQjBXVUlranJLelhyYmVPLTB4UTBqbDZTQ2YtREtSMnVCV1hRbWE3cFJOLU53UkJYeG9OX09PQzU1MDlRaUxnNmZnS3o4dWxyeVdweEVROVIwUQ?oc=5"
       },
       {
         "headline": "Exclusive: Payments startup Velocity raises $38 million to help businesses tap stablecoin growth",
@@ -24,12 +30,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 56,
-      "Macro & Economy": 44,
-      "Investment Banking & Deals": 90,
-      "Real Estate & REITs": 44,
+      "Stock Market & Equities": 59,
+      "Macro & Economy": 43,
+      "Investment Banking & Deals": 108,
+      "Real Estate & REITs": 40,
       "Earnings & Results": 151,
-      "Tech & Fintech": 117
+      "Tech & Fintech": 122
     }
   },
   {
