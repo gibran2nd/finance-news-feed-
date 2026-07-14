@@ -2,28 +2,34 @@
   {
     "week": "2026-W29",
     "label": "Week of July 13\u201317, 2026",
-    "generated": "2026-07-14T08:59:44.386203+00:00",
+    "generated": "2026-07-14T14:42:41.539476+00:00",
     "bullets": [
       {
-        "headline": "South Carolina governor taps Lindsey Graham's sister to serve as interim senator",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/07/13/trump-lindsey-graham-darline-south-carolina-senator.html"
+        "headline": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
       },
       {
-        "headline": "Apex Fintech Solutions Releases Q2 2026 Investor Pulse Report: SpaceX IPO Draws Universal Demand as Retail Rotates Into the AI Buildout - Yahoo! Finance Canada",
+        "headline": "Exclusive: Payments startup Velocity raises $38 million to help businesses tap stablecoin growth",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/07/14/exclusive-payments-startup-velocity-38-million-businesses-stablecoin-growth/"
+      },
+      {
+        "headline": "Apex Fintech Solutions Releases Q2 2026 Investor Pulse Report: SpaceX IPO Draws Universal Demand as Retail Rotates Into the AI Buildout - Yahoo Finance",
         "source": "Google \u2013 IPO",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWlB5UExpeGU2V3hTLVpIZUVYNFhmbUl2ZGlrNEt0UGhWNTFUNzRfQUUxY2c4dkFRWXlSRjBZU0hINkhxREtYRlZ3WW5ucXBfdVMzMmxqRFQ1WjA5YnRUSmhwNThVd09MclNZZmVKZEliOWJEaDdIX3VVeHRwOWItdmk3Z2dsRGR2dC1R?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRDhsM3o1YU9sRTdHTV81WW9SbTBGUjlfOWFFamJRUmNwQ3ByWElod1QwcTNlSGJ4OGZVWHpIbjRWa2NVWXBLd1hKa21XYmZfejNLa0RTRFd0NFJ1bF9mc3B6TkNjWkw1b2ZWWDZNeTY2UklTT216bmd3Y2IzUkM0cVFkcHJ6ajVfOUU5dEdtakY5c1JwbTF6TkpXLW1FOFJO?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 52,
+      "Stock Market & Equities": 56,
       "Macro & Economy": 44,
-      "Investment Banking & Deals": 88,
+      "Investment Banking & Deals": 90,
       "Real Estate & REITs": 44,
-      "Earnings & Results": 157,
-      "Tech & Fintech": 111
+      "Earnings & Results": 151,
+      "Tech & Fintech": 117
     }
   },
   {
