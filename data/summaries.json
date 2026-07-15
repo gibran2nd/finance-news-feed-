@@ -2,8 +2,26 @@
   {
     "week": "2026-W29",
     "label": "Week of July 13\u201317, 2026",
-    "generated": "2026-07-15T14:42:29.861781+00:00",
+    "generated": "2026-07-15T20:03:01.540917+00:00",
     "bullets": [
+      {
+        "headline": "J&J falls despite a beat-and-raise quarter. Why we're raising our price target anyways",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/15/jj-falls-despite-a-beat-and-raise-quarter-why-were-raising-our-price-target-anyways.html"
+      },
+      {
+        "headline": "Murati\u2019s Thinking Machines releases first AI model for broad use",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/07/15/what-is-mira-murati-thinking-machines-first-ai-model-inkling/"
+      },
+      {
+        "headline": "ASML shares fall after hiking sales forecast for second time this year on strong AI chip demand",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/15/asml-2q-earnings-ai-chips-orders.html"
+      },
       {
         "headline": "Wholesale prices unexpectedly declined 0.3% in June on big drop in gasoline",
         "source": "CNBC Economy",
@@ -11,43 +29,19 @@
         "link": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html"
       },
       {
-        "headline": "EXCLUSIVE: Stripe, Advent offer to buy PayPal for more than $53 billion, sources say - Reuters",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeTJ6Wng1a0VaQXRFS3dXYml0Vk1TWTZEYWxOTElCNzJhNU5xamNacW0yczJVT3RZZ2oxcnE0VVhkTEYtS1FZWFIxZTJHNjNaXzVoci00aTNGcEFpTFRXcE1xaVA1cEZ1ZmFKZWRKcm1LcU0wUGZIRXJEMDdXaUM5ektPWUhaQU5mZmMxdWZIYTB3a2hqWlpfR3d3V0tIQWs0SmhKcVpuTVdfbS1VVEx2RjI5RXVkTFk?oc=5"
-      },
-      {
-        "headline": "ASML raises FY26 outlook again, plans capacity boost driven by AI demand",
-        "source": "Seeking Alpha",
-        "section": "Earnings & Results",
-        "link": "https://seekingalpha.com/news/4613851-asml-raises-fy26-outlook-again-plans-capacity-boost-driven-by-ai-demand?source=feed_tag_earnings"
-      },
-      {
         "headline": "Morgan Stanley posts record quarterly revenue and profit as equities trading surges 69%",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/07/15/morgan-stanley-ms-earnings-q2-2026-.html"
-      },
-      {
-        "headline": "Stripe, Advent make $53 billion takeover offer for PayPal, sending stock soaring",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/07/15/stripe-advent-offer-to-buy-paypal-for-more-than-53-billion-reuters.html"
-      },
-      {
-        "headline": "PayPal stock soars on report of buyout proposal from Stripe, Advent",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/article/paypal-stock-soars-on-report-of-buyout-proposal-from-stripe-advent-131101969.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 69,
-      "Macro & Economy": 46,
-      "Investment Banking & Deals": 125,
-      "Real Estate & REITs": 42,
-      "Earnings & Results": 163,
-      "Tech & Fintech": 130
+      "Stock Market & Equities": 55,
+      "Macro & Economy": 38,
+      "Investment Banking & Deals": 33,
+      "Real Estate & REITs": 41,
+      "Earnings & Results": 20,
+      "Tech & Fintech": 36
     }
   },
   {
