@@ -2,25 +2,31 @@
   {
     "week": "2026-W29",
     "label": "Week of July 13\u201317, 2026",
-    "generated": "2026-07-14T20:05:10.088096+00:00",
+    "generated": "2026-07-15T09:05:10.472615+00:00",
     "bullets": [
       {
-        "headline": "Wells Fargo did enough to remain in our portfolio. What we liked about earnings",
+        "headline": "PayPal jumps 15% in premarket on report of Stripe, Advent $53 billion takeover offer",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/07/15/stripe-advent-offer-to-buy-paypal-for-more-than-53-billion-reuters.html"
+      },
+      {
+        "headline": "ASML rises 5% after hiking sales forecast for second time this year on strong AI chip demand",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/14/wells-fargo-did-enough-to-remain-in-our-portfolio-what-we-liked-about-earnings.html"
+        "link": "https://www.cnbc.com/2026/07/15/asml-2q-earnings-ai-chips-orders.html"
+      },
+      {
+        "headline": "China posts slowest quarterly growth since 2022 as investment slumps, fanning stimulus calls",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html"
       },
       {
         "headline": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased - CNBC",
         "source": "Google \u2013 Fed & Rates",
         "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVUlRVno2bmpjLWRiYnV1M2VxVDZPTGVWa0I4Wk9tY0JHajgxaWcyeUpDbDI5THZKQVBhcEx6WFo1RmszaEh0R19zNU85cXFmOVlxNjB5QWRvNTJncnFZUndDUTVXWXg1Rk5DQTRPREF4OV9DQjRsMVYxV3QxOTY3cnBpWXhFM2lLSVFMMNIBkgFBVV95cUxOVmZJaUpQd0wwYXJrSmp0eVlGbjV6eWhkNGxtZEd1aTlWb2x1cjNNa09ZSnFyMzlpUzRuMV95VW9oQjBXVUlranJLelhyYmVPLTB4UTBqbDZTQ2YtREtSMnVCV1hRbWE3cFJOLU53UkJYeG9OX09PQzU1MDlRaUxnNmZnS3o4dWxyeVdweEVROVIwUQ?oc=5"
-      },
-      {
-        "headline": "Exclusive: Payments startup Velocity raises $38 million to help businesses tap stablecoin growth",
-        "source": "Fortune",
-        "section": "Stock Market & Equities",
-        "link": "https://fortune.com/2026/07/14/exclusive-payments-startup-velocity-38-million-businesses-stablecoin-growth/"
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVUlRVno2bmpjLWRiYnV1M2VxVDZPTGVWa0I4Wk9tY0JHajgxaWcyeUpDbDI5THZKQVBhcEx6WFo1RmszaEh0R19zNU85cXFmOVlxNjB5QWRvNTJncnFZUndDUTVXWXg1Rk5DQTRPREF4OV9DQjRsMVYxV3QxOTY3cnBpWXhFM2lLSVFMMA?oc=5"
       },
       {
         "headline": "Apex Fintech Solutions Releases Q2 2026 Investor Pulse Report: SpaceX IPO Draws Universal Demand as Retail Rotates Into the AI Buildout - Yahoo Finance",
@@ -30,12 +36,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 59,
-      "Macro & Economy": 43,
-      "Investment Banking & Deals": 108,
-      "Real Estate & REITs": 40,
+      "Stock Market & Equities": 55,
+      "Macro & Economy": 47,
+      "Investment Banking & Deals": 106,
+      "Real Estate & REITs": 43,
       "Earnings & Results": 151,
-      "Tech & Fintech": 122
+      "Tech & Fintech": 123
     }
   },
   {
