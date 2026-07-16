@@ -2,8 +2,26 @@
   {
     "week": "2026-W29",
     "label": "Week of July 13\u201317, 2026",
-    "generated": "2026-07-15T20:03:01.540917+00:00",
+    "generated": "2026-07-16T09:08:27.117295+00:00",
     "bullets": [
+      {
+        "headline": "World Cup gave bars and restaurants a needed boost as consumers flash warning signs, Fed says",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/07/15/world-cup-economy-spending-alcohol-hotels-fed.html"
+      },
+      {
+        "headline": "United earnings top estimates but airline expects $6 billion in added fuel costs",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/15/united-airlines-ual-2q-2026-earnings.html"
+      },
+      {
+        "headline": "EXCLUSIVE: Stripe, Advent offer to buy PayPal for more than $53 billion, sources say - Reuters",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeTJ6Wng1a0VaQXRFS3dXYml0Vk1TWTZEYWxOTElCNzJhNU5xamNacW0yczJVT3RZZ2oxcnE0VVhkTEYtS1FZWFIxZTJHNjNaXzVoci00aTNGcEFpTFRXcE1xaVA1cEZ1ZmFKZWRKcm1LcU0wUGZIRXJEMDdXaUM5ektPWUhaQU5mZmMxdWZIYTB3a2hqWlpfR3d3V0tIQWs0SmhKcVpuTVdfbS1VVEx2RjI5RXVkTFk?oc=5"
+      },
       {
         "headline": "J&J falls despite a beat-and-raise quarter. Why we're raising our price target anyways",
         "source": "CNBC Markets",
@@ -11,37 +29,25 @@
         "link": "https://www.cnbc.com/2026/07/15/jj-falls-despite-a-beat-and-raise-quarter-why-were-raising-our-price-target-anyways.html"
       },
       {
-        "headline": "Murati\u2019s Thinking Machines releases first AI model for broad use",
-        "source": "Fortune",
-        "section": "Stock Market & Equities",
-        "link": "https://fortune.com/2026/07/15/what-is-mira-murati-thinking-machines-first-ai-model-inkling/"
-      },
-      {
-        "headline": "ASML shares fall after hiking sales forecast for second time this year on strong AI chip demand",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/15/asml-2q-earnings-ai-chips-orders.html"
+        "headline": "PayPal Stock Soars After Report Reveals $53 Billion Stripe Buyout Proposal - TradingView",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeTQ0YnJ5TllaVEFJTS1NMWZxcTZjdEtJMXJWZ3Bnd0NISXhQYkhhbjI0ODdVSUF0OXk5eERlYXB3ZUthMW1vSU8yZDhCbzN5bU83Wnlsd1NfbVNWSFQtZzZoSEpIVmdlU1Q4RTd3eFNTcWUtSUtweTBpaVpTVHdiY3JLWWplREFVRjVFckJmM2hGWHExdWRvVW00dDV6NUFfVnh2RHQtRXc5dFVQR0tpbUU1cWs0NktRQ3RqQ2lLUVE2b0dkUm1lRU4xRktlQQ?oc=5"
       },
       {
         "headline": "Wholesale prices unexpectedly declined 0.3% in June on big drop in gasoline",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html"
-      },
-      {
-        "headline": "Morgan Stanley posts record quarterly revenue and profit as equities trading surges 69%",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/15/morgan-stanley-ms-earnings-q2-2026-.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 55,
-      "Macro & Economy": 38,
-      "Investment Banking & Deals": 33,
-      "Real Estate & REITs": 41,
-      "Earnings & Results": 20,
-      "Tech & Fintech": 36
+      "Stock Market & Equities": 61,
+      "Macro & Economy": 46,
+      "Investment Banking & Deals": 141,
+      "Real Estate & REITs": 44,
+      "Earnings & Results": 166,
+      "Tech & Fintech": 124
     }
   },
   {
