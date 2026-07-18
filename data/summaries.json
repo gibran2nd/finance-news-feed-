@@ -2,8 +2,14 @@
   {
     "week": "2026-W29",
     "label": "Week of July 13\u201317, 2026",
-    "generated": "2026-07-18T08:43:45.802792+00:00",
+    "generated": "2026-07-18T14:16:51.107361+00:00",
     "bullets": [
+      {
+        "headline": "SpaceX Stock Sinks Below IPO Price: The Hype Is Over?",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-sinks-below-ipo-131325737.html"
+      },
       {
         "headline": "Netflix stock falls as earnings forecast disappoints, company says it will give fewer engagement updates",
         "source": "CNBC Markets",
@@ -33,21 +39,15 @@
         "source": "Google \u2013 AI Finance",
         "section": "Tech & Fintech",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1VSjJsMHc0aU5ScEZHazNURk01X3liVXlXSDlqNlFKdEM4WmxFYjV2OFlab2ZudzdfaElFYjNmRUtXOXotT1pQQ0hWUlRpZXlhazBqRHVNVEJUanpNcU1DVEZoTQ?oc=5"
-      },
-      {
-        "headline": "EXCLUSIVE: Stripe, Advent offer to buy PayPal for more than $53 billion, sources say - Reuters",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeTJ6Wng1a0VaQXRFS3dXYml0Vk1TWTZEYWxOTElCNzJhNU5xamNacW0yczJVT3RZZ2oxcnE0VVhkTEYtS1FZWFIxZTJHNjNaXzVoci00aTNGcEFpTFRXcE1xaVA1cEZ1ZmFKZWRKcm1LcU0wUGZIRXJEMDdXaUM5ektPWUhaQU5mZmMxdWZIYTB3a2hqWlpfR3d3V0tIQWs0SmhKcVpuTVdfbS1VVEx2RjI5RXVkTFk?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 57,
-      "Macro & Economy": 46,
-      "Investment Banking & Deals": 154,
+      "Stock Market & Equities": 64,
+      "Macro & Economy": 47,
+      "Investment Banking & Deals": 155,
       "Real Estate & REITs": 46,
-      "Earnings & Results": 150,
-      "Tech & Fintech": 109
+      "Earnings & Results": 149,
+      "Tech & Fintech": 106
     }
   },
   {
