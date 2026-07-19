@@ -2,25 +2,13 @@
   {
     "week": "2026-W29",
     "label": "Week of July 13\u201317, 2026",
-    "generated": "2026-07-19T09:01:25.399950+00:00",
+    "generated": "2026-07-19T14:20:41.381425+00:00",
     "bullets": [
       {
         "headline": "Netflix stock falls as earnings forecast disappoints, company says it will give fewer engagement updates",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html"
-      },
-      {
-        "headline": "Anthropic in early talks with Meta to acquire compute power - CNBC",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1tZWtxWDkycmdUVlYtM3RpUUdqTVd5cWloOWVnYVZPWUxpc1pBZDFtNkN2NTM5anJXdmRlYnJubDhTV2pyWEp1cnRWQ1pWUnZ3U21OQ0ZhUHAwcGlUN2h4ajNaZVhWWmc0ZTRad0NNNNIBdEFVX3lxTE03WExldWF5Ukd0VGxHRjluWlBNVEZPbW9KWk5LQjZJbk55T3ZjQWozel9NMDZVWkZsYUFKNE9kUmVTN2xSNFI5MFZMOGVqYjVsenFjdmlPYzFvVl85WnhXLTBBOGt4eER0ZW1KS3E5ZE5XNHZJ?oc=5"
-      },
-      {
-        "headline": "AI Stocks Investment 2026: Top Picks & Market Analysis Guide - Intellectia AI",
-        "source": "Google \u2013 AI Finance",
-        "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1VSjJsMHc0aU5ScEZHazNURk01X3liVXlXSDlqNlFKdEM4WmxFYjV2OFlab2ZudzdfaElFYjNmRUtXOXotT1pQQ0hWUlRpZXlhazBqRHVNVEJUanpNcU1DVEZoTQ?oc=5"
       },
       {
         "headline": "EXCLUSIVE: Stripe, Advent offer to buy PayPal for more than $53 billion, sources say - Reuters",
@@ -30,11 +18,11 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 64,
-      "Macro & Economy": 47,
-      "Investment Banking & Deals": 142,
-      "Real Estate & REITs": 45,
-      "Earnings & Results": 158,
+      "Stock Market & Equities": 67,
+      "Macro & Economy": 46,
+      "Investment Banking & Deals": 127,
+      "Real Estate & REITs": 46,
+      "Earnings & Results": 160,
       "Tech & Fintech": 99
     }
   },
