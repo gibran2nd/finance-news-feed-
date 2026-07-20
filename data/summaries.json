@@ -2,8 +2,14 @@
   {
     "week": "2026-W30",
     "label": "Week of July 20\u201324, 2026",
-    "generated": "2026-07-20T15:03:13.559937+00:00",
+    "generated": "2026-07-20T20:15:42.805393+00:00",
     "bullets": [
+      {
+        "headline": "Brookfield, CPP Investments to Acquire LXP Industrial Trust for $5.2B",
+        "source": "Commercial Observer",
+        "section": "Real Estate & REITs",
+        "link": "https://commercialobserver.com/2026/07/brookfield-cpp-investments-acquire-lxp-industrial-trust/"
+      },
       {
         "headline": "Ryanair says 'no shortage' of travelers despite Iran war denting profit",
         "source": "CNBC Markets",
@@ -11,16 +17,10 @@
         "link": "https://www.cnbc.com/2026/07/20/ryanair-q1-earnings-iran-war-summer-fares.html"
       },
       {
-        "headline": "Samsung Biologics to Acquire PolyPeptide Group for $1.8 Billion - GuruFocus",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRUJ6cXIyaTNIYXY5Ry02dWd5WjFyYkp3ZmxXaG1yY2ZEOHJYTV9qbXVmOHpJQ29hSWpsUmVub3g0RUdNd1V0Um1rOEdLRlpPWWdFU0hlYjVNUmdUMDB6QmFSOHdwVzVxTmFKUlZnc2tVSnRLd2FKNGRRV2h1OHhpZmJpejRub21IcUVKaEg5eWlfNlg4T21Nb3I1MG5qNEw4Z1E?oc=5"
-      },
-      {
-        "headline": "Netflix stock falls as earnings forecast disappoints, company says it will give fewer engagement updates",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html"
+        "headline": "Netflix stock falls as earnings forecast disappoints, company says it will give fewer engagement updates - CNBC",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDTjQ2OUU0bnVvS29IVXdoVTFnR3R2TzN5WktIODMwcWU2QndfSnVXd3llZHN1NGo1RGlYZUsyd21RcVdxSU9wOHBhZ0RiM1dLYjl0WXM2ajJWSEk1QjZBal9DNk9MQll6VlZNb0FZS2ZIUWVE0gF6QVVfeXFMTUtCY0xLS3g4NndzeHJMNm42d0lqS1B6OUtKQTdsMmw5WWFQRlFMTGdwNHU4bnFTeUdjQ1VkM181dHdfYnlOMy0wUng1ak9jamhoLTNXUWZLcE5FcWhHbENNZXlKdEZudW02cFUxOGFPZEs5X2RvVXVndFE?oc=5"
       },
       {
         "headline": "PayPal Stock Surges on $53 Billion Stripe-Advent Buyout Bid - Yahoo Finance",
@@ -36,12 +36,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 72,
+      "Stock Market & Equities": 61,
       "Macro & Economy": 41,
-      "Investment Banking & Deals": 114,
-      "Real Estate & REITs": 48,
+      "Investment Banking & Deals": 120,
+      "Real Estate & REITs": 47,
       "Earnings & Results": 167,
-      "Tech & Fintech": 98
+      "Tech & Fintech": 97
     }
   },
   {
