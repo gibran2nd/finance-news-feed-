@@ -1,5 +1,50 @@
 [
   {
+    "week": "2026-W30",
+    "label": "Week of July 20\u201324, 2026",
+    "generated": "2026-07-20T09:50:53.997715+00:00",
+    "bullets": [
+      {
+        "headline": "Ryanair stock slides 6% as higher fuel costs amid Iran war dent profit",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/20/ryanair-q1-earnings-iran-war-summer-fares.html"
+      },
+      {
+        "headline": "Samsung Biologics to Acquire PolyPeptide Group for $1.8 Billion - GuruFocus",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRUJ6cXIyaTNIYXY5Ry02dWd5WjFyYkp3ZmxXaG1yY2ZEOHJYTV9qbXVmOHpJQ29hSWpsUmVub3g0RUdNd1V0Um1rOEdLRlpPWWdFU0hlYjVNUmdUMDB6QmFSOHdwVzVxTmFKUlZnc2tVSnRLd2FKNGRRV2h1OHhpZmJpejRub21IcUVKaEg5eWlfNlg4T21Nb3I1MG5qNEw4Z1E?oc=5"
+      },
+      {
+        "headline": "Netflix stock falls as earnings forecast disappoints, company says it will give fewer engagement updates",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html"
+      },
+      {
+        "headline": "PayPal Stock Surges on $53 Billion Stripe-Advent Buyout Bid - Yahoo Finance",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdGl1eV9hSFRjcmYzbWdHcW8yVlZEQlYwRnJ3MEw0Q3ZoanRpamVmXzZIMEo4dnBXQjB5UUpNNGduVURCYmhqaU4xdzFpRFM2bGtzZnFGOVV3cnc3Skw1WDVjcENvcmM5R1ByOEJQR2lxZHN0TmprS3pXQlpKZ3ZjYmRCNWJ5aENSOHBUUTNLRHdnOTNoNjRFNnBDSQ?oc=5"
+      },
+      {
+        "headline": "EXCLUSIVE: Stripe, Advent offer to buy PayPal for more than $53 billion, sources say - Reuters",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeTJ6Wng1a0VaQXRFS3dXYml0Vk1TWTZEYWxOTElCNzJhNU5xamNacW0yczJVT3RZZ2oxcnE0VVhkTEYtS1FZWFIxZTJHNjNaXzVoci00aTNGcEFpTFRXcE1xaVA1cEZ1ZmFKZWRKcm1LcU0wUGZIRXJEMDdXaUM5ektPWUhaQU5mZmMxdWZIYTB3a2hqWlpfR3d3V0tIQWs0SmhKcVpuTVdfbS1VVEx2RjI5RXVkTFk?oc=5"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 64,
+      "Macro & Economy": 42,
+      "Investment Banking & Deals": 119,
+      "Real Estate & REITs": 48,
+      "Earnings & Results": 162,
+      "Tech & Fintech": 88
+    }
+  },
+  {
     "week": "2026-W29",
     "label": "Week of July 13\u201317, 2026",
     "generated": "2026-07-19T20:03:29.787015+00:00",
