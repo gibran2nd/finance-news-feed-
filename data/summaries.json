@@ -2,8 +2,20 @@
   {
     "week": "2026-W30",
     "label": "Week of July 20\u201324, 2026",
-    "generated": "2026-07-20T20:15:42.805393+00:00",
+    "generated": "2026-07-21T09:22:39.759784+00:00",
     "bullets": [
+      {
+        "headline": "Magnolia to acquire WildFire Energy in $4.1bn Eagle Ford deal",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/energy/articles/magnolia-acquire-wildfire-energy-4-082919115.html"
+      },
+      {
+        "headline": "General Motors is set to report earnings before the bell. Here's what Wall Street expects",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/21/general-motors-gm-earnings-q2-2026.html"
+      },
       {
         "headline": "Brookfield, CPP Investments to Acquire LXP Industrial Trust for $5.2B",
         "source": "Commercial Observer",
@@ -11,37 +23,31 @@
         "link": "https://commercialobserver.com/2026/07/brookfield-cpp-investments-acquire-lxp-industrial-trust/"
       },
       {
-        "headline": "Ryanair says 'no shortage' of travelers despite Iran war denting profit",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/20/ryanair-q1-earnings-iran-war-summer-fares.html"
+        "headline": "Exclusive | Buyout Firm Truelink Strikes $1 Billion Deal for Coffee Syrup Maker - WSJ",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZjA3Z0hTM2h4aGU1c3d0QllxRmNpYnZtR0pUaGNlbnZPN0xyZVZWVENaUnFMLUdSbXd4RHUxN1g3eS1wZWdzVW52UWRmTmV6VEZQX0JlenJ3cnAxajJHU1hGclU1dDd3dEZSV2JrZjNKaUdyOXpVUDNsOVJqV2o5aEwtWVlnRTRKWmhqX1VVblBMcGFmNUI1NmM4Y3BwaHlBb1UyOTdtOHRVMGFS?oc=5"
       },
       {
-        "headline": "Netflix stock falls as earnings forecast disappoints, company says it will give fewer engagement updates - CNBC",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDTjQ2OUU0bnVvS29IVXdoVTFnR3R2TzN5WktIODMwcWU2QndfSnVXd3llZHN1NGo1RGlYZUsyd21RcVdxSU9wOHBhZ0RiM1dLYjl0WXM2ajJWSEk1QjZBal9DNk9MQll6VlZNb0FZS2ZIUWVE0gF6QVVfeXFMTUtCY0xLS3g4NndzeHJMNm42d0lqS1B6OUtKQTdsMmw5WWFQRlFMTGdwNHU4bnFTeUdjQ1VkM181dHdfYnlOMy0wUng1ak9jamhoLTNXUWZLcE5FcWhHbENNZXlKdEZudW02cFUxOGFPZEs5X2RvVXVndFE?oc=5"
+        "headline": "Netflix stock falls as earnings forecast disappoints, company says it will give fewer engagement updates",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html"
       },
       {
         "headline": "PayPal Stock Surges on $53 Billion Stripe-Advent Buyout Bid - Yahoo Finance",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdGl1eV9hSFRjcmYzbWdHcW8yVlZEQlYwRnJ3MEw0Q3ZoanRpamVmXzZIMEo4dnBXQjB5UUpNNGduVURCYmhqaU4xdzFpRFM2bGtzZnFGOVV3cnc3Skw1WDVjcENvcmM5R1ByOEJQR2lxZHN0TmprS3pXQlpKZ3ZjYmRCNWJ5aENSOHBUUTNLRHdnOTNoNjRFNnBDSQ?oc=5"
-      },
-      {
-        "headline": "EXCLUSIVE: Stripe, Advent offer to buy PayPal for more than $53 billion, sources say - Reuters",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeTJ6Wng1a0VaQXRFS3dXYml0Vk1TWTZEYWxOTElCNzJhNU5xamNacW0yczJVT3RZZ2oxcnE0VVhkTEYtS1FZWFIxZTJHNjNaXzVoci00aTNGcEFpTFRXcE1xaVA1cEZ1ZmFKZWRKcm1LcU0wUGZIRXJEMDdXaUM5ektPWUhaQU5mZmMxdWZIYTB3a2hqWlpfR3d3V0tIQWs0SmhKcVpuTVdfbS1VVEx2RjI5RXVkTFk?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 61,
-      "Macro & Economy": 41,
-      "Investment Banking & Deals": 120,
-      "Real Estate & REITs": 47,
-      "Earnings & Results": 167,
-      "Tech & Fintech": 97
+      "Stock Market & Equities": 64,
+      "Macro & Economy": 40,
+      "Investment Banking & Deals": 117,
+      "Real Estate & REITs": 51,
+      "Earnings & Results": 161,
+      "Tech & Fintech": 103
     }
   },
   {
