@@ -2,19 +2,19 @@
   {
     "week": "2026-W30",
     "label": "Week of July 20\u201324, 2026",
-    "generated": "2026-07-21T09:22:39.759784+00:00",
+    "generated": "2026-07-21T14:56:52.775231+00:00",
     "bullets": [
       {
-        "headline": "Magnolia to acquire WildFire Energy in $4.1bn Eagle Ford deal",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/energy/articles/magnolia-acquire-wildfire-energy-4-082919115.html"
-      },
-      {
-        "headline": "General Motors is set to report earnings before the bell. Here's what Wall Street expects",
+        "headline": "GM beats on earnings, raises guidance amid 'resilient' consumer, pricing",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/07/21/general-motors-gm-earnings-q2-2026.html"
+      },
+      {
+        "headline": "Genuine Parts Q2 revenue tops estimates, reaffirms full-year outlook - MSN",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNm9OMjlNR2l4Mlh5MnZzU2pTTE0xSmh6YlRoR3pNblJVYk5WN2lkQXBrS0R4UDM0SG1UeEV2d1FXWEU1R0NDY3lkTFBxQ1hvTGVhVHphX1cxemdhdWliS1NGOGNDZXFuaDFGZTZ3dC1ua3VIeVo2M2xGNWRLTWVnTjFFQ2d6SlpUVXM4X2ZnSzZZVldGREtMQTVrZTUwM0JNZHN0b3FQcVUwenpOVGFpbFZWYktHTmtXVXZmMm80TjREcTlHNm1WV082T05NeVJjUDBYV3gwYVlrRzcwZXc?oc=5"
       },
       {
         "headline": "Brookfield, CPP Investments to Acquire LXP Industrial Trust for $5.2B",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 64,
-      "Macro & Economy": 40,
-      "Investment Banking & Deals": 117,
-      "Real Estate & REITs": 51,
-      "Earnings & Results": 161,
-      "Tech & Fintech": 103
+      "Stock Market & Equities": 68,
+      "Macro & Economy": 39,
+      "Investment Banking & Deals": 132,
+      "Real Estate & REITs": 49,
+      "Earnings & Results": 164,
+      "Tech & Fintech": 107
     }
   },
   {
