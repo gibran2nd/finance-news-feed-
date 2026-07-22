@@ -2,34 +2,40 @@
   {
     "week": "2026-W30",
     "label": "Week of July 20\u201324, 2026",
-    "generated": "2026-07-21T20:14:41.439600+00:00",
+    "generated": "2026-07-22T09:21:57.500532+00:00",
     "bullets": [
       {
-        "headline": "GM beats on earnings, raises guidance amid 'resilient' consumer, pricing",
+        "headline": "Capital One earnings were good enough but didn't answer the big question hanging over the stock",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/21/general-motors-gm-earnings-q2-2026.html"
+        "link": "https://www.cnbc.com/2026/07/21/capital-one-earnings-were-good-enough-but-didnt-answer-our-biggest-question.html"
       },
       {
-        "headline": "Netflix stock falls as earnings forecast disappoints, company says it will give fewer engagement updates - MSN",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVHUxVGRodjZxejdZcno5blQweTBOakpzaG52YkNENi1nYTRrRDR1OXhFaGFucE91UDM1SmV3bTMtWnhUVmpPam0xOHJQZFZoRFdKSldSUjVnOFpSd2doZ1kwcFk1U3hwNGpMU29pSkZEdmJsQmRTRE9pcFJvV1RMTjR0M2FpNm95X1pyT0xDcHlPWW9lNEtCVGNNODgxbGVMUWhBUmI2clFHZnpxdm0wZ0QzWjFPYmZ4MW0xNG4xalNTMzBKeTdVYVRPR2R0eDRNMFBFdm81clB0M05WUmFfOEc5QjViak91LTViX0xrcjdCTUd1LXN4NA?oc=5"
+        "headline": "Super Micro surges 15% on new order and margin disclosure after SpaceX announcement",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/21/super-micro-stock-spacex-announcement.html"
       },
       {
         "headline": "Exclusive | Buyout Firm Truelink Strikes $1 Billion Deal for Coffee Syrup Maker - WSJ",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZjA3Z0hTM2h4aGU1c3d0QllxRmNpYnZtR0pUaGNlbnZPN0xyZVZWVENaUnFMLUdSbXd4RHUxN1g3eS1wZWdzVW52UWRmTmV6VEZQX0JlenJ3cnAxajJHU1hGclU1dDd3dEZSV2JrZjNKaUdyOXpVUDNsOVJqV2o5aEwtWVlnRTRKWmhqX1VVblBMcGFmNUI1NmM4Y3BwaHlBb1UyOTdtOHRVMGFS?oc=5"
+      },
+      {
+        "headline": "Netflix stock falls as earnings forecast disappoints, company says it will give fewer engagement updates",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/16/netflix-nflx-earnings-q2-2026.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 63,
-      "Macro & Economy": 39,
-      "Investment Banking & Deals": 138,
-      "Real Estate & REITs": 49,
-      "Earnings & Results": 172,
-      "Tech & Fintech": 113
+      "Stock Market & Equities": 65,
+      "Macro & Economy": 40,
+      "Investment Banking & Deals": 133,
+      "Real Estate & REITs": 51,
+      "Earnings & Results": 174,
+      "Tech & Fintech": 115
     }
   },
   {
