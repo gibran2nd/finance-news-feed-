@@ -2,13 +2,25 @@
   {
     "week": "2026-W30",
     "label": "Week of July 20\u201324, 2026",
-    "generated": "2026-07-22T14:58:01.478656+00:00",
+    "generated": "2026-07-22T20:07:42.819878+00:00",
     "bullets": [
       {
-        "headline": "Super Micro surges 15% on new order and margin disclosure after SpaceX announcement",
+        "headline": "Kevin Warsh has homed in on three key phrases. How Fed watchers interpret them",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html"
+      },
+      {
+        "headline": "Tesla set to report second-quarter results after the bell",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/21/super-micro-stock-spacex-announcement.html"
+        "link": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html"
+      },
+      {
+        "headline": "Snacks maker Utz Brands to be taken private in $2.9 billion deal - Reuters",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWTdnSDhtR1RzNzFtbEZEb0w3UEpDWEcwU0NjVE83MldmVUFFT1JBcUZkSjZlR3YtRmhNcXZrdnBpdEhJOG9GNXA4aWpkSHh0cUp1enRuWURvYjZqeHhhT1N6bWR0ZG1OZ3NUbENxQmV4UnF5WkZTSGlEbFBtSnlCZ0d1MU4teGM2bnF1T0IyWjh0QnhERHlka3ZFZkJQSktlSTlj?oc=5"
       },
       {
         "headline": "Exclusive | Buyout Firm Truelink Strikes $1 Billion Deal for Coffee Syrup Maker - WSJ",
@@ -24,12 +36,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 67,
-      "Macro & Economy": 39,
-      "Investment Banking & Deals": 132,
-      "Real Estate & REITs": 49,
-      "Earnings & Results": 178,
-      "Tech & Fintech": 123
+      "Stock Market & Equities": 65,
+      "Macro & Economy": 40,
+      "Investment Banking & Deals": 136,
+      "Real Estate & REITs": 46,
+      "Earnings & Results": 172,
+      "Tech & Fintech": 125
     }
   },
   {
