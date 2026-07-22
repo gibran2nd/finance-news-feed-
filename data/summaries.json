@@ -2,14 +2,8 @@
   {
     "week": "2026-W30",
     "label": "Week of July 20\u201324, 2026",
-    "generated": "2026-07-22T09:21:57.500532+00:00",
+    "generated": "2026-07-22T14:58:01.478656+00:00",
     "bullets": [
-      {
-        "headline": "Capital One earnings were good enough but didn't answer the big question hanging over the stock",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/21/capital-one-earnings-were-good-enough-but-didnt-answer-our-biggest-question.html"
-      },
       {
         "headline": "Super Micro surges 15% on new order and margin disclosure after SpaceX announcement",
         "source": "CNBC Markets",
@@ -30,12 +24,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 65,
-      "Macro & Economy": 40,
-      "Investment Banking & Deals": 133,
-      "Real Estate & REITs": 51,
-      "Earnings & Results": 174,
-      "Tech & Fintech": 115
+      "Stock Market & Equities": 67,
+      "Macro & Economy": 39,
+      "Investment Banking & Deals": 132,
+      "Real Estate & REITs": 49,
+      "Earnings & Results": 178,
+      "Tech & Fintech": 123
     }
   },
   {
