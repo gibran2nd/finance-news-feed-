@@ -2,22 +2,10 @@
   {
     "week": "2026-W30",
     "label": "Week of July 20\u201324, 2026",
-    "generated": "2026-07-23T15:02:24.660630+00:00",
+    "generated": "2026-07-23T20:07:37.200124+00:00",
     "bullets": [
       {
-        "headline": "Comcast earnings highlight NBCUniversal strength ahead of planned split",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/23/comcast-earnings-nbcuniversal-strength-split.html"
-      },
-      {
-        "headline": "Brookfield to acquire Aypa Power from Blackstone for $7bn",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/energy/articles/brookfield-acquire-aypa-power-blackstone-144045073.html"
-      },
-      {
-        "headline": "American Airlines stock tumbles 8% as fuel spike further postpones turnaround",
+        "headline": "American Airlines stock tumbles 7% as fuel spike further postpones turnaround",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/07/23/american-airlines-aal-2q-2026-earnings.html"
@@ -29,10 +17,22 @@
         "link": "https://www.cnbc.com/2026/07/23/albertsons-stock-plunges-on-lowered-outlook-softened-grocery-trends.html"
       },
       {
-        "headline": "Southwest Airlines' third-quarter forecast falls short as fuel bill climbs",
+        "headline": "Alphabet and Tesla test Wall Street's patience as AI spending overshadows growth",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/22/southwest-airlines-luv-2q-2026-earnings.html"
+        "link": "https://www.cnbc.com/2026/07/22/alphabet-tesla-test-investor-patience-ai-spending-overshadows-growth.html"
+      },
+      {
+        "headline": "Comcast earnings highlight NBCUniversal strength ahead of planned split",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/23/comcast-earnings-nbcuniversal-strength-split.html"
+      },
+      {
+        "headline": "TE Connectivity projects upbeat quarterly results, to buy Astrodyne for $1.4 billion - ET Manufacturing",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQeDZHTzF6eXMxc1I0UTQzMlplYk9sVF9SQTZwZGhURHphTnA4aFk5OXdDNVpWQ2hkYVNieEFJT29NVnctMHFQR0RfTjAxYUFySzBmQm1kUndHQzNPT2Z0S1Y3MktTaEZUS2ZCN0NWOG5Zd25yV2luWlJrSkpVNFN0Y1pDTmJKM3F0elVMa2dKazFlenlmRFFFUnpKcDl0SUdTVERPQ25wcVhLMHNHZng4ZTdaOWlvamZMbkpvUHNfR1cxUUdYeFZKWHJVNlpBV0RFUVEyVDl6V0w1TWhQTmE2U3Z5Smo0bmfSAewBQVVfeXFMUHFGWFlKc1VYNWFSTkdyVkFoRkJIVm11WVRHUTRNVkk4U091VjNfV0M3bVl2RmZZUE5kZmd1RHhGTjNjNVZfaVE1cGVnR2xtM18zMEthSXdKSkVrNnV5ZHdQOUVuUlpTdGxNY1QzZC0wOXN6bTFNbFFBcjNBX2NESHFJZUVjSkoxd3dTaUxSMkllYmZSbWNhNGViVEhtcUpRSGNhUzdwN2RFcjlGY0daMEdVM3lFM042ci1tN0x2ek1oWHg4SUw2eXlDaGhTSzh6QjdCS1dWdzIxTTdkWkdKVEJoYjJHWDhZR252UXc?oc=5"
       },
       {
         "headline": "Pepkor To Acquire 57.1% Of Flash And Shop2Shop Fintech Platform At R21.3 Billion Valuation - Pulse 2.0",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 73,
+      "Stock Market & Equities": 62,
       "Macro & Economy": 38,
-      "Investment Banking & Deals": 122,
+      "Investment Banking & Deals": 131,
       "Real Estate & REITs": 47,
-      "Earnings & Results": 178,
-      "Tech & Fintech": 128
+      "Earnings & Results": 177,
+      "Tech & Fintech": 127
     }
   },
   {
