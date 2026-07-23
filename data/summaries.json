@@ -2,25 +2,31 @@
   {
     "week": "2026-W30",
     "label": "Week of July 20\u201324, 2026",
-    "generated": "2026-07-23T09:19:39.234381+00:00",
+    "generated": "2026-07-23T15:02:24.660630+00:00",
     "bullets": [
       {
-        "headline": "Alphabet and Tesla test Wall Street's patience as AI spending overshadows growth",
+        "headline": "Comcast earnings highlight NBCUniversal strength ahead of planned split",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/22/alphabet-tesla-test-investor-patience-ai-spending-overshadows-growth.html"
+        "link": "https://www.cnbc.com/2026/07/23/comcast-earnings-nbcuniversal-strength-split.html"
       },
       {
-        "headline": "Why we're sticking with Alphabet despite an imperfect quarter and more AI spending",
-        "source": "CNBC Markets",
+        "headline": "Brookfield to acquire Aypa Power from Blackstone for $7bn",
+        "source": "Yahoo Finance",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/22/why-were-sticking-with-alphabet-despite-an-imperfect-quarter-and-more-ai-spending.html"
+        "link": "https://finance.yahoo.com/energy/articles/brookfield-acquire-aypa-power-blackstone-144045073.html"
       },
       {
-        "headline": "IBM lowers full-year forecast after earnings warning",
+        "headline": "American Airlines stock tumbles 8% as fuel spike further postpones turnaround",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/22/ibm-q2-earnings-report-2026.html"
+        "link": "https://www.cnbc.com/2026/07/23/american-airlines-aal-2q-2026-earnings.html"
+      },
+      {
+        "headline": "Albertsons stock plunges as it says weaker grocery spending will cut into sales and earnings",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/23/albertsons-stock-plunges-on-lowered-outlook-softened-grocery-trends.html"
       },
       {
         "headline": "Southwest Airlines' third-quarter forecast falls short as fuel bill climbs",
@@ -29,25 +35,19 @@
         "link": "https://www.cnbc.com/2026/07/22/southwest-airlines-luv-2q-2026-earnings.html"
       },
       {
-        "headline": "Tesla misses on earnings, as free cash flow turns negative and margins slide",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html"
-      },
-      {
-        "headline": "Trump administration signs commercial nuclear deal with Saudi Arabia",
-        "source": "NPR Business",
-        "section": "Macro & Economy",
-        "link": "https://www.npr.org/2026/07/22/nx-s1-5903293/trump-saudi-arabia-nuclear-deal"
+        "headline": "Pepkor To Acquire 57.1% Of Flash And Shop2Shop Fintech Platform At R21.3 Billion Valuation - Pulse 2.0",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcWkwNlZ2WUg2dFJKWGVKNlZUN2RMMnE3Qkxfa3FLaXNXZTROMkZZdHBaWXZXZ0g3ZWJESkJTSnlrZEUwWTVzZjhnaGdRVVhrUHR3R0N3LVk5N2FOYWNudk1KSUh2ZUJiQWNEakVGUGF3ZGl0SDlBR0pUX3RpbGFpUGlWQURzNnVUeERyckR2UVVuX3ZyZUtpTkFib2N5YnVaZVRlYUtkUG5uM2hUR2fSAbMBQVVfeXFMTVlXZmwxWXlOd00xcklSYXBESFFoOWFCQVlyZk9KVmJXaE1ISXpxcnllYUtGYXk2RDhkUExPdFUyQXFybjBOc2xFV3J6Y25kSHJSb2pZUlRWaVRMWWVoWmxIbTdmQXZLZHI1QWxReXR3Vk5ReGFfOXBENnYxMC04VjVlWjBKT3lOUlpENlJVQjFDOThmTk9BSmdGQVh0dXFXNFAxYXFqZDJyLTNnZTBPeVdqbUU?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 58,
-      "Macro & Economy": 33,
-      "Investment Banking & Deals": 38,
-      "Real Estate & REITs": 44,
-      "Earnings & Results": 20,
-      "Tech & Fintech": 34
+      "Stock Market & Equities": 73,
+      "Macro & Economy": 38,
+      "Investment Banking & Deals": 122,
+      "Real Estate & REITs": 47,
+      "Earnings & Results": 178,
+      "Tech & Fintech": 128
     }
   },
   {
