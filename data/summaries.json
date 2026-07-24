@@ -2,14 +2,8 @@
   {
     "week": "2026-W30",
     "label": "Week of July 20\u201324, 2026",
-    "generated": "2026-07-24T14:46:32.894847+00:00",
+    "generated": "2026-07-24T20:12:07.857928+00:00",
     "bullets": [
-      {
-        "headline": "Verizon shares rise as earnings beat and guidance boost offset revenue miss",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/verizon-shares-rise-earnings-beat-142700574.html"
-      },
       {
         "headline": "Intel rides AI boom to fastest revenue growth in almost 15 years, but shares sink",
         "source": "CNBC Markets",
@@ -23,18 +17,6 @@
         "link": "https://news.crunchbase.com/venture/fintech-funder-general-catalyst-leads-deal-count-q2-2026/"
       },
       {
-        "headline": "Volkswagen CFO addresses plant closures, job losses as profits sink",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/24/volkswagen-earnings-autos-germany.html"
-      },
-      {
-        "headline": "Allianz to Acquire HSBC\u2019s Singapore Insurance Business for S$2.7 Billion - Fintech Singapore",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1DSDh1Ymw3TVRHcS1rZENpeXQxNDZ6TWZtVkdNMkZzSDc1b0NVX3JNQ19qWXcyQ3EzNUM4MTVEMG5PWGI5RGhlWUlRbTdCZnYyZ2dOT1FaeWIyY0dLcjhLTjM5MjVvWUM4VHB4N0ZoS1AwRHZPRU1SWnBaYy1JUQ?oc=5"
-      },
-      {
         "headline": "Tesla misses Q2 earnings forecast as free cash flow turns negative - eciks.org",
         "source": "Google \u2013 Guidance",
         "section": "Earnings & Results",
@@ -42,11 +24,11 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 76,
-      "Macro & Economy": 36,
-      "Investment Banking & Deals": 117,
-      "Real Estate & REITs": 48,
-      "Earnings & Results": 182,
+      "Stock Market & Equities": 71,
+      "Macro & Economy": 16,
+      "Investment Banking & Deals": 114,
+      "Real Estate & REITs": 49,
+      "Earnings & Results": 184,
       "Tech & Fintech": 123
     }
   },
