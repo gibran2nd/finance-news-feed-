@@ -2,8 +2,26 @@
   {
     "week": "2026-W30",
     "label": "Week of July 20\u201324, 2026",
-    "generated": "2026-07-24T09:14:51.044011+00:00",
+    "generated": "2026-07-24T14:46:32.894847+00:00",
     "bullets": [
+      {
+        "headline": "Verizon shares rise as earnings beat and guidance boost offset revenue miss",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/verizon-shares-rise-earnings-beat-142700574.html"
+      },
+      {
+        "headline": "Intel rides AI boom to fastest revenue growth in almost 15 years, but shares sink",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html"
+      },
+      {
+        "headline": "General Catalyst Takes The Lead Over Y Combinator In Backing $5M+ Fintech Deals",
+        "source": "Crunchbase News",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.crunchbase.com/venture/fintech-funder-general-catalyst-leads-deal-count-q2-2026/"
+      },
       {
         "headline": "Volkswagen CFO addresses plant closures, job losses as profits sink",
         "source": "CNBC Markets",
@@ -17,24 +35,6 @@
         "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1DSDh1Ymw3TVRHcS1rZENpeXQxNDZ6TWZtVkdNMkZzSDc1b0NVX3JNQ19qWXcyQ3EzNUM4MTVEMG5PWGI5RGhlWUlRbTdCZnYyZ2dOT1FaeWIyY0dLcjhLTjM5MjVvWUM4VHB4N0ZoS1AwRHZPRU1SWnBaYy1JUQ?oc=5"
       },
       {
-        "headline": "Intel's turnaround under CEO Lip-Bu Tan gains steam with another strong quarter",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/23/intels-turnaround-under-ceo-lip-bu-tan-gains-steam-with-another-strong-quarter.html"
-      },
-      {
-        "headline": "Intel's stock jumps as chipmaker rides AI boom to fastest revenue growth in almost 15 years",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html"
-      },
-      {
-        "headline": "Pepkor To Acquire 57.1% Of Flash And Shop2Shop Fintech Platform At R21.3 Billion Valuation - Pulse 2.0",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcWkwNlZ2WUg2dFJKWGVKNlZUN2RMMnE3Qkxfa3FLaXNXZTROMkZZdHBaWXZXZ0g3ZWJESkJTSnlrZEUwWTVzZjhnaGdRVVhrUHR3R0N3LVk5N2FOYWNudk1KSUh2ZUJiQWNEakVGUGF3ZGl0SDlBR0pUX3RpbGFpUGlWQURzNnVUeERyckR2UVVuX3ZyZUtpTkFib2N5YnVaZVRlYUtkUG5uM2hUR2fSAbMBQVVfeXFMTVlXZmwxWXlOd00xcklSYXBESFFoOWFCQVlyZk9KVmJXaE1ISXpxcnllYUtGYXk2RDhkUExPdFUyQXFybjBOc2xFV3J6Y25kSHJSb2pZUlRWaVRMWWVoWmxIbTdmQXZLZHI1QWxReXR3Vk5ReGFfOXBENnYxMC04VjVlWjBKT3lOUlpENlJVQjFDOThmTk9BSmdGQVh0dXFXNFAxYXFqZDJyLTNnZTBPeVdqbUU?oc=5"
-      },
-      {
         "headline": "Tesla misses Q2 earnings forecast as free cash flow turns negative - eciks.org",
         "source": "Google \u2013 Guidance",
         "section": "Earnings & Results",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 63,
-      "Macro & Economy": 38,
-      "Investment Banking & Deals": 134,
-      "Real Estate & REITs": 47,
-      "Earnings & Results": 180,
-      "Tech & Fintech": 119
+      "Stock Market & Equities": 76,
+      "Macro & Economy": 36,
+      "Investment Banking & Deals": 117,
+      "Real Estate & REITs": 48,
+      "Earnings & Results": 182,
+      "Tech & Fintech": 123
     }
   },
   {
