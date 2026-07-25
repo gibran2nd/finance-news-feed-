@@ -2,7 +2,7 @@
   {
     "week": "2026-W30",
     "label": "Week of July 20\u201324, 2026",
-    "generated": "2026-07-25T14:26:30.658701+00:00",
+    "generated": "2026-07-25T20:07:13.506711+00:00",
     "bullets": [
       {
         "headline": "SpaceX launches massive Starship rocket in first test flight since IPO",
@@ -17,22 +17,10 @@
         "link": "https://techcrunch.com/2026/07/24/techcrunch-disrupt-2026s-new-smart-money-stage-explores-fintech-payments-ai-and-everything-between/"
       },
       {
-        "headline": "The Week\u2019s 10 Biggest Funding Rounds: Physical AI Startup Atoms Leads In Varied Week For Large Deals",
+        "headline": "General Catalyst Takes The Lead Over Y Combinator In Backing $5M+ Fintech Deals",
         "source": "Crunchbase News",
         "section": "Investment Banking & Deals",
-        "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-physical-ai-fintech-defense-atoms/"
-      },
-      {
-        "headline": "Intel rides AI boom to fastest revenue growth in almost 15 years, but shares sink",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html"
-      },
-      {
-        "headline": "General Catalyst Takes The Lead Over Y Combinator In Backing $5M+ Fintech Deals - Crunchbase News",
-        "source": "Google \u2013 Fintech",
-        "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObTFkMVhhaUhXXy0zN2VIYThmVU1OQ2hfWFY2UGVVaXQ2TTgzM2lkYmRrTnVxSkhCVVd6MlR1MC1ScEoxNUpibHdsY1lNNG5YOWdGZmVDMzljLXo0WHlhRlk2eS0wM3MzZ0w0bmxEUE5iRmxjSlkwelBlWF8yTFRYRGdTR3RVLTdDR0Z5a3pIeXRZYUFvcWViQw?oc=5"
+        "link": "https://news.crunchbase.com/venture/fintech-funder-general-catalyst-leads-deal-count-q2-2026/"
       },
       {
         "headline": "Tesla misses Q2 earnings forecast as free cash flow turns negative - eciks.org",
@@ -42,12 +30,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 70,
+      "Stock Market & Equities": 64,
       "Macro & Economy": 39,
-      "Investment Banking & Deals": 106,
+      "Investment Banking & Deals": 105,
       "Real Estate & REITs": 47,
-      "Earnings & Results": 185,
-      "Tech & Fintech": 112
+      "Earnings & Results": 184,
+      "Tech & Fintech": 109
     }
   },
   {
