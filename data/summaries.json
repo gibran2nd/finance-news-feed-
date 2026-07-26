@@ -2,7 +2,7 @@
   {
     "week": "2026-W30",
     "label": "Week of July 20\u201324, 2026",
-    "generated": "2026-07-25T20:07:13.506711+00:00",
+    "generated": "2026-07-26T09:07:45.600315+00:00",
     "bullets": [
       {
         "headline": "SpaceX launches massive Starship rocket in first test flight since IPO",
@@ -17,12 +17,6 @@
         "link": "https://techcrunch.com/2026/07/24/techcrunch-disrupt-2026s-new-smart-money-stage-explores-fintech-payments-ai-and-everything-between/"
       },
       {
-        "headline": "General Catalyst Takes The Lead Over Y Combinator In Backing $5M+ Fintech Deals",
-        "source": "Crunchbase News",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.crunchbase.com/venture/fintech-funder-general-catalyst-leads-deal-count-q2-2026/"
-      },
-      {
         "headline": "Tesla misses Q2 earnings forecast as free cash flow turns negative - eciks.org",
         "source": "Google \u2013 Guidance",
         "section": "Earnings & Results",
@@ -30,12 +24,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 64,
-      "Macro & Economy": 39,
-      "Investment Banking & Deals": 105,
-      "Real Estate & REITs": 47,
-      "Earnings & Results": 184,
-      "Tech & Fintech": 109
+      "Stock Market & Equities": 66,
+      "Macro & Economy": 40,
+      "Investment Banking & Deals": 98,
+      "Real Estate & REITs": 45,
+      "Earnings & Results": 183,
+      "Tech & Fintech": 99
     }
   },
   {
