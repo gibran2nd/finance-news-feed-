@@ -1,5 +1,38 @@
 [
   {
+    "week": "2026-W31",
+    "label": "Week of July 27\u201331, 2026",
+    "generated": "2026-07-27T10:33:26.566411+00:00",
+    "bullets": [
+      {
+        "headline": "SpaceX launches massive Starship rocket in first test flight since IPO",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/07/24/spacex-launches-massive-starship-rocket-in-first-test-flight-since-ipo.html"
+      },
+      {
+        "headline": "TechCrunch Disrupt 2026\u2019s new Smart Money Stage explores fintech, payments, AI, and everything between",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/07/24/techcrunch-disrupt-2026s-new-smart-money-stage-explores-fintech-payments-ai-and-everything-between/"
+      },
+      {
+        "headline": "Tesla misses Q2 earnings forecast as free cash flow turns negative - eciks.org",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9HR2w5M3owblNnT1FXZUlKdktkcUZqYUM0cF9MdDA5bk15a0JnR0ZDalVaT0YxOEIxazhYdnVXQThHN2NVNXRfeElRNEVKRi1fem40VVdGNlhCNzA0T2p0LVYtSkdNdEk?oc=5"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 69,
+      "Macro & Economy": 39,
+      "Investment Banking & Deals": 92,
+      "Real Estate & REITs": 47,
+      "Earnings & Results": 179,
+      "Tech & Fintech": 107
+    }
+  },
+  {
     "week": "2026-W30",
     "label": "Week of July 20\u201324, 2026",
     "generated": "2026-07-26T20:04:44.853951+00:00",
