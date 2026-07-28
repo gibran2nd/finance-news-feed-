@@ -2,8 +2,14 @@
   {
     "week": "2026-W31",
     "label": "Week of July 27\u201331, 2026",
-    "generated": "2026-07-28T15:12:28.779854+00:00",
+    "generated": "2026-07-28T20:10:45.488600+00:00",
     "bullets": [
+      {
+        "headline": "Ford raises guidance after Q2 earnings beat, says F-Series recovery is on track",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/28/ford-motor-f-earnings-q2-2026.html"
+      },
       {
         "headline": "UPS expects third-quarter domestic revenue to be flat but CEO tells CNBC the company is through its 'bumps'",
         "source": "CNBC Markets",
@@ -11,16 +17,16 @@
         "link": "https://www.cnbc.com/2026/07/28/ups-ups-q2-2026-earnings.html"
       },
       {
-        "headline": "Illinois Tool Works raises full-year outlook after revenue, profit top estimates",
-        "source": "Seeking Alpha",
-        "section": "Earnings & Results",
-        "link": "https://seekingalpha.com/news/4619456-illinois-tool-works-raises-full-year-outlook-after-revenue-profit-top-estimates?source=feed_tag_earnings"
-      },
-      {
         "headline": "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html"
+      },
+      {
+        "headline": "Illinois Tool Works raises full-year outlook after revenue, profit top estimates (ITW:NYSE) - Seeking Alpha",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc1ZpWER2d2FNTVVqWlVVc2puMF9TRFJZR0JZekhUem5pN2xxdHNhVFZQMWJUV1FZRndsSDNsbHY3REdOMTRBcldqRUhpQmNyTTJSazFwSmJuRlBReTNDNWRvcGkxWk9zem9KUnBBTGFTbklRUkFDSEhQLVhjeUIwWFlsNTlCRVVZUnRJU1N6YURvRVMwZHBiZ1FyckZTSzNyb3l0YUg5TW1xVHg4TkF0QUVsOTFhWThl?oc=5"
       },
       {
         "headline": "Coca-Cola hikes full-year forecast. CEO tells CNBC the World Cup boosted its brands",
@@ -33,21 +39,15 @@
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/07/28/boeing-ba-2q-2026-earnings.html"
-      },
-      {
-        "headline": "Textron slips after Q2 revenue just misses estimates, reaffirms full-year outlook (TXT:NYSE) - Seeking Alpha",
-        "source": "Google \u2013 Earnings Beats",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVnFWNU1kNDV0aExGUWtRSTdMZHhjTThmMkstYWtWTGVaakxaMHAtZTBKcy13MnhfRUxWbzRTZ2R3Q2VBSTMtajhKQmhMT3FEOGNRSzloUk5zU2VPa284Z2xzaDBPdTNiR09jZnBLN3gxNlpjZjlCcEp5M2h6cHZ6d0wwc3FJd1k2b2FraTVYTzBNQmk3bUxiY1hDdEt3alVQTE9IMUM1SE5pZHZMRlJ3RFlvd182cXZWbmc?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 77,
-      "Macro & Economy": 41,
-      "Investment Banking & Deals": 101,
-      "Real Estate & REITs": 43,
-      "Earnings & Results": 187,
-      "Tech & Fintech": 124
+      "Stock Market & Equities": 73,
+      "Macro & Economy": 42,
+      "Investment Banking & Deals": 111,
+      "Real Estate & REITs": 42,
+      "Earnings & Results": 193,
+      "Tech & Fintech": 100
     }
   },
   {
