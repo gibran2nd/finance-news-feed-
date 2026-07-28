@@ -2,34 +2,52 @@
   {
     "week": "2026-W31",
     "label": "Week of July 27\u201331, 2026",
-    "generated": "2026-07-28T09:31:20.189192+00:00",
+    "generated": "2026-07-28T15:12:28.779854+00:00",
     "bullets": [
       {
-        "headline": "Ares Management has held talks to acquire Leonard Green and Partners in a deal that would reshape mid-market private equity - Startup Fortune",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPN2l1SkstS0ZjVW03VFkwRGhzUzVTaGVLNWpxRk1nQ1h6T2ZVMTVqeU9KMWl0bjRRSVF3MXRuMlpGeEJVTUIzd0NQZjBIbXVJenNwWi1UYlFmMWFLN2tMbG52UEV1djVvbmxTSW9BLU9MSGY2cFlKemVtVTBJa1ByWE5NZjZsQ1dGTHN2MFV2WkZfMml0eTJUWnFiNzBOV3h5aXByZHpMZDdzM1pDaVBIN0IwMEJGYjlaRUM5cWg3a2lHTjl0ejVFVjExaGNmbGRmbUV0XzNkbUt1dl91elVkNE4zclZyZw?oc=5"
-      },
-      {
-        "headline": "South Korea's Naver jumps 10% on Nvidia's $1 billion investment plan",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/technology/articles/nvidia-acquire-1-billion-shares-230439371.html"
-      },
-      {
-        "headline": "Tesla misses on earnings, as free cash flow turns negative and margins slide",
+        "headline": "UPS expects third-quarter domestic revenue to be flat but CEO tells CNBC the company is through its 'bumps'",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html"
+        "link": "https://www.cnbc.com/2026/07/28/ups-ups-q2-2026-earnings.html"
+      },
+      {
+        "headline": "Illinois Tool Works raises full-year outlook after revenue, profit top estimates",
+        "source": "Seeking Alpha",
+        "section": "Earnings & Results",
+        "link": "https://seekingalpha.com/news/4619456-illinois-tool-works-raises-full-year-outlook-after-revenue-profit-top-estimates?source=feed_tag_earnings"
+      },
+      {
+        "headline": "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html"
+      },
+      {
+        "headline": "Coca-Cola hikes full-year forecast. CEO tells CNBC the World Cup boosted its brands",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/28/coca-cola-ko-q2-2026-earnings.html"
+      },
+      {
+        "headline": "Boeing posts wider loss than expected as Air Force One costs weigh on results",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/28/boeing-ba-2q-2026-earnings.html"
+      },
+      {
+        "headline": "Textron slips after Q2 revenue just misses estimates, reaffirms full-year outlook (TXT:NYSE) - Seeking Alpha",
+        "source": "Google \u2013 Earnings Beats",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVnFWNU1kNDV0aExGUWtRSTdMZHhjTThmMkstYWtWTGVaakxaMHAtZTBKcy13MnhfRUxWbzRTZ2R3Q2VBSTMtajhKQmhMT3FEOGNRSzloUk5zU2VPa284Z2xzaDBPdTNiR09jZnBLN3gxNlpjZjlCcEp5M2h6cHZ6d0wwc3FJd1k2b2FraTVYTzBNQmk3bUxiY1hDdEt3alVQTE9IMUM1SE5pZHZMRlJ3RFlvd182cXZWbmc?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 53,
-      "Macro & Economy": 43,
-      "Investment Banking & Deals": 106,
-      "Real Estate & REITs": 45,
-      "Earnings & Results": 178,
-      "Tech & Fintech": 102
+      "Stock Market & Equities": 77,
+      "Macro & Economy": 41,
+      "Investment Banking & Deals": 101,
+      "Real Estate & REITs": 43,
+      "Earnings & Results": 187,
+      "Tech & Fintech": 124
     }
   },
   {
