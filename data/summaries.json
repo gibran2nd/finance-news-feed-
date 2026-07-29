@@ -2,19 +2,25 @@
   {
     "week": "2026-W31",
     "label": "Week of July 27\u201331, 2026",
-    "generated": "2026-07-29T15:04:53.844223+00:00",
+    "generated": "2026-07-29T20:07:41.573108+00:00",
     "bullets": [
       {
-        "headline": "Procter & Gamble revenue misses estimates as volume stays unchanged",
+        "headline": "Microsoft earnings are out \u2013 here are the numbers",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/29/procter-gamble-pg-q4-2026-earnings.html"
+        "link": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html"
       },
       {
-        "headline": "SoFi Earnings, Revenue Top Estimates. Here's Why Fintech Stock Tumbled.",
-        "source": "Yahoo Finance",
+        "headline": "Meta's stock drops 7% on earnings miss, light revenue guidance",
+        "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.investors.com/news/technology/sofi-stock-sofi-earnings-news-q22026/?src=A00220&yptr=yahoo"
+        "link": "https://www.cnbc.com/2026/07/29/meta-q2-earnings-report-2026.html"
+      },
+      {
+        "headline": "Procter & Gamble revenue misses estimates as volume stays unchanged - CNBC",
+        "source": "Google \u2013 Earnings Beats",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LOEpSb1hSYjJUQ3Y4ZXgzakpNMzViZ1hxM1NnOVprTzNaT3lXTFRsbko5a29ZWDR6RDV6U3dtWmg1ekNhOU0wQ3RfbGRfODExZEhwVXNjbjFfNTUzMUZnTFRLZm1ZbVN5NmFUZWpfTjlIT0tsR2hHUzdEQdIBgAFBVV95cUxNZ25XSnZPQ1NDSXRTV3ozcm96WktxVTdEaE00cUtmbDczX1ROeS01OVJ5ZC1keGh0LXVNUEhMajlUUWwwejRBUEVYLTZtQXJhRmpPVTRrVnZvYi13NVl6Q2wySTlBdFluZEdYUjFCcF9USXR1ZHo0bUdXTVYxNnlPdg?oc=5"
       },
       {
         "headline": "Cyclospora outbreak tied to Taco Bell will steal the spotlight from Yum Brands' earnings",
@@ -23,31 +29,25 @@
         "link": "https://www.cnbc.com/2026/07/29/cyclospora-outbreak-taco-bell-yum-brands-earnings.html"
       },
       {
-        "headline": "MVB Financial Corp (MVBF) Q2 2026 Earnings Call Highlights: Strong Loan Growth and Fintech ... - Yahoo Finance",
-        "source": "Google \u2013 Fintech",
+        "headline": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
+        "source": "TechCrunch",
         "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMHF6dmFPMVFtVk5Qd2RCUmdjWkpxdXM5a0oycldHUG85NnYwcERWRW1FZWNhaHU0RkQwM1Q3UkhwVEo2dy1LcWdqZTRIcFNRdXI4bllkWENFeGJVcWNBUl9xYTNtYTlnVE1CNmViWnVoOGNraGFlNTItUFZHcHpZY24xVXd5Y09fWjc1SEU5TERnZHBZQlE?oc=5"
+        "link": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/"
       },
       {
-        "headline": "Ford raises guidance after Q2 earnings beat, says F-Series recovery is on track",
+        "headline": "Coca-Cola hikes full-year forecast. CEO tells CNBC the World Cup boosted its brands",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/28/ford-motor-f-earnings-q2-2026.html"
-      },
-      {
-        "headline": "Illinois Tool Works raises full-year outlook after revenue, profit top estimates (ITW:NYSE) - Seeking Alpha",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc1ZpWER2d2FNTVVqWlVVc2puMF9TRFJZR0JZekhUem5pN2xxdHNhVFZQMWJUV1FZRndsSDNsbHY3REdOMTRBcldqRUhpQmNyTTJSazFwSmJuRlBReTNDNWRvcGkxWk9zem9KUnBBTGFTbklRUkFDSEhQLVhjeUIwWFlsNTlCRVVZUnRJU1N6YURvRVMwZHBiZ1FyckZTSzNyb3l0YUg5TW1xVHg4TkF0QUVsOTFhWThl?oc=5"
+        "link": "https://www.cnbc.com/2026/07/28/coca-cola-ko-q2-2026-earnings.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 80,
-      "Macro & Economy": 45,
-      "Investment Banking & Deals": 122,
+      "Stock Market & Equities": 68,
+      "Macro & Economy": 51,
+      "Investment Banking & Deals": 127,
       "Real Estate & REITs": 41,
-      "Earnings & Results": 207,
-      "Tech & Fintech": 118
+      "Earnings & Results": 209,
+      "Tech & Fintech": 121
     }
   },
   {
