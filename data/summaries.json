@@ -2,8 +2,26 @@
   {
     "week": "2026-W31",
     "label": "Week of July 27\u201331, 2026",
-    "generated": "2026-07-29T09:32:35.771705+00:00",
+    "generated": "2026-07-29T15:04:53.844223+00:00",
     "bullets": [
+      {
+        "headline": "Procter & Gamble revenue misses estimates as volume stays unchanged",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/29/procter-gamble-pg-q4-2026-earnings.html"
+      },
+      {
+        "headline": "SoFi Earnings, Revenue Top Estimates. Here's Why Fintech Stock Tumbled.",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://www.investors.com/news/technology/sofi-stock-sofi-earnings-news-q22026/?src=A00220&yptr=yahoo"
+      },
+      {
+        "headline": "Cyclospora outbreak tied to Taco Bell will steal the spotlight from Yum Brands' earnings",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/29/cyclospora-outbreak-taco-bell-yum-brands-earnings.html"
+      },
       {
         "headline": "MVB Financial Corp (MVBF) Q2 2026 Earnings Call Highlights: Strong Loan Growth and Fintech ... - Yahoo Finance",
         "source": "Google \u2013 Fintech",
@@ -17,37 +35,19 @@
         "link": "https://www.cnbc.com/2026/07/28/ford-motor-f-earnings-q2-2026.html"
       },
       {
-        "headline": "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html"
-      },
-      {
         "headline": "Illinois Tool Works raises full-year outlook after revenue, profit top estimates (ITW:NYSE) - Seeking Alpha",
         "source": "Google \u2013 Guidance",
         "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc1ZpWER2d2FNTVVqWlVVc2puMF9TRFJZR0JZekhUem5pN2xxdHNhVFZQMWJUV1FZRndsSDNsbHY3REdOMTRBcldqRUhpQmNyTTJSazFwSmJuRlBReTNDNWRvcGkxWk9zem9KUnBBTGFTbklRUkFDSEhQLVhjeUIwWFlsNTlCRVVZUnRJU1N6YURvRVMwZHBiZ1FyckZTSzNyb3l0YUg5TW1xVHg4TkF0QUVsOTFhWThl?oc=5"
-      },
-      {
-        "headline": "Coca-Cola hikes full-year forecast. CEO tells CNBC the World Cup boosted its brands",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/28/coca-cola-ko-q2-2026-earnings.html"
-      },
-      {
-        "headline": "Boeing posts wider loss than expected as Air Force One costs weigh on results",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/28/boeing-ba-2q-2026-earnings.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 53,
+      "Stock Market & Equities": 80,
       "Macro & Economy": 45,
-      "Investment Banking & Deals": 118,
-      "Real Estate & REITs": 43,
-      "Earnings & Results": 203,
-      "Tech & Fintech": 102
+      "Investment Banking & Deals": 122,
+      "Real Estate & REITs": 41,
+      "Earnings & Results": 207,
+      "Tech & Fintech": 118
     }
   },
   {
