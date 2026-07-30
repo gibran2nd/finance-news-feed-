@@ -2,52 +2,52 @@
   {
     "week": "2026-W31",
     "label": "Week of July 27\u201331, 2026",
-    "generated": "2026-07-30T09:25:18.043148+00:00",
+    "generated": "2026-07-30T15:03:39.195808+00:00",
     "bullets": [
       {
-        "headline": "Meta tanks nearly 9%, Microsoft jumps 8% as the AI trade splits Big Tech",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/30/microsoft-msft-meta-stock-today-earnings.html"
-      },
-      {
-        "headline": "Jeep maker Stellantis swings to profit on rising demand in North America; shares fall 5%",
+        "headline": "Jeep maker Stellantis swings to profit on rising demand in North America",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/07/30/stellantis-q2-earnings-autos-jeep.html"
       },
       {
-        "headline": "Grant Thornton makes largest US accounting buyout in a generation - AFR",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSURaYkczUnllMjQxYXRodENkVnQyalRvZlg1NXlrWGZsdllNQmZGaTE0MEhYUG5SZjdKMzFEVGYwRVZldTBQbXFIeC1zS2txc1BjOUZKUHB1NW8ySlFPak5MdWwtLTVJNmJJMlVSVzAwVURScTZ5c1ViM005dVotVGRZT3VWZlNzeHhXOHU2ZlZrR3V6S2ptd1NuU1BoN0lyMjhyRTFzVWtCSk5CenFnQWVsZXNKajhHRU10N1hWdk1HS0pfQUV2LUk1bWtPZw?oc=5"
-      },
-      {
-        "headline": "We're raising our price target on Starbucks after a home-run quarter",
+        "headline": "Meta tanks 9%, continuing record losing streak, while Microsoft jumps 15% as AI trade splits",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/29/were-raising-our-price-target-on-starbucks-after-a-home-run-quarter-.html"
+        "link": "https://www.cnbc.com/2026/07/30/microsoft-msft-meta-stock-today-earnings.html"
       },
       {
-        "headline": "What a divided Fed means for investors",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html"
+        "headline": "Bristol Myers Squibb raises 2026 forecast after Q2 earnings beat - qz.com",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxZ0xnZm9ra2VxaE1kM0syWVlRVFJrR04xazJLaEdFeERZemNvZmFwSE5NeVNaN1lrX2ZYQzFqbmdQZWQ1VEV1Q3MzeWJIZmdxUmNRQlIyTnlvVXFEM2lrMXE2THc2Vnp3UVpCbXN0UGM4bGdNLXU0Ni1uTjZuUk0?oc=5"
       },
       {
-        "headline": "Chipotle hikes same-store sales forecast, says cyclospora fears hit sales in late July",
+        "headline": "Chipotle stock jumps as chain hikes same-store sales forecast, says cyclospora fears hit sales in late July",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/07/29/chipotle-mexican-grill-cmg-q2-2026-earnings.html"
+      },
+      {
+        "headline": "US economic growth slows to 1.5% in second quarter",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/economy/article/us-economic-growth-slows-to-15-in-second-quarter-135510531.html"
+      },
+      {
+        "headline": "Starbucks raises full-year outlook as CEO tells CNBC the chain is winning back customer loyalty",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/29/starbucks-sbux-q3-2026-earnings.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 72,
+      "Stock Market & Equities": 88,
       "Macro & Economy": 59,
-      "Investment Banking & Deals": 137,
-      "Real Estate & REITs": 42,
-      "Earnings & Results": 215,
-      "Tech & Fintech": 123
+      "Investment Banking & Deals": 130,
+      "Real Estate & REITs": 40,
+      "Earnings & Results": 218,
+      "Tech & Fintech": 128
     }
   },
   {
