@@ -2,19 +2,19 @@
   {
     "week": "2026-W31",
     "label": "Week of July 27\u201331, 2026",
-    "generated": "2026-07-30T15:03:39.195808+00:00",
+    "generated": "2026-07-30T20:11:06.251607+00:00",
     "bullets": [
       {
-        "headline": "Jeep maker Stellantis swings to profit on rising demand in North America",
+        "headline": "Amazon posts Q2 revenue beat, accelerating cloud growth",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/30/stellantis-q2-earnings-autos-jeep.html"
+        "link": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html"
       },
       {
-        "headline": "Meta tanks 9%, continuing record losing streak, while Microsoft jumps 15% as AI trade splits",
+        "headline": "Rivian reduces 2026 spending plans, narrows earnings guidance",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/30/microsoft-msft-meta-stock-today-earnings.html"
+        "link": "https://www.cnbc.com/2026/07/30/rivian-rivn-q2-2026-earnings.html"
       },
       {
         "headline": "Bristol Myers Squibb raises 2026 forecast after Q2 earnings beat - qz.com",
@@ -23,30 +23,30 @@
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxZ0xnZm9ra2VxaE1kM0syWVlRVFJrR04xazJLaEdFeERZemNvZmFwSE5NeVNaN1lrX2ZYQzFqbmdQZWQ1VEV1Q3MzeWJIZmdxUmNRQlIyTnlvVXFEM2lrMXE2THc2Vnp3UVpCbXN0UGM4bGdNLXU0Ni1uTjZuUk0?oc=5"
       },
       {
+        "headline": "U.S. economy slowed to 1.5% growth rate in Q2; June core inflation at 3.3%",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html"
+      },
+      {
+        "headline": "Jeep maker Stellantis swings to profit on rising demand in North America",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/30/stellantis-q2-earnings-autos-jeep.html"
+      },
+      {
         "headline": "Chipotle stock jumps as chain hikes same-store sales forecast, says cyclospora fears hit sales in late July",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/07/29/chipotle-mexican-grill-cmg-q2-2026-earnings.html"
-      },
-      {
-        "headline": "US economic growth slows to 1.5% in second quarter",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/economy/article/us-economic-growth-slows-to-15-in-second-quarter-135510531.html"
-      },
-      {
-        "headline": "Starbucks raises full-year outlook as CEO tells CNBC the chain is winning back customer loyalty",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/29/starbucks-sbux-q3-2026-earnings.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 88,
-      "Macro & Economy": 59,
-      "Investment Banking & Deals": 130,
-      "Real Estate & REITs": 40,
-      "Earnings & Results": 218,
+      "Stock Market & Equities": 71,
+      "Macro & Economy": 64,
+      "Investment Banking & Deals": 132,
+      "Real Estate & REITs": 38,
+      "Earnings & Results": 213,
       "Tech & Fintech": 128
     }
   },
