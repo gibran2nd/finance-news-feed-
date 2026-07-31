@@ -2,13 +2,19 @@
   {
     "week": "2026-W31",
     "label": "Week of July 27\u201331, 2026",
-    "generated": "2026-07-31T15:12:48.233972+00:00",
+    "generated": "2026-07-31T20:14:36.953447+00:00",
     "bullets": [
       {
-        "headline": "Coinbase shares fall after crypto exchange posts disappointing second-quarter results",
+        "headline": "Eaton shares jump as its earnings and outlook show resilience of the AI buildout",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/30/coinbase-coin-earnings-q2-2026.html"
+        "link": "https://www.cnbc.com/2026/07/31/eaton-jumps-as-its-earnings-and-outlook-signal-hope-for-the-ai-buildout.html"
+      },
+      {
+        "headline": "Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks - CNBC - TradingView",
+        "source": "Google \u2013 Fintech",
+        "section": "Tech & Fintech",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOa2tEcVRhdGF6MlV2RWJtSEU5b0c5bXpVMEVuZzNaakdlcDdrdHhTc0djaGNqcmdrUnA1VGNIYTNuUWxuaTlQWldTbGhUUzh3TWt6Q3BSYml6SXNrNU1kemd0QXlMQWN4V0tsOHlvNlBpV0F6bFZaeEw2SnlVS19WWFp4NEtDaEFOemVlR3pFM0gyOEpHZzRRMFFCUmw3VFZXZUlYVEtQS3pwOEp1d2g3a1pXOWl3VHBXTWs2UXREUnRDTHZYU2xfMVBOMVdwd1AtX3FBai1VSC1uOXAtd1V2NlpoM2VFMmJXdnVqcmk5Y3prMFotZ2d1Y211MmVPZw?oc=5"
       },
       {
         "headline": "Intertek Lifted Profits While EQT\u2019s \u00a310.9 Billion Buyout Nears - Finimize",
@@ -33,21 +39,15 @@
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/07/30/ferrari-race-earnings-q2-2026.html"
-      },
-      {
-        "headline": "U.S. economy slowed to 1.5% growth rate in Q2; June core inflation at 3.3%",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 86,
-      "Macro & Economy": 74,
-      "Investment Banking & Deals": 128,
-      "Real Estate & REITs": 42,
-      "Earnings & Results": 216,
-      "Tech & Fintech": 130
+      "Stock Market & Equities": 81,
+      "Macro & Economy": 78,
+      "Investment Banking & Deals": 125,
+      "Real Estate & REITs": 45,
+      "Earnings & Results": 214,
+      "Tech & Fintech": 129
     }
   },
   {
