@@ -2,19 +2,13 @@
   {
     "week": "2026-W31",
     "label": "Week of July 27\u201331, 2026",
-    "generated": "2026-08-01T20:05:57.400325+00:00",
+    "generated": "2026-08-02T09:04:44.153668+00:00",
     "bullets": [
       {
-        "headline": "From a Fed decision to Big Tech earnings: What drove last week's volatile market",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/01/from-a-fed-decision-to-big-tech-earnings-what-drove-last-weeks-volatile-market.html"
-      },
-      {
-        "headline": "Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks - CNBC - tradingview.com",
-        "source": "Google \u2013 Fintech",
-        "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOa2tEcVRhdGF6MlV2RWJtSEU5b0c5bXpVMEVuZzNaakdlcDdrdHhTc0djaGNqcmdrUnA1VGNIYTNuUWxuaTlQWldTbGhUUzh3TWt6Q3BSYml6SXNrNU1kemd0QXlMQWN4V0tsOHlvNlBpV0F6bFZaeEw2SnlVS19WWFp4NEtDaEFOemVlR3pFM0gyOEpHZzRRMFFCUmw3VFZXZUlYVEtQS3pwOEp1d2g3a1pXOWl3VHBXTWs2UXREUnRDTHZYU2xfMVBOMVdwd1AtX3FBai1VSC1uOXAtd1V2NlpoM2VFMmJXdnVqcmk5Y3prMFotZ2d1Y211MmVPZw?oc=5"
+        "headline": "Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html"
       },
       {
         "headline": "Alphabet, Amazon and Microsoft added nearly $1.5 trillion in combined value this week",
@@ -29,25 +23,31 @@
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWm04TExUWUtDV3FiQkRoZE1lRVdZQ29adEhEQ20wbldkd0pMS3REdTQwNnlpZ2lBbm9oMnFYQzFWR3o3amtwblN3b3lLZXZ2SW9fY29UTHNSV1ptTWVTbVNFZFNwQWd5NW9oV1d3R0JoUDg2dTdDcVNLbGJPSW5jemhxVjBOai1nYU1LTTdjVWlOZw?oc=5"
       },
       {
-        "headline": "Freehand Raises $75M Series B To Automate Fortune 500 Supply Chain Spend",
-        "source": "Crunchbase News",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.crunchbase.com/transportation/freehand-pando-enterprise-supply-chain-spend-management-startup/"
-      },
-      {
         "headline": "Starbucks raises full-year outlook as CEO tells CNBC the chain is winning back customer loyalty",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/07/29/starbucks-sbux-q3-2026-earnings.html"
+      },
+      {
+        "headline": "Ferrari raises 2026 guidance after Q2 earnings beat",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/07/30/ferrari-race-earnings-q2-2026.html"
+      },
+      {
+        "headline": "U.S. economy slowed to 1.5% growth rate in Q2; June core inflation at 3.3%",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 60,
-      "Macro & Economy": 68,
+      "Stock Market & Equities": 63,
+      "Macro & Economy": 75,
       "Investment Banking & Deals": 133,
-      "Real Estate & REITs": 42,
+      "Real Estate & REITs": 43,
       "Earnings & Results": 205,
-      "Tech & Fintech": 118
+      "Tech & Fintech": 113
     }
   },
   {
