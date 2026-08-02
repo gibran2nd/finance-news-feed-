@@ -2,19 +2,13 @@
   {
     "week": "2026-W31",
     "label": "Week of July 27\u201331, 2026",
-    "generated": "2026-08-02T14:23:52.787571+00:00",
+    "generated": "2026-08-02T20:06:00.629215+00:00",
     "bullets": [
       {
-        "headline": "Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html"
-      },
-      {
-        "headline": "Alphabet, Amazon and Microsoft added nearly $1.5 trillion in combined value this week",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/31/apple-aapl-amazon-amzn-stock-today.html"
+        "headline": "Capital One says it closed Trump Organization accounts over money-laundering concerns",
+        "source": "NPR Business",
+        "section": "Macro & Economy",
+        "link": "https://www.npr.org/2026/08/02/g-s1-136834/capital-one-trump-bank-anti-money-laundering"
       },
       {
         "headline": "Intertek Lifted Profits While EQT\u2019s \u00a310.9 Billion Buyout Nears - Finimize",
@@ -39,15 +33,21 @@
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html"
+      },
+      {
+        "headline": "Grant Thornton makes largest US accounting buyout in a generation - AFR",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSURaYkczUnllMjQxYXRodENkVnQyalRvZlg1NXlrWGZsdllNQmZGaTE0MEhYUG5SZjdKMzFEVGYwRVZldTBQbXFIeC1zS2txc1BjOUZKUHB1NW8ySlFPak5MdWwtLTVJNmJJMlVSVzAwVURScTZ5c1ViM005dVotVGRZT3VWZlNzeHhXOHU2ZlZrR3V6S2ptd1NuU1BoN0lyMjhyRTFzVWtCSk5CenFnQWVsZXNKajhHRU10N1hWdk1HS0pfQUV2LUk1bWtPZw?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 72,
-      "Macro & Economy": 72,
-      "Investment Banking & Deals": 134,
+      "Stock Market & Equities": 70,
+      "Macro & Economy": 68,
+      "Investment Banking & Deals": 139,
       "Real Estate & REITs": 43,
       "Earnings & Results": 201,
-      "Tech & Fintech": 132
+      "Tech & Fintech": 104
     }
   },
   {
