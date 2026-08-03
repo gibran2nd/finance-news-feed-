@@ -2,8 +2,14 @@
   {
     "week": "2026-W32",
     "label": "Week of August 3\u20137, 2026",
-    "generated": "2026-08-03T15:38:41.265040+00:00",
+    "generated": "2026-08-03T20:20:29.457905+00:00",
     "bullets": [
+      {
+        "headline": "Palantir posts blowout Q2 numbers, with U.S. commercial revenue soaring nearly 150%",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html"
+      },
       {
         "headline": "Amazon tops $3 trillion market cap as stock continues post-earnings surge",
         "source": "CNBC Markets",
@@ -33,21 +39,15 @@
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/07/29/starbucks-sbux-q3-2026-earnings.html"
-      },
-      {
-        "headline": "Ferrari raises 2026 guidance after Q2 earnings beat",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/30/ferrari-race-earnings-q2-2026.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 86,
-      "Macro & Economy": 60,
-      "Investment Banking & Deals": 113,
+      "Stock Market & Equities": 82,
+      "Macro & Economy": 58,
+      "Investment Banking & Deals": 121,
       "Real Estate & REITs": 42,
-      "Earnings & Results": 197,
-      "Tech & Fintech": 104
+      "Earnings & Results": 198,
+      "Tech & Fintech": 107
     }
   },
   {
