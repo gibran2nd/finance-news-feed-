@@ -2,8 +2,20 @@
   {
     "week": "2026-W32",
     "label": "Week of August 3\u20137, 2026",
-    "generated": "2026-08-03T10:33:21.302039+00:00",
+    "generated": "2026-08-03T15:38:41.265040+00:00",
     "bullets": [
+      {
+        "headline": "Amazon tops $3 trillion market cap as stock continues post-earnings surge",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/03/amazon-amzn-stock-market-cap-earnings.html"
+      },
+      {
+        "headline": "SpaceX's post-IPO plunge sets tense backdrop for first earnings report",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/03/spacexs-post-ipo-plunge-sets-tense-backdrop-for-first-earnings-report.html"
+      },
       {
         "headline": "Electronic Arts Set To Go Private In $55 Billion Deal This Week - 2oceansvibe News",
         "source": "Google \u2013 Active Deals",
@@ -11,10 +23,10 @@
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcjQ5VUtyX2NXWlBhdXhmWEt5dW9CM1lDLWQ5MzIwRl9fMGNPY002bWRtbm4wQVVCZFJXdWNkN2xmeE1YaS1JX2hqMm1wV3hjSUdtV3BScVYwQXV6b3ZiYW5iQURuNnQ5WlRGb3JSZGwxQXpSRlpmakd4UzZNYTlOdklWazJwOElONy1jTTNRRGxjSWluby1fZDF0VW5DZjRERHc?oc=5"
       },
       {
-        "headline": "Intertek Lifted Profits While EQT\u2019s \u00a310.9 Billion Buyout Nears - Finimize",
+        "headline": "Grant Thornton on the hunt for deals after partners approve $1b buyout - AFR",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWm04TExUWUtDV3FiQkRoZE1lRVdZQ29adEhEQ20wbldkd0pMS3REdTQwNnlpZ2lBbm9oMnFYQzFWR3o3amtwblN3b3lLZXZ2SW9fY29UTHNSV1ptTWVTbVNFZFNwQWd5NW9oV1d3R0JoUDg2dTdDcVNLbGJPSW5jemhxVjBOai1nYU1LTTdjVWlOZw?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdl9uejN0Ty1iYllucVBiaUtmMXM2cFFPTjZpSkt3TjZpcndoX0IwMUtNNGRBai1aWTdKbnpIeXlyVFozRnU5RV9yS01IWmpHWjZxcjlDQ0VJa0pmRnFia1VyMzZGU0VFa0Z1WHl6WlBoYmRUeFVKcGZ0TTFzVzhGQTVUOHViYmx6ZHBnZHJZa0ZGUnZ0Z1h1eXM5Z1pTdWdhOGJUbzFfMTVuZXdtX2ktODJqdGp6RTN4clZzck5OTnljTVRZQWdCS3VabnJaVzFEMXRF?oc=5"
       },
       {
         "headline": "Starbucks raises full-year outlook as CEO tells CNBC the chain is winning back customer loyalty",
@@ -27,27 +39,15 @@
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/07/30/ferrari-race-earnings-q2-2026.html"
-      },
-      {
-        "headline": "Grant Thornton makes largest US accounting buyout in a generation - afr.com",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSURaYkczUnllMjQxYXRodENkVnQyalRvZlg1NXlrWGZsdllNQmZGaTE0MEhYUG5SZjdKMzFEVGYwRVZldTBQbXFIeC1zS2txc1BjOUZKUHB1NW8ySlFPak5MdWwtLTVJNmJJMlVSVzAwVURScTZ5c1ViM005dVotVGRZT3VWZlNzeHhXOHU2ZlZrR3V6S2ptd1NuU1BoN0lyMjhyRTFzVWtCSk5CenFnQWVsZXNKajhHRU10N1hWdk1HS0pfQUV2LUk1bWtPZw?oc=5"
-      },
-      {
-        "headline": "Procter & Gamble revenue misses estimates as volume stays unchanged",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/29/procter-gamble-pg-q4-2026-earnings.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 75,
-      "Macro & Economy": 62,
-      "Investment Banking & Deals": 115,
+      "Stock Market & Equities": 86,
+      "Macro & Economy": 60,
+      "Investment Banking & Deals": 113,
       "Real Estate & REITs": 42,
-      "Earnings & Results": 198,
-      "Tech & Fintech": 101
+      "Earnings & Results": 197,
+      "Tech & Fintech": 104
     }
   },
   {
