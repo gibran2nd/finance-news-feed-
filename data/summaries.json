@@ -2,14 +2,8 @@
   {
     "week": "2026-W32",
     "label": "Week of August 3\u20137, 2026",
-    "generated": "2026-08-04T09:34:19.258812+00:00",
+    "generated": "2026-08-04T15:16:47.625286+00:00",
     "bullets": [
-      {
-        "headline": "Saudi Aramco profits jump 33% in second quarter as Iran war squeezes oil supply",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/04/saudi-aramco-earnings-2q-oil-iran-war.html"
-      },
       {
         "headline": "HSBC pretax profit beats estimates, boosted by higher net interest income and fees",
         "source": "CNBC Markets",
@@ -17,37 +11,43 @@
         "link": "https://www.cnbc.com/2026/08/04/hsbc-profit-beats-estimates-higher-net-interest-income-fees.html"
       },
       {
-        "headline": "McDonald's is about to report earnings. Here's what to expect",
+        "headline": "Pfizer tops estimates, hikes low end of revenue guidance on strength of Eliquis, other drugs",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/04/pfizer-pfe-earnings-q2-2026.html"
+      },
+      {
+        "headline": "Wayfair stock jumps more than 25% as retailer posts strongest U.S. growth since 2020",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/04/wayfair-w-earnings-q2-2026.html"
+      },
+      {
+        "headline": "McDonald's says its U.S. business is falling short as it announces new head of its largest market",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/08/04/mcdonalds-mcd-q2-2026-earnings.html"
       },
       {
-        "headline": "Big Tech's Anthropic and OpenAI stakes are distorting the corporate earnings picture",
+        "headline": "Merck hikes revenue outlook as new drug sales grow, but cuts profit guidance due to deal charges",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/03/big-techs-anthropic-and-openai-stakes-distort-corporate-earnings.html"
+        "link": "https://www.cnbc.com/2026/08/04/merck-mrk-earnings-q2-2026.html"
       },
       {
-        "headline": "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html"
-      },
-      {
-        "headline": "Amazon tops $3 trillion market cap as stock continues post-earnings surge",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/03/amazon-amzn-stock-market-cap-earnings.html"
+        "headline": "Bending Spoons acquires Airtable for $1.3 billion - techzine.eu",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLWhqOGk3R3BGMVdLUUNwdUxpRnhYcHB2NGhfOFk2WkZrTXItT1YwbXNLaElnRGJjbmR6ZVR1Sm9qWVlpaTg3WDNkZG95ZWVnS2FKMW5NOHE0cEJ3anA2Q3dIbDBEekR4Zl90cXB5OXMwTl9GZENaWVRtVzBDUVJTR1lLU1QxcENQNF9LZlhUSndoRmQtdzZr?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 71,
-      "Macro & Economy": 54,
-      "Investment Banking & Deals": 132,
+      "Stock Market & Equities": 73,
+      "Macro & Economy": 56,
+      "Investment Banking & Deals": 130,
       "Real Estate & REITs": 42,
-      "Earnings & Results": 189,
-      "Tech & Fintech": 105
+      "Earnings & Results": 190,
+      "Tech & Fintech": 108
     }
   },
   {
