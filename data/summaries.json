@@ -2,10 +2,34 @@
   {
     "week": "2026-W32",
     "label": "Week of August 3\u20137, 2026",
-    "generated": "2026-08-03T20:20:29.457905+00:00",
+    "generated": "2026-08-04T09:34:19.258812+00:00",
     "bullets": [
       {
-        "headline": "Palantir posts blowout Q2 numbers, with U.S. commercial revenue soaring nearly 150%",
+        "headline": "Saudi Aramco profits jump 33% in second quarter as Iran war squeezes oil supply",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/04/saudi-aramco-earnings-2q-oil-iran-war.html"
+      },
+      {
+        "headline": "HSBC pretax profit beats estimates, boosted by higher net interest income and fees",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/04/hsbc-profit-beats-estimates-higher-net-interest-income-fees.html"
+      },
+      {
+        "headline": "McDonald's is about to report earnings. Here's what to expect",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/04/mcdonalds-mcd-q2-2026-earnings.html"
+      },
+      {
+        "headline": "Big Tech's Anthropic and OpenAI stakes are distorting the corporate earnings picture",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/03/big-techs-anthropic-and-openai-stakes-distort-corporate-earnings.html"
+      },
+      {
+        "headline": "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html"
@@ -15,39 +39,15 @@
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/08/03/amazon-amzn-stock-market-cap-earnings.html"
-      },
-      {
-        "headline": "SpaceX's post-IPO plunge sets tense backdrop for first earnings report",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/03/spacexs-post-ipo-plunge-sets-tense-backdrop-for-first-earnings-report.html"
-      },
-      {
-        "headline": "Electronic Arts Set To Go Private In $55 Billion Deal This Week - 2oceansvibe News",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcjQ5VUtyX2NXWlBhdXhmWEt5dW9CM1lDLWQ5MzIwRl9fMGNPY002bWRtbm4wQVVCZFJXdWNkN2xmeE1YaS1JX2hqMm1wV3hjSUdtV3BScVYwQXV6b3ZiYW5iQURuNnQ5WlRGb3JSZGwxQXpSRlpmakd4UzZNYTlOdklWazJwOElONy1jTTNRRGxjSWluby1fZDF0VW5DZjRERHc?oc=5"
-      },
-      {
-        "headline": "Grant Thornton on the hunt for deals after partners approve $1b buyout - AFR",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdl9uejN0Ty1iYllucVBiaUtmMXM2cFFPTjZpSkt3TjZpcndoX0IwMUtNNGRBai1aWTdKbnpIeXlyVFozRnU5RV9yS01IWmpHWjZxcjlDQ0VJa0pmRnFia1VyMzZGU0VFa0Z1WHl6WlBoYmRUeFVKcGZ0TTFzVzhGQTVUOHViYmx6ZHBnZHJZa0ZGUnZ0Z1h1eXM5Z1pTdWdhOGJUbzFfMTVuZXdtX2ktODJqdGp6RTN4clZzck5OTnljTVRZQWdCS3VabnJaVzFEMXRF?oc=5"
-      },
-      {
-        "headline": "Starbucks raises full-year outlook as CEO tells CNBC the chain is winning back customer loyalty",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/07/29/starbucks-sbux-q3-2026-earnings.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 82,
-      "Macro & Economy": 58,
-      "Investment Banking & Deals": 121,
+      "Stock Market & Equities": 71,
+      "Macro & Economy": 54,
+      "Investment Banking & Deals": 132,
       "Real Estate & REITs": 42,
-      "Earnings & Results": 198,
-      "Tech & Fintech": 107
+      "Earnings & Results": 189,
+      "Tech & Fintech": 105
     }
   },
   {
