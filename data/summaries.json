@@ -2,52 +2,52 @@
   {
     "week": "2026-W32",
     "label": "Week of August 3\u20137, 2026",
-    "generated": "2026-08-05T15:08:28.362646+00:00",
+    "generated": "2026-08-05T20:20:28.990963+00:00",
     "bullets": [
       {
-        "headline": "Private companies added just 44,000 workers in July, below expectations, ADP reports",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/08/05/private-companies-added-just-44000-workers-in-july-below-expectations-adp-reports.html"
-      },
-      {
-        "headline": "Progressive Abdul El-Sayed wins Michigan's Democratic primary for Senate",
-        "source": "NPR Business",
-        "section": "Macro & Economy",
-        "link": "https://www.npr.org/2026/08/05/nx-s1-5920403/michigan-senate-el-sayed-stevens-democrats"
-      },
-      {
-        "headline": "Disney weighs free ad-supported streaming, says it has sold out Super Bowl ad spots",
+        "headline": "Uber stock sinks 5% after weak guidance despite revenue growth",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/05/disney-free-ad-supported-streaming-super-bowl-ads.html"
+        "link": "https://www.cnbc.com/2026/08/05/uber-stock-q2-2026-earnings.html"
       },
       {
-        "headline": "Eli Lilly easily tops quarterly estimates, raises outlook as Zepbound and Mounjaro sales surge",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/05/eli-lilly-lly-earnings-q2-2026.html"
-      },
-      {
-        "headline": "Lucid stock plunges as EV maker begins 'operational reset,' delays midsize vehicle",
+        "headline": "Lucid begins 'operational reset' as CEO says EV maker will delay midsize vehicle",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/08/04/lucid-group-lcid-earnings-q2-2026.html"
       },
       {
-        "headline": "CVS blows past estimates, hikes guidance as insurance unit continues to improve",
+        "headline": "Lisa Su brushes off Musk's Nvidia commitment as AMD stock sinks after earnings",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/05/cvs-health-cvs-earnings-q2-2026.html"
+        "link": "https://www.cnbc.com/2026/08/05/amd-stock-today-earnings-q2.html"
+      },
+      {
+        "headline": "SpaceX stock falls 13% as AI spending surge rattles investors and massive share unlock looms",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/05/spacex-spcx-stock-today-earnings.html"
+      },
+      {
+        "headline": "We're increasing our Eli Lilly price target after another beat-and-raise quarter",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/05/were-increasing-our-eli-lilly-price-target-after-another-beat-and-raise-quarter.html"
+      },
+      {
+        "headline": "In its first deal since going public, Italian unicorn Bending Spoons buys Airtable at a $9 billion discount",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/08/05/bending-spoons-italian-unicorn-startup-airtale-ipo/"
       }
     ],
     "section_counts": {
       "Stock Market & Equities": 77,
-      "Macro & Economy": 57,
-      "Investment Banking & Deals": 151,
-      "Real Estate & REITs": 41,
-      "Earnings & Results": 195,
-      "Tech & Fintech": 120
+      "Macro & Economy": 52,
+      "Investment Banking & Deals": 155,
+      "Real Estate & REITs": 42,
+      "Earnings & Results": 199,
+      "Tech & Fintech": 122
     }
   },
   {
