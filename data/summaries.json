@@ -2,19 +2,25 @@
   {
     "week": "2026-W32",
     "label": "Week of August 3\u20137, 2026",
-    "generated": "2026-08-05T20:20:28.990963+00:00",
+    "generated": "2026-08-06T09:34:30.646443+00:00",
     "bullets": [
       {
-        "headline": "Uber stock sinks 5% after weak guidance despite revenue growth",
+        "headline": "SoftBank gets $8.2 billion boost from Intel as OpenAI takes a backseat",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/05/uber-stock-q2-2026-earnings.html"
+        "link": "https://www.cnbc.com/2026/08/06/softbank-q1-earnings-intel-bytedance-stakes.html"
       },
       {
-        "headline": "Lucid begins 'operational reset' as CEO says EV maker will delay midsize vehicle",
+        "headline": "Nintendo's fiscal first-quarter profit and revenue beat estimates, despite Switch 2 sales slump",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/04/lucid-group-lcid-earnings-q2-2026.html"
+        "link": "https://www.cnbc.com/2026/08/06/nintendo-first-quarter-earnings-switch2.html"
+      },
+      {
+        "headline": "We're downgrading Honeywell Aerospace after a shockingly bad earnings debut",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/05/were-downgrading-honeywell-aerospace-after-a-shockingly-bad-earnings-debut.html"
       },
       {
         "headline": "Lisa Su brushes off Musk's Nvidia commitment as AMD stock sinks after earnings",
@@ -29,24 +35,18 @@
         "link": "https://www.cnbc.com/2026/08/05/spacex-spcx-stock-today-earnings.html"
       },
       {
-        "headline": "We're increasing our Eli Lilly price target after another beat-and-raise quarter",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/05/were-increasing-our-eli-lilly-price-target-after-another-beat-and-raise-quarter.html"
-      },
-      {
-        "headline": "In its first deal since going public, Italian unicorn Bending Spoons buys Airtable at a $9 billion discount",
-        "source": "Fortune",
-        "section": "Stock Market & Equities",
-        "link": "https://fortune.com/2026/08/05/bending-spoons-italian-unicorn-startup-airtale-ipo/"
+        "headline": "Zeta Global Holdings (ZETA) Q2 Earnings Beats Estimates (Revised) - Yahoo Finance",
+        "source": "Google \u2013 Earnings Beats",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcFlWWS1TaUpCTkJVSmwzQ3pDcHhzM2I3VkdGYUpCVFhTamVURFNlNFV4aVZDQm9mcnJFbTlwNFJmcHlDUjdsNWxpNWdjb2pVbjlYUVQ1T3BFNE05dWR3dDNBNEpDNTZHd1hsN0RQTndUenpVeUNFbjJVWjlnRjJ6b082LVY3TGd4b2xLZ3FhMmJGbHpPLTFmdQ?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 77,
-      "Macro & Economy": 52,
-      "Investment Banking & Deals": 155,
-      "Real Estate & REITs": 42,
-      "Earnings & Results": 199,
+      "Stock Market & Equities": 72,
+      "Macro & Economy": 47,
+      "Investment Banking & Deals": 154,
+      "Real Estate & REITs": 43,
+      "Earnings & Results": 198,
       "Tech & Fintech": 122
     }
   },
