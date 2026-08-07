@@ -2,7 +2,7 @@
   {
     "week": "2026-W32",
     "label": "Week of August 3\u20137, 2026",
-    "generated": "2026-08-07T14:05:43.175073+00:00",
+    "generated": "2026-08-07T19:44:51.697514+00:00",
     "bullets": [
       {
         "headline": "U.S. economy unexpectedly lost 23,000 jobs in July",
@@ -11,16 +11,22 @@
         "link": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html"
       },
       {
+        "headline": "Here are three key takeaways from the disappointing July jobs report",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html"
+      },
+      {
         "headline": "Barry Gosin Stepping Down as Newmark\u2019s CEO",
         "source": "Commercial Observer",
         "section": "Real Estate & REITs",
         "link": "https://commercialobserver.com/2026/08/barry-gosin-newmark-exit/"
       },
       {
-        "headline": "Sen. Mitch McConnell says he has been discharged from rehab center to recover at home",
-        "source": "NPR Business",
-        "section": "Macro & Economy",
-        "link": "https://www.npr.org/2026/08/07/nx-s1-5924041/sen-mitch-mcconnell-says-he-has-been-discharged-from-rehab-center-to-recover-at-home"
+        "headline": "Fiserv CEO pushes simplification as fintech cuts outlook - The Business Journals",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeEgxYk5iWEstOG5qYnQ1Ui1DNjJIRDNCdDBlMUpHSjA2WkRJZmZPNF95aXV3UGtOWl95aVMyUHdid3NyaDU0dllJOU9IS202N044YkRtMWVudW9EOTQ0T2hlWmNNbGtNMjdUbm1pN0JHakhEdllybU5WV01Sc2V1ejc1S1V4VlRScW1oNTM4b3VmNTI1emc?oc=5"
       },
       {
         "headline": "Carlyle pulls in $16.8B of inflows as next US buyout fund draws $5B - Dealroom",
@@ -33,21 +39,15 @@
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/08/06/grindr-grnd-stock-earnings-ai.html"
-      },
-      {
-        "headline": "Sweetgreen cuts full-year outlook as cyclospora fears weigh on sales",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/06/sweetgreen-cuts-full-year-outlook-as-cyclospora-fears-weigh-on-sales.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 88,
-      "Macro & Economy": 44,
-      "Investment Banking & Deals": 151,
+      "Stock Market & Equities": 76,
+      "Macro & Economy": 49,
+      "Investment Banking & Deals": 148,
       "Real Estate & REITs": 43,
-      "Earnings & Results": 199,
-      "Tech & Fintech": 128
+      "Earnings & Results": 201,
+      "Tech & Fintech": 129
     }
   },
   {
