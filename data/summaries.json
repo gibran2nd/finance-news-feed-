@@ -2,13 +2,25 @@
   {
     "week": "2026-W32",
     "label": "Week of August 3\u20137, 2026",
-    "generated": "2026-08-08T13:38:39.349422+00:00",
+    "generated": "2026-08-08T19:22:01.754731+00:00",
     "bullets": [
       {
-        "headline": "U.S. economy unexpectedly lost 23,000 jobs in July",
-        "source": "CNBC Economy",
+        "headline": "Here\u2019s how we played the massive rebound in AI stocks this week",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/08/heres-how-we-played-the-massive-rebound-in-ai-stocks-this-week.html"
+      },
+      {
+        "headline": "Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/08/berkshire-hathaway-earnings-q2-2026.html"
+      },
+      {
+        "headline": "US economy unexpectedly shed jobs in July - Fox Business",
+        "source": "Google \u2013 Fed & Rates",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html"
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iYWltWDlnRGp2MndGWm5mUmFiQ2xyc0doZjNWNDdxMXlvVXFWN1dJSjYxWmQyb1RBcEdCLXluMkpjNDl2RlVkdmFUQlNOaExnTW9vQWNXUzdyXzMtSXRrcU0tTWJTVkJ6ak9mRNIBckFVX3lxTFB0eXdsMXlDTGZFOEZicklvUzZuZ2hqU3R6TDVHOWw5cm9kTHFMdU9LODliYmVweldrWThPV1FNMGZ1S2dWd1djc1puUWRJc3BaNXJaS1VyMFl4T2tCTV9jVlhIUjU5UWw2R2RFajVDUTNDQQ?oc=5"
       },
       {
         "headline": "Here are three key takeaways from the disappointing July jobs report",
@@ -23,31 +35,19 @@
         "link": "https://commercialobserver.com/2026/08/barry-gosin-newmark-exit/"
       },
       {
-        "headline": "Carlyle pulls in $16.8B of inflows as next US buyout fund draws $5B - Dealroom.co",
+        "headline": "Carlyle pulls in $16.8B of inflows as next US buyout fund draws $5B - app.dealroom.co",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOWxfb0pMOHVZNkVuRG05ZmM3bVhXRHY2Q0IySWRmWWFoMkpsclFaNXZNNE5RMDU1UFIxVWZKTks5MHNVMll4UUpseGZ2UDFDV0F2S0d1MG5QSWpBUEZFVXMxSEplbm14dDFjX1JLc3o4ZEZ6dDhCWGhUckJoYlI2b3R1ejQ0b3NPeENUWDE0UlJ0RndZaW4tLXdxUU9JdzJu?oc=5"
-      },
-      {
-        "headline": "Sweetgreen cuts full-year outlook as cyclospora fears weigh on sales",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/06/sweetgreen-cuts-full-year-outlook-as-cyclospora-fears-weigh-on-sales.html"
-      },
-      {
-        "headline": "Video game giant Electronic Arts closes $55 billion go-private sale of its business - 6abc Philadelphia",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbUxPYThHRUVSNmhna3lwVzdIa3JpQk1WTlBmQ21HVUtieDdWWmN5bTZNaUxTR3U3X2lqVVgyaExJbnA5VW54XzhjQU1UbzZFWElaQVpfZVBBZ0htb1FweERjdzZBcDU5UnlfVy1CWWQzZ0RiSEU1MnB0UWM3VTBJNDQ0b0pjRTFaYzYzcEJWUjdLeWo3eUhCb0NlLXlBems3UTR3Sm5QcGpBWlHSAbABQVVfeXFMUGJCakVMZEZaVHpJWkZkaDNvS1RUdGFfTUt2QnJCYy01Z011eXJlUGNnTjJhWEx4Ri1YeUt1RHlURnRIUXJIYklmdWNmOGQwcWpIMVRWaTdfQll5bk1QUGNYV29TZ0xWOE1ZODkwd29XX2d0TnJocDV6RUJtVE9wamJDODEwTS0xcllLUVhHb3JkWnhzZGpuNEpYX0Nkb0FhT2ZodVJxX3I2cUZraVBIc3Q?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 79,
-      "Macro & Economy": 50,
-      "Investment Banking & Deals": 140,
+      "Stock Market & Equities": 73,
+      "Macro & Economy": 53,
+      "Investment Banking & Deals": 135,
       "Real Estate & REITs": 42,
-      "Earnings & Results": 206,
-      "Tech & Fintech": 124
+      "Earnings & Results": 205,
+      "Tech & Fintech": 123
     }
   },
   {
