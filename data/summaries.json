@@ -2,14 +2,8 @@
   {
     "week": "2026-W32",
     "label": "Week of August 3\u20137, 2026",
-    "generated": "2026-08-09T07:45:35.408308+00:00",
+    "generated": "2026-08-09T13:41:55.776729+00:00",
     "bullets": [
-      {
-        "headline": "Here\u2019s how we played the massive rebound in AI stocks this week",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/08/heres-how-we-played-the-massive-rebound-in-ai-stocks-this-week.html"
-      },
       {
         "headline": "Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard",
         "source": "CNBC Markets",
@@ -39,14 +33,20 @@
         "source": "Google \u2013 Guidance",
         "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeEgxYk5iWEstOG5qYnQ1Ui1DNjJIRDNCdDBlMUpHSjA2WkRJZmZPNF95aXV3UGtOWl95aVMyUHdid3NyaDU0dllJOU9IS202N044YkRtMWVudW9EOTQ0T2hlWmNNbGtNMjdUbm1pN0JHakhEdllybU5WV01Sc2V1ejc1S1V4VlRScW1oNTM4b3VmNTI1emc?oc=5"
+      },
+      {
+        "headline": "Carlyle pulls in $16.8B of inflows as next US buyout fund draws $5B - Dealroom",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOWxfb0pMOHVZNkVuRG05ZmM3bVhXRHY2Q0IySWRmWWFoMkpsclFaNXZNNE5RMDU1UFIxVWZKTks5MHNVMll4UUpseGZ2UDFDV0F2S0d1MG5QSWpBUEZFVXMxSEplbm14dDFjX1JLc3o4ZEZ6dDhCWGhUckJoYlI2b3R1ejQ0b3NPeENUWDE0UlJ0RndZaW4tLXdxUU9JdzJu?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 74,
-      "Macro & Economy": 52,
-      "Investment Banking & Deals": 127,
+      "Stock Market & Equities": 84,
+      "Macro & Economy": 50,
+      "Investment Banking & Deals": 121,
       "Real Estate & REITs": 42,
-      "Earnings & Results": 194,
+      "Earnings & Results": 193,
       "Tech & Fintech": 118
     }
   },
