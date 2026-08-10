@@ -2,8 +2,14 @@
   {
     "week": "2026-W33",
     "label": "Week of August 10\u201314, 2026",
-    "generated": "2026-08-10T14:14:41.526570+00:00",
+    "generated": "2026-08-10T19:48:18.761529+00:00",
     "bullets": [
+      {
+        "headline": "SpaceX stock rebounds to near $135 IPO price",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html"
+      },
       {
         "headline": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
         "source": "CNBC Markets",
@@ -23,31 +29,25 @@
         "link": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html"
       },
       {
-        "headline": "Barry Gosin Stepping Down as Newmark\u2019s CEO",
-        "source": "Commercial Observer",
-        "section": "Real Estate & REITs",
-        "link": "https://commercialobserver.com/2026/08/barry-gosin-newmark-exit/"
-      },
-      {
-        "headline": "Fiserv CEO pushes simplification as fintech cuts outlook - The Business Journals",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeEgxYk5iWEstOG5qYnQ1Ui1DNjJIRDNCdDBlMUpHSjA2WkRJZmZPNF95aXV3UGtOWl95aVMyUHdid3NyaDU0dllJOU9IS202N044YkRtMWVudW9EOTQ0T2hlWmNNbGtNMjdUbm1pN0JHakhEdllybU5WV01Sc2V1ejc1S1V4VlRScW1oNTM4b3VmNTI1emc?oc=5"
-      },
-      {
         "headline": "Sweetgreen cuts full-year outlook as cyclospora fears weigh on sales",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/08/06/sweetgreen-cuts-full-year-outlook-as-cyclospora-fears-weigh-on-sales.html"
+      },
+      {
+        "headline": "Zeta Global Holdings (ZETA) Q2 Earnings Beats Estimates (Revised) - Yahoo Finance",
+        "source": "Google \u2013 Earnings Beats",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcFlWWS1TaUpCTkJVSmwzQ3pDcHhzM2I3VkdGYUpCVFhTamVURFNlNFV4aVZDQm9mcnJFbTlwNFJmcHlDUjdsNWxpNWdjb2pVbjlYUVQ1T3BFNE05dWR3dDNBNEpDNTZHd1hsN0RQTndUenpVeUNFbjJVWjlnRjJ6b082LVY3TGd4b2xLZ3FhMmJGbHpPLTFmdQ?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 90,
-      "Macro & Economy": 43,
-      "Investment Banking & Deals": 92,
+      "Stock Market & Equities": 87,
+      "Macro & Economy": 44,
+      "Investment Banking & Deals": 89,
       "Real Estate & REITs": 41,
       "Earnings & Results": 201,
-      "Tech & Fintech": 114
+      "Tech & Fintech": 119
     }
   },
   {
