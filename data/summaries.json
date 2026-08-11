@@ -2,13 +2,13 @@
   {
     "week": "2026-W33",
     "label": "Week of August 10\u201314, 2026",
-    "generated": "2026-08-11T14:13:23.331344+00:00",
+    "generated": "2026-08-11T19:55:38.130932+00:00",
     "bullets": [
       {
-        "headline": "Trump Media Reports $361 Million Crypto Loss",
-        "source": "Yahoo Finance",
+        "headline": "Long-time OpenAI exec Brad Lightcap is leaving the ChatGPT maker to \u2018start something new\u2019",
+        "source": "Fortune",
         "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/trump-media-reports-361-million-132400842.html"
+        "link": "https://fortune.com/2026/08/11/openai-exec-brad-lightcap-leaving-start-something-new/"
       },
       {
         "headline": "Hotel giant says \u2018growing middle class\u2019 boosted hotel demand despite Middle East hit",
@@ -23,18 +23,6 @@
         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTks4emg2RHNjcWNnN3VfdzZWbU14cXdMT2VzbnlnX0VLNEVCUEM1R2FkV1p5R3cwZ1ZTRGZmSUFkYTNVS1JoYVNxdWlNRmlVQnRSRlA1dnNCSmh5UU5IampSbFV6VU1wY0tTbjVqeU5XTXk3ZW9CTlhOelk1TmFsLUVRZm9pY09sLWNFRG5FN0QwTUQ1NXl1eEpn0gGfAUFVX3lxTFBQSlFVcGFVMkEzOExGdzJGLWxNZS1Mcmd3YWJLdkhrWUd1V0tLM2NrdWtKcTVOOC1aRllzQTBybDcySGJXcW9hV1lUU3Z6dE95NnpJRW0xTGVnMGRuMWExRWo4SFp4WVlYbE9EbHF1SmQzNnl4aWVRcXo1dnEwM3VXc0p5NER5SVVtRUJ1TFgxSUtNdk5OTDBQakhuNEJHaw?oc=5"
       },
       {
-        "headline": "SpaceX stock rebounds, closing above $135 IPO price for first time in weeks",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html"
-      },
-      {
-        "headline": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html"
-      },
-      {
         "headline": "Sweetgreen cuts full-year outlook as cyclospora fears weigh on sales",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
@@ -42,12 +30,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 90,
-      "Macro & Economy": 44,
-      "Investment Banking & Deals": 107,
+      "Stock Market & Equities": 84,
+      "Macro & Economy": 43,
+      "Investment Banking & Deals": 112,
       "Real Estate & REITs": 41,
-      "Earnings & Results": 200,
-      "Tech & Fintech": 115
+      "Earnings & Results": 206,
+      "Tech & Fintech": 119
     }
   },
   {
