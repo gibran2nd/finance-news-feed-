@@ -2,13 +2,25 @@
   {
     "week": "2026-W33",
     "label": "Week of August 10\u201314, 2026",
-    "generated": "2026-08-10T19:48:18.761529+00:00",
+    "generated": "2026-08-11T08:04:42.800617+00:00",
     "bullets": [
       {
-        "headline": "SpaceX stock rebounds to near $135 IPO price",
+        "headline": "Restaurant Brands International: Burger King Is Turning Up The Heat",
+        "source": "Seeking Alpha",
+        "section": "Earnings & Results",
+        "link": "https://seekingalpha.com/article/4934502-restaurant-brands-international-q2-burger-king-turning-up-the-heat-upgrade-buy?source=feed_tag_earnings"
+      },
+      {
+        "headline": "OpenAI wraps $7 billion share sale ahead of potential IPO",
         "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html"
+        "link": "https://www.cnbc.com/2026/08/10/openai-wraps-7-billion-share-sale-ahead-of-potential-ipo-.html"
+      },
+      {
+        "headline": "SpaceX stock rebounds, closing above $135 IPO price for first time in weeks - CNBC",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9VOHc4Sm81YzhkbHJfM3BtQWFUbnlFb05ZbTdhSkpSdlJvQ2MtTnkwMGlSWmR0REhPbXRnRG1felc2TV9aeEg0VURhZlhVQVhQeG5ZcGpZVmZGcnA3SDZxWEdGMm02RkktVm9OVklpT1pqd9IBd0FVX3lxTE51QVZEZEZhUzNydFVqOGRaUXJzcVZCckRGRkNuWXAtVFVCbHA0Vk1xQVp4OEpMSnZiaFR1QTlRTUNleWNxLS00SUZPa0JTMjhEbVE2V1M4WENab1o2LVAzNEZiWkZNUi0zWlptNjFMZF9WOGVubjZr?oc=5"
       },
       {
         "headline": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
@@ -17,37 +29,25 @@
         "link": "https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html"
       },
       {
-        "headline": "Earnings call transcript: Star Cement Q1 2026 misses estimates as margins shrink - Investing.com",
-        "source": "Google \u2013 Earnings Beats",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORjI2LVlUT1BVb1FfMmhxbUJkdU5TVlpJWnZMUWtKazM0MHdRVU1IQW4yZkNNUDNRQ1dkVWpManE0VGFTZW8zLXlYUGg1YmZWUkVmT2RTcUVRUm5CNDZJY0hTT1F3bzNTVjZrR04zM1VSZS1TMGpnVEV0bWpsdFJMX05sU1NxSy1TSmQ2c2tNYVlmME1DYUlVdWpUNVFGdDZIdHBkTXhGYjBxLWh4SFpnUWJIck14MHhtZGtMWmswT2psUG4xdkhiajFobGg3TGRLZ3VCSVZvei1BTlU?oc=5"
-      },
-      {
-        "headline": "U.S. economy unexpectedly lost 23,000 jobs in July",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html"
+        "headline": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/technology/ai/articles/embattled-hedge-fund-situational-awareness-203517065.html"
       },
       {
         "headline": "Sweetgreen cuts full-year outlook as cyclospora fears weigh on sales",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/08/06/sweetgreen-cuts-full-year-outlook-as-cyclospora-fears-weigh-on-sales.html"
-      },
-      {
-        "headline": "Zeta Global Holdings (ZETA) Q2 Earnings Beats Estimates (Revised) - Yahoo Finance",
-        "source": "Google \u2013 Earnings Beats",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcFlWWS1TaUpCTkJVSmwzQ3pDcHhzM2I3VkdGYUpCVFhTamVURFNlNFV4aVZDQm9mcnJFbTlwNFJmcHlDUjdsNWxpNWdjb2pVbjlYUVQ1T3BFNE05dWR3dDNBNEpDNTZHd1hsN0RQTndUenpVeUNFbjJVWjlnRjJ6b082LVY3TGd4b2xLZ3FhMmJGbHpPLTFmdQ?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 87,
-      "Macro & Economy": 44,
-      "Investment Banking & Deals": 89,
+      "Stock Market & Equities": 76,
+      "Macro & Economy": 43,
+      "Investment Banking & Deals": 99,
       "Real Estate & REITs": 41,
-      "Earnings & Results": 201,
-      "Tech & Fintech": 119
+      "Earnings & Results": 202,
+      "Tech & Fintech": 117
     }
   },
   {
