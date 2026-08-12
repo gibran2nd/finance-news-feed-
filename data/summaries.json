@@ -2,25 +2,19 @@
   {
     "week": "2026-W33",
     "label": "Week of August 10\u201314, 2026",
-    "generated": "2026-08-12T14:14:54.415316+00:00",
+    "generated": "2026-08-12T19:56:31.749061+00:00",
     "bullets": [
       {
-        "headline": "Home Depot CEO Ted Decker taking medical leave of absence",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-ceo-ted-decker-135132787.html"
-      },
-      {
-        "headline": "Chinese tech giant Tencent sees spending surge, defends potential 'superior' AI returns",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/12/china-tencent-earnings-q2-2026-gaming-ai-advertising.html"
-      },
-      {
-        "headline": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
+        "headline": "'Nobody wants it': Lettuce prices see record-setting plunge as cyclospora spooks consumers",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html"
+        "link": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html"
+      },
+      {
+        "headline": "U.S. budget deficit surged in July to highest level since March 2021",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/08/12/us-budget-deficit-surged-in-july-to-highest-level-since-march-2021.html"
       },
       {
         "headline": "'Tougher times ahead': Don't expect blowout returns to continue, CEO of $2.3 trillion fund warns after record first half",
@@ -36,12 +30,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 87,
-      "Macro & Economy": 43,
-      "Investment Banking & Deals": 126,
+      "Stock Market & Equities": 70,
+      "Macro & Economy": 47,
+      "Investment Banking & Deals": 121,
       "Real Estate & REITs": 40,
-      "Earnings & Results": 199,
-      "Tech & Fintech": 124
+      "Earnings & Results": 195,
+      "Tech & Fintech": 127
     }
   },
   {
