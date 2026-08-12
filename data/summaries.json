@@ -2,25 +2,31 @@
   {
     "week": "2026-W33",
     "label": "Week of August 10\u201314, 2026",
-    "generated": "2026-08-12T08:09:28.681594+00:00",
+    "generated": "2026-08-12T14:14:54.415316+00:00",
     "bullets": [
       {
-        "headline": "Sen. Darline Graham advances to Republican special primary runoff in South Carolina",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/08/11/primary-election-wisconsin-minnesota-south-carolina-democrats-hong-flanagan-craig.html"
+        "headline": "Home Depot CEO Ted Decker taking medical leave of absence",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-ceo-ted-decker-135132787.html"
       },
       {
-        "headline": "CoreWeave stock pops 14% as revenue doubles on accelerating AI infrastructure demand",
+        "headline": "Chinese tech giant Tencent sees spending surge, defends potential 'superior' AI returns",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html"
+        "link": "https://www.cnbc.com/2026/08/12/china-tencent-earnings-q2-2026-gaming-ai-advertising.html"
       },
       {
-        "headline": "We're lifting our price target on Cardinal Health after issuing rosy profit guidance",
+        "headline": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html"
+      },
+      {
+        "headline": "'Tougher times ahead': Don't expect blowout returns to continue, CEO of $2.3 trillion fund warns after record first half",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/11/were-lifting-our-price-target-on-cardinal-health-after-issuing-rosy-profit-guidance-.html"
+        "link": "https://www.cnbc.com/2026/08/12/norway-sovereign-wealth-tangen-nbim.html"
       },
       {
         "headline": "Sweetgreen cuts full-year outlook as cyclospora fears weigh on sales - CNBC",
@@ -30,12 +36,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 88,
-      "Macro & Economy": 41,
-      "Investment Banking & Deals": 115,
+      "Stock Market & Equities": 87,
+      "Macro & Economy": 43,
+      "Investment Banking & Deals": 126,
       "Real Estate & REITs": 40,
-      "Earnings & Results": 200,
-      "Tech & Fintech": 114
+      "Earnings & Results": 199,
+      "Tech & Fintech": 124
     }
   },
   {
