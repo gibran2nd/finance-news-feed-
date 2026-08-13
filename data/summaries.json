@@ -2,8 +2,14 @@
   {
     "week": "2026-W33",
     "label": "Week of August 10\u201314, 2026",
-    "generated": "2026-08-12T19:56:31.749061+00:00",
+    "generated": "2026-08-13T08:12:16.722762+00:00",
     "bullets": [
+      {
+        "headline": "Cerebras stock plunges 14% after second earnings report following IPO",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html"
+      },
       {
         "headline": "'Nobody wants it': Lettuce prices see record-setting plunge as cyclospora spooks consumers",
         "source": "CNBC Economy",
@@ -17,10 +23,10 @@
         "link": "https://www.cnbc.com/2026/08/12/us-budget-deficit-surged-in-july-to-highest-level-since-march-2021.html"
       },
       {
-        "headline": "'Tougher times ahead': Don't expect blowout returns to continue, CEO of $2.3 trillion fund warns after record first half",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/12/norway-sovereign-wealth-tangen-nbim.html"
+        "headline": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html"
       },
       {
         "headline": "Sweetgreen cuts full-year outlook as cyclospora fears weigh on sales - CNBC",
@@ -30,12 +36,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 70,
-      "Macro & Economy": 47,
-      "Investment Banking & Deals": 121,
-      "Real Estate & REITs": 40,
-      "Earnings & Results": 195,
-      "Tech & Fintech": 127
+      "Stock Market & Equities": 73,
+      "Macro & Economy": 48,
+      "Investment Banking & Deals": 132,
+      "Real Estate & REITs": 42,
+      "Earnings & Results": 196,
+      "Tech & Fintech": 115
     }
   },
   {
