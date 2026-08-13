@@ -2,8 +2,14 @@
   {
     "week": "2026-W33",
     "label": "Week of August 10\u201314, 2026",
-    "generated": "2026-08-13T14:16:41.379039+00:00",
+    "generated": "2026-08-13T19:51:51.009244+00:00",
     "bullets": [
+      {
+        "headline": "Cerebras stock plunges 14% after second earnings report following IPO",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html"
+      },
       {
         "headline": "Wholesale prices were flat in July, below expectations for 0.2% increase",
         "source": "CNBC Economy",
@@ -29,25 +35,19 @@
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRDB3WnFtWkNGcjItQURxVTAxRll0OHRMak1qWjRKQ2J3eEw3aHlMYW53UVhYR1hna0NoZVl5QU1qRkJET09UNXdUUE1GQ2dHNHhkYTVJVDZqczRRLVlXaHZ1NTZ2ZWN2VGU0VEJ2ZnB6dDNFcGVHTU1PUXVRSXJSUEJXZ0J0SE1fd01DQnpOX2o0eC1CV3llYWdfU2toTzlBUHQ2Z1ExSDA0WkhydER3TEdMM3JtX3NfS0E?oc=5"
       },
       {
-        "headline": "Cerebras stock plunges 14% after second earnings report following IPO",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html"
-      },
-      {
-        "headline": "Cerebras shares plummet 16% after results fail to impress investors - Reuters",
-        "source": "Google \u2013 IPO",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPS3RxTUJxMTh2Mk9XSmgxdm1MZDh6MlRtcVl5aFM1bmF1ajVmWlFnUF9nNU0yYjloQ0pON2VSWFZBYTVldmJ0TGI5N2psYlcwZVRuSURZaUM1NkYzVkh4NGVNRUtjd0F0M3RMTno2X0RSNG9VbF91V2lDOUh0OG5nSDJiY2M4cDdrM1lGRnNicldnNXBBQTBDRFVzNHdJQQ?oc=5"
+        "headline": "Cerebras Swings to Second-Quarter Loss, Lifts Full-Year Outlook - WSJ",
+        "source": "Google \u2013 Earnings Beats",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUNDbXYzUDItZnUyZkp1VGpNR0hNdWU3a1NWcFVKYm9wbjRLX3dySlZKcndfMHEtbXJ5V2Z3U2tPU0k0cF9RODJNQUg5QUZpM2ZpLXY1dWVLNkxQQ2cybnNFMDVDUkFfNUJWNC0tdHotVmNQY0l3QU1Rdk53cjA2ZVlVRTQtRVg0cFpLeGo2VUEySXRHQjhFTmhiWkY5S25wb1ExNTI2d3poRDMyZ0E?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 71,
-      "Macro & Economy": 47,
+      "Stock Market & Equities": 56,
+      "Macro & Economy": 48,
       "Investment Banking & Deals": 135,
-      "Real Estate & REITs": 40,
+      "Real Estate & REITs": 42,
       "Earnings & Results": 196,
-      "Tech & Fintech": 121
+      "Tech & Fintech": 118
     }
   },
   {
