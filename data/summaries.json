@@ -2,8 +2,26 @@
   {
     "week": "2026-W33",
     "label": "Week of August 10\u201314, 2026",
-    "generated": "2026-08-14T14:09:34.088182+00:00",
+    "generated": "2026-08-14T19:42:13.872699+00:00",
     "bullets": [
+      {
+        "headline": "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html"
+      },
+      {
+        "headline": "Cerebras stock plunges 14% after second earnings report following IPO - CNBC",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJcHVySkhhUXc0UTFTUU44MC1zazJYSFpyMVRkdy1MUG5QSDBOX1dkVmstdi1VWVBZTm91U2ZXYzhXZmlzUlAzT2NNdExXMVZ6eWdyQkQ0eFA0UzU3amczTzYxQkthMTRWOXJGRjZ0bzQyT2F6b1pGbFMwN1hHcTDSAYQBQVVfeXFMTlk2ekExUzkydDVRQ1E3elduc0F5c08tUklVMFJBazUyS1lEZml4alVXSTdxYWpSdVdiVEFuVnMtVnFSTnNOWjZsaldlUlFyMnBEU0pWbkFJektITkdWSnItZS05aFBfRm94X1ZOV1J0Y3FIdXBUdklRLWZJSktrekxYRG8x?oc=5"
+      },
+      {
+        "headline": "Senior US market watchdog official exits to join dealmaking fintech Finalis",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/senior-us-market-watchdog-official-101429177.html"
+      },
       {
         "headline": "Silver Lake pursues Workday buyout as shares surge 18% amid AI jitters - CHOSUNBIZ - Chosunbiz",
         "source": "Google \u2013 Active Deals",
@@ -21,33 +39,15 @@
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1iOWxBTVBSTWxIX0JFY2xBWkR4YWxqVEhJTFhWVk9fVS1IT21Cc3huZmdiQlBpM3lvNk5JWXd6NUxHT3pvbXlXM0o0YS1ONVpsclV6MU9MUHJvMUhGMmRHSHM1NDNLOTVsWUNQWWRfWlJWODF6cWc?oc=5"
-      },
-      {
-        "headline": "Anthropic CFO Krishna Rao is leading early IPO meetings with investors and has not discussed valuation, sources say",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/08/13/anthropic-cfo-early-ipo-meetings-valuation.html"
-      },
-      {
-        "headline": "EXCLUSIVE: Silver Lake in talks to buy Workday, sources say - Reuters",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbDFoSlRtR1RvcWRPUmFxenVMN09MZU0wMEpuTlI3a19xamlXeXlQcHZReEt3WXFXU3llTDdvQVZTZExrZFRVWGdrNDFxRnRTLVRJeXBxejlXd3hmSmhFdFNqY1FlRXkwTVpfeUJhODdfSGFuWFplcXRTeElXX0hFZkhhUFVlYmN6ekNZ?oc=5"
-      },
-      {
-        "headline": "Cerebras stock plunges 14% after second earnings report following IPO",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html"
       }
     ],
     "section_counts": {
       "Stock Market & Equities": 56,
-      "Macro & Economy": 47,
-      "Investment Banking & Deals": 136,
-      "Real Estate & REITs": 42,
-      "Earnings & Results": 190,
-      "Tech & Fintech": 121
+      "Macro & Economy": 44,
+      "Investment Banking & Deals": 131,
+      "Real Estate & REITs": 40,
+      "Earnings & Results": 180,
+      "Tech & Fintech": 112
     }
   },
   {
