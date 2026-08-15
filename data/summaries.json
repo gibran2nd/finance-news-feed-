@@ -2,8 +2,14 @@
   {
     "week": "2026-W33",
     "label": "Week of August 10\u201314, 2026",
-    "generated": "2026-08-15T13:23:18.176107+00:00",
+    "generated": "2026-08-15T19:15:10.352728+00:00",
     "bullets": [
+      {
+        "headline": "Anthropic revenue surges to over $11.5 billion in second quarter",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/08/15/anthropic-revenue-q2-11-5-billion-ipo-investors/"
+      },
       {
         "headline": "Talks to sell PayPal to Stripe and Advent are heating up",
         "source": "TechCrunch",
@@ -33,21 +39,15 @@
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html"
-      },
-      {
-        "headline": "WaterBridge (WBI) Raised Guidance Again, So Why Did Shares Slip?",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/waterbridge-wbi-raised-guidance-again-112321155.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 60,
-      "Macro & Economy": 46,
-      "Investment Banking & Deals": 138,
+      "Stock Market & Equities": 62,
+      "Macro & Economy": 48,
+      "Investment Banking & Deals": 136,
       "Real Estate & REITs": 41,
-      "Earnings & Results": 170,
-      "Tech & Fintech": 105
+      "Earnings & Results": 169,
+      "Tech & Fintech": 106
     }
   },
   {
