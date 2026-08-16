@@ -2,8 +2,14 @@
   {
     "week": "2026-W33",
     "label": "Week of August 10\u201314, 2026",
-    "generated": "2026-08-16T13:24:16.127666+00:00",
+    "generated": "2026-08-16T19:14:31.307602+00:00",
     "bullets": [
+      {
+        "headline": "Workday Has Its Best Day in a Decade on Report of a Potential $43 Billion Buyout",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/workday-best-day-decade-report-155053377.html"
+      },
       {
         "headline": "Anthropic revenue reportedly jumps to more than $11.5 billion in second quarter",
         "source": "CNBC Markets",
@@ -33,21 +39,15 @@
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html"
-      },
-      {
-        "headline": "EXCLUSIVE: Silver Lake in talks to buy Workday, sources say - Reuters",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbDFoSlRtR1RvcWRPUmFxenVMN09MZU0wMEpuTlI3a19xamlXeXlQcHZReEt3WXFXU3llTDdvQVZTZExrZFRVWGdrNDFxRnRTLVRJeXBxejlXd3hmSmhFdFNqY1FlRXkwTVpfeUJhODdfSGFuWFplcXRTeElXX0hFZkhhUFVlYmN6ekNZ?oc=5"
       }
     ],
     "section_counts": {
       "Stock Market & Equities": 69,
-      "Macro & Economy": 46,
+      "Macro & Economy": 38,
       "Investment Banking & Deals": 124,
       "Real Estate & REITs": 41,
-      "Earnings & Results": 171,
-      "Tech & Fintech": 99
+      "Earnings & Results": 163,
+      "Tech & Fintech": 93
     }
   },
   {
