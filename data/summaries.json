@@ -2,13 +2,25 @@
   {
     "week": "2026-W33",
     "label": "Week of August 10\u201314, 2026",
-    "generated": "2026-08-15T19:15:10.352728+00:00",
+    "generated": "2026-08-16T07:23:41.084580+00:00",
     "bullets": [
       {
-        "headline": "Anthropic revenue surges to over $11.5 billion in second quarter",
-        "source": "Fortune",
+        "headline": "SpaceX officially closes its Cursor acquisition",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/"
+      },
+      {
+        "headline": "Anthropic revenue reportedly jumps to more than $11.5 billion in second quarter",
+        "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://fortune.com/2026/08/15/anthropic-revenue-q2-11-5-billion-ipo-investors/"
+        "link": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html"
+      },
+      {
+        "headline": "EXCLUSIVE: Anthropic IPO valuation hinges on $190-200 billion 2028 revenue forecast, sources say - Reuters",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDBCMHl6NWFXVjN4bFdxNkxJb0g0TllzQUNXeDVGeUdPZEduUTczSnZhcmE4UFdNZk82UDV4SVpGOTJMT29SUHJINVNubnY1Vkl1UXhMekVOYm52YmxhSk9HSHdkRDBBNEVkUTdTNGFJMkR3Z3hyY1A1VVViaDVIQ1BKOEhMMmxlVmpmSG01bmNZdk1JM2I4WHVROE9oMTdhOWVOaFBPZEZvUDhnblhMMVFHVU9aSGlwakctcU1DOVlPdkU?oc=5"
       },
       {
         "headline": "Talks to sell PayPal to Stripe and Advent are heating up",
@@ -27,27 +39,15 @@
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RX0xIYUV4UGQ5M0JFUDAxSXRpaUxRbjVYcGRhYW9oamcwa2dtMS14Sk1HMUZUNFVkaFdzeVVWSWF2RWM3NHQ3WDdnRHIwVmNHZ0RWd25hUFBqN2k5YmRkQV80TEFRU2cwT0NRcXZR?oc=5"
-      },
-      {
-        "headline": "Cerebras stock plunges 14% after second earnings report following IPO",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html"
-      },
-      {
-        "headline": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 62,
-      "Macro & Economy": 48,
-      "Investment Banking & Deals": 136,
+      "Stock Market & Equities": 67,
+      "Macro & Economy": 46,
+      "Investment Banking & Deals": 137,
       "Real Estate & REITs": 41,
-      "Earnings & Results": 169,
-      "Tech & Fintech": 106
+      "Earnings & Results": 168,
+      "Tech & Fintech": 98
     }
   },
   {
