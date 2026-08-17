@@ -2,52 +2,34 @@
   {
     "week": "2026-W34",
     "label": "Week of August 17\u201321, 2026",
-    "generated": "2026-08-17T13:32:51.914486+00:00",
+    "generated": "2026-08-17T19:20:34.289808+00:00",
     "bullets": [
       {
-        "headline": "Vista Energy up 4% after billionaire Peter Thiel buys stake in the Argentine shale oil producer",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/08/17/peter-thiel-hedge-fund-vista-energy-argentina-stake.html"
-      },
-      {
-        "headline": "Stripe is acquiring AI model gateway startup OpenRouter in a $7 billion-plus deal - qz.com",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUWdQRUpMd3dJc2czSG5PSldWTTlIVlRuYnROV0F3VGRGaEw0NzBFdHBhT1dKRVpjRjQ3WmJuSlJySVpvWTJZVmpQTGZYeEFiZjl0Y2R6dWdOd2ZON3kzcDZjcHIwcTBLUzJSVW43aENxVk01WlNHQnVrLVVHVGN6SzRR?oc=5"
-      },
-      {
-        "headline": "Harvard endowment discloses $2.2 billion SpaceX stake",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/harvard-endowment-discloses-2-2-123914722.html"
-      },
-      {
-        "headline": "Bimergen Energy shares rise after Q2 revenue reaches $7.9 million",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/energy/articles/bimergen-energy-shares-rise-q2-123235232.html"
-      },
-      {
-        "headline": "Anthropic revenue reportedly jumps to more than $11.5 billion in second quarter",
+        "headline": "Cerebras stock plunges 14% after second earnings report following IPO",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html"
+        "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html"
       },
       {
-        "headline": "Talks to sell PayPal to Stripe and Advent are heating up",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/"
+        "headline": "EXCLUSIVE: Silver Lake in talks to buy Workday, sources say - Reuters",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbDFoSlRtR1RvcWRPUmFxenVMN09MZU0wMEpuTlI3a19xamlXeXlQcHZReEt3WXFXU3llTDdvQVZTZExrZFRVWGdrNDFxRnRTLVRJeXBxejlXd3hmSmhFdFNqY1FlRXkwTVpfeUJhODdfSGFuWFplcXRTeElXX0hFZkhhUFVlYmN6ekNZ?oc=5"
+      },
+      {
+        "headline": "Cerebras Swings to Second-Quarter Loss, Lifts Full-Year Outlook - WSJ",
+        "source": "Google \u2013 Earnings Beats",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUNDbXYzUDItZnUyZkp1VGpNR0hNdWU3a1NWcFVKYm9wbjRLX3dySlZKcndfMHEtbXJ5V2Z3U2tPU0k0cF9RODJNQUg5QUZpM2ZpLXY1dWVLNkxQQ2cybnNFMDVDUkFfNUJWNC0tdHotVmNQY0l3QU1Rdk53cjA2ZVlVRTQtRVg0cFpLeGo2VUEySXRHQjhFTmhiWkY5S25wb1ExNTI2d3poRDMyZ0E?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 69,
-      "Macro & Economy": 44,
-      "Investment Banking & Deals": 113,
-      "Real Estate & REITs": 40,
-      "Earnings & Results": 161,
-      "Tech & Fintech": 93
+      "Stock Market & Equities": 68,
+      "Macro & Economy": 45,
+      "Investment Banking & Deals": 107,
+      "Real Estate & REITs": 39,
+      "Earnings & Results": 156,
+      "Tech & Fintech": 104
     }
   },
   {
