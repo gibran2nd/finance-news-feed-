@@ -1,5 +1,56 @@
 [
   {
+    "week": "2026-W34",
+    "label": "Week of August 17\u201321, 2026",
+    "generated": "2026-08-17T07:44:04.571297+00:00",
+    "bullets": [
+      {
+        "headline": "Japanese automakers vulnerable to one-two punch of Iran war, yen rally",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/17/japanese-automakers-vulnerable-iran-war-yen-rally.html"
+      },
+      {
+        "headline": "Stripe clinches over $7 billion deal to buy AI firm OpenRouter",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/08/16/stripe-7-billion-deal-ai-firm-openrouter-acquisition/"
+      },
+      {
+        "headline": "PayPal Back in Play as Buyout Talks With Stripe Are Rekindled - inc.com",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON3B6ZGJaZXVrYVRSOHYzQk9VdGctTERnbFFMRERzNkdNakNfa2FkM1VLbW9kYXp1NjBKMnVMMkw4N0NiRDZxZEJjSUVEZ1BZSXV2MUdXM0FSUkcxdDg3M2tpbTF4OUxxZnM2N0hyc2lmWDJUMHduaDRLYWxJc0RsbVBJM2ZGcERfZnUxNFdVOGhqYTNBSU1DMW9LbmhXNDVOTUZmaXNn?oc=5"
+      },
+      {
+        "headline": "Curtiss-Wright (CW) Just Raised Guidance Again, So What\u2019s The Catch?",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/curtiss-wright-cw-just-raised-230318763.html"
+      },
+      {
+        "headline": "Anthropic revenue reportedly jumps to more than $11.5 billion in second quarter",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html"
+      },
+      {
+        "headline": "Talks to sell PayPal to Stripe and Advent are heating up",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 68,
+      "Macro & Economy": 43,
+      "Investment Banking & Deals": 117,
+      "Real Estate & REITs": 41,
+      "Earnings & Results": 161,
+      "Tech & Fintech": 87
+    }
+  },
+  {
     "week": "2026-W33",
     "label": "Week of August 10\u201314, 2026",
     "generated": "2026-08-16T19:14:31.307602+00:00",
