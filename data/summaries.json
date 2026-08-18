@@ -2,13 +2,25 @@
   {
     "week": "2026-W34",
     "label": "Week of August 17\u201321, 2026",
-    "generated": "2026-08-17T19:20:34.289808+00:00",
+    "generated": "2026-08-18T07:30:12.783073+00:00",
     "bullets": [
       {
-        "headline": "Cerebras stock plunges 14% after second earnings report following IPO",
+        "headline": "Vista Energy up 4% after billionaire Peter Thiel buys stake in the Argentine shale oil producer",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/08/17/peter-thiel-hedge-fund-vista-energy-argentina-stake.html"
+      },
+      {
+        "headline": "Japanese automakers vulnerable to one-two punch of Iran war, yen rally",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html"
+        "link": "https://www.cnbc.com/2026/08/17/japanese-automakers-vulnerable-iran-war-yen-rally.html"
+      },
+      {
+        "headline": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/technology/ai/articles/stripe-reportedly-acquire-ai-gateway-205704570.html"
       },
       {
         "headline": "EXCLUSIVE: Silver Lake in talks to buy Workday, sources say - Reuters",
@@ -24,12 +36,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 68,
-      "Macro & Economy": 45,
-      "Investment Banking & Deals": 107,
-      "Real Estate & REITs": 39,
-      "Earnings & Results": 156,
-      "Tech & Fintech": 104
+      "Stock Market & Equities": 64,
+      "Macro & Economy": 44,
+      "Investment Banking & Deals": 118,
+      "Real Estate & REITs": 40,
+      "Earnings & Results": 141,
+      "Tech & Fintech": 101
     }
   },
   {
