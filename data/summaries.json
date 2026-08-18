@@ -2,13 +2,19 @@
   {
     "week": "2026-W34",
     "label": "Week of August 17\u201321, 2026",
-    "generated": "2026-08-18T13:35:24.833385+00:00",
+    "generated": "2026-08-18T19:21:16.801502+00:00",
     "bullets": [
       {
-        "headline": "Anthropic could beat Elon Musk's SpaceX for largest 2026 IPO, prediction markets show",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/article/anthropic-could-beat-elon-musks-spacex-for-largest-2026-ipo-prediction-markets-show-122619825.html"
+        "headline": "A fintech app built by crypto exchange Kraken just launched a cash back debit card in bid for consumer wallets",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/08/18/kraken-launches-debit-card-in-bid-for-consumer-wallets.html"
+      },
+      {
+        "headline": "Anthropic tells investors annualized revenue run rate climbed to $65 billion in July - CNBC",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUi05NkI4cXl6M3ZhcWx2QlFuYjNJa2xTN3pIUER6YWZ6bGc3TTBUb0VIV3ppTXBXdG5pbEo2b19kRFQ3MW1SR3p3eFQ2RGNlQUdwUFRJRXJtS0ZCemxjZmRRRWl3Y3M0VXo0dU5nZE0tTXVsZ2xGVXZXa1czZWo3alFiTm9GTWtXVHVoOW1FOVY4ZDJWZzN6MHN0SWtPQXRRQlE?oc=5"
       },
       {
         "headline": "Home Depot reaffirms guidance amid 'frozen housing market conditions'",
@@ -17,25 +23,19 @@
         "link": "https://www.cnbc.com/2026/08/18/home-depot-hd-q2-2026-earnings.html"
       },
       {
-        "headline": "Anthropic tells investors annualized revenue run rate climbed to $65 billion in July",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html"
-      },
-      {
-        "headline": "Cerebras Swings to Second-Quarter Loss, Lifts Full-Year Outlook - wsj.com",
+        "headline": "Cerebras Swings to Second-Quarter Loss, Lifts Full-Year Outlook - WSJ",
         "source": "Google \u2013 Earnings Beats",
         "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUNDbXYzUDItZnUyZkp1VGpNR0hNdWU3a1NWcFVKYm9wbjRLX3dySlZKcndfMHEtbXJ5V2Z3U2tPU0k0cF9RODJNQUg5QUZpM2ZpLXY1dWVLNkxQQ2cybnNFMDVDUkFfNUJWNC0tdHotVmNQY0l3QU1Rdk53cjA2ZVlVRTQtRVg0cFpLeGo2VUEySXRHQjhFTmhiWkY5S25wb1ExNTI2d3poRDMyZ0E?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 71,
-      "Macro & Economy": 45,
-      "Investment Banking & Deals": 104,
-      "Real Estate & REITs": 40,
-      "Earnings & Results": 139,
-      "Tech & Fintech": 98
+      "Stock Market & Equities": 63,
+      "Macro & Economy": 44,
+      "Investment Banking & Deals": 105,
+      "Real Estate & REITs": 38,
+      "Earnings & Results": 137,
+      "Tech & Fintech": 113
     }
   },
   {
