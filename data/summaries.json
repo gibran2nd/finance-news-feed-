@@ -2,8 +2,20 @@
   {
     "week": "2026-W34",
     "label": "Week of August 17\u201321, 2026",
-    "generated": "2026-08-19T07:30:37.028297+00:00",
+    "generated": "2026-08-19T13:37:01.082915+00:00",
     "bullets": [
+      {
+        "headline": "Lowe's gives muted outlook as it sees 'pressure' in home improvement spending",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/19/lowes-low-q2-2026-earnings.html"
+      },
+      {
+        "headline": "KKR Reportedly Weighs $9 Billion Buyout Of UGI Corporation - energynews.pro",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORXA1WXdraXlUb0NzSEZCNFFHQnBwcjJ0SmlQX3JEdHRkWWxtU3RmUlBxXzhTWS1pdDY1ZWpKYnJDVmJKa0Q4R1U2OWY4UE9pbE1Pa25HdkI2MVRFalRKNHIzcnQxNURJbFFaWTAtSmtYTmhyOU82VkFaOWdYckMxVHZVWEtvejI2d21r?oc=5"
+      },
       {
         "headline": "China\u2019s backflipping robot maker Unitree pops 542% in Shanghai debut",
         "source": "CNBC M&A",
@@ -23,18 +35,6 @@
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcW5POUFvYnpLRENBNTJWcDNKNEVwNE03Z1pMaUZWV1NqNUtCYTFNNWt5a18wdFphQ0VJdm1ZUjNCc1NBdTYxbXZ6WWZqUVhLbUlpNjF5azlYd0c4RnJCZThhTV9WWWZ5aDhUWUNEVkVjSUJtZGIyTlpqOFkxOXB6MllQMnBTWFFFTXZjM2NramN1Yy1RbmRqNmhFQjVzaWdqMmNucEtpVjZPczlkVjFlczR0WTFrd0FSYlhKYmJyN3c4dw?oc=5"
       },
       {
-        "headline": "We upgraded Home Depot and raised our price target. It made the best of a terrible hand",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/18/we-upgraded-home-depot-and-raised-our-price-target-it-made-the-best-of-a-terrible-hand.html"
-      },
-      {
-        "headline": "A fintech app built by crypto exchange Kraken just launched a cash back debit card in bid for consumer wallets",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/08/18/kraken-launches-debit-card-in-bid-for-consumer-wallets.html"
-      },
-      {
         "headline": "Anthropic tells investors annualized revenue run rate climbed to $65 billion in July",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 71,
-      "Macro & Economy": 50,
-      "Investment Banking & Deals": 111,
+      "Stock Market & Equities": 68,
+      "Macro & Economy": 48,
+      "Investment Banking & Deals": 102,
       "Real Estate & REITs": 38,
-      "Earnings & Results": 136,
-      "Tech & Fintech": 109
+      "Earnings & Results": 153,
+      "Tech & Fintech": 108
     }
   },
   {
