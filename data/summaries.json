@@ -2,8 +2,26 @@
   {
     "week": "2026-W34",
     "label": "Week of August 17\u201321, 2026",
-    "generated": "2026-08-20T07:33:16.395696+00:00",
+    "generated": "2026-08-20T13:38:31.938573+00:00",
     "bullets": [
+      {
+        "headline": "Walmart hikes full-year outlook, says it will use huge tariff refund to keep prices low",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html"
+      },
+      {
+        "headline": "Alibaba shares fall 6% as AI spending drives 75% drop in net income",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/20/alibaba-cloud-revenue.html"
+      },
+      {
+        "headline": "From Humanities To AI: How Ali Hussain Built Fintech Tabs Into A $400M Startup",
+        "source": "Crunchbase News",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.crunchbase.com/venture/ai-fintech-startup-tabs-founder-hussain/"
+      },
       {
         "headline": "U.S. government debt passes $40 trillion, more than doubling in a decade",
         "source": "CNBC Economy",
@@ -21,32 +39,14 @@
         "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
         "link": "https://www.cnbc.com/2026/08/19/stripe-openrouter-fintech-ai-model-marketplace-.html"
-      },
-      {
-        "headline": "PAG Reportedly Plans Around $4 Billion Asia Buyout Fund After Returning More Than $7 Billion To Investors - Pulse 2.0",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXJBcEF3b0FQWUxEdERrdWtZbDN0TTRsaWpjRE5UcW0wV0tKakJoNDZHZkZFZ1Ruc1RmYm9iU1ZUTVIxOWpqWTBOdE51T3FTVlhTMl9ySDIwVTZpV3JpOFpfZFNLWXp2SlMxS1ppY0tTYnhFdDBFNU9ZbU9WbGN1eVlheWVZR0dCUDlTR29tREJUR2ZYZGhFd1hzcUpZaGhlMjlZdklraE5QamQ2R2tmMHlyLUlPeXdCS1UyTjA5N3PSAcYBQVVfeXFMTi05UkJKcGFiSmM5UWR6Q2VvZERBNEVJVEROOVpqcU5abXNHY2hMMUd1OG5MV0I4N05zN2tMdGN3bFotQWpTa1U2TTd5SzFvcmZhZ1JEX19DSWxJOFRzUFZoblduVThfaTVTS1R0dG5XVVFvVVhCWW1iaWVJbGZ5ODBHTmpzU1JKU3g3a0dJMmJneWVrcUhmWUFPRldVYnBJX1ZYMGEzRTF5aS1iOFFrTXM4emNQVkdrTEwtMDZDc2R3bjB2S2VR?oc=5"
-      },
-      {
-        "headline": "Sachin Bansal\u2019s fintech Navi raises first outside capital with $100M Prosus investment",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/08/19/sachin-bansals-fintech-navi-raises-first-outside-capital-with-100m-prosus-investment/"
-      },
-      {
-        "headline": "PAG Lines Up A $4-5 Billion Asia Buyout Fund - Finimize",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9kWjVaaXUwUkx5YWc4UzVVckIxSl83S3pkTmhEd3RwUGNENHNFVGlZSWdhUG4yV2NzbTJXcTJDNkNxQ09IMjhBc0d6NFhxRTRvMUJ4d2ZFUXp0VEZrYjhpU21JN1hhV3lUdDMtSXZYMHNKZ2gya1cxR2ZwbDc?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 65,
-      "Macro & Economy": 52,
-      "Investment Banking & Deals": 117,
+      "Stock Market & Equities": 68,
+      "Macro & Economy": 47,
+      "Investment Banking & Deals": 100,
       "Real Estate & REITs": 38,
-      "Earnings & Results": 157,
+      "Earnings & Results": 159,
       "Tech & Fintech": 115
     }
   },
