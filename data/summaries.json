@@ -2,16 +2,34 @@
   {
     "week": "2026-W34",
     "label": "Week of August 17\u201321, 2026",
-    "generated": "2026-08-20T13:38:31.938573+00:00",
+    "generated": "2026-08-20T19:24:05.397370+00:00",
     "bullets": [
       {
-        "headline": "Walmart hikes full-year outlook, says it will use huge tariff refund to keep prices low",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html"
+        "headline": "Stripe to buy OpenRouter as fintech expands deeper into AI",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/08/19/stripe-openrouter-fintech-ai-model-marketplace-.html"
       },
       {
-        "headline": "Alibaba shares fall 6% as AI spending drives 75% drop in net income",
+        "headline": "Walmart hikes full-year outlook and gets huge tariff refund, but stock falls on sales concerns - CNBC",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55amt5QWtxMUJpbENWejIyM01ubElHcUkyOVZiSnNlZlNxWXBaMlBNWm54XzlIUGFFNnNmMHRCZ3U3U3psVHdJWUdNaW4yc0otbkhuc21SQnlna1pTcnJpd0VDM1lLbWpzcXVIeVMwbFJxc0nSAXhBVV95cUxPMG15Wk5FUlRNWHVzc0RJaDk4N0FzVnhkU3hwQV81bEl4T2FpQnNlWHZDNkZVU1ZGNlNhYnYtTXRKZDRFS3dZSzJnOW5jV3pubWk5VHJGZUxZbXlzVk8xUEtwYUtidTFUR2FKX0FrV213ZGEtRXBlV0E?oc=5"
+      },
+      {
+        "headline": "Bessent says Treasury buyback operation could be more than $4 billion",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/08/20/bessent-says-treasury-buyback-operation-could-be-more-than-4-billion.html"
+      },
+      {
+        "headline": "Cerebras Swings to Second-Quarter Loss, Lifts Full-Year Outlook - WSJ",
+        "source": "Google \u2013 Earnings Beats",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUNDbXYzUDItZnUyZkp1VGpNR0hNdWU3a1NWcFVKYm9wbjRLX3dySlZKcndfMHEtbXJ5V2Z3U2tPU0k0cF9RODJNQUg5QUZpM2ZpLXY1dWVLNkxQQ2cybnNFMDVDUkFfNUJWNC0tdHotVmNQY0l3QU1Rdk53cjA2ZVlVRTQtRVg0cFpLeGo2VUEySXRHQjhFTmhiWkY5S25wb1ExNTI2d3poRDMyZ0E?oc=5"
+      },
+      {
+        "headline": "Alibaba shares fall 5% as AI spending drives 75% drop in net income",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/08/20/alibaba-cloud-revenue.html"
@@ -21,33 +39,15 @@
         "source": "Crunchbase News",
         "section": "Investment Banking & Deals",
         "link": "https://news.crunchbase.com/venture/ai-fintech-startup-tabs-founder-hussain/"
-      },
-      {
-        "headline": "U.S. government debt passes $40 trillion, more than doubling in a decade",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/08/19/us-government-debt-passes-40-trillion-mark-for-the-first-time.html"
-      },
-      {
-        "headline": "Trump bemoans Fed interest rate policy, says U.S. should be paying much less - CNBC",
-        "source": "Google \u2013 Fed & Rates",
-        "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSjhMcXlGelNialZZS3RvOVY3SEVreGlyV1dabkJZV0JqcnpSM0ZGcGo2czdoM01KVXZOUDJYUTBVdXFfMWtZZi1meWRqa2dmYXhKR2RPalNEdllhSFNlczhVbkhRR1g4ZGNvQWp6RHQtV0dsZHUzdEFkTW55RmlHSWpacS01WWxHVXpjQ1F6TUJKQ0ZGNlA0MlIzVjFTSy1UR1F0RHNGb0RLbTlKY2Zz0gG0AUFVX3lxTE43N2E0eUEzem1JR1ZwR0ZVWk5ocWp4WlRmRWQ3VEotRDBhUllXZkdUUmVGd2o5akJiakNYcHdJelk3eHJvalJVWUZia3NtU1RRSExNYUJqLWROejZzV0ZxcnlNMUdLSkxXUTZtcGtGd0RHVWlLeXUtWGplbG5Od3ZXOExYUS00V0NfSWNGcVdqdkRFYTg3ZUJ2UGZ0OVFpTFNrcXNCLVQzMDRITzBzcm1rNk44Yw?oc=5"
-      },
-      {
-        "headline": "Stripe to buy OpenRouter as fintech expands deeper into AI",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/08/19/stripe-openrouter-fintech-ai-model-marketplace-.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 68,
-      "Macro & Economy": 47,
-      "Investment Banking & Deals": 100,
-      "Real Estate & REITs": 38,
-      "Earnings & Results": 159,
-      "Tech & Fintech": 115
+      "Stock Market & Equities": 64,
+      "Macro & Economy": 51,
+      "Investment Banking & Deals": 101,
+      "Real Estate & REITs": 37,
+      "Earnings & Results": 162,
+      "Tech & Fintech": 117
     }
   },
   {
