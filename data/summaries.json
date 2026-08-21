@@ -2,31 +2,25 @@
   {
     "week": "2026-W34",
     "label": "Week of August 17\u201321, 2026",
-    "generated": "2026-08-20T19:24:05.397370+00:00",
+    "generated": "2026-08-21T07:35:23.490166+00:00",
     "bullets": [
       {
-        "headline": "Stripe to buy OpenRouter as fintech expands deeper into AI",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/08/19/stripe-openrouter-fintech-ai-model-marketplace-.html"
+        "headline": "Bessent's efforts in the Treasury market so far haven't worked. Here's what else he can try",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/08/20/bessents-efforts-in-the-treasury-market-so-far-havent-worked-heres-what-else-he-can-try.html"
       },
       {
-        "headline": "Walmart hikes full-year outlook and gets huge tariff refund, but stock falls on sales concerns - CNBC",
+        "headline": "Walmart stock tumbles 9% after outlook disappoints Wall Street - CNBC",
         "source": "Google \u2013 Guidance",
         "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55amt5QWtxMUJpbENWejIyM01ubElHcUkyOVZiSnNlZlNxWXBaMlBNWm54XzlIUGFFNnNmMHRCZ3U3U3psVHdJWUdNaW4yc0otbkhuc21SQnlna1pTcnJpd0VDM1lLbWpzcXVIeVMwbFJxc0nSAXhBVV95cUxPMG15Wk5FUlRNWHVzc0RJaDk4N0FzVnhkU3hwQV81bEl4T2FpQnNlWHZDNkZVU1ZGNlNhYnYtTXRKZDRFS3dZSzJnOW5jV3pubWk5VHJGZUxZbXlzVk8xUEtwYUtidTFUR2FKX0FrV213ZGEtRXBlV0E?oc=5"
       },
       {
-        "headline": "Bessent says Treasury buyback operation could be more than $4 billion",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/08/20/bessent-says-treasury-buyback-operation-could-be-more-than-4-billion.html"
-      },
-      {
-        "headline": "Cerebras Swings to Second-Quarter Loss, Lifts Full-Year Outlook - WSJ",
-        "source": "Google \u2013 Earnings Beats",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUNDbXYzUDItZnUyZkp1VGpNR0hNdWU3a1NWcFVKYm9wbjRLX3dySlZKcndfMHEtbXJ5V2Z3U2tPU0k0cF9RODJNQUg5QUZpM2ZpLXY1dWVLNkxQQ2cybnNFMDVDUkFfNUJWNC0tdHotVmNQY0l3QU1Rdk53cjA2ZVlVRTQtRVg0cFpLeGo2VUEySXRHQjhFTmhiWkY5S25wb1ExNTI2d3poRDMyZ0E?oc=5"
+        "headline": "Senators demand answers from TikTok About \u2018depraved\u2019 experiment",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/08/20/senate-tiktok-experiment/"
       },
       {
         "headline": "Alibaba shares fall 5% as AI spending drives 75% drop in net income",
@@ -39,15 +33,21 @@
         "source": "Crunchbase News",
         "section": "Investment Banking & Deals",
         "link": "https://news.crunchbase.com/venture/ai-fintech-startup-tabs-founder-hussain/"
+      },
+      {
+        "headline": "Advent International buys stake in $1b Kiwi clinical trials giant NZCR - AFR",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUkd6OG9TemlFaDZHemswUWZLRFluNTlWZTNCbm85dTFIazJoc193UjZjenNiRHU2cUVGX2tRQnFiVVZvbGtFbFlsd3ZBcllSTHZ5RTlEZHZMOGVOcldzWkV5N2hYa1Q1R3JzQ1QyY3dYVG93TTgtbVR1YzFQNVNoNkg5SjFFZ1FuQTVNMWJwSnFVSmxSbGU5dVFmNUp0OXZ6QjNfWmRvd2VQZFA5dV9Hc3RKYXdPQ1Rx?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 64,
+      "Stock Market & Equities": 69,
       "Macro & Economy": 51,
-      "Investment Banking & Deals": 101,
-      "Real Estate & REITs": 37,
-      "Earnings & Results": 162,
-      "Tech & Fintech": 117
+      "Investment Banking & Deals": 111,
+      "Real Estate & REITs": 39,
+      "Earnings & Results": 151,
+      "Tech & Fintech": 114
     }
   },
   {
