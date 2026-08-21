@@ -2,8 +2,20 @@
   {
     "week": "2026-W34",
     "label": "Week of August 17\u201321, 2026",
-    "generated": "2026-08-21T13:38:02.994054+00:00",
+    "generated": "2026-08-21T19:19:25.309248+00:00",
     "bullets": [
+      {
+        "headline": "Buyout firm Vista explores $3 billion sale of private markets data provider Allvue, sources say - Reuters",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUWZvOEdKLWNvVGVFdjVVVmVscElRTHRudGZNakI1N0RQaXpqaDdDX29XclZqQkREeWNMVmlNa29KZVdWSFlNOEh6cl9Ldklka3N1cWxONGE0MFVOSl9LRURmckpFNHFRbko3eTNabUVrUmN1S3NrUDVFZW9WR2JzRVZfbzA4b3BUQ1FYcTI3THRmb09CcnZ4WmxRTzlEMWVsT3ZkWDVGWkFfaHR5cmxkMzJNdlY0ODdET3QxcWJzUGkwMlNkOGlyTUZRMA?oc=5"
+      },
+      {
+        "headline": "KKR-Backed Consortium Agrees A$7.7 Billion Steadfast Buyout - Finimize",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbkxPOVhlYnBycnVibzlTbWdlODBsa0tJMlluazQzSlYwcWRKbDg3MWlSZUZNUTduTEhJcUk2a1Y4emF2azZSaXJqZXBmdFE3c1Z6WHZiSzRITkxhY3Z0QmV6MmZGWEtMM1Q5TnVEaW8xU3g5dl96X2JqMW9EdWlYY0NfQ0VNdlVEUU5uWDEzQQ?oc=5"
+      },
       {
         "headline": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
         "source": "CNBC Markets",
@@ -15,12 +27,6 @@
         "source": "Crunchbase News",
         "section": "Investment Banking & Deals",
         "link": "https://news.crunchbase.com/venture/ai-fintech-startup-tabs-founder-hussain/"
-      },
-      {
-        "headline": "Advent International buys stake in $1b Kiwi clinical trials giant NZCR - AFR",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUkd6OG9TemlFaDZHemswUWZLRFluNTlWZTNCbm85dTFIazJoc193UjZjenNiRHU2cUVGX2tRQnFiVVZvbGtFbFlsd3ZBcllSTHZ5RTlEZHZMOGVOcldzWkV5N2hYa1Q1R3JzQ1QyY3dYVG93TTgtbVR1YzFQNVNoNkg5SjFFZ1FuQTVNMWJwSnFVSmxSbGU5dVFmNUp0OXZ6QjNfWmRvd2VQZFA5dV9Hc3RKYXdPQ1Rx?oc=5"
       },
       {
         "headline": "Trump bemoans Fed interest rate policy, says U.S. should be paying much less",
@@ -36,11 +42,11 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 69,
-      "Macro & Economy": 53,
-      "Investment Banking & Deals": 109,
-      "Real Estate & REITs": 39,
-      "Earnings & Results": 155,
+      "Stock Market & Equities": 66,
+      "Macro & Economy": 52,
+      "Investment Banking & Deals": 113,
+      "Real Estate & REITs": 38,
+      "Earnings & Results": 152,
       "Tech & Fintech": 117
     }
   },
