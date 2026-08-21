@@ -2,31 +2,13 @@
   {
     "week": "2026-W34",
     "label": "Week of August 17\u201321, 2026",
-    "generated": "2026-08-21T07:35:23.490166+00:00",
+    "generated": "2026-08-21T13:38:02.994054+00:00",
     "bullets": [
       {
-        "headline": "Bessent's efforts in the Treasury market so far haven't worked. Here's what else he can try",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/08/20/bessents-efforts-in-the-treasury-market-so-far-havent-worked-heres-what-else-he-can-try.html"
-      },
-      {
-        "headline": "Walmart stock tumbles 9% after outlook disappoints Wall Street - CNBC",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55amt5QWtxMUJpbENWejIyM01ubElHcUkyOVZiSnNlZlNxWXBaMlBNWm54XzlIUGFFNnNmMHRCZ3U3U3psVHdJWUdNaW4yc0otbkhuc21SQnlna1pTcnJpd0VDM1lLbWpzcXVIeVMwbFJxc0nSAXhBVV95cUxPMG15Wk5FUlRNWHVzc0RJaDk4N0FzVnhkU3hwQV81bEl4T2FpQnNlWHZDNkZVU1ZGNlNhYnYtTXRKZDRFS3dZSzJnOW5jV3pubWk5VHJGZUxZbXlzVk8xUEtwYUtidTFUR2FKX0FrV213ZGEtRXBlV0E?oc=5"
-      },
-      {
-        "headline": "Senators demand answers from TikTok About \u2018depraved\u2019 experiment",
-        "source": "Fortune",
-        "section": "Stock Market & Equities",
-        "link": "https://fortune.com/2026/08/20/senate-tiktok-experiment/"
-      },
-      {
-        "headline": "Alibaba shares fall 5% as AI spending drives 75% drop in net income",
+        "headline": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/20/alibaba-cloud-revenue.html"
+        "link": "https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html"
       },
       {
         "headline": "From Humanities To AI: How Ali Hussain Built Fintech Tabs Into A $400M Startup",
@@ -39,15 +21,27 @@
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUkd6OG9TemlFaDZHemswUWZLRFluNTlWZTNCbm85dTFIazJoc193UjZjenNiRHU2cUVGX2tRQnFiVVZvbGtFbFlsd3ZBcllSTHZ5RTlEZHZMOGVOcldzWkV5N2hYa1Q1R3JzQ1QyY3dYVG93TTgtbVR1YzFQNVNoNkg5SjFFZ1FuQTVNMWJwSnFVSmxSbGU5dVFmNUp0OXZ6QjNfWmRvd2VQZFA5dV9Hc3RKYXdPQ1Rx?oc=5"
+      },
+      {
+        "headline": "Trump bemoans Fed interest rate policy, says U.S. should be paying much less",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html"
+      },
+      {
+        "headline": "Indian fintech Navi to raise $100 million ahead of planned IPO - Reuters",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR2pEUk5kRkNlMm85UDl0U09uQXB3OFNLc2YtQWt1REZmTjhWOVNqd09CMi1qejBBa2doUHBROVQ2bmpGVFlWdFBlS2V5R0ZtRDVEV3R6VzRfZG5zdEdnT0czTWNkampjdng0NFFYQXN0UzQwdU5NRWhMa0FoSVdzcmV3QWlHNmRQbnVBelpSUmNXU3ZsYzNEMEJ5T0RqWVh3RkkxaUd3?oc=5"
       }
     ],
     "section_counts": {
       "Stock Market & Equities": 69,
-      "Macro & Economy": 51,
-      "Investment Banking & Deals": 111,
+      "Macro & Economy": 53,
+      "Investment Banking & Deals": 109,
       "Real Estate & REITs": 39,
-      "Earnings & Results": 151,
-      "Tech & Fintech": 114
+      "Earnings & Results": 155,
+      "Tech & Fintech": 117
     }
   },
   {
