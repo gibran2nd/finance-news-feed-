@@ -2,8 +2,20 @@
   {
     "week": "2026-W34",
     "label": "Week of August 17\u201321, 2026",
-    "generated": "2026-08-23T13:25:29.024399+00:00",
+    "generated": "2026-08-23T19:16:33.126210+00:00",
     "bullets": [
+      {
+        "headline": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/bill-ackmans-pershing-square-invests-170700368.html"
+      },
+      {
+        "headline": "From rubbish to rail: Global firms feast on undervalued ASX companies - AFR",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUF9wMGRLa1U0RHk4MEZGYWJDaDFsaWpoLTZGd3hnSDFoLU9GR0cwM2NKQlQxcUgyYXZ3NnhRc3NNRXIzWktqcFRqWmxwQ0xZNWRFNl9JMjM4MUlNaFRldDNUZGIwSm1pcFljMllEcmFkX0doN3VHMktwd25aU0NncGx1Q3lKVkM5MkYxcDNBZlpVeFhWOFA1LUJ2M3AxZXJkZ29RRUxrdUg2dmlZYW00dVhVSHU3eDByY3g4cHRReWhwTU9NUS13?oc=5"
+      },
       {
         "headline": "Rising yields rattled the market, but we\u2019re sticking with our favorite AI and retail stocks",
         "source": "CNBC Markets",
@@ -11,10 +23,10 @@
         "link": "https://www.cnbc.com/2026/08/22/rising-yields-rattled-the-market-but-were-sticking-with-our-favorite-ai-and-retail-stocks.html"
       },
       {
-        "headline": "Anthropic IPO filing will show AI backlash as a risk factor, sources say - CNBC",
-        "source": "Google \u2013 IPO",
+        "headline": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+        "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeXdwbzNJcERVMTFvY2JtSkNBMUVaWGpSNlRqYXM1MndRT0lFOWw0NFpURjU4aVFZeTZvdjNRRWs0VWNaWXhzTXQ1QlJ4eUEwR2FXdl9Ca2xIQzVwQmgteVVLRkZneTlHMUt1dXJWNGk3UWladzNVQWZRc3ZpRFlQR2xTbGZLdGlRZzF2RWRvTk5CcVJQM19ZZlA1U2tCN1lkRkHSAacBQVVfeXFMTXQtbkxtMGJVQ0lSUjgwcG1EUFZkb1pWRjY4czE4M3NlQ1RsVWtWOVBESjM2SllMby1jN2haVy1wMWYxR2FnSFpwOUhKT180bVpRTzlETERmYjVQdE1SYjBiYXc0VzRRQnVSUC10Z2lpc0FqZlJibF8waTdOSndRa091YXZwUkRSWnlxbEI3NTYyeW55a1NkZ2NGVTc4YUM3UHZtQ056aGM?oc=5"
+        "link": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html"
       },
       {
         "headline": "Buyout firm Vista explores $3 billion sale of private markets data provider Allvue, sources say - Reuters",
@@ -27,27 +39,15 @@
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbkxPOVhlYnBycnVibzlTbWdlODBsa0tJMlluazQzSlYwcWRKbDg3MWlSZUZNUTduTEhJcUk2a1Y4emF2azZSaXJqZXBmdFE3c1Z6WHZiSzRITkxhY3Z0QmV6MmZGWEtMM1Q5TnVEaW8xU3g5dl96X2JqMW9EdWlYY0NfQ0VNdlVEUU5uWDEzQQ?oc=5"
-      },
-      {
-        "headline": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html"
-      },
-      {
-        "headline": "Trump bemoans Fed interest rate policy, says U.S. should be paying much less",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/08/19/trump-bemoans-fed-interest-rate-policy-says-us-should-be-paying-much-less.html"
       }
     ],
     "section_counts": {
       "Stock Market & Equities": 70,
       "Macro & Economy": 54,
-      "Investment Banking & Deals": 100,
+      "Investment Banking & Deals": 98,
       "Real Estate & REITs": 40,
-      "Earnings & Results": 124,
-      "Tech & Fintech": 92
+      "Earnings & Results": 118,
+      "Tech & Fintech": 93
     }
   },
   {
