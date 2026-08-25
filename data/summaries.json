@@ -2,19 +2,25 @@
   {
     "week": "2026-W35",
     "label": "Week of August 24\u201328, 2026",
-    "generated": "2026-08-25T07:36:35.462548+00:00",
+    "generated": "2026-08-25T13:41:05.701552+00:00",
     "bullets": [
       {
-        "headline": "Shein targets $27 billion Hong Kong IPO \u2014 a fraction of its 2022 valuation",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/08/24/shein-ipo-valuation-hong-kong.html"
+        "headline": "Dick's Sporting Goods stock falls 20% as retailer misses expectations, cites 'challenging' footwear market",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/25/dicks-sporting-goods-dks-earnings-q2-2026.html"
       },
       {
-        "headline": "US set for largest mass visa revocation in history targeting up to 200,000 foreigners, officials say",
-        "source": "NPR Business",
-        "section": "Macro & Economy",
-        "link": "https://www.npr.org/2026/08/25/nx-s1-5944058/us-largest-mass-visa-revocation-200-000-foreigners"
+        "headline": "Lego posts record first-half revenue, CEO touts strong sales at high-end and value pricing",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/25/lego-first-half-2026-revenue.html"
+      },
+      {
+        "headline": "Xpeng shares sink as weak delivery forecast overshadows $6.3 billion robot unit valuation",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/25/xpeng-shares-robot-valuation-china.html"
       },
       {
         "headline": "Porsche Inks $1.5 Billion AI Deal With India\u2019s Tata Consultancy - Bloomberg",
@@ -23,16 +29,10 @@
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM3VNM3JUZFREX29PZ0Y2eTVwUWxiRTNNSU81c1FxeHYtaDVPS2I5RDJkU0x2QjJGV01DM3JZblgwQ05Gczlra1ItRTR1SHJuYzFZc1owejluRTFIZVgtVk40eUFLNEdmc0dMV1RUczBIYXlNYWo3cHBYVDg1M3JHSWdxUzhKR01MdTh0R2FkUHY4enZjSDFtZGNEanU0V2tvTjZPNjBqNFBLMnVHY1JwSkViTQ?oc=5"
       },
       {
-        "headline": "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html"
-      },
-      {
-        "headline": "From rubbish to rail: Global firms feast on undervalued ASX companies - AFR",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUF9wMGRLa1U0RHk4MEZGYWJDaDFsaWpoLTZGd3hnSDFoLU9GR0cwM2NKQlQxcUgyYXZ3NnhRc3NNRXIzWktqcFRqWmxwQ0xZNWRFNl9JMjM4MUlNaFRldDNUZGIwSm1pcFljMllEcmFkX0doN3VHMktwd25aU0NncGx1Q3lKVkM5MkYxcDNBZlpVeFhWOFA1LUJ2M3AxZXJkZ29RRUxrdUg2dmlZYW00dVhVSHU3eDByY3g4cHRReWhwTU9NUS13?oc=5"
+        "headline": "Oura is reportedly eyeing a September IPO that could value it at more than $16B",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/08/24/oura-is-reportedly-eyeing-a-september-ipo-that-could-value-it-at-more-than-16b/"
       },
       {
         "headline": "Buyout firm Vista explores $3 billion sale of private markets data provider Allvue, sources say - Reuters",
@@ -43,11 +43,11 @@
     ],
     "section_counts": {
       "Stock Market & Equities": 71,
-      "Macro & Economy": 50,
-      "Investment Banking & Deals": 105,
+      "Macro & Economy": 52,
+      "Investment Banking & Deals": 104,
       "Real Estate & REITs": 41,
       "Earnings & Results": 105,
-      "Tech & Fintech": 111
+      "Tech & Fintech": 117
     }
   },
   {
