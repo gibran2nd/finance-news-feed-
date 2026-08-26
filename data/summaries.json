@@ -2,52 +2,52 @@
   {
     "week": "2026-W35",
     "label": "Week of August 24\u201328, 2026",
-    "generated": "2026-08-26T13:46:15.988184+00:00",
+    "generated": "2026-08-26T21:30:22.261421+00:00",
     "bullets": [
       {
-        "headline": "Meta settles social media addiction case with California, other states for $16.7 billion",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/08/26/meta-social-media-trial-settlement.html"
-      },
-      {
-        "headline": "Vanguard to acquire fintech platform Altruist for $4 billion - qz.com",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50Yl9kN3BnZmJGQTVWVl9Ec25vRS1TNk42YWl2RVEzUmdtWnUwUjE2bFlNd2NCU1FxMVQ5dWpLYmlfNmg2aTFzSF9lZmJSaEtqeXl6dkxLbHNLUXg2RjJ0LVpRZ1JDOEZzSzgxcEs3TGxWVHM3dmtXZTNwN0dUckk?oc=5"
-      },
-      {
-        "headline": "Kohl\u2019s Falls 6% Despite Raised Guidance and a $150M Tariff Refund, Ross and TJX Hold Flat",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/kohl-falls-6-despite-raised-132046978.html"
-      },
-      {
-        "headline": "TWG Global Mark Walter pushes back on fraud reports amid federal probe",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/twg-global-mark-walter-pushes-131906314.html"
-      },
-      {
-        "headline": "Abercrombie & Fitch raises full-year outlook as Q2 earnings top estimates",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-raises-full-outlook-131700391.html"
-      },
-      {
-        "headline": "Haidilao shares jump as delivery growth and new restaurant brands boost outlook",
+        "headline": "Okta pops 20% after topping estimates as AI threat spikes demand for identity security",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/26/haidilao-shares-delivery-restaurant-growth.html"
+        "link": "https://www.cnbc.com/2026/08/26/okta-okta-earnings-q2-2027.html"
+      },
+      {
+        "headline": "CrowdStrike jumps 11% on record second quarter as 'Mythos moment' drives AI cyber wave",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/26/crowdstrike-crwd-earnings-q2-2027.html"
+      },
+      {
+        "headline": "Salesforce stock jumps 12% on AI growth and Anthropic investment gain",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/26/salesforce-crm-q2-earnings-report-2027.html"
+      },
+      {
+        "headline": "OpenAI releases its official report on the Hugging Face breach",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/"
+      },
+      {
+        "headline": "Vanguard to acquire fintech platform Altruist for $4 billion - Yahoo Finance",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSXJzSGdwY0kzV1RjOHBlVFZ0WlNCWGZaNVV3Q183Z3ZYNDJ3MXNDWHhHSzRFUUFwS2NmbzNGOVNwZmhpLWJ6SWk2THZNOWprNzlpWGJxRUZ3a3dOcTU0TlRsanFMZGl5cDJVRGVMS3RUa2xmd19DT3kwVUtlMjBRMVZoaFhKcWdRX2tzMUxpd05peHBFUF9PeFg1Z0p3NjBVNDN6cXNSaDk2UWs?oc=5"
+      },
+      {
+        "headline": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 65,
-      "Macro & Economy": 52,
-      "Investment Banking & Deals": 111,
+      "Stock Market & Equities": 62,
+      "Macro & Economy": 48,
+      "Investment Banking & Deals": 128,
       "Real Estate & REITs": 42,
-      "Earnings & Results": 115,
-      "Tech & Fintech": 127
+      "Earnings & Results": 130,
+      "Tech & Fintech": 133
     }
   },
   {
