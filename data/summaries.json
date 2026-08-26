@@ -2,8 +2,14 @@
   {
     "week": "2026-W35",
     "label": "Week of August 24\u201328, 2026",
-    "generated": "2026-08-25T19:23:55.395225+00:00",
+    "generated": "2026-08-26T07:38:38.113540+00:00",
     "bullets": [
+      {
+        "headline": "Strong Midstream Q2 2026 Earnings Boost Full-Year Outlook",
+        "source": "Seeking Alpha",
+        "section": "Earnings & Results",
+        "link": "https://seekingalpha.com/article/4940121-strong-midstream-q2-2026-earnings-boost-full-year-outlook?source=feed_tag_earnings"
+      },
       {
         "headline": "Stanley Druckenmiller leads doubters who think Bessent's bond ploys will fail",
         "source": "CNBC Economy",
@@ -11,28 +17,22 @@
         "link": "https://www.cnbc.com/2026/08/25/stanley-druckenmiller-leads-doubters-who-think-bessents-bond-ploys-will-fail.html"
       },
       {
-        "headline": "Dick's Sporting Goods stock falls 25% as retailer misses expectations, cites 'challenging' footwear market",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/25/dicks-sporting-goods-dks-earnings-q2-2026.html"
+        "headline": "Porsche Inks $1.5 Billion AI Deal With India\u2019s Tata Consultancy - Bloomberg.com",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM3VNM3JUZFREX29PZ0Y2eTVwUWxiRTNNSU81c1FxeHYtaDVPS2I5RDJkU0x2QjJGV01DM3JZblgwQ05Gczlra1ItRTR1SHJuYzFZc1owejluRTFIZVgtVk40eUFLNEdmc0dMV1RUczBIYXlNYWo3cHBYVDg1M3JHSWdxUzhKR01MdTh0R2FkUHY4enZjSDFtZGNEanU0V2tvTjZPNjBqNFBLMnVHY1JwSkViTQ?oc=5"
       },
       {
-        "headline": "Lego posts record first-half revenue, CEO touts strong sales at high-end and value pricing",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/25/lego-first-half-2026-revenue.html"
+        "headline": "From rubbish to rail: Global firms feast on undervalued ASX companies - AFR",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUF9wMGRLa1U0RHk4MEZGYWJDaDFsaWpoLTZGd3hnSDFoLU9GR0cwM2NKQlQxcUgyYXZ3NnhRc3NNRXIzWktqcFRqWmxwQ0xZNWRFNl9JMjM4MUlNaFRldDNUZGIwSm1pcFljMllEcmFkX0doN3VHMktwd25aU0NncGx1Q3lKVkM5MkYxcDNBZlpVeFhWOFA1LUJ2M3AxZXJkZ29RRUxrdUg2dmlZYW00dVhVSHU3eDByY3g4cHRReWhwTU9NUS13?oc=5"
       },
       {
         "headline": "Buyout firm Vista explores $3 billion sale of private markets data provider Allvue, sources say - Reuters",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUWZvOEdKLWNvVGVFdjVVVmVscElRTHRudGZNakI1N0RQaXpqaDdDX29XclZqQkREeWNMVmlNa29KZVdWSFlNOEh6cl9Ldklka3N1cWxONGE0MFVOSl9LRURmckpFNHFRbko3eTNabUVrUmN1S3NrUDVFZW9WR2JzRVZfbzA4b3BUQ1FYcTI3THRmb09CcnZ4WmxRTzlEMWVsT3ZkWDVGWkFfaHR5cmxkMzJNdlY0ODdET3QxcWJzUGkwMlNkOGlyTUZRMA?oc=5"
-      },
-      {
-        "headline": "Australia's Steadfast agrees to $5.5 billion buyout bid by KKR-backed consortium - Reuters",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVW1oajZqQ2ZRV1ZhUnZtOWpaN1h2UlFzX05adkJZcmtSd3pGZ0lOazgzOVM2bGpMeTBIbF9HMmctT1RnNDBRbTRUckFKcVJQRHNDWkNHUThBaFBVcXg0bnhZcFRZMGVJZk9hN3JRZmUwVTFadVo2dlAybFRuSlNZQVlqSHFSMlBhZ0doQzc1eTVEeTA5MDRpMUFxaVNuX3paaWY5akpXQVZrYU1Ua0k2UFFHcl9hTHBDQjJKZzdWMkFiR182U2hCWE5n?oc=5"
       },
       {
         "headline": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
@@ -42,11 +42,11 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 67,
-      "Macro & Economy": 51,
-      "Investment Banking & Deals": 117,
-      "Real Estate & REITs": 42,
-      "Earnings & Results": 108,
+      "Stock Market & Equities": 64,
+      "Macro & Economy": 52,
+      "Investment Banking & Deals": 120,
+      "Real Estate & REITs": 41,
+      "Earnings & Results": 116,
       "Tech & Fintech": 120
     }
   },
