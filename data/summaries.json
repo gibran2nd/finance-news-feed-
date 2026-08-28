@@ -2,52 +2,46 @@
   {
     "week": "2026-W35",
     "label": "Week of August 24\u201328, 2026",
-    "generated": "2026-08-27T17:59:36.066304+00:00",
+    "generated": "2026-08-28T02:23:25.984411+00:00",
     "bullets": [
       {
-        "headline": "Nvidia jumps nearly 10% after blockbuster earnings boost AI confidence",
+        "headline": "Gap shares jump 12% after company names new Old Navy CEO to revive struggling brand",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/27/gap-q2-2026-earnings.html"
+      },
+      {
+        "headline": "Nvidia adds more than $400 billion in value after blowout earnings boost AI confidence",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html"
       },
       {
-        "headline": "Okta's stock skyrockets 20%, CrowdStrike's surges 15% as rising AI threat boosts earnings",
+        "headline": "CrowdStrike posts best day ever, Okta's stock pops nearly 29% as rising AI threat lifts earnings",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/08/27/okta-skyrockets-20percent-and-crowdstrike-surges-15percent-leading-cyber-rally.html"
       },
       {
-        "headline": "As Jackson Hole conference kicks off, three Fed officials warn about inflation - Reuters",
+        "headline": "Fed's Hammack says 'now is the time to act' on raising interest rates - CNBC",
         "source": "Google \u2013 Fed & Rates",
         "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ2dmdW1ZbC1FdlZnZmloZUhxOFAyaGtNT3dOZzBlMVEwWEhKODBzREpxZElwaFNMM1RhNjQySHE0eS1lTENCbk1ob0ZUb2RzbzRiaDhDYXdLaE05dEt5dWpBYWs5RF93XzU5MW84OS1kX3ctdURqdTh6a2RlYXVJU0tkSGNrRU5rSldCZ092ZFhITGxPSWtaSGJFR3U5RmpGR2NiUExZcnNPVjdPX056OXF2RHRwSEp6?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYzhMUzYyajNpakhHREF2VjBuaGFYbzQ4VXd6dUtNMTV0VHBJcVh2a21Lb0pSZFNTaVFHczdHeEUzT1JmRnFWMmQ4bm1hZC1XNlQxeWFpV2FUazVIVXQzZWl3QkM4TGZxak4wUWwxU0dKNW5BUHVWVS01NWMyXzlqODE5ZzRZenZIRGNubjdLeW5OZVdSZHNlSG1SZTJ4M202VjZmZUxn0gGrAUFVX3lxTE55QjRqWHBxbVNNakk1RDlBZTNVTkJEZUljbS1wUXFCVE5XdVhMMFlOOTNwQTJ5YTAxM1RiNDVtQVJHVWctV1JwMXN2Z29HUkNiU2NvWnVyWjFUclFpWm9RektWNFBGR3hQclNjcTE3Y09rRWtTRG5hR1FPNVJEdjA3UzBDc2lxSmswV3U0N0ZWd00xTGlyMUgtXzdjYWc1aHhMLTBBd29PUFdrdw?oc=5"
       },
       {
-        "headline": "CrowdStrike jumps 11% on record second quarter as 'Mythos moment' drives AI cyber wave",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/26/crowdstrike-crwd-earnings-q2-2027.html"
-      },
-      {
-        "headline": "Best Buy beats quarterly estimates and hikes its outlook, but stock falls",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/27/best-buy-bby-q2-2027-earnings.html"
-      },
-      {
-        "headline": "Asian stocks rise as Nvidia earnings forecast beats estimates - The Straits Times",
-        "source": "Google \u2013 Earnings Beats",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMndHeW5EUWVOLW5xR2FiQ1BsS2lrLUtJV0FfTFhfWElUQnRGbTQ2alIzNWJOYW1LWHpjQm8yYnhYVXRteW1kSmJVVVlwSFhzOThQaVBTNk1qN1YyV3k3OGoyY0Y4RF9KRlp0U1JRQUV4Zl8ybEw5dVZsT0N1SnM2WmY3c1RlV2dMd3REc1paWDBSSFAyVmNfSExobHNvVXhK?oc=5"
+        "headline": "Socure Secures $156M at $5.2B Valuation, Acquires AI Fraud Investigation Startup Fravity",
+        "source": "Crunchbase News",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.crunchbase.com/venture/socure-raises-acquires-agentic-ai-startup-fravity/"
       }
     ],
     "section_counts": {
       "Stock Market & Equities": 67,
-      "Macro & Economy": 51,
-      "Investment Banking & Deals": 141,
+      "Macro & Economy": 52,
+      "Investment Banking & Deals": 157,
       "Real Estate & REITs": 41,
-      "Earnings & Results": 145,
-      "Tech & Fintech": 128
+      "Earnings & Results": 148,
+      "Tech & Fintech": 127
     }
   },
   {
