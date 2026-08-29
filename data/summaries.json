@@ -2,13 +2,19 @@
   {
     "week": "2026-W35",
     "label": "Week of August 24\u201328, 2026",
-    "generated": "2026-08-29T16:55:25.684779+00:00",
+    "generated": "2026-08-29T21:25:16.322374+00:00",
     "bullets": [
       {
         "headline": "K, C or E? Why economists can\u2019t agree on the shape of today\u2019s economy",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/08/29/k-shaped-economy-c-shaped-e-shape.html"
+      },
+      {
+        "headline": "Sony Music, Warner sue Anthropic, alleging a \u201cbrazen campaign\u201d of intellectual property theft",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/technology/ai/articles/sony-music-warner-sue-anthropic-184159740.html"
       },
       {
         "headline": "Apple TV is raising its subscription prices again",
@@ -33,21 +39,15 @@
         "source": "Crunchbase News",
         "section": "Investment Banking & Deals",
         "link": "https://news.crunchbase.com/venture/socure-raises-acquires-agentic-ai-startup-fravity/"
-      },
-      {
-        "headline": "Vanguard to acquire fintech platform Altruist for $4 billion - Yahoo Finance",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSXJzSGdwY0kzV1RjOHBlVFZ0WlNCWGZaNVV3Q183Z3ZYNDJ3MXNDWHhHSzRFUUFwS2NmbzNGOVNwZmhpLWJ6SWk2THZNOWprNzlpWGJxRUZ3a3dOcTU0TlRsanFMZGl5cDJVRGVMS3RUa2xmd19DT3kwVUtlMjBRMVZoaFhKcWdRX2tzMUxpd05peHBFUF9PeFg1Z0p3NjBVNDN6cXNSaDk2UWs?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 67,
-      "Macro & Economy": 60,
-      "Investment Banking & Deals": 123,
+      "Stock Market & Equities": 72,
+      "Macro & Economy": 59,
+      "Investment Banking & Deals": 130,
       "Real Estate & REITs": 41,
-      "Earnings & Results": 158,
-      "Tech & Fintech": 122
+      "Earnings & Results": 156,
+      "Tech & Fintech": 123
     }
   },
   {
