@@ -2,19 +2,25 @@
   {
     "week": "2026-W35",
     "label": "Week of August 24\u201328, 2026",
-    "generated": "2026-08-30T17:05:27.897320+00:00",
+    "generated": "2026-08-30T21:45:30.476550+00:00",
     "bullets": [
+      {
+        "headline": "Aon nears $17 billion deal to buy insurance broker USI, WSJ reports",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/08/30/aon-usi-17-billion-deal-talks.html"
+      },
+      {
+        "headline": "Google Maps changes Lake Ontario label to Lake America in U.S.",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/08/30/google-maps-lake-ontario-label-lake-america-trump-canada-tariffs/"
+      },
       {
         "headline": "Vanguard Agrees to Acquire FinTech Platform Altruist - Hubbis",
         "source": "Google \u2013 Fintech",
         "section": "Tech & Fintech",
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVDRDakxxcV9OTXhtV0cwT2pXSE1GX3RFS080eXNJOUIyc0NHSEJyU2ZsUEswRTJXN3hJb2N6MFVXaGlEaERobmtnY0h6OFI1Ulp3QlpGQjVmbVFUNldDWmhvbXZsbE5RRk4tMjI0dlN2ME4zTXFKbUdfSWlvVTg3SnhjZThhekk?oc=5"
-      },
-      {
-        "headline": "Aon Nears Roughly $17 Billion Deal for Insurance Brokerage USI",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://www.wsj.com/finance/aon-nears-roughly-17-billion-deal-for-insurance-brokerage-usi-fcc9fba9?siteid=yhoof2&yptr=yahoo"
       },
       {
         "headline": "K, C or E? Why economists can\u2019t agree on the shape of today\u2019s economy",
@@ -33,21 +39,15 @@
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
-      },
-      {
-        "headline": "Fed's Hammack says 'now is the time to act' on raising interest rates",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 75,
-      "Macro & Economy": 66,
-      "Investment Banking & Deals": 107,
+      "Stock Market & Equities": 79,
+      "Macro & Economy": 63,
+      "Investment Banking & Deals": 109,
       "Real Estate & REITs": 40,
-      "Earnings & Results": 144,
-      "Tech & Fintech": 112
+      "Earnings & Results": 140,
+      "Tech & Fintech": 108
     }
   },
   {
