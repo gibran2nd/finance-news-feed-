@@ -2,25 +2,25 @@
   {
     "week": "2026-W35",
     "label": "Week of August 24\u201328, 2026",
-    "generated": "2026-08-30T12:27:35.949611+00:00",
+    "generated": "2026-08-30T17:05:27.897320+00:00",
     "bullets": [
       {
-        "headline": "Stripe\u2019s Attempted Takeover of PayPal Has Collapsed\u2014Again - inc.com",
-        "source": "Google \u2013 PE / LBO",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdzFBYTlSWmNsdDEtNmFNU2c5R0UtMS1rUHp5MjNhMUd4dlgwNGNBaUxubjQzbV9Ma3h4N3RrMXVnb3dTNWY0THBJZXF6Ti1NVVBOeG9EYUZrWDNzUnFHS3NLaUExSjJ0Zk9qVHJRUGlreV91M1ZEVjZROWxPcmV3a2Z4RFdNbi1pZW1ub2RHRXJVRWNnY3FPSFdteWVVcnM?oc=5"
+        "headline": "Vanguard Agrees to Acquire FinTech Platform Altruist - Hubbis",
+        "source": "Google \u2013 Fintech",
+        "section": "Tech & Fintech",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVDRDakxxcV9OTXhtV0cwT2pXSE1GX3RFS080eXNJOUIyc0NHSEJyU2ZsUEswRTJXN3hJb2N6MFVXaGlEaERobmtnY0h6OFI1Ulp3QlpGQjVmbVFUNldDWmhvbXZsbE5RRk4tMjI0dlN2ME4zTXFKbUdfSWlvVTg3SnhjZThhekk?oc=5"
+      },
+      {
+        "headline": "Aon Nears Roughly $17 Billion Deal for Insurance Brokerage USI",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://www.wsj.com/finance/aon-nears-roughly-17-billion-deal-for-insurance-brokerage-usi-fcc9fba9?siteid=yhoof2&yptr=yahoo"
       },
       {
         "headline": "K, C or E? Why economists can\u2019t agree on the shape of today\u2019s economy",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/08/29/k-shaped-economy-c-shaped-e-shape.html"
-      },
-      {
-        "headline": "The big lesson from this week's earnings: The AI buildout is not a zero-sum game",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/29/big-lesson-from-this-weeks-earnings-ai-buildout-is-not-a-zero-sum-game.html"
       },
       {
         "headline": "Apple TV is raising its subscription prices again",
@@ -43,11 +43,11 @@
     ],
     "section_counts": {
       "Stock Market & Equities": 75,
-      "Macro & Economy": 63,
-      "Investment Banking & Deals": 109,
+      "Macro & Economy": 66,
+      "Investment Banking & Deals": 107,
       "Real Estate & REITs": 40,
-      "Earnings & Results": 152,
-      "Tech & Fintech": 113
+      "Earnings & Results": 144,
+      "Tech & Fintech": 112
     }
   },
   {
