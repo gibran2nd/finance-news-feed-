@@ -2,8 +2,14 @@
   {
     "week": "2026-W35",
     "label": "Week of August 24\u201328, 2026",
-    "generated": "2026-08-29T21:25:16.322374+00:00",
+    "generated": "2026-08-30T12:27:35.949611+00:00",
     "bullets": [
+      {
+        "headline": "Stripe\u2019s Attempted Takeover of PayPal Has Collapsed\u2014Again - inc.com",
+        "source": "Google \u2013 PE / LBO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdzFBYTlSWmNsdDEtNmFNU2c5R0UtMS1rUHp5MjNhMUd4dlgwNGNBaUxubjQzbV9Ma3h4N3RrMXVnb3dTNWY0THBJZXF6Ti1NVVBOeG9EYUZrWDNzUnFHS3NLaUExSjJ0Zk9qVHJRUGlreV91M1ZEVjZROWxPcmV3a2Z4RFdNbi1pZW1ub2RHRXJVRWNnY3FPSFdteWVVcnM?oc=5"
+      },
       {
         "headline": "K, C or E? Why economists can\u2019t agree on the shape of today\u2019s economy",
         "source": "CNBC Economy",
@@ -11,10 +17,10 @@
         "link": "https://www.cnbc.com/2026/08/29/k-shaped-economy-c-shaped-e-shape.html"
       },
       {
-        "headline": "Sony Music, Warner sue Anthropic, alleging a \u201cbrazen campaign\u201d of intellectual property theft",
-        "source": "Yahoo Finance",
+        "headline": "The big lesson from this week's earnings: The AI buildout is not a zero-sum game",
+        "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/technology/ai/articles/sony-music-warner-sue-anthropic-184159740.html"
+        "link": "https://www.cnbc.com/2026/08/29/big-lesson-from-this-weeks-earnings-ai-buildout-is-not-a-zero-sum-game.html"
       },
       {
         "headline": "Apple TV is raising its subscription prices again",
@@ -23,31 +29,25 @@
         "link": "https://techcrunch.com/2026/08/28/apple-tv-is-raising-its-subscription-prices-again/"
       },
       {
-        "headline": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank - CNBC",
-        "source": "Google \u2013 Fed & Rates",
+        "headline": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
+        "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSDgxMWMxLTZHbGRNUGgxeExaV0VyY2dqZ0ZaeVJaZTNsQ28wSldKeEpYRGN5NEpRNmV1Vjl3QWdheHFoSHFGQ3ZRSEVQQnZWd3R1OWw2dEhlQzBDS1hoanFlWlRaN0YwbVZIN2tUTE91LTRWWEI2MXBVVl9VczFCNm1LVjFFY0c5a3FCZHpFdDDSAZYBQVVfeXFMUC1lQUszSmUyc2dXV1FDVFA0QnFtWXVsLXVicFp0NDk5MVUzX01jOHhaRTBvcm1PbDRpWTFRUWZOa1I1LXNMUnJHX1pxNnlmbWdSUExuLTh6SU5qdEJJVU5vUU1FMDdpSkJMb0dvWUpDeFFjV0VoVWQtRXhpYmozS3pnc0Q4T1BjZXZ3VEpBT0JKOHV6eEpB?oc=5"
+        "link": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
       },
       {
-        "headline": "Marvell shares tumble 6% as outlook underwhelms despite 37% revenue growth",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/08/28/marvell-mrvl-q2-earnings-outlook.html"
-      },
-      {
-        "headline": "Socure Secures $156M at $5.2B Valuation, Acquires AI Fraud Investigation Startup Fravity",
-        "source": "Crunchbase News",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.crunchbase.com/venture/socure-raises-acquires-agentic-ai-startup-fravity/"
+        "headline": "Fed's Hammack says 'now is the time to act' on raising interest rates",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 72,
-      "Macro & Economy": 59,
-      "Investment Banking & Deals": 130,
-      "Real Estate & REITs": 41,
-      "Earnings & Results": 156,
-      "Tech & Fintech": 123
+      "Stock Market & Equities": 75,
+      "Macro & Economy": 63,
+      "Investment Banking & Deals": 109,
+      "Real Estate & REITs": 40,
+      "Earnings & Results": 152,
+      "Tech & Fintech": 113
     }
   },
   {
