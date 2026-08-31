@@ -1,5 +1,50 @@
 [
   {
+    "week": "2026-W36",
+    "label": "Week of August 31 \u2013 September 4, 2026",
+    "generated": "2026-08-31T14:39:22.481176+00:00",
+    "bullets": [
+      {
+        "headline": "Jackson Hole analyst roundup: Warsh's speech sends hike chances higher, may put Fed 'at odds' with Treasury",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html"
+      },
+      {
+        "headline": "Aon Close to Acquiring USI Insurance From KKR in $17 Billion Deal, WSJ Reports - Insurance Journal",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GWXh6UjRGRnVIMzMwaF9WM2R5SGRaNnZIT3NtbEtCS1F1ajVEUkRwem5sQVN5Z29LVURQeWpRVUN1MktYcWxXc3hrVkZIVDFCN0hlTWhINHoxenV0bFE0aTV3VlM4dTF5a1pnc2k3eEdwRTBKYzRV?oc=5"
+      },
+      {
+        "headline": "BYD shares slide as fierce China competition dents first-half earnings",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/08/31/byd-shares-slide-as-fierce-china-competition-dents-first-half-earnings.html"
+      },
+      {
+        "headline": "Vanguard Agrees to Acquire FinTech Platform Altruist - Hubbis",
+        "source": "Google \u2013 Fintech",
+        "section": "Tech & Fintech",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVDRDakxxcV9OTXhtV0cwT2pXSE1GX3RFS080eXNJOUIyc0NHSEJyU2ZsUEswRTJXN3hJb2N6MFVXaGlEaERobmtnY0h6OFI1Ulp3QlpGQjVmbVFUNldDWmhvbXZsbE5RRk4tMjI0dlN2ME4zTXFKbUdfSWlvVTg3SnhjZThhekk?oc=5"
+      },
+      {
+        "headline": "K, C or E? Why economists can\u2019t agree on the shape of today\u2019s economy",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/08/29/k-shaped-economy-c-shaped-e-shape.html"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 78,
+      "Macro & Economy": 56,
+      "Investment Banking & Deals": 111,
+      "Real Estate & REITs": 41,
+      "Earnings & Results": 122,
+      "Tech & Fintech": 110
+    }
+  },
+  {
     "week": "2026-W35",
     "label": "Week of August 24\u201328, 2026",
     "generated": "2026-08-30T21:45:30.476550+00:00",
