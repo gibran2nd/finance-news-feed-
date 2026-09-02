@@ -2,13 +2,25 @@
   {
     "week": "2026-W36",
     "label": "Week of August 31 \u2013 September 4, 2026",
-    "generated": "2026-09-02T16:55:52.590111+00:00",
+    "generated": "2026-09-02T21:27:30.620548+00:00",
     "bullets": [
       {
-        "headline": "Palo Alto Networks beats quarterly estimates on AI demand, continues acquisition spree",
+        "headline": "Broadcom's stock drops 5% as weak guidance overshadows earnings beat",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html"
+        "link": "https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html"
+      },
+      {
+        "headline": "HP Enterprise slides even as it boosts full-year outlook, aided by AI",
+        "source": "Seeking Alpha",
+        "section": "Earnings & Results",
+        "link": "https://seekingalpha.com/news/4639488-hp-enterprise-slides-even-as-it-boosts-full-year-outlook-aided-by-ai?source=feed_tag_earnings"
+      },
+      {
+        "headline": "Fintech Firm Stash Financial Leases 12K SF at 641 Avenue of the Americas",
+        "source": "Commercial Observer",
+        "section": "Real Estate & REITs",
+        "link": "https://commercialobserver.com/2026/09/stash-financial-lease-641-avenue-of-the-americas/"
       },
       {
         "headline": "Private payrolls rose by 38,000 in August, less than expected, ADP reports",
@@ -23,31 +35,19 @@
         "link": "https://news.crunchbase.com/public/startups-to-watch-ipo-ai-chips-fintech-2026/"
       },
       {
-        "headline": "Ares And Scion's Student Housing JV Acquires 4 Communities For $435M",
-        "source": "Bisnow",
-        "section": "Real Estate & REITs",
-        "link": "https://www.bisnow.com/news/national/student-housing/ares-scion-student-housing-jv-acquires-4-communities-for-435m"
-      },
-      {
-        "headline": "ONEOK To Acquire Brazos Midstream Assets For $4.425 Billion As Apollo Invests $9 Billion - Pulse 2.0",
+        "headline": "Aon nears $17 billion deal to buy insurance broker USI from KKR, WSJ reports - CNBC",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX1M1Qm5ZMDhSd0xtMkpkM0U1RWJ1X3dlNVFGUGlQOTJ6VEhSQk1kd0UwWnNiWktZb1luZ0NRMllyVnp6TUM5dEg4djcyVXJYWnRPek9uUUJTeFkzZnlSRzV5dGVYNVdwRE5RRDU2QU84WWpNQ2RmamVOdW1jYnFEV3Izb3ZTUE8xTFRXOGpoRGlYN0hsUl9sS0RkaVF0YUpzVDBReXB3bHphd9IBrwFBVV95cUxPWTFVT3VLUVU3V1FGcWhWX3NTZGZBS3d5cFE0bTg4V1BsdVNoMWRkczR2YmtTcF9FOG5KV2ZiVWdfT0lwNWtfcFliMjVHdzJ5dndWcEpWVXVlRWVtSXhsUXYyVXFZdkFkNHMtS0VEQjFaYVFHdndNMzUtY2hsV2dLdUVyc0FFUzVGRDFFUXBwZHZVbnZ4QWlvR3dUMkYyeTk3UXlTQjNoaUJ2Zy1mRURr?oc=5"
-      },
-      {
-        "headline": "Aon Acquires USI Insurance From KKR in $17 Billion Deal Targeting Middle Market - Insurance Journal",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GWXh6UjRGRnVIMzMwaF9WM2R5SGRaNnZIT3NtbEtCS1F1ajVEUkRwem5sQVN5Z29LVURQeWpRVUN1MktYcWxXc3hrVkZIVDFCN0hlTWhINHoxenV0bFE0aTV3VlM4dTF5a1pnc2k3eEdwRTBKYzRV?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5wWldwM0s4X2p6Zzdad1N6VXZQbThZTXRsNVkwZFdrdUdIS1F1cG91MXBPX1dseGR3VmN4Mk5oSzVVVXN6cl9tcmNqVnBiTUNTYXhzM0J5U3NwbTBsaXhNcVRyX1RvcV9GNnl0LTQtS1dOUldf0gF6QVVfeXFMT3hnMC1HRDJKaXctaGtqV3d5clU5OTB1cXZSaXpNWmI5MGFxMHhiNkdvTDVYbF82S2x1c3dfMy1YTzVBSGdpN2Zxak94dnZXSldqMV9XQkJxd3NWdEJLWDYxT3JCWGRTVHI5ZGRYYnZKWTRRLUY5N2RwaFE?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 61,
-      "Macro & Economy": 55,
-      "Investment Banking & Deals": 128,
-      "Real Estate & REITs": 38,
-      "Earnings & Results": 109,
-      "Tech & Fintech": 110
+      "Stock Market & Equities": 64,
+      "Macro & Economy": 47,
+      "Investment Banking & Deals": 139,
+      "Real Estate & REITs": 39,
+      "Earnings & Results": 117,
+      "Tech & Fintech": 111
     }
   },
   {
