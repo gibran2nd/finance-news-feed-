@@ -2,34 +2,52 @@
   {
     "week": "2026-W36",
     "label": "Week of August 31 \u2013 September 4, 2026",
-    "generated": "2026-09-01T21:30:38.929408+00:00",
+    "generated": "2026-09-02T11:52:35.463860+00:00",
     "bullets": [
       {
-        "headline": "Dell surges 9% after lifting fiscal 2027 forecast on AI server strength",
-        "source": "CNBC Markets",
+        "headline": "U.S. 10-year Treasury yield hits highest level since 2023",
+        "source": "Yahoo Finance",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/09/01/dell-q2-earnings-report-2027.html"
+        "link": "https://finance.yahoo.com/markets/articles/u-10-treasury-yield-hits-112609170.html"
       },
       {
-        "headline": "Palo Alto Networks beats quarterly estimates on AI demand, continues acquisition spree",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html"
+        "headline": "Elastic Beat and Raised Guidance. Wall Street Says One Quarter Isn\u2019t Enough. - Yahoo Finance",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa21EY0VvWjVKZDlVNy1pT1pFektjWFgtaFdQVUg2MlA5cF9QaW5HSUR2WWZzRGYzSFNYWVM3Z0RqUGhBalV4UEFkaTFVNi1DbjZjeGpBZ2FiMUNWSFFBbUxOajNSNjdhZzJNLUpjdHlUdzBPZHBWMGhXNXppUTMyTTZ0VFY5TDRENEZ2YnExM0V4cVhhMEVYR19iSzNaZw?oc=5"
       },
       {
-        "headline": "Aon nears $17 billion deal to buy insurance broker USI from KKR, WSJ reports - CNBC",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5wWldwM0s4X2p6Zzdad1N6VXZQbThZTXRsNVkwZFdrdUdIS1F1cG91MXBPX1dseGR3VmN4Mk5oSzVVVXN6cl9tcmNqVnBiTUNTYXhzM0J5U3NwbTBsaXhNcVRyX1RvcV9GNnl0LTQtS1dOUldf0gF6QVVfeXFMT3hnMC1HRDJKaXctaGtqV3d5clU5OTB1cXZSaXpNWmI5MGFxMHhiNkdvTDVYbF82S2x1c3dfMy1YTzVBSGdpN2Zxak94dnZXSldqMV9XQkJxd3NWdEJLWDYxT3JCWGRTVHI5ZGRYYnZKWTRRLUY5N2RwaFE?oc=5"
+        "headline": "Marvell Beat and Raised Guidance. Why Its Google Deal Still Spooked Investors",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-beat-raised-guidance-why-102009844.html"
+      },
+      {
+        "headline": "Chicago Fed\u2019s Austan Goolsbee wants to get back to \u2018old school\u2019 economics: Focused on ordinary Americans, mindful of AI hype, and sharp on inflation",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/09/02/austan-goolsbee-old-school-economics-consumers-health/"
+      },
+      {
+        "headline": "We're lifting our price target on Palo Alto Networks as AI-driven cyber demand intensifies",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/09/01/were-lifting-our-price-target-on-palo-alto-networks-as-ai-driven-cyber-demand-intensifies.html"
+      },
+      {
+        "headline": "Ares And Scion's Student Housing JV Acquires 4 Communities For $435M",
+        "source": "Bisnow",
+        "section": "Real Estate & REITs",
+        "link": "https://www.bisnow.com/news/national/student-housing/ares-scion-student-housing-jv-acquires-4-communities-for-435m"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 65,
-      "Macro & Economy": 54,
-      "Investment Banking & Deals": 139,
+      "Stock Market & Equities": 73,
+      "Macro & Economy": 61,
+      "Investment Banking & Deals": 140,
       "Real Estate & REITs": 41,
-      "Earnings & Results": 118,
-      "Tech & Fintech": 116
+      "Earnings & Results": 117,
+      "Tech & Fintech": 113
     }
   },
   {
