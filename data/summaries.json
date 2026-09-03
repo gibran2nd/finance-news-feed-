@@ -2,31 +2,25 @@
   {
     "week": "2026-W36",
     "label": "Week of August 31 \u2013 September 4, 2026",
-    "generated": "2026-09-02T21:27:30.620548+00:00",
+    "generated": "2026-09-03T11:51:16.941661+00:00",
     "bullets": [
       {
-        "headline": "Broadcom's stock drops 5% as weak guidance overshadows earnings beat",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html"
-      },
-      {
-        "headline": "HP Enterprise slides even as it boosts full-year outlook, aided by AI",
-        "source": "Seeking Alpha",
-        "section": "Earnings & Results",
-        "link": "https://seekingalpha.com/news/4639488-hp-enterprise-slides-even-as-it-boosts-full-year-outlook-aided-by-ai?source=feed_tag_earnings"
-      },
-      {
-        "headline": "Fintech Firm Stash Financial Leases 12K SF at 641 Avenue of the Americas",
-        "source": "Commercial Observer",
-        "section": "Real Estate & REITs",
-        "link": "https://commercialobserver.com/2026/09/stash-financial-lease-641-avenue-of-the-americas/"
-      },
-      {
-        "headline": "Private payrolls rose by 38,000 in August, less than expected, ADP reports",
+        "headline": "South Korea's semiconductor exports just tripled year-over-year. Is it too much of a good thing?",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
+        "link": "https://www.cnbc.com/2026/09/03/south-korea-semiconductor-exports-surging-concerns.html"
+      },
+      {
+        "headline": "Broadcom guides to big numbers but investors wanted more. Why we're OK to hold for now",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/09/02/broadcom-guides-to-big-numbers-but-investors-wanted-more-why-were-ok-to-hold-for-now.html"
+      },
+      {
+        "headline": "Snowflake spikes 22% on healthy results and AI coding momentum",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/09/02/snowflake-snow-q2-earnings-report-2027.html"
       },
       {
         "headline": "The IPO Window Is Closing. Here Are 8 Startups To Watch.",
@@ -35,19 +29,25 @@
         "link": "https://news.crunchbase.com/public/startups-to-watch-ipo-ai-chips-fintech-2026/"
       },
       {
-        "headline": "Aon nears $17 billion deal to buy insurance broker USI from KKR, WSJ reports - CNBC",
+        "headline": "ONEOK to acquire Brazos\u2019 Midland Basin assets - Midland Reporter-Telegram",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5wWldwM0s4X2p6Zzdad1N6VXZQbThZTXRsNVkwZFdrdUdIS1F1cG91MXBPX1dseGR3VmN4Mk5oSzVVVXN6cl9tcmNqVnBiTUNTYXhzM0J5U3NwbTBsaXhNcVRyX1RvcV9GNnl0LTQtS1dOUldf0gF6QVVfeXFMT3hnMC1HRDJKaXctaGtqV3d5clU5OTB1cXZSaXpNWmI5MGFxMHhiNkdvTDVYbF82S2x1c3dfMy1YTzVBSGdpN2Zxak94dnZXSldqMV9XQkJxd3NWdEJLWDYxT3JCWGRTVHI5ZGRYYnZKWTRRLUY5N2RwaFE?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb3NaempNYzJoZ0ZLa3I3V0pvQlNVbmxfOGNuM0VhQ1ZYTGpZWlhMeTZkLVlJYzJ4cWNvUHB6OHhuOTZrUTg1Z2VTRDRBaU9UM09Uc09JamtfWlVHMGJYa2ZpTVNUd1FFZWJmUERqMHdsX2szRF9JV0F2NmNWVlFzeWs4b0dDeWNsT3NJclozdDIzZE9j?oc=5"
+      },
+      {
+        "headline": "Aon Acquires USI Insurance From KKR in $17 Billion Deal Targeting Middle Market - insurancejournal.com",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GWXh6UjRGRnVIMzMwaF9WM2R5SGRaNnZIT3NtbEtCS1F1ajVEUkRwem5sQVN5Z29LVURQeWpRVUN1MktYcWxXc3hrVkZIVDFCN0hlTWhINHoxenV0bFE0aTV3VlM4dTF5a1pnc2k3eEdwRTBKYzRV?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 64,
-      "Macro & Economy": 47,
-      "Investment Banking & Deals": 139,
+      "Stock Market & Equities": 48,
+      "Macro & Economy": 48,
+      "Investment Banking & Deals": 151,
       "Real Estate & REITs": 39,
-      "Earnings & Results": 117,
-      "Tech & Fintech": 111
+      "Earnings & Results": 138,
+      "Tech & Fintech": 121
     }
   },
   {
