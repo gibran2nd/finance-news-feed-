@@ -2,52 +2,52 @@
   {
     "week": "2026-W36",
     "label": "Week of August 31 \u2013 September 4, 2026",
-    "generated": "2026-09-03T11:51:16.941661+00:00",
+    "generated": "2026-09-03T16:47:05.799603+00:00",
     "bullets": [
       {
-        "headline": "South Korea's semiconductor exports just tripled year-over-year. Is it too much of a good thing?",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/09/03/south-korea-semiconductor-exports-surging-concerns.html"
-      },
-      {
-        "headline": "Broadcom guides to big numbers but investors wanted more. Why we're OK to hold for now",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/09/02/broadcom-guides-to-big-numbers-but-investors-wanted-more-why-were-ok-to-hold-for-now.html"
-      },
-      {
-        "headline": "Snowflake spikes 22% on healthy results and AI coding momentum",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/09/02/snowflake-snow-q2-earnings-report-2027.html"
-      },
-      {
-        "headline": "The IPO Window Is Closing. Here Are 8 Startups To Watch.",
-        "source": "Crunchbase News",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.crunchbase.com/public/startups-to-watch-ipo-ai-chips-fintech-2026/"
-      },
-      {
-        "headline": "ONEOK to acquire Brazos\u2019 Midland Basin assets - Midland Reporter-Telegram",
+        "headline": "Nvidia to acquire AI platform Hugging Face for $12.9 billion - voz.us",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb3NaempNYzJoZ0ZLa3I3V0pvQlNVbmxfOGNuM0VhQ1ZYTGpZWlhMeTZkLVlJYzJ4cWNvUHB6OHhuOTZrUTg1Z2VTRDRBaU9UM09Uc09JamtfWlVHMGJYa2ZpTVNUd1FFZWJmUERqMHdsX2szRF9JV0F2NmNWVlFzeWs4b0dDeWNsT3NJclozdDIzZE9j?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeklLa08yNHRISnhzUTIyNkdmR2RFdWVhMEU3cUFwemJyV3g5ZXpNTjk4cWw5UC1GWko3c3lUaF9rQ0tRckV3TTBiOWd0dUFZMlNvcWVIWWJNamEyaERSSVFmeTVCbWpLVW45S1lUTjFCa3pDQUJnRTNKalJqVy1BVE53UEV5dnZyUW9kTzk0VjM2OXp4dl9WQ1hxbllkSEJ5TzRxMXlXQ2Y5MDNKR1E?oc=5"
       },
       {
-        "headline": "Aon Acquires USI Insurance From KKR in $17 Billion Deal Targeting Middle Market - insurancejournal.com",
+        "headline": "Nvidia\u2019s Hugging Face Acquisition Is a $12.9 Billion Bet on Open-Source AI",
+        "source": "Wired Business",
+        "section": "Tech & Fintech",
+        "link": "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai/"
+      },
+      {
+        "headline": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/"
+      },
+      {
+        "headline": "'Danger zone of extreme weather': UN warns of supersized El Ni\u00f1o set to hit global economy and markets",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/09/03/supersized-el-nino-un-economy.html"
+      },
+      {
+        "headline": "KKR to Acquire A1 Garage Door Service for About $2 Billion - marketscreener.com",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTFI4V3FRX25nSGhvREVwOFdYb1lOZVBydkRQNk1mNjJTVzZfakQteVFDTmpETkd1a0NuUE1rN0ZLM0cxTHlPRXdUbk11MktCb2dnb05QVEN2Y2FiZnpQTHNWci1wQXdMTWM4WEJ4QWtYMTVLS2J0WUZYdnNUOVdlV3pValcwN1ZXX0dZcHB3a3pyWWozWEtwdEJWNllaU3ZYTTB1bEJEaVBmeDQ0MkJF?oc=5"
+      },
+      {
+        "headline": "Aon Acquires USI Insurance From KKR in $17 Billion Deal Targeting Middle Market - Insurance Journal",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GWXh6UjRGRnVIMzMwaF9WM2R5SGRaNnZIT3NtbEtCS1F1ajVEUkRwem5sQVN5Z29LVURQeWpRVUN1MktYcWxXc3hrVkZIVDFCN0hlTWhINHoxenV0bFE0aTV3VlM4dTF5a1pnc2k3eEdwRTBKYzRV?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 48,
-      "Macro & Economy": 48,
+      "Stock Market & Equities": 66,
+      "Macro & Economy": 50,
       "Investment Banking & Deals": 151,
-      "Real Estate & REITs": 39,
-      "Earnings & Results": 138,
-      "Tech & Fintech": 121
+      "Real Estate & REITs": 38,
+      "Earnings & Results": 119,
+      "Tech & Fintech": 120
     }
   },
   {
