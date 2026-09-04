@@ -2,52 +2,46 @@
   {
     "week": "2026-W36",
     "label": "Week of August 31 \u2013 September 4, 2026",
-    "generated": "2026-09-04T11:54:24.067773+00:00",
+    "generated": "2026-09-04T16:40:11.753317+00:00",
     "bullets": [
       {
-        "headline": "Zscaler stock rises on earnings beat, upbeat guidance",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/09/03/zscaler-zs-q4-earnings-2026.html"
-      },
-      {
-        "headline": "Samsara jumps as it boosts full-year outlook",
-        "source": "Seeking Alpha",
-        "section": "Earnings & Results",
-        "link": "https://seekingalpha.com/news/4640136-samsara-jumps-as-it-boosts-full-year-outlook?source=feed_tag_earnings"
-      },
-      {
-        "headline": "The big August jobs report is due out Friday. Here's what to expect for what has been a jobless summer",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html"
-      },
-      {
-        "headline": "OpenAI launches GPT-6 Astra, its most powerful model yet, and touts its ability to use your computer",
-        "source": "Fortune",
-        "section": "Stock Market & Equities",
-        "link": "https://fortune.com/2026/09/03/openai-debuts-gpt-6-astra-computer-use-greg-brockman-says-start-of-agi/"
-      },
-      {
-        "headline": "Fed Governor Waller indicates he will support holding rates steady at September meeting - CNBC",
+        "headline": "Surprisingly strong jobs report could set stage for Fed rate hike - Politico",
         "source": "Google \u2013 Fed & Rates",
         "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxON2J1REZ3U04tQUUxbFk2SjB5b1lHLU5kXzhaZi1GUmdaa0c3SVJuTldqZ3ppWEc1STBsMzBKMlVLQ2oycUF5SVh0WXh4X1ZMbDRRaDZRYlB3TFVmNV9CUDkzbjFtT2Jka2UycVF6N0pfQzMwU21mdDNxUFA3RlRxTU1nUFJVUU1IQnFrS1FabER0N3ZBX2ZJRXNKbGU4U19CZUdBeEpuX1VsZUhWdVBFOXZUUE1Ubl9SejIwQnhjS0ppZ9IBxwFBVV95cUxPRHlvbVBOcHFJVm40TGtsUWFBbmZUWjBIXzdGMHAwU2VXSmlHS1FhVnJlYmxFX1hHNEFsNUg4VmFFZUp1SzAydzllc3BBaEVrMFdzQ0hlV2oxVDJBd2dpNldpLWUybjJsX3hRdGdmdWtWUGEwOEI2MGFBYlBiRjZYSUEzeHhHcnpNQ002QjdYUGNueWZrcHJTU0RBNUlEYVRtTHV6WFZTN2hTeUl2MHJyOFJ5ejZqSkU4VEtrWG5xVjNhWWExZGZR?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2l4UGk5eTBxUUdEblVsQmhITGpsZDdram84VTJlUE9DdE1CSWNxendPOXJIZ1pta3VQX2VCRkpWRG5QQUJPaFk5X1I4Z21LQlZOZnVmNHRNVkxBTEk5NzRUTEg3dmthdWRLTFNNRm5lTHlUd051a3pqdml4elI3eQ?oc=5"
       },
       {
-        "headline": "Nvidia\u2019s Hugging Face Acquisition Is a $12.9 Billion Bet on Open-Source AI",
-        "source": "Wired Business",
-        "section": "Tech & Fintech",
-        "link": "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai/"
+        "headline": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
+      },
+      {
+        "headline": "The big business of personal protection: How private security became a $50 billion industry",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/09/04/private-security-spending-crime-allied-universal.html"
+      },
+      {
+        "headline": "Lululemon stock plunges 20% on disappointing earnings and outlook",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/09/03/lululemon-lulu-q2-2026-earnings.html"
+      },
+      {
+        "headline": "Fed Governor Waller indicates he will support holding rates steady at September meeting",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 62,
-      "Macro & Economy": 71,
-      "Investment Banking & Deals": 169,
+      "Stock Market & Equities": 68,
+      "Macro & Economy": 70,
+      "Investment Banking & Deals": 74,
       "Real Estate & REITs": 40,
-      "Earnings & Results": 105,
-      "Tech & Fintech": 132
+      "Earnings & Results": 43,
+      "Tech & Fintech": 128
     }
   },
   {
