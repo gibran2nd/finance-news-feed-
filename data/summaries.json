@@ -2,14 +2,8 @@
   {
     "week": "2026-W36",
     "label": "Week of August 31 \u2013 September 4, 2026",
-    "generated": "2026-09-03T21:31:25.019043+00:00",
+    "generated": "2026-09-04T11:54:24.067773+00:00",
     "bullets": [
-      {
-        "headline": "Lululemon stock plunges 15% on disappointing earnings and outlook",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/09/03/lululemon-lulu-q2-2026-earnings.html"
-      },
       {
         "headline": "Zscaler stock rises on earnings beat, upbeat guidance",
         "source": "CNBC Markets",
@@ -29,25 +23,31 @@
         "link": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html"
       },
       {
-        "headline": "OpenAI launches GPT-6 Astra, its most powerful model yet and touts its ability to use your computer",
+        "headline": "OpenAI launches GPT-6 Astra, its most powerful model yet, and touts its ability to use your computer",
         "source": "Fortune",
         "section": "Stock Market & Equities",
         "link": "https://fortune.com/2026/09/03/openai-debuts-gpt-6-astra-computer-use-greg-brockman-says-start-of-agi/"
       },
       {
-        "headline": "The Big Hug: NVIDIA to acquire Hugging Face for USD 12.93 billion - dqindia.com",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbDNodXA3b3Awc0NpR0h0MVFSbGh6LXcxU1ZodHN3dFNPclpHVkhKbDhuWC1fbGtxM3Y3bTkzdms3c2tJcHRqckdvYlg0cFk2UnZXRFhCZWpsaGhQeUlLd3BYSTVFdi1icnJwS2RGQ1FRV1B4VDJQSVRaOHVGa0lVaDdkM1NITWN0WnVoTHdkOTdtd0hrd1ZXYnlWdUc2RzJUVGVR0gGjAUFVX3lxTE9sM2h1cDdvcDBzQ2lHSHQxUVJsaHotdzFTVmh0c3d0U09yWkdWSEpsOG5YLV9sa3EzdjdtOTN2azdza0lwdGpyR29iWDRwWTZSdldEWEJlamxoaFB5SUt3cFhJNUV2LWJycnBLZEZDUVFXUHhUMlBJVFo4dUZrSVVoN2QzU0hNY3RadWhMd2Q5N213SGt3VldieVZ1RzZHMlRUZVE?oc=5"
+        "headline": "Fed Governor Waller indicates he will support holding rates steady at September meeting - CNBC",
+        "source": "Google \u2013 Fed & Rates",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxON2J1REZ3U04tQUUxbFk2SjB5b1lHLU5kXzhaZi1GUmdaa0c3SVJuTldqZ3ppWEc1STBsMzBKMlVLQ2oycUF5SVh0WXh4X1ZMbDRRaDZRYlB3TFVmNV9CUDkzbjFtT2Jka2UycVF6N0pfQzMwU21mdDNxUFA3RlRxTU1nUFJVUU1IQnFrS1FabER0N3ZBX2ZJRXNKbGU4U19CZUdBeEpuX1VsZUhWdVBFOXZUUE1Ubl9SejIwQnhjS0ppZ9IBxwFBVV95cUxPRHlvbVBOcHFJVm40TGtsUWFBbmZUWjBIXzdGMHAwU2VXSmlHS1FhVnJlYmxFX1hHNEFsNUg4VmFFZUp1SzAydzllc3BBaEVrMFdzQ0hlV2oxVDJBd2dpNldpLWUybjJsX3hRdGdmdWtWUGEwOEI2MGFBYlBiRjZYSUEzeHhHcnpNQ002QjdYUGNueWZrcHJTU0RBNUlEYVRtTHV6WFZTN2hTeUl2MHJyOFJ5ejZqSkU4VEtrWG5xVjNhWWExZGZR?oc=5"
+      },
+      {
+        "headline": "Nvidia\u2019s Hugging Face Acquisition Is a $12.9 Billion Bet on Open-Source AI",
+        "source": "Wired Business",
+        "section": "Tech & Fintech",
+        "link": "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai/"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 59,
-      "Macro & Economy": 75,
-      "Investment Banking & Deals": 163,
-      "Real Estate & REITs": 38,
-      "Earnings & Results": 137,
-      "Tech & Fintech": 128
+      "Stock Market & Equities": 62,
+      "Macro & Economy": 71,
+      "Investment Banking & Deals": 169,
+      "Real Estate & REITs": 40,
+      "Earnings & Results": 105,
+      "Tech & Fintech": 132
     }
   },
   {
