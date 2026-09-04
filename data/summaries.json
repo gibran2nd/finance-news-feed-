@@ -2,19 +2,13 @@
   {
     "week": "2026-W36",
     "label": "Week of August 31 \u2013 September 4, 2026",
-    "generated": "2026-09-04T16:40:11.753317+00:00",
+    "generated": "2026-09-04T21:09:32.856367+00:00",
     "bullets": [
       {
-        "headline": "Surprisingly strong jobs report could set stage for Fed rate hike - Politico",
-        "source": "Google \u2013 Fed & Rates",
-        "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2l4UGk5eTBxUUdEblVsQmhITGpsZDdram84VTJlUE9DdE1CSWNxendPOXJIZ1pta3VQX2VCRkpWRG5QQUJPaFk5X1I4Z21LQlZOZnVmNHRNVkxBTEk5NzRUTEg3dmthdWRLTFNNRm5lTHlUd051a3pqdml4elI3eQ?oc=5"
-      },
-      {
-        "headline": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
+        "headline": "Women accounted for almost all of job gains in August. Here's why",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
+        "link": "https://www.cnbc.com/2026/09/04/jobs-report-women-payrolls.html"
       },
       {
         "headline": "The big business of personal protection: How private security became a $50 billion industry",
@@ -27,21 +21,15 @@
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/09/03/lululemon-lulu-q2-2026-earnings.html"
-      },
-      {
-        "headline": "Fed Governor Waller indicates he will support holding rates steady at September meeting",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 68,
-      "Macro & Economy": 70,
-      "Investment Banking & Deals": 74,
-      "Real Estate & REITs": 40,
-      "Earnings & Results": 43,
-      "Tech & Fintech": 128
+      "Stock Market & Equities": 60,
+      "Macro & Economy": 44,
+      "Investment Banking & Deals": 72,
+      "Real Estate & REITs": 37,
+      "Earnings & Results": 20,
+      "Tech & Fintech": 119
     }
   },
   {
