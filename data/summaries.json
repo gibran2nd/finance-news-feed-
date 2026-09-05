@@ -2,8 +2,14 @@
   {
     "week": "2026-W36",
     "label": "Week of August 31 \u2013 September 4, 2026",
-    "generated": "2026-09-05T11:03:40.657641+00:00",
+    "generated": "2026-09-05T15:42:47.747321+00:00",
     "bullets": [
+      {
+        "headline": "From \u2018mystery vacations\u2019 to hostels, budget travelers get thrifty as prices rise",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/09/05/budget-travel-vacation-costs.html"
+      },
       {
         "headline": "Women accounted for almost all of job gains in August. Here's why",
         "source": "CNBC Economy",
@@ -14,7 +20,7 @@
         "headline": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1% - CNBC",
         "source": "Google \u2013 Fed & Rates",
         "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CWWEzcDI3bDlYbmQwMXd3dXdEWFRfeFl1RnpKamFQcXk4cFZpeHk3b29CSENaam5iaWFUb3podkRBY1MySFVPdWhiR2tqMVNtODFOUXptNjVTR2xyaG4xUml3TDdyX0NmWWI5Y9IBckFVX3lxTFBEV2xVamRtYmZwNllaVV92YW5DSlBUbDhJSkJKX1ZKZFlPMXpFOHByaWhNeUs0Q2U4WWM5OVBLMTFMaTdPSGZBeTVESmZkOUh4aFdQWmZNNGpETFh0bVY2dFFsN2oxRnE3dXFVeHhwNnhXUQ?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CWWEzcDI3bDlYbmQwMXd3dXdEWFRfeFl1RnpKamFQcXk4cFZpeHk3b29CSENaam5iaWFUb3podkRBY1MySFVPdWhiR2tqMVNtODFOUXptNjVTR2xyaG4xUml3TDdyX0NmWWI5Yw?oc=5"
       },
       {
         "headline": "Strong U.S. Jobs Report Sets the Stage for Possible Rate Hike",
@@ -33,21 +39,15 @@
         "source": "Wired Business",
         "section": "Tech & Fintech",
         "link": "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai/"
-      },
-      {
-        "headline": "Lululemon stock plunges 20% on disappointing earnings and outlook",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/09/03/lululemon-lulu-q2-2026-earnings.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 60,
-      "Macro & Economy": 74,
-      "Investment Banking & Deals": 169,
-      "Real Estate & REITs": 39,
-      "Earnings & Results": 124,
-      "Tech & Fintech": 110
+      "Stock Market & Equities": 66,
+      "Macro & Economy": 73,
+      "Investment Banking & Deals": 180,
+      "Real Estate & REITs": 40,
+      "Earnings & Results": 122,
+      "Tech & Fintech": 109
     }
   },
   {
