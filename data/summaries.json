@@ -2,7 +2,7 @@
   {
     "week": "2026-W36",
     "label": "Week of August 31 \u2013 September 4, 2026",
-    "generated": "2026-09-04T21:09:32.856367+00:00",
+    "generated": "2026-09-05T11:03:40.657641+00:00",
     "bullets": [
       {
         "headline": "Women accounted for almost all of job gains in August. Here's why",
@@ -11,10 +11,28 @@
         "link": "https://www.cnbc.com/2026/09/04/jobs-report-women-payrolls.html"
       },
       {
+        "headline": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1% - CNBC",
+        "source": "Google \u2013 Fed & Rates",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CWWEzcDI3bDlYbmQwMXd3dXdEWFRfeFl1RnpKamFQcXk4cFZpeHk3b29CSENaam5iaWFUb3podkRBY1MySFVPdWhiR2tqMVNtODFOUXptNjVTR2xyaG4xUml3TDdyX0NmWWI5Y9IBckFVX3lxTFBEV2xVamRtYmZwNllaVV92YW5DSlBUbDhJSkJKX1ZKZFlPMXpFOHByaWhNeUs0Q2U4WWM5OVBLMTFMaTdPSGZBeTVESmZkOUh4aFdQWmZNNGpETFh0bVY2dFFsN2oxRnE3dXFVeHhwNnhXUQ?oc=5"
+      },
+      {
+        "headline": "Strong U.S. Jobs Report Sets the Stage for Possible Rate Hike",
+        "source": "Commercial Observer",
+        "section": "Real Estate & REITs",
+        "link": "https://commercialobserver.com/2026/09/us-bureau-labor-statistics-jobs-august-2026/"
+      },
+      {
         "headline": "The big business of personal protection: How private security became a $50 billion industry",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/09/04/private-security-spending-crime-allied-universal.html"
+      },
+      {
+        "headline": "Nvidia\u2019s Hugging Face Acquisition Is a $12.9 Billion Bet on Open-Source AI",
+        "source": "Wired Business",
+        "section": "Tech & Fintech",
+        "link": "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai/"
       },
       {
         "headline": "Lululemon stock plunges 20% on disappointing earnings and outlook",
@@ -25,11 +43,11 @@
     ],
     "section_counts": {
       "Stock Market & Equities": 60,
-      "Macro & Economy": 44,
-      "Investment Banking & Deals": 72,
-      "Real Estate & REITs": 37,
-      "Earnings & Results": 20,
-      "Tech & Fintech": 119
+      "Macro & Economy": 74,
+      "Investment Banking & Deals": 169,
+      "Real Estate & REITs": 39,
+      "Earnings & Results": 124,
+      "Tech & Fintech": 110
     }
   },
   {
