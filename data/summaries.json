@@ -2,8 +2,14 @@
   {
     "week": "2026-W36",
     "label": "Week of August 31 \u2013 September 4, 2026",
-    "generated": "2026-09-06T15:54:44.907881+00:00",
+    "generated": "2026-09-06T20:57:47.834005+00:00",
     "bullets": [
+      {
+        "headline": "Upcoming inflation data could determine if the Federal Reserve hikes interest rates soon, leaving Wall Street on edge",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/09/06/fed-rate-hikes-inflation-data-ppi-cpi-august-tariffs-oil-prices/"
+      },
       {
         "headline": "From \u2018mystery vacations\u2019 to hostels, budget travelers get thrifty as prices rise",
         "source": "CNBC Economy",
@@ -33,21 +39,15 @@
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
-      },
-      {
-        "headline": "Strong U.S. Jobs Report Sets the Stage for Possible Rate Hike",
-        "source": "Commercial Observer",
-        "section": "Real Estate & REITs",
-        "link": "https://commercialobserver.com/2026/09/us-bureau-labor-statistics-jobs-august-2026/"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 65,
-      "Macro & Economy": 75,
-      "Investment Banking & Deals": 166,
+      "Stock Market & Equities": 69,
+      "Macro & Economy": 79,
+      "Investment Banking & Deals": 163,
       "Real Estate & REITs": 40,
-      "Earnings & Results": 124,
-      "Tech & Fintech": 107
+      "Earnings & Results": 119,
+      "Tech & Fintech": 96
     }
   },
   {
