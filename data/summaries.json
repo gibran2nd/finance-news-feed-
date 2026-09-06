@@ -2,13 +2,19 @@
   {
     "week": "2026-W36",
     "label": "Week of August 31 \u2013 September 4, 2026",
-    "generated": "2026-09-05T20:50:20.589349+00:00",
+    "generated": "2026-09-06T11:27:24.791688+00:00",
     "bullets": [
       {
         "headline": "From \u2018mystery vacations\u2019 to hostels, budget travelers get thrifty as prices rise",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/09/05/budget-travel-vacation-costs.html"
+      },
+      {
+        "headline": "Trump turns up the heat on Warsh as Fed rate hike looms - CNBC",
+        "source": "Google \u2013 Fed & Rates",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DYTJSa3ZaZFdjOVppNUhHcUgwZUkzNzNkQ2dQbkxfZTV2czZOREZKemRxUDhtSlgyLVQ1eEQyRlVxRWFZNXVQSVdFUTVfc0FqMzFBSXE4Qkl1VWtzdmdQWllkSkl5QjJqZXpSOEVYWUpEU3d1TFNQeVNqX07SAYIBQVVfeXFMTi1HQkxWWlgzN1hYVGt2elQwUUVzcWJIai1VclJVUkNwVDI0ME9ZRjBlSzBtT0xoMTFVMWJfUkdWT0VPZmdrc0RRLXVDd0hkeFBpMEhMNzZhSTZ2SUx1QkQ2RW5UTVk2a3VPVjgwWWdoX1Q3b0I5THlCMHdJWHJGMWFidw?oc=5"
       },
       {
         "headline": "We got more defensive last week as Wall Street raised the bar for AI stocks",
@@ -23,19 +29,25 @@
         "link": "https://www.cnbc.com/2026/09/04/jobs-report-women-payrolls.html"
       },
       {
-        "headline": "The big business of personal protection: How private security became a $50 billion industry",
+        "headline": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/09/04/private-security-spending-crime-allied-universal.html"
+        "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
+      },
+      {
+        "headline": "Strong U.S. Jobs Report Sets the Stage for Possible Rate Hike",
+        "source": "Commercial Observer",
+        "section": "Real Estate & REITs",
+        "link": "https://commercialobserver.com/2026/09/us-bureau-labor-statistics-jobs-august-2026/"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 67,
-      "Macro & Economy": 45,
-      "Investment Banking & Deals": 55,
-      "Real Estate & REITs": 37,
-      "Earnings & Results": 20,
-      "Tech & Fintech": 36
+      "Stock Market & Equities": 71,
+      "Macro & Economy": 72,
+      "Investment Banking & Deals": 169,
+      "Real Estate & REITs": 40,
+      "Earnings & Results": 125,
+      "Tech & Fintech": 106
     }
   },
   {
