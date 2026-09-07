@@ -2,8 +2,14 @@
   {
     "week": "2026-W37",
     "label": "Week of September 7\u201311, 2026",
-    "generated": "2026-09-07T13:10:26.329411+00:00",
+    "generated": "2026-09-07T21:51:08.132408+00:00",
     "bullets": [
+      {
+        "headline": "Apple: I Don't See Any New Ideas That Could Be Bigger Than The iPhone",
+        "source": "Seeking Alpha",
+        "section": "Earnings & Results",
+        "link": "https://seekingalpha.com/article/4943527-apple-i-dont-see-any-new-ideas-that-could-be-bigger-than-the-iphone?source=feed_tag_earnings"
+      },
       {
         "headline": "Japan's foreign reserves drop by a record $80 billion in August following yen intervention",
         "source": "CNBC Economy",
@@ -11,43 +17,19 @@
         "link": "https://www.cnbc.com/2026/09/07/japan-foreign-reserves-yen-intervention.html"
       },
       {
-        "headline": "U.S. debt is even worse than it seems, and rising Treasury yields are now an \u2018all-hands-on-deck situation,\u2019 top economist warns",
-        "source": "Fortune",
-        "section": "Stock Market & Equities",
-        "link": "https://fortune.com/2026/09/06/us-debt-demand-warning-treasury-long-term-yields-deficit-bond-investors/"
-      },
-      {
-        "headline": "From \u2018mystery vacations\u2019 to hostels, budget travelers get thrifty as prices rise",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/09/05/budget-travel-vacation-costs.html"
-      },
-      {
-        "headline": "Trump turns up the heat on Warsh as Fed rate hike looms - CNBC",
-        "source": "Google \u2013 Fed & Rates",
-        "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DYTJSa3ZaZFdjOVppNUhHcUgwZUkzNzNkQ2dQbkxfZTV2czZOREZKemRxUDhtSlgyLVQ1eEQyRlVxRWFZNXVQSVdFUTVfc0FqMzFBSXE4Qkl1VWtzdmdQWllkSkl5QjJqZXpSOEVYWUpEU3d1TFNQeVNqX07SAYIBQVVfeXFMTi1HQkxWWlgzN1hYVGt2elQwUUVzcWJIai1VclJVUkNwVDI0ME9ZRjBlSzBtT0xoMTFVMWJfUkdWT0VPZmdrc0RRLXVDd0hkeFBpMEhMNzZhSTZ2SUx1QkQ2RW5UTVk2a3VPVjgwWWdoX1Q3b0I5THlCMHdJWHJGMWFidw?oc=5"
-      },
-      {
         "headline": "Women accounted for almost all of job gains in August. Here's why",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/09/04/jobs-report-women-payrolls.html"
-      },
-      {
-        "headline": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 67,
-      "Macro & Economy": 68,
-      "Investment Banking & Deals": 129,
-      "Real Estate & REITs": 40,
-      "Earnings & Results": 117,
-      "Tech & Fintech": 127
+      "Stock Market & Equities": 68,
+      "Macro & Economy": 42,
+      "Investment Banking & Deals": 53,
+      "Real Estate & REITs": 38,
+      "Earnings & Results": 20,
+      "Tech & Fintech": 33
     }
   },
   {
