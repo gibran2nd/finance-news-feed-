@@ -2,8 +2,14 @@
   {
     "week": "2026-W37",
     "label": "Week of September 7\u201311, 2026",
-    "generated": "2026-09-08T11:55:12.922503+00:00",
+    "generated": "2026-09-08T16:56:28.520455+00:00",
     "bullets": [
+      {
+        "headline": "Qualcomm issues Amazon warrants to acquire $4 billion worth of chipmaker's stock as part of AI infrastructure deal",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html"
+      },
       {
         "headline": "China's imports in August miss estimates as calls for rebalancing trade grow",
         "source": "CNBC Economy",
@@ -25,11 +31,11 @@
     ],
     "section_counts": {
       "Stock Market & Equities": 65,
-      "Macro & Economy": 55,
-      "Investment Banking & Deals": 97,
-      "Real Estate & REITs": 41,
+      "Macro & Economy": 53,
+      "Investment Banking & Deals": 105,
+      "Real Estate & REITs": 40,
       "Earnings & Results": 110,
-      "Tech & Fintech": 107
+      "Tech & Fintech": 117
     }
   },
   {
