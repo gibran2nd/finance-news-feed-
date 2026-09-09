@@ -2,14 +2,8 @@
   {
     "week": "2026-W37",
     "label": "Week of September 7\u201311, 2026",
-    "generated": "2026-09-09T12:04:04.562858+00:00",
+    "generated": "2026-09-09T16:57:08.456996+00:00",
     "bullets": [
-      {
-        "headline": "Jim Cramer says investors are too focused on AI stocks",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-investors-too-113716718.html"
-      },
       {
         "headline": "U.S. reveals import ban on slew of Canadian goods as trade war escalates",
         "source": "CNBC Economy",
@@ -17,10 +11,16 @@
         "link": "https://www.cnbc.com/2026/09/09/us-canada-trade-war-import-ban.html"
       },
       {
-        "headline": "Chime Financial Signals Breakout On Strong Guidance, Key Acquisition - Investor's Business Daily",
-        "source": "Google \u2013 Fintech",
-        "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONFJXY3BBbVJnV3JpWHlTN3phRERuaXlRUElTNnM1ektBWkh3TVFlWldlMkZ0VW9ndjFRd00yUnlQazBheG9UUFNsUEVEa2ZyTEpqSjgtTmhiZUVDLU55REZSbXpjQXlUVzA3RmVncUJrbTNJdnZ6Q3htR09uVXB3VjVHd0tLeGNybThqQlpib2dURDFmRS1ETA?oc=5"
+        "headline": "Chime Wins Price-Target Hikes On Stride Deal And Raised Guidance, But Shares Slash Early Gains",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://www.investors.com/news/chime-financial-acquire-stride-q3-outlook-chym-stock-price-target-breakout/?src=A00220&yptr=yahoo"
+      },
+      {
+        "headline": "Signet Jewelers jumps as profit beats estimates, full-year outlook raised",
+        "source": "Seeking Alpha",
+        "section": "Earnings & Results",
+        "link": "https://seekingalpha.com/news/4641095-signet-jewelers-jumps-as-profit-beats-estimates-full-year-outlook-raised?source=feed_tag_earnings"
       },
       {
         "headline": "Buyout Debt Is Surging to Levels Not Seen Since Before the Financial Crisis - Benzinga",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 63,
-      "Macro & Economy": 54,
-      "Investment Banking & Deals": 120,
-      "Real Estate & REITs": 41,
-      "Earnings & Results": 103,
-      "Tech & Fintech": 110
+      "Stock Market & Equities": 54,
+      "Macro & Economy": 55,
+      "Investment Banking & Deals": 132,
+      "Real Estate & REITs": 43,
+      "Earnings & Results": 111,
+      "Tech & Fintech": 118
     }
   },
   {
