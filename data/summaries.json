@@ -2,8 +2,14 @@
   {
     "week": "2026-W37",
     "label": "Week of September 7\u201311, 2026",
-    "generated": "2026-09-09T16:57:08.456996+00:00",
+    "generated": "2026-09-09T21:24:15.829882+00:00",
     "bullets": [
+      {
+        "headline": "21 photos of Apple\u2019s first-ever foldable iPhone",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/09/09/20-photos-apple-iphone-duo-2000-dollar-foldable-smartphone/"
+      },
       {
         "headline": "U.S. reveals import ban on slew of Canadian goods as trade war escalates",
         "source": "CNBC Economy",
@@ -11,22 +17,16 @@
         "link": "https://www.cnbc.com/2026/09/09/us-canada-trade-war-import-ban.html"
       },
       {
-        "headline": "Chime Wins Price-Target Hikes On Stride Deal And Raised Guidance, But Shares Slash Early Gains",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://www.investors.com/news/chime-financial-acquire-stride-q3-outlook-chym-stock-price-target-breakout/?src=A00220&yptr=yahoo"
-      },
-      {
-        "headline": "Signet Jewelers jumps as profit beats estimates, full-year outlook raised",
-        "source": "Seeking Alpha",
-        "section": "Earnings & Results",
-        "link": "https://seekingalpha.com/news/4641095-signet-jewelers-jumps-as-profit-beats-estimates-full-year-outlook-raised?source=feed_tag_earnings"
-      },
-      {
         "headline": "Buyout Debt Is Surging to Levels Not Seen Since Before the Financial Crisis - Benzinga",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd3VTY3JIZ1Jqek9Temc0WkRmYjBHQ21oMVZrRlk1RGlBT3hsOENaMVpQSGI5TDFPVmgxWlVrYlh1RmFoRnFvcnpuUVBuT0E0OG9SVHpTTkZtdzF4TURuX2YwSllteEtseEw4Ry1PMW52cENvdC1fUFFteWN5RlJCNFRjcHNEMVN4UEtyUE1DY1Rxc3gySDBzZ0tFOVloaFlzd2VoT1duZjJsY3NjcjZNMGY5TW0xZG5SUkJJRG9tZHpZMVBhZDl6VlozbHZtQzh4UVV4TVNR?oc=5"
+      },
+      {
+        "headline": "GE Aerospace acquires Consolidated Precision Products for $11.75B",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-acquires-consolidated-precision-130946949.html"
       },
       {
         "headline": "Buyout firm CVC explores $2 billion sale of Dr Teal's parent company, sources say - KSL.com",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 54,
+      "Stock Market & Equities": 48,
       "Macro & Economy": 55,
-      "Investment Banking & Deals": 132,
+      "Investment Banking & Deals": 143,
       "Real Estate & REITs": 43,
-      "Earnings & Results": 111,
-      "Tech & Fintech": 118
+      "Earnings & Results": 107,
+      "Tech & Fintech": 122
     }
   },
   {
