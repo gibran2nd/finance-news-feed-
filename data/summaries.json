@@ -2,19 +2,31 @@
   {
     "week": "2026-W37",
     "label": "Week of September 7\u201311, 2026",
-    "generated": "2026-09-09T21:24:15.829882+00:00",
+    "generated": "2026-09-10T11:58:33.382369+00:00",
     "bullets": [
       {
-        "headline": "21 photos of Apple\u2019s first-ever foldable iPhone",
-        "source": "Fortune",
+        "headline": "Macy's posts strong results, raises guidance as turnaround begins to take hold",
+        "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://fortune.com/2026/09/09/20-photos-apple-iphone-duo-2000-dollar-foldable-smartphone/"
+        "link": "https://www.cnbc.com/2026/09/10/macys-m-q2-2026-earnings.html"
       },
       {
-        "headline": "U.S. reveals import ban on slew of Canadian goods as trade war escalates",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/09/09/us-canada-trade-war-import-ban.html"
+        "headline": "Chime Acquires Sponsor Bank Stride in US$590 Million Deal - FintechNews CH",
+        "source": "Google \u2013 Fintech",
+        "section": "Tech & Fintech",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ENldJOVhXcGQ3ekxhVXVuVUYyZ29MamhnX1JvcmE3aVl6Zi1mRHJTcjZOX1EwZk8xM1ZRNjBnX2NoaTlLTmIyNlVYTWlfQXZmN0VPWDUtLXh1c29CVnJxdmZsUjhxMENtWURPd1lJY3FuU2paRG1Cc19R?oc=5"
+      },
+      {
+        "headline": "World\u2019s largest contract chipmaker TSMC sees August revenue surge over 53% to record high",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/09/10/tsmc-august-revenue-chip-ai.html"
+      },
+      {
+        "headline": "Holtec Nuclear Targets $10.2 Billion Valuation in Nasdaq IPO",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/holtec-nuclear-targets-10-2-020830785.html"
       },
       {
         "headline": "Buyout Debt Is Surging to Levels Not Seen Since Before the Financial Crisis - Benzinga",
@@ -23,31 +35,19 @@
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd3VTY3JIZ1Jqek9Temc0WkRmYjBHQ21oMVZrRlk1RGlBT3hsOENaMVpQSGI5TDFPVmgxWlVrYlh1RmFoRnFvcnpuUVBuT0E0OG9SVHpTTkZtdzF4TURuX2YwSllteEtseEw4Ry1PMW52cENvdC1fUFFteWN5RlJCNFRjcHNEMVN4UEtyUE1DY1Rxc3gySDBzZ0tFOVloaFlzd2VoT1duZjJsY3NjcjZNMGY5TW0xZG5SUkJJRG9tZHpZMVBhZDl6VlozbHZtQzh4UVV4TVNR?oc=5"
       },
       {
-        "headline": "GE Aerospace acquires Consolidated Precision Products for $11.75B",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-acquires-consolidated-precision-130946949.html"
-      },
-      {
         "headline": "Buyout firm CVC explores $2 billion sale of Dr Teal's parent company, sources say - KSL.com",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc3F3UV80am1jaG54WWVNd2RPa2Ntbm5ZUURrMlBuSlE2MDFKdm8yX0UyZFNYN1RQSGhqMWRDMEJxN1RPZ0s0eEw4TTNBdW9zaElXQ2VBOW1TSGNhNERMWTRWQU1XRnpBRmJHUHJreHJ4SjJuQmJYMGROa1NhSk5CNXQ4MXprYk9HSTlJVVZxbmtoaTE1NGpiOXZyMkRCalUxUEthbDlPSC1wR0l3c2lGWldfQkJLZw?oc=5"
-      },
-      {
-        "headline": "Australia's Ingenia rejects Warburg Pincus' $1.4 billion offer, sticks with Peet acquisition - Reuters",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNWg1LTRBdXZPaDVxQ3plT3BDY3ZjMWRGc21pdXZ6a2ZuUlVHTEtmM2dqR2xyb3FINnFjQTZubVVSclROZFdDVTYtVWhhZDF5ZkFNTmRQY1F6UzF1b2RqWFk5OVdFZGl3c0tIOVV1dnNNckxxTW1PSjd3MjhEZ2kxUTJrTWQ4amJ2RTVzNXJMdm9RT0pKWFAzUXl0dG92NTltRDhqaFFfd2g1eXJsUHVIOEZxUlBBTTN0c2pHTQ?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 48,
+      "Stock Market & Equities": 58,
       "Macro & Economy": 55,
-      "Investment Banking & Deals": 143,
-      "Real Estate & REITs": 43,
-      "Earnings & Results": 107,
-      "Tech & Fintech": 122
+      "Investment Banking & Deals": 152,
+      "Real Estate & REITs": 44,
+      "Earnings & Results": 105,
+      "Tech & Fintech": 125
     }
   },
   {
