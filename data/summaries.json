@@ -2,8 +2,14 @@
   {
     "week": "2026-W37",
     "label": "Week of September 7\u201311, 2026",
-    "generated": "2026-09-10T11:58:33.382369+00:00",
+    "generated": "2026-09-10T16:46:55.387544+00:00",
     "bullets": [
+      {
+        "headline": "The likelihood of a Fed interest rate hike next week just got a lot higher",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html"
+      },
       {
         "headline": "Macy's posts strong results, raises guidance as turnaround begins to take hold",
         "source": "CNBC Markets",
@@ -23,31 +29,25 @@
         "link": "https://www.cnbc.com/2026/09/10/tsmc-august-revenue-chip-ai.html"
       },
       {
-        "headline": "Holtec Nuclear Targets $10.2 Billion Valuation in Nasdaq IPO",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/holtec-nuclear-targets-10-2-020830785.html"
-      },
-      {
-        "headline": "Buyout Debt Is Surging to Levels Not Seen Since Before the Financial Crisis - Benzinga",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd3VTY3JIZ1Jqek9Temc0WkRmYjBHQ21oMVZrRlk1RGlBT3hsOENaMVpQSGI5TDFPVmgxWlVrYlh1RmFoRnFvcnpuUVBuT0E0OG9SVHpTTkZtdzF4TURuX2YwSllteEtseEw4Ry1PMW52cENvdC1fUFFteWN5RlJCNFRjcHNEMVN4UEtyUE1DY1Rxc3gySDBzZ0tFOVloaFlzd2VoT1duZjJsY3NjcjZNMGY5TW0xZG5SUkJJRG9tZHpZMVBhZDl6VlozbHZtQzh4UVV4TVNR?oc=5"
-      },
-      {
-        "headline": "Buyout firm CVC explores $2 billion sale of Dr Teal's parent company, sources say - KSL.com",
+        "headline": "Buyout firm CVC explores $2 billion sale of Dr Teal's parent company, sources say - ksl.com",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc3F3UV80am1jaG54WWVNd2RPa2Ntbm5ZUURrMlBuSlE2MDFKdm8yX0UyZFNYN1RQSGhqMWRDMEJxN1RPZ0s0eEw4TTNBdW9zaElXQ2VBOW1TSGNhNERMWTRWQU1XRnpBRmJHUHJreHJ4SjJuQmJYMGROa1NhSk5CNXQ4MXprYk9HSTlJVVZxbmtoaTE1NGpiOXZyMkRCalUxUEthbDlPSC1wR0l3c2lGWldfQkJLZw?oc=5"
+      },
+      {
+        "headline": "Trump turns up the heat on Warsh as Fed rate hike looms",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 58,
-      "Macro & Economy": 55,
-      "Investment Banking & Deals": 152,
+      "Stock Market & Equities": 59,
+      "Macro & Economy": 56,
+      "Investment Banking & Deals": 164,
       "Real Estate & REITs": 44,
-      "Earnings & Results": 105,
-      "Tech & Fintech": 125
+      "Earnings & Results": 111,
+      "Tech & Fintech": 124
     }
   },
   {
