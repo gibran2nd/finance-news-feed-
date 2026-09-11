@@ -2,19 +2,25 @@
   {
     "week": "2026-W37",
     "label": "Week of September 7\u201311, 2026",
-    "generated": "2026-09-10T21:18:56.726856+00:00",
+    "generated": "2026-09-11T11:57:36.047668+00:00",
     "bullets": [
       {
-        "headline": "Oracle's stock jumps 7% on earnings beat as cloud infrastructure revenue more than doubles",
+        "headline": "Oracle jumps 6% after reporting 30% revenue growth fueled by AI cloud demand",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/09/11/oracle-stock-q1-earnings-ai-cloud.html"
+      },
+      {
+        "headline": "Fintechs conquered payments in India. Now they're eyeing credit - cnbc.com",
+        "source": "Google \u2013 Fintech",
+        "section": "Tech & Fintech",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcUNZSXVfWlAwbU5paUMzYjZsYTM3Z3BpZC03N05nZ1g0ekh3V2hkYTdDMnJrRkwxNVIwMUkzZVAzMWtCN05hV0tfY2RtcEdCakdMSmtPbkFLa3NJcC0yV2N3RFFtQmR3R290U3AtVmtzNnEzTFhCVjl3bXVLLTRnT3hMWdIBiAFBVV95cUxQTHNtYUV2SVdQT3Y4VktDcURLalV2ZFExNkJXblVLOUg4aGFpT293eXoxQ0JnR2ZrLXh3V1JidVRRVXNtbmlaTFJ5YmJ5NHVwaEtWendDWWhMR2pJeWtOTE42WV9Rd3hINjgzOUp0MnVDblNubmZnUjNjVFFnckNubzZYZTI4UVFG?oc=5"
+      },
+      {
+        "headline": "Oracle's stock edges up on earnings beat as cloud infrastructure revenue more than doubles",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/09/10/oracle-orcl-q1-earnings-report-2027.html"
-      },
-      {
-        "headline": "Macy's posts strong results, raises guidance as turnaround begins to take hold",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/09/10/macys-m-q2-2026-earnings.html"
       },
       {
         "headline": "Meta\u2019s AI agent Muse is now the No. 2 app in the US",
@@ -23,31 +29,25 @@
         "link": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/"
       },
       {
-        "headline": "The likelihood of a Fed interest rate hike next week just got a lot higher - CNBC",
-        "source": "Google \u2013 Fed & Rates",
+        "headline": "The likelihood of a Fed interest rate hike next week just got a lot higher",
+        "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONjAwZFZ6bi16bV9pV1FMWDdfMzlhZUVicnJQaThwYjZySUZTbGhMQkNscFdkdHB1ME1Hc0RsaWYzVDM1SEk0ZmNSX3czTmlESXR1U0R1Zy1DMnU0cWU4REpYYWNVMHdBYlp3TjRkRHAyQ0pqLXdTZ2hoUUlkYnlPMHFCeUhZb2hEYmRVenQ1bWxpT0E1anFMT2NCRDFIdmlUaUlPVUtJX05idUVJa3lCd9IBtgFBVV95cUxNb09kWUpPaTFYX1J3T0ZYVDM1YjZURW4zVnh3R29VUWU2bzlsTWQxZ051RElKY1BzZmZ0X2RNT3BUWFR6TUpEV3pIOURqamZmMDM0YlJVSWpELXRJOUJhYkI1RU9xc2hvdFdiRHZNOWVVVXB0SFFfWG5NMFIwdXlwZ0ZsUUtfS1FsVGJBQ3RBZzJQbEx1NFNiN196NmNTdW5rZDB3TkpYbS1Ld3AwRThybGt5VjVEUQ?oc=5"
+        "link": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html"
       },
       {
         "headline": "Bending Spoons to acquire Miro for $1.355 billion - grafa.com",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcDVCeGpmc002c0RJUHloTWFveUVGNjJRTGFvcXZOSXE3V0VIclNOUThDdGFpWjhNY0tUeUtxMHVFbTdMNjhOTFNjN2htcHJ1bzFfM2p6R3FDT1VwTExUYXVheVo3UUotWTFOaTVLajI2dEtYc0RhYXBVODl2STlTMVMySkROZXVEWjNHbHJWbDRCMS14SGVFSnJULUNrRTZyQlJybmJR?oc=5"
-      },
-      {
-        "headline": "Wholesale prices rose 0.4% in August, as expected",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/09/10/ppi-inflation-report-august-2026.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 56,
-      "Macro & Economy": 59,
-      "Investment Banking & Deals": 156,
+      "Stock Market & Equities": 59,
+      "Macro & Economy": 56,
+      "Investment Banking & Deals": 169,
       "Real Estate & REITs": 44,
-      "Earnings & Results": 116,
-      "Tech & Fintech": 127
+      "Earnings & Results": 119,
+      "Tech & Fintech": 116
     }
   },
   {
