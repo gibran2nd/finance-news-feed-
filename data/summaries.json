@@ -2,8 +2,14 @@
   {
     "week": "2026-W37",
     "label": "Week of September 7\u201311, 2026",
-    "generated": "2026-09-11T21:27:52.742198+00:00",
+    "generated": "2026-09-12T11:23:46.785510+00:00",
     "bullets": [
+      {
+        "headline": "Cramer\u2019s week ahead: Falling oil could help stocks but Fed is the next big test",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/09/11/cramers-week-ahead-falling-oil-fed.html"
+      },
       {
         "headline": "PayPal's New CEO Rejects $50B Buyout to Pursue High-Stakes Transformation Including A Venmo Revamp, Says Report - TradingView",
         "source": "Google \u2013 Active Deals",
@@ -11,10 +17,10 @@
         "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPV3YxbFJtdnoySWdFZWZLSDdLLU9XLXZWODg4UExRZlBtelVxRTZ2VUwxRUJXdVRZdWZ2WDNMMFMxMFFyb1UxdjZoNmU5a3VGQ21BUWx0SE5sMnlhckJZQ04tWkFMdU43Wkp4MjRNTTVkZGUyQlBIX3lWQy1nalBIMlFMQ3QtcE1HVmNQQ01sQmlhVkdZbncxTXNISE1xalRJLW1iUjhaR3RnRElMekNoNi02RHhJSVoxU1BPMUs4NTRaemw4Y1c5RWtkc3dKdUZUSHVXZ0t4TTdCYUYtVU5wLWFBc2VxRGV1Q215akhuUmtnWlZBUlNmX01Qclh2RWc?oc=5"
       },
       {
-        "headline": "Oracle posts 30% revenue growth fueled by AI cloud demand as debts hits $125 billion",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/09/11/oracle-stock-q1-earnings-ai-cloud.html"
+        "headline": "Fintech Agrees to Acquire National Bank Partner for $590 Million - JD Supra",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZEpfLWExdzR4UjFFREZEN0JPTkI4dHdjV0V5dkN6TnV6Tk9qdS1kU2xzM29mLTZnYm1KNjdjRm9OUVFOcmVCMmd5ekh5ckYzeTNxT0IydUtaSmRrLVBvY1pENFozcjlZcXhhVURJbUdqSWJmbXdpUzhZbDFwRkk0R2d4Uk5NNUpleFE?oc=5"
       },
       {
         "headline": "Record U.S. cyclosporiasis outbreak is over, CDC says",
@@ -33,21 +39,15 @@
         "source": "TechCrunch",
         "section": "Tech & Fintech",
         "link": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/"
-      },
-      {
-        "headline": "The likelihood of a Fed interest rate hike next week just got a lot higher",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 58,
-      "Macro & Economy": 60,
-      "Investment Banking & Deals": 148,
+      "Stock Market & Equities": 52,
+      "Macro & Economy": 55,
+      "Investment Banking & Deals": 140,
       "Real Estate & REITs": 44,
-      "Earnings & Results": 116,
-      "Tech & Fintech": 120
+      "Earnings & Results": 114,
+      "Tech & Fintech": 109
     }
   },
   {
