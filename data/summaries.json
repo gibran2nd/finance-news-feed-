@@ -2,13 +2,13 @@
   {
     "week": "2026-W37",
     "label": "Week of September 7\u201311, 2026",
-    "generated": "2026-09-12T15:56:08.781552+00:00",
+    "generated": "2026-09-12T21:12:15.845963+00:00",
     "bullets": [
       {
-        "headline": "Cramer\u2019s week ahead: Falling oil could help stocks but Fed is the next big test",
-        "source": "CNBC Markets",
+        "headline": "OpenAI\u2019s Sam Altman says it would be \u2018ill-advised\u2019 to go public in 2026",
+        "source": "Yahoo Finance",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/09/11/cramers-week-ahead-falling-oil-fed.html"
+        "link": "https://finance.yahoo.com/technology/ai/articles/openai-sam-altman-says-ill-201916714.html"
       },
       {
         "headline": "PayPal's New CEO Rejects $50B Buyout to Pursue High-Stakes Transformation Including A Venmo Revamp, Says Report - TradingView",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 59,
-      "Macro & Economy": 59,
-      "Investment Banking & Deals": 155,
+      "Stock Market & Equities": 53,
+      "Macro & Economy": 55,
+      "Investment Banking & Deals": 147,
       "Real Estate & REITs": 43,
-      "Earnings & Results": 112,
-      "Tech & Fintech": 106
+      "Earnings & Results": 110,
+      "Tech & Fintech": 104
     }
   },
   {
