@@ -2,25 +2,19 @@
   {
     "week": "2026-W37",
     "label": "Week of September 7\u201311, 2026",
-    "generated": "2026-09-13T16:45:10.458432+00:00",
+    "generated": "2026-09-13T21:12:16.394398+00:00",
     "bullets": [
       {
-        "headline": "Could Upstart 10x From Here? The AI Fintech Platform Could Be the Most Misunderstood Stock on the Market",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/could-upstart-10x-ai-fintech-160501346.html"
-      },
-      {
-        "headline": "Constellation Brands Refines Beer Playbook, Reaffirms Full-Year Outlook - Yahoo Finance",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWkpMSkdXRDdwMzlDUENMZHlORHZYOElOb1BlOG8xSFNSVUtnUldQaGdLQmRUMTBFUWpEc0xYSHRfLXlHdE5kazV6anRwbF9mOHUtM0lPdUptYWJqLVc5UF9aSk9hS1E5NWNrc3E0TE9LaUZqZzlfbnNWb3JDdUlncWF3UllieDVyc3FPQnRIUlJ5Q29LRlphclV1WmkxZUJqWjl0LXE4ODUtSUU?oc=5"
-      },
-      {
-        "headline": "OpenAI\u2019s Sam Altman says it would be \u2018ill-advised\u2019 to go public in 2026",
+        "headline": "Larry Ellison cancels $7.5 billion sale of Oracle stock",
         "source": "TechCrunch",
         "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/"
+        "link": "https://techcrunch.com/2026/09/13/larry-ellison-cancels-7-5-billion-sale-of-oracle-stock/"
+      },
+      {
+        "headline": "IPO Delayed: Sam Altman Says an OpenAI Going Public in 2026 Would Be \u2018Ill-Advised\u2019 - Yahoo Finance",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVjJ1SFg4UWo3aVpUQXBVckd2WU8xMjhZNUdMb3VjT2xubkM4MGJCVUluR1kwa2E5dW5HZ2lkcENfRVRlcHNfdVFsTFQ4MmhYMlBOcER0R3lKbEJ2d0R2el9MUUVJX3RLVEN5SFlxUVphNHRhLTkyNW1vbk9sbTQ5UkNwZEFSU0dreFdTRjBqQmdsT19Tdk00?oc=5"
       },
       {
         "headline": "Just before Israel launch \u2022 Fintech giant Revolut confirms customer data breach by fake government requests - Haaretz",
@@ -39,15 +33,21 @@
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html"
+      },
+      {
+        "headline": "The likelihood of a Fed interest rate hike next week just got a lot higher",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 58,
-      "Macro & Economy": 61,
-      "Investment Banking & Deals": 174,
-      "Real Estate & REITs": 42,
-      "Earnings & Results": 104,
-      "Tech & Fintech": 97
+      "Stock Market & Equities": 62,
+      "Macro & Economy": 58,
+      "Investment Banking & Deals": 180,
+      "Real Estate & REITs": 40,
+      "Earnings & Results": 107,
+      "Tech & Fintech": 100
     }
   },
   {
