@@ -1,5 +1,56 @@
 [
   {
+    "week": "2026-W38",
+    "label": "Week of September 14\u201318, 2026",
+    "generated": "2026-09-14T13:30:59.745978+00:00",
+    "bullets": [
+      {
+        "headline": "Novo Nordisk rebrands as Novo to compete in obesity market",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-rebrands-novo-compete-124941872.html"
+      },
+      {
+        "headline": "OpenAI\u2019s IPO wait grows longer as AI safety fears mount",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/09/14/openai-ipo-wait-grows-longer-as-ai-safety-fears-mount-cfo/"
+      },
+      {
+        "headline": "Why the Odds of a US Fed Interest Rate Hike Just Shot Higher - Morningstar",
+        "source": "Google \u2013 Fed & Rates",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTzBZZlkwZWhpeGhFSmpPNzc3eGVJdl90Zk1PTXVmV3VpM1lwcFpnZTY5ckV3NmhrekJGendHSEpTYzNkZlMyUXF1M21jTHNUNWhIV3c3U1hHcnF0X3ZNSkNZSnBiV200b3R5WVZVb3A2NkN5N19lUWpjUTVGNF9vVjczNmlQQ1BVVUpiSXNIYUV0R3R3SDVxZXdUbng?oc=5"
+      },
+      {
+        "headline": "OpenAI rules out IPO this year as Altman, Musk & Amodei warn AI is moving too fast",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html"
+      },
+      {
+        "headline": "Larry Ellison cancels $7.5 billion sale of Oracle stock",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/09/13/larry-ellison-cancels-7-5-billion-sale-of-oracle-stock/"
+      },
+      {
+        "headline": "IPO Delayed: Sam Altman Says an OpenAI Going Public in 2026 Would Be \u2018Ill-Advised\u2019 - Yahoo Finance",
+        "source": "Google \u2013 IPO",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVjJ1SFg4UWo3aVpUQXBVckd2WU8xMjhZNUdMb3VjT2xubkM4MGJCVUluR1kwa2E5dW5HZ2lkcENfRVRlcHNfdVFsTFQ4MmhYMlBOcER0R3lKbEJ2d0R2el9MUUVJX3RLVEN5SFlxUVphNHRhLTkyNW1vbk9sbTQ5UkNwZEFSU0dreFdTRjBqQmdsT19Tdk00?oc=5"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 64,
+      "Macro & Economy": 57,
+      "Investment Banking & Deals": 144,
+      "Real Estate & REITs": 43,
+      "Earnings & Results": 103,
+      "Tech & Fintech": 108
+    }
+  },
+  {
     "week": "2026-W37",
     "label": "Week of September 7\u201311, 2026",
     "generated": "2026-09-13T21:12:16.394398+00:00",
