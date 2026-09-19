@@ -2,19 +2,19 @@
   {
     "week": "2026-W38",
     "label": "Week of September 14\u201318, 2026",
-    "generated": "2026-09-19T16:10:00.254750+00:00",
+    "generated": "2026-09-19T21:11:38.824407+00:00",
     "bullets": [
+      {
+        "headline": "Google\u2019s Gemini is the latest AI model to hack other companies",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/"
+      },
       {
         "headline": "Consumer sentiment is in the dumps despite a solid economy. Goldman Sachs blames 'lower happiness'",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html"
-      },
-      {
-        "headline": "Cencora (COR) Raised Guidance and Bought Back $1B. What\u2019s the Catch?",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/cencora-cor-raised-guidance-bought-123837104.html"
       },
       {
         "headline": "Anthropic\u2019s first embedded evaluator is \u2026 Accenture?",
@@ -23,7 +23,7 @@
         "link": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/"
       },
       {
-        "headline": "AI cloud provider Nscale files to go public - cnbc.com",
+        "headline": "AI cloud provider Nscale files to go public - CNBC",
         "source": "Google \u2013 IPO",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5nY0dXZ2p3ZnlfZEtOQTZzRE15ZXhBdXgyTU5GZDdpeW5zWUdOVlVTM280MGRRXzR3bjEzWjg5eWl0Y0VQYlZlOWVYazR0TGhFY2EtM3doNTVpd2ZIbTh5eXdWLXBDc20wMkZNazdZVW5JZ21NSEF1UEV30gF_QVVfeXFMTjMwdXdHbUIyV1J3S2RfRUVRbDJQbFVVWXIzZlFodWRRNDdhaWlXa2J2ZUFidGtvV3kxZFNvXzZZc3pIMV9hLWc1VTF6clBoTHFBb05jWnJPYUFsOXVQREtGOUtFUGdWY2NRZXE4UlZDenQ4cm15UUlIYWd5dzhBYw?oc=5"
@@ -35,19 +35,19 @@
         "link": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html"
       },
       {
-        "headline": "DowDuPont's earnings forecast misses estimates, shares fall - Reuters",
-        "source": "Google \u2013 Earnings Beats",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrT3J0MUdzZUtvRjE1YkxJY1I1anNBODNPLVZ0aHNmazF3VWRfaEt2cE9UWm9GRWxhdFdfT0NidTJlUklVQ1pLbE1fWF8zRVNUN1JxSDBKMW5JSzlV?oc=5"
+        "headline": "Private Equity Daily: Siguler Guff Banks $3 Billion for Latest Small Buyout Effort - WSJ",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNE9aRldDZUh0emh6Y19odEFiYXVobGpsNzZvRVkzenhOWUwyaDdoWmFEV2thU01sQ3dRTGlTTTllMl9SUWdicGtHdXg5MlVwWVVqRnN0bS14bTdNQjZIT1JhUlJCTmExSXdFQWpZTWtNNmxLcVFKYTFfYnZoTmJvdHBWNUV2cTJ4Ym8wMksydzBDZ1l3aGV6UWlWelpOcnljMGhpLUlyRktJNEtKREVhTXpZZjdBQmkyRE5fdF8tZGhDZUpZTDdv?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 54,
-      "Macro & Economy": 101,
-      "Investment Banking & Deals": 125,
+      "Stock Market & Equities": 60,
+      "Macro & Economy": 99,
+      "Investment Banking & Deals": 116,
       "Real Estate & REITs": 44,
-      "Earnings & Results": 99,
-      "Tech & Fintech": 109
+      "Earnings & Results": 98,
+      "Tech & Fintech": 111
     }
   },
   {
