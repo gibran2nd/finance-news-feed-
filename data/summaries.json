@@ -2,7 +2,7 @@
   {
     "week": "2026-W38",
     "label": "Week of September 14\u201318, 2026",
-    "generated": "2026-09-20T16:38:22.190851+00:00",
+    "generated": "2026-09-20T21:07:32.062677+00:00",
     "bullets": [
       {
         "headline": "Trump says his D.C. arch will serve as 'military complex' with snipers and drones",
@@ -17,18 +17,6 @@
         "link": "https://www.cnbc.com/2026/09/20/france-wine-production-70-year-low-heatwaves-drought.html"
       },
       {
-        "headline": "Consumer sentiment is in the dumps despite a solid economy. Goldman Sachs blames 'lower happiness'",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html"
-      },
-      {
-        "headline": "Anthropic\u2019s first embedded evaluator is \u2026 Accenture?",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/"
-      },
-      {
         "headline": "AI cloud provider Nscale files to go public - CNBC",
         "source": "Google \u2013 IPO",
         "section": "Investment Banking & Deals",
@@ -39,15 +27,27 @@
         "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
         "link": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html"
+      },
+      {
+        "headline": "DowDuPont's earnings forecast misses estimates, shares fall - Reuters",
+        "source": "Google \u2013 Earnings Beats",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrT3J0MUdzZUtvRjE1YkxJY1I1anNBODNPLVZ0aHNmazF3VWRfaEt2cE9UWm9GRWxhdFdfT0NidTJlUklVQ1pLbE1fWF8zRVNUN1JxSDBKMW5JSzlV?oc=5"
+      },
+      {
+        "headline": "Private Equity Daily: Siguler Guff Banks $3 Billion for Latest Small Buyout Effort - WSJ",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNE9aRldDZUh0emh6Y19odEFiYXVobGpsNzZvRVkzenhOWUwyaDdoWmFEV2thU01sQ3dRTGlTTTllMl9SUWdicGtHdXg5MlVwWVVqRnN0bS14bTdNQjZIT1JhUlJCTmExSXdFQWpZTWtNNmxLcVFKYTFfYnZoTmJvdHBWNUV2cTJ4Ym8wMksydzBDZ1l3aGV6UWlWelpOcnljMGhpLUlyRktJNEtKREVhTXpZZjdBQmkyRE5fdF8tZGhDZUpZTDdv?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 56,
-      "Macro & Economy": 93,
-      "Investment Banking & Deals": 117,
+      "Stock Market & Equities": 60,
+      "Macro & Economy": 90,
+      "Investment Banking & Deals": 114,
       "Real Estate & REITs": 46,
-      "Earnings & Results": 99,
-      "Tech & Fintech": 102
+      "Earnings & Results": 102,
+      "Tech & Fintech": 103
     }
   },
   {
