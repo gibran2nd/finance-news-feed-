@@ -2,8 +2,14 @@
   {
     "week": "2026-W38",
     "label": "Week of September 14\u201318, 2026",
-    "generated": "2026-09-20T11:55:39.159242+00:00",
+    "generated": "2026-09-20T16:38:22.190851+00:00",
     "bullets": [
+      {
+        "headline": "Trump says his D.C. arch will serve as 'military complex' with snipers and drones",
+        "source": "NPR Business",
+        "section": "Macro & Economy",
+        "link": "https://www.npr.org/2026/09/20/nx-s1-5975449/trump-washington-dc-arch-military-complex-snipers-drones"
+      },
       {
         "headline": "France\u2019s wine production nears a 70-year low, leaving winemakers with tough choices",
         "source": "CNBC Economy",
@@ -15,12 +21,6 @@
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html"
-      },
-      {
-        "headline": "Kevin Warsh may be the adult in the room. But can he calm the US economy?",
-        "source": "Yahoo Finance",
-        "section": "Stock Market & Equities",
-        "link": "https://finance.yahoo.com/economy/policy/articles/kevin-warsh-may-adult-room-110045704.html"
       },
       {
         "headline": "Anthropic\u2019s first embedded evaluator is \u2026 Accenture?",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 59,
-      "Macro & Economy": 97,
-      "Investment Banking & Deals": 126,
+      "Stock Market & Equities": 56,
+      "Macro & Economy": 93,
+      "Investment Banking & Deals": 117,
       "Real Estate & REITs": 46,
-      "Earnings & Results": 98,
-      "Tech & Fintech": 109
+      "Earnings & Results": 99,
+      "Tech & Fintech": 102
     }
   },
   {
