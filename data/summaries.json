@@ -2,19 +2,25 @@
   {
     "week": "2026-W38",
     "label": "Week of September 14\u201318, 2026",
-    "generated": "2026-09-19T21:11:38.824407+00:00",
+    "generated": "2026-09-20T11:55:39.159242+00:00",
     "bullets": [
       {
-        "headline": "Google\u2019s Gemini is the latest AI model to hack other companies",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/"
+        "headline": "France\u2019s wine production nears a 70-year low, leaving winemakers with tough choices",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/09/20/france-wine-production-70-year-low-heatwaves-drought.html"
       },
       {
         "headline": "Consumer sentiment is in the dumps despite a solid economy. Goldman Sachs blames 'lower happiness'",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html"
+      },
+      {
+        "headline": "Kevin Warsh may be the adult in the room. But can he calm the US economy?",
+        "source": "Yahoo Finance",
+        "section": "Stock Market & Equities",
+        "link": "https://finance.yahoo.com/economy/policy/articles/kevin-warsh-may-adult-room-110045704.html"
       },
       {
         "headline": "Anthropic\u2019s first embedded evaluator is \u2026 Accenture?",
@@ -33,21 +39,15 @@
         "source": "CNBC M&A",
         "section": "Investment Banking & Deals",
         "link": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html"
-      },
-      {
-        "headline": "Private Equity Daily: Siguler Guff Banks $3 Billion for Latest Small Buyout Effort - WSJ",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNE9aRldDZUh0emh6Y19odEFiYXVobGpsNzZvRVkzenhOWUwyaDdoWmFEV2thU01sQ3dRTGlTTTllMl9SUWdicGtHdXg5MlVwWVVqRnN0bS14bTdNQjZIT1JhUlJCTmExSXdFQWpZTWtNNmxLcVFKYTFfYnZoTmJvdHBWNUV2cTJ4Ym8wMksydzBDZ1l3aGV6UWlWelpOcnljMGhpLUlyRktJNEtKREVhTXpZZjdBQmkyRE5fdF8tZGhDZUpZTDdv?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 60,
-      "Macro & Economy": 99,
-      "Investment Banking & Deals": 116,
-      "Real Estate & REITs": 44,
+      "Stock Market & Equities": 59,
+      "Macro & Economy": 97,
+      "Investment Banking & Deals": 126,
+      "Real Estate & REITs": 46,
       "Earnings & Results": 98,
-      "Tech & Fintech": 111
+      "Tech & Fintech": 109
     }
   },
   {
