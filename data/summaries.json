@@ -2,40 +2,52 @@
   {
     "week": "2026-W39",
     "label": "Week of September 21\u201325, 2026",
-    "generated": "2026-09-23T21:54:34.577750+00:00",
+    "generated": "2026-09-24T12:26:18.217301+00:00",
     "bullets": [
       {
-        "headline": "Here's what happens to the economy when Treasury yields soar like they are now",
+        "headline": "Darden Restaurants stock falls as Olive Garden reports slower growth",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/09/24/darden-restaurants-dri-q1-2027-earnings.html"
+      },
+      {
+        "headline": "Switzerland is keeping rates at 0% \u2014 for now",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html"
+        "link": "https://www.cnbc.com/2026/09/24/swiss-national-bank-interest-rates-inflation.html"
       },
       {
-        "headline": "Exclusive | Siguler Guff Raises $3 Billion to Back Small Buyout Funds, Deals - WSJ",
+        "headline": "Kobayashi in $3.2 Billion Buyout Talks After Red-Yeast Scandal - Bloomberg.com",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWXhJdkdpSjMxOTZZSmJkYVVJeFpYTjVuS0JLUklnaEI4N3h5aXdvQVBPblc3Nk5sb3lYNTYtWktrMGhia0dFaVZxSEozQVBuVzNZY09PcEVQekpFVmI4OUpaSF9QdXB5UC1wVzlvVmcyR1BiQ295dUZPMzVhaTNsQnhPYWpyYWc3YkNMT3ZlRlNQa3hxaGJ1OVM1MktJb1p3SWk0al9DV0ZSZWpzWUxR?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQV1NUQmVPeDFBZlctbnpfalp3QW9XaWdSTHluWmNvM19BVEtSS1Bxb3lxVW5ZUTRDS0VUSW5ITWRwZWh0TXZWbWRwVEpmcm8wSWhpRFEtMVJwS19XSFd6Q2VwdTRFMExvbGY5Q2Zka2hvREhtYlVsY3JqMmdxMWFQcktkc0tvOGh3RFp5Y3czaUVVRUJEal9qYnFqVFZHMS1TMFlUcmpzdy01bVhiMkpoQkV3?oc=5"
       },
       {
-        "headline": "Private Equity Daily: Siguler Guff Banks $3 Billion for Latest Small Buyout Effort - WSJ",
+        "headline": "Global debt tops $365 trillion as economists sound alarm over 'vicious cycle'",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html"
+      },
+      {
+        "headline": "France's fresh budget battle threatens to topple another government",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/09/24/france-budget-debt-deficit-government.html"
+      },
+      {
+        "headline": "Olo stock leaves public markets after USD 2 billion buyout - AD HOC NEWS",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNE9aRldDZUh0emh6Y19odEFiYXVobGpsNzZvRVkzenhOWUwyaDdoWmFEV2thU01sQ3dRTGlTTTllMl9SUWdicGtHdXg5MlVwWVVqRnN0bS14bTdNQjZIT1JhUlJCTmExSXdFQWpZTWtNNmxLcVFKYTFfYnZoTmJvdHBWNUV2cTJ4Ym8wMksydzBDZ1l3aGV6UWlWelpOcnljMGhpLUlyRktJNEtKREVhTXpZZjdBQmkyRE5fdF8tZGhDZUpZTDdv?oc=5"
-      },
-      {
-        "headline": "DowDuPont's earnings forecast misses estimates, shares fall - Reuters",
-        "source": "Google \u2013 Earnings Beats",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrT3J0MUdzZUtvRjE1YkxJY1I1anNBODNPLVZ0aHNmazF3VWRfaEt2cE9UWm9GRWxhdFdfT0NidTJlUklVQ1pLbE1fWF8zRVNUN1JxSDBKMW5JSzlV?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSm82RTIzbnRYWWlqdVJBbldfaUtBd2VWaWJmdmJjLUdxQVZEZmI5LTFQbmUxYnMyOVItcEI5azIwZXdkam5HalM0ZHY5WG5tVkluU0lXc2c4djRUclh0eTQ1cjMxY0RTM0RYekhDeWl3T2JrQnBmLTdIcFFOMDA1ODNrZm9YS0tHdEx1WGhvNUFvbGtyc01pbTZqSU9qbG5WdGZ3OGJjVTNuX2lNT3FDV1pCRmgzSkkx?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 49,
-      "Macro & Economy": 68,
-      "Investment Banking & Deals": 147,
-      "Real Estate & REITs": 39,
-      "Earnings & Results": 75,
-      "Tech & Fintech": 134
+      "Stock Market & Equities": 57,
+      "Macro & Economy": 58,
+      "Investment Banking & Deals": 134,
+      "Real Estate & REITs": 41,
+      "Earnings & Results": 72,
+      "Tech & Fintech": 128
     }
   },
   {
