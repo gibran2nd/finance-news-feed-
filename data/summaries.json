@@ -2,8 +2,14 @@
   {
     "week": "2026-W39",
     "label": "Week of September 21\u201325, 2026",
-    "generated": "2026-09-25T12:27:29.907959+00:00",
+    "generated": "2026-09-25T17:39:20.382412+00:00",
     "bullets": [
+      {
+        "headline": "U.S. appeals court upholds Pentagon designation of Anthropic as supply chain risk",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html"
+      },
       {
         "headline": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
         "source": "CNBC Economy",
@@ -11,43 +17,19 @@
         "link": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html"
       },
       {
-        "headline": "Ceridian stock exits markets after USD 12.3 billion buyout - AD HOC NEWS",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcmpoUTBwVW13UHQ5eTdCWEMyeklod09MRFR6SHlIcVhqa1pLal9MUWNlRUFYV3Uta2xtdWwyZjZlRVVOV1NNZy1EUGk0TEVONDhlc2taWkRQQUx3UXhBMjZobzcyZ2ZsYXN6SHhITXg5RjNfWm10TFVSbDdNSFdlbExvLWNBbHNHaEd1TFV2MWF6SG80dkljNWx3WXV6Q0VHd0lrblNZVmRGMFY5dE53M3lYbXBwVDhERlBETWFn?oc=5"
-      },
-      {
-        "headline": "Kobayashi in $3.2 billion buyout talks after red-yeast case - Moneycontrol.com",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWVRfaFZocU52b2ktbWpiQkVWRElQNWY2azdaamNwdXJTbVdEcHF5YjU0dGY1ei1oMzl1UFF4M185aGxPSW9zbmUwbWZqSzdIb0otWmc0aVh6T0pTVVkzSHJVeWoxc0Q3bllxenJpRFpVMDU4OWdSaHRBTklhZkNhTHAwaE43dmpyU3o5Q2Y4eFpYSTlveE16Nlg4VUpVS0NVRk4yN0xEZ21aRTFhMFVqaF95NzlKQdIBuwFBVV95cUxPUmVJME1NWXdveGRDUXBwWXdXWjkzRG9lOUE1WmtHQXlNdDRjOWZRdVdxUlNibi1DRUtEbUdUMndVRDJ3WXJjX2tmSFBTNm5yQ2Rlek5sOXl0WjdoWVI0ZmxDWmk0eVIzSmNBRFZFN2hjZnBaQlZBc2gyR2dBYWNKVG15aHVvX051TG1NZUd1ZG1xLWMtQlhyd0FIWFZGYlNrLUtlSFBrVnJYWWY4V3NWT1gydTJSaVhsUm44?oc=5"
-      },
-      {
         "headline": "Costco makes progress on a key membership metric. Here's our new price target on the stock",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/09/24/costco-makes-progress-on-a-key-membership-metric-heres-our-new-price-target-on-the-stock.html"
-      },
-      {
-        "headline": "Oracle sends force majeure notice on its New Mexico Stargate data center",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/"
-      },
-      {
-        "headline": "Barry Diller's People Inc. Withdraws $18B Offer To Buy MGM Resorts",
-        "source": "Bisnow",
-        "section": "Real Estate & REITs",
-        "link": "https://www.bisnow.com/news/national/hospitality-entertainment/barry-diller-people-inc-withdraws-18b-offer-mgm-resorts"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 59,
-      "Macro & Economy": 59,
-      "Investment Banking & Deals": 139,
-      "Real Estate & REITs": 42,
-      "Earnings & Results": 73,
-      "Tech & Fintech": 126
+      "Stock Market & Equities": 57,
+      "Macro & Economy": 40,
+      "Investment Banking & Deals": 61,
+      "Real Estate & REITs": 39,
+      "Earnings & Results": 20,
+      "Tech & Fintech": 37
     }
   },
   {
