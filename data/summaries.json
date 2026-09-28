@@ -2,34 +2,40 @@
   {
     "week": "2026-W40",
     "label": "Week of September 28 \u2013 October 2, 2026",
-    "generated": "2026-09-28T14:45:50.448918+00:00",
+    "generated": "2026-09-28T23:36:01.280890+00:00",
     "bullets": [
       {
-        "headline": "SpaceX launches its massive Starship rocket into orbit for the first time",
-        "source": "CNBC M&A",
+        "headline": "AMD acquires startup cofounded by \u2018godmother of AI\u2019 Fei-Fei Li for $8.2 billion",
+        "source": "Fortune",
+        "section": "Stock Market & Equities",
+        "link": "https://fortune.com/2026/09/28/amd-acquires-world-labs-startup-fei-fei-li-8-2-billion/"
+      },
+      {
+        "headline": "AMD to Acquire Fei-Fei Li\u2019s World Labs for $8.2 Billion in AI Hardware Bet - Wowtale",
+        "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/09/28/spacex-prepares-to-send-starship-rocket-to-orbit-for-first-time.html"
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BQ2RtWnFSX0JXejlleVVxSVBIT2NtcnZFd0l5LVoxYjZGZzF6N1p1VkZhYU1leHdLTkF4NUZEOFNGYXlNN2hiUWk1dkZxMzNaUDlZ?oc=5"
       },
       {
-        "headline": "China posts weakest industrial profit growth this year, expanding 4.2% in August",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html"
+        "headline": "Brixmor Property Group, Everview Partners Acquire Slate Grocery REIT for $2.34B",
+        "source": "Commercial Observer",
+        "section": "Real Estate & REITs",
+        "link": "https://commercialobserver.com/2026/09/brixmor-property-group-everview-partners-acquire-slate-grocery-reit/"
       },
       {
-        "headline": "Kobayashi in \u00a5500 billion buyout talks after red-yeast case - The Japan Times",
+        "headline": "Kobayashi in \u00a5500 billion buyout talks after red-yeast case - japantimes.co.jp",
         "source": "Google \u2013 Active Deals",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYlpzYkp2TmVLdm0zaExaUENBNVBENS1NMDB0anVtaE90TWtTTVd0WjVXRllyM3p6dzZMUHBkbHpkNjdrVW9pRjJJdVIxWWtKWi1jZUtGb3djVTFia1VuN3RMTk5pUjVTZUdnQTNSUVhibVItNEF6NEVZZWJXZUF4RnZEMnN6ZFNZT2c?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 58,
-      "Macro & Economy": 49,
-      "Investment Banking & Deals": 148,
-      "Real Estate & REITs": 44,
-      "Earnings & Results": 66,
-      "Tech & Fintech": 118
+      "Stock Market & Equities": 57,
+      "Macro & Economy": 50,
+      "Investment Banking & Deals": 174,
+      "Real Estate & REITs": 43,
+      "Earnings & Results": 70,
+      "Tech & Fintech": 120
     }
   },
   {
