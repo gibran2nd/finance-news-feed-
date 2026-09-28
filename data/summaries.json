@@ -1,5 +1,38 @@
 [
   {
+    "week": "2026-W40",
+    "label": "Week of September 28 \u2013 October 2, 2026",
+    "generated": "2026-09-28T14:45:50.448918+00:00",
+    "bullets": [
+      {
+        "headline": "SpaceX launches its massive Starship rocket into orbit for the first time",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/09/28/spacex-prepares-to-send-starship-rocket-to-orbit-for-first-time.html"
+      },
+      {
+        "headline": "China posts weakest industrial profit growth this year, expanding 4.2% in August",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html"
+      },
+      {
+        "headline": "Kobayashi in \u00a5500 billion buyout talks after red-yeast case - The Japan Times",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYlpzYkp2TmVLdm0zaExaUENBNVBENS1NMDB0anVtaE90TWtTTVd0WjVXRllyM3p6dzZMUHBkbHpkNjdrVW9pRjJJdVIxWWtKWi1jZUtGb3djVTFia1VuN3RMTk5pUjVTZUdnQTNSUVhibVItNEF6NEVZZWJXZUF4RnZEMnN6ZFNZT2c?oc=5"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 58,
+      "Macro & Economy": 49,
+      "Investment Banking & Deals": 148,
+      "Real Estate & REITs": 44,
+      "Earnings & Results": 66,
+      "Tech & Fintech": 118
+    }
+  },
+  {
     "week": "2026-W39",
     "label": "Week of September 21\u201325, 2026",
     "generated": "2026-09-27T21:45:12.928131+00:00",
