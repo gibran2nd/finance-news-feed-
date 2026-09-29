@@ -2,40 +2,52 @@
   {
     "week": "2026-W40",
     "label": "Week of September 28 \u2013 October 2, 2026",
-    "generated": "2026-09-28T23:36:01.280890+00:00",
+    "generated": "2026-09-29T13:35:20.875917+00:00",
     "bullets": [
       {
-        "headline": "AMD acquires startup cofounded by \u2018godmother of AI\u2019 Fei-Fei Li for $8.2 billion",
+        "headline": "Valley National Bancorp to acquire Bluevine for $340m - FinTech Futures",
+        "source": "Google \u2013 Fintech",
+        "section": "Tech & Fintech",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSlRtdm9UazkzeUh4T0NWdnB3WTB6Y3FtUjZId0ZJMW1KSUJuT2Z6dE1HZkpUYkp5THpLeW9EcV9CVDAxZXZ0VjlxdGxfOG1oUDNCdFlxZ0gweEZOU2ZIVEt5eXQzYUd3WF96QXdLb1dwV1BzWmhORXpsMmlMNGg2bTI2WjhVVzRQN29OWUNZZDM?oc=5"
+      },
+      {
+        "headline": "AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/09/28/amd-fei-fei-li-world-labs.html"
+      },
+      {
+        "headline": "AMD will acquire Fei-Fei Li\u2019s World Labs for $8.2 billion",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/"
+      },
+      {
+        "headline": "Smart ring maker Oura postpones IPO due to market 'uncertainty'",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/09/29/smart-ring-maker-oura-postpones-ipo-due-to-market-uncertainty.html"
+      },
+      {
+        "headline": "OpenAI Delays Release of Latest Model Over Safety Concerns",
+        "source": "Wired Business",
+        "section": "Tech & Fintech",
+        "link": "https://www.wired.com/story/openai-delays-release-of-latest-model-over-safety-concerns/"
+      },
+      {
+        "headline": "Anthropic\u2019s $2 trillion IPO prospectus has leaked\u2014here\u2019s a snapshot of its income statements",
         "source": "Fortune",
         "section": "Stock Market & Equities",
-        "link": "https://fortune.com/2026/09/28/amd-acquires-world-labs-startup-fei-fei-li-8-2-billion/"
-      },
-      {
-        "headline": "AMD to Acquire Fei-Fei Li\u2019s World Labs for $8.2 Billion in AI Hardware Bet - Wowtale",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BQ2RtWnFSX0JXejlleVVxSVBIT2NtcnZFd0l5LVoxYjZGZzF6N1p1VkZhYU1leHdLTkF4NUZEOFNGYXlNN2hiUWk1dkZxMzNaUDlZ?oc=5"
-      },
-      {
-        "headline": "Brixmor Property Group, Everview Partners Acquire Slate Grocery REIT for $2.34B",
-        "source": "Commercial Observer",
-        "section": "Real Estate & REITs",
-        "link": "https://commercialobserver.com/2026/09/brixmor-property-group-everview-partners-acquire-slate-grocery-reit/"
-      },
-      {
-        "headline": "Kobayashi in \u00a5500 billion buyout talks after red-yeast case - japantimes.co.jp",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYlpzYkp2TmVLdm0zaExaUENBNVBENS1NMDB0anVtaE90TWtTTVd0WjVXRllyM3p6dzZMUHBkbHpkNjdrVW9pRjJJdVIxWWtKWi1jZUtGb3djVTFia1VuN3RMTk5pUjVTZUdnQTNSUVhibVItNEF6NEVZZWJXZUF4RnZEMnN6ZFNZT2c?oc=5"
+        "link": "https://fortune.com/2026/09/29/anthropic-ipo-s-1-prospectus-income-statement/"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 57,
-      "Macro & Economy": 50,
-      "Investment Banking & Deals": 174,
+      "Stock Market & Equities": 58,
+      "Macro & Economy": 49,
+      "Investment Banking & Deals": 188,
       "Real Estate & REITs": 43,
-      "Earnings & Results": 70,
-      "Tech & Fintech": 120
+      "Earnings & Results": 77,
+      "Tech & Fintech": 123
     }
   },
   {
