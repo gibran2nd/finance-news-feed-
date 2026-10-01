@@ -2,19 +2,25 @@
   {
     "week": "2026-W40",
     "label": "Week of September 28 \u2013 October 2, 2026",
-    "generated": "2026-10-01T14:02:25.968172+00:00",
+    "generated": "2026-10-01T22:57:25.469842+00:00",
     "bullets": [
       {
-        "headline": "Google releases Gemini 4 Argon, called its most powerful model yet",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/"
+        "headline": "Accenture stock rallies after earnings beat expectations",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/10/01/accenture-rallies-more-than-20percent-after-earnings-beat-heads-for-best-day-ever.html"
       },
       {
-        "headline": "Buyout giant Partners Group traps investors amid liquidity worries - AFR",
-        "source": "Google \u2013 Active Deals",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQTI5Y093QkNsd1lzZkx0REl4OTRJazZ0QzhKNHVtZU42UVgxOVI4Q2N4RGUyLV9ocjJxM1psUE0ydG9UUFg5Mlh5cThzQXJ5akpwQVdfTS1ybmZVVkpHNXlXWnBia1JtRUFvNFdKaGtmaDFlWE1NcmQ1aWQyaTRsTjZnN2RtM29relF3SnRVVi1CZXFuSVZEbEVwTGVZT1RpcjhBanNvYllzMkw3d3NJY0ZOejZudnZPQUpRdnBWNmVfNVdnVGpnVkd4OA?oc=5"
+        "headline": "Nike shares drop as retailer posts disappointing sales, announces layoffs as part of restructuring",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/10/01/nike-nke-q1-2027-earnings.html"
+      },
+      {
+        "headline": "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html"
       },
       {
         "headline": "Slate Grocery REIT to Go Private in US$2.3 Billion Takeover by Brixmor, Everview Partners - NAI500",
@@ -24,12 +30,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 9,
-      "Macro & Economy": 50,
-      "Investment Banking & Deals": 158,
-      "Real Estate & REITs": 41,
-      "Earnings & Results": 73,
-      "Tech & Fintech": 122
+      "Stock Market & Equities": 15,
+      "Macro & Economy": 46,
+      "Investment Banking & Deals": 157,
+      "Real Estate & REITs": 39,
+      "Earnings & Results": 69,
+      "Tech & Fintech": 121
     }
   },
   {
