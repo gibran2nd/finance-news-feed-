@@ -2,25 +2,25 @@
   {
     "week": "2026-W40",
     "label": "Week of September 28 \u2013 October 2, 2026",
-    "generated": "2026-10-01T22:57:25.469842+00:00",
+    "generated": "2026-10-02T13:23:04.915999+00:00",
     "bullets": [
       {
-        "headline": "Accenture stock rallies after earnings beat expectations",
+        "headline": "Rivian tops Q3 delivery expectations, reconfirms 2026 guidance",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/10/01/accenture-rallies-more-than-20percent-after-earnings-beat-heads-for-best-day-ever.html"
+        "link": "https://www.cnbc.com/2026/10/02/q3-vehicle-deliveries.html"
       },
       {
-        "headline": "Nike shares drop as retailer posts disappointing sales, announces layoffs as part of restructuring",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/10/01/nike-nke-q1-2027-earnings.html"
+        "headline": "The Fed has one interest rate. America has two economies - Fortune",
+        "source": "Google \u2013 Fed & Rates",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SMEpvcHV0ay1oX1Z0SEJyNTlaTTRqUGdHM1ljaDl1cURhRFRmS0h1dU8zSWZkeWlmSkw4N25td2ZDZXY0SlE1NGhIMk80T015NjNacGZPeW1ZT3hBU2NpcU82Yk5lbVdlVWQxN2Q4R3pFRldvRFFCc1BVQ0c1dw?oc=5"
       },
       {
-        "headline": "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html"
+        "headline": "Egypt's first fintech unicorn MNT-Halan to float 20% in $1.4B IPO - Dealroom",
+        "source": "Google \u2013 Fintech",
+        "section": "Tech & Fintech",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSEVZVUlNclNqQVFTSElFOWhVUEFaOVk1eEJycmtlM04xdnpYWHhJM1ZiTXF2LXpERnQwYW1KZDUtVGRIYUNBNFVIQXdtdlEtZW95WDJuUHRLdndGWUFrWXpHMUk5czk0eEtVOFNqTkFZSi0tSVBtanJUamZaNTNtNmoxRzF2N0V0ZFVhbUhJOG9BaGtDSE11d2FiNWctQQ?oc=5"
       },
       {
         "headline": "Slate Grocery REIT to Go Private in US$2.3 Billion Takeover by Brixmor, Everview Partners - NAI500",
@@ -31,11 +31,11 @@
     ],
     "section_counts": {
       "Stock Market & Equities": 15,
-      "Macro & Economy": 46,
-      "Investment Banking & Deals": 157,
+      "Macro & Economy": 43,
+      "Investment Banking & Deals": 149,
       "Real Estate & REITs": 39,
-      "Earnings & Results": 69,
-      "Tech & Fintech": 121
+      "Earnings & Results": 68,
+      "Tech & Fintech": 129
     }
   },
   {
