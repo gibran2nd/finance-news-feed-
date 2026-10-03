@@ -2,8 +2,14 @@
   {
     "week": "2026-W40",
     "label": "Week of September 28 \u2013 October 2, 2026",
-    "generated": "2026-10-03T12:09:11.182825+00:00",
+    "generated": "2026-10-03T16:53:24.372942+00:00",
     "bullets": [
+      {
+        "headline": "How Nvidia, Micron and a surprising jobs report drove last week's stock action",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/10/03/how-nvidia-micron-and-a-surprising-jobs-report-drove-last-weeks-stock-action.html"
+      },
       {
         "headline": "Men are losing ground in the labor market. Here's why",
         "source": "CNBC Economy",
@@ -24,12 +30,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 15,
-      "Macro & Economy": 51,
-      "Investment Banking & Deals": 146,
-      "Real Estate & REITs": 41,
-      "Earnings & Results": 71,
-      "Tech & Fintech": 110
+      "Stock Market & Equities": 16,
+      "Macro & Economy": 54,
+      "Investment Banking & Deals": 144,
+      "Real Estate & REITs": 42,
+      "Earnings & Results": 69,
+      "Tech & Fintech": 105
     }
   },
   {
