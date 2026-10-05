@@ -1,5 +1,38 @@
 [
   {
+    "week": "2026-W41",
+    "label": "Week of October 5\u20139, 2026",
+    "generated": "2026-10-05T15:25:57.734697+00:00",
+    "bullets": [
+      {
+        "headline": "The 2029 tipping point: Western populations are about to start shrinking, piling pressure on public finances",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/10/05/aging-population-moodys-public-finances.html"
+      },
+      {
+        "headline": "Amazon responds to data center backlash, says it no longer uses NDAs",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/"
+      },
+      {
+        "headline": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2% - CNBC",
+        "source": "Google \u2013 Fed & Rates",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjc1c3eWxhak03S19wOWloT192VXI2UGhzeHJLZDBMRnZxdGNwaEhxQ2Y1LWNqZFQtc2o5bk9BeW5uSnI5WVVNcDJMeXRmblA0aTloYlAzQUFYTzFJMW1Wc0ZrVkpLZFUwbGRfNmpjOWjSAXZBVV95cUxOUnZ1bXVuT3Y0RHBfSHFjVkJiWnhYb3J2ajZ6Qkd6UlQ1a2xEejMwVG9tdzRNbDJSU1gtcEJ1UXNVTWFFWC1XVFdxazlWTl9FcUxwdXNZeExGRUo0QnVTbHMwVmZLQy1zNEEzM3JqYnNmZUpvazR3?oc=5"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 16,
+      "Macro & Economy": 46,
+      "Investment Banking & Deals": 133,
+      "Real Estate & REITs": 44,
+      "Earnings & Results": 68,
+      "Tech & Fintech": 101
+    }
+  },
+  {
     "week": "2026-W40",
     "label": "Week of September 28 \u2013 October 2, 2026",
     "generated": "2026-10-04T22:07:19.222830+00:00",
