@@ -2,7 +2,7 @@
   {
     "week": "2026-W41",
     "label": "Week of October 5\u20139, 2026",
-    "generated": "2026-10-05T15:25:57.734697+00:00",
+    "generated": "2026-10-06T00:30:17.626270+00:00",
     "bullets": [
       {
         "headline": "The 2029 tipping point: Western populations are about to start shrinking, piling pressure on public finances",
@@ -11,25 +11,31 @@
         "link": "https://www.cnbc.com/2026/10/05/aging-population-moodys-public-finances.html"
       },
       {
-        "headline": "Amazon responds to data center backlash, says it no longer uses NDAs",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/"
-      },
-      {
-        "headline": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2% - CNBC",
+        "headline": "Surging Treasury yields don\u2019t signal a U.S. 'fiscal apocalypse' \u2014 yet - CNBC",
         "source": "Google \u2013 Fed & Rates",
         "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjc1c3eWxhak03S19wOWloT192VXI2UGhzeHJLZDBMRnZxdGNwaEhxQ2Y1LWNqZFQtc2o5bk9BeW5uSnI5WVVNcDJMeXRmblA0aTloYlAzQUFYTzFJMW1Wc0ZrVkpLZFUwbGRfNmpjOWjSAXZBVV95cUxOUnZ1bXVuT3Y0RHBfSHFjVkJiWnhYb3J2ajZ6Qkd6UlQ1a2xEejMwVG9tdzRNbDJSU1gtcEJ1UXNVTWFFWC1XVFdxazlWTl9FcUxwdXNZeExGRUo0QnVTbHMwVmZLQy1zNEEzM3JqYnNmZUpvazR3?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNHV0V0Z1c3p0QTFYbFROT2s5bjJKZ09oaXhGOHhicXZOa1pXbjlvbm50MmR5RXAwNnJwVjFoVUQ0SVhvTEt4NElJLWlWTm91OEtGUkRodTFiVVhpVU9VVmIxTVFhOWJPRmkxSVNRbkttTUd5SDlyTUlxd2lKZGdjOS1tQTdOLXNGZVVn0gGQAUFVX3lxTE1QaEhZTHZBQ28yN3luMUlpYThLa1VEdXdyTU5KOUZVRUpXTURnTXB0ZXk3S2dIQzRxTG1ZVTdqaGU0d1dLcmUyenY4MmhSUnlvbmQteWVmeFpJM3hyR1ZTaEtpeGdWWjF0ZHgyd2Q4UkRoUjJWVmpaa3BxU1V5LVBuLXQ5MnI1OFliVmlfVWhPeQ?oc=5"
+      },
+      {
+        "headline": "Bipartisan lawmakers ask FERC to block BlackRock's $33.4 billion AES buyout - Startup Fortune",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSURTcWFnTkVmWW56Q0wwS1JGWkROeDdDTUFzWklsQ0h6c1JuZXhZOEc2T2tVSWphVDZ5WjV0MGxVcHlSRFotN3p3eFdqaXRnNS13V2twR1lWd3c4b2wzNzNxSHFhRkQtbmh0MVVCMTU4NXJlNmxIZkxBLXBSWDdNM25tdldQVHdIaXo2NnZ5NVRlVXhVYjZXUTllaGtzNzJ6ZVE?oc=5"
+      },
+      {
+        "headline": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 16,
-      "Macro & Economy": 46,
-      "Investment Banking & Deals": 133,
-      "Real Estate & REITs": 44,
-      "Earnings & Results": 68,
-      "Tech & Fintech": 101
+      "Stock Market & Equities": 17,
+      "Macro & Economy": 48,
+      "Investment Banking & Deals": 149,
+      "Real Estate & REITs": 41,
+      "Earnings & Results": 64,
+      "Tech & Fintech": 110
     }
   },
   {
