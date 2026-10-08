@@ -2,34 +2,22 @@
   {
     "week": "2026-W41",
     "label": "Week of October 5\u20139, 2026",
-    "generated": "2026-10-08T14:15:11.437706+00:00",
+    "generated": "2026-10-08T23:36:15.373923+00:00",
     "bullets": [
       {
         "headline": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html"
-      },
-      {
-        "headline": "TSMC\u2019s September sales surge year-over-year as AI drives chip demand",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html"
-      },
-      {
-        "headline": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 20,
-      "Macro & Economy": 50,
-      "Investment Banking & Deals": 166,
-      "Real Estate & REITs": 40,
-      "Earnings & Results": 100,
-      "Tech & Fintech": 124
+      "Stock Market & Equities": 19,
+      "Macro & Economy": 49,
+      "Investment Banking & Deals": 160,
+      "Real Estate & REITs": 38,
+      "Earnings & Results": 86,
+      "Tech & Fintech": 126
     }
   },
   {
