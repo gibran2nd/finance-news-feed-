@@ -2,40 +2,34 @@
   {
     "week": "2026-W41",
     "label": "Week of October 5\u20139, 2026",
-    "generated": "2026-10-07T23:24:03.448301+00:00",
+    "generated": "2026-10-08T14:15:11.437706+00:00",
     "bullets": [
       {
-        "headline": "Anthropic will be 'most ridiculous IPO' of year, analyst says",
-        "source": "CNBC M&A",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html"
-      },
-      {
-        "headline": "Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights",
+        "headline": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html"
+        "link": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html"
       },
       {
-        "headline": "Trump\u2019s tariffs were meant to shrink the trade deficit\u2014but the $106 billion gap just reached its widest since before \u2018Liberation Day\u2019",
-        "source": "Fortune",
+        "headline": "TSMC\u2019s September sales surge year-over-year as AI drives chip demand",
+        "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://fortune.com/2026/10/07/trump-tariffs-trade-deficit-widened-106-billion-highest-since-liberation-day-federal-deficit/"
+        "link": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html"
       },
       {
-        "headline": "ICE came to town and left behind weakened economies",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/10/07/ice-raids-local-economies.html"
+        "headline": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 18,
-      "Macro & Economy": 49,
-      "Investment Banking & Deals": 171,
-      "Real Estate & REITs": 41,
-      "Earnings & Results": 77,
-      "Tech & Fintech": 127
+      "Stock Market & Equities": 20,
+      "Macro & Economy": 50,
+      "Investment Banking & Deals": 166,
+      "Real Estate & REITs": 40,
+      "Earnings & Results": 100,
+      "Tech & Fintech": 124
     }
   },
   {
