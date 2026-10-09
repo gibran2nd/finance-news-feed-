@@ -2,22 +2,34 @@
   {
     "week": "2026-W41",
     "label": "Week of October 5\u20139, 2026",
-    "generated": "2026-10-08T23:36:15.373923+00:00",
+    "generated": "2026-10-09T14:01:07.213950+00:00",
     "bullets": [
       {
-        "headline": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected",
+        "headline": "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html"
+        "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html"
+      },
+      {
+        "headline": "Elon Musk questions Ambani\u2019s influence as Starlink India launch stalls",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/10/08/elon-musk-questions-ambanis-influence-as-starlink-india-launch-stalls/"
+      },
+      {
+        "headline": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected - CNBC",
+        "source": "Google \u2013 Guidance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tTTEwbFdxNTh2UXBoX0FJa1g0UERYMWZmbzhFdGVRWDVsRFhXRkJ2YUIxTVBocVk1U1pHb2NfT290ZV9SNlVNLTVPWURtbHRxUkRHazhWOEVxMDg4clc5VzlYd2cyTS1tOFcwU2ZqOXBteG_SAXhBVV95cUxPR3RaMHBHYnl5MVZ3VVN0TWRGT1ZoVHB1UHVTc0FtUzJyWWU3Y3RvVWpsczNBN3RiMWZKR0p2TDZENnFENlRiNHZ5WldZem9Ed3Q5NFBUZ3NTM2xMcGFSMHFtNE8tcHNISDRNd1BoRDlodnczc1MxSzQ?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 19,
-      "Macro & Economy": 49,
-      "Investment Banking & Deals": 160,
-      "Real Estate & REITs": 38,
-      "Earnings & Results": 86,
-      "Tech & Fintech": 126
+      "Stock Market & Equities": 18,
+      "Macro & Economy": 52,
+      "Investment Banking & Deals": 162,
+      "Real Estate & REITs": 37,
+      "Earnings & Results": 82,
+      "Tech & Fintech": 119
     }
   },
   {
