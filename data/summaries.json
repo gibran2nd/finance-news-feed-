@@ -2,8 +2,14 @@
   {
     "week": "2026-W41",
     "label": "Week of October 5\u20139, 2026",
-    "generated": "2026-10-09T22:58:36.363993+00:00",
+    "generated": "2026-10-10T13:10:01.940163+00:00",
     "bullets": [
+      {
+        "headline": "Cramer\u2019s week ahead: Earnings kick off as banks and chipmakers face big tests",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/10/09/jim-cramer-week-ahead-bank-earnings-ai-chips.html"
+      },
       {
         "headline": "Americans' debt problems are flashing a warning not seen since the Great Recession",
         "source": "CNBC Economy",
@@ -32,10 +38,10 @@
     "section_counts": {
       "Stock Market & Equities": 19,
       "Macro & Economy": 52,
-      "Investment Banking & Deals": 157,
+      "Investment Banking & Deals": 147,
       "Real Estate & REITs": 38,
-      "Earnings & Results": 81,
-      "Tech & Fintech": 116
+      "Earnings & Results": 78,
+      "Tech & Fintech": 106
     }
   },
   {
