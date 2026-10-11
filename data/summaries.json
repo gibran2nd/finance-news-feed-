@@ -2,19 +2,13 @@
   {
     "week": "2026-W41",
     "label": "Week of October 5\u20139, 2026",
-    "generated": "2026-10-11T13:39:55.264867+00:00",
+    "generated": "2026-10-11T22:35:43.299419+00:00",
     "bullets": [
       {
         "headline": "Americans' debt problems are flashing a warning not seen since the Great Recession",
         "source": "CNBC Economy",
         "section": "Macro & Economy",
         "link": "https://www.cnbc.com/2026/10/09/american-debt-delinquency.html"
-      },
-      {
-        "headline": "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong",
-        "source": "CNBC Markets",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html"
       },
       {
         "headline": "Ireland's DCC Energy to sell tech unit Nexora for $725 million ahead of KKR buyout - Reuters",
@@ -31,11 +25,11 @@
     ],
     "section_counts": {
       "Stock Market & Equities": 18,
-      "Macro & Economy": 54,
-      "Investment Banking & Deals": 131,
+      "Macro & Economy": 53,
+      "Investment Banking & Deals": 123,
       "Real Estate & REITs": 38,
-      "Earnings & Results": 73,
-      "Tech & Fintech": 96
+      "Earnings & Results": 81,
+      "Tech & Fintech": 99
     }
   },
   {
