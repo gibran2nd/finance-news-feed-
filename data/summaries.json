@@ -1,5 +1,38 @@
 [
   {
+    "week": "2026-W42",
+    "label": "Week of October 12\u201316, 2026",
+    "generated": "2026-10-12T16:21:11.117718+00:00",
+    "bullets": [
+      {
+        "headline": "Nobel prize in economics awarded to Robert E. Hall and Michael Woodford",
+        "source": "CNBC Economy",
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/10/12/nobel-economics-prize-winner-woodford-hall.html"
+      },
+      {
+        "headline": "Ireland's DCC Energy to sell tech unit Nexora for $725 million ahead of KKR buyout - Reuters",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU1JyeTVnZ194eEI5bWVkTGJBLVdGOFZXSWUxNzlvZURLTUdibEVrODdrVVpnZG9mVlJ2TWhpN19MeVBuVmNlUXR2RmYzS1F3ZkI1bnlqcjhmTEYxSVBDZVFWNzJ5OFBkOHRYVjI1VjZDLXFaTERHYURfbm82bnIzY1BSend4U1JEZlFBb000THFQLVM2ak41NXIxSUY0QjFUMjdMR3ZST01zelhrVGFqenVVWTJaZVYzUkZ1WUFINFE?oc=5"
+      },
+      {
+        "headline": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 18,
+      "Macro & Economy": 50,
+      "Investment Banking & Deals": 115,
+      "Real Estate & REITs": 37,
+      "Earnings & Results": 80,
+      "Tech & Fintech": 130
+    }
+  },
+  {
     "week": "2026-W41",
     "label": "Week of October 5\u20139, 2026",
     "generated": "2026-10-11T22:35:43.299419+00:00",
