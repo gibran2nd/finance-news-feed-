@@ -2,13 +2,31 @@
   {
     "week": "2026-W42",
     "label": "Week of October 12\u201316, 2026",
-    "generated": "2026-10-13T14:42:08.671781+00:00",
+    "generated": "2026-10-13T23:09:35.455403+00:00",
     "bullets": [
       {
-        "headline": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
+        "headline": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html"
+      },
+      {
+        "headline": "Televisa, Fintech to Acquire AT&T Mexico for $2 Billion - Mexico Business News",
+        "source": "Google \u2013 Active Deals",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRkRVdlZaMHhobk9mbDFvLXFsbG1CMS11QXVqUnZsSEtZbUptS2xYaGJidl8xTkFLQmxXVjdDeUZ0Nk1QRU1aRWRETENyNlByRmFvTnNsRTdPVm5RZVlLbXMtd0FlUmd1d3hjbXdiZ3EyRXBHdGNmSjgzNUwxaVlaaDI0MGRjSDFZTzJBdGd5QQ?oc=5"
+      },
+      {
+        "headline": "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
+        "source": "CNBC M&A",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html"
+      },
+      {
+        "headline": "We're upgrading our rating on Wells Fargo as the stock's pullback offers a nice entry point",
         "source": "CNBC Markets",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html"
+        "link": "https://www.cnbc.com/investingclub/2026/10/13/were-upgrading-our-rating-on-wells-fargo-as-the-stocks-pullback-offers-a-nice-entry-point.html"
       },
       {
         "headline": "In charts: How one of the world's biggest economies got trapped by debt",
@@ -17,25 +35,19 @@
         "link": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html"
       },
       {
-        "headline": "IMF sees milder global slowdown as AI boom offsets war hit \u2014 warns resilience is nearing limits",
-        "source": "CNBC Economy",
-        "section": "Macro & Economy",
-        "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html"
-      },
-      {
-        "headline": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected - CNBC",
-        "source": "Google \u2013 Guidance",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tTTEwbFdxNTh2UXBoX0FJa1g0UERYMWZmbzhFdGVRWDVsRFhXRkJ2YUIxTVBocVk1U1pHb2NfT290ZV9SNlVNLTVPWURtbHRxUkRHazhWOEVxMDg4clc5VzlYd2cyTS1tOFcwU2ZqOXBteG_SAXhBVV95cUxPR3RaMHBHYnl5MVZ3VVN0TWRGT1ZoVHB1UHVTc0FtUzJyWWU3Y3RvVWpsczNBN3RiMWZKR0p2TDZENnFENlRiNHZ5WldZem9Ed3Q5NFBUZ3NTM2xMcGFSMHFtNE8tcHNISDRNd1BoRDlodnczc1MxSzQ?oc=5"
+        "headline": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
+        "source": "CNBC Markets",
+        "section": "Stock Market & Equities",
+        "link": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 18,
-      "Macro & Economy": 51,
-      "Investment Banking & Deals": 139,
+      "Stock Market & Equities": 21,
+      "Macro & Economy": 50,
+      "Investment Banking & Deals": 137,
       "Real Estate & REITs": 37,
-      "Earnings & Results": 104,
-      "Tech & Fintech": 125
+      "Earnings & Results": 106,
+      "Tech & Fintech": 130
     }
   },
   {
