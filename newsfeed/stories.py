@@ -4,7 +4,7 @@ from __future__ import annotations
 import re
 from datetime import datetime
 
-from .config import MAX_PER_SOURCE, MAX_TOP_STORIES
+from .config import MAX_PER_SOURCE, MAX_TOP_STORIES, PAYWALL_RANK_FACTOR, PAYWALLED_PUBLISHERS
 
 
 def find_trending(raw: dict[str, list[dict]], displayed: list[dict],
@@ -174,13 +174,14 @@ NON_HEADLINE_RE = re.compile(r"transcript|live blog|live updates|as it happened"
 
 def _display_rank(a: dict) -> tuple:
     """Higher is better: a real headline that leads with the story's main company (not a
-    roundup), from a major outlet, with a summary, newest."""
+    roundup), free to read, from a major outlet, with a summary, newest."""
     major = len(MAJOR_PUBLISHERS) - MAJOR_PUBLISHERS.index(a["source"]) \
         if a["source"] in MAJOR_PUBLISHERS else 0
     companies = a.get("companies", [])
     leads_with_story_company = not a.get("lead_co") or companies[:1] == [a["lead_co"]]
     return (not NON_HEADLINE_RE.search(a["title"]), leads_with_story_company,
-            len(companies) <= 2, major, bool(a["summary"]), a["pub"])
+            len(companies) <= 2, a["source"] not in PAYWALLED_PUBLISHERS,
+            major, bool(a["summary"]), a["pub"])
 
 
 RANK_HALF_LIFE_H = 12     # a story's ranking weight halves every 12 hours
@@ -192,6 +193,8 @@ def importance_rank(now: datetime):
     def rank(a: dict) -> float:
         age_h = (now - a["pub"]).total_seconds() / 3600
         importance = 1 + a.get("majors", 0) + 0.3 * (a.get("coverage", 1) - a.get("majors", 0))
+        if a["source"] in PAYWALLED_PUBLISHERS:
+            importance *= PAYWALL_RANK_FACTOR
         return importance * 0.5 ** (age_h / RANK_HALF_LIFE_H)
     return rank
 

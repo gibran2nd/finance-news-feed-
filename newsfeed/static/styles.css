@@ -305,6 +305,7 @@
     .card-summary { font-size: .78rem; color: var(--muted); line-height: 1.5; }
     .empty        { color: var(--muted); font-style: italic; }
 
+    .badge .lock  { margin-left: 3px; vertical-align: -1px; opacity: .75; }
     .card-via     { color: var(--muted); opacity: .8; font-style: italic; white-space: nowrap; }
 
     /* ── Brief ── */

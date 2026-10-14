@@ -79,6 +79,13 @@ INTERNSHIP_RESOURCES = [
     },
 ]
 
+# Outlets that usually need a subscription (cards get a lock; free versions preferred)
+PAYWALLED_PUBLISHERS = {
+    "WSJ", "FT", "Bloomberg", "Barron's", "NYT", "DealBook", "Money Stuff", "MarketWatch",
+    "Seeking Alpha", "The Business Journals", "The Information", "The Economist", "PitchBook",
+}
+PAYWALL_RANK_FACTOR = 0.8     # paywalled stories need ~25% more importance to outrank free ones
+
 # ── Feed Sources ───────────────────────────────────────────────────────────────
 def gnews(query: str) -> str:
     """Google News search feed. Use `when:Nd` in the query to keep results fresh."""

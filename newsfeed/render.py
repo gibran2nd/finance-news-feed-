@@ -7,7 +7,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from .config import ANNOUNCEMENT, INTERNSHIP_RESOURCES, MAX_PER_SECTION, MAX_PER_SECTION_WEEK, PREMIUM_SITES
+from .config import ANNOUNCEMENT, PAYWALLED_PUBLISHERS, INTERNSHIP_RESOURCES, MAX_PER_SECTION, MAX_PER_SECTION_WEEK, PREMIUM_SITES
 from .recaps import get_week_key
 
 
@@ -63,11 +63,14 @@ def render_card(article: dict, color: str | None = None) -> str:
     via       = (f' <span class="card-via">— {esc(article["summary_via"])}</span>'
                  if article.get("summary_via") and article["summary_via"] != article["source"] else "")
     summary_html = f'<p class="card-summary">{s}{via}</p>' if s else ""
+    lock      = (' <svg class="lock" viewBox="0 0 16 16" width="9" height="9" aria-label="Subscription may be required">'
+                 '<title>Subscription may be required</title><path fill="currentColor" d="M4 7V5a4 4 0 1 1 8 0v2h1v8H3V7h1zm2 0h4V5a2 2 0 1 0-4 0v2z"/></svg>'
+                 if article["source"] in PAYWALLED_PUBLISHERS else "")
     co_attr   = f' data-co="{esc("|".join(article["companies"]))}"' if article.get("companies") else ""
     return f"""\
     <a class="card {age_cls}" href="{lk}" target="_blank" rel="noopener noreferrer"{co_attr}>
       <div class="card-meta">
-        <span class="badge" style="border-color:{c};color:{c}">{src}</span>
+        <span class="badge" style="border-color:{c};color:{c}">{src}{lock}</span>
         <span class="ts">{new_badge}{ts}</span>
       </div>
       <p class="card-title">{t}</p>
