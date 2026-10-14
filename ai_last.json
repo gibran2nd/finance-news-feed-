@@ -4,83 +4,99 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12525,
-   "output_tokens": 3900,
-   "cost_usd": 0.0032
+   "input_tokens": 12777,
+   "output_tokens": 3181,
+   "cost_usd": 0.00287
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2329,
-   "output_tokens": 1140,
-   "cost_usd": 0.0008
+   "input_tokens": 2749,
+   "output_tokens": 2959,
+   "cost_usd": 0.00175
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Jio Platforms files RHP for IPO: Issue to open on October 21; fresh issue of up to 27 crore equity shares",
-   "Mukesh Ambani's Jio seeks $108 billion valuation in record Indian IPO",
-   "Jio IPO 2026 | Reliance files RHP papers, latest details on price, price band and key dates",
-   "Reliance’s Jio Platforms files final IPO prospectus; offer to open on October 21"
-  ],
-  [
    "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
    "Inflation worsened last month to 3.7% in sign that prices remain elevated as midterm elections near",
    "US inflation jumps to 3.7% as Iran war drives up prices",
-   "US inflation heats up in September; Fed rate hike this month back on table"
+   "US inflation heats up in September; Fed rate hike this month back on table",
+   "Stocks fall, dollar rallies as US inflation tops forecasts",
+   "Stocks Turn Lower as AI, Tech Shares Slump",
+   "VIEW Hot September CPI sends rate-hike bets soaring",
+   "Precious Metals Sink As U.S. CPI Numbers Give Dollar A Lift",
+   "Dollar Strengthens on Hot Inflation Data, Higher Treasury Yields"
   ],
   [
    "BofA misses profit estimates on trading weakness, books $1.2 billion charge",
-   "Bank of America shares drop 8% after third-quarter revenue miss and regulatory penalty"
+   "Bank of America shares drop 8% after third-quarter revenue miss and regulatory penalty",
+   "Wall Street Worries Bank of America’s Problems Will Linger"
   ],
   [
-   "ASML: Huge Earnings Beat",
-   "ASML says it's getting order interest through 2030 as profit smashes expectations",
+   "Jio Platforms files RHP for IPO: Issue to open on October 21; fresh issue of up to 27 crore equity shares",
+   "Jio Platforms files IPO papers, issue to open on October 21 | Shares worth ₹3,000 crore are reserved | Inshorts",
+   "Reliance’s Jio Platforms files final IPO prospectus; offer to open on October 21",
+   "Jio IPO 2026 | Reliance files RHP papers, latest details on price, price band and key dates",
+   "Mukesh Ambani's Jio seeks $108 billion valuation in record Indian IPO"
+  ],
+  [
+   "Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'",
+   "Why Dell’s stock was one of the S&P 500’s biggest laggards on Wednesday",
+   "Why Dell Stock Is Having Its Worst Day in More Than a Year"
+  ],
+  [
+   "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
+   "CoreWeave Stock Sinks. The Credit Market Is Flashing a Warning Sign."
+  ],
+  [
+   "Social Security announces 3.6% COLA increase for 2027",
+   "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
+   "Did this year’s COLA beat inflation? Here’s how spending by American seniors stacks up so far in 2026."
+  ],
+  [
    "AI Boom Drives ASML Higher as Nvidia Bets on Europe",
+   "ASML: Huge Earnings Beat",
    "Intel, AMD, and More Chip Stocks Fall After ASML’s Strong Earnings"
   ],
   [
    "Lufthansa wins race for €1.2 billion stake in Portuguese carrier TAP",
    "Portugal Picks Lufthansa Over Air France-KLM for TAP Stake"
-  ],
-  [
-   "Social Security announces 3.6% COLA increase for 2027",
-   "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?"
   ]
  ],
  "brief": [
   {
-   "headline": "Jio Platforms files IPO papers, issue opens October 21",
-   "detail": "Jio Platforms filed its IPO papers for a fresh issue of up to 27 crore shares, opening October 21, and seeks a $108 billion valuation.",
-   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPeUFMczAxMk5qUEtMNjZTQWRNZWtrWTJFZGlYZTM0OFJHU3M4Ul93U2E1VHZHU3NuRWhrVUdYM044cE9QcHVMTVRHOUREcW5nRVhKMmFtZlJnRjF4VWRuUGhDX202X3dDNTZrQ1YxR1pFUUN3QnA2bEdVMnJnYnZRa1k2ZUd1VElZYnN4d3NOODdDelhlbWpRNXItZHhGQTVONTlPbWZvaXpsYWFTdFd6Y21yTEx3WHIyUmw1MFFBejJkRGVzelByUi1XQWU4NHdBMWtpRFpSSGlZTVNxQlFqVlhaRmUzd2F5ZWExeDNXWmhXZw?oc=5"
-  },
-  {
-   "headline": "US consumer prices rise 3.7% annually in September",
-   "detail": "Inflation rose 3.7% annually in September, above the 3.6% consensus forecast, as gas prices skyrocketed.",
+   "headline": "US consumer prices rise 3.7% in September, topping forecasts",
+   "detail": "Consumer prices rose 3.7% annually in September as gas prices skyrocketed, above the 3.6% Dow Jones consensus forecast, which bears on Fed rate expectations.",
    "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
   },
   {
-   "headline": "BofA misses profit estimates on trading weakness",
-   "detail": "Bank of America missed profit estimates on weak trading and booked a $1.2 billion charge, and its shares dropped 8% after the revenue miss.",
+   "headline": "Bank of America misses profit estimates on trading weakness",
+   "detail": "BofA missed profit estimates on trading weakness and booked a $1.2 billion charge, according to Reuters.",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSERjcDdENDA2c180cFVhdW01WTVBaEdQdjRvejB6eGpkNklKUE8xM05mX1YybXZmMExUUXVkVDhMZUxGS0g5MWN0S3NtOHk1TjBISzBTWHB6VElZSjFjTHFUdU5sZXZtcHFxa0VybC1qR2Y2R0doZThnbGJoQVE5LVg5bHBDZmFvUm9ONGVUdUszODFvWV9aWlROdnE4NWs5R0FYZmJIVFAxaHZCQlJVRmtidS1IUlhVM1ZIM09MeEk?oc=5"
   },
   {
-   "headline": "ASML sees customer order interest through 2030",
-   "detail": "ASML's profit smashed expectations, and some customers are expressing interest in placing orders in 2029 and 2030, giving a longer-term demand view.",
-   "link": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html"
+   "headline": "Jio Platforms files IPO papers, issue opens October 21",
+   "detail": "Jio seeks a $108 billion valuation in a record Indian IPO, with the issue opening October 21.",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPeUFMczAxMk5qUEtMNjZTQWRNZWtrWTJFZGlYZTM0OFJHU3M4Ul93U2E1VHZHU3NuRWhrVUdYM044cE9QcHVMTVRHOUREcW5nRVhKMmFtZlJnRjF4VWRuUGhDX202X3dDNTZrQ1YxR1pFUUN3QnA2bEdVMnJnYnZRa1k2ZUd1VElZYnN4d3NOODdDelhlbWpRNXItZHhGQTVONTlPbWZvaXpsYWFTdFd6Y21yTEx3WHIyUmw1MFFBejJkRGVzelByUi1XQWU4NHdBMWtpRFpSSGlZTVNxQlFqVlhaRmUzd2F5ZWExeDNXWmhXZw?oc=5"
   },
   {
-   "headline": "BlackRock buys $2.8B CenterWell stake in senior care",
-   "detail": "BlackRock agreed to buy a $2.8 billion stake in CenterWell and take over its senior care clinics.",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNd09yMUc2R2U2MVlqcm5RMzZIOVo2TnpkQ29FaUF3c1NadXZSRHJTX1l1eTZwNDFYZ1RSLUtVaXcxTTRsOGttZmRtNnBKdnlGUFh2WF9xdU92YWRhUllWOWtjWUx5Zmk3ZmlBZzJTek1fRDZxMXRrbWJvaUhzbk9BSXBEamJ3UXU2b0c4aGlUWFFBYnlHYnE3cXNpd0hWOWxjOXd3?oc=5"
+   "headline": "Berkshire adds $330 million to Bending Spoons bet",
+   "detail": "Berkshire deepened its Bending Spoons bet with $330 million, sparking a rally in its shares.",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd0ZaMTJ1V3FHVGlTQWNRaVRwS1pvaEZJZjMtdkFWM1llcDA4VVMzejI1YzhUbUk4WXBsRTdMZGZJWGx3azJZVTZIWG5YQ0twUEx2RzNzMGJpa2Nqc2NaQTFHUU01UVF4YjlPcTlPVVJTVXlyRi0wSXZUYmprUTAwZHJvd1Bzem9DdjI2OGM0Qk1pdVBLUGY1Um1iV2syTHVIYVJEMkVqdE1oajdiMnhjLVcyLWl5bUR2U094UW1Gbw?oc=5"
+  },
+  {
+   "headline": "UnitedHealth earnings beat Wall Street estimates",
+   "detail": "UnitedHealth's earnings beat Wall Street estimates, and Barron's says its turnaround continues.",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQVdJazIyaUdZemJxSnVZcW5LcWV1TFhZbWZXRDF0ckd1OGU1Q1EwcXM5VjcyYVFNMmtSV3VNbjVFNjQtb0FwN1VEVTZOWFZZejMtTFpwbGkwREhhV0pmWXE5al9kQTBxbl9ZRlpOUnItU3pjTFJ1aFRldzNkcC0yX3BJYmFfZw?oc=5"
   }
  ],
  "summaries": {
-  "requested": 18,
+  "requested": 22,
   "rejected_ungrounded": 0,
-  "applied": 18
+  "applied": 22
  },
- "generated": "2026-10-14T18:54+00:00",
- "total_cost_usd": 0.004
+ "generated": "2026-10-14T20:22+00:00",
+ "total_cost_usd": 0.00462
 }
