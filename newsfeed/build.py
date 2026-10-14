@@ -5,6 +5,7 @@ import os
 import sys
 from datetime import datetime, timezone, timedelta
 
+from .archive import load_archive, update_archive
 from .config import FEEDS, LOOKBACK_HOURS, MAX_PER_SECTION, MAX_PER_SECTION_WEEK, MIN_LIVE_RATIO, OUTPUT_DIR, OUTPUT_FILE, RECAPS_FILE, WEEK_FILE, WEEK_HOURS
 from .fetch import fetch_all, parse_section
 from .markets import fetch_market_snapshot
@@ -25,24 +26,20 @@ def main() -> None:
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    sections_raw_main: dict = {}
-    sections_raw_week: dict = {}
-
     print("[Fetching feeds]")
     fetched = fetch_all(now)
     print(f"  → {len(fetched)} feeds\n")
 
     feed_stats: list[dict] = []
+    fetched_articles: list[dict] = []
     for name, config in FEEDS.items():
         print(f"[{config['icon']} {name}]")
-        raw_week, stats = parse_section(name, config, fetched, week_cutoff, now)
+        articles, stats = parse_section(name, config, fetched, week_cutoff, now)
         feed_stats.extend(stats)
+        fetched_articles.extend(articles)
         for st in stats:
             status = st["error"] or f"{st['kept']:3} kept / {st['fresh']:3} fresh / {st['entries']:3} in feed"
             print(f"  {'✗' if st['error'] or not st['fresh'] else '✓'} {st['label']:28} {status}  ({st['secs']}s)")
-        raw_main = [a for a in raw_week if a["pub"] >= main_cutoff]
-        sections_raw_week[name] = raw_week
-        sections_raw_main[name] = raw_main
         print()
 
     print("[🩺 Feed health]")
@@ -54,6 +51,17 @@ def main() -> None:
               "the previous site stays up.\n")
         sys.exit(1)
     print()
+
+    print("[🗄  Archive]")
+    added = update_archive(fetched_articles, now)
+    week_start = (now - timedelta(days=now.weekday())).replace(hour=0, minute=0, second=0,
+                                                               microsecond=0)
+    archived = load_archive(min(week_cutoff, week_start), now)
+    sections_raw_week = {n: [a for a in arts if a["pub"] >= week_cutoff] for n, arts in archived.items()}
+    sections_raw_main = {n: [a for a in arts if a["pub"] >= main_cutoff] for n, arts in archived.items()}
+    sections_iso_week = {n: [a for a in arts if a["pub"] >= week_start] for n, arts in archived.items()}
+    print(f"  → {added} new articles archived; "
+          f"{sum(map(len, sections_raw_week.values()))} in the last 7 days\n")
 
     print("[🔥 Selecting stories]")
     top_stories, picked_main = select_stories(sections_raw_main, MAX_PER_SECTION, now,
@@ -83,7 +91,10 @@ def main() -> None:
 
     print("[📋 Weekly Summaries]")
     summaries    = load_summaries()
-    week_summary = build_week_summary(top_stories_week, sections_raw_week, now)
+    # Recap for the calendar week so far, from the archive (not just this run's feeds)
+    week_hours   = max((now - week_start).total_seconds() / 3600, 1)
+    recap_top, _ = select_stories(sections_iso_week, 1, now, week_hours, by_coverage=True)
+    week_summary = build_week_summary(recap_top, sections_iso_week, now)
     # Update existing entry for this week or prepend a new one
     existing_idx = next((i for i, s in enumerate(summaries) if s["week"] == week_summary["week"]), None)
     if existing_idx is not None:

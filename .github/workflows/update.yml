@@ -36,8 +36,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/summaries.json data/feed_health.json
-          git diff --staged --quiet || git commit -m "chore: update weekly summaries and feed health [skip ci]"
+          git add data/summaries.json data/feed_health.json data/archive
+          git diff --staged --quiet || git commit -m "chore: update archive, summaries and feed health [skip ci]"
           git push
 
       - name: Setup Pages

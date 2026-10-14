@@ -162,11 +162,11 @@ NON_HEADLINE_RE = re.compile(r"transcript|live blog|live updates|as it happened"
 
 
 def _display_rank(a: dict) -> tuple:
-    """Higher is better: a real headline about one company (not a roundup), from a major
+    """Higher is better: a real headline (not a 3+ company roundup), from a major
     outlet, with a summary, newest."""
     major = len(MAJOR_PUBLISHERS) - MAJOR_PUBLISHERS.index(a["source"]) \
         if a["source"] in MAJOR_PUBLISHERS else 0
-    return (not NON_HEADLINE_RE.search(a["title"]), len(a.get("companies", ())) <= 1,
+    return (not NON_HEADLINE_RE.search(a["title"]), len(a.get("companies", ())) <= 2,
             major, bool(a["summary"]), a["pub"])
 
 

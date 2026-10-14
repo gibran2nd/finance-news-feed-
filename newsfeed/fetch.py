@@ -78,11 +78,19 @@ def fetch_all(now: datetime) -> dict[str, dict]:
         return dict(pool.map(timed, urls))
 
 
+def add_display_fields(article: dict, color: str, now: datetime) -> dict:
+    """Fields that depend on the build time / section rather than the article itself."""
+    age_h = (now - article["pub"]).total_seconds() / 3600
+    article["color"]     = color
+    article["is_new"]    = age_h <= NEW_THRESHOLD_H
+    article["age_class"] = "age-fresh" if age_h < 2 else "age-recent" if age_h < 12 else "age-old"
+    return article
+
+
 def parse_section(name: str, config: dict, fetched: dict, cutoff: datetime,
                   now: datetime) -> tuple[list[dict], list[dict]]:
     """Turn fetched feeds into article dicts. Returns (articles, per-source stats)."""
     blocklist  = [kw.lower() for kw in config.get("blocklist", [])]
-    new_cutoff = now - timedelta(hours=NEW_THRESHOLD_H)
     max_future = now + timedelta(hours=1)
     color      = config["color"]
 
@@ -131,9 +139,7 @@ def parse_section(name: str, config: dict, fetched: dict, cutoff: datetime,
                 continue
             if any(kw in title.lower() for kw in blocklist):
                 continue
-            age_h     = (now - pub).total_seconds() / 3600
-            age_class = "age-fresh" if age_h < 2 else "age-recent" if age_h < 12 else "age-old"
-            articles.append({
+            articles.append(add_display_fields({
                 "title":     title,
                 "summary":   summary,
                 "link":      link,
@@ -141,10 +147,7 @@ def parse_section(name: str, config: dict, fetched: dict, cutoff: datetime,
                 "feed":      label,
                 "section":   name,
                 "pub":       pub,
-                "is_new":    pub >= new_cutoff,
-                "color":     color,
-                "age_class": age_class,
                 "companies": find_companies(title),
-            })
+            }, color, now))
             stat["kept"] += 1
     return articles, stats
