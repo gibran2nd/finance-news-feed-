@@ -7,40 +7,27 @@ from datetime import datetime
 from .config import MAX_PER_SOURCE, MAX_TOP_STORIES
 
 
-# ── Ticker tokens to ignore when extracting trending companies ─────────────────
-TICKER_STOPWORDS = {
-    # Finance abbreviations
-    "US", "UK", "EU", "ECB", "FED", "SEC", "IPO", "GDP", "CEO", "CFO", "COO", "CTO",
-    "ETF", "PE", "VC", "AI", "IT", "ML", "CPI", "PPI", "IMF", "WTO", "NYSE", "FDIC",
-    "FOMC", "DOJ", "FTC", "DOE", "ESG", "LBO", "REIT", "SPX", "SPY", "ETH", "BTC",
-    "NEW", "TOP", "IRS", "APR", "APY", "AUM", "FY", "YTD", "EPS", "EV", "ROE",
-    "DCF", "IRR", "NAV", "NPV", "NIM", "NII", "ROA", "EBIT", "NFT",
-    # English words that appear in caps in headlines
-    "THE", "AND", "FOR", "INC", "LLC", "LTD", "PLC", "CORP", "CO", "AS", "AT", "IN",
-    "ON", "TO", "OF", "BY", "IS", "AN", "OR", "BE", "DO", "NOT", "ALL", "CAN",
-    "WAS", "OUT", "ONE", "TWO", "MAY", "HAS", "HAD", "WHO", "ARE", "BUT",
-    "SAYS", "SAID", "WILL", "AFTER", "OVER", "MORE", "DOWN", "WHAT", "HOW", "WHEN",
-    "THAN", "FROM", "WITH", "AMID", "INTO", "PLAN", "DEAL", "RATE", "RISE", "FALL",
-    "CUTS", "HIKE", "BANK", "FUND", "FIRM", "YEAR", "WEEK", "DAYS", "LAST", "NEXT",
-    "HIGH", "MAKE", "TAKE", "BACK", "WELL", "JUST", "ALSO", "ONLY", "ALSO",
-    "AMID", "FIRST", "THEIR", "COULD", "WOULD", "ABOUT", "THESE",
-    # Months
-    "JAN", "FEB", "MAR", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC",
-}
+def find_trending(raw: dict[str, list[dict]], displayed: list[dict],
+                  top_n: int = 12) -> list[tuple[str, int]]:
+    """Companies with the most buzz today, limited to ones that appear on the page.
 
-
-def find_trending(sections_raw: dict[str, list[dict]], top_n: int = 12) -> list[tuple[str, int]]:
-    """Extract most-mentioned company tickers/names from all article headlines."""
-    token_re = re.compile(r'\b([A-Z]{2,5})\b')
-    counts: dict[str, int] = {}
-    for articles in sections_raw.values():
-        for a in articles:
-            for token in token_re.findall(a["title"]):
-                if token not in TICKER_STOPWORDS:
-                    counts[token] = counts.get(token, 0) + 1
-    trending = [(t, c) for t, c in counts.items() if c >= 2]
-    trending.sort(key=lambda x: -x[1])
-    return trending[:top_n]
+    Buzz = distinct (story, publisher) pairs mentioning the company, so one story syndicated
+    many times by one outlet doesn't dominate. The count returned is the number of cards on
+    the page that mention the company — exactly what clicking the chip will show.
+    """
+    arts = [dict(a) for articles in raw.values() for a in articles]
+    cluster_articles(arts)
+    mentions: dict[str, set] = {}
+    for a in arts:
+        for name in a["companies"]:
+            mentions.setdefault(name, set()).add((a["cluster"], a["source"]))
+    on_page: dict[str, int] = {}
+    for a in displayed:
+        for name in a["companies"]:
+            on_page[name] = on_page.get(name, 0) + 1
+    ranked = sorted((n for n in mentions if on_page.get(n) and len(mentions[n]) >= 3),
+                    key=lambda n: (len(mentions[n]), on_page[n]), reverse=True)
+    return [(n, on_page[n]) for n in ranked[:top_n]]
 
 
 def spread_publishers(articles: list[dict]) -> list[dict]:
@@ -76,7 +63,18 @@ TITLE_STOPWORDS = {
     "has", "have", "had", "been", "not", "but", "out", "off", "via", "per", "you", "your",
     "our", "all", "set", "top", "big", "first", "year", "week", "day", "u.s", "us",
     "report", "news", "update", "exclusive", "commentary", "analysis", "source",
+    "despite", "even", "still", "just", "now", "amid",
 }
+
+
+# Too generic to tie two same-company headlines together (stemmed forms)
+GENERIC_WORDS = {
+    "stock", "shar", "market", "investor", "analyst", "pric", "rise", "rose", "fall", "fell",
+    "gain", "drop", "jump", "slip", "climb", "surg", "say", "ai", "deal", "ceo", "new",
+    "inc", "corp", "co", "group", "today", "why", "here", "what", "buy", "sell",
+    "boom", "business", "billion", "million", "year", "full", "big", "bank", "firm",
+}
+COMPANY_MATCH_WINDOW_H = 30
 
 
 def _stem(word: str) -> str:
@@ -116,10 +114,24 @@ def cluster_articles(articles: list[dict]) -> list[dict]:
         if not wa or not wb:
             return False
         shared  = wa & wb
-        rare    = [w for w in shared if df[w] <= rare_max]
+        # single digits ("4 reasons", "up 3%") are too common to identify a story
+        rare    = [w for w in shared if df[w] <= rare_max and not (w.isdigit() and len(w) == 1)]
         overlap = len(shared) / min(len(wa), len(wb))
-        return ((len(shared) >= 3 and overlap >= 0.5 and len(rare) >= 1)
-                or (len(rare) >= 2 and len(shared) >= 3 and overlap >= 0.4))
+        ca, cb  = set(a.get("companies", ())), set(b.get("companies", ()))
+        if ca and cb and not ca & cb and overlap < 0.8:
+            return False          # about different companies → different stories
+        if ((len(shared) >= 3 and overlap >= 0.5 and len(rare) >= 1)
+                or (len(rare) >= 2 and len(shared) >= 3 and overlap >= 0.4)):
+            return True
+        # Same company, about the same time, plus one meaningful shared word
+        # ("UnitedHealth raises profit forecast" ~ "UNH tops estimates, hikes profit outlook").
+        # Roundup headlines naming 3+ companies are excluded so they can't bridge stories.
+        common = ca & cb
+        if common and len(ca) <= 2 and len(cb) <= 2 and \
+                abs((a["pub"] - b["pub"]).total_seconds()) <= COMPANY_MATCH_WINDOW_H * 3600:
+            name_words = story_words({"title": " ".join(common)})
+            return bool(shared - name_words - GENERIC_WORDS)
+        return False
 
     clusters: list[dict] = []
     for a in sorted(articles, key=lambda a: a["pub"], reverse=True):
@@ -134,8 +146,10 @@ def cluster_articles(articles: list[dict]) -> list[dict]:
         home["publishers"].add(a["source"])
         a["cluster"] = home["id"]
     for c in clusters:
+        majors = sum(p in MAJOR_PUBLISHERS for p in c["publishers"])
         for a in c["articles"]:
             a["coverage"] = len(c["publishers"])
+            a["majors"]   = majors
     return clusters
 
 
@@ -148,10 +162,25 @@ NON_HEADLINE_RE = re.compile(r"transcript|live blog|live updates|as it happened"
 
 
 def _display_rank(a: dict) -> tuple:
-    """Higher is better: a real headline, from a major outlet, with a summary, newest."""
+    """Higher is better: a real headline about one company (not a roundup), from a major
+    outlet, with a summary, newest."""
     major = len(MAJOR_PUBLISHERS) - MAJOR_PUBLISHERS.index(a["source"]) \
         if a["source"] in MAJOR_PUBLISHERS else 0
-    return (not NON_HEADLINE_RE.search(a["title"]), major, bool(a["summary"]), a["pub"])
+    return (not NON_HEADLINE_RE.search(a["title"]), len(a.get("companies", ())) <= 1,
+            major, bool(a["summary"]), a["pub"])
+
+
+RANK_HALF_LIFE_H = 12     # a story's ranking weight halves every 12 hours
+
+
+def importance_rank(now: datetime):
+    """Daily-page ranking: breadth of coverage (major outlets count most), fading with age.
+    Keeps big stories (e.g. bank earnings covered by 9 outlets) up longer than one-off items."""
+    def rank(a: dict) -> float:
+        age_h = (now - a["pub"]).total_seconds() / 3600
+        importance = 1 + a.get("majors", 0) + 0.3 * (a.get("coverage", 1) - a.get("majors", 0))
+        return importance * 0.5 ** (age_h / RANK_HALF_LIFE_H)
+    return rank
 
 
 def find_top_stories(clusters: list[dict], now: datetime, window_h: float) -> list[dict]:
@@ -179,14 +208,15 @@ def select_stories(raw: dict[str, list[dict]], limit: int, now: datetime, window
                    by_coverage: bool) -> tuple[list[dict], dict[str, list[dict]]]:
     """Pick Top Stories and each section's cards so no story appears twice on the page.
 
-    by_coverage=False → newest first (daily page); True → most widely covered first (weekly).
+    by_coverage=False → importance fading with age (daily page); True → most widely covered
+    first (weekly).
     """
     # copies: the daily and weekly pages cluster the same articles independently
     raw = {name: [dict(a) for a in arts] for name, arts in raw.items()}
     clusters = cluster_articles([a for arts in raw.values() for a in arts])
     top      = find_top_stories(clusters, now, window_h)
     shown    = {a["cluster"] for a in top}
-    rank     = (lambda a: (a["coverage"], a["pub"])) if by_coverage else (lambda a: a["pub"])
+    rank     = (lambda a: (a["coverage"], a["pub"])) if by_coverage else importance_rank(now)
 
     sections = {}
     for name, arts in raw.items():

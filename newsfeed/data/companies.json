@@ -1,0 +1,3335 @@
+[
+ {
+  "name": "3M",
+  "aliases": [
+   "3M"
+  ]
+ },
+ {
+  "name": "A. O. Smith",
+  "aliases": [
+   "A. O. Smith"
+  ]
+ },
+ {
+  "name": "AES",
+  "aliases": [
+   "AES"
+  ]
+ },
+ {
+  "name": "AMD",
+  "aliases": [
+   "Advanced Micro Devices",
+   "AMD"
+  ]
+ },
+ {
+  "name": "APA Corporation",
+  "aliases": [
+   "APA Corporation"
+  ]
+ },
+ {
+  "name": "ASML",
+  "aliases": [
+   "ASML"
+  ]
+ },
+ {
+  "name": "AT&T",
+  "aliases": [
+   "AT&T"
+  ]
+ },
+ {
+  "name": "AbbVie",
+  "aliases": [
+   "AbbVie"
+  ]
+ },
+ {
+  "name": "Abbott Laboratories",
+  "aliases": [
+   "Abbott Laboratories"
+  ]
+ },
+ {
+  "name": "Accenture",
+  "aliases": [
+   "Accenture"
+  ]
+ },
+ {
+  "name": "Adobe",
+  "aliases": [
+   "Adobe"
+  ]
+ },
+ {
+  "name": "Aflac",
+  "aliases": [
+   "Aflac"
+  ]
+ },
+ {
+  "name": "Agilent",
+  "aliases": [
+   "Agilent"
+  ]
+ },
+ {
+  "name": "Air Products",
+  "aliases": [
+   "Air Products"
+  ]
+ },
+ {
+  "name": "Airbnb",
+  "aliases": [
+   "Airbnb"
+  ]
+ },
+ {
+  "name": "Akamai",
+  "aliases": [
+   "Akamai"
+  ]
+ },
+ {
+  "name": "Albemarle",
+  "aliases": [
+   "Albemarle"
+  ]
+ },
+ {
+  "name": "Albertsons",
+  "aliases": [
+   "Albertsons"
+  ]
+ },
+ {
+  "name": "Alexandria Real Estate Equities",
+  "aliases": [
+   "Alexandria Real Estate Equities"
+  ]
+ },
+ {
+  "name": "Alibaba",
+  "aliases": [
+   "Alibaba"
+  ]
+ },
+ {
+  "name": "Align Technology",
+  "aliases": [
+   "Align Technology"
+  ]
+ },
+ {
+  "name": "Allegion",
+  "aliases": [
+   "Allegion"
+  ]
+ },
+ {
+  "name": "Alliant Energy",
+  "aliases": [
+   "Alliant Energy"
+  ]
+ },
+ {
+  "name": "Allstate",
+  "aliases": [
+   "Allstate"
+  ]
+ },
+ {
+  "name": "Altria",
+  "aliases": [
+   "Altria"
+  ]
+ },
+ {
+  "name": "Amazon",
+  "aliases": [
+   "Amazon"
+  ]
+ },
+ {
+  "name": "Amcor",
+  "aliases": [
+   "Amcor"
+  ]
+ },
+ {
+  "name": "Ameren",
+  "aliases": [
+   "Ameren"
+  ]
+ },
+ {
+  "name": "American Electric Power",
+  "aliases": [
+   "American Electric Power"
+  ]
+ },
+ {
+  "name": "American Express",
+  "aliases": [
+   "American Express",
+   "Amex"
+  ]
+ },
+ {
+  "name": "American International Group",
+  "aliases": [
+   "American International Group"
+  ]
+ },
+ {
+  "name": "American Tower",
+  "aliases": [
+   "American Tower"
+  ]
+ },
+ {
+  "name": "American Water Works",
+  "aliases": [
+   "American Water Works"
+  ]
+ },
+ {
+  "name": "Ameriprise Financial",
+  "aliases": [
+   "Ameriprise Financial"
+  ]
+ },
+ {
+  "name": "Ametek",
+  "aliases": [
+   "Ametek"
+  ]
+ },
+ {
+  "name": "Amgen",
+  "aliases": [
+   "Amgen"
+  ]
+ },
+ {
+  "name": "Amphenol",
+  "aliases": [
+   "Amphenol"
+  ]
+ },
+ {
+  "name": "Analog Devices",
+  "aliases": [
+   "Analog Devices"
+  ]
+ },
+ {
+  "name": "Anthropic",
+  "aliases": [
+   "Anthropic"
+  ]
+ },
+ {
+  "name": "Aon",
+  "aliases": [
+   "Aon"
+  ]
+ },
+ {
+  "name": "Apollo",
+  "aliases": [
+   "Apollo Global",
+   "Apollo"
+  ]
+ },
+ {
+  "name": "Apollo Global Management",
+  "aliases": [
+   "Apollo Global Management"
+  ]
+ },
+ {
+  "name": "AppLovin",
+  "aliases": [
+   "AppLovin"
+  ]
+ },
+ {
+  "name": "Apple",
+  "aliases": [
+   "Apple"
+  ]
+ },
+ {
+  "name": "Applied Materials",
+  "aliases": [
+   "Applied Materials"
+  ]
+ },
+ {
+  "name": "Aptiv",
+  "aliases": [
+   "Aptiv"
+  ]
+ },
+ {
+  "name": "Aramco",
+  "aliases": [
+   "Saudi Aramco",
+   "Aramco"
+  ]
+ },
+ {
+  "name": "Arch Capital",
+  "aliases": [
+   "Arch Capital"
+  ]
+ },
+ {
+  "name": "Archer Daniels Midland",
+  "aliases": [
+   "Archer Daniels Midland"
+  ]
+ },
+ {
+  "name": "Ares Management",
+  "aliases": [
+   "Ares Management"
+  ]
+ },
+ {
+  "name": "Arista Networks",
+  "aliases": [
+   "Arista Networks"
+  ]
+ },
+ {
+  "name": "Arm Holdings",
+  "aliases": [
+   "Arm Holdings"
+  ]
+ },
+ {
+  "name": "Arthur J. Gallagher",
+  "aliases": [
+   "Arthur J. Gallagher"
+  ]
+ },
+ {
+  "name": "Assurant",
+  "aliases": [
+   "Assurant"
+  ]
+ },
+ {
+  "name": "Atmos Energy",
+  "aliases": [
+   "Atmos Energy"
+  ]
+ },
+ {
+  "name": "AutoZone",
+  "aliases": [
+   "AutoZone"
+  ]
+ },
+ {
+  "name": "Autodesk",
+  "aliases": [
+   "Autodesk"
+  ]
+ },
+ {
+  "name": "Automatic Data Processing",
+  "aliases": [
+   "Automatic Data Processing"
+  ]
+ },
+ {
+  "name": "Avery Dennison",
+  "aliases": [
+   "Avery Dennison"
+  ]
+ },
+ {
+  "name": "Axon Enterprise",
+  "aliases": [
+   "Axon Enterprise"
+  ]
+ },
+ {
+  "name": "BHP",
+  "aliases": [
+   "BHP"
+  ]
+ },
+ {
+  "name": "BNY Mellon",
+  "aliases": [
+   "BNY Mellon"
+  ]
+ },
+ {
+  "name": "BP",
+  "aliases": [
+   "BP"
+  ]
+ },
+ {
+  "name": "BXP",
+  "aliases": [
+   "BXP"
+  ]
+ },
+ {
+  "name": "BYD",
+  "aliases": [
+   "BYD"
+  ]
+ },
+ {
+  "name": "Bain Capital",
+  "aliases": [
+   "Bain Capital"
+  ]
+ },
+ {
+  "name": "Baker Hughes",
+  "aliases": [
+   "Baker Hughes"
+  ]
+ },
+ {
+  "name": "Ball Corporation",
+  "aliases": [
+   "Ball Corporation"
+  ]
+ },
+ {
+  "name": "Bank of America",
+  "aliases": [
+   "Bank of America",
+   "BofA"
+  ]
+ },
+ {
+  "name": "Barclays",
+  "aliases": [
+   "Barclays"
+  ]
+ },
+ {
+  "name": "Baxter",
+  "aliases": [
+   "Baxter"
+  ]
+ },
+ {
+  "name": "Becton Dickinson",
+  "aliases": [
+   "Becton Dickinson"
+  ]
+ },
+ {
+  "name": "Berkshire Hathaway",
+  "aliases": [
+   "Berkshire Hathaway",
+   "Berkshire"
+  ]
+ },
+ {
+  "name": "Best Buy",
+  "aliases": [
+   "Best Buy"
+  ]
+ },
+ {
+  "name": "Bio-Techne",
+  "aliases": [
+   "Bio-Techne"
+  ]
+ },
+ {
+  "name": "Biogen",
+  "aliases": [
+   "Biogen"
+  ]
+ },
+ {
+  "name": "BlackRock",
+  "aliases": [
+   "BlackRock"
+  ]
+ },
+ {
+  "name": "Blackstone",
+  "aliases": [
+   "Blackstone"
+  ]
+ },
+ {
+  "name": "Block",
+  "aliases": [
+   "Block Inc"
+  ]
+ },
+ {
+  "name": "Bloom Energy",
+  "aliases": [
+   "Bloom Energy"
+  ]
+ },
+ {
+  "name": "Boeing",
+  "aliases": [
+   "Boeing"
+  ]
+ },
+ {
+  "name": "Booking Holdings",
+  "aliases": [
+   "Booking Holdings"
+  ]
+ },
+ {
+  "name": "Boston Scientific",
+  "aliases": [
+   "Boston Scientific"
+  ]
+ },
+ {
+  "name": "Bristol Myers Squibb",
+  "aliases": [
+   "Bristol Myers Squibb"
+  ]
+ },
+ {
+  "name": "Broadcom",
+  "aliases": [
+   "Broadcom"
+  ]
+ },
+ {
+  "name": "Broadridge Financial Solutions",
+  "aliases": [
+   "Broadridge Financial Solutions"
+  ]
+ },
+ {
+  "name": "Brown & Brown",
+  "aliases": [
+   "Brown & Brown"
+  ]
+ },
+ {
+  "name": "Brown–Forman",
+  "aliases": [
+   "Brown–Forman"
+  ]
+ },
+ {
+  "name": "Bunge Global",
+  "aliases": [
+   "Bunge Global"
+  ]
+ },
+ {
+  "name": "ByteDance",
+  "aliases": [
+   "ByteDance"
+  ]
+ },
+ {
+  "name": "C.H. Robinson",
+  "aliases": [
+   "C.H. Robinson"
+  ]
+ },
+ {
+  "name": "CBRE",
+  "aliases": [
+   "CBRE"
+  ]
+ },
+ {
+  "name": "CDW",
+  "aliases": [
+   "CDW"
+  ]
+ },
+ {
+  "name": "CF Industries",
+  "aliases": [
+   "CF Industries"
+  ]
+ },
+ {
+  "name": "CME",
+  "aliases": [
+   "CME"
+  ]
+ },
+ {
+  "name": "CMS Energy",
+  "aliases": [
+   "CMS Energy"
+  ]
+ },
+ {
+  "name": "CRH",
+  "aliases": [
+   "CRH"
+  ]
+ },
+ {
+  "name": "CSX",
+  "aliases": [
+   "CSX"
+  ]
+ },
+ {
+  "name": "CVS Health",
+  "aliases": [
+   "CVS Health"
+  ]
+ },
+ {
+  "name": "Cadence Design Systems",
+  "aliases": [
+   "Cadence Design Systems"
+  ]
+ },
+ {
+  "name": "Camden Property Trust",
+  "aliases": [
+   "Camden Property Trust"
+  ]
+ },
+ {
+  "name": "Capital One",
+  "aliases": [
+   "Capital One"
+  ]
+ },
+ {
+  "name": "Cardinal Health",
+  "aliases": [
+   "Cardinal Health"
+  ]
+ },
+ {
+  "name": "Carlyle",
+  "aliases": [
+   "Carlyle"
+  ]
+ },
+ {
+  "name": "Carnival Corporation",
+  "aliases": [
+   "Carnival Corporation"
+  ]
+ },
+ {
+  "name": "Carrier Global",
+  "aliases": [
+   "Carrier Global"
+  ]
+ },
+ {
+  "name": "Carvana",
+  "aliases": [
+   "Carvana"
+  ]
+ },
+ {
+  "name": "Casey's",
+  "aliases": [
+   "Casey's"
+  ]
+ },
+ {
+  "name": "Caterpillar",
+  "aliases": [
+   "Caterpillar"
+  ]
+ },
+ {
+  "name": "Cboe Global Markets",
+  "aliases": [
+   "Cboe Global Markets"
+  ]
+ },
+ {
+  "name": "Cencora",
+  "aliases": [
+   "Cencora"
+  ]
+ },
+ {
+  "name": "Centene",
+  "aliases": [
+   "Centene"
+  ]
+ },
+ {
+  "name": "CenterPoint Energy",
+  "aliases": [
+   "CenterPoint Energy"
+  ]
+ },
+ {
+  "name": "Charles River Laboratories",
+  "aliases": [
+   "Charles River Laboratories"
+  ]
+ },
+ {
+  "name": "Charter Communications",
+  "aliases": [
+   "Charter Communications"
+  ]
+ },
+ {
+  "name": "Chevron",
+  "aliases": [
+   "Chevron"
+  ]
+ },
+ {
+  "name": "Chipotle",
+  "aliases": [
+   "Chipotle"
+  ]
+ },
+ {
+  "name": "Chipotle Mexican Grill",
+  "aliases": [
+   "Chipotle Mexican Grill"
+  ]
+ },
+ {
+  "name": "Chubb",
+  "aliases": [
+   "Chubb"
+  ]
+ },
+ {
+  "name": "Church & Dwight",
+  "aliases": [
+   "Church & Dwight"
+  ]
+ },
+ {
+  "name": "Ciena",
+  "aliases": [
+   "Ciena"
+  ]
+ },
+ {
+  "name": "Cigna",
+  "aliases": [
+   "Cigna"
+  ]
+ },
+ {
+  "name": "Cincinnati Financial",
+  "aliases": [
+   "Cincinnati Financial"
+  ]
+ },
+ {
+  "name": "Cintas",
+  "aliases": [
+   "Cintas"
+  ]
+ },
+ {
+  "name": "Cisco",
+  "aliases": [
+   "Cisco"
+  ]
+ },
+ {
+  "name": "Citigroup",
+  "aliases": [
+   "Citigroup",
+   "Citi"
+  ]
+ },
+ {
+  "name": "Citizens Financial",
+  "aliases": [
+   "Citizens Financial"
+  ]
+ },
+ {
+  "name": "Clorox",
+  "aliases": [
+   "Clorox"
+  ]
+ },
+ {
+  "name": "CoStar",
+  "aliases": [
+   "CoStar"
+  ]
+ },
+ {
+  "name": "Coca-Cola",
+  "aliases": [
+   "Coca-Cola"
+  ]
+ },
+ {
+  "name": "Cognizant",
+  "aliases": [
+   "Cognizant"
+  ]
+ },
+ {
+  "name": "Coherent Corp.",
+  "aliases": [
+   "Coherent Corp."
+  ]
+ },
+ {
+  "name": "Coinbase",
+  "aliases": [
+   "Coinbase"
+  ]
+ },
+ {
+  "name": "Colgate-Palmolive",
+  "aliases": [
+   "Colgate-Palmolive"
+  ]
+ },
+ {
+  "name": "Comcast",
+  "aliases": [
+   "Comcast"
+  ]
+ },
+ {
+  "name": "Comfort Systems USA",
+  "aliases": [
+   "Comfort Systems USA"
+  ]
+ },
+ {
+  "name": "ConocoPhillips",
+  "aliases": [
+   "ConocoPhillips"
+  ]
+ },
+ {
+  "name": "Consolidated Edison",
+  "aliases": [
+   "Consolidated Edison"
+  ]
+ },
+ {
+  "name": "Constellation Brands",
+  "aliases": [
+   "Constellation Brands"
+  ]
+ },
+ {
+  "name": "Constellation Energy",
+  "aliases": [
+   "Constellation Energy"
+  ]
+ },
+ {
+  "name": "Cooper Companies",
+  "aliases": [
+   "Cooper Companies"
+  ]
+ },
+ {
+  "name": "Copart",
+  "aliases": [
+   "Copart"
+  ]
+ },
+ {
+  "name": "Corning Inc.",
+  "aliases": [
+   "Corning Inc."
+  ]
+ },
+ {
+  "name": "Corpay",
+  "aliases": [
+   "Corpay"
+  ]
+ },
+ {
+  "name": "Costco",
+  "aliases": [
+   "Costco"
+  ]
+ },
+ {
+  "name": "CrowdStrike",
+  "aliases": [
+   "CrowdStrike"
+  ]
+ },
+ {
+  "name": "Crown Castle",
+  "aliases": [
+   "Crown Castle"
+  ]
+ },
+ {
+  "name": "Cummins",
+  "aliases": [
+   "Cummins"
+  ]
+ },
+ {
+  "name": "D. R. Horton",
+  "aliases": [
+   "D. R. Horton"
+  ]
+ },
+ {
+  "name": "DTE Energy",
+  "aliases": [
+   "DTE Energy"
+  ]
+ },
+ {
+  "name": "DaVita",
+  "aliases": [
+   "DaVita"
+  ]
+ },
+ {
+  "name": "Danaher",
+  "aliases": [
+   "Danaher"
+  ]
+ },
+ {
+  "name": "Darden Restaurants",
+  "aliases": [
+   "Darden Restaurants"
+  ]
+ },
+ {
+  "name": "Databricks",
+  "aliases": [
+   "Databricks"
+  ]
+ },
+ {
+  "name": "Datadog",
+  "aliases": [
+   "Datadog"
+  ]
+ },
+ {
+  "name": "Deckers",
+  "aliases": [
+   "Deckers"
+  ]
+ },
+ {
+  "name": "Deere &",
+  "aliases": [
+   "Deere &"
+  ]
+ },
+ {
+  "name": "Dell",
+  "aliases": [
+   "Dell"
+  ]
+ },
+ {
+  "name": "Delta Air Lines",
+  "aliases": [
+   "Delta Air Lines"
+  ]
+ },
+ {
+  "name": "Deutsche Bank",
+  "aliases": [
+   "Deutsche Bank"
+  ]
+ },
+ {
+  "name": "Devon Energy",
+  "aliases": [
+   "Devon Energy"
+  ]
+ },
+ {
+  "name": "Dexcom",
+  "aliases": [
+   "Dexcom"
+  ]
+ },
+ {
+  "name": "Diamondback Energy",
+  "aliases": [
+   "Diamondback Energy"
+  ]
+ },
+ {
+  "name": "Digital Realty",
+  "aliases": [
+   "Digital Realty"
+  ]
+ },
+ {
+  "name": "Disney",
+  "aliases": [
+   "Walt Disney",
+   "Disney"
+  ]
+ },
+ {
+  "name": "Dollar General",
+  "aliases": [
+   "Dollar General"
+  ]
+ },
+ {
+  "name": "Dollar Tree",
+  "aliases": [
+   "Dollar Tree"
+  ]
+ },
+ {
+  "name": "Dominion Energy",
+  "aliases": [
+   "Dominion Energy"
+  ]
+ },
+ {
+  "name": "Domino's",
+  "aliases": [
+   "Domino's"
+  ]
+ },
+ {
+  "name": "DoorDash",
+  "aliases": [
+   "DoorDash"
+  ]
+ },
+ {
+  "name": "Dover Corporation",
+  "aliases": [
+   "Dover Corporation"
+  ]
+ },
+ {
+  "name": "Dow Inc.",
+  "aliases": [
+   "Dow Inc."
+  ]
+ },
+ {
+  "name": "DuPont",
+  "aliases": [
+   "DuPont"
+  ]
+ },
+ {
+  "name": "Duke Energy",
+  "aliases": [
+   "Duke Energy"
+  ]
+ },
+ {
+  "name": "EOG Resources",
+  "aliases": [
+   "EOG Resources"
+  ]
+ },
+ {
+  "name": "EQT",
+  "aliases": [
+   "EQT"
+  ]
+ },
+ {
+  "name": "Eaton",
+  "aliases": [
+   "Eaton"
+  ]
+ },
+ {
+  "name": "EchoStar",
+  "aliases": [
+   "EchoStar"
+  ]
+ },
+ {
+  "name": "Ecolab",
+  "aliases": [
+   "Ecolab"
+  ]
+ },
+ {
+  "name": "Edison International",
+  "aliases": [
+   "Edison International"
+  ]
+ },
+ {
+  "name": "Edwards Lifesciences",
+  "aliases": [
+   "Edwards Lifesciences"
+  ]
+ },
+ {
+  "name": "Elevance Health",
+  "aliases": [
+   "Elevance Health"
+  ]
+ },
+ {
+  "name": "Eli Lilly",
+  "aliases": [
+   "Eli Lilly",
+   "Lilly"
+  ]
+ },
+ {
+  "name": "Emcor",
+  "aliases": [
+   "Emcor"
+  ]
+ },
+ {
+  "name": "Emerson Electric",
+  "aliases": [
+   "Emerson Electric"
+  ]
+ },
+ {
+  "name": "Entergy",
+  "aliases": [
+   "Entergy"
+  ]
+ },
+ {
+  "name": "Equifax",
+  "aliases": [
+   "Equifax"
+  ]
+ },
+ {
+  "name": "Equinix",
+  "aliases": [
+   "Equinix"
+  ]
+ },
+ {
+  "name": "Erie Indemnity",
+  "aliases": [
+   "Erie Indemnity"
+  ]
+ },
+ {
+  "name": "Essex Property Trust",
+  "aliases": [
+   "Essex Property Trust"
+  ]
+ },
+ {
+  "name": "Estée Lauder",
+  "aliases": [
+   "Estée Lauder"
+  ]
+ },
+ {
+  "name": "Everest Group",
+  "aliases": [
+   "Everest Group"
+  ]
+ },
+ {
+  "name": "Evergy",
+  "aliases": [
+   "Evergy"
+  ]
+ },
+ {
+  "name": "Everpure",
+  "aliases": [
+   "Everpure"
+  ]
+ },
+ {
+  "name": "Eversource Energy",
+  "aliases": [
+   "Eversource Energy"
+  ]
+ },
+ {
+  "name": "Exelon",
+  "aliases": [
+   "Exelon"
+  ]
+ },
+ {
+  "name": "Expand Energy",
+  "aliases": [
+   "Expand Energy"
+  ]
+ },
+ {
+  "name": "Expedia",
+  "aliases": [
+   "Expedia"
+  ]
+ },
+ {
+  "name": "Expeditors",
+  "aliases": [
+   "Expeditors"
+  ]
+ },
+ {
+  "name": "Extra Space Storage",
+  "aliases": [
+   "Extra Space Storage"
+  ]
+ },
+ {
+  "name": "Exxon",
+  "aliases": [
+   "Exxon Mobil",
+   "ExxonMobil",
+   "Exxon"
+  ]
+ },
+ {
+  "name": "F5, Inc.",
+  "aliases": [
+   "F5, Inc."
+  ]
+ },
+ {
+  "name": "FactSet",
+  "aliases": [
+   "FactSet"
+  ]
+ },
+ {
+  "name": "Fair Isaac",
+  "aliases": [
+   "Fair Isaac"
+  ]
+ },
+ {
+  "name": "Fastenal",
+  "aliases": [
+   "Fastenal"
+  ]
+ },
+ {
+  "name": "FedEx",
+  "aliases": [
+   "FedEx"
+  ]
+ },
+ {
+  "name": "FedEx Freight",
+  "aliases": [
+   "FedEx Freight"
+  ]
+ },
+ {
+  "name": "Federal Realty Investment Trust",
+  "aliases": [
+   "Federal Realty Investment Trust"
+  ]
+ },
+ {
+  "name": "Ferguson Enterprises",
+  "aliases": [
+   "Ferguson Enterprises"
+  ]
+ },
+ {
+  "name": "Fidelity National Information Services",
+  "aliases": [
+   "Fidelity National Information Services"
+  ]
+ },
+ {
+  "name": "Fifth Third Bancorp",
+  "aliases": [
+   "Fifth Third Bancorp"
+  ]
+ },
+ {
+  "name": "First Solar",
+  "aliases": [
+   "First Solar"
+  ]
+ },
+ {
+  "name": "FirstEnergy",
+  "aliases": [
+   "FirstEnergy"
+  ]
+ },
+ {
+  "name": "Fiserv",
+  "aliases": [
+   "Fiserv"
+  ]
+ },
+ {
+  "name": "Flex Ltd.",
+  "aliases": [
+   "Flex Ltd."
+  ]
+ },
+ {
+  "name": "Ford",
+  "aliases": [
+   "Ford Motor",
+   "Ford"
+  ]
+ },
+ {
+  "name": "Fortinet",
+  "aliases": [
+   "Fortinet"
+  ]
+ },
+ {
+  "name": "Fortive",
+  "aliases": [
+   "Fortive"
+  ]
+ },
+ {
+  "name": "Fox Corporation",
+  "aliases": [
+   "Fox Corporation"
+  ]
+ },
+ {
+  "name": "Franklin Resources",
+  "aliases": [
+   "Franklin Resources"
+  ]
+ },
+ {
+  "name": "Freeport-McMoRan",
+  "aliases": [
+   "Freeport-McMoRan"
+  ]
+ },
+ {
+  "name": "GE Aerospace",
+  "aliases": [
+   "GE Aerospace",
+   "GE"
+  ]
+ },
+ {
+  "name": "GE HealthCare",
+  "aliases": [
+   "GE HealthCare"
+  ]
+ },
+ {
+  "name": "GE Vernova",
+  "aliases": [
+   "GE Vernova"
+  ]
+ },
+ {
+  "name": "Garmin",
+  "aliases": [
+   "Garmin"
+  ]
+ },
+ {
+  "name": "Gartner",
+  "aliases": [
+   "Gartner"
+  ]
+ },
+ {
+  "name": "Gen Digital",
+  "aliases": [
+   "Gen Digital"
+  ]
+ },
+ {
+  "name": "Generac",
+  "aliases": [
+   "Generac"
+  ]
+ },
+ {
+  "name": "General Dynamics",
+  "aliases": [
+   "General Dynamics"
+  ]
+ },
+ {
+  "name": "General Mills",
+  "aliases": [
+   "General Mills"
+  ]
+ },
+ {
+  "name": "General Motors",
+  "aliases": [
+   "General Motors",
+   "GM"
+  ]
+ },
+ {
+  "name": "Genuine Parts",
+  "aliases": [
+   "Genuine Parts"
+  ]
+ },
+ {
+  "name": "Gilead Sciences",
+  "aliases": [
+   "Gilead Sciences"
+  ]
+ },
+ {
+  "name": "Glencore",
+  "aliases": [
+   "Glencore"
+  ]
+ },
+ {
+  "name": "Global Payments",
+  "aliases": [
+   "Global Payments"
+  ]
+ },
+ {
+  "name": "Globe Life",
+  "aliases": [
+   "Globe Life"
+  ]
+ },
+ {
+  "name": "GoDaddy",
+  "aliases": [
+   "GoDaddy"
+  ]
+ },
+ {
+  "name": "Goldman Sachs",
+  "aliases": [
+   "Goldman Sachs",
+   "Goldman"
+  ]
+ },
+ {
+  "name": "Google",
+  "aliases": [
+   "Alphabet",
+   "Google"
+  ]
+ },
+ {
+  "name": "HCA Healthcare",
+  "aliases": [
+   "HCA Healthcare"
+  ]
+ },
+ {
+  "name": "HP Inc.",
+  "aliases": [
+   "HP Inc."
+  ]
+ },
+ {
+  "name": "HSBC",
+  "aliases": [
+   "HSBC"
+  ]
+ },
+ {
+  "name": "Halliburton",
+  "aliases": [
+   "Halliburton"
+  ]
+ },
+ {
+  "name": "Hartford",
+  "aliases": [
+   "Hartford"
+  ]
+ },
+ {
+  "name": "Hasbro",
+  "aliases": [
+   "Hasbro"
+  ]
+ },
+ {
+  "name": "Healthpeak Properties",
+  "aliases": [
+   "Healthpeak Properties"
+  ]
+ },
+ {
+  "name": "Henry Schein",
+  "aliases": [
+   "Henry Schein"
+  ]
+ },
+ {
+  "name": "Hershey Company",
+  "aliases": [
+   "Hershey Company"
+  ]
+ },
+ {
+  "name": "Hewlett Packard Enterprise",
+  "aliases": [
+   "Hewlett Packard Enterprise"
+  ]
+ },
+ {
+  "name": "Hilton",
+  "aliases": [
+   "Hilton"
+  ]
+ },
+ {
+  "name": "Home Depot",
+  "aliases": [
+   "Home Depot"
+  ]
+ },
+ {
+  "name": "Honda",
+  "aliases": [
+   "Honda"
+  ]
+ },
+ {
+  "name": "Honeywell",
+  "aliases": [
+   "Honeywell"
+  ]
+ },
+ {
+  "name": "Honeywell Aerospace",
+  "aliases": [
+   "Honeywell Aerospace"
+  ]
+ },
+ {
+  "name": "Hormel Foods",
+  "aliases": [
+   "Hormel Foods"
+  ]
+ },
+ {
+  "name": "Host Hotels & Resorts",
+  "aliases": [
+   "Host Hotels & Resorts"
+  ]
+ },
+ {
+  "name": "Howmet Aerospace",
+  "aliases": [
+   "Howmet Aerospace"
+  ]
+ },
+ {
+  "name": "Huawei",
+  "aliases": [
+   "Huawei"
+  ]
+ },
+ {
+  "name": "Hubbell",
+  "aliases": [
+   "Hubbell"
+  ]
+ },
+ {
+  "name": "Humana",
+  "aliases": [
+   "Humana"
+  ]
+ },
+ {
+  "name": "Huntington Bancshares",
+  "aliases": [
+   "Huntington Bancshares"
+  ]
+ },
+ {
+  "name": "Huntington Ingalls",
+  "aliases": [
+   "Huntington Ingalls"
+  ]
+ },
+ {
+  "name": "IBM",
+  "aliases": [
+   "IBM"
+  ]
+ },
+ {
+  "name": "IDEX",
+  "aliases": [
+   "IDEX"
+  ]
+ },
+ {
+  "name": "IQVIA",
+  "aliases": [
+   "IQVIA"
+  ]
+ },
+ {
+  "name": "Idexx Laboratories",
+  "aliases": [
+   "Idexx Laboratories"
+  ]
+ },
+ {
+  "name": "Illinois Tool Works",
+  "aliases": [
+   "Illinois Tool Works"
+  ]
+ },
+ {
+  "name": "Illumina",
+  "aliases": [
+   "Illumina"
+  ]
+ },
+ {
+  "name": "Incyte",
+  "aliases": [
+   "Incyte"
+  ]
+ },
+ {
+  "name": "Ingersoll Rand",
+  "aliases": [
+   "Ingersoll Rand"
+  ]
+ },
+ {
+  "name": "Insulet Corporation",
+  "aliases": [
+   "Insulet Corporation"
+  ]
+ },
+ {
+  "name": "Intel",
+  "aliases": [
+   "Intel"
+  ]
+ },
+ {
+  "name": "Interactive Brokers",
+  "aliases": [
+   "Interactive Brokers"
+  ]
+ },
+ {
+  "name": "Intercontinental Exchange",
+  "aliases": [
+   "Intercontinental Exchange"
+  ]
+ },
+ {
+  "name": "International Flavors & Fragrances",
+  "aliases": [
+   "International Flavors & Fragrances"
+  ]
+ },
+ {
+  "name": "International Paper",
+  "aliases": [
+   "International Paper"
+  ]
+ },
+ {
+  "name": "Intuit",
+  "aliases": [
+   "Intuit"
+  ]
+ },
+ {
+  "name": "Intuitive Surgical",
+  "aliases": [
+   "Intuitive Surgical"
+  ]
+ },
+ {
+  "name": "Invesco",
+  "aliases": [
+   "Invesco"
+  ]
+ },
+ {
+  "name": "Invitation Homes",
+  "aliases": [
+   "Invitation Homes"
+  ]
+ },
+ {
+  "name": "Iron Mountain",
+  "aliases": [
+   "Iron Mountain"
+  ]
+ },
+ {
+  "name": "J.B. Hunt",
+  "aliases": [
+   "J.B. Hunt"
+  ]
+ },
+ {
+  "name": "J.M. Smucker",
+  "aliases": [
+   "J.M. Smucker"
+  ]
+ },
+ {
+  "name": "JPMorgan",
+  "aliases": [
+   "JPMorgan Chase",
+   "J.P. Morgan",
+   "JP Morgan",
+   "JPMorgan"
+  ]
+ },
+ {
+  "name": "Jabil",
+  "aliases": [
+   "Jabil"
+  ]
+ },
+ {
+  "name": "Jack Henry & Associates",
+  "aliases": [
+   "Jack Henry & Associates"
+  ]
+ },
+ {
+  "name": "Jacobs Solutions",
+  "aliases": [
+   "Jacobs Solutions"
+  ]
+ },
+ {
+  "name": "Johnson & Johnson",
+  "aliases": [
+   "Johnson & Johnson",
+   "J&J"
+  ]
+ },
+ {
+  "name": "Johnson Controls",
+  "aliases": [
+   "Johnson Controls"
+  ]
+ },
+ {
+  "name": "KKR",
+  "aliases": [
+   "KKR"
+  ]
+ },
+ {
+  "name": "KLA",
+  "aliases": [
+   "KLA"
+  ]
+ },
+ {
+  "name": "Kenvue",
+  "aliases": [
+   "Kenvue"
+  ]
+ },
+ {
+  "name": "Keurig Dr Pepper",
+  "aliases": [
+   "Keurig Dr Pepper"
+  ]
+ },
+ {
+  "name": "KeyCorp",
+  "aliases": [
+   "KeyCorp"
+  ]
+ },
+ {
+  "name": "Keysight",
+  "aliases": [
+   "Keysight"
+  ]
+ },
+ {
+  "name": "Kimberly-Clark",
+  "aliases": [
+   "Kimberly-Clark"
+  ]
+ },
+ {
+  "name": "Kimco Realty",
+  "aliases": [
+   "Kimco Realty"
+  ]
+ },
+ {
+  "name": "Kinder Morgan",
+  "aliases": [
+   "Kinder Morgan"
+  ]
+ },
+ {
+  "name": "Kraft Heinz",
+  "aliases": [
+   "Kraft Heinz"
+  ]
+ },
+ {
+  "name": "Kroger",
+  "aliases": [
+   "Kroger"
+  ]
+ },
+ {
+  "name": "L3Harris",
+  "aliases": [
+   "L3Harris"
+  ]
+ },
+ {
+  "name": "LSEG",
+  "aliases": [
+   "London Stock Exchange Group",
+   "LSEG"
+  ]
+ },
+ {
+  "name": "LVMH",
+  "aliases": [
+   "LVMH"
+  ]
+ },
+ {
+  "name": "Labcorp",
+  "aliases": [
+   "Labcorp"
+  ]
+ },
+ {
+  "name": "Lam Research",
+  "aliases": [
+   "Lam Research"
+  ]
+ },
+ {
+  "name": "Las Vegas Sands",
+  "aliases": [
+   "Las Vegas Sands"
+  ]
+ },
+ {
+  "name": "Leidos",
+  "aliases": [
+   "Leidos"
+  ]
+ },
+ {
+  "name": "Lennar",
+  "aliases": [
+   "Lennar"
+  ]
+ },
+ {
+  "name": "Lennox",
+  "aliases": [
+   "Lennox"
+  ]
+ },
+ {
+  "name": "Linde",
+  "aliases": [
+   "Linde"
+  ]
+ },
+ {
+  "name": "Live Nation Entertainment",
+  "aliases": [
+   "Live Nation Entertainment"
+  ]
+ },
+ {
+  "name": "Lockheed Martin",
+  "aliases": [
+   "Lockheed Martin"
+  ]
+ },
+ {
+  "name": "Loews",
+  "aliases": [
+   "Loews"
+  ]
+ },
+ {
+  "name": "Lowe's",
+  "aliases": [
+   "Lowe's"
+  ]
+ },
+ {
+  "name": "Lululemon Athletica",
+  "aliases": [
+   "Lululemon Athletica"
+  ]
+ },
+ {
+  "name": "Lumentum",
+  "aliases": [
+   "Lumentum"
+  ]
+ },
+ {
+  "name": "LyondellBasell",
+  "aliases": [
+   "LyondellBasell"
+  ]
+ },
+ {
+  "name": "M&T Bank",
+  "aliases": [
+   "M&T Bank"
+  ]
+ },
+ {
+  "name": "MGM Resorts",
+  "aliases": [
+   "MGM Resorts"
+  ]
+ },
+ {
+  "name": "MSCI",
+  "aliases": [
+   "MSCI"
+  ]
+ },
+ {
+  "name": "Marathon Petroleum",
+  "aliases": [
+   "Marathon Petroleum"
+  ]
+ },
+ {
+  "name": "Marriott",
+  "aliases": [
+   "Marriott"
+  ]
+ },
+ {
+  "name": "Marsh McLennan",
+  "aliases": [
+   "Marsh McLennan"
+  ]
+ },
+ {
+  "name": "Martin Marietta Materials",
+  "aliases": [
+   "Martin Marietta Materials"
+  ]
+ },
+ {
+  "name": "Marvell Technology",
+  "aliases": [
+   "Marvell Technology"
+  ]
+ },
+ {
+  "name": "Masco",
+  "aliases": [
+   "Masco"
+  ]
+ },
+ {
+  "name": "Mastercard",
+  "aliases": [
+   "Mastercard"
+  ]
+ },
+ {
+  "name": "McCormick &",
+  "aliases": [
+   "McCormick &"
+  ]
+ },
+ {
+  "name": "McDonald's",
+  "aliases": [
+   "McDonald's"
+  ]
+ },
+ {
+  "name": "McKesson",
+  "aliases": [
+   "McKesson"
+  ]
+ },
+ {
+  "name": "Medtronic",
+  "aliases": [
+   "Medtronic"
+  ]
+ },
+ {
+  "name": "Merck",
+  "aliases": [
+   "Merck"
+  ]
+ },
+ {
+  "name": "MetLife",
+  "aliases": [
+   "MetLife"
+  ]
+ },
+ {
+  "name": "Meta",
+  "aliases": [
+   "Meta Platforms",
+   "Facebook",
+   "Meta"
+  ]
+ },
+ {
+  "name": "Mettler Toledo",
+  "aliases": [
+   "Mettler Toledo"
+  ]
+ },
+ {
+  "name": "Microchip Technology",
+  "aliases": [
+   "Microchip Technology"
+  ]
+ },
+ {
+  "name": "Micron",
+  "aliases": [
+   "Micron Technology",
+   "Micron"
+  ]
+ },
+ {
+  "name": "Microsoft",
+  "aliases": [
+   "Microsoft"
+  ]
+ },
+ {
+  "name": "Mid-America Apartment Communities",
+  "aliases": [
+   "Mid-America Apartment Communities"
+  ]
+ },
+ {
+  "name": "Moderna",
+  "aliases": [
+   "Moderna"
+  ]
+ },
+ {
+  "name": "Mondelez",
+  "aliases": [
+   "Mondelez"
+  ]
+ },
+ {
+  "name": "Monolithic Power Systems",
+  "aliases": [
+   "Monolithic Power Systems"
+  ]
+ },
+ {
+  "name": "Monster Beverage",
+  "aliases": [
+   "Monster Beverage"
+  ]
+ },
+ {
+  "name": "Moody's",
+  "aliases": [
+   "Moody's"
+  ]
+ },
+ {
+  "name": "Morgan Stanley",
+  "aliases": [
+   "Morgan Stanley"
+  ]
+ },
+ {
+  "name": "Mosaic Company",
+  "aliases": [
+   "Mosaic Company"
+  ]
+ },
+ {
+  "name": "Motorola Solutions",
+  "aliases": [
+   "Motorola Solutions"
+  ]
+ },
+ {
+  "name": "NRG Energy",
+  "aliases": [
+   "NRG Energy"
+  ]
+ },
+ {
+  "name": "NVR",
+  "aliases": [
+   "NVR"
+  ]
+ },
+ {
+  "name": "NXP Semiconductors",
+  "aliases": [
+   "NXP Semiconductors"
+  ]
+ },
+ {
+  "name": "Nasdaq, Inc.",
+  "aliases": [
+   "Nasdaq, Inc."
+  ]
+ },
+ {
+  "name": "Nestle",
+  "aliases": [
+   "Nestle",
+   "Nestlé"
+  ]
+ },
+ {
+  "name": "NetApp",
+  "aliases": [
+   "NetApp"
+  ]
+ },
+ {
+  "name": "Netflix",
+  "aliases": [
+   "Netflix"
+  ]
+ },
+ {
+  "name": "Newmont",
+  "aliases": [
+   "Newmont"
+  ]
+ },
+ {
+  "name": "News Corp",
+  "aliases": [
+   "News Corp"
+  ]
+ },
+ {
+  "name": "NextEra Energy",
+  "aliases": [
+   "NextEra Energy"
+  ]
+ },
+ {
+  "name": "NiSource",
+  "aliases": [
+   "NiSource"
+  ]
+ },
+ {
+  "name": "Nike",
+  "aliases": [
+   "Nike"
+  ]
+ },
+ {
+  "name": "Nintendo",
+  "aliases": [
+   "Nintendo"
+  ]
+ },
+ {
+  "name": "Nordson",
+  "aliases": [
+   "Nordson"
+  ]
+ },
+ {
+  "name": "Norfolk Southern",
+  "aliases": [
+   "Norfolk Southern"
+  ]
+ },
+ {
+  "name": "Northern Trust",
+  "aliases": [
+   "Northern Trust"
+  ]
+ },
+ {
+  "name": "Northrop Grumman",
+  "aliases": [
+   "Northrop Grumman"
+  ]
+ },
+ {
+  "name": "Norwegian Cruise Line",
+  "aliases": [
+   "Norwegian Cruise Line"
+  ]
+ },
+ {
+  "name": "Novo Nordisk",
+  "aliases": [
+   "Novo Nordisk"
+  ]
+ },
+ {
+  "name": "Nucor",
+  "aliases": [
+   "Nucor"
+  ]
+ },
+ {
+  "name": "Nvidia",
+  "aliases": [
+   "Nvidia",
+   "NVIDIA"
+  ]
+ },
+ {
+  "name": "O'Reilly Automotive",
+  "aliases": [
+   "O'Reilly Automotive"
+  ]
+ },
+ {
+  "name": "ON Semiconductor",
+  "aliases": [
+   "ON Semiconductor"
+  ]
+ },
+ {
+  "name": "Occidental Petroleum",
+  "aliases": [
+   "Occidental Petroleum"
+  ]
+ },
+ {
+  "name": "Old Dominion",
+  "aliases": [
+   "Old Dominion"
+  ]
+ },
+ {
+  "name": "Omnicom",
+  "aliases": [
+   "Omnicom"
+  ]
+ },
+ {
+  "name": "Oneok",
+  "aliases": [
+   "Oneok"
+  ]
+ },
+ {
+  "name": "OpenAI",
+  "aliases": [
+   "OpenAI"
+  ]
+ },
+ {
+  "name": "Oracle",
+  "aliases": [
+   "Oracle"
+  ]
+ },
+ {
+  "name": "Otis Worldwide",
+  "aliases": [
+   "Otis Worldwide"
+  ]
+ },
+ {
+  "name": "PG&E",
+  "aliases": [
+   "PG&E"
+  ]
+ },
+ {
+  "name": "PNC Financial Services",
+  "aliases": [
+   "PNC Financial Services"
+  ]
+ },
+ {
+  "name": "PPG",
+  "aliases": [
+   "PPG"
+  ]
+ },
+ {
+  "name": "PPL",
+  "aliases": [
+   "PPL"
+  ]
+ },
+ {
+  "name": "PTC",
+  "aliases": [
+   "PTC"
+  ]
+ },
+ {
+  "name": "Paccar",
+  "aliases": [
+   "Paccar"
+  ]
+ },
+ {
+  "name": "Packaging Corporation of America",
+  "aliases": [
+   "Packaging Corporation of America"
+  ]
+ },
+ {
+  "name": "Palantir",
+  "aliases": [
+   "Palantir"
+  ]
+ },
+ {
+  "name": "Palo Alto Networks",
+  "aliases": [
+   "Palo Alto Networks"
+  ]
+ },
+ {
+  "name": "Parker Hannifin",
+  "aliases": [
+   "Parker Hannifin"
+  ]
+ },
+ {
+  "name": "PayPal",
+  "aliases": [
+   "PayPal"
+  ]
+ },
+ {
+  "name": "Paychex",
+  "aliases": [
+   "Paychex"
+  ]
+ },
+ {
+  "name": "Pentair",
+  "aliases": [
+   "Pentair"
+  ]
+ },
+ {
+  "name": "PepsiCo",
+  "aliases": [
+   "PepsiCo",
+   "Pepsi"
+  ]
+ },
+ {
+  "name": "Pfizer",
+  "aliases": [
+   "Pfizer"
+  ]
+ },
+ {
+  "name": "Philip Morris",
+  "aliases": [
+   "Philip Morris"
+  ]
+ },
+ {
+  "name": "Phillips 66",
+  "aliases": [
+   "Phillips 66"
+  ]
+ },
+ {
+  "name": "Pinnacle West Capital",
+  "aliases": [
+   "Pinnacle West Capital"
+  ]
+ },
+ {
+  "name": "Principal Financial",
+  "aliases": [
+   "Principal Financial"
+  ]
+ },
+ {
+  "name": "Procter & Gamble",
+  "aliases": [
+   "Procter & Gamble",
+   "P&G"
+  ]
+ },
+ {
+  "name": "Progressive Corporation",
+  "aliases": [
+   "Progressive Corporation"
+  ]
+ },
+ {
+  "name": "Prologis",
+  "aliases": [
+   "Prologis"
+  ]
+ },
+ {
+  "name": "Prudential Financial",
+  "aliases": [
+   "Prudential Financial"
+  ]
+ },
+ {
+  "name": "Public Service Enterprise",
+  "aliases": [
+   "Public Service Enterprise"
+  ]
+ },
+ {
+  "name": "Public Storage",
+  "aliases": [
+   "Public Storage"
+  ]
+ },
+ {
+  "name": "PulteGroup",
+  "aliases": [
+   "PulteGroup"
+  ]
+ },
+ {
+  "name": "Qnity Electronics",
+  "aliases": [
+   "Qnity Electronics"
+  ]
+ },
+ {
+  "name": "Qualcomm",
+  "aliases": [
+   "Qualcomm"
+  ]
+ },
+ {
+  "name": "Quanta Services",
+  "aliases": [
+   "Quanta Services"
+  ]
+ },
+ {
+  "name": "Quest Diagnostics",
+  "aliases": [
+   "Quest Diagnostics"
+  ]
+ },
+ {
+  "name": "RTX",
+  "aliases": [
+   "RTX"
+  ]
+ },
+ {
+  "name": "Ralph Lauren",
+  "aliases": [
+   "Ralph Lauren"
+  ]
+ },
+ {
+  "name": "Raymond James Financial",
+  "aliases": [
+   "Raymond James Financial"
+  ]
+ },
+ {
+  "name": "Realty Income",
+  "aliases": [
+   "Realty Income"
+  ]
+ },
+ {
+  "name": "Reddit",
+  "aliases": [
+   "Reddit"
+  ]
+ },
+ {
+  "name": "Regency Centers",
+  "aliases": [
+   "Regency Centers"
+  ]
+ },
+ {
+  "name": "Regeneron Pharmaceuticals",
+  "aliases": [
+   "Regeneron Pharmaceuticals"
+  ]
+ },
+ {
+  "name": "Regions Financial",
+  "aliases": [
+   "Regions Financial"
+  ]
+ },
+ {
+  "name": "Republic Services",
+  "aliases": [
+   "Republic Services"
+  ]
+ },
+ {
+  "name": "ResMed",
+  "aliases": [
+   "ResMed"
+  ]
+ },
+ {
+  "name": "Revvity",
+  "aliases": [
+   "Revvity"
+  ]
+ },
+ {
+  "name": "Rio Tinto",
+  "aliases": [
+   "Rio Tinto"
+  ]
+ },
+ {
+  "name": "Robinhood Markets",
+  "aliases": [
+   "Robinhood Markets"
+  ]
+ },
+ {
+  "name": "Rockwell Automation",
+  "aliases": [
+   "Rockwell Automation"
+  ]
+ },
+ {
+  "name": "Rollins, Inc.",
+  "aliases": [
+   "Rollins, Inc."
+  ]
+ },
+ {
+  "name": "Roper",
+  "aliases": [
+   "Roper"
+  ]
+ },
+ {
+  "name": "Ross Stores",
+  "aliases": [
+   "Ross Stores"
+  ]
+ },
+ {
+  "name": "Royal Caribbean",
+  "aliases": [
+   "Royal Caribbean"
+  ]
+ },
+ {
+  "name": "S&P Global",
+  "aliases": [
+   "S&P Global"
+  ]
+ },
+ {
+  "name": "SAP",
+  "aliases": [
+   "SAP"
+  ]
+ },
+ {
+  "name": "SBA Communications",
+  "aliases": [
+   "SBA Communications"
+  ]
+ },
+ {
+  "name": "Salesforce",
+  "aliases": [
+   "Salesforce"
+  ]
+ },
+ {
+  "name": "Samsung",
+  "aliases": [
+   "Samsung"
+  ]
+ },
+ {
+  "name": "Sandisk",
+  "aliases": [
+   "Sandisk"
+  ]
+ },
+ {
+  "name": "Santander",
+  "aliases": [
+   "Santander"
+  ]
+ },
+ {
+  "name": "Schlumberger",
+  "aliases": [
+   "Schlumberger"
+  ]
+ },
+ {
+  "name": "Schwab",
+  "aliases": [
+   "Charles Schwab",
+   "Schwab"
+  ]
+ },
+ {
+  "name": "Seagate Technology",
+  "aliases": [
+   "Seagate Technology"
+  ]
+ },
+ {
+  "name": "Sempra",
+  "aliases": [
+   "Sempra"
+  ]
+ },
+ {
+  "name": "ServiceNow",
+  "aliases": [
+   "ServiceNow"
+  ]
+ },
+ {
+  "name": "Shein",
+  "aliases": [
+   "Shein"
+  ]
+ },
+ {
+  "name": "Shell",
+  "aliases": [
+   "Shell"
+  ]
+ },
+ {
+  "name": "Sherwin-Williams",
+  "aliases": [
+   "Sherwin-Williams"
+  ]
+ },
+ {
+  "name": "Siemens",
+  "aliases": [
+   "Siemens"
+  ]
+ },
+ {
+  "name": "Simon Property",
+  "aliases": [
+   "Simon Property"
+  ]
+ },
+ {
+  "name": "Skydance",
+  "aliases": [
+   "Skydance"
+  ]
+ },
+ {
+  "name": "Skyworks Solutions",
+  "aliases": [
+   "Skyworks Solutions"
+  ]
+ },
+ {
+  "name": "Smurfit Westrock",
+  "aliases": [
+   "Smurfit Westrock"
+  ]
+ },
+ {
+  "name": "Snap-on",
+  "aliases": [
+   "Snap-on"
+  ]
+ },
+ {
+  "name": "SoftBank",
+  "aliases": [
+   "SoftBank"
+  ]
+ },
+ {
+  "name": "Solventum",
+  "aliases": [
+   "Solventum"
+  ]
+ },
+ {
+  "name": "Sony",
+  "aliases": [
+   "Sony"
+  ]
+ },
+ {
+  "name": "Southern Company",
+  "aliases": [
+   "Southern Company"
+  ]
+ },
+ {
+  "name": "Southwest Airlines",
+  "aliases": [
+   "Southwest Airlines"
+  ]
+ },
+ {
+  "name": "SpaceX",
+  "aliases": [
+   "SpaceX"
+  ]
+ },
+ {
+  "name": "Stanley Black & Decker",
+  "aliases": [
+   "Stanley Black & Decker"
+  ]
+ },
+ {
+  "name": "Starbucks",
+  "aliases": [
+   "Starbucks"
+  ]
+ },
+ {
+  "name": "State Street",
+  "aliases": [
+   "State Street"
+  ]
+ },
+ {
+  "name": "Steel Dynamics",
+  "aliases": [
+   "Steel Dynamics"
+  ]
+ },
+ {
+  "name": "Stellantis",
+  "aliases": [
+   "Stellantis"
+  ]
+ },
+ {
+  "name": "Steris",
+  "aliases": [
+   "Steris"
+  ]
+ },
+ {
+  "name": "Stripe",
+  "aliases": [
+   "Stripe"
+  ]
+ },
+ {
+  "name": "Stryker",
+  "aliases": [
+   "Stryker"
+  ]
+ },
+ {
+  "name": "Supermicro",
+  "aliases": [
+   "Supermicro"
+  ]
+ },
+ {
+  "name": "Synchrony Financial",
+  "aliases": [
+   "Synchrony Financial"
+  ]
+ },
+ {
+  "name": "Synopsys",
+  "aliases": [
+   "Synopsys"
+  ]
+ },
+ {
+  "name": "Sysco",
+  "aliases": [
+   "Sysco"
+  ]
+ },
+ {
+  "name": "T-Mobile US",
+  "aliases": [
+   "T-Mobile US"
+  ]
+ },
+ {
+  "name": "T. Rowe Price",
+  "aliases": [
+   "T. Rowe Price"
+  ]
+ },
+ {
+  "name": "TE Connectivity",
+  "aliases": [
+   "TE Connectivity"
+  ]
+ },
+ {
+  "name": "TJX",
+  "aliases": [
+   "TJX"
+  ]
+ },
+ {
+  "name": "TKO Group Holdings",
+  "aliases": [
+   "TKO Group Holdings"
+  ]
+ },
+ {
+  "name": "TPG",
+  "aliases": [
+   "TPG"
+  ]
+ },
+ {
+  "name": "TSMC",
+  "aliases": [
+   "Taiwan Semiconductor",
+   "TSMC"
+  ]
+ },
+ {
+  "name": "Take-Two Interactive",
+  "aliases": [
+   "Take-Two Interactive"
+  ]
+ },
+ {
+  "name": "Tapestry, Inc.",
+  "aliases": [
+   "Tapestry, Inc."
+  ]
+ },
+ {
+  "name": "Targa Resources",
+  "aliases": [
+   "Targa Resources"
+  ]
+ },
+ {
+  "name": "Target",
+  "aliases": [
+   "Target Corp"
+  ]
+ },
+ {
+  "name": "Teledyne",
+  "aliases": [
+   "Teledyne"
+  ]
+ },
+ {
+  "name": "Temu",
+  "aliases": [
+   "Temu"
+  ]
+ },
+ {
+  "name": "Tencent",
+  "aliases": [
+   "Tencent"
+  ]
+ },
+ {
+  "name": "Teradyne",
+  "aliases": [
+   "Teradyne"
+  ]
+ },
+ {
+  "name": "Tesla",
+  "aliases": [
+   "Tesla"
+  ]
+ },
+ {
+  "name": "Texas Instruments",
+  "aliases": [
+   "Texas Instruments"
+  ]
+ },
+ {
+  "name": "Texas Pacific Land",
+  "aliases": [
+   "Texas Pacific Land"
+  ]
+ },
+ {
+  "name": "Textron",
+  "aliases": [
+   "Textron"
+  ]
+ },
+ {
+  "name": "Thermo Fisher Scientific",
+  "aliases": [
+   "Thermo Fisher Scientific"
+  ]
+ },
+ {
+  "name": "TikTok",
+  "aliases": [
+   "TikTok"
+  ]
+ },
+ {
+  "name": "Toyota",
+  "aliases": [
+   "Toyota"
+  ]
+ },
+ {
+  "name": "Tractor Supply",
+  "aliases": [
+   "Tractor Supply"
+  ]
+ },
+ {
+  "name": "Trane",
+  "aliases": [
+   "Trane"
+  ]
+ },
+ {
+  "name": "TransDigm",
+  "aliases": [
+   "TransDigm"
+  ]
+ },
+ {
+  "name": "Travelers Companies",
+  "aliases": [
+   "Travelers Companies"
+  ]
+ },
+ {
+  "name": "Trimble",
+  "aliases": [
+   "Trimble"
+  ]
+ },
+ {
+  "name": "Truist Financial",
+  "aliases": [
+   "Truist Financial"
+  ]
+ },
+ {
+  "name": "Twilio",
+  "aliases": [
+   "Twilio"
+  ]
+ },
+ {
+  "name": "Tyler Technologies",
+  "aliases": [
+   "Tyler Technologies"
+  ]
+ },
+ {
+  "name": "Tyson Foods",
+  "aliases": [
+   "Tyson Foods"
+  ]
+ },
+ {
+  "name": "U.S. Bancorp",
+  "aliases": [
+   "U.S. Bancorp"
+  ]
+ },
+ {
+  "name": "UBS",
+  "aliases": [
+   "UBS"
+  ]
+ },
+ {
+  "name": "UDR",
+  "aliases": [
+   "UDR"
+  ]
+ },
+ {
+  "name": "Uber",
+  "aliases": [
+   "Uber"
+  ]
+ },
+ {
+  "name": "Ulta Beauty",
+  "aliases": [
+   "Ulta Beauty"
+  ]
+ },
+ {
+  "name": "Union Pacific",
+  "aliases": [
+   "Union Pacific"
+  ]
+ },
+ {
+  "name": "United Airlines",
+  "aliases": [
+   "United Airlines"
+  ]
+ },
+ {
+  "name": "United Parcel Service",
+  "aliases": [
+   "United Parcel Service"
+  ]
+ },
+ {
+  "name": "United Rentals",
+  "aliases": [
+   "United Rentals"
+  ]
+ },
+ {
+  "name": "UnitedHealth",
+  "aliases": [
+   "UnitedHealth Group",
+   "UnitedHealth",
+   "UNH"
+  ]
+ },
+ {
+  "name": "Universal Health Services",
+  "aliases": [
+   "Universal Health Services"
+  ]
+ },
+ {
+  "name": "Valero Energy",
+  "aliases": [
+   "Valero Energy"
+  ]
+ },
+ {
+  "name": "Veeva Systems",
+  "aliases": [
+   "Veeva Systems"
+  ]
+ },
+ {
+  "name": "Ventas",
+  "aliases": [
+   "Ventas"
+  ]
+ },
+ {
+  "name": "Veralto",
+  "aliases": [
+   "Veralto"
+  ]
+ },
+ {
+  "name": "Verisign",
+  "aliases": [
+   "Verisign"
+  ]
+ },
+ {
+  "name": "Verisk Analytics",
+  "aliases": [
+   "Verisk Analytics"
+  ]
+ },
+ {
+  "name": "Verizon",
+  "aliases": [
+   "Verizon"
+  ]
+ },
+ {
+  "name": "Vertex Pharmaceuticals",
+  "aliases": [
+   "Vertex Pharmaceuticals"
+  ]
+ },
+ {
+  "name": "Vertiv",
+  "aliases": [
+   "Vertiv"
+  ]
+ },
+ {
+  "name": "Viatris",
+  "aliases": [
+   "Viatris"
+  ]
+ },
+ {
+  "name": "Vici Properties",
+  "aliases": [
+   "Vici Properties"
+  ]
+ },
+ {
+  "name": "Visa",
+  "aliases": [
+   "Visa Inc"
+  ]
+ },
+ {
+  "name": "Vistra Corp.",
+  "aliases": [
+   "Vistra Corp."
+  ]
+ },
+ {
+  "name": "Vivmark Residential",
+  "aliases": [
+   "Vivmark Residential"
+  ]
+ },
+ {
+  "name": "Volkswagen",
+  "aliases": [
+   "Volkswagen"
+  ]
+ },
+ {
+  "name": "Vulcan Materials",
+  "aliases": [
+   "Vulcan Materials"
+  ]
+ },
+ {
+  "name": "Vylor",
+  "aliases": [
+   "Vylor"
+  ]
+ },
+ {
+  "name": "W. R. Berkley",
+  "aliases": [
+   "W. R. Berkley"
+  ]
+ },
+ {
+  "name": "W. W. Grainger",
+  "aliases": [
+   "W. W. Grainger"
+  ]
+ },
+ {
+  "name": "WEC Energy",
+  "aliases": [
+   "WEC Energy"
+  ]
+ },
+ {
+  "name": "Wabtec",
+  "aliases": [
+   "Wabtec"
+  ]
+ },
+ {
+  "name": "Walmart",
+  "aliases": [
+   "Walmart"
+  ]
+ },
+ {
+  "name": "Warner Bros. Discovery",
+  "aliases": [
+   "Warner Bros. Discovery",
+   "Warner Bros"
+  ]
+ },
+ {
+  "name": "Waste Management",
+  "aliases": [
+   "Waste Management"
+  ]
+ },
+ {
+  "name": "Waters Corporation",
+  "aliases": [
+   "Waters Corporation"
+  ]
+ },
+ {
+  "name": "Wells Fargo",
+  "aliases": [
+   "Wells Fargo"
+  ]
+ },
+ {
+  "name": "Welltower",
+  "aliases": [
+   "Welltower"
+  ]
+ },
+ {
+  "name": "West Pharmaceutical Services",
+  "aliases": [
+   "West Pharmaceutical Services"
+  ]
+ },
+ {
+  "name": "Western Digital",
+  "aliases": [
+   "Western Digital"
+  ]
+ },
+ {
+  "name": "Weyerhaeuser",
+  "aliases": [
+   "Weyerhaeuser"
+  ]
+ },
+ {
+  "name": "Williams Companies",
+  "aliases": [
+   "Williams Companies"
+  ]
+ },
+ {
+  "name": "Williams-Sonoma",
+  "aliases": [
+   "Williams-Sonoma"
+  ]
+ },
+ {
+  "name": "Willis Towers Watson",
+  "aliases": [
+   "Willis Towers Watson"
+  ]
+ },
+ {
+  "name": "Workday",
+  "aliases": [
+   "Workday"
+  ]
+ },
+ {
+  "name": "Wynn Resorts",
+  "aliases": [
+   "Wynn Resorts"
+  ]
+ },
+ {
+  "name": "Xcel Energy",
+  "aliases": [
+   "Xcel Energy"
+  ]
+ },
+ {
+  "name": "Xiaomi",
+  "aliases": [
+   "Xiaomi"
+  ]
+ },
+ {
+  "name": "Xylem",
+  "aliases": [
+   "Xylem"
+  ]
+ },
+ {
+  "name": "Yum! Brands",
+  "aliases": [
+   "Yum! Brands"
+  ]
+ },
+ {
+  "name": "Zebra",
+  "aliases": [
+   "Zebra"
+  ]
+ },
+ {
+  "name": "Zimmer Biomet",
+  "aliases": [
+   "Zimmer Biomet"
+  ]
+ },
+ {
+  "name": "Zoetis",
+  "aliases": [
+   "Zoetis"
+  ]
+ },
+ {
+  "name": "eBay",
+  "aliases": [
+   "eBay"
+  ]
+ },
+ {
+  "name": "xAI",
+  "aliases": [
+   "xAI"
+  ]
+ }
+]

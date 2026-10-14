@@ -1,11 +1,13 @@
 """Entry point: fetch → filter → select → render."""
 from __future__ import annotations
 
+import os
 import sys
 from datetime import datetime, timezone, timedelta
 
 from .config import FEEDS, LOOKBACK_HOURS, MAX_PER_SECTION, MAX_PER_SECTION_WEEK, MIN_LIVE_RATIO, OUTPUT_DIR, OUTPUT_FILE, RECAPS_FILE, WEEK_FILE, WEEK_HOURS
-from .fetch import fetch_all, fetch_fear_greed, parse_section
+from .fetch import fetch_all, parse_section
+from .markets import fetch_market_snapshot
 from .health import report_feed_health, update_feed_health
 from .recaps import build_week_summary, load_summaries, save_summaries
 from .render import build_html, build_recaps_html, build_week_html
@@ -65,16 +67,19 @@ def main() -> None:
         print(f"  → {name}: {len(picked_main[name])} daily / {len(picked_week[name])} weekly")
     print()
 
-    print("[📊 Fear & Greed Index]")
-    fear_greed = fetch_fear_greed()
-    if fear_greed:
-        print(f"  → {fear_greed['score']} ({fear_greed['rating']})\n")
+    print("[📈 Market snapshot]")
+    markets = fetch_market_snapshot()
+    if markets:
+        print("  → " + ", ".join(f"{m['label']} {m['change_pct']:+.2f}%" for m in markets) + "\n")
     else:
-        print("  → unavailable\n")
+        print("  → unavailable (strip hidden)\n")
+        if os.environ.get("GITHUB_ACTIONS"):
+            print("::warning title=Market data unavailable::Yahoo and CNBC both failed; market strip hidden")
 
     print("[🔥 Trending Companies]")
-    trending = find_trending(sections_raw_main)
-    print(f"  → {[t for t, _ in trending[:6]]}\n")
+    displayed = top_stories + [a for arts in picked_main.values() for a in arts]
+    trending  = find_trending(sections_raw_main, displayed)
+    print(f"  → {', '.join(f'{n} ({c})' for n, c in trending)}\n")
 
     print("[📋 Weekly Summaries]")
     summaries    = load_summaries()
@@ -91,13 +96,13 @@ def main() -> None:
     print(f"  → {len(summaries)} weeks stored\n")
 
     # ── Generate pages ───────────────────────────────────────────────────────
-    page = build_html(sections_main, top_stories, now, fear_greed, trending, health)
+    page = build_html(sections_main, top_stories, now, markets, trending, health)
     OUTPUT_FILE.write_text(page, encoding="utf-8")
 
-    week_page = build_week_html(sections_week, top_stories_week, now, fear_greed)
+    week_page = build_week_html(sections_week, top_stories_week, now, markets)
     WEEK_FILE.write_text(week_page, encoding="utf-8")
 
-    recaps_page = build_recaps_html(summaries, now, fear_greed)
+    recaps_page = build_recaps_html(summaries, now, markets)
     RECAPS_FILE.write_text(recaps_page, encoding="utf-8")
 
     print(f" Saved → {OUTPUT_FILE}")

@@ -2,13 +2,13 @@
 from __future__ import annotations
 
 import re
-import json
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone, timedelta
 
+from .companies import find_companies
 from .config import FEEDS, NEW_THRESHOLD_H
 from .filters import is_junk, is_off_topic, normalize_publisher
 
@@ -32,29 +32,6 @@ def strip_tags(text: str) -> str:
     ]:
         text = text.replace(ent, ch)
     return " ".join(text.split())
-
-
-def fetch_fear_greed() -> dict | None:
-    """Fetch CNN Fear & Greed Index (unofficial public endpoint)."""
-    try:
-        req = urllib.request.Request(
-            "https://production.dataviz.cnn.io/index/fearandgreed/graphdata",
-            headers={"User-Agent": "Mozilla/5.0 FinanceNewsBot/1.0"},
-        )
-        with urllib.request.urlopen(req, timeout=8) as resp:
-            data = json.loads(resp.read().decode())
-        fg     = data.get("fear_and_greed", {})
-        score  = round(float(fg.get("score", 0)))
-        rating = str(fg.get("rating", "")).replace("_", " ").title()
-        try:
-            prev_pts = data["fear_and_greed_historical"]["data"]
-            prev = round(float(prev_pts[1]["y"])) if len(prev_pts) > 1 else None
-        except (KeyError, IndexError, TypeError):
-            prev = None
-        return {"score": score, "rating": rating, "prev": prev}
-    except Exception as e:
-        print(f"  Fear & Greed fetch failed: {e}")
-        return None
 
 
 def _norm(text: str) -> str:
@@ -167,6 +144,7 @@ def parse_section(name: str, config: dict, fetched: dict, cutoff: datetime,
                 "is_new":    pub >= new_cutoff,
                 "color":     color,
                 "age_class": age_class,
+                "companies": find_companies(title),
             })
             stat["kept"] += 1
     return articles, stats

@@ -5,36 +5,11 @@ import re
 import json
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from .config import ANNOUNCEMENT, INTERNSHIP_RESOURCES, MAX_PER_SECTION, MAX_PER_SECTION_WEEK, PREMIUM_SITES
 from .recaps import get_week_key
 
-
-# ── TradingView Ticker (plain string — outside f-string to avoid brace escaping) ──
-TICKER_HTML = """\
-  <div class="ticker-wrap">
-    <div class="tradingview-widget-container">
-      <div class="tradingview-widget-container__widget"></div>
-      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-      {
-        "symbols": [
-          {"proName": "FOREXCOM:SPXUSD",  "title": "S&P 500"},
-          {"proName": "FOREXCOM:NSXUSD",  "title": "Nasdaq 100"},
-          {"proName": "DJ:DJI",           "title": "Dow Jones"},
-          {"proName": "TVC:US10Y",        "title": "10Y Treasury"},
-          {"proName": "COINBASE:BTCUSD",  "title": "Bitcoin"},
-          {"proName": "TVC:GOLD",         "title": "Gold"},
-          {"proName": "TVC:USOIL",        "title": "Crude Oil"}
-        ],
-        "showSymbolLogo": false,
-        "isTransparent": true,
-        "displayMode": "adaptive",
-        "colorTheme": "dark",
-        "locale": "en"
-      }
-      </script>
-    </div>
-  </div>"""
 
 # ── TradingView Economic Calendar (plain string — outside f-string) ──────────
 CALENDAR_HTML = """\
@@ -86,8 +61,9 @@ def render_card(article: dict, color: str | None = None) -> str:
     age_cls   = article.get("age_class", "age-old")
     new_badge = '<span class="new-badge">NEW</span>' if article.get("is_new") else ""
     summary_html = f'<p class="card-summary">{s}</p>' if s else ""
+    co_attr   = f' data-co="{esc("|".join(article["companies"]))}"' if article.get("companies") else ""
     return f"""\
-    <a class="card {age_cls}" href="{lk}" target="_blank" rel="noopener noreferrer">
+    <a class="card {age_cls}" href="{lk}" target="_blank" rel="noopener noreferrer"{co_attr}>
       <div class="card-meta">
         <span class="badge" style="border-color:{c};color:{c}">{src}</span>
         <span class="ts">{new_badge}{ts}</span>
@@ -125,47 +101,62 @@ def render_premium_sites() -> str:
     return cards
 
 
-def render_fear_greed_widget(fg: dict | None) -> str:
-    if not fg:
-        return (
-            '<a class="fg-widget" href="https://money.cnn.com/data/fear-and-greed/"'
-            ' target="_blank" rel="noopener noreferrer">'
-            '<span class="fg-label">Fear &amp; Greed</span>'
-            '<span class="fg-score fg-neutral">–</span>'
-            '<span class="fg-rating">View →</span></a>'
-        )
-    score  = fg["score"]
-    rating = fg["rating"]
-    prev   = fg.get("prev")
-    if score < 25:
-        color = "#ef4444"; bg = "#2d0f0f"
-    elif score < 45:
-        color = "#f97316"; bg = "#2a1506"
-    elif score < 55:
-        color = "#eab308"; bg = "#241d03"
-    elif score < 75:
-        color = "#22c55e"; bg = "#0c2314"
-    else:
-        color = "#16a34a"; bg = "#082010"
-    arrow = ""
-    if prev is not None:
-        arrow = " ▲" if score > prev else " ▼" if score < prev else ""
-    return (
-        f'<a class="fg-widget" href="https://money.cnn.com/data/fear-and-greed/"'
-        f' target="_blank" rel="noopener noreferrer"'
-        f' style="background:{bg};border-color:{color}40">'
-        f'<span class="fg-label">Fear &amp; Greed</span>'
-        f'<span class="fg-score" style="color:{color}">{score}{arrow}</span>'
-        f'<span class="fg-rating" style="color:{color}">{esc(rating)}</span></a>'
-    )
+def _fmt_price(m: dict) -> str:
+    if m["kind"] == "yield":
+        return f"{m['price']:.2f}%"
+    if m["key"] in ("oil", "gold", "btc"):
+        return f"${m['price']:,.0f}" if m["price"] >= 10000 else f"${m['price']:,.2f}"
+    return f"{m['price']:,.2f}"
+
+
+def _fmt_change(m: dict) -> str:
+    if m["kind"] == "yield":                       # yields move in basis points
+        return f"{m['change'] * 100:+.0f} bp"
+    return f"{m['change_pct']:+.2f}%"
+
+
+def _sparkline(values: list[float]) -> str:
+    if len(values) < 2:
+        return ""
+    w, h = 56, 18
+    lo, hi = min(values), max(values)
+    span = (hi - lo) or 1
+    pts = " ".join(f"{i * w / (len(values) - 1):.1f},{h - 1 - (v - lo) / span * (h - 2):.1f}"
+                   for i, v in enumerate(values))
+    return (f'<svg class="mkt-spark" viewBox="0 0 {w} {h}" width="{w}" height="{h}" aria-hidden="true">'
+            f'<polyline points="{pts}" fill="none" stroke="currentColor" stroke-width="1.5" '
+            f'stroke-linejoin="round" stroke-linecap="round"/></svg>')
+
+
+def render_market_strip(markets: list[dict] | None, generated: datetime) -> str:
+    """Server-rendered market snapshot. Renders nothing if no data (never a blank widget)."""
+    if not markets:
+        return ""
+    et     = generated.astimezone(ZoneInfo("America/New_York"))
+    as_of  = et.strftime("%-I:%M %p ET, %b %-d")
+    items  = ""
+    for m in markets:
+        if abs(m["change"]) < 1e-9:
+            cls = "flat"
+        else:
+            cls = "up" if m["change"] > 0 else "down"
+        items += (f'<div class="mkt-item mkt-{cls}">'
+                  f'<span class="mkt-label">{esc(m["label"])}</span>'
+                  f'<span class="mkt-price">{_fmt_price(m)}</span>'
+                  f'<span class="mkt-change">{_fmt_change(m)}</span>'
+                  f'{_sparkline(m["spark"])}</div>')
+    return (f'  <div class="mkt-strip" aria-label="Market snapshot">\n'
+            f'    <div class="mkt-items">{items}</div>\n'
+            f'    <span class="mkt-asof">as of {as_of}</span>\n  </div>')
 
 
 def render_trending_bar(trending: list[tuple[str, int]]) -> str:
     if not trending:
         return ""
     chips = "".join(
-        f'<button class="chip" onclick="filterByChip(this,\'{t}\')">'
-        f'{t}<span class="chip-count">{c}</span></button>'
+        f'<button class="chip" data-co="{esc(t)}" onclick="filterByChip(this)" '
+        f'title="{c} {"story" if c == 1 else "stories"} on this page">'
+        f'{esc(t)}<span class="chip-count">{c}</span></button>'
         for t, c in trending
     )
     return f"""\
@@ -264,7 +255,7 @@ def _render_sections_html(sections: dict, top_stories: list[dict],
 
 
 def build_html(sections: dict, top_stories: list[dict], generated: datetime,
-               fg: dict | None, trending: list[tuple[str, int]], health: dict) -> str:
+               markets: list[dict] | None, trending: list[tuple[str, int]], health: dict) -> str:
     date_str  = generated.strftime("%A, %B %-d, %Y")
     time_str  = generated.strftime("%-I:%M %p UTC")
     total     = sum(len(arts) for _, arts in sections.values()) + len(top_stories)
@@ -275,7 +266,7 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
     nav_items += '    <a class="nav-item nav-ext" href="week.html">📅 Weekly</a>\n'
     nav_items += '    <a class="nav-item nav-ext" href="recaps.html">📋 Recaps</a>\n'
 
-    fg_widget       = render_fear_greed_widget(fg)
+    market_strip    = render_market_strip(markets, generated)
     trending_bar    = render_trending_bar(trending)
     shown_counts: dict[str, int] = {}
     for a in top_stories + [a for _, arts in sections.values() for a in arts]:
@@ -313,12 +304,11 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
 </head>
 <body>
 
-{announcement_html}{TICKER_HTML}
+{announcement_html}{market_strip}
 
   <header>
     <div class="header-row">
       <div class="logo">Finance <em>News</em></div>
-      {fg_widget}
       <div class="search-wrap">
         <input id="search" type="search" placeholder="Search… (press / to focus)" autocomplete="off">
       </div>
@@ -356,40 +346,43 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
   <button id="back-top" title="Back to top">↑</button>
 
   <script>
-    // ── Search ──────────────────────────────────────────────────────────────
+    // ── Search & Trending filter ────────────────────────────────────────────
     const searchInput = document.getElementById('search');
-    function runSearch(q) {{
-      const lower = q.toLowerCase().trim();
+    function applyFilter(match, active) {{
       let visible = 0;
       document.querySelectorAll('[data-section]').forEach(section => {{
         let sv = 0;
         section.querySelectorAll('.card').forEach(card => {{
-          const match = !lower || card.textContent.toLowerCase().includes(lower);
-          card.style.display = match ? '' : 'none';
-          if (match) {{ sv++; visible++; }}
+          const ok = match(card);
+          card.style.display = ok ? '' : 'none';
+          if (ok) {{ sv++; visible++; }}
         }});
-        section.style.display = sv === 0 && lower ? 'none' : '';
+        section.style.display = sv === 0 && active ? 'none' : '';
       }});
+      return visible;
+    }}
+    function clearChips() {{
+      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+    }}
+    function runSearch(q) {{
+      const lower = q.toLowerCase().trim();
+      const visible = applyFilter(card => !lower || card.textContent.toLowerCase().includes(lower), !!lower);
       document.title = lower
         ? `Finance News — ${{visible}} results`
         : `Finance News — {date_str} ({total} articles)`;
     }}
-    searchInput.addEventListener('input', () => runSearch(searchInput.value));
+    searchInput.addEventListener('input', () => {{ clearChips(); runSearch(searchInput.value); }});
 
-    // ── Trending Chip Filter ─────────────────────────────────────────────────
-    let activeChip = null;
-    function filterByChip(btn, term) {{
-      if (activeChip === term) {{
-        activeChip = null;
-        btn.classList.remove('active');
-        searchInput.value = '';
-        runSearch('');
-      }} else {{
-        document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-        activeChip = term;
+    function filterByChip(btn) {{
+      const co = btn.dataset.co;
+      const turningOn = !btn.classList.contains('active');
+      clearChips();
+      searchInput.value = '';
+      if (turningOn) {{
         btn.classList.add('active');
-        searchInput.value = term;
-        runSearch(term);
+        applyFilter(card => (card.dataset.co || '').split('|').includes(co), true);
+      }} else {{
+        runSearch('');
       }}
     }}
 
@@ -429,8 +422,7 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
           searchInput.value = '';
           searchInput.blur();
           runSearch('');
-          document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-          activeChip = null;
+          clearChips();
         }}
         return;
       }}
@@ -447,7 +439,7 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
 
 
 def build_week_html(sections: dict, top_stories: list[dict], generated: datetime,
-                    fg: dict | None) -> str:
+                    markets: list[dict] | None) -> str:
     time_str   = generated.strftime("%-I:%M %p UTC")
     week_start = generated - timedelta(days=6)
     week_range = f"{week_start.strftime('%b %-d')} – {generated.strftime('%b %-d, %Y')}"
@@ -459,7 +451,7 @@ def build_week_html(sections: dict, top_stories: list[dict], generated: datetime
     nav_items += '    <a class="nav-item nav-ext" href="index.html">← Today</a>\n'
     nav_items += '    <a class="nav-item nav-ext" href="recaps.html">📋 Recaps</a>\n'
 
-    fg_widget      = render_fear_greed_widget(fg)
+    market_strip   = render_market_strip(markets, generated)
     premium_html   = render_premium_sites()
     section_ids_js = json.dumps(section_ids)
 
@@ -478,12 +470,11 @@ def build_week_html(sections: dict, top_stories: list[dict], generated: datetime
 </head>
 <body>
 
-{TICKER_HTML}
+{market_strip}
 
   <header>
     <div class="header-row">
       <div class="logo">Finance <em>News</em> <span class="week-badge">7-DAY DIGEST</span></div>
-      {fg_widget}
       <div class="search-wrap">
         <input id="search" type="search" placeholder="Search… (press / to focus)" autocomplete="off">
       </div>
@@ -570,11 +561,11 @@ def build_week_html(sections: dict, top_stories: list[dict], generated: datetime
 
 
 def build_recaps_html(summaries: list, generated: datetime,
-                      fg: dict | None) -> str:
+                      markets: list[dict] | None) -> str:
     """Render the weekly recaps archive page."""
     date_str      = generated.strftime("%B %-d, %Y")
     time_str      = generated.strftime("%-I:%M %p UTC")
-    fg_widget     = render_fear_greed_widget(fg)
+    market_strip  = render_market_strip(markets, generated)
     current_week  = get_week_key(generated)
     sorted_sums   = sorted(summaries, key=lambda s: s["week"], reverse=True)
 
@@ -627,12 +618,11 @@ def build_recaps_html(summaries: list, generated: datetime,
 </head>
 <body>
 
-{TICKER_HTML}
+{market_strip}
 
   <header>
     <div class="header-row">
       <div class="logo">Finance <em>News</em> <span class="week-badge">RECAPS</span></div>
-      {fg_widget}
       <div class="search-wrap">
         <input id="search" type="search" placeholder="Search recaps…" autocomplete="off">
       </div>
