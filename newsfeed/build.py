@@ -7,7 +7,8 @@ from datetime import datetime, timezone, timedelta
 
 from .ai import AI
 from .archive import load_archive, update_archive
-from .config import FEEDS, LOOKBACK_HOURS, MAX_PER_SECTION, MAX_PER_SECTION_WEEK, MIN_LIVE_RATIO, OUTPUT_DIR, OUTPUT_FILE, RECAPS_FILE, WEEK_FILE, WEEK_HOURS
+from .config import DATA_FILE, FEEDS, WEEK_DATA_FILE, LOOKBACK_HOURS, MAX_PER_SECTION, MAX_PER_SECTION_WEEK, MIN_LIVE_RATIO, OUTPUT_DIR, OUTPUT_FILE, RECAPS_FILE, WEEK_FILE, WEEK_HOURS
+from .export import write_page_data
 from .fetch import fetch_all, parse_section
 from .markets import fetch_market_snapshot
 from .health import report_feed_health, update_feed_health
@@ -135,7 +136,12 @@ def main() -> None:
     recaps_page = build_recaps_html(summaries, now, markets)
     RECAPS_FILE.write_text(recaps_page, encoding="utf-8")
 
+    write_page_data(DATA_FILE, now, top_stories, picked_main,
+                    markets=markets or [], brief=brief, trending=trending)
+    write_page_data(WEEK_DATA_FILE, now, top_stories_week, picked_week)
+
     print(f" Saved → {OUTPUT_FILE}")
     print(f" Saved → {WEEK_FILE}")
     print(f" Saved → {RECAPS_FILE}")
+    print(f" Saved → {DATA_FILE.name}, {WEEK_DATA_FILE.name}")
     print(f' Run:   open "{OUTPUT_FILE}"\n')
