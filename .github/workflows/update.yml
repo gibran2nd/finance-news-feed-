@@ -1,8 +1,14 @@
 name: Update Finance News
 
 on:
+  # GitHub cron is UTC with no daylight saving; ET times shown as EDT / EST.
   schedule:
-    - cron: '0 7,13,19 * * *'   # Runs at 7am, 1pm, 7pm UTC (3am, 9am, 3pm ET)
+    - cron: '0 11 * * 1-5'      # pre-market      7:00am / 6:00am ET
+    - cron: '45 14 * * 1-5'     # after the open 10:45am / 9:45am ET
+    - cron: '0 17 * * 1-5'      # midday          1:00pm / 12:00pm ET
+    - cron: '30 21 * * 1-5'     # after the close 5:30pm / 4:30pm ET
+    - cron: '30 0 * * 2-6'      # evening         8:30pm / 7:30pm ET (Mon–Fri evenings)
+    - cron: '0 13,22 * * 0,6'   # weekends        9:00am & 6:00pm ET (EDT)
   workflow_dispatch:              # Allows manual trigger from GitHub website
 
 permissions:

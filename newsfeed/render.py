@@ -47,6 +47,11 @@ def time_ago(pub: datetime | None) -> str:
 
 
 # ── HTML Renderers ─────────────────────────────────────────────────────────────
+def _et(dt: datetime) -> datetime:
+    """Display times in US Eastern (the site's readers follow US market hours)."""
+    return dt.astimezone(ZoneInfo("America/New_York"))
+
+
 def esc(s: str) -> str:
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
 
@@ -137,7 +142,7 @@ def render_market_strip(markets: list[dict] | None, generated: datetime) -> str:
     """Server-rendered market snapshot. Renders nothing if no data (never a blank widget)."""
     if not markets:
         return ""
-    et     = generated.astimezone(ZoneInfo("America/New_York"))
+    et     = _et(generated)
     as_of  = et.strftime("%-I:%M %p ET, %b %-d")
     items  = ""
     for m in markets:
@@ -159,7 +164,7 @@ def render_brief(brief: list[dict], generated: datetime) -> str:
     """The Morning Brief: Claude's 5-point summary of the day's most important stories."""
     if not brief:
         return ""
-    et    = generated.astimezone(ZoneInfo("America/New_York"))
+    et    = _et(generated)
     label = "Morning Brief" if et.hour < 12 else "Afternoon Brief" if et.hour < 17 else "Evening Brief"
     items = "".join(
         f'<li><a href="{esc(b["article"]["link"])}" target="_blank" rel="noopener noreferrer">'
@@ -284,8 +289,8 @@ def _render_sections_html(sections: dict, top_stories: list[dict],
 def build_html(sections: dict, top_stories: list[dict], generated: datetime,
                markets: list[dict] | None, trending: list[tuple[str, int]], health: dict,
                brief: list[dict] | None = None) -> str:
-    date_str  = generated.strftime("%A, %B %-d, %Y")
-    time_str  = generated.strftime("%-I:%M %p UTC")
+    date_str  = _et(generated).strftime("%A, %B %-d, %Y")
+    time_str  = _et(generated).strftime("%-I:%M %p ET")
     total     = sum(len(arts) for _, arts in sections.values()) + len(top_stories)
 
     nav_items, sections_html, section_ids = _render_sections_html(
@@ -344,7 +349,7 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
       <button id="theme-btn" title="Toggle light/dark mode">☀️</button>
       <div class="header-meta">
         <div class="date">{date_str}</div>
-        <div class="updated">Updated {time_str} · auto-refreshes hourly</div>
+        <div class="updated">Updated {time_str} · updates 5&times; each market day</div>
       </div>
     </div>
     <nav class="section-nav">
@@ -367,7 +372,7 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
 
   <footer>
     {footer_sources} &nbsp;|&nbsp;
-    Regenerates 3&times; daily &nbsp;|&nbsp;
+    Updates before the open, after the open, midday, after the close &amp; evening &nbsp;|&nbsp;
     <a href="week.html" style="color:inherit">📅 Weekly</a> &nbsp;|&nbsp;
     <a href="recaps.html" style="color:inherit">📋 Recaps</a>
   </footer>
@@ -469,9 +474,9 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
 
 def build_week_html(sections: dict, top_stories: list[dict], generated: datetime,
                     markets: list[dict] | None) -> str:
-    time_str   = generated.strftime("%-I:%M %p UTC")
+    time_str   = _et(generated).strftime("%-I:%M %p ET")
     week_start = generated - timedelta(days=6)
-    week_range = f"{week_start.strftime('%b %-d')} – {generated.strftime('%b %-d, %Y')}"
+    week_range = f"{_et(week_start).strftime('%b %-d')} – {_et(generated).strftime('%b %-d, %Y')}"
     total      = sum(len(arts) for _, arts in sections.values()) + len(top_stories)
 
     nav_items, sections_html, section_ids = _render_sections_html(
@@ -592,8 +597,8 @@ def build_week_html(sections: dict, top_stories: list[dict], generated: datetime
 def build_recaps_html(summaries: list, generated: datetime,
                       markets: list[dict] | None) -> str:
     """Render the weekly recaps archive page."""
-    date_str      = generated.strftime("%B %-d, %Y")
-    time_str      = generated.strftime("%-I:%M %p UTC")
+    date_str      = _et(generated).strftime("%B %-d, %Y")
+    time_str      = _et(generated).strftime("%-I:%M %p ET")
     market_strip  = render_market_strip(markets, generated)
     current_week  = get_week_key(generated)
     sorted_sums   = sorted(summaries, key=lambda s: s["week"], reverse=True)
