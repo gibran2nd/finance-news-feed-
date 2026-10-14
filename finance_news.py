@@ -2,13 +2,15 @@
 """
 Finance News Feed
 -----------------
-Fetches finance/investment banking RSS feeds and generates a styled HTML dashboard.
+Fetches finance news feeds, picks and dedupes stories, and builds the site in output/.
+The code lives in newsfeed/; GitHub Actions (.github/workflows/update.yml) runs this on
+a market-hours schedule and publishes to GitHub Pages.
 
 Usage:
-  python3 finance_news.py           # run manually
-  open output/index.html            # view the page
-
-Scheduling: see setup.sh (launchd, runs daily at 7 AM)
+  pip3 install -r requirements.txt
+  python3 finance_news.py                        # build locally (writes output/ and data/)
+  open output/index.html                         # view the page
+  python3 -m unittest discover -s tests -t .     # run the tests
 """
 from newsfeed.build import main
 

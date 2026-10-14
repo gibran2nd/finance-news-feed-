@@ -12,9 +12,14 @@ on:
   workflow_dispatch:              # Allows manual trigger from GitHub website
 
 permissions:
-  contents: write   # needed to commit summaries.json back to repo
+  contents: write   # push data/ to the `data` branch
   pages: write
   id-token: write
+
+# Never run two updates at once (e.g. a manual run during a scheduled one)
+concurrency:
+  group: update-finance-news
+  cancel-in-progress: false
 
 jobs:
   build-and-deploy:
@@ -24,8 +29,16 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
+
+      # Archive, recaps, feed health and the AI log live on the `data` branch so the bot's
+      # frequent commits don't clutter main (or collide with code pushes).
+      - name: Checkout data branch into data/
+        uses: actions/checkout@v4
+        with:
+          ref: data
+          path: data
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -43,13 +56,14 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python finance_news.py
 
-      - name: Commit updated weekly summaries and feed health
+      - name: Save data to the data branch
+        working-directory: data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/summaries.json data/feed_health.json data/archive data/ai_last.json
-          git diff --staged --quiet || git commit -m "chore: update archive, summaries and feed health [skip ci]"
-          git push
+          git add -A
+          git diff --staged --quiet || git commit -m "Update data $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push origin HEAD:data
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

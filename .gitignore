@@ -3,3 +3,5 @@ output/
 __pycache__/
 *.pyc
 .DS_Store
+# Lives on the `data` branch (checked out here by the workflow)
+data/
