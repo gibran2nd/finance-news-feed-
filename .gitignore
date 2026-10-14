@@ -5,3 +5,4 @@ __pycache__/
 .DS_Store
 # Lives on the `data` branch (checked out here by the workflow)
 data/
+.company/
