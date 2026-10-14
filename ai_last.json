@@ -1,0 +1,86 @@
+{
+ "model": "claude-haiku-5-5",
+ "calls": [
+  {
+   "name": "merge_and_brief",
+   "stop_reason": "end_turn",
+   "input_tokens": 12525,
+   "output_tokens": 3900,
+   "cost_usd": 0.0032
+  },
+  {
+   "name": "condense_summaries",
+   "stop_reason": "end_turn",
+   "input_tokens": 2329,
+   "output_tokens": 1140,
+   "cost_usd": 0.0008
+  }
+ ],
+ "errors": [],
+ "merge_groups": [
+  [
+   "Jio Platforms files RHP for IPO: Issue to open on October 21; fresh issue of up to 27 crore equity shares",
+   "Mukesh Ambani's Jio seeks $108 billion valuation in record Indian IPO",
+   "Jio IPO 2026 | Reliance files RHP papers, latest details on price, price band and key dates",
+   "Reliance’s Jio Platforms files final IPO prospectus; offer to open on October 21"
+  ],
+  [
+   "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
+   "Inflation worsened last month to 3.7% in sign that prices remain elevated as midterm elections near",
+   "US inflation jumps to 3.7% as Iran war drives up prices",
+   "US inflation heats up in September; Fed rate hike this month back on table"
+  ],
+  [
+   "BofA misses profit estimates on trading weakness, books $1.2 billion charge",
+   "Bank of America shares drop 8% after third-quarter revenue miss and regulatory penalty"
+  ],
+  [
+   "ASML: Huge Earnings Beat",
+   "ASML says it's getting order interest through 2030 as profit smashes expectations",
+   "AI Boom Drives ASML Higher as Nvidia Bets on Europe",
+   "Intel, AMD, and More Chip Stocks Fall After ASML’s Strong Earnings"
+  ],
+  [
+   "Lufthansa wins race for €1.2 billion stake in Portuguese carrier TAP",
+   "Portugal Picks Lufthansa Over Air France-KLM for TAP Stake"
+  ],
+  [
+   "Social Security announces 3.6% COLA increase for 2027",
+   "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?"
+  ]
+ ],
+ "brief": [
+  {
+   "headline": "Jio Platforms files IPO papers, issue opens October 21",
+   "detail": "Jio Platforms filed its IPO papers for a fresh issue of up to 27 crore shares, opening October 21, and seeks a $108 billion valuation.",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPeUFMczAxMk5qUEtMNjZTQWRNZWtrWTJFZGlYZTM0OFJHU3M4Ul93U2E1VHZHU3NuRWhrVUdYM044cE9QcHVMTVRHOUREcW5nRVhKMmFtZlJnRjF4VWRuUGhDX202X3dDNTZrQ1YxR1pFUUN3QnA2bEdVMnJnYnZRa1k2ZUd1VElZYnN4d3NOODdDelhlbWpRNXItZHhGQTVONTlPbWZvaXpsYWFTdFd6Y21yTEx3WHIyUmw1MFFBejJkRGVzelByUi1XQWU4NHdBMWtpRFpSSGlZTVNxQlFqVlhaRmUzd2F5ZWExeDNXWmhXZw?oc=5"
+  },
+  {
+   "headline": "US consumer prices rise 3.7% annually in September",
+   "detail": "Inflation rose 3.7% annually in September, above the 3.6% consensus forecast, as gas prices skyrocketed.",
+   "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+  },
+  {
+   "headline": "BofA misses profit estimates on trading weakness",
+   "detail": "Bank of America missed profit estimates on weak trading and booked a $1.2 billion charge, and its shares dropped 8% after the revenue miss.",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSERjcDdENDA2c180cFVhdW01WTVBaEdQdjRvejB6eGpkNklKUE8xM05mX1YybXZmMExUUXVkVDhMZUxGS0g5MWN0S3NtOHk1TjBISzBTWHB6VElZSjFjTHFUdU5sZXZtcHFxa0VybC1qR2Y2R0doZThnbGJoQVE5LVg5bHBDZmFvUm9ONGVUdUszODFvWV9aWlROdnE4NWs5R0FYZmJIVFAxaHZCQlJVRmtidS1IUlhVM1ZIM09MeEk?oc=5"
+  },
+  {
+   "headline": "ASML sees customer order interest through 2030",
+   "detail": "ASML's profit smashed expectations, and some customers are expressing interest in placing orders in 2029 and 2030, giving a longer-term demand view.",
+   "link": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html"
+  },
+  {
+   "headline": "BlackRock buys $2.8B CenterWell stake in senior care",
+   "detail": "BlackRock agreed to buy a $2.8 billion stake in CenterWell and take over its senior care clinics.",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNd09yMUc2R2U2MVlqcm5RMzZIOVo2TnpkQ29FaUF3c1NadXZSRHJTX1l1eTZwNDFYZ1RSLUtVaXcxTTRsOGttZmRtNnBKdnlGUFh2WF9xdU92YWRhUllWOWtjWUx5Zmk3ZmlBZzJTek1fRDZxMXRrbWJvaUhzbk9BSXBEamJ3UXU2b0c4aGlUWFFBYnlHYnE3cXNpd0hWOWxjOXd3?oc=5"
+  }
+ ],
+ "summaries": {
+  "requested": 18,
+  "rejected_ungrounded": 0,
+  "applied": 18
+ },
+ "generated": "2026-10-14T18:54+00:00",
+ "total_cost_usd": 0.004
+}
