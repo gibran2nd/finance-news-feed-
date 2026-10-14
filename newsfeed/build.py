@@ -1,0 +1,106 @@
+"""Entry point: fetch → filter → select → render."""
+from __future__ import annotations
+
+import sys
+from datetime import datetime, timezone, timedelta
+
+from .config import FEEDS, LOOKBACK_HOURS, MAX_PER_SECTION, MAX_PER_SECTION_WEEK, MIN_LIVE_RATIO, OUTPUT_DIR, OUTPUT_FILE, RECAPS_FILE, WEEK_FILE, WEEK_HOURS
+from .fetch import fetch_all, fetch_fear_greed, parse_section
+from .health import report_feed_health, update_feed_health
+from .recaps import build_week_summary, load_summaries, save_summaries
+from .render import build_html, build_recaps_html, build_week_html
+from .stories import find_trending, select_stories
+
+
+# ── Main ──────────────────────────────────────────────────────────────────────
+def main() -> None:
+    now         = datetime.now(timezone.utc)
+    week_cutoff = now - timedelta(hours=WEEK_HOURS)
+    main_cutoff = now - timedelta(hours=LOOKBACK_HOURS)
+
+    print("\n Finance News Feed")
+    print(f" {now.strftime('%Y-%m-%d %H:%M UTC')}  |  daily {LOOKBACK_HOURS}h / weekly {WEEK_HOURS}h\n")
+
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    sections_raw_main: dict = {}
+    sections_raw_week: dict = {}
+
+    print("[Fetching feeds]")
+    fetched = fetch_all(now)
+    print(f"  → {len(fetched)} feeds\n")
+
+    feed_stats: list[dict] = []
+    for name, config in FEEDS.items():
+        print(f"[{config['icon']} {name}]")
+        raw_week, stats = parse_section(name, config, fetched, week_cutoff, now)
+        feed_stats.extend(stats)
+        for st in stats:
+            status = st["error"] or f"{st['kept']:3} kept / {st['fresh']:3} fresh / {st['entries']:3} in feed"
+            print(f"  {'✗' if st['error'] or not st['fresh'] else '✓'} {st['label']:28} {status}  ({st['secs']}s)")
+        raw_main = [a for a in raw_week if a["pub"] >= main_cutoff]
+        sections_raw_week[name] = raw_week
+        sections_raw_main[name] = raw_main
+        print()
+
+    print("[🩺 Feed health]")
+    health, alerts = update_feed_health(feed_stats, now)
+    report_feed_health(health, alerts)
+    live = sum(r["status"] == "ok" for r in health.values())
+    if live < MIN_LIVE_RATIO * len(health):
+        print(f"\n ✗ Only {live}/{len(health)} feeds returned articles — not publishing, "
+              "the previous site stays up.\n")
+        sys.exit(1)
+    print()
+
+    print("[🔥 Selecting stories]")
+    top_stories, picked_main = select_stories(sections_raw_main, MAX_PER_SECTION, now,
+                                              LOOKBACK_HOURS, by_coverage=False)
+    top_stories_week, picked_week = select_stories(sections_raw_week, MAX_PER_SECTION_WEEK, now,
+                                                   WEEK_HOURS, by_coverage=True)
+    sections_main = {name: (FEEDS[name], arts) for name, arts in picked_main.items()}
+    sections_week = {name: (FEEDS[name], arts) for name, arts in picked_week.items()}
+    print(f"  → top stories: {len(top_stories)} daily / {len(top_stories_week)} weekly")
+    for name in FEEDS:
+        print(f"  → {name}: {len(picked_main[name])} daily / {len(picked_week[name])} weekly")
+    print()
+
+    print("[📊 Fear & Greed Index]")
+    fear_greed = fetch_fear_greed()
+    if fear_greed:
+        print(f"  → {fear_greed['score']} ({fear_greed['rating']})\n")
+    else:
+        print("  → unavailable\n")
+
+    print("[🔥 Trending Companies]")
+    trending = find_trending(sections_raw_main)
+    print(f"  → {[t for t, _ in trending[:6]]}\n")
+
+    print("[📋 Weekly Summaries]")
+    summaries    = load_summaries()
+    week_summary = build_week_summary(top_stories_week, sections_raw_week, now)
+    # Update existing entry for this week or prepend a new one
+    existing_idx = next((i for i, s in enumerate(summaries) if s["week"] == week_summary["week"]), None)
+    if existing_idx is not None:
+        summaries[existing_idx] = week_summary
+    else:
+        summaries.insert(0, week_summary)
+    # Keep at most 52 weeks of history
+    summaries = summaries[:52]
+    save_summaries(summaries)
+    print(f"  → {len(summaries)} weeks stored\n")
+
+    # ── Generate pages ───────────────────────────────────────────────────────
+    page = build_html(sections_main, top_stories, now, fear_greed, trending, health)
+    OUTPUT_FILE.write_text(page, encoding="utf-8")
+
+    week_page = build_week_html(sections_week, top_stories_week, now, fear_greed)
+    WEEK_FILE.write_text(week_page, encoding="utf-8")
+
+    recaps_page = build_recaps_html(summaries, now, fear_greed)
+    RECAPS_FILE.write_text(recaps_page, encoding="utf-8")
+
+    print(f" Saved → {OUTPUT_FILE}")
+    print(f" Saved → {WEEK_FILE}")
+    print(f" Saved → {RECAPS_FILE}")
+    print(f' Run:   open "{OUTPUT_FILE}"\n')

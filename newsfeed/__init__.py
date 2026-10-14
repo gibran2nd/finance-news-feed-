@@ -1,0 +1,1 @@
+"""Finance News Feed generator."""
