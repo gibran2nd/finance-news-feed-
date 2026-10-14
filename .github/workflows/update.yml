@@ -27,16 +27,18 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install feedparser
+        run: pip install -r requirements.txt
 
       - name: Generate news pages
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python finance_news.py
 
       - name: Commit updated weekly summaries and feed health
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/summaries.json data/feed_health.json data/archive
+          git add data/summaries.json data/feed_health.json data/archive data/ai_last.json
           git diff --staged --quiet || git commit -m "chore: update archive, summaries and feed health [skip ci]"
           git push
 

@@ -305,6 +305,25 @@
     .card-summary { font-size: .78rem; color: var(--muted); line-height: 1.5; }
     .empty        { color: var(--muted); font-style: italic; }
 
+    .card-via     { color: var(--muted); opacity: .8; font-style: italic; white-space: nowrap; }
+
+    /* ── Brief ── */
+    .brief {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid #22c55e;
+      border-radius: 10px;
+      padding: 18px 22px;
+      margin-bottom: 40px;
+    }
+    .brief .section-heading { margin-bottom: 12px; }
+    .brief-time { font-size: .7rem; font-weight: 600; color: var(--muted); text-transform: none; letter-spacing: 0; }
+    .brief-list { padding-left: 20px; display: flex; flex-direction: column; gap: 9px; font-size: .88rem; line-height: 1.5; }
+    .brief-list a { color: var(--text); text-decoration: none; }
+    .brief-list a:hover strong { color: #3b82f6; }
+    .brief-src  { font-size: .65rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-left: 4px; white-space: nowrap; }
+    .brief-note { font-size: .7rem; color: var(--muted); margin-top: 12px; }
+
     /* ── Career Cards ── */
     .career-grid {
       display: grid;

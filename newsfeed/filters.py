@@ -99,3 +99,16 @@ def is_junk(title: str, publisher: str) -> bool:
             or pub.startswith(("http", "www."))                # unnamed/scraper sites
             or not is_english(title) or not is_english(publisher)
             or bool(JUNK_TITLE_RE.search(title)))
+
+
+# Publishers sometimes update an article's headline after results but keep the preview blurb
+RESULTS_TITLE_RE   = re.compile(r"\b(tops|beats|beat|misses|missed|posts|reported|reports|"
+                                r"raises|cuts|lifts|hikes)\b", re.IGNORECASE)
+PREVIEW_SUMMARY_RE = re.compile(r"\b(is|are) expected to\b|\bahead of (its|their)\b|"
+                                r"\bwill report\b|\bset to report\b|\bwhat to (watch|expect)\b",
+                                re.IGNORECASE)
+
+
+def is_stale_summary(title: str, summary: str) -> bool:
+    """A results headline paired with pre-results preview text."""
+    return bool(RESULTS_TITLE_RE.search(title) and PREVIEW_SUMMARY_RE.search(summary))

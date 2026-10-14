@@ -15,6 +15,7 @@ RECAPS_FILE          = OUTPUT_DIR / "recaps.html"
 SUMMARIES_DATA_FILE  = ROOT / "data" / "summaries.json"
 HEALTH_FILE          = ROOT / "data" / "feed_health.json"
 ARCHIVE_DIR          = ROOT / "data" / "archive"
+AI_LOG_FILE          = ROOT / "data" / "ai_last.json"
 ARCHIVE_KEEP_WEEKS   = 3      # current week + 2 previous (weekly page needs the last 7 days)
 HEALTH_ALERT_RUNS    = 3      # warn after this many consecutive empty/failed runs (~1 day)
 MIN_LIVE_RATIO       = 0.5    # below this share of live feeds, don't publish (keep old site)

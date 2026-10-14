@@ -10,7 +10,7 @@ from datetime import datetime, timezone, timedelta
 
 from .companies import find_companies
 from .config import FEEDS, NEW_THRESHOLD_H
-from .filters import is_junk, is_off_topic, normalize_publisher
+from .filters import is_stale_summary, is_junk, is_off_topic, normalize_publisher
 
 
 def parse_date(entry) -> datetime | None:
@@ -129,7 +129,8 @@ def parse_section(name: str, config: dict, fetched: dict, cutoff: datetime,
                     title = title[: -len(src_title) - 3].rstrip()
                 art_publisher = normalize_publisher(src_title) if src_title else publisher
                 summary = ""
-            if summary and _norm(summary).startswith(_norm(title)[:60]):
+            if summary and (_norm(summary).startswith(_norm(title)[:60])
+                            or is_stale_summary(title, summary)):
                 summary = ""
             if is_junk(title, art_publisher):
                 stat["junk"] += 1

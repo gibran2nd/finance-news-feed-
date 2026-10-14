@@ -53,14 +53,16 @@ def esc(s: str) -> str:
 
 def render_card(article: dict, color: str | None = None) -> str:
     t         = esc(article["title"])
-    s         = esc(article["summary"])
     lk        = esc(article["link"])
     src       = esc(article["source"])
     ts        = time_ago(article["pub"])
     c         = color or article.get("color", "#22c55e")
     age_cls   = article.get("age_class", "age-old")
     new_badge = '<span class="new-badge">NEW</span>' if article.get("is_new") else ""
-    summary_html = f'<p class="card-summary">{s}</p>' if s else ""
+    s         = esc(article.get("summary_short") or article["summary"])
+    via       = (f' <span class="card-via">— {esc(article["summary_via"])}</span>'
+                 if article.get("summary_via") and article["summary_via"] != article["source"] else "")
+    summary_html = f'<p class="card-summary">{s}{via}</p>' if s else ""
     co_attr   = f' data-co="{esc("|".join(article["companies"]))}"' if article.get("companies") else ""
     return f"""\
     <a class="card {age_cls}" href="{lk}" target="_blank" rel="noopener noreferrer"{co_attr}>
@@ -148,6 +150,28 @@ def render_market_strip(markets: list[dict] | None, generated: datetime) -> str:
     return (f'  <div class="mkt-strip" aria-label="Market snapshot">\n'
             f'    <div class="mkt-items">{items}</div>\n'
             f'    <span class="mkt-asof">as of {as_of}</span>\n  </div>')
+
+
+def render_brief(brief: list[dict], generated: datetime) -> str:
+    """The Morning Brief: Claude's 5-point summary of the day's most important stories."""
+    if not brief:
+        return ""
+    et    = generated.astimezone(ZoneInfo("America/New_York"))
+    label = "Morning Brief" if et.hour < 12 else "Afternoon Brief" if et.hour < 17 else "Evening Brief"
+    items = "".join(
+        f'<li><a href="{esc(b["article"]["link"])}" target="_blank" rel="noopener noreferrer">'
+        f'<strong>{esc(b["headline"])}</strong></a> {esc(b["detail"])} '
+        f'<span class="brief-src">{esc(b["article"]["source"])}</span></li>'
+        for b in brief)
+    return f"""\
+  <section class="brief" id="brief">
+    <h2 class="section-heading" style="color:var(--text)">{label}
+      <span class="brief-time">{et.strftime("%-I:%M %p ET")}</span></h2>
+    <ol class="brief-list">{items}</ol>
+    <p class="brief-note">Written by Claude (AI) from today's headlines and publisher summaries.
+      It can make mistakes — open the linked articles for the full story.</p>
+  </section>
+"""
 
 
 def render_trending_bar(trending: list[tuple[str, int]]) -> str:
@@ -255,7 +279,8 @@ def _render_sections_html(sections: dict, top_stories: list[dict],
 
 
 def build_html(sections: dict, top_stories: list[dict], generated: datetime,
-               markets: list[dict] | None, trending: list[tuple[str, int]], health: dict) -> str:
+               markets: list[dict] | None, trending: list[tuple[str, int]], health: dict,
+               brief: list[dict] | None = None) -> str:
     date_str  = generated.strftime("%A, %B %-d, %Y")
     time_str  = generated.strftime("%-I:%M %p UTC")
     total     = sum(len(arts) for _, arts in sections.values()) + len(top_stories)
@@ -268,6 +293,7 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
 
     market_strip    = render_market_strip(markets, generated)
     trending_bar    = render_trending_bar(trending)
+    brief_html      = render_brief(brief or [], generated)
     shown_counts: dict[str, int] = {}
     for a in top_stories + [a for _, arts in sections.values() for a in arts]:
         shown_counts[a["source"]] = shown_counts.get(a["source"], 0) + 1
@@ -325,7 +351,7 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
 
 {trending_bar}
   <main>
-{sections_html}
+{brief_html}{sections_html}
   <section class="premium-section" id="premium">
     <h2 class="section-heading" style="color:var(--gold)">
       🔒 Premium Sources <span class="pill">{len(PREMIUM_SITES)}</span>

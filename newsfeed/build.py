@@ -5,6 +5,7 @@ import os
 import sys
 from datetime import datetime, timezone, timedelta
 
+from .ai import AI
 from .archive import load_archive, update_archive
 from .config import FEEDS, LOOKBACK_HOURS, MAX_PER_SECTION, MAX_PER_SECTION_WEEK, MIN_LIVE_RATIO, OUTPUT_DIR, OUTPUT_FILE, RECAPS_FILE, WEEK_FILE, WEEK_HOURS
 from .fetch import fetch_all, parse_section
@@ -12,7 +13,7 @@ from .markets import fetch_market_snapshot
 from .health import report_feed_health, update_feed_health
 from .recaps import build_week_summary, load_summaries, save_summaries
 from .render import build_html, build_recaps_html, build_week_html
-from .stories import find_trending, select_stories
+from .stories import find_trending, importance_rank, select_stories
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -64,8 +65,17 @@ def main() -> None:
           f"{sum(map(len, sections_raw_week.values()))} in the last 7 days\n")
 
     print("[🔥 Selecting stories]")
+    ai    = AI()
+    brief: list[dict] = []
+
+    def ai_merge(clusters):
+        groups, items = ai.merge_and_brief(clusters, importance_rank(now))
+        brief.extend(items)
+        return groups
+
     top_stories, picked_main = select_stories(sections_raw_main, MAX_PER_SECTION, now,
-                                              LOOKBACK_HOURS, by_coverage=False)
+                                              LOOKBACK_HOURS, by_coverage=False,
+                                              cluster_hook=ai_merge)
     top_stories_week, picked_week = select_stories(sections_raw_week, MAX_PER_SECTION_WEEK, now,
                                                    WEEK_HOURS, by_coverage=True)
     sections_main = {name: (FEEDS[name], arts) for name, arts in picked_main.items()}
@@ -86,6 +96,15 @@ def main() -> None:
 
     print("[🔥 Trending Companies]")
     displayed = top_stories + [a for arts in picked_main.values() for a in arts]
+    ai.condense_summaries(displayed)
+    ai.save_log(now)
+    if ai.enabled:
+        print(f"  → AI: {len(brief)} brief items, {len(ai.log.get('merge_groups', []))} merges, "
+              f"summaries {ai.log.get('summaries')}, cost ${ai.log['total_cost_usd']}")
+    for err in ai.log["errors"]:
+        print(f"  ⚠ AI: {err}")
+        if ai.enabled and os.environ.get("GITHUB_ACTIONS"):
+            print(f"::warning title=AI step::{err}")
     trending  = find_trending(sections_raw_main, displayed)
     print(f"  → {', '.join(f'{n} ({c})' for n, c in trending)}\n")
 
@@ -107,7 +126,7 @@ def main() -> None:
     print(f"  → {len(summaries)} weeks stored\n")
 
     # ── Generate pages ───────────────────────────────────────────────────────
-    page = build_html(sections_main, top_stories, now, markets, trending, health)
+    page = build_html(sections_main, top_stories, now, markets, trending, health, brief)
     OUTPUT_FILE.write_text(page, encoding="utf-8")
 
     week_page = build_week_html(sections_week, top_stories_week, now, markets)

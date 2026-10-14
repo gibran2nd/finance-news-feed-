@@ -67,12 +67,13 @@ TITLE_STOPWORDS = {
 }
 
 
-# Too generic to tie two same-company headlines together (stemmed forms)
+# Too generic to identify a story on their own (stemmed forms)
 GENERIC_WORDS = {
     "stock", "shar", "market", "investor", "analyst", "pric", "rise", "rose", "fall", "fell",
     "gain", "drop", "jump", "slip", "climb", "surg", "say", "ai", "deal", "ceo", "new",
     "inc", "corp", "co", "group", "today", "why", "here", "what", "buy", "sell",
     "boom", "business", "billion", "million", "year", "full", "big", "bank", "firm",
+    "fastest", "pac", "highest", "lowest", "record", "since", "month", "level",
 }
 COMPANY_MATCH_WINDOW_H = 30
 
@@ -115,7 +116,8 @@ def cluster_articles(articles: list[dict]) -> list[dict]:
             return False
         shared  = wa & wb
         # single digits ("4 reasons", "up 3%") are too common to identify a story
-        rare    = [w for w in shared if df[w] <= rare_max and not (w.isdigit() and len(w) == 1)]
+        rare    = [w for w in shared if df[w] <= rare_max and w not in GENERIC_WORDS
+                   and not (w.isdigit() and len(w) == 1)]
         overlap = len(shared) / min(len(wa), len(wb))
         ca, cb  = set(a.get("companies", ())), set(b.get("companies", ()))
         if ca and cb and not ca & cb and overlap < 0.8:
@@ -145,12 +147,21 @@ def cluster_articles(articles: list[dict]) -> list[dict]:
         home["articles"].append(a)
         home["publishers"].add(a["source"])
         a["cluster"] = home["id"]
+    _refresh_cluster_stats(clusters)
+    return clusters
+
+
+def _refresh_cluster_stats(clusters: list[dict]) -> None:
+    """Per-article copies of cluster facts: outlets covering it, major outlets, lead company."""
     for c in clusters:
         majors = sum(p in MAJOR_PUBLISHERS for p in c["publishers"])
+        counts: dict[str, int] = {}
         for a in c["articles"]:
-            a["coverage"] = len(c["publishers"])
-            a["majors"]   = majors
-    return clusters
+            for name in a.get("companies", ()):
+                counts[name] = counts.get(name, 0) + 1
+        lead = max(counts, key=counts.get) if counts else None
+        for a in c["articles"]:
+            a["coverage"], a["majors"], a["lead_co"] = len(c["publishers"]), majors, lead
 
 
 # Major outlets: weighted higher when ranking Top Stories, preferred as the card shown
@@ -162,12 +173,14 @@ NON_HEADLINE_RE = re.compile(r"transcript|live blog|live updates|as it happened"
 
 
 def _display_rank(a: dict) -> tuple:
-    """Higher is better: a real headline (not a 3+ company roundup), from a major
-    outlet, with a summary, newest."""
+    """Higher is better: a real headline that leads with the story's main company (not a
+    roundup), from a major outlet, with a summary, newest."""
     major = len(MAJOR_PUBLISHERS) - MAJOR_PUBLISHERS.index(a["source"]) \
         if a["source"] in MAJOR_PUBLISHERS else 0
-    return (not NON_HEADLINE_RE.search(a["title"]), len(a.get("companies", ())) <= 2,
-            major, bool(a["summary"]), a["pub"])
+    companies = a.get("companies", [])
+    leads_with_story_company = not a.get("lead_co") or companies[:1] == [a["lead_co"]]
+    return (not NON_HEADLINE_RE.search(a["title"]), leads_with_story_company,
+            len(companies) <= 2, major, bool(a["summary"]), a["pub"])
 
 
 RANK_HALF_LIFE_H = 12     # a story's ranking weight halves every 12 hours
@@ -192,8 +205,14 @@ def find_top_stories(clusters: list[dict], now: datetime, window_h: float) -> li
         return 2 * majors + 0.5 * minors + 2 * max(0.0, 1 - age_h / window_h)
 
     used_publishers: set[str] = set()
+    used_companies:  set[str] = set()
     result = []
     for c in sorted((c for c in clusters if len(c["publishers"]) >= 2), key=score, reverse=True):
+        lead = c["articles"][0].get("lead_co")
+        if lead and lead in used_companies:
+            continue                      # one Top Story per company (e.g. BofA fine vs BofA earnings)
+        if lead:
+            used_companies.add(lead)
         cands = sorted(c["articles"], key=_display_rank, reverse=True)
         # prefer a publisher not already shown in Top Stories
         chosen = next((a for a in cands if a["source"] not in used_publishers), cands[0])
@@ -204,16 +223,65 @@ def find_top_stories(clusters: list[dict], now: datetime, window_h: float) -> li
     return result
 
 
+def merge_clusters(clusters: list[dict], groups: list[list[int]]) -> None:
+    """Union clusters judged to be the same story (e.g. by Claude) and refresh coverage."""
+    by_id = {c["id"]: c for c in clusters}
+    for group in groups:
+        members = [by_id[i] for i in dict.fromkeys(group) if i in by_id]
+        if len(members) < 2:
+            continue
+        keep = members[0]
+        for other in members[1:]:
+            for a in other["articles"]:
+                a["cluster"] = keep["id"]
+            keep["articles"].extend(other["articles"])
+            keep["publishers"] |= other["publishers"]
+            other["articles"], other["publishers"] = [], set()
+            del by_id[other["id"]]
+    clusters[:] = [c for c in clusters if c["articles"]]
+    _refresh_cluster_stats(clusters)
+
+
+BORROW_MIN_OVERLAP = 0.8   # headlines must be near-identical (same story re-published)
+
+
+def borrow_summaries(clusters: list[dict]) -> None:
+    """Give summary-less cards the summary of a near-identical headline in the same story —
+    in practice the same wire story re-published (e.g. Reuters via Investing.com) or the same
+    article appearing in two feeds. Credited via a["summary_via"].
+
+    Summaries from merely *related* articles are never borrowed: in testing they described a
+    different angle (or a different deal) than the card's headline.
+    """
+    for c in clusters:
+        donors = sorted((a for a in c["articles"] if a["summary"] and not a.get("summary_via")),
+                        key=_display_rank, reverse=True)
+        for a in c["articles"]:
+            if a["summary"] or not donors:
+                continue
+            words = story_words(a)
+            for d in donors:
+                dw = story_words(d)
+                close_in_time = abs((a["pub"] - d["pub"]).total_seconds()) <= 3 * 3600  # not a stale preview
+                if close_in_time and words and dw and \
+                        len(words & dw) / min(len(words), len(dw)) >= BORROW_MIN_OVERLAP:
+                    a["summary"], a["summary_via"] = d["summary"], d["source"]
+                    break
+
+
 def select_stories(raw: dict[str, list[dict]], limit: int, now: datetime, window_h: float,
-                   by_coverage: bool) -> tuple[list[dict], dict[str, list[dict]]]:
+                   by_coverage: bool, cluster_hook=None) -> tuple[list[dict], dict[str, list[dict]]]:
     """Pick Top Stories and each section's cards so no story appears twice on the page.
 
     by_coverage=False → importance fading with age (daily page); True → most widely covered
-    first (weekly).
+    first (weekly). cluster_hook(clusters) may return groups of cluster ids to merge.
     """
     # copies: the daily and weekly pages cluster the same articles independently
     raw = {name: [dict(a) for a in arts] for name, arts in raw.items()}
     clusters = cluster_articles([a for arts in raw.values() for a in arts])
+    if cluster_hook:
+        merge_clusters(clusters, cluster_hook(clusters) or [])
+    borrow_summaries(clusters)
     top      = find_top_stories(clusters, now, window_h)
     shown    = {a["cluster"] for a in top}
     rank     = (lambda a: (a["coverage"], a["pub"])) if by_coverage else importance_rank(now)
