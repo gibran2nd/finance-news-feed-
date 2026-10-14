@@ -74,6 +74,7 @@ GENERIC_WORDS = {
     "inc", "corp", "co", "group", "today", "why", "here", "what", "buy", "sell",
     "boom", "business", "billion", "million", "year", "full", "big", "bank", "firm",
     "fastest", "pac", "highest", "lowest", "record", "since", "month", "level",
+    "wall", "street", "investor", "trader", "economy", "global", "world",
 }
 COMPANY_MATCH_WINDOW_H = 30
 
@@ -122,6 +123,8 @@ def cluster_articles(articles: list[dict]) -> list[dict]:
         ca, cb  = set(a.get("companies", ())), set(b.get("companies", ()))
         if ca and cb and not ca & cb and overlap < 0.8:
             return False          # about different companies → different stories
+        if len(shared) >= 4 and overlap >= 0.8:
+            return True           # near-identical headline (widely syndicated wire story)
         if ((len(shared) >= 3 and overlap >= 0.5 and len(rare) >= 1)
                 or (len(rare) >= 2 and len(shared) >= 3 and overlap >= 0.4)):
             return True
