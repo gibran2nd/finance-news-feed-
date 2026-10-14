@@ -12,9 +12,14 @@ Scheduling: see setup.sh (launchd, runs daily at 7 AM)
 """
 from __future__ import annotations
 
+import os
 import re
+import sys
 import json
+import urllib.parse
+import urllib.error
 import urllib.request
+import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -24,9 +29,13 @@ OUTPUT_FILE          = OUTPUT_DIR / "index.html"
 WEEK_FILE            = OUTPUT_DIR / "week.html"
 RECAPS_FILE          = OUTPUT_DIR / "recaps.html"
 SUMMARIES_DATA_FILE  = Path(__file__).parent / "data" / "summaries.json"
+HEALTH_FILE          = Path(__file__).parent / "data" / "feed_health.json"
+HEALTH_ALERT_RUNS    = 3      # warn after this many consecutive empty/failed runs (~1 day)
+MIN_LIVE_RATIO       = 0.5    # below this share of live feeds, don't publish (keep old site)
 MAX_PER_SECTION      = 12
 MAX_PER_SECTION_WEEK = 20
 MAX_TOP_STORIES      = 6
+MAX_PER_SOURCE       = 3      # per publisher, per section
 LOOKBACK_HOURS       = 36
 WEEK_HOURS           = 168
 NEW_THRESHOLD_H      = 2
@@ -127,43 +136,52 @@ INTERNSHIP_RESOURCES = [
 ]
 
 # ── Feed Sources ───────────────────────────────────────────────────────────────
+def gnews(query: str) -> str:
+    """Google News search feed. Use `when:Nd` in the query to keep results fresh."""
+    return ("https://news.google.com/rss/search?q=" + urllib.parse.quote_plus(query)
+            + "&hl=en-US&gl=US&ceid=US:en")
+
+
+# Restricts a Google News search to major outlets (keeps out SEO/content-farm sites)
+TOP_OUTLETS = ("(site:reuters.com OR site:apnews.com OR site:bloomberg.com OR site:wsj.com"
+               " OR site:ft.com OR site:cnbc.com OR site:barrons.com OR site:axios.com"
+               " OR site:nytimes.com OR site:marketwatch.com)")
+
+CNBC = "https://www.cnbc.com/id/{}/device/rss/rss.html"
+DJ   = "https://feeds.content.dowjones.io/public/rss/{}"
+
+# Each source is (publisher, url) or (publisher, url, opts).
+#   opts["filter"] → general-interest feed; keep only finance-relevant stories
+#   opts["label"]  → name used in logs / feed health (defaults to publisher)
+# Google News items show their real publisher (Reuters, Barron's…), not "Google News".
 FEEDS = {
     "Stock Market & Equities": {
         "icon":  "📈",
         "color": "#22c55e",
         "sources": [
-            ("CNBC Markets",
-             "https://www.cnbc.com/id/15839135/device/rss/rss.html"),
-            ("MarketWatch",
-             "https://feeds.marketwatch.com/marketwatch/marketpulse/"),
-            ("Yahoo Finance",
-             "https://finance.yahoo.com/news/rssindex"),
-            ("The Street",
-             "https://www.thestreet.com/rss/main.xml"),
-            ("Fortune",
-             "https://fortune.com/feed/"),
-            ("Axios Markets",
-             "https://api.axios.com/feed/topics/markets"),
-            ("Barron's",
-             "https://www.barrons.com/xml/rss/3_7510.xml"),
+            ("WSJ",           DJ.format("RSSMarketsMain")),
+            ("Bloomberg",     "https://feeds.bloomberg.com/markets/news.rss", {"filter": True}),
+            ("FT",            "https://www.ft.com/markets?format=rss"),
+            ("MarketWatch",   DJ.format("mw_topstories"), {"filter": True}),
+            ("CNBC",          CNBC.format(10000664)),
+            ("Google News",   gnews('(stocks OR "Wall Street" OR shares OR S&P) (site:reuters.com OR site:apnews.com OR site:barrons.com) when:1d'),
+                              {"label": "Reuters/AP/Barron's markets search", "filter": True}),
         ],
     },
     "Macro & Economy": {
         "icon":  "🏛️",
         "color": "#3b82f6",
         "sources": [
-            ("CNBC Economy",
-             "https://www.cnbc.com/id/20910258/device/rss/rss.html"),
-            ("AP Business",
-             "https://apnews.com/apf-business"),
-            ("NPR Business",
-             "https://feeds.npr.org/1014/rss.xml"),
-            ("Axios Economy",
-             "https://api.axios.com/feed/topics/economy"),
-            ("Project Syndicate",
-             "https://www.project-syndicate.org/rss"),
-            ("Google – Fed & Rates",
-             "https://news.google.com/rss/search?q=Federal+Reserve+interest+rates+economy+2026&hl=en-US&gl=US&ceid=US:en"),
+            ("WSJ",               DJ.format("socialeconomyfeed")),
+            ("Bloomberg",         "https://feeds.bloomberg.com/economics/news.rss"),
+            ("FT",                "https://www.ft.com/global-economy?format=rss"),
+            ("CNBC",              CNBC.format(20910258)),
+            ("NYT",               "https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml"),
+            ("Investing.com",     "https://www.investing.com/rss/news_14.rss", {"filter": True}),
+            ("Federal Reserve",   "https://www.federalreserve.gov/feeds/press_all.xml"),
+            ("Project Syndicate", "https://www.project-syndicate.org/rss", {"filter": True}),
+            ("Google News",       gnews(f'("Federal Reserve" OR "rate cut" OR inflation OR "jobs report" OR "treasury yields") {TOP_OUTLETS} when:2d'),
+                                  {"label": "Fed & rates search"}),
         ],
     },
     "Investment Banking & Deals": {
@@ -175,72 +193,58 @@ FEEDS = {
             "ukraine", "russia", "china trade", "sanctions", "geopolit",
         ],
         "sources": [
-            ("CNBC M&A",
-             "https://www.cnbc.com/id/100003114/device/rss/rss.html"),
-            ("Dealbreaker",
-             "https://dealbreaker.com/feed"),
-            ("Axios Pro Rata",
-             "https://api.axios.com/feed/topics/deals-investing"),
-            ("Crunchbase News",
-             "https://news.crunchbase.com/feed/"),
-            ("Google – Active Deals",
-             "https://news.google.com/rss/search?q=%22acquires%22+OR+%22to+acquire%22+OR+%22merger+agreement%22+OR+%22buyout%22+OR+%22taken+private%22+billion&hl=en-US&gl=US&ceid=US:en"),
-            ("Google – IPO",
-             "https://news.google.com/rss/search?q=%22IPO%22+OR+%22S-1%22+OR+%22going+public%22+OR+%22initial+public+offering%22+OR+%22direct+listing%22+2026&hl=en-US&gl=US&ceid=US:en"),
-            ("Google – PE / LBO",
-             "https://news.google.com/rss/search?q=%22private+equity%22+%22acquisition%22+OR+%22buyout%22+OR+%22LBO%22+OR+%22portfolio+company%22+billion&hl=en-US&gl=US&ceid=US:en"),
+            ("DealBook",        "https://rss.nytimes.com/services/xml/rss/nyt/Dealbook.xml"),
+            ("PE Hub",          "https://www.pehub.com/feed/"),
+            ("PEI",             "https://www.privateequityinternational.com/feed/"),
+            ("Crunchbase News", "https://news.crunchbase.com/feed/"),
+            ("Money Stuff",     "https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine.rss"),
+            ("Google News",     gnews(f'(intitle:acquire OR intitle:acquires OR intitle:acquisition OR intitle:merger OR intitle:buyout OR intitle:takeover OR intitle:"take-private" OR intitle:"to buy") {TOP_OUTLETS} when:2d'),
+                                {"label": "M&A search"}),
+            ("Google News",     gnews('IPO (prices OR files OR debut OR "going public" OR "S-1") when:2d'),
+                                {"label": "IPO search"}),
+            ("Google News",     gnews('"private equity" (acquire OR buyout OR stake OR fundraise OR "closes fund") when:2d'),
+                                {"label": "Private equity search"}),
         ],
     },
     "Real Estate & REITs": {
         "icon":  "🏢",
         "color": "#06b6d4",
         "sources": [
-            ("The Real Deal",
-             "https://therealdeal.com/feed/"),
-            ("Commercial Observer",
-             "https://commercialobserver.com/feed/"),
-            ("Globe St",
-             "https://www.globest.com/rss/"),
-            ("Bisnow",
-             "https://www.bisnow.com/national/rss"),
-            ("Mortgage News Daily",
-             "https://www.mortgagenewsdaily.com/rss/headlines"),
-            ("Google – REITs",
-             "https://news.google.com/rss/search?q=REIT+%22real+estate+investment+trust%22+dividend+acquisition&hl=en-US&gl=US&ceid=US:en"),
+            ("Commercial Observer", "https://commercialobserver.com/feed/"),
+            ("Bisnow",              "https://www.bisnow.com/national/rss"),
+            ("HousingWire",         "https://www.housingwire.com/feed/"),
+            ("Connect CRE",         "https://www.connectcre.com/feed/"),
+            ("CNBC",                CNBC.format(10000115)),
+            ("WSJ",                 DJ.format("latestnewsrealestate"), {"filter": True}),
+            ("Google News",         gnews('REIT (acquisition OR acquire OR merger OR sells OR buys) when:3d'),
+                                    {"label": "REIT deals search"}),
         ],
     },
     "Earnings & Results": {
         "icon":  "📊",
         "color": "#ec4899",
         "sources": [
-            ("Zacks",
-             "https://www.zacks.com/rss.php"),
-            ("Seeking Alpha",
-             "https://seekingalpha.com/tag/earnings/feed.xml"),
-            ("Motley Fool",
-             "https://www.fool.com/investing/feeds/"),
-            ("Google – Earnings Beats",
-             "https://news.google.com/rss/search?q=earnings+%22beats+estimates%22+OR+%22tops+expectations%22+OR+%22misses+estimates%22&hl=en-US&gl=US&ceid=US:en"),
-            ("Google – Guidance",
-             "https://news.google.com/rss/search?q=%22raised+guidance%22+OR+%22lowered+guidance%22+OR+%22full+year+outlook%22+OR+%22earnings+forecast%22&hl=en-US&gl=US&ceid=US:en"),
+            ("Seeking Alpha", "https://seekingalpha.com/tag/earnings/feed.xml"),
+            ("Investing.com", "https://www.investing.com/rss/news_1062.rss"),
+            ("CNBC",          CNBC.format(15839135)),
+            ("Google News",   gnews(f'(intitle:earnings OR intitle:profit OR intitle:revenue OR intitle:results OR intitle:quarter) {TOP_OUTLETS} when:1d'),
+                              {"label": "Earnings search"}),
+            ("Google News",   gnews('("raises guidance" OR "cuts guidance" OR "raised its forecast" OR "lowered its forecast" OR "full-year outlook") when:2d'),
+                              {"label": "Guidance search"}),
         ],
     },
     "Tech & Fintech": {
         "icon":  "💻",
         "color": "#8b5cf6",
         "sources": [
-            ("TechCrunch",
-             "https://techcrunch.com/feed/"),
-            ("Wired Business",
-             "https://www.wired.com/feed/category/business/latest/rss"),
-            ("Fortune Tech",
-             "https://fortune.com/section/technology/feed/"),
-            ("Axios Pro Rata VC",
-             "https://api.axios.com/feed/topics/venture-capital"),
-            ("Google – Fintech",
-             "https://news.google.com/rss/search?q=fintech+OR+%22neobank%22+OR+%22embedded+finance%22+OR+%22payments+startup%22&hl=en-US&gl=US&ceid=US:en"),
-            ("Google – AI Finance",
-             "https://news.google.com/rss/search?q=%22artificial+intelligence%22+%22banking%22+OR+%22investment%22+OR+%22trading%22&hl=en-US&gl=US&ceid=US:en"),
+            ("Bloomberg",   "https://feeds.bloomberg.com/technology/news.rss"),
+            ("WSJ",         DJ.format("RSSWSJD"), {"filter": True}),
+            ("CNBC",        CNBC.format(19854910), {"filter": True}),
+            ("TechCrunch",  "https://techcrunch.com/feed/", {"filter": True}),
+            ("Finextra",    "https://www.finextra.com/rss/headlines.aspx"),
+            ("CoinDesk",    "https://www.coindesk.com/arc/outboundfeeds/rss/"),
+            ("Google News", gnews('(fintech OR neobank OR "payments startup" OR stablecoin) (raises OR launches OR acquires OR funding) when:2d'),
+                            {"label": "Fintech search"}),
         ],
     },
 }
@@ -860,6 +864,59 @@ def get_week_label(dt: datetime) -> str:
     return f"Week of {monday.strftime('%B %-d')} – {friday.strftime('%B %-d, %Y')}"
 
 
+def update_feed_health(feed_stats: list[dict], now: datetime) -> tuple[dict, list[dict]]:
+    """Record each source's status in HEALTH_FILE. Returns (health, sources needing attention).
+
+    A source "fails" a run when it errors or has no articles from the past week.
+    """
+    try:
+        old = json.loads(HEALTH_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        old = {}
+    health, alerts = {}, []
+    for st in feed_stats:
+        key    = f"{st['section']} | {st['label']}"
+        prev   = old.get(key, {})
+        failed = bool(st["error"]) or st["fresh"] == 0
+        rec = {
+            "section": st["section"], "label": st["label"], "url": st["url"],
+            "status": st["error"] or ("empty" if failed else "ok"),
+            "fresh": st["fresh"], "kept": st["kept"], "junk": st["junk"],
+            "off_topic": st["off_topic"], "last_run": now.isoformat(timespec="minutes"),
+            "consecutive_failures": prev.get("consecutive_failures", 0) + 1 if failed else 0,
+            "last_success": (prev.get("last_success") if failed
+                             else now.isoformat(timespec="minutes")),
+        }
+        health[key] = rec          # sources removed from FEEDS drop out automatically
+        if rec["consecutive_failures"] >= HEALTH_ALERT_RUNS:
+            alerts.append(rec)
+    HEALTH_FILE.parent.mkdir(parents=True, exist_ok=True)
+    HEALTH_FILE.write_text(json.dumps(health, indent=2), encoding="utf-8")
+    return health, alerts
+
+
+def report_feed_health(health: dict, alerts: list[dict]) -> None:
+    """Print a summary; on GitHub Actions also add warnings and a job-summary table."""
+    live = sum(r["status"] == "ok" for r in health.values())
+    print(f"  → {live}/{len(health)} feeds live, {len(alerts)} need attention")
+    for r in alerts:
+        msg = (f"{r['label']} ({r['section']}) has failed {r['consecutive_failures']} runs in a row "
+               f"[{r['status']}], last success: {r['last_success'] or 'never'}")
+        print(f"  ⚠ {msg}")
+        if os.environ.get("GITHUB_ACTIONS"):
+            print(f"::warning title=Feed needs attention::{msg}")
+    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary_path:
+        rows = "\n".join(
+            f"| {'✅' if r['status'] == 'ok' else '❌'} | {r['section']} | {r['label']} | {r['status']} "
+            f"| {r['kept']} | {r['junk'] + r['off_topic']} | {r['consecutive_failures']} |"
+            for r in sorted(health.values(), key=lambda r: (r["status"] == "ok", r["section"])))
+        with open(summary_path, "a", encoding="utf-8") as fh:
+            fh.write(f"### Feed health — {live}/{len(health)} live\n\n"
+                     "| | Section | Source | Status | Kept | Filtered | Failed runs |\n"
+                     f"|---|---|---|---|---|---|---|\n{rows}\n")
+
+
 def load_summaries() -> list:
     if SUMMARIES_DATA_FILE.exists():
         try:
@@ -898,122 +955,375 @@ def build_week_summary(top_stories_week: list[dict], sections_raw_week: dict,
     }
 
 
-def fetch_section(config: dict, cutoff: datetime, now: datetime, color: str) -> list[dict]:
-    try:
-        import feedparser
-    except ImportError:
-        print("  ✗ feedparser not installed. Run: pip3 install feedparser")
-        return []
+# ── Publisher names & junk filtering ──────────────────────────────────────────
+# Google News reports publishers inconsistently ("Bloomberg.com", "Financial Times")
+PUBLISHER_ALIASES = {
+    "bloomberg.com": "Bloomberg", "financial times": "FT", "ft.com": "FT",
+    "the wall street journal": "WSJ", "wall street journal": "WSJ",
+    "ap news": "AP", "associated press": "AP",
+    "the new york times": "NYT", "new york times": "NYT", "nytimes.com": "NYT",
+    "marketwatch": "MarketWatch", "barron's": "Barron's", "barrons": "Barron's",
+}
 
+# Content farms, auto-generated stock posts and crypto SEO sites seen in Google News results
+LOW_QUALITY_PUBLISHERS = {
+    "kalkine", "kalkine media", "marketbeat", "simply wall st", "simply wall st.", "ainvest",
+    "stock titan", "stocktwits", "tipranks", "gurufocus", "insider monkey", "beincrypto",
+    "fxstreet", "bloomingbit", "biggo finance", "scanx.trade", "ad-hoc-news.de", "indexbox",
+    "briefs finance", "startup fortune", "pulse 2.0", "nai500", "coincentral", "intellectia ai",
+    "meyka", "moomoo", "futunn", "sahm capital", "stockstotrade", "timothy sykes",
+    "parameter", "marketscreener", "marketscreener.com", "www.marketscreener.com", "digitaljournal",
+    "traders union", "coinfomania", "crypto briefing", "cointrust", "hokanews", "pluang",
+    "goodreturns", "investors king", "prop news time", "coinmarketcap", "london south east",
+    "intlbm", "the realist | howard chai", "247 wall st.", "24/7 wall st.",
+}
+
+JUNK_TITLE_RE = re.compile("|".join([
+    r"\bearnings preview\b",                                   # Seeking Alpha stubs
+    r"stock price, news, quote",                               # quote pages
+    r"\b(buys|bought) back [\d,]+ (shares|securities)\b",      # buyback filings
+    r"\b(director|officer|insider)\b.*\b(sells|buys|sold|bought)\b.*\b(stock|shares)\b",
+    r"\b(raises|lowers|trims|boosts|cuts|increases|decreases) (its )?(stake|position|holdings) in\b",
+    r"\b(stake|position|holdings) in .+ (raised|lowered|trimmed|boosted|cut) by\b",
+    r"\bprice prediction\b",
+    r":\s*live( levels)?$",                                     # chart-level posts
+    r"^(podcast|watch|video)\b",
+    r"^reg - ",                                                # LSE regulatory filings
+    r"\bcramer\b",                                             # CNBC entertainment segments
+    r"^we['’]re (upgrading|downgrading|buying|selling|trimming|adding)\b",  # CNBC Investing Club
+    r"^(current|today['’]s|best) .*\b(rates|accounts|cards)\b",  # evergreen rate/SEO pages
+]), re.IGNORECASE)
+
+
+# Headline must mention one of these to pass on general-interest feeds (opts["filter"])
+FINANCE_RE = re.compile(r"""\b(
+    stocks?|shares?|equit(y|ies)|markets?|investors?|investing|investment|traders?|trading|
+    earnings|revenue|profits?|loss(es)?|sales|guidance|forecasts?|outlook|quarter(ly)?|
+    deals?|mergers?|acquisitions?|acquires?|acquired|buyouts?|takeovers?|ipos?|valuation|
+    funding|raises|fundrais\w*|funds?|private\ equity|venture|startups?|unicorn|
+    banks?|banking|bankers?|lenders?|lending|loans?|credit|debt|bonds?|yields?|treasur(y|ies)|
+    rates?|inflation|fed|central\ bank|economy|economies|economic|gdp|recession|jobs|
+    unemployment|payrolls|tariffs?|trade\ (war|deal|talks|deficit|surplus|policy)|exports?|imports?|
+    dollar|currenc(y|ies)|
+    oil|gold|coal|copper|lng|iron\ ore|metals?|commodit(y|ies)|prices?|wall\ street|s&p|nasdaq|dow|
+    rall(y|ies|ied)|sell-?offs?|plunges?|plunged|surges?|surged|soars?|soared|tumbles?|tumbled|
+    slumps?|slumped|sinks?|sank|dips?|analysts?|bullish|bearish|activist|shareholders?|
+    billion|trillion|fintech|payments?|crypto|bitcoin|stablecoins?|
+    q[1-4]|shipments|deliveries|turnaround|buys|sells|sale|divest\w*|spin-?offs?|
+    settle(s|d|ment)?|lay(s|ing)?\ off|luxury|industry|morning\ bid|
+    mortgages?|housing|real\ estate|reits?|property|properties|condos?|borrow\w*|layoffs?|
+    bankrupt\w*|chapter\ 11|
+    antitrust|regulators?|sec|ftc|sanctions?|subsidies|chipmakers?|semiconductors?|data\ centers?
+)\b | [$€£]\d   # any currency amount""", re.IGNORECASE | re.VERBOSE)
+
+# Reader-question / personal-advice columns (MarketWatch "Moneyist" etc.)
+ADVICE_RE = re.compile(
+    r"\bmy (wife|husband|partner|girlfriend|boyfriend|fianc\w*|mom|dad|mother|father|son|"
+    r"daughter|brother|sister|parents|family|financial advis[eo]r|planner)\b"
+    r"|\b(i'?m|i am) (a |an )?\d{2}\b|\bshould i\b|\bcan i\b|\bam i\b",
+    re.IGNORECASE)
+
+
+def is_off_topic(title: str, filtered: bool) -> bool:
+    title = title.replace("’", "'")
+    return bool(ADVICE_RE.search(title)) or (filtered and not FINANCE_RE.search(title))
+
+
+def normalize_publisher(name: str) -> str:
+    name = name.strip()
+    key  = name.lower()
+    if key.startswith("investing.com"):
+        return "Investing.com"
+    if key.startswith("yahoo"):
+        return "Yahoo Finance"
+    return PUBLISHER_ALIASES.get(key, name)
+
+
+def is_english(text: str) -> bool:
+    letters = [c for c in text if c.isalpha()]
+    return not letters or sum(c.isascii() for c in letters) / len(letters) > 0.8
+
+
+def is_junk(title: str, publisher: str) -> bool:
+    pub = publisher.lower()
+    return (pub in LOW_QUALITY_PUBLISHERS
+            or pub.startswith(("http", "www."))                # unnamed/scraper sites
+            or not is_english(title) or not is_english(publisher)
+            or bool(JUNK_TITLE_RE.search(title)))
+
+
+def _norm(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", text.lower()).strip()
+
+
+USER_AGENT    = "Mozilla/5.0 (compatible; FinanceNewsFeed/2.0; +https://gibran2nd.github.io/finance-news-feed-/)"
+FETCH_TIMEOUT = 15
+
+
+def iter_sources(config: dict):
+    """Yield (publisher, url, opts) for every source in a section config."""
+    for src in config["sources"]:
+        publisher, url = src[0], src[1]
+        opts = src[2] if len(src) > 2 else {}
+        yield publisher, url, opts
+
+
+def fetch_feed(url: str):
+    """Download and parse one feed. Returns (feedparser result | None, error string | None)."""
+    import feedparser
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT) as resp:
+            body = resp.read()
+        return feedparser.parse(body), None
+    except urllib.error.HTTPError as e:
+        return None, f"HTTP {e.code}"
+    except Exception as e:
+        return None, type(e).__name__
+
+
+def fetch_all(now: datetime) -> dict[str, dict]:
+    """Fetch every feed in parallel. Returns {url: {"feed", "error", "secs"}}."""
+    from concurrent.futures import ThreadPoolExecutor
+    urls = sorted({url for cfg in FEEDS.values() for _, url, _ in iter_sources(cfg)})
+
+    def timed(url):
+        t = time.monotonic()
+        feed, err = fetch_feed(url)
+        return url, {"feed": feed, "error": err, "secs": time.monotonic() - t}
+
+    with ThreadPoolExecutor(max_workers=12) as pool:
+        return dict(pool.map(timed, urls))
+
+
+def parse_section(name: str, config: dict, fetched: dict, cutoff: datetime,
+                  now: datetime) -> tuple[list[dict], list[dict]]:
+    """Turn fetched feeds into article dicts. Returns (articles, per-source stats)."""
     blocklist  = [kw.lower() for kw in config.get("blocklist", [])]
     new_cutoff = now - timedelta(hours=NEW_THRESHOLD_H)
+    max_future = now + timedelta(hours=1)
+    color      = config["color"]
 
-    articles = []
-    for source_name, url in config["sources"]:
-        print(f"  Fetching {source_name}...", end=" ", flush=True)
-        try:
-            feed = feedparser.parse(
-                url,
-                request_headers={"User-Agent": "Mozilla/5.0 FinanceNewsBot/1.0"},
-            )
-            count = 0
-            for entry in feed.entries:
-                pub = parse_date(entry)
-                if pub and pub < cutoff:
-                    continue
-                title   = strip_tags(getattr(entry, "title", ""))
-                summary = strip_tags(
-                    getattr(entry, "summary", "") or getattr(entry, "description", "")
-                )
-                if len(summary) > 300:
-                    summary = summary[:297] + "…"
-                link = getattr(entry, "link", "#")
-                if not title:
-                    continue
-                if any(kw in title.lower() for kw in blocklist):
-                    continue
-                age_h     = (now - pub).total_seconds() / 3600 if pub else 99
-                age_class = "age-fresh" if age_h < 2 else "age-recent" if age_h < 12 else "age-old"
-                articles.append({
-                    "title":     title,
-                    "summary":   summary,
-                    "link":      link,
-                    "source":    source_name,
-                    "pub":       pub,
-                    "is_new":    pub is not None and pub >= new_cutoff,
-                    "color":     color,
-                    "age_class": age_class,
-                })
-                count += 1
-            print(f"✓ {count}")
-        except Exception as e:
-            print(f"✗ {e}")
-    return articles
-
-
-def dedupe(articles: list[dict]) -> list[dict]:
-    seen, out = [], []
-    for a in articles:
-        words = set(re.findall(r"\b\w{4,}\b", a["title"].lower()))
-        if not words:
+    articles, stats = [], []
+    for publisher, url, opts in iter_sources(config):
+        label  = opts.get("label", publisher)
+        result = fetched[url]
+        feed   = result["feed"]
+        stat   = {"section": name, "label": label, "url": url, "error": result["error"],
+                  "entries": 0, "fresh": 0, "kept": 0, "junk": 0, "off_topic": 0, "secs": round(result["secs"], 1)}
+        stats.append(stat)
+        if feed is None:
             continue
-        if not any(len(words & s) / max(len(words | s), 1) > 0.55 for s in seen):
-            seen.append(words)
-            out.append(a)
+        stat["entries"] = len(feed.entries)
+        for entry in feed.entries:
+            pub = parse_date(entry)
+            if pub and pub > max_future:      # bad/mis-parsed dates (seen on Finextra)
+                continue
+            if not pub or pub < cutoff:
+                continue
+            stat["fresh"] += 1
+            title   = strip_tags(getattr(entry, "title", ""))
+            summary = strip_tags(
+                getattr(entry, "summary", "") or getattr(entry, "description", "")
+            )
+            if len(summary) > 300:
+                summary = summary[:297] + "…"
+            link = getattr(entry, "link", "") or "#"
+            if not title:
+                continue
+            art_publisher = publisher
+            if publisher == "Google News":
+                # Google appends " - Publisher" to titles; its summary just repeats the title
+                src_title = (entry.get("source") or {}).get("title", "")
+                if src_title and title.endswith(" - " + src_title):
+                    title = title[: -len(src_title) - 3].rstrip()
+                art_publisher = normalize_publisher(src_title) if src_title else publisher
+                summary = ""
+            if summary and _norm(summary).startswith(_norm(title)[:60]):
+                summary = ""
+            if is_junk(title, art_publisher):
+                stat["junk"] += 1
+                continue
+            if is_off_topic(title, opts.get("filter", False)):
+                stat["off_topic"] += 1
+                continue
+            if any(kw in title.lower() for kw in blocklist):
+                continue
+            age_h     = (now - pub).total_seconds() / 3600
+            age_class = "age-fresh" if age_h < 2 else "age-recent" if age_h < 12 else "age-old"
+            articles.append({
+                "title":     title,
+                "summary":   summary,
+                "link":      link,
+                "source":    art_publisher,
+                "feed":      label,
+                "section":   name,
+                "pub":       pub,
+                "is_new":    pub >= new_cutoff,
+                "color":     color,
+                "age_class": age_class,
+            })
+            stat["kept"] += 1
+    return articles, stats
+
+
+def spread_publishers(articles: list[dict]) -> list[dict]:
+    """Keep recency order but avoid showing the same publisher twice in a row."""
+    out, pending = [], list(articles)
+    while pending:
+        idx = next((i for i, a in enumerate(pending)
+                    if not out or a["source"] != out[-1]["source"]), 0)
+        out.append(pending.pop(idx))
     return out
 
 
-def find_top_stories(sections_raw: dict[str, list[dict]]) -> list[dict]:
-    """Promote articles covered by 2+ different sources. Enforces source diversity."""
-    all_articles: list[dict] = []
-    for arts in sections_raw.values():
-        all_articles.extend(arts)
+def pick_diverse(articles: list[dict], limit: int, per_source: int = MAX_PER_SOURCE,
+                 key=lambda a: a["pub"]) -> list[dict]:
+    """Best-first selection (newest by default) with at most `per_source` cards per publisher."""
+    counts: dict[str, int] = {}
+    picked = []
+    for a in sorted(articles, key=key, reverse=True):
+        if counts.get(a["source"], 0) >= per_source:
+            continue
+        counts[a["source"]] = counts.get(a["source"], 0) + 1
+        picked.append(a)
+        if len(picked) >= limit:
+            break
+    return spread_publishers(picked)
+
+
+# ── Story matching (dedupe + Top Stories) ─────────────────────────────────────
+TITLE_STOPWORDS = {
+    "the", "and", "for", "with", "from", "into", "over", "after", "amid", "about", "says",
+    "said", "say", "will", "would", "could", "can", "may", "its", "his", "her", "their", "this",
+    "that", "than", "more", "most", "new", "how", "why", "what", "who", "when", "are", "was",
+    "has", "have", "had", "been", "not", "but", "out", "off", "via", "per", "you", "your",
+    "our", "all", "set", "top", "big", "first", "year", "week", "day", "u.s", "us",
+    "report", "news", "update", "exclusive", "commentary", "analysis", "source",
+}
+
+
+def _stem(word: str) -> str:
+    """Crude stemmer so 'fined'/'fine' and 'raises'/'raised' compare equal."""
+    for suffix in ("ing", "ed", "es", "s"):
+        if len(word) > len(suffix) + 2 and word.endswith(suffix):
+            word = word[: -len(suffix)]
+            break
+    return word[:-1] if len(word) > 3 and word.endswith("e") else word
+
+
+def story_words(article: dict) -> set:
+    """Normalized content words of a headline (cached on the article)."""
+    if "_words" not in article:
+        title = article["title"].lower().replace("’", "'").replace("'s ", " ")
+        raw   = re.findall(r"[a-z][a-z&.']*|\d+(?:\.\d+)?", title)
+        words = {_stem(w.strip(".'")) for w in raw}
+        article["_words"] = {w for w in words if len(w) > 2 or w[0].isdigit()} - TITLE_STOPWORDS
+    return article["_words"]
+
+
+def cluster_articles(articles: list[dict]) -> list[dict]:
+    """Group articles about the same story. Sets a["cluster"] and a["coverage"].
+
+    Two headlines match when they share several words *and* at least one of the shared
+    words is rare across today's headlines (a company name, a dollar figure…), so generic
+    finance vocabulary like "stocks" or "Wall Street" can't link unrelated stories.
+    """
+    df: dict[str, int] = {}
+    for a in articles:
+        for w in story_words(a):
+            df[w] = df.get(w, 0) + 1
+    rare_max = max(3, len(articles) // 100)
+
+    def same_story(a: dict, b: dict) -> bool:
+        wa, wb = story_words(a), story_words(b)
+        if not wa or not wb:
+            return False
+        shared  = wa & wb
+        rare    = [w for w in shared if df[w] <= rare_max]
+        overlap = len(shared) / min(len(wa), len(wb))
+        return ((len(shared) >= 3 and overlap >= 0.5 and len(rare) >= 1)
+                or (len(rare) >= 2 and len(shared) >= 3 and overlap >= 0.4))
 
     clusters: list[dict] = []
-    for a in all_articles:
-        words = set(re.findall(r"\b\w{4,}\b", a["title"].lower()))
-        if not words:
-            continue
-        matched = False
-        for cluster in clusters:
-            sim = len(words & cluster["words"]) / max(len(words | cluster["words"]), 1)
-            if sim > 0.45:
-                cluster["sources"].add(a["source"])
-                cluster["articles"].append(a)
-                matched = True
-                break
-        if not matched:
-            clusters.append({"words": words, "sources": {a["source"]}, "articles": [a]})
+    for a in sorted(articles, key=lambda a: a["pub"], reverse=True):
+        # must match a cluster's lead article, or two of its members (limits A~B~C chaining)
+        home = next((c for c in clusters
+                     if same_story(a, c["articles"][0])
+                     or sum(same_story(a, m) for m in c["articles"][1:6]) >= 2), None)
+        if home is None:
+            home = {"id": len(clusters), "articles": [], "publishers": set()}
+            clusters.append(home)
+        home["articles"].append(a)
+        home["publishers"].add(a["source"])
+        a["cluster"] = home["id"]
+    for c in clusters:
+        for a in c["articles"]:
+            a["coverage"] = len(c["publishers"])
+    return clusters
 
-    multi = [c for c in clusters if len(c["sources"]) >= 2]
-    multi.sort(
-        key=lambda c: max(
-            (a["pub"] for a in c["articles"] if a["pub"]),
-            default=datetime.min.replace(tzinfo=timezone.utc),
-        ),
-        reverse=True,
-    )
 
-    seen_roots: set[str] = set()
-    result: list[dict] = []
-    for cluster in multi:
+# Major outlets: weighted higher when ranking Top Stories, preferred as the card shown
+MAJOR_PUBLISHERS = ["Reuters", "Bloomberg", "WSJ", "FT", "AP", "CNBC", "NYT", "DealBook",
+                    "Barron's", "MarketWatch", "Axios"]
+
+
+NON_HEADLINE_RE = re.compile(r"transcript|live blog|live updates|as it happened", re.IGNORECASE)
+
+
+def _display_rank(a: dict) -> tuple:
+    """Higher is better: a real headline, from a major outlet, with a summary, newest."""
+    major = len(MAJOR_PUBLISHERS) - MAJOR_PUBLISHERS.index(a["source"]) \
+        if a["source"] in MAJOR_PUBLISHERS else 0
+    return (not NON_HEADLINE_RE.search(a["title"]), major, bool(a["summary"]), a["pub"])
+
+
+def find_top_stories(clusters: list[dict], now: datetime, window_h: float) -> list[dict]:
+    """Stories covered by 2+ publishers, ranked by breadth of coverage then recency."""
+    def score(c):
+        majors = sum(p in MAJOR_PUBLISHERS for p in c["publishers"])
+        minors = len(c["publishers"]) - majors
+        age_h  = (now - max(a["pub"] for a in c["articles"])).total_seconds() / 3600
+        return 2 * majors + 0.5 * minors + 2 * max(0.0, 1 - age_h / window_h)
+
+    used_publishers: set[str] = set()
+    result = []
+    for c in sorted((c for c in clusters if len(c["publishers"]) >= 2), key=score, reverse=True):
+        cands = sorted(c["articles"], key=_display_rank, reverse=True)
+        # prefer a publisher not already shown in Top Stories
+        chosen = next((a for a in cands if a["source"] not in used_publishers), cands[0])
+        used_publishers.add(chosen["source"])
+        result.append(chosen)
         if len(result) >= MAX_TOP_STORIES:
             break
-        cands = sorted(
-            [a for a in cluster["articles"] if a["pub"]],
-            key=lambda x: x["pub"], reverse=True,
-        )
-        if not cands:
-            continue
-        chosen = next(
-            (a for a in cands
-             if re.split(r"[\s\-]", a["source"].lower())[0] not in seen_roots),
-            cands[0],
-        )
-        seen_roots.add(re.split(r"[\s\-]", chosen["source"].lower())[0])
-        result.append(chosen)
-
     return result
+
+
+def select_stories(raw: dict[str, list[dict]], limit: int, now: datetime, window_h: float,
+                   by_coverage: bool) -> tuple[list[dict], dict[str, list[dict]]]:
+    """Pick Top Stories and each section's cards so no story appears twice on the page.
+
+    by_coverage=False → newest first (daily page); True → most widely covered first (weekly).
+    """
+    # copies: the daily and weekly pages cluster the same articles independently
+    raw = {name: [dict(a) for a in arts] for name, arts in raw.items()}
+    clusters = cluster_articles([a for arts in raw.values() for a in arts])
+    top      = find_top_stories(clusters, now, window_h)
+    shown    = {a["cluster"] for a in top}
+    rank     = (lambda a: (a["coverage"], a["pub"])) if by_coverage else (lambda a: a["pub"])
+
+    sections = {}
+    for name, arts in raw.items():
+        best: dict[int, dict] = {}
+        for a in arts:
+            if a["cluster"] in shown:
+                continue
+            cur = best.get(a["cluster"])
+            if cur is None or _display_rank(a) > _display_rank(cur):
+                best[a["cluster"]] = a
+        sections[name] = pick_diverse(list(best.values()), limit, key=rank)
+        shown |= {a["cluster"] for a in sections[name]}
+    return top, sections
 
 
 # ── HTML Renderers ─────────────────────────────────────────────────────────────
@@ -1024,7 +1334,7 @@ def esc(s: str) -> str:
 def render_card(article: dict, color: str | None = None) -> str:
     t         = esc(article["title"])
     s         = esc(article["summary"])
-    lk        = article["link"]
+    lk        = esc(article["link"])
     src       = esc(article["source"])
     ts        = time_ago(article["pub"])
     c         = color or article.get("color", "#22c55e")
@@ -1209,7 +1519,7 @@ def _render_sections_html(sections: dict, top_stories: list[dict],
 
 
 def build_html(sections: dict, top_stories: list[dict], generated: datetime,
-               fg: dict | None, trending: list[tuple[str, int]]) -> str:
+               fg: dict | None, trending: list[tuple[str, int]], health: dict) -> str:
     date_str  = generated.strftime("%A, %B %-d, %Y")
     time_str  = generated.strftime("%-I:%M %p UTC")
     total     = sum(len(arts) for _, arts in sections.values()) + len(top_stories)
@@ -1222,6 +1532,13 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
 
     fg_widget       = render_fear_greed_widget(fg)
     trending_bar    = render_trending_bar(trending)
+    shown_counts: dict[str, int] = {}
+    for a in top_stories + [a for _, arts in sections.values() for a in arts]:
+        shown_counts[a["source"]] = shown_counts.get(a["source"], 0) + 1
+    top_pubs        = sorted(shown_counts, key=shown_counts.get, reverse=True)[:10]
+    live_feeds      = sum(r["status"] == "ok" for r in health.values())
+    footer_sources  = (f"Sources today: {' &middot; '.join(esc(p) for p in top_pubs)} &amp; more"
+                       f" &nbsp;|&nbsp; {live_feeds}/{len(health)} feeds live")
     premium_html    = render_premium_sites()
     section_ids_js  = json.dumps(section_ids)
 
@@ -1285,8 +1602,7 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
   </main>
 
   <footer>
-    Free: CNBC &middot; MarketWatch &middot; Yahoo Finance &middot; AP &middot; NPR &middot; Axios &middot; TechCrunch &middot; Crunchbase &middot; Google News &nbsp;|&nbsp;
-    Premium: WSJ &middot; FT &middot; Bloomberg &middot; PitchBook &middot; The Economist &nbsp;|&nbsp;
+    {footer_sources} &nbsp;|&nbsp;
     Regenerates 3&times; daily &nbsp;|&nbsp;
     <a href="week.html" style="color:inherit">📅 Weekly</a> &nbsp;|&nbsp;
     <a href="recaps.html" style="color:inherit">📋 Recaps</a>
@@ -1527,7 +1843,7 @@ def build_recaps_html(summaries: list, generated: datetime,
             bullets_html = ""
             for b in entry.get("bullets", []):
                 src_badge = f'<span class="recap-src">{esc(b.get("source",""))}</span>'
-                link = b.get("link", "#")
+                link = esc(b.get("link", "#"))
                 bullets_html += (
                     f'<li class="recap-bullet">{src_badge}'
                     f'<a href="{link}" target="_blank" rel="noopener noreferrer">'
@@ -1648,39 +1964,47 @@ def main() -> None:
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    sections_main:     dict = {}
-    sections_week:     dict = {}
     sections_raw_main: dict = {}
     sections_raw_week: dict = {}
 
+    print("[Fetching feeds]")
+    fetched = fetch_all(now)
+    print(f"  → {len(fetched)} feeds\n")
+
+    feed_stats: list[dict] = []
     for name, config in FEEDS.items():
         print(f"[{config['icon']} {name}]")
-        raw_week = fetch_section(config, week_cutoff, now, config["color"])
-        # Tag each article with its section name (used for recaps)
-        for a in raw_week:
-            a["section"] = name
-        raw_main = [a for a in raw_week if not a["pub"] or a["pub"] >= main_cutoff]
-
+        raw_week, stats = parse_section(name, config, fetched, week_cutoff, now)
+        feed_stats.extend(stats)
+        for st in stats:
+            status = st["error"] or f"{st['kept']:3} kept / {st['fresh']:3} fresh / {st['entries']:3} in feed"
+            print(f"  {'✗' if st['error'] or not st['fresh'] else '✓'} {st['label']:28} {status}  ({st['secs']}s)")
+        raw_main = [a for a in raw_week if a["pub"] >= main_cutoff]
         sections_raw_week[name] = raw_week
         sections_raw_main[name] = raw_main
+        print()
 
-        arts_main = dedupe(raw_main)
-        arts_main.sort(key=lambda a: a["pub"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
-        sections_main[name] = (config, arts_main[:MAX_PER_SECTION])
+    print("[🩺 Feed health]")
+    health, alerts = update_feed_health(feed_stats, now)
+    report_feed_health(health, alerts)
+    live = sum(r["status"] == "ok" for r in health.values())
+    if live < MIN_LIVE_RATIO * len(health):
+        print(f"\n ✗ Only {live}/{len(health)} feeds returned articles — not publishing, "
+              "the previous site stays up.\n")
+        sys.exit(1)
+    print()
 
-        arts_week = dedupe(raw_week)
-        arts_week.sort(key=lambda a: a["pub"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
-        sections_week[name] = (config, arts_week[:MAX_PER_SECTION_WEEK])
-
-        print(f"  → {len(sections_main[name][1])} daily / {len(sections_week[name][1])} weekly\n")
-
-    print("[🔥 Top Stories — Daily]")
-    top_stories = find_top_stories(sections_raw_main)
-    print(f"  → {len(top_stories)} stories\n")
-
-    print("[🔥 Top Stories — Weekly]")
-    top_stories_week = find_top_stories(sections_raw_week)
-    print(f"  → {len(top_stories_week)} stories\n")
+    print("[🔥 Selecting stories]")
+    top_stories, picked_main = select_stories(sections_raw_main, MAX_PER_SECTION, now,
+                                              LOOKBACK_HOURS, by_coverage=False)
+    top_stories_week, picked_week = select_stories(sections_raw_week, MAX_PER_SECTION_WEEK, now,
+                                                   WEEK_HOURS, by_coverage=True)
+    sections_main = {name: (FEEDS[name], arts) for name, arts in picked_main.items()}
+    sections_week = {name: (FEEDS[name], arts) for name, arts in picked_week.items()}
+    print(f"  → top stories: {len(top_stories)} daily / {len(top_stories_week)} weekly")
+    for name in FEEDS:
+        print(f"  → {name}: {len(picked_main[name])} daily / {len(picked_week[name])} weekly")
+    print()
 
     print("[📊 Fear & Greed Index]")
     fear_greed = fetch_fear_greed()
@@ -1708,7 +2032,7 @@ def main() -> None:
     print(f"  → {len(summaries)} weeks stored\n")
 
     # ── Generate pages ───────────────────────────────────────────────────────
-    page = build_html(sections_main, top_stories, now, fear_greed, trending)
+    page = build_html(sections_main, top_stories, now, fear_greed, trending, health)
     OUTPUT_FILE.write_text(page, encoding="utf-8")
 
     week_page = build_week_html(sections_week, top_stories_week, now, fear_greed)
