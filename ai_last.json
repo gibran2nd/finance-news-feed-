@@ -4,78 +4,75 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 13191,
-   "output_tokens": 2136,
-   "cost_usd": 0.00239
+   "input_tokens": 12939,
+   "output_tokens": 2107,
+   "cost_usd": 0.00235
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2390,
-   "output_tokens": 1167,
-   "cost_usd": 0.00082
+   "input_tokens": 2770,
+   "output_tokens": 1260,
+   "cost_usd": 0.00091
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Jio Platforms files RHP for IPO, issue to open on Oct 21",
-   "Markets Rally Near 23,000, Jio Platforms Files Mega IPO, Draft BS VII Rollout - India Today"
-  ],
-  [
-   "CoreWeave credit default swaps hit distress levels as investors sour on AI debt",
-   "CoreWeave Credit Risk Hits Record as Default Odds Top 60% on Borrowing Plans"
-  ],
-  [
-   "Average long-term US mortgage rate holds at 7.4%, remaining at highest level in nearly 3 years",
-   "US Mortgage Rates Unchanged at 7.4% as Housing Market Struggles"
-  ],
-  [
-   "Wholesale inflation jumped last month by most in four years as gas prices soared",
-   "Producer Prices Jump 1.3%, Largest Monthly Increase Since March 2022",
-   "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022"
-  ],
-  [
-   "Harvard endowment returns surge on back of AI and SpaceX investments",
+   "Harvard’s endowment jumps 27% in fiscal 2026, lifted by SpaceX as top holding",
    "Harvard Fund Soars to Record $68 Billion After 27% Annual Return"
   ],
   [
-   "Pentiv launches mortgage intelligence platform, plans NYSE ticker change",
-   "Pineapple Financial rebrands as Pentiv; unveils agents for mortgage brokers"
+   "Markets Rally Near 23,000, Jio Platforms Files Mega IPO, Draft BS VII Rollout - India Today",
+   "Jio Platforms files RHP for IPO, issue to open on Oct 21"
+  ],
+  [
+   "Economists: Hot PPI shows Fed's work is not done",
+   "Producer Prices Jump 1.3%, Largest Monthly Increase Since March 2022",
+   "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
+   "Wholesale inflation jumped last month by most in four years as gas prices soared"
+  ],
+  [
+   "US Mortgage Rates Unchanged at 7.4% as Housing Market Struggles",
+   "Average long-term US mortgage rate holds at 7.4%, remaining at highest level in nearly 3 years"
+  ],
+  [
+   "Zelenskyy Defies Trump, Global Tech Selloff Drives Haven Bid",
+   "Ukraine abandons truce and attacks Russian oil refinery as Zelenskyy says he feels betrayed by Trump"
   ]
  ],
  "brief": [
   {
-   "headline": "Jio Platforms files IPO papers; issue opens October 21",
-   "detail": "Jio Platforms filed its red herring prospectus for an IPO that will open October 21, a listing analysts expect to pop.",
+   "headline": "Anthropic's IPO stands out as US IPO market slows",
+   "detail": "A cocktail of risks is threatening to stall the US IPO pipeline, leaving Anthropic's potential blockbuster debut as one of few offerings investors may favor.",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-15/anthropic-stands-alone-as-rest-of-us-ipo-market-slows-to-a-crawl"
+  },
+  {
+   "headline": "Jio Platforms files IPO papers, issue opens October 21",
+   "detail": "Reliance's Jio Platforms has filed its red herring prospectus for an IPO, with the issue set to open on October 21, a major listing for Indian markets.",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUEd3cGt0N0dfR3k4WWJrX19hTWZhOVZjWU1meWdmNW9zSi1fMzdyeE5FNFFTWXZmeXl1WmxhdWtlUWdmM3ltTTE0dFZGRmNISWNLa0s2STBTVXMzZWRpQ3F6UUJ1ZW9Vb040M2djczNfWXo5ek5Fd2NVVHpncVd3Y0szM0ZvRzE0bFRla3NXS1A3SFNCOEV3YlJsWDNrSVA4ODJmaUhfdw?oc=5"
   },
   {
+   "headline": "Wholesale prices surge 1.3% on energy costs",
+   "detail": "September producer prices posted their largest monthly increase since March 2022 as energy costs spiked, a hot reading that economists say shows the Fed's work is not done.",
+   "link": "https://www.connectcre.com/stories/producer-prices-jump-1-3-largest-monthly-increase-since-march-2022/"
+  },
+  {
    "headline": "CoreWeave credit default swaps hit distress levels",
-   "detail": "CoreWeave's credit default swaps reached distressed levels as investors soured on AI debt, signaling deepening stress at the AI cloud firm.",
+   "detail": "Signs of distress deepened at CoreWeave on Thursday as credit default swaps reached distress levels, with investors souring on AI debt.",
    "link": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html"
   },
   {
-   "headline": "Wholesale inflation jumps most in four years on energy",
-   "detail": "Wholesale prices surged in September as energy costs spiked, posting the largest monthly increase in more than four years.",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNExzSHEyWDFGWnpSTkR2V3NndkhQTmU1dzE3M2pTWENyU3RPRTAyb0JQQXNqbENPTjJneHRsYWpMMXFPUXg3dnZfekhEM1VoSFNIRTM4U29QR1l0TGhzeVd6WkZIamdXWDkwcmdlR3k5eExLZFd3SUc0MHFQc1NoQlIwRWw5MzM5OVpndWJKa3NIZFNJRGx5YQ?oc=5"
-  },
-  {
-   "headline": "Anthropic's IPO momentum as CoreWeave rattles AI trade",
-   "detail": "Bloomberg breaks down Anthropic's third-quarter revenue numbers as the company prepares for its IPO, while CoreWeave weighs on AI stocks.",
-   "link": "https://www.bloomberg.com/news/videos/2026-10-15/bloomberg-tech-10-15-2026-video"
-  },
-  {
-   "headline": "Harvard endowment surges to record $68 billion on AI, SpaceX",
-   "detail": "Harvard's $68 billion fund gained 27.1%, its second-best annual performance on record, as private capital holdings rebounded.",
-   "link": "https://www.ft.com/content/50c694da-c485-4176-853b-daf643eabb5c?syn-25a6b1a6=1"
+   "headline": "Harvard endowment jumps 27%, boosted by SpaceX holding",
+   "detail": "Harvard's endowment reached a record $68 billion after a 27% annual return, helped by equity and venture bets including SpaceX, its strongest return since 2021.",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-15/harvard-fund-soars-to-record-68-billion-after-27-annual-return"
   }
  ],
  "summaries": {
-  "requested": 16,
-  "rejected_ungrounded": 0,
-  "applied": 7
+  "requested": 19,
+  "rejected_ungrounded": 1,
+  "applied": 18
  },
- "generated": "2026-10-15T18:40+00:00",
- "total_cost_usd": 0.00321
+ "generated": "2026-10-15T20:07+00:00",
+ "total_cost_usd": 0.00326
 }
