@@ -4,75 +4,79 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12939,
-   "output_tokens": 2107,
-   "cost_usd": 0.00235
+   "input_tokens": 13019,
+   "output_tokens": 2961,
+   "cost_usd": 0.00278
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2770,
-   "output_tokens": 1260,
-   "cost_usd": 0.00091
+   "input_tokens": 2145,
+   "output_tokens": 962,
+   "cost_usd": 0.0007
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Harvard’s endowment jumps 27% in fiscal 2026, lifted by SpaceX as top holding",
-   "Harvard Fund Soars to Record $68 Billion After 27% Annual Return"
+   "CoreWeave's slump puts spotlight on debt behind AI boom",
+   "Analysts react to Coreweave debt woes, AI selloff"
   ],
   [
-   "Markets Rally Near 23,000, Jio Platforms Files Mega IPO, Draft BS VII Rollout - India Today",
-   "Jio Platforms files RHP for IPO, issue to open on Oct 21"
+   "Ukraine abandons truce and attacks Russian oil refinery as Zelenskyy says he feels betrayed by Trump",
+   "Zelenskyy Defies Trump, Global Tech Selloff Drives Haven Bid"
   ],
   [
-   "Economists: Hot PPI shows Fed's work is not done",
+   "Average long-term US mortgage rate holds at 7.4%, remaining at highest level in nearly 3 years",
+   "US Mortgage Rates Unchanged at 7.4% as Housing Market Struggles"
+  ],
+  [
+   "Wholesale inflation reaches levels last seen in 2022",
    "Producer Prices Jump 1.3%, Largest Monthly Increase Since March 2022",
-   "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
-   "Wholesale inflation jumped last month by most in four years as gas prices soared"
+   "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022"
   ],
   [
-   "US Mortgage Rates Unchanged at 7.4% as Housing Market Struggles",
-   "Average long-term US mortgage rate holds at 7.4%, remaining at highest level in nearly 3 years"
+   "IEA to speed up oil stocks release including over 20 million barrels of diesel",
+   "Latest Oil Market News and Analysis for Oct. 16"
   ],
   [
-   "Zelenskyy Defies Trump, Global Tech Selloff Drives Haven Bid",
-   "Ukraine abandons truce and attacks Russian oil refinery as Zelenskyy says he feels betrayed by Trump"
+   "Jio Platforms files RHP for IPO, issue to open on Oct 21",
+   "Ambani's Jio set for listing pop, analysts say ahead of record IPO",
+   "Jio Platforms IPO: Uday Kotak draws interesting link between Reliance’s 1977 listing and Jio market debut"
   ]
  ],
  "brief": [
   {
-   "headline": "Anthropic's IPO stands out as US IPO market slows",
-   "detail": "A cocktail of risks is threatening to stall the US IPO pipeline, leaving Anthropic's potential blockbuster debut as one of few offerings investors may favor.",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-15/anthropic-stands-alone-as-rest-of-us-ipo-market-slows-to-a-crawl"
-  },
-  {
    "headline": "Jio Platforms files IPO papers, issue opens October 21",
-   "detail": "Reliance's Jio Platforms has filed its red herring prospectus for an IPO, with the issue set to open on October 21, a major listing for Indian markets.",
+   "detail": "Jio Platforms filed its red herring prospectus for its IPO, with the issue set to open on October 21.",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUEd3cGt0N0dfR3k4WWJrX19hTWZhOVZjWU1meWdmNW9zSi1fMzdyeE5FNFFTWXZmeXl1WmxhdWtlUWdmM3ltTTE0dFZGRmNISWNLa0s2STBTVXMzZWRpQ3F6UUJ1ZW9Vb040M2djczNfWXo5ek5Fd2NVVHpncVd3Y0szM0ZvRzE0bFRla3NXS1A3SFNCOEV3YlJsWDNrSVA4ODJmaUhfdw?oc=5"
   },
   {
-   "headline": "Wholesale prices surge 1.3% on energy costs",
-   "detail": "September producer prices posted their largest monthly increase since March 2022 as energy costs spiked, a hot reading that economists say shows the Fed's work is not done.",
+   "headline": "Investors temper Anthropic IPO valuation expectations",
+   "detail": "Sources say investors are lowering valuation expectations for Anthropic's IPO over a revenue growth slowdown.",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5"
+  },
+  {
+   "headline": "Wholesale prices post largest monthly jump since 2022",
+   "detail": "Producer prices rose 1.3% in September as energy costs spiked, the largest monthly increase since March 2022.",
    "link": "https://www.connectcre.com/stories/producer-prices-jump-1-3-largest-monthly-increase-since-march-2022/"
   },
   {
    "headline": "CoreWeave credit default swaps hit distress levels",
-   "detail": "Signs of distress deepened at CoreWeave on Thursday as credit default swaps reached distress levels, with investors souring on AI debt.",
+   "detail": "Signs of distress deepened at CoreWeave on Thursday, with its credit default swaps reaching distress levels as investors sour on AI debt.",
    "link": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html"
   },
   {
-   "headline": "Harvard endowment jumps 27%, boosted by SpaceX holding",
-   "detail": "Harvard's endowment reached a record $68 billion after a 27% annual return, helped by equity and venture bets including SpaceX, its strongest return since 2021.",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-15/harvard-fund-soars-to-record-68-billion-after-27-annual-return"
+   "headline": "Average US mortgage rate holds at 7.4%",
+   "detail": "The average long-term US mortgage rate held at 7.4%, remaining at its highest level in nearly three years.",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPclU2UDRyMlZPRXJlUExmTFpSN0tXUVItTFVQbTY3dmtxelZIUDl3RXY2ZmlLYUNiMXJnaDBvanpRRk1ldktmcndKV0JOT2s0endZTzlUdFI0SXN6M1dRVE1XVnBsbVFKbU5DX0pOQmJtV1pQZXFsNE1LN0ladVdKc2dlUGVaNENrX1p3QThKZHZraVhxU3JCQ0ZmY2NFYmdyZEE?oc=5"
   }
  ],
  "summaries": {
-  "requested": 19,
-  "rejected_ungrounded": 1,
-  "applied": 18
+  "requested": 13,
+  "rejected_ungrounded": 0,
+  "applied": 9
  },
- "generated": "2026-10-15T20:07+00:00",
- "total_cost_usd": 0.00326
+ "generated": "2026-10-15T23:44+00:00",
+ "total_cost_usd": 0.00348
 }
