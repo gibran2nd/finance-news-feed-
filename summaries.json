@@ -2,7 +2,7 @@
   {
     "week": "2026-W42",
     "label": "Week of October 12\u201316, 2026",
-    "generated": "2026-10-15T04:55:11.633850+00:00",
+    "generated": "2026-10-15T15:29:15.067083+00:00",
     "bullets": [
       {
         "headline": "Anthropic revenue jumps to $16.8 billion in third quarter, FT reports",
@@ -17,37 +17,37 @@
         "link": "https://www.bloomberg.com/news/articles/2026-10-14/bofa-sheds-30-billion-in-value-as-years-of-lapses-come-to-light"
       },
       {
-        "headline": "Bending Spoons skyrockets 35% as Berkshire Hathaway makes $330 million investment",
+        "headline": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
         "source": "CNBC",
-        "section": "Tech & Fintech",
-        "link": "https://www.cnbc.com/2026/10/14/berkshire-hathaway-investment-bending-spoons.html"
-      },
-      {
-        "headline": "UNH beats Q3 expectations, raises guidance as AI helps cut costs",
-        "source": "Yahoo Finance",
         "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0E4a2QxVE51a2UwUEpGQm5oMHNlakRPb19TLXZxbU16d1VwbUtIRlRTdlMzVzBRVVR2UllFVjB0VlFoM0dMc0dwVUFZdlBScTRjbVpkWFdqXzhxYW5qbFlleG1fM2llOFY3emtMSUwtUFh5VXMwSFZvdGc5ZDRVNGZibmJZZmthUFVNbjlaWG1LLWxJZWwwR2ZMRGpJSFhCY0ZSRFlIVDd2V1J2Ym4w?oc=5"
+        "link": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html"
       },
       {
-        "headline": "JPMorgan, Goldman Profit Jumps as Banks Kick Off Earnings",
-        "source": "WSJ",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeTBDaTNrT3dxSVdGUWtqMS1lLUFyZGt3SDRrWnAxc1JUdTEzaUhvOFRBMWt2UGdZWW9PMEY3cmc3WVRXaWEyekVyWkR3WEJtbjdsM01JLVdkSEloNm9hSUkxalpwUVdMcHpScEhzcTYxRkZINzdHYW81X0R4cGFYeVctNlNGWXdnNGhPa3FpYU9CU2JnamIyb091a1A3MlZzSGZB?oc=5"
+        "headline": "Berkshire Hathaway Pours $330 Million into Bending Spoons to Expand Stake to 4%",
+        "source": "cristinaiglesias.com",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSFVpYmdLUF9lTXo4Nlh2TVRrQnp3VGFuTkprU3cxQXJ6UmtZamdZTFNXS25LSEpkNVlFOGdQN0JKelNFTzliMlFHejJYV1d1dUZpZzlXbjlOS2V5U3k2aVA4cmlHMzhfbGt0bEdrc2NzN3hCSjJLQUNBdHF5YmpjWlhhQTNucE9WcmY5OG5EMUMwcGNjZm5leHh1Qkp6c2RMaVFsb0t1YU4zaVpQNTE1ZWE1aUQ?oc=5"
       },
       {
-        "headline": "High gasoline prices expected to boost US consumer inflation in September",
-        "source": "Reuters",
-        "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWlRYZDhRQWpqTmlJcWxGcDR4RGNleVlZQ2pqYlVZaW8ya01TS1NCUFUyaElVNUdJR2x0VWRxdGtaWl9wekdEUGVHUnktVUstSXFOcHloUWtLcFlQU0EzSW4yTENYU1NYX09VMUVRU3hQZ2prRjA1dVBTdll0QjNZaXJVbE5LSVNMODNVSkxlR05IeVpydy1hRFpuWWp0OWM0TXhXclVQWHNwWlZHRGNNNmRR?oc=5"
+        "headline": "Jio Platforms files RHP for IPO, issue to open on Oct 21",
+        "source": "Investment Guru India",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUEd3cGt0N0dfR3k4WWJrX19hTWZhOVZjWU1meWdmNW9zSi1fMzdyeE5FNFFTWXZmeXl1WmxhdWtlUWdmM3ltTTE0dFZGRmNISWNLa0s2STBTVXMzZWRpQ3F6UUJ1ZW9Vb040M2djczNfWXo5ek5Fd2NVVHpncVd3Y0szM0ZvRzE0bFRla3NXS1A3SFNCOEV3YlJsWDNrSVA4ODJmaUhfdw?oc=5"
+      },
+      {
+        "headline": "GTCR and Elliott strike $6.1bn take-private deal for CCC Intelligent Solutions",
+        "source": "PE Hub",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.pehub.com/gtcr-and-elliott-strike-6-1bn-take-private-deal-for-ccc-intelligent-solutions/"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 282,
-      "Macro & Economy": 249,
-      "Investment Banking & Deals": 202,
-      "Real Estate & REITs": 112,
-      "Earnings & Results": 160,
-      "Tech & Fintech": 215
+      "Stock Market & Equities": 365,
+      "Macro & Economy": 320,
+      "Investment Banking & Deals": 259,
+      "Real Estate & REITs": 131,
+      "Earnings & Results": 232,
+      "Tech & Fintech": 306
     }
   },
   {

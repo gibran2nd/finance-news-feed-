@@ -4,68 +4,72 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12982,
-   "output_tokens": 2116,
-   "cost_usd": 0.00236
+   "input_tokens": 13127,
+   "output_tokens": 2060,
+   "cost_usd": 0.00234
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2104,
-   "output_tokens": 3101,
-   "cost_usd": 0.00176
+   "input_tokens": 2809,
+   "output_tokens": 1325,
+   "cost_usd": 0.00094
   }
  ],
  "errors": [],
  "merge_groups": [
   [
    "Jio Platforms files RHP for IPO, issue to open on Oct 21",
-   "Jio Platforms files papers, IPO set to open on October 21",
-   "Jio Platforms files final prospectus; IPO opens Oct 21",
-   "Jio Platforms files red herring prospectus for India’s biggest public issue"
+   "Markets Rally Near 23,000, Jio Platforms Files Mega IPO, Draft BS VII Rollout - India Today"
   ],
   [
-   "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
-   "Inflation worsened last month to 3.7% in sign that prices remain elevated as midterm elections near",
-   "Stocks fall, dollar rallies as US inflation tops forecasts"
+   "Wholesale inflation jumped last month by most in four years as gas prices soared",
+   "Wholesale Inflation Hit 4-Year High in September",
+   "Producer Prices Jump 1.3%, Largest Monthly Increase Since March 2022",
+   "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
+   "US producer prices post largest gain in 4-1/2 years; retail sales beat expectations"
   ],
   [
-   "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
-   "CoreWeave’s AI bonds tumble, raising red flags for the wider market"
+   "Visa Direct Launches Stablecoin-Powered Money Movement as Pilots Move to Production",
+   "Visa launches stablecoin payments | 2026-10-15 | Investing News"
+  ],
+  [
+   "CoreWeave's slump puts spotlight on debt behind AI boom",
+   "CoreWeave Slides on Debt; TSMC Moves on Outlook | Stock Movers"
   ]
  ],
  "brief": [
   {
-   "headline": "Jio Platforms files IPO papers; issue opens October 21",
-   "detail": "Jio Platforms filed its red herring prospectus for India's biggest public issue, with the IPO set to open on October 21.",
+   "headline": "US wholesale inflation jumps most in four years on gas",
+   "detail": "Wholesale prices surged in September as energy costs spiked, posting the largest monthly increase in more than four years, according to the Bureau of Labor Statistics.",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNExzSHEyWDFGWnpSTkR2V3NndkhQTmU1dzE3M2pTWENyU3RPRTAyb0JQQXNqbENPTjJneHRsYWpMMXFPUXg3dnZfekhEM1VoSFNIRTM4U29QR1l0TGhzeVd6WkZIamdXWDkwcmdlR3k5eExLZFd3SUc0MHFQc1NoQlIwRWw5MzM5OVpndWJKa3NIZFNJRGx5YQ?oc=5"
+  },
+  {
+   "headline": "Jio Platforms files for mega IPO, issue opens Oct 21",
+   "detail": "Jio Platforms filed its red herring prospectus for an IPO that will open on October 21, a record-breaking offering that is drawing heavy investor attention.",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUEd3cGt0N0dfR3k4WWJrX19hTWZhOVZjWU1meWdmNW9zSi1fMzdyeE5FNFFTWXZmeXl1WmxhdWtlUWdmM3ltTTE0dFZGRmNISWNLa0s2STBTVXMzZWRpQ3F6UUJ1ZW9Vb040M2djczNfWXo5ek5Fd2NVVHpncVd3Y0szM0ZvRzE0bFRla3NXS1A3SFNCOEV3YlJsWDNrSVA4ODJmaUhfdw?oc=5"
   },
   {
-   "headline": "US consumer prices rise 3.7% annually in September",
-   "detail": "Prices rose 3.7% from a year earlier as gas prices surged, above the 3.6% annual rate Dow Jones consensus had forecast.",
-   "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
-  },
-  {
-   "headline": "Anthropic's third-quarter revenue reportedly hits $16.8 billion",
-   "detail": "Anthropic reports third-quarter revenue of $16.8 billion ahead of its IPO, according to CNBC's coverage.",
-   "link": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html"
-  },
-  {
-   "headline": "Berkshire deepens Bending Spoons bet with $330 million",
-   "detail": "Berkshire's $330 million investment in Bending Spoons sparked a rally in its shares, according to Reuters.",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd0ZaMTJ1V3FHVGlTQWNRaVRwS1pvaEZJZjMtdkFWM1llcDA4VVMzejI1YzhUbUk4WXBsRTdMZGZJWGx3azJZVTZIWG5YQ0twUEx2RzNzMGJpa2Nqc2NaQTFHUU01UVF4YjlPcTlPVVJTVXlyRi0wSXZUYmprUTAwZHJvd1Bzem9DdjI2OGM0Qk1pdVBLUGY1Um1iV2syTHVIYVJEMkVqdE1oajdiMnhjLVcyLWl5bUR2U094UW1Gbw?oc=5"
+   "headline": "Anthropic urged to pause IPO over AI safety risks",
+   "detail": "New York City's comptroller said Anthropic should pause its initial public offering until it has fully addressed risks around artificial intelligence.",
+   "link": "https://www.bloomberg.com/news/videos/2026-10-15/anthropic-urged-to-pause-ipo-by-nyc-comptroller-video"
   },
   {
    "headline": "Asian stocks sell off as AI trades crumble",
-   "detail": "Asian stocks fell as AI-linked trades crumbled after hot US inflation data, a story covered by four outlets.",
+   "detail": "Asian stocks sold off as AI trades crumbled after hot US inflation data, adding to pressure on risk assets across global markets.",
    "link": "https://www.investing.com/news/economy-news/asian-markets-sell-off-as-ai-trades-crumble-after-hot-us-cpi-data-4950348"
+  },
+  {
+   "headline": "Berkshire deepens Bending Spoons bet with $330 million",
+   "detail": "Berkshire Hathaway added $330 million to its Bending Spoons investment, sparking a share rally in the company as investors respond to the bigger stake.",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd0ZaMTJ1V3FHVGlTQWNRaVRwS1pvaEZJZjMtdkFWM1llcDA4VVMzejI1YzhUbUk4WXBsRTdMZGZJWGx3azJZVTZIWG5YQ0twUEx2RzNzMGJpa2Nqc2NaQTFHUU01UVF4YjlPcTlPVVJTVXlyRi0wSXZUYmprUTAwZHJvd1Bzem9DdjI2OGM0Qk1pdVBLUGY1Um1iV2syTHVIYVJEMkVqdE1oajdiMnhjLVcyLWl5bUR2U094UW1Gbw?oc=5"
   }
  ],
  "summaries": {
-  "requested": 15,
-  "rejected_ungrounded": 0,
-  "applied": 14
+  "requested": 20,
+  "rejected_ungrounded": 1,
+  "applied": 19
  },
- "generated": "2026-10-15T04:55+00:00",
- "total_cost_usd": 0.00412
+ "generated": "2026-10-15T15:29+00:00",
+ "total_cost_usd": 0.00328
 }
