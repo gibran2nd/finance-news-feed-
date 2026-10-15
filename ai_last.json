@@ -4,106 +4,68 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12538,
-   "output_tokens": 3123,
-   "cost_usd": 0.00282
+   "input_tokens": 12982,
+   "output_tokens": 2116,
+   "cost_usd": 0.00236
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2963,
-   "output_tokens": 3510,
-   "cost_usd": 0.00205
+   "input_tokens": 2104,
+   "output_tokens": 3101,
+   "cost_usd": 0.00176
   }
  ],
  "errors": [],
  "merge_groups": [
   [
+   "Jio Platforms files RHP for IPO, issue to open on Oct 21",
    "Jio Platforms files papers, IPO set to open on October 21",
    "Jio Platforms files final prospectus; IPO opens Oct 21",
-   "Jio Platforms files RHP for IPO, issue to open on Oct 21"
-  ],
-  [
-   "Bank of America: Huge Fine Makes Shares Slump",
-   "BofA misses profit estimates on trading weakness, books $1.2 billion charge",
-   "Bank of America shares drop 8% after third-quarter revenue miss and regulatory penalty"
+   "Jio Platforms files red herring prospectus for India’s biggest public issue"
   ],
   [
    "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
    "Inflation worsened last month to 3.7% in sign that prices remain elevated as midterm elections near",
-   "US inflation heats up in September; Fed rate hike this month back on table",
-   "Stocks fall, dollar rallies as US inflation tops forecasts",
-   "VIEW Hot September CPI sends rate-hike bets soaring",
-   "Here's the inflation breakdown for September 2026 — in one chart"
+   "Stocks fall, dollar rallies as US inflation tops forecasts"
   ],
   [
    "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
-   "CoreWeave’s AI bonds tumble, raising red flags for the wider market",
-   "CoreWeave’s Brazen Dream Crashes Into Reality as Yields Top 15%"
-  ],
-  [
-   "Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'",
-   "Why Dell Stock Is Having Its Worst Day in More Than a Year",
-   "Why Dell’s stock was one of the S&P 500’s biggest laggards on Wednesday"
-  ],
-  [
-   "Social Security announces 3.6% COLA increase for 2027",
-   "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
-   "Did this year’s COLA beat inflation? Here’s how spending by American seniors stacks up so far in 2026."
-  ],
-  [
-   "Iambic Therapeutics prices IPO at $16 per share By Investing.com",
-   "Iambic prices $150M IPO to fund AI-discovered drug pipeline"
-  ],
-  [
-   "Latest Oil Market News and Analysis for Oct. 15",
-   "Oil Gains as Middle East, Russia Hostilities Imperil Flows"
-  ],
-  [
-   "Lufthansa wins race for €1.2 billion stake in Portuguese carrier TAP",
-   "Portugal Picks Lufthansa Over Air France-KLM for TAP Stake"
-  ],
-  [
-   "Fed’s October Beige Book points to higher inflation",
-   "Fed survey shows price pressures intensifying amid rise in fuel costs"
-  ],
-  [
-   "Nvidia, Anthropic Weigh In On AI Safeguards",
-   "Nvidia's Huang Says He Would Not Sell Chips to Irresponsible AI Customers"
+   "CoreWeave’s AI bonds tumble, raising red flags for the wider market"
   ]
  ],
  "brief": [
   {
-   "headline": "Jio Platforms files IPO papers; offering opens October 21",
-   "detail": "Jio Platforms filed its final prospectus, with the IPO set to open October 21, a deal covered by 11 outlets.",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMExTSUk3dG11TVFsS0FiWmJNcFZLSHFPT3ZWeERFeVdzWFBwT2FJTkJucTJHMmNLVVVEbF9sQXBielRSQjFwcmltSzRLeUZIVk5uelRMeFNTNTZZTDlhSlBxTGVEazItdG9PTjdaQjZkNXFQRG5lcl9mQ2RicUE2YmVwakY2NW12ZUlLRGZiX29EQ1A1UmZfZVVWcXRtWTZaaHUydGhoU0tnNDd2cnJVYVBNLWRoMVJFWFpueDdKaGdrbjZ5anc0UUNHSGd1ZjZpSmdEbdIB2gFBVV95cUxPc0ZnNjdMNXJFWGdxQVZjdnhWcU1IZ3hCMk9UX2J4Z0QydER5X18tcmtTa0xwNW1YX1hFNHl0WVoxTTNZbElNNmEzSzBVMGt0TDhfX3YweFB0eEpmaHJ3blVTR1Bwa0dqMlBhM1ZMMHpKaUVTcTNzNmFJQThCQU9CSlBUdmx3R3pLR0tpREZ5aUJ0RGVDMXlYd3BKM2VvRUpVMnJwLVJtMzRKN3VnRGFYYUxtU0RIVGkwSzRZbjFobHViZnJDb1dXdVYzTTJWcGFnUk9RZ1ZKYUREUQ?oc=5"
+   "headline": "Jio Platforms files IPO papers; issue opens October 21",
+   "detail": "Jio Platforms filed its red herring prospectus for India's biggest public issue, with the IPO set to open on October 21.",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUEd3cGt0N0dfR3k4WWJrX19hTWZhOVZjWU1meWdmNW9zSi1fMzdyeE5FNFFTWXZmeXl1WmxhdWtlUWdmM3ltTTE0dFZGRmNISWNLa0s2STBTVXMzZWRpQ3F6UUJ1ZW9Vb040M2djczNfWXo5ek5Fd2NVVHpncVd3Y0szM0ZvRzE0bFRla3NXS1A3SFNCOEV3YlJsWDNrSVA4ODJmaUhfdw?oc=5"
   },
   {
-   "headline": "Bank of America misses profit estimates on $1.2 billion charge",
-   "detail": "Weak trading revenue and a $1.2 billion Treasury fine led to a profit miss, and Bank of America shares dropped 8%.",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSERjcDdENDA2c180cFVhdW01WTVBaEdQdjRvejB6eGpkNklKUE8xM05mX1YybXZmMExUUXVkVDhMZUxGS0g5MWN0S3NtOHk1TjBISzBTWHB6VElZSjFjTHFUdU5sZXZtcHFxa0VybC1qR2Y2R0doZThnbGJoQVE5LVg5bHBDZmFvUm9ONGVUdUszODFvWV9aWlROdnE4NWs5R0FYZmJIVFAxaHZCQlJVRmtidS1IUlhVM1ZIM09MeEk?oc=5"
-  },
-  {
-   "headline": "US consumer prices rise 3.7% in September",
-   "detail": "Consumer prices rose 3.7% annually in September as gas prices surged, above the 3.6% Dow Jones consensus forecast, boosting rate-hike bets.",
+   "headline": "US consumer prices rise 3.7% annually in September",
+   "detail": "Prices rose 3.7% from a year earlier as gas prices surged, above the 3.6% annual rate Dow Jones consensus had forecast.",
    "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
   },
   {
-   "headline": "Anthropic's Q3 revenue jumps 45% to nearly $17 billion",
-   "detail": "Anthropic's third-quarter revenue surged 45% to nearly $17 billion, a result covered by eight outlets.",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRHl4NDlfRl9CaVdHZzdFMUYzM3Rka2RvbXlYcXR4ZGEwWGt5LS1rSlZmUkx0SFhxMnlCb1AtSElVcWJoT29UX19jcnRlMFpQOW0zOXQ1cXd0eHNpeFZKdkdxM2JCMjZrOXRXTmhWRExOZHY5OGpxcmY1MHJ5QlVRc2hDejdubVcydi1oYmJRc2RKaWRBOWFLbFREY2VEblZ4SVRpdQ?oc=5"
+   "headline": "Anthropic's third-quarter revenue reportedly hits $16.8 billion",
+   "detail": "Anthropic reports third-quarter revenue of $16.8 billion ahead of its IPO, according to CNBC's coverage.",
+   "link": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html"
   },
   {
    "headline": "Berkshire deepens Bending Spoons bet with $330 million",
-   "detail": "Berkshire Hathaway added a $330 million investment in Bending Spoons, sparking a rally in its shares.",
+   "detail": "Berkshire's $330 million investment in Bending Spoons sparked a rally in its shares, according to Reuters.",
    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd0ZaMTJ1V3FHVGlTQWNRaVRwS1pvaEZJZjMtdkFWM1llcDA4VVMzejI1YzhUbUk4WXBsRTdMZGZJWGx3azJZVTZIWG5YQ0twUEx2RzNzMGJpa2Nqc2NaQTFHUU01UVF4YjlPcTlPVVJTVXlyRi0wSXZUYmprUTAwZHJvd1Bzem9DdjI2OGM0Qk1pdVBLUGY1Um1iV2syTHVIYVJEMkVqdE1oajdiMnhjLVcyLWl5bUR2U094UW1Gbw?oc=5"
+  },
+  {
+   "headline": "Asian stocks sell off as AI trades crumble",
+   "detail": "Asian stocks fell as AI-linked trades crumbled after hot US inflation data, a story covered by four outlets.",
+   "link": "https://www.investing.com/news/economy-news/asian-markets-sell-off-as-ai-trades-crumble-after-hot-us-cpi-data-4950348"
   }
  ],
  "summaries": {
-  "requested": 23,
+  "requested": 15,
   "rejected_ungrounded": 0,
-  "applied": 22
+  "applied": 14
  },
- "generated": "2026-10-15T00:00+00:00",
- "total_cost_usd": 0.00487
+ "generated": "2026-10-15T04:55+00:00",
+ "total_cost_usd": 0.00412
 }
