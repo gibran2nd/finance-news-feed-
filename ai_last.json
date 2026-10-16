@@ -4,62 +4,69 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12816,
-   "output_tokens": 2018,
-   "cost_usd": 0.00229
+   "input_tokens": 12836,
+   "output_tokens": 3225,
+   "cost_usd": 0.0029
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3112,
-   "output_tokens": 1626,
-   "cost_usd": 0.00112
+   "input_tokens": 3211,
+   "output_tokens": 1650,
+   "cost_usd": 0.00115
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "CoreWeave stock, bond set for weekly plunge as rate-hike fears hit AI bet",
-   "CoreWeave bond rout tests market's math on AI buildout",
-   "Morning Bid: Calm after CoreWeave shock, but for how long?"
+   "City Therapeutics surges in market debut after upsizing $200M IPO",
+   "RNAi drugmaker City prices upsized IPO at $18 per share"
   ],
   [
-   "Bank of England Governor Says Too Early to Make Call on Second-Round Inflation",
-   "BOE’s Bailey Sees Little Evidence of Second-Round Inflation"
+   "France and Germany seal EU car deal",
+   "EU Carmakers Hail Deal on Emissions That Opens Door to the UK"
+  ],
+  [
+   "Debt Worries Keep Driving Down CoreWeave Stock",
+   "CoreWeave Stock Drops. Why AI Debt Fears Aren’t Over Despite Nvidia’s Confidence."
+  ],
+  [
+   "CoreWeave stock, bond set for weekly plunge as rate-hike fears hit AI bet",
+   "CoreWeave bond rout tests market's math on AI buildout"
   ]
  ],
  "brief": [
   {
-   "headline": "Mastercard launches global fiat and stablecoin payments platform with BVNK",
-   "detail": "Mastercard launched a global payments platform spanning fiat and stablecoins with BVNK, a development that matters as stablecoin payments move into mainstream finance.",
+   "headline": "Mastercard launches global fiat and stablecoin payments platform",
+   "detail": "Mastercard launched a global fiat and stablecoin payments platform with BVNK, a story covered by nine outlets.",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM3BhM2dkNHo0Q2gxc2lNZ2UxYjQwaXhjM3BPN09uclZmRXhIOG5RUDBTNUFvU0NyenhoRm5HcUlLb0h4TGdCQU5fMlRYMC05VUdLNW1KbG1weHRoclRfNGJtSnhLRlJ3TTZ4V2x5aV9MbWd3aHpqSC1IYUhieWE1N2hESmM4ejVYTWNmMUJSNXo2V3Y4WDFWaGdoZw?oc=5"
   },
   {
    "headline": "Anthropic's IPO could be the biggest ever",
-   "detail": "Fortune reports that Anthropic's IPO could be the biggest ever, and links the deal to how companies are spending their AI budgets.",
+   "detail": "Fortune reports that Anthropic's IPO could be the biggest ever, linking the offering to AI budget spending.",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSWhjMmwxdGR0NVZiUFJiTGNCbWJaam14LTFmdmlVNUdSOXJNMm9UNzhuSlpvaDJPN0lSMmhHYUFCRG1rRnVtUFhkZjYwdFg2MF9MdUZaUEVMTXBlTmEtVGZOOUlOTHFGWUw4aXE0X2JqT1dTN1ZySFJqVFVMYm9tVFNpYjQyNUtka2hzb0hGdGJfR0luNDJFdmdLODU0UXJRaHlOUTROamI?oc=5"
   },
   {
-   "headline": "Ramp raises $1.85 billion at $60 billion valuation",
-   "detail": "Ramp raised $1.85 billion at a $60 billion valuation as it expands into AI spending management, a large private funding round in fintech.",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82TUt5SlEycEstNmNYemM5bmtTdW95bWJpTHNEblFTMGw3SlJyWFQzTjI4QjNteGw3cHJmRkp0bkNldzVPbWhLYjZqT0ZaWDd4Wm5LZFdCcjFlZ3dwYXdTQVVJakxxX21NbGk0QldFbkRFdXRW?oc=5"
-  },
-  {
    "headline": "Proofpoint to acquire Varonis for $6.3 billion",
-   "detail": "U.S. cybersecurity firm Proofpoint agreed to acquire Miami-based, Israeli-founded Varonis for $6.3 billion, a sizable cybersecurity deal.",
+   "detail": "U.S. cybersecurity firm Proofpoint will acquire Miami-based, Israeli-founded Varonis for $6.3 billion, covered by five outlets.",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONmM1bUcwVVdQT1dtWjlVSU5sVXVNUmxweGR4SmdrdVlEeWZxT1dTaGV1VnBvX091eXcxZ3B4ZlV5QzR0V2R4UkFDMnZPbFd5Q28wU3llenhSbmxtclpIU2NSbktSaHoweC1MblR2OVZTdGo1VkJJbHJta0RBSU5UM1FMRTdha2pDeHh2UGlNc1IxS0F6MFlsX1dmbVBqMXZ5TjNFNTR6NWJyLTNXdkFBamNBN1Q0NjFxcVEyQm9pTTIyYTY1d2JF?oc=5"
   },
   {
-   "headline": "CoreWeave bonds set for weekly plunge on rate-hike fears",
-   "detail": "CoreWeave's stock and bonds were set for a weekly plunge as rate-hike fears hit its AI bet, raising questions about AI infrastructure funding.",
-   "link": "https://www.investing.com/news/economy-news/coreweave-shares-bonds-headed-for-steep-weekly-losses-as-ai-borrowing-concerns-mount-4953586"
+   "headline": "Chip rout intensifies as chipmakers face longest losing streak since 2008",
+   "detail": "Chipmakers are set for their longest losing streak since 2008, and Bloomberg's Ed Ludlow breaks down what is behind the selloff.",
+   "link": "https://www.bloomberg.com/news/videos/2026-10-16/bloomberg-tech-10-16-2026-video"
+  },
+  {
+   "headline": "City Therapeutics surges in market debut after upsized IPO",
+   "detail": "City Therapeutics priced its upsized IPO at $18 per share and surged in its market debut after upsizing its $200M offering.",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQkVyMU1QNkF5U0g5V0IzWjh2NUxhSkdRaHQ4UnRIZkpMX1VGNC13V2E1ajJSeDZodm5OTElINi1WNG5FY3RsV1ZfekU2dXZXSk5xLUw0M3RDRk9ubGNjSmhKNEwyS1BRaUJGdUk5enRsdFY5TVBTbjFTYTM1aFpfaXVHZ0ZiOGhRR1pYRE5DRDlZcDdHSVFGbHFRd3NLZW9rOXFrRkNsYlVidy00SXh6UjN1TzUwUkdY?oc=5"
   }
  ],
  "summaries": {
   "requested": 25,
-  "rejected_ungrounded": 2,
-  "applied": 23
+  "rejected_ungrounded": 0,
+  "applied": 25
  },
- "generated": "2026-10-16T15:09+00:00",
- "total_cost_usd": 0.00341
+ "generated": "2026-10-16T18:22+00:00",
+ "total_cost_usd": 0.00405
 }
