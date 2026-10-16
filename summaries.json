@@ -2,25 +2,25 @@
   {
     "week": "2026-W42",
     "label": "Week of October 12\u201316, 2026",
-    "generated": "2026-10-15T23:44:23.845234+00:00",
+    "generated": "2026-10-16T04:45:29.979171+00:00",
     "bullets": [
       {
-        "headline": "Anthropic revenue jumps to $16.8 billion in third quarter, FT reports",
+        "headline": "BofA misses profit estimates on trading weakness, books $1.2 billion charge",
         "source": "Reuters",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONTdYMW9PZjBTS1VtYnkwZ1lTa2o5UFhESGpJdk5jcFF2VEFyY3dNMC1aOXY1M3liaWU1RENuT292NjM5dmp1VGNOSDFJeDBUalJuaGoxTlNLN1g2U3RXQ3N2M1JiLVdIaGQ4Z3dya2J4dXhzdGU2X2Z4ckg3RFFmc1FMenF0NHFLZ2FWbDBJSkFLMld4OS10cGFFcWV0cGVib1FFY1A3a0RGTU0?oc=5"
-      },
-      {
-        "headline": "BofA Sheds $22 Billion in Value as Lapses Come to Light",
-        "source": "Bloomberg",
         "section": "Stock Market & Equities",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-14/bofa-sheds-30-billion-in-value-as-years-of-lapses-come-to-light"
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSERjcDdENDA2c180cFVhdW01WTVBaEdQdjRvejB6eGpkNklKUE8xM05mX1YybXZmMExUUXVkVDhMZUxGS0g5MWN0S3NtOHk1TjBISzBTWHB6VElZSjFjTHFUdU5sZXZtcHFxa0VybC1qR2Y2R0doZThnbGJoQVE5LVg5bHBDZmFvUm9ONGVUdUszODFvWV9aWlROdnE4NWs5R0FYZmJIVFAxaHZCQlJVRmtidS1IUlhVM1ZIM09MeEk?oc=5"
       },
       {
-        "headline": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
+        "headline": "Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO",
         "source": "CNBC",
         "section": "Earnings & Results",
-        "link": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html"
+        "link": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html"
+      },
+      {
+        "headline": "UNH beats Q3 expectations, raises guidance as AI helps cut costs",
+        "source": "Yahoo Finance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0E4a2QxVE51a2UwUEpGQm5oMHNlakRPb19TLXZxbU16d1VwbUtIRlRTdlMzVzBRVVR2UllFVjB0VlFoM0dMc0dwVUFZdlBScTRjbVpkWFdqXzhxYW5qbFlleG1fM2llOFY3emtMSUwtUFh5VXMwSFZvdGc5ZDRVNGZibmJZZmthUFVNbjlaWG1LLWxJZWwwR2ZMRGpJSFhCY0ZSRFlIVDd2V1J2Ym4w?oc=5"
       },
       {
         "headline": "Berkshire Hathaway Pours $330 Million into Bending Spoons to Expand Stake to 4%",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 451,
-      "Macro & Economy": 353,
-      "Investment Banking & Deals": 287,
-      "Real Estate & REITs": 189,
-      "Earnings & Results": 296,
-      "Tech & Fintech": 370
+      "Stock Market & Equities": 484,
+      "Macro & Economy": 384,
+      "Investment Banking & Deals": 303,
+      "Real Estate & REITs": 191,
+      "Earnings & Results": 310,
+      "Tech & Fintech": 391
     }
   },
   {
