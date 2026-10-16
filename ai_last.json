@@ -4,27 +4,27 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12836,
-   "output_tokens": 3225,
-   "cost_usd": 0.0029
+   "input_tokens": 12710,
+   "output_tokens": 3422,
+   "cost_usd": 0.00298
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3211,
-   "output_tokens": 1650,
-   "cost_usd": 0.00115
+   "input_tokens": 2986,
+   "output_tokens": 1421,
+   "cost_usd": 0.00101
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "City Therapeutics surges in market debut after upsizing $200M IPO",
-   "RNAi drugmaker City prices upsized IPO at $18 per share"
+   "EU Carmakers Hail Deal on Emissions That Opens Door to the UK",
+   "'A good day for motorists and for jobs': Reactions to Germany-France car deal"
   ],
   [
-   "France and Germany seal EU car deal",
-   "EU Carmakers Hail Deal on Emissions That Opens Door to the UK"
+   "City Therapeutics surges in market debut after upsizing $200M IPO",
+   "RNAi drugmaker City prices upsized IPO at $18 per share"
   ],
   [
    "Debt Worries Keep Driving Down CoreWeave Stock",
@@ -37,36 +37,36 @@
  ],
  "brief": [
   {
-   "headline": "Mastercard launches global fiat and stablecoin payments platform",
-   "detail": "Mastercard launched a global fiat and stablecoin payments platform with BVNK, a story covered by nine outlets.",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM3BhM2dkNHo0Q2gxc2lNZ2UxYjQwaXhjM3BPN09uclZmRXhIOG5RUDBTNUFvU0NyenhoRm5HcUlLb0h4TGdCQU5fMlRYMC05VUdLNW1KbG1weHRoclRfNGJtSnhLRlJ3TTZ4V2x5aV9MbWd3aHpqSC1IYUhieWE1N2hESmM4ejVYTWNmMUJSNXo2V3Y4WDFWaGdoZw?oc=5"
-  },
-  {
-   "headline": "Anthropic's IPO could be the biggest ever",
-   "detail": "Fortune reports that Anthropic's IPO could be the biggest ever, linking the offering to AI budget spending.",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSWhjMmwxdGR0NVZiUFJiTGNCbWJaam14LTFmdmlVNUdSOXJNMm9UNzhuSlpvaDJPN0lSMmhHYUFCRG1rRnVtUFhkZjYwdFg2MF9MdUZaUEVMTXBlTmEtVGZOOUlOTHFGWUw4aXE0X2JqT1dTN1ZySFJqVFVMYm9tVFNpYjQyNUtka2hzb0hGdGJfR0luNDJFdmdLODU0UXJRaHlOUTROamI?oc=5"
-  },
-  {
    "headline": "Proofpoint to acquire Varonis for $6.3 billion",
-   "detail": "U.S. cybersecurity firm Proofpoint will acquire Miami-based, Israeli-founded Varonis for $6.3 billion, covered by five outlets.",
+   "detail": "U.S. cybersecurity firm Proofpoint is set to acquire Miami-based, Israeli-founded Varonis for $6.3 billion, covered by five outlets.",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONmM1bUcwVVdQT1dtWjlVSU5sVXVNUmxweGR4SmdrdVlEeWZxT1dTaGV1VnBvX091eXcxZ3B4ZlV5QzR0V2R4UkFDMnZPbFd5Q28wU3llenhSbmxtclpIU2NSbktSaHoweC1MblR2OVZTdGo1VkJJbHJta0RBSU5UM1FMRTdha2pDeHh2UGlNc1IxS0F6MFlsX1dmbVBqMXZ5TjNFNTR6NWJyLTNXdkFBamNBN1Q0NjFxcVEyQm9pTTIyYTY1d2JF?oc=5"
   },
   {
-   "headline": "Chip rout intensifies as chipmakers face longest losing streak since 2008",
-   "detail": "Chipmakers are set for their longest losing streak since 2008, and Bloomberg's Ed Ludlow breaks down what is behind the selloff.",
-   "link": "https://www.bloomberg.com/news/videos/2026-10-16/bloomberg-tech-10-16-2026-video"
+   "headline": "Ramp raises $1.85 billion at $60 billion valuation",
+   "detail": "Ramp raised $1.85 billion at a $60 billion valuation as it expands into AI spending management, covered by six outlets.",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82TUt5SlEycEstNmNYemM5bmtTdW95bWJpTHNEblFTMGw3SlJyWFQzTjI4QjNteGw3cHJmRkp0bkNldzVPbWhLYjZqT0ZaWDd4Wm5LZFdCcjFlZ3dwYXdTQVVJakxxX21NbGk0QldFbkRFdXRW?oc=5"
   },
   {
-   "headline": "City Therapeutics surges in market debut after upsized IPO",
-   "detail": "City Therapeutics priced its upsized IPO at $18 per share and surged in its market debut after upsizing its $200M offering.",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQkVyMU1QNkF5U0g5V0IzWjh2NUxhSkdRaHQ4UnRIZkpMX1VGNC13V2E1ajJSeDZodm5OTElINi1WNG5FY3RsV1ZfekU2dXZXSk5xLUw0M3RDRk9ubGNjSmhKNEwyS1BRaUJGdUk5enRsdFY5TVBTbjFTYTM1aFpfaXVHZ0ZiOGhRR1pYRE5DRDlZcDdHSVFGbHFRd3NLZW9rOXFrRkNsYlVidy00SXh6UjN1TzUwUkdY?oc=5"
+   "headline": "CoreWeave stock and bonds set for weekly plunge",
+   "detail": "CoreWeave's stock and bonds are set for a weekly plunge as rate-hike fears hit its AI bet.",
+   "link": "https://www.investing.com/news/economy-news/coreweave-shares-bonds-headed-for-steep-weekly-losses-as-ai-borrowing-concerns-mount-4953586"
+  },
+  {
+   "headline": "City Therapeutics surges in market debut",
+   "detail": "The RNAi drugmaker City priced its upsized IPO at $18 per share and surged in its market debut.",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONkZveW5XbjRuUXpURHgzNldZUzdva0NhSHRhTkpMWEc0SlBHU1RKQjdoWHBiWmFGa050ZlZnZmU1ZDF2UjJuOHNhZFQ5blBuUVZQT3Q5Ymx6NUZEVVlpNnNwUnVCSW9nNTZ0bUlmUnI3LXhXY1NUbnRJdjQxazR5R3pZemx6MEdmWWhUcnZHWUJSQlE2Tm13Q2lvR1VacjQxSXJEcXR2Wm5ZYUpuNmJ0QVhtdWRFQkNnS3BPNDdB?oc=5"
+  },
+  {
+   "headline": "Mastercard launches a stablecoin",
+   "detail": "Mastercard launches a stablecoin, a story covered by ten outlets in today's candidate set.",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSEVIdkJVR0J5ODdUbGMyVHRJT01nU0VCUFdxYnpUb3ZkTk1mMTNXLVhUTkFfYVBlR3hNXzN2Nm5JeDJoRm15d01kMkkzZmJ2SW9CM2J6cEw4U2RucWo3RzI5QVU2VklmZ0l0MEg0YkZ5a244amh0Sm1MQ0pHQVJyN3JnTlhoS0JfaTN3X1Y0MUNxbXM?oc=5"
   }
  ],
  "summaries": {
-  "requested": 25,
+  "requested": 22,
   "rejected_ungrounded": 0,
-  "applied": 25
+  "applied": 22
  },
- "generated": "2026-10-16T18:22+00:00",
- "total_cost_usd": 0.00405
+ "generated": "2026-10-16T19:45+00:00",
+ "total_cost_usd": 0.00399
 }
