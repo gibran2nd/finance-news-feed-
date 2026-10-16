@@ -4,73 +4,62 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12672,
-   "output_tokens": 3252,
-   "cost_usd": 0.00289
+   "input_tokens": 12816,
+   "output_tokens": 2018,
+   "cost_usd": 0.00229
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2782,
-   "output_tokens": 1491,
-   "cost_usd": 0.00102
+   "input_tokens": 3112,
+   "output_tokens": 1626,
+   "cost_usd": 0.00112
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Wholesale inflation reaches levels last seen in 2022",
-   "US producer prices post largest gain in 4-1/2 years; expensive gasoline boosts retail sales"
+   "CoreWeave stock, bond set for weekly plunge as rate-hike fears hit AI bet",
+   "CoreWeave bond rout tests market's math on AI buildout",
+   "Morning Bid: Calm after CoreWeave shock, but for how long?"
   ],
   [
-   "Malaysia’s economy grows 5.3% on year in Q3, official advance estimate shows",
-   "Malaysia’s Growth Tops Forecasts as AI Boom Drives Export Surge"
-  ],
-  [
-   "‘Early days’ to see full effect of energy prices on inflation, BoE’s Bailey says",
-   "BOE Chief Says Energy Shock Delays 2% Inflation Target"
-  ],
-  [
-   "Oil heads for weekly gain with Mideast supply risks",
-   "Latest Oil Market News and Analysis for Oct. 16"
-  ],
-  [
-   "Fed’s Warsh gives no hint on October policy decision",
-   "Live: Fed Chief Kevin Warsh Speaks at IMF After Hotter US Inflation"
+   "Bank of England Governor Says Too Early to Make Call on Second-Round Inflation",
+   "BOE’s Bailey Sees Little Evidence of Second-Round Inflation"
   ]
  ],
  "brief": [
   {
-   "headline": "Investors temper Anthropic IPO valuation expectations",
-   "detail": "Sources told Reuters that investors are lowering Anthropic IPO valuation expectations over a revenue growth slowdown.",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5"
+   "headline": "Mastercard launches global fiat and stablecoin payments platform with BVNK",
+   "detail": "Mastercard launched a global payments platform spanning fiat and stablecoins with BVNK, a development that matters as stablecoin payments move into mainstream finance.",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM3BhM2dkNHo0Q2gxc2lNZ2UxYjQwaXhjM3BPN09uclZmRXhIOG5RUDBTNUFvU0NyenhoRm5HcUlLb0h4TGdCQU5fMlRYMC05VUdLNW1KbG1weHRoclRfNGJtSnhLRlJ3TTZ4V2x5aV9MbWd3aHpqSC1IYUhieWE1N2hESmM4ejVYTWNmMUJSNXo2V3Y4WDFWaGdoZw?oc=5"
   },
   {
-   "headline": "Visa stablecoin payments move from pilot to production",
-   "detail": "Visa's stablecoin payments have moved from pilot to production, a step covered by eight outlets.",
-   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9wRjlJaVJpWWltVmxPVW1VMklGbmlRX09zVW1DbGhhN0E3VUtFeHZmSnlZMm81ZWZmdU05XzRsQmJDNVlaVklNNzlEaEs4MmFoUHNFY2w4TQ?oc=5"
+   "headline": "Anthropic's IPO could be the biggest ever",
+   "detail": "Fortune reports that Anthropic's IPO could be the biggest ever, and links the deal to how companies are spending their AI budgets.",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSWhjMmwxdGR0NVZiUFJiTGNCbWJaam14LTFmdmlVNUdSOXJNMm9UNzhuSlpvaDJPN0lSMmhHYUFCRG1rRnVtUFhkZjYwdFg2MF9MdUZaUEVMTXBlTmEtVGZOOUlOTHFGWUw4aXE0X2JqT1dTN1ZySFJqVFVMYm9tVFNpYjQyNUtka2hzb0hGdGJfR0luNDJFdmdLODU0UXJRaHlOUTROamI?oc=5"
   },
   {
-   "headline": "Ramp hits $60bn valuation after $1.85bn raise",
-   "detail": "Expense management firm Ramp closed its second major raise in a matter of months, securing $1.85 billion in a primary round.",
-   "link": "https://www.finextra.com/newsarticle/48591/ramp-hits-60bn-valuation?utm_medium=rssfinextra&utm_source=finextrafeed"
+   "headline": "Ramp raises $1.85 billion at $60 billion valuation",
+   "detail": "Ramp raised $1.85 billion at a $60 billion valuation as it expands into AI spending management, a large private funding round in fintech.",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82TUt5SlEycEstNmNYemM5bmtTdW95bWJpTHNEblFTMGw3SlJyWFQzTjI4QjNteGw3cHJmRkp0bkNldzVPbWhLYjZqT0ZaWDd4Wm5LZFdCcjFlZ3dwYXdTQVVJakxxX21NbGk0QldFbkRFdXRW?oc=5"
   },
   {
-   "headline": "US producer prices post largest gain in 4.5 years",
-   "detail": "US producer prices posted their largest gain in four and a half years, while expensive gasoline boosted retail sales.",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMmQ2aEh5YkdMWGR6cGNVdU5TZ1k0NmpFX3BNcDRCM3B2cEJmX1BhYktBbkprQk12WDVGSXpKalhFTkVyS1hmWHNnVVJLYU80Q3dLcWVLVTN3YWVTS3BjVjZpTFM0SkloWUF0clFLbE5aR3dFR1ZVSWpxNjUwWUFyVjMta2E5X2YxRVhQTmpHSk5KRXRqT2UyTTlqdG1lOXFXUkVJTmxMLU1Kdw?oc=5"
+   "headline": "Proofpoint to acquire Varonis for $6.3 billion",
+   "detail": "U.S. cybersecurity firm Proofpoint agreed to acquire Miami-based, Israeli-founded Varonis for $6.3 billion, a sizable cybersecurity deal.",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONmM1bUcwVVdQT1dtWjlVSU5sVXVNUmxweGR4SmdrdVlEeWZxT1dTaGV1VnBvX091eXcxZ3B4ZlV5QzR0V2R4UkFDMnZPbFd5Q28wU3llenhSbmxtclpIU2NSbktSaHoweC1MblR2OVZTdGo1VkJJbHJta0RBSU5UM1FMRTdha2pDeHh2UGlNc1IxS0F6MFlsX1dmbVBqMXZ5TjNFNTR6NWJyLTNXdkFBamNBN1Q0NjFxcVEyQm9pTTIyYTY1d2JF?oc=5"
   },
   {
-   "headline": "CoreWeave credit default swaps hit distress levels",
-   "detail": "CoreWeave's credit default swaps reached distress levels as investors soured on AI debt, with distress deepening on Thursday.",
-   "link": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html"
+   "headline": "CoreWeave bonds set for weekly plunge on rate-hike fears",
+   "detail": "CoreWeave's stock and bonds were set for a weekly plunge as rate-hike fears hit its AI bet, raising questions about AI infrastructure funding.",
+   "link": "https://www.investing.com/news/economy-news/coreweave-shares-bonds-headed-for-steep-weekly-losses-as-ai-borrowing-concerns-mount-4953586"
   }
  ],
  "summaries": {
-  "requested": 19,
-  "rejected_ungrounded": 1,
-  "applied": 8
+  "requested": 25,
+  "rejected_ungrounded": 2,
+  "applied": 23
  },
- "generated": "2026-10-16T04:45+00:00",
- "total_cost_usd": 0.00391
+ "generated": "2026-10-16T15:09+00:00",
+ "total_cost_usd": 0.00341
 }
