@@ -4,69 +4,61 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12238,
-   "output_tokens": 3269,
-   "cost_usd": 0.00286
+   "input_tokens": 11616,
+   "output_tokens": 2298,
+   "cost_usd": 0.00231
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2445,
-   "output_tokens": 1145,
-   "cost_usd": 0.00082
+   "input_tokens": 2352,
+   "output_tokens": 1051,
+   "cost_usd": 0.00076
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Burma Burma operator Hunger Pangs files for Rs 150 cr IPO with fresh issue plan",
-   "Burma Burma operator Hunger Pangs files IPO draft papers with SEBI"
+   "Burma Burma operator Hunger Pangs files IPO draft papers with SEBI",
+   "Burma Burma operator Hunger Pangs files for Rs 150 cr IPO with fresh issue plan"
   ],
   [
-   "Klook withdraws IPO plans in the US due to market volatility.",
-   "Travel booking platform Klook Technology files to withdraw US listing"
-  ],
-  [
-   "Jio Prices India’s Biggest IPO",
-   "Jio’s $3.2 Billion IPO Tests Ambani Appeal With Young Indians"
-  ],
-  [
-   "Zelenskyy Says Starlink Speed Restrictions Look Deliberate",
-   "Trump says neither he nor Musk responsible for Ukraine loss of Starlink access"
+   "Protesters clash with police in Paris and Marseille",
+   "Scuffles break out as protesters rally across France, joining students"
   ]
  ],
  "brief": [
   {
-   "headline": "Oil hits five-month high of $110 on Middle East escalation",
-   "detail": "Brent prices jumped on reports that Saudi Arabia-led forces intercepted and destroyed missiles aimed at critical energy hubs.",
-   "link": "https://www.ft.com/content/8ee22d89-03eb-48dc-99a5-27555373a89c?syn-25a6b1a6=1"
+   "headline": "Citi: interest rates may matter more than stock valuations",
+   "detail": "Citi says interest rates may matter more for the economy than stock valuations, a view covered by six outlets.",
+   "link": "https://www.investing.com/news/economy-news/citi-says-interest-rates-may-matter-more-for-economy-than-stock-valuations-4955545"
   },
   {
-   "headline": "US budget deficit widens to $1.99 trillion for fiscal 2026",
-   "detail": "The US budget deficit widened to $1.99 trillion for fiscal 2026, a figure covered by three outlets.",
+   "headline": "Stephen Ross sells Dolphins stake at NFL-record valuation",
+   "detail": "Stephen Ross is selling a minority stake in the Miami Dolphins at an NFL-record valuation, covered by five outlets.",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUlI3VkkzN3lOWHFQR1hsSzhxS3pZTGtoZnk5YWhPemk1dlFWckkyMDBPcGVmQXVDVWN6dVBrOHdKR2JGUVp6TGhHTU5IeXllaXBqOTVxUmxuMkk0djYzNEJHUGYtZENMM1VaVm5qUmpWcG85dUxXN2xVM3Y3QTJLZDFpZnJkWW81ZDRiREZ5NmNxOTlhSk5IMy1vR1RGZw?oc=5"
+  },
+  {
+   "headline": "Visa Direct moves stablecoin payments to commercial production",
+   "detail": "Visa Direct is moving stablecoin cross-border payments to commercial production with Inyo Global, covered by five outlets.",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPc0hjZGxJSER2NDFQRElFRDhVV2hidXhnSzhrRHpJcTJGdzJYTTJpZVh2REw4bXhxbGx4RXB6dDdXOGdUM1p4Rk9RMEZMWDZWMjlRdlJNZWpoZ1l3VzBGem9DVlF5bUU5UmFTYnhCRjBfZzM2Y1hfajRJSkNtaVBMTEIyZHAzXzdVNjltcy1ndFdjOTVMR1BHNjhhVFQ2b0gyeGs4djhCSEZYZld3czIxdVFvRXA?oc=5"
+  },
+  {
+   "headline": "US budget deficit widens to $1.99 trillion",
+   "detail": "The US budget deficit widened to $1.99 trillion for fiscal 2026, according to reports from three outlets.",
    "link": "https://www.investing.com/news/economy-news/us-budget-deficit-widens-to-199-trillion-for-fiscal-2026-4954742"
   },
   {
-   "headline": "SoftBank in talks to buy Allied Universal",
-   "detail": "Masayoshi Son is looking to increase the pace of his bets on robotics and AI, according to the FT report of talks.",
-   "link": "https://www.ft.com/content/e44a17f9-5be0-4a78-89fb-41c4578838ca?syn-25a6b1a6=1"
-  },
-  {
-   "headline": "Bank of Canada sees sharply higher inflation outlook",
-   "detail": "Governor Macklem says the central bank sees a sharply higher inflation outlook as oil surges.",
-   "link": "https://www.investing.com/news/economy-news/bank-of-canada-sees-sharply-higher-inflation-outlook-as-oil-surges-macklem-says-4955437"
-  },
-  {
-   "headline": "Wall Street's AI trade sees worst week since June",
-   "detail": "A stock rout swept up companies from CoreWeave to Alphabet while Treasury yields tumbled, according to WSJ.",
-   "link": "https://www.wsj.com/finance/stocks/us-death-penalty-execution-rates-41ea3427?mod=rss_markets_main"
+   "headline": "Oil hits five-month high of $110 on Middle East escalation",
+   "detail": "Brent jumped on reports that Saudi Arabia-led forces intercepted and destroyed missiles aimed at critical energy hubs.",
+   "link": "https://www.ft.com/content/8ee22d89-03eb-48dc-99a5-27555373a89c?syn-25a6b1a6=1"
   }
  ],
  "summaries": {
   "requested": 16,
   "rejected_ungrounded": 0,
-  "applied": 12
+  "applied": 15
  },
- "generated": "2026-10-17T16:11+00:00",
- "total_cost_usd": 0.00368
+ "generated": "2026-10-17T23:51+00:00",
+ "total_cost_usd": 0.00307
 }
