@@ -4,66 +4,69 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 13094,
-   "output_tokens": 2996,
-   "cost_usd": 0.00281
+   "input_tokens": 12238,
+   "output_tokens": 3269,
+   "cost_usd": 0.00286
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2860,
-   "output_tokens": 3260,
-   "cost_usd": 0.00192
+   "input_tokens": 2445,
+   "output_tokens": 1145,
+   "cost_usd": 0.00082
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "City Therapeutics, Clinical-Stage RNAi Therapeutics Developer, Files for Nasdaq Global Market IPO",
-   "City Therapeutics surges in market debut after upsizing $200M IPO",
-   "RNAi drugmaker City prices upsized IPO at $18 per share"
+   "Burma Burma operator Hunger Pangs files for Rs 150 cr IPO with fresh issue plan",
+   "Burma Burma operator Hunger Pangs files IPO draft papers with SEBI"
   ],
   [
-   "Oil hits five-month high of $110 on new escalation in Middle East",
-   "Brent Oil Taps $110 for First Time Since May as Risks Swirl"
+   "Klook withdraws IPO plans in the US due to market volatility.",
+   "Travel booking platform Klook Technology files to withdraw US listing"
   ],
   [
-   "EU Carmakers Hail Deal on Emissions That Opens Door to the UK",
-   "'A good day for motorists and for jobs': Reactions to Germany-France car deal"
+   "Jio Prices India’s Biggest IPO",
+   "Jio’s $3.2 Billion IPO Tests Ambani Appeal With Young Indians"
+  ],
+  [
+   "Zelenskyy Says Starlink Speed Restrictions Look Deliberate",
+   "Trump says neither he nor Musk responsible for Ukraine loss of Starlink access"
   ]
  ],
  "brief": [
   {
-   "headline": "Anthropic Pitches AI Safety Bill to US Lawmakers",
-   "detail": "Anthropic has presented its own draft bill to US lawmakers with a plan for regulating AI safety and security amid heightened attention.",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-16/anthropic-pitches-ai-safety-bill-to-lawmakers-politico-says"
+   "headline": "Oil hits five-month high of $110 on Middle East escalation",
+   "detail": "Brent prices jumped on reports that Saudi Arabia-led forces intercepted and destroyed missiles aimed at critical energy hubs.",
+   "link": "https://www.ft.com/content/8ee22d89-03eb-48dc-99a5-27555373a89c?syn-25a6b1a6=1"
   },
   {
-   "headline": "US Budget Deficit Widens to $1.99 Trillion",
-   "detail": "The US budget deficit widened to $1.99 trillion for fiscal 2026, according to Investing.com coverage of the data.",
+   "headline": "US budget deficit widens to $1.99 trillion for fiscal 2026",
+   "detail": "The US budget deficit widened to $1.99 trillion for fiscal 2026, a figure covered by three outlets.",
    "link": "https://www.investing.com/news/economy-news/us-budget-deficit-widens-to-199-trillion-for-fiscal-2026-4954742"
   },
   {
-   "headline": "Brent Oil Hits $110 for First Time Since May",
-   "detail": "Brent oil reached $110 a barrel as prospects for imminent supply relief dwindled, prompting traders to ramp up bets on higher prices.",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-16/oil-tops-110-for-first-time-since-may-as-supply-risk-grows"
+   "headline": "SoftBank in talks to buy Allied Universal",
+   "detail": "Masayoshi Son is looking to increase the pace of his bets on robotics and AI, according to the FT report of talks.",
+   "link": "https://www.ft.com/content/e44a17f9-5be0-4a78-89fb-41c4578838ca?syn-25a6b1a6=1"
   },
   {
-   "headline": "Tech Stocks Slide as New AI Cracks Emerge",
-   "detail": "New cracks in the AI trade pushed Wall Street to its worst week since June, sweeping up companies from CoreWeave to Alphabet while Treasury yields tumbled.",
+   "headline": "Bank of Canada sees sharply higher inflation outlook",
+   "detail": "Governor Macklem says the central bank sees a sharply higher inflation outlook as oil surges.",
+   "link": "https://www.investing.com/news/economy-news/bank-of-canada-sees-sharply-higher-inflation-outlook-as-oil-surges-macklem-says-4955437"
+  },
+  {
+   "headline": "Wall Street's AI trade sees worst week since June",
+   "detail": "A stock rout swept up companies from CoreWeave to Alphabet while Treasury yields tumbled, according to WSJ.",
    "link": "https://www.wsj.com/finance/stocks/us-death-penalty-execution-rates-41ea3427?mod=rss_markets_main"
-  },
-  {
-   "headline": "Jio Platforms Files Prospectus for Mega IPO",
-   "detail": "Jio Platforms filed its red herring prospectus for its mega IPO, with subscription opening on October 21, 2026.",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00OUdYeDljdnc3b08tZXNhZWZ1azdldjA5d2J6Qm9ZS3lwTUEyc2xBajhlNHFSOWtYU0JoZ0JwZkViWnUwbDMweTB4Y0pfSEJWNHlyWEgzeGxvWlRUeG5n?oc=5"
   }
  ],
  "summaries": {
-  "requested": 21,
+  "requested": 16,
   "rejected_ungrounded": 0,
-  "applied": 18
+  "applied": 12
  },
- "generated": "2026-10-17T04:43+00:00",
- "total_cost_usd": 0.00473
+ "generated": "2026-10-17T16:11+00:00",
+ "total_cost_usd": 0.00368
 }
