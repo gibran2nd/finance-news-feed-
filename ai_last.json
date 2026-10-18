@@ -4,79 +4,66 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 11379,
-   "output_tokens": 3131,
-   "cost_usd": 0.0027
+   "input_tokens": 11520,
+   "output_tokens": 2509,
+   "cost_usd": 0.00241
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 1755,
-   "output_tokens": 3193,
-   "cost_usd": 0.00177
+   "input_tokens": 2093,
+   "output_tokens": 2405,
+   "cost_usd": 0.00141
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "New IPO Alert: Burma Burma operator Hunger Pangs files DRHP with SEBI",
-   "Burma Burma operator Hunger Pangs files IPO draft papers with SEBI",
-   "Burma Burma operator Hunger Pangs files for Rs 150 cr IPO with fresh issue plan"
+   "Australia's Challenger gets takeover bid from unit of Japan's Daiichi Life",
+   "Daiichi Life Offers $4.4 Billion to Buy Rest of Challenger"
   ],
   [
-   "Turkey will get some diesel from US-Russia supply deal, energy minister says",
-   "Russia-US Diesel Deal Delivery To Take 15-20 Days: Russia"
-  ],
-  [
+   "Crunch time for Brazilian politics",
    "‘The Switzerland of North America’: Albertans vote on leaving Canada",
    "Alberta Separatists Rally Ahead Of Independence Vote"
   ],
   [
-   "Stablecoin Payments Go Live: Visa’s Production Leap and What’s Next",
-   "Stablecoin Payments Go Live: What Visa's USDC Move Means",
-   "Visa Direct enables USDC commercial payments for businesses"
-  ],
-  [
-   "Protesters clash with police in Paris and Marseille",
-   "Scuffles break out as protesters rally across France, joining students"
-  ],
-  [
-   "Bank of Canada sees sharply higher inflation outlook as oil surges, Macklem says",
-   "Macklem Sees Higher Oil Prices Boosting Growth, Inflation"
+   "Turkey will get some diesel from US-Russia supply deal, energy minister says",
+   "Russia-US Diesel Deal Delivery To Take 15-20 Days: Russia"
   ]
  ],
  "brief": [
   {
+   "headline": "Cleanaway agrees to $6.5 billion EQT takeover",
+   "detail": "Australia's Cleanaway agreed to a $6.5 billion takeover by EQT, and its shares surged on the news.",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZ3BnTkYwbTF0X3R2ZUpDMy00Tk9ITWR6RjZlODdWWkdhQ0t5eVh1NWdlZmFxWVluT3hvSUZ4cHhJaTR1WEtZdU5NWEYtTk1rNVVvWU0xbXp2YjQ5ejliaHUwSEFYSDBocmc0X3lmNUN2SUVscVFSNF9XVF83VkVrVzVGdHhTQzA3dzhPU2liT1REY3dteWFaUENGWDRDMnBlZzltcTdzeFZ0T2dCUmdNRFowZEdmdjZNRl9veg?oc=5"
+  },
+  {
    "headline": "Microsoft pulls out of UK data center deal with Nscale",
-   "detail": "Microsoft is reported to have pulled out of a UK data center deal with Nscale, according to the Telegraph.",
+   "detail": "Microsoft has pulled out of a UK data center deal with Nscale, according to a Telegraph report covered by Reuters and two other outlets.",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMmVDUVQyZjhnbFN2MHQ1MHVPMHVpLVVsUFE1aU44Y2QzMUx2a25MRXR5OWtkTGd5RkViaG9fM3lZcnFHblYyT2xMeGZ3MHI3NkFjQ0FhdWFVRWlmdHlPRDRFRVRsclFpbUExakpiN3Z4aGMtODdDb09Mb0xXbnIxdU04ZmQ3UTEyTkhQd2EyMFhDNzQzYVgzZG9FeDlNYTJTanNOOThVSGRTb2RnRWdCajBVXzFMcDB4MWZpbXR1STMzZ1JaOXRr?oc=5"
   },
   {
-   "headline": "Stablecoin payments jump 45% as Visa, Mastercard, Stripe connect crypto",
-   "detail": "Stablecoin supply stalled while payments jumped 45%, as Visa, Mastercard and Stripe link crypto to cash.",
+   "headline": "Daiichi Life bids $4.4 billion for rest of Challenger",
+   "detail": "Daiichi Life Group offered $4.4 billion to buy the remainder of Australia's Challenger that it does not already own.",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-18/daiichi-life-offers-to-buy-remainder-of-australia-s-challenger"
+  },
+  {
+   "headline": "Anthropic commits 5% of shares to public benefit fund",
+   "detail": "Anthropic said it will commit 5% of its shares to a public benefit fund, a move covered by four outlets.",
+   "link": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+  },
+  {
+   "headline": "Stablecoin payments jump 45% as supply stalls",
+   "detail": "Stablecoin supply stalled while payments jumped 45%, as Visa, Mastercard and Stripe connect crypto to cash.",
    "link": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash"
-  },
-  {
-   "headline": "ECB's Lagarde says bond selloff will slow inflation",
-   "detail": "ECB President Lagarde said the bond selloff will slow inflation, a view carried by three outlets.",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMXNPdlExOVZlYThyNEhmbk5DOWdWdlRFY2U2LUxiOFg4Q0xnMWlsSG5seFdSWHdSUU8wdEo0LUV4dzRoeV9hUFp2clZmV0hGemJkWVdRSzQtSktjSzhvZGVOS2NJa2o3ZXN4QVpNS2dIc2ZXUW8zVnNubl9BcUcwS2EtRjZYSDdZczd6Ql9vLUbSAZYBQVVfeXFMT0d2NTN6YlU0NXlmR0FpaWw2OU8yWnlyWXlkM3M4bHFvSjU3M3lmSjhfN0JaOUZ0UDdMTVgtdlE4enI0bWU2YWpyOGhpSnVkZU1pdktYQWtDMEdLdFVnY2ZfQ2lkZHhkcGlUdUtuemxqeXhFYXphTWdvYi1jYlBaZGRobnhwWEdfVmVtYS02WDhMdEw0THhR?oc=5"
-  },
-  {
-   "headline": "Albertans vote on leaving Canada in Monday's referendum",
-   "detail": "Albertans vote Monday on independence, a referendum that threatens Mark Carney's effort to unite the country against a hostile US.",
-   "link": "https://www.ft.com/content/d48c545b-6b41-41e9-a71c-cb2126c76082?syn-25a6b1a6=1"
-  },
-  {
-   "headline": "US interest costs hit record $1 trillion",
-   "detail": "The US government's debt interest burden reached a record for fiscal 2026, taking a growing share of federal revenue and risking a debt snowball.",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-17/us-interest-costs-hit-record-1-trillion-risking-debt-snowball"
   }
  ],
  "summaries": {
-  "requested": 12,
+  "requested": 16,
   "rejected_ungrounded": 0,
-  "applied": 12
+  "applied": 16
  },
- "generated": "2026-10-18T16:24+00:00",
- "total_cost_usd": 0.00447
+ "generated": "2026-10-18T23:59+00:00",
+ "total_cost_usd": 0.00382
 }
