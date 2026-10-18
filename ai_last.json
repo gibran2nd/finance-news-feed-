@@ -4,61 +4,79 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 11616,
-   "output_tokens": 2298,
-   "cost_usd": 0.00231
+   "input_tokens": 11379,
+   "output_tokens": 3131,
+   "cost_usd": 0.0027
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2352,
-   "output_tokens": 1051,
-   "cost_usd": 0.00076
+   "input_tokens": 1755,
+   "output_tokens": 3193,
+   "cost_usd": 0.00177
   }
  ],
  "errors": [],
  "merge_groups": [
   [
+   "New IPO Alert: Burma Burma operator Hunger Pangs files DRHP with SEBI",
    "Burma Burma operator Hunger Pangs files IPO draft papers with SEBI",
    "Burma Burma operator Hunger Pangs files for Rs 150 cr IPO with fresh issue plan"
   ],
   [
+   "Turkey will get some diesel from US-Russia supply deal, energy minister says",
+   "Russia-US Diesel Deal Delivery To Take 15-20 Days: Russia"
+  ],
+  [
+   "‘The Switzerland of North America’: Albertans vote on leaving Canada",
+   "Alberta Separatists Rally Ahead Of Independence Vote"
+  ],
+  [
+   "Stablecoin Payments Go Live: Visa’s Production Leap and What’s Next",
+   "Stablecoin Payments Go Live: What Visa's USDC Move Means",
+   "Visa Direct enables USDC commercial payments for businesses"
+  ],
+  [
    "Protesters clash with police in Paris and Marseille",
    "Scuffles break out as protesters rally across France, joining students"
+  ],
+  [
+   "Bank of Canada sees sharply higher inflation outlook as oil surges, Macklem says",
+   "Macklem Sees Higher Oil Prices Boosting Growth, Inflation"
   ]
  ],
  "brief": [
   {
-   "headline": "Citi: interest rates may matter more than stock valuations",
-   "detail": "Citi says interest rates may matter more for the economy than stock valuations, a view covered by six outlets.",
-   "link": "https://www.investing.com/news/economy-news/citi-says-interest-rates-may-matter-more-for-economy-than-stock-valuations-4955545"
+   "headline": "Microsoft pulls out of UK data center deal with Nscale",
+   "detail": "Microsoft is reported to have pulled out of a UK data center deal with Nscale, according to the Telegraph.",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMmVDUVQyZjhnbFN2MHQ1MHVPMHVpLVVsUFE1aU44Y2QzMUx2a25MRXR5OWtkTGd5RkViaG9fM3lZcnFHblYyT2xMeGZ3MHI3NkFjQ0FhdWFVRWlmdHlPRDRFRVRsclFpbUExakpiN3Z4aGMtODdDb09Mb0xXbnIxdU04ZmQ3UTEyTkhQd2EyMFhDNzQzYVgzZG9FeDlNYTJTanNOOThVSGRTb2RnRWdCajBVXzFMcDB4MWZpbXR1STMzZ1JaOXRr?oc=5"
   },
   {
-   "headline": "Stephen Ross sells Dolphins stake at NFL-record valuation",
-   "detail": "Stephen Ross is selling a minority stake in the Miami Dolphins at an NFL-record valuation, covered by five outlets.",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUlI3VkkzN3lOWHFQR1hsSzhxS3pZTGtoZnk5YWhPemk1dlFWckkyMDBPcGVmQXVDVWN6dVBrOHdKR2JGUVp6TGhHTU5IeXllaXBqOTVxUmxuMkk0djYzNEJHUGYtZENMM1VaVm5qUmpWcG85dUxXN2xVM3Y3QTJLZDFpZnJkWW81ZDRiREZ5NmNxOTlhSk5IMy1vR1RGZw?oc=5"
+   "headline": "Stablecoin payments jump 45% as Visa, Mastercard, Stripe connect crypto",
+   "detail": "Stablecoin supply stalled while payments jumped 45%, as Visa, Mastercard and Stripe link crypto to cash.",
+   "link": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash"
   },
   {
-   "headline": "Visa Direct moves stablecoin payments to commercial production",
-   "detail": "Visa Direct is moving stablecoin cross-border payments to commercial production with Inyo Global, covered by five outlets.",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPc0hjZGxJSER2NDFQRElFRDhVV2hidXhnSzhrRHpJcTJGdzJYTTJpZVh2REw4bXhxbGx4RXB6dDdXOGdUM1p4Rk9RMEZMWDZWMjlRdlJNZWpoZ1l3VzBGem9DVlF5bUU5UmFTYnhCRjBfZzM2Y1hfajRJSkNtaVBMTEIyZHAzXzdVNjltcy1ndFdjOTVMR1BHNjhhVFQ2b0gyeGs4djhCSEZYZld3czIxdVFvRXA?oc=5"
+   "headline": "ECB's Lagarde says bond selloff will slow inflation",
+   "detail": "ECB President Lagarde said the bond selloff will slow inflation, a view carried by three outlets.",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMXNPdlExOVZlYThyNEhmbk5DOWdWdlRFY2U2LUxiOFg4Q0xnMWlsSG5seFdSWHdSUU8wdEo0LUV4dzRoeV9hUFp2clZmV0hGemJkWVdRSzQtSktjSzhvZGVOS2NJa2o3ZXN4QVpNS2dIc2ZXUW8zVnNubl9BcUcwS2EtRjZYSDdZczd6Ql9vLUbSAZYBQVVfeXFMT0d2NTN6YlU0NXlmR0FpaWw2OU8yWnlyWXlkM3M4bHFvSjU3M3lmSjhfN0JaOUZ0UDdMTVgtdlE4enI0bWU2YWpyOGhpSnVkZU1pdktYQWtDMEdLdFVnY2ZfQ2lkZHhkcGlUdUtuemxqeXhFYXphTWdvYi1jYlBaZGRobnhwWEdfVmVtYS02WDhMdEw0THhR?oc=5"
   },
   {
-   "headline": "US budget deficit widens to $1.99 trillion",
-   "detail": "The US budget deficit widened to $1.99 trillion for fiscal 2026, according to reports from three outlets.",
-   "link": "https://www.investing.com/news/economy-news/us-budget-deficit-widens-to-199-trillion-for-fiscal-2026-4954742"
+   "headline": "Albertans vote on leaving Canada in Monday's referendum",
+   "detail": "Albertans vote Monday on independence, a referendum that threatens Mark Carney's effort to unite the country against a hostile US.",
+   "link": "https://www.ft.com/content/d48c545b-6b41-41e9-a71c-cb2126c76082?syn-25a6b1a6=1"
   },
   {
-   "headline": "Oil hits five-month high of $110 on Middle East escalation",
-   "detail": "Brent jumped on reports that Saudi Arabia-led forces intercepted and destroyed missiles aimed at critical energy hubs.",
-   "link": "https://www.ft.com/content/8ee22d89-03eb-48dc-99a5-27555373a89c?syn-25a6b1a6=1"
+   "headline": "US interest costs hit record $1 trillion",
+   "detail": "The US government's debt interest burden reached a record for fiscal 2026, taking a growing share of federal revenue and risking a debt snowball.",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-17/us-interest-costs-hit-record-1-trillion-risking-debt-snowball"
   }
  ],
  "summaries": {
-  "requested": 16,
+  "requested": 12,
   "rejected_ungrounded": 0,
-  "applied": 15
+  "applied": 12
  },
- "generated": "2026-10-17T23:51+00:00",
- "total_cost_usd": 0.00307
+ "generated": "2026-10-18T16:24+00:00",
+ "total_cost_usd": 0.00447
 }
