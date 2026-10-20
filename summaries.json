@@ -2,14 +2,8 @@
   {
     "week": "2026-W43",
     "label": "Week of October 19\u201323, 2026",
-    "generated": "2026-10-20T05:03:09.294390+00:00",
+    "generated": "2026-10-20T15:32:51.613304+00:00",
     "bullets": [
-      {
-        "headline": "Anthropic is AI trade's last big hope for a major IPO this year",
-        "source": "CNBC",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html"
-      },
       {
         "headline": "SpaceX, Tesla earnings to test Musk's AI spending ambitions as merger talk grows",
         "source": "Reuters",
@@ -17,37 +11,43 @@
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdi1oa1VDTm0wMUJualVQRU5ieHFCQmFCejlxdEx1cEM3am1WaEV4LVJwRGVab29QU05IUl9fYzhsaFFFSk5hVGtTZFFLNGNOUVNFMjJ4RkE2b2RCdVJmN0t5UmVBeWpPb2ZwMThLcVRkVENsdFhRc0JOUml0Z3F3MFg5bDhsNmZrX2tuS1ZkRFl2elAzd0p0ZDlFb0E1MF9malVCZXhEZnJqRUFYMUxFNDV5ZmRrZkYxZndkWGthUEpPQVdOTHAtMHBVTQ?oc=5"
       },
       {
-        "headline": "US Homebuilder Sentiment Drops to 14-Year Low on Weak Sales",
+        "headline": "Anthropic in talks with neocloud Nscale over second multibillion-dollar deal, source tells CNBC",
+        "source": "CNBC",
+        "section": "Tech & Fintech",
+        "link": "https://www.cnbc.com/2026/10/20/anthropic-nscale-data-center-deal.html"
+      },
+      {
+        "headline": "US Pending Home Sales Plunged in September to a Record Low",
         "source": "Bloomberg",
         "section": "Macro & Economy",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-19/us-homebuilder-sentiment-drops-to-14-year-low-on-depressed-sales"
+        "link": "https://www.bloomberg.com/news/articles/2026-10-20/us-pending-home-sales-fall-to-record-low-as-mortgage-rates-rise"
+      },
+      {
+        "headline": "Keppel Selling 51% Stake in Central Singapore Tower to REIT for $478M",
+        "source": "Mingtiandi",
+        "section": "Real Estate & REITs",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNGZObHdUaTdualgwS1lJMmlNU3BvZmJ2UVF5NVQ1TkRMUFppVjY1bUNadGFWdmE1UUJEV3laR0NrQ0o4bFh2czlRT2FWRTVLZG1CNmtEN05TUkc1V2RUQkNmT1RZci1UcG92eDRNRHg3WXlnYnlPNUlwSVc1M3pDQ244bHpVb1BXbjR0ODctZ1FWdDJHUnlZMHd1WE05X3FaQ0Q0TUNGdDFwQkljR1RTYTV4RUxhUQ?oc=5"
+      },
+      {
+        "headline": "3M tops forecasts for Q3 profit and full-year guidance; shares climb",
+        "source": "Yahoo Finance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPU0RoRk1nM01fVTJUMXctLWRDdWZSUU9SbUFnbWZ4bnYxMW5QQjc1NWFrVzAxV20yQ0RRenl3aGNsX281b3VrejFBaXlmMnJKQ0tOQ2J6ZHg0cHJrb0lhX19ZdVBaT3hvNGtoNmtadHBnUW8zTUtiTzlFelZYS2ZQWENB?oc=5"
       },
       {
         "headline": "China\u2019s economic growth picked up in the third quarter, recovering from a three-year low as booming exports mitigate a deepening economic slowdown at home",
         "source": "WSJ",
         "section": "Macro & Economy",
         "link": "https://www.wsj.com/economy/chinas-economy-expanded-4-5-in-third-quarter-powered-by-exports-53910a55?mod=rss_socialeconomyfeed"
-      },
-      {
-        "headline": "GCash parent Mynt makes PSE debut in record P60.9-B IPO",
-        "source": "BusinessWorld Online",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ1RVQU5XU1BGOHhXNXhIdXR0N0luOVFVMTBhenNaR0QxcHVtcThCZC1DQVZTZmNybzl3OVdvVWFYYjJsdVNjdmNGU3BPWFZmQk1FZU5SREpmcFRkQW1IeUpCS3RzMjIweTN1cWZFdVNlWEJ4WUlKd3BHZ0RjalJVZnJub3gyWkM3STl4ZElhOFowbkJtSjl6ZXlvRWpPRzBzUFctd1dHVWNsckYxTm5hSA?oc=5"
-      },
-      {
-        "headline": "US prosecutors allege Saudi royal links in OpenAI bugging case",
-        "source": "FT",
-        "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNmthanc2d1NfZkhxSUdWaVZhUHBsbmgwbVc1X25vYkRSM3Y3a3BMTTl1cGJOU3hLU21GcmR5bDc0WEZTVG1uWVhwT2Rad1p6YXZ5SElaMzhqelNJd3p2eWlBUlZUcG5qOUZieDZucERMQWEwSElRalJ6M09rRXVYZHd5cHU?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 187,
-      "Macro & Economy": 121,
-      "Investment Banking & Deals": 136,
-      "Real Estate & REITs": 121,
-      "Earnings & Results": 116,
-      "Tech & Fintech": 167
+      "Stock Market & Equities": 270,
+      "Macro & Economy": 179,
+      "Investment Banking & Deals": 213,
+      "Real Estate & REITs": 157,
+      "Earnings & Results": 178,
+      "Tech & Fintech": 256
     }
   },
   {
