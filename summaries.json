@@ -2,12 +2,12 @@
   {
     "week": "2026-W43",
     "label": "Week of October 19\u201323, 2026",
-    "generated": "2026-10-20T18:45:08.091534+00:00",
+    "generated": "2026-10-20T20:12:40.478118+00:00",
     "bullets": [
       {
         "headline": "SpaceX investors, ahead of results, press Musk on Tesla merger",
         "source": "Reuters",
-        "section": "Investment Banking & Deals",
+        "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNUluMVVLVk9ZUmpHeTZNSkduQVlaYWtydVZ3WEptUWc0SXpqUGZ4ckZmOGM4X3JwY0V0WjJfelhvdWRLRTdZRUdnYUxwM0NRZWZGY0M4blhETWlzVnlQY0JMSEdRZFBDaG5MNW1jck9zaEdQdUs4bzhRSjdaX0xsV0xqN1RjWmRuRzAwMFZxamVNTlNuanFhVExaV3RDMEw2RmtSODg4RzB1RzRERWFz?oc=5"
       },
       {
@@ -15,6 +15,12 @@
         "source": "CNBC",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html"
+      },
+      {
+        "headline": "3M tops forecasts for Q3 profit and full-year guidance; shares climb",
+        "source": "Yahoo Finance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPU0RoRk1nM01fVTJUMXctLWRDdWZSUU9SbUFnbWZ4bnYxMW5QQjc1NWFrVzAxV20yQ0RRenl3aGNsX281b3VrejFBaXlmMnJKQ0tOQ2J6ZHg0cHJrb0lhX19ZdVBaT3hvNGtoNmtadHBnUW8zTUtiTzlFelZYS2ZQWENB?oc=5"
       },
       {
         "headline": "Salesforce to Buy Marketing Platform Braze for $5.7 Billion",
@@ -33,21 +39,15 @@
         "source": "HousingWire",
         "section": "Real Estate & REITs",
         "link": "https://www.housingwire.com/articles/pending-home-sales-record-low/"
-      },
-      {
-        "headline": "U.S. Home-Builder Sentiment Sinks to 14-Year Low",
-        "source": "WSJ",
-        "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd3RLTThPcURWQW9XUEFoZ2V1SFFiaGszSC1ERlEyUTBIX1k2cDFKWUV4a3F5MTk2MEdaWVluX2pUNXRubVFuYzV5eGZacG55UmtkYXdxbzNNQmNyTG9BN3hYUlNHR3F2QUxwSWVXaTlvUUJaSHBjMG9TbTZEX0VXNHBmZGMtc3pzVV8ydGlJbWYwU2dwSWxV?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 303,
-      "Macro & Economy": 190,
-      "Investment Banking & Deals": 229,
-      "Real Estate & REITs": 177,
-      "Earnings & Results": 212,
-      "Tech & Fintech": 296
+      "Stock Market & Equities": 314,
+      "Macro & Economy": 193,
+      "Investment Banking & Deals": 236,
+      "Real Estate & REITs": 191,
+      "Earnings & Results": 235,
+      "Tech & Fintech": 309
     }
   },
   {
