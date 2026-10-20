@@ -4,69 +4,67 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12859,
-   "output_tokens": 2752,
-   "cost_usd": 0.00266
+   "input_tokens": 12283,
+   "output_tokens": 1844,
+   "cost_usd": 0.00215
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2878,
-   "output_tokens": 1818,
-   "cost_usd": 0.0012
+   "input_tokens": 2702,
+   "output_tokens": 1420,
+   "cost_usd": 0.00098
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Elon Musk says he'll give a SpaceX share to every child in America next year",
-   "Opinion | Elon Musk Beats Anthropic on Giveaways"
+   "Data-center firm Elice plunges 32% in debut after Korea IPO",
+   "Global Market: South Korea's Elice shares plunge 28% in market debut as data centre stocks shunned",
+   "Data centre builder tumbles on trading debut",
+   "Elice Plunges 33% in Debut as AI Worry Sinks Korean IPO"
   ],
   [
-   "Elice plunges 29% on KOSDAQ debut despite strong Korea IPO demand - CHOSUNBIZ",
-   "South Korean AI data centre firm Elice shares tumble in IPO debut"
+   "Opinion | Elon Musk Beats Anthropic on Giveaways",
+   "Elon Musk says he'll give a SpaceX share to every child in America next year"
   ],
   [
-   "Bank of Canada Survey Records Notable Rise in Inflation Expectations",
-   "Bank of Canada Hike Bets Grow Among Economists, Traders"
-  ],
-  [
-   "US homebuilder sentiment tumbles to near 14-1/2-year low in October",
-   "Builder confidence plunges as rate shock, costs squeeze margins"
+   "Keppel to sell 51pct stake in Singapore office tower vehicle for US$477mil",
+   "Keppel REIT to buy 51% of Keppel South Central"
   ]
  ],
  "brief": [
   {
-   "headline": "Musk plans SpaceX share for every US child",
-   "detail": "SpaceX boss Elon Musk said he will give one of his company shares to every U.S. child next year, without explaining how it would work.",
+   "headline": "Korean data-centre firm Elice plunges in Seoul market debut",
+   "detail": "Elice shares plunged 33% in their debut as AI worries sank the Korean IPO, adding to concern about AI valuations.",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BSnNyMHhoLWtwNW5meU9iMHBCbGRCNF9fX1RkZTJZeG5XNjhFMVJTNWlUUXZGN1F1Wk1QNUJHcW9XN0I2SlA5UTZORXhMazFfM0tPcWpsc1Z1cFlpTzM3ZTN5Wm5NZFRh?oc=5"
+  },
+  {
+   "headline": "Elon Musk says he'll give a SpaceX share to every child",
+   "detail": "SpaceX boss Elon Musk said he will give one of his company's shares to every U.S. child next year, without explaining how it would work.",
    "link": "https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html"
   },
   {
-   "headline": "OpenAI seeks faster fundraising before Anthropic IPO",
-   "detail": "Reuters reports, citing sources, that OpenAI seeks to accelerate fundraising ahead of an Anthropic IPO.",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZHQyOU05TVZ4RVNpTGdJX18zeHlMZ1pGOGdNeGFmRnFMNERObThVUTl2Ny1CVGU1Vm5IMF9aSS1qaWpOTWlFdDBLeHZIa1lkYnltX1pnU1BLbGdGM3duM1FJZDhocndUWGlUZ0pSaEV6U2RUdzgwX1FaY2s2YllieUo3cTBSWVUtRzJEczR3YXliUzB0d0dRQkRsWjlaQ0FCeXBKM1A2MjlaYzdZa0E?oc=5"
-  },
-  {
-   "headline": "EQT to buy Cleanaway in A$9.3bn deal",
-   "detail": "Sweden's EQT agreed to acquire Australia's Cleanaway Waste Management in an A$9.3bn deal, and Cleanaway shares surged 20%.",
+   "headline": "EQT agrees to acquire Cleanaway in A$9.3bn deal",
+   "detail": "Sweden's EQT agreed to acquire Australia's Cleanaway Waste Management in an A$9.3bn deal, with shares surging 20%, signalling active private equity dealmaking.",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNTdWeXpVQlJFaHd6alI3eDVXY2Y0TkhCd2szX091dGh3cm0yc2RpSDY2NF9QMTVEZVZMM3N1cFZpVklvM0ZZWmFlbVJhY0RRSDNLU2JIV0IxNGZ6dmphXzk1RkVBVUR5TEIyTTI0S0ZSMFVJTVRCOGplNFNYTXA2T0RHRHpxWHNQcW05NmF3SGhfam1OdUMtQzUwOFZYclRrSHl0TnBRMHhBdEkzMURvY2d0MVhMeTdoVkl4dE5QVnI?oc=5"
   },
   {
-   "headline": "US homebuilder sentiment falls near 14-1/2-year low",
-   "detail": "US homebuilder sentiment tumbled in October to near its lowest level in about 14-1/2 years, according to Reuters.",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYzZUb09NNUZyTi1nanEwMHNsSGE4XzB4Y2tFSWVXYU5XU2Q3ODdBMkZmSFN4LVB3NHZjUG5FY2ZDQjJtYlZpbXpkQTMzQnVIOTF6bGZhWkstcWItVWxtbklsTHg4YnhuVkxiXy0td2oxbExYN1R1bjdmeGFkdlU2TDZ6b0Zqb1k3Q0VwbWVZRjdPbm1odHVZMzZ5NDltVG0zampuN2JzMXo?oc=5"
+   "headline": "Silgan and American Industrial Partners to buy Trivium Packaging",
+   "detail": "Silgan and American Industrial Partners agreed to acquire Trivium Packaging in a $3.4 billion deal, a sizeable packaging transaction for dealmakers to watch.",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVVkwWVhFRXBWNkZlQTA0UmVKdS1oNzdXRC14VkE1TmY1TVVaelEwZnBKM0R3RUJtb2lKVHhOQl9hbXEyZ01rc1I1QlFwZzdYVmV2TUltTU1rM0RuVndQemUyUG1xZlJzTWhGMmo5S05KakdQWjdnOEFCYWk0d292NmpjVm9NcmtXU05nY1dQWlFocW9qTzl6amZRRndNMXA5LTVLbWxNaktJNG1T?oc=5"
   },
   {
-   "headline": "Silgan and AIP to acquire Trivium Packaging",
-   "detail": "Silgan and American Industrial Partners agreed to acquire Trivium Packaging in a $3.4 billion deal, Yahoo Finance reports.",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVVkwWVhFRXBWNkZlQTA0UmVKdS1oNzdXRC14VkE1TmY1TVVaelEwZnBKM0R3RUJtb2lKVHhOQl9hbXEyZ01rc1I1QlFwZzdYVmV2TUltTU1rM0RuVndQemUyUG1xZlJzTWhGMmo5S05KakdQWjdnOEFCYWk0d292NmpjVm9NcmtXU05nY1dQWlFocW9qTzl6amZRRndNMXA5LTVLbWxNaktJNG1T?oc=5"
+   "headline": "Pump.fun shares rise after pre-IPO token launch for OpenAI, Polymarket",
+   "detail": "Pump.fun spiked 8% after a pre-IPO token launch tied to OpenAI and Polymarket, a story covered by 10 outlets and showing demand for pre-IPO exposure.",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yM1RIR1dDRlNFVDlIaWJuZGNzUEtxRGFPWktUWWxwR3J0R0Z6cG52T1lwTVdsSDZVeWVPaWpVSlBERG13SVQyRktKRjBnUFp1VEdueUZHR1BUZw?oc=5"
   }
  ],
  "summaries": {
   "requested": 21,
   "rejected_ungrounded": 0,
-  "applied": 21
+  "applied": 20
  },
- "generated": "2026-10-20T00:29+00:00",
- "total_cost_usd": 0.00386
+ "generated": "2026-10-20T05:03+00:00",
+ "total_cost_usd": 0.00313
 }
