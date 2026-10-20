@@ -4,69 +4,69 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 13429,
-   "output_tokens": 2716,
-   "cost_usd": 0.0027
+   "input_tokens": 12859,
+   "output_tokens": 2752,
+   "cost_usd": 0.00266
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3198,
-   "output_tokens": 2306,
-   "cost_usd": 0.00147
+   "input_tokens": 2878,
+   "output_tokens": 1818,
+   "cost_usd": 0.0012
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Silgan, American Industrial Partners to Acquire Trivium Packaging in $3.4 Billion Deal",
-   "Inside a Packaging Industry Mega-Deal"
+   "Elon Musk says he'll give a SpaceX share to every child in America next year",
+   "Opinion | Elon Musk Beats Anthropic on Giveaways"
+  ],
+  [
+   "Elice plunges 29% on KOSDAQ debut despite strong Korea IPO demand - CHOSUNBIZ",
+   "South Korean AI data centre firm Elice shares tumble in IPO debut"
   ],
   [
    "Bank of Canada Survey Records Notable Rise in Inflation Expectations",
    "Bank of Canada Hike Bets Grow Among Economists, Traders"
   ],
   [
-   "Builder confidence plunges as rate shock, costs squeeze margins",
-   "U.S. Home-Builder Sentiment Sinks to 14-Year Low"
-  ],
-  [
-   "Elon Musk says he'll give a SpaceX share to every child in America next year",
-   "Why Elon Musk, Anthropic and other AI titans are giving away shares"
+   "US homebuilder sentiment tumbles to near 14-1/2-year low in October",
+   "Builder confidence plunges as rate shock, costs squeeze margins"
   ]
  ],
  "brief": [
   {
-   "headline": "Musk plans SpaceX share for every American child",
-   "detail": "SpaceX boss Elon Musk said Monday he will give one of his company shares to every U.S. child next year, without saying how it would work.",
+   "headline": "Musk plans SpaceX share for every US child",
+   "detail": "SpaceX boss Elon Musk said he will give one of his company shares to every U.S. child next year, without explaining how it would work.",
    "link": "https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html"
   },
   {
-   "headline": "Silgan and American Industrial Partners to buy Trivium Packaging",
-   "detail": "Silgan and American Industrial Partners agreed to acquire Trivium Packaging in a deal valued at about $3.4 billion.",
+   "headline": "OpenAI seeks faster fundraising before Anthropic IPO",
+   "detail": "Reuters reports, citing sources, that OpenAI seeks to accelerate fundraising ahead of an Anthropic IPO.",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZHQyOU05TVZ4RVNpTGdJX18zeHlMZ1pGOGdNeGFmRnFMNERObThVUTl2Ny1CVGU1Vm5IMF9aSS1qaWpOTWlFdDBLeHZIa1lkYnltX1pnU1BLbGdGM3duM1FJZDhocndUWGlUZ0pSaEV6U2RUdzgwX1FaY2s2YllieUo3cTBSWVUtRzJEczR3YXliUzB0d0dRQkRsWjlaQ0FCeXBKM1A2MjlaYzdZa0E?oc=5"
+  },
+  {
+   "headline": "EQT to buy Cleanaway in A$9.3bn deal",
+   "detail": "Sweden's EQT agreed to acquire Australia's Cleanaway Waste Management in an A$9.3bn deal, and Cleanaway shares surged 20%.",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNTdWeXpVQlJFaHd6alI3eDVXY2Y0TkhCd2szX091dGh3cm0yc2RpSDY2NF9QMTVEZVZMM3N1cFZpVklvM0ZZWmFlbVJhY0RRSDNLU2JIV0IxNGZ6dmphXzk1RkVBVUR5TEIyTTI0S0ZSMFVJTVRCOGplNFNYTXA2T0RHRHpxWHNQcW05NmF3SGhfam1OdUMtQzUwOFZYclRrSHl0TnBRMHhBdEkzMURvY2d0MVhMeTdoVkl4dE5QVnI?oc=5"
+  },
+  {
+   "headline": "US homebuilder sentiment falls near 14-1/2-year low",
+   "detail": "US homebuilder sentiment tumbled in October to near its lowest level in about 14-1/2 years, according to Reuters.",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYzZUb09NNUZyTi1nanEwMHNsSGE4XzB4Y2tFSWVXYU5XU2Q3ODdBMkZmSFN4LVB3NHZjUG5FY2ZDQjJtYlZpbXpkQTMzQnVIOTF6bGZhWkstcWItVWxtbklsTHg4YnhuVkxiXy0td2oxbExYN1R1bjdmeGFkdlU2TDZ6b0Zqb1k3Q0VwbWVZRjdPbm1odHVZMzZ5NDltVG0zampuN2JzMXo?oc=5"
+  },
+  {
+   "headline": "Silgan and AIP to acquire Trivium Packaging",
+   "detail": "Silgan and American Industrial Partners agreed to acquire Trivium Packaging in a $3.4 billion deal, Yahoo Finance reports.",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVVkwWVhFRXBWNkZlQTA0UmVKdS1oNzdXRC14VkE1TmY1TVVaelEwZnBKM0R3RUJtb2lKVHhOQl9hbXEyZ01rc1I1QlFwZzdYVmV2TUltTU1rM0RuVndQemUyUG1xZlJzTWhGMmo5S05KakdQWjdnOEFCYWk0d292NmpjVm9NcmtXU05nY1dQWlFocW9qTzl6amZRRndNMXA5LTVLbWxNaktJNG1T?oc=5"
-  },
-  {
-   "headline": "Anthropic seen as last major AI IPO this year",
-   "detail": "On Kalshi, Anthropic is seen as the last major IPO in 2026 after OpenAI delayed its public market debut, and others have postponed too.",
-   "link": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html"
-  },
-  {
-   "headline": "AI stocks bounce back after bruising selloff",
-   "detail": "AI stocks rebounded after a bruising selloff, and Goldman Sachs upgraded CoreWeave, according to Reuters.",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQnRpUlhFSVItYXlyM2JtRDAxZFNzc1owV1VBSFM4VERhS3dYOW1wVWtOeERTaDRrWlZyQVJTVVdvNFktdG5oSGpjY0ZwY1hBbnllN2d6Qkg4aExFcWdNT3F3dWlxdTFtbU92WV9WTC1NVEw0QmlWb201cXB6NGJCajVtbmZjYnJ4MWZ3TDZYR1l3ZmZFRFJORzhlNE1Yb0QtNDlyc3ZnY2tuenV1OFgwVQ?oc=5"
-  },
-  {
-   "headline": "China's third-quarter economic growth accelerates to 4.5%",
-   "detail": "China's economic growth accelerated to 4.5% in the third quarter, a data point covered by five outlets.",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcXFNS245X3pBcV9XTmxwQVljcVRHRW9YWER5N3EtUlo3UnBXVm9WaE5VbUdDTTBMczJnY0hQeEpEYUdackhNb1g4VGhIcUM4VGl5UnlwOEJCT1ZqREhRZXMwVUFMVzlmT3lneGZROGR0STFaeGNuVmlCTnNEaFNjYlRta3RSd2tXVEJyOHJWNkgtSjdqZnZtanRYOUNDckZ4RUtfeTgzOTV5b3RYX0hFTg?oc=5"
   }
  ],
  "summaries": {
-  "requested": 24,
+  "requested": 21,
   "rejected_ungrounded": 0,
-  "applied": 22
+  "applied": 21
  },
- "generated": "2026-10-19T21:18+00:00",
- "total_cost_usd": 0.00417
+ "generated": "2026-10-20T00:29+00:00",
+ "total_cost_usd": 0.00386
 }
