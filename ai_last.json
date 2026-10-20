@@ -4,81 +4,84 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12467,
-   "output_tokens": 2525,
-   "cost_usd": 0.00251
+   "input_tokens": 12883,
+   "output_tokens": 2504,
+   "cost_usd": 0.00254
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3192,
-   "output_tokens": 1649,
-   "cost_usd": 0.00114
+   "input_tokens": 3378,
+   "output_tokens": 3588,
+   "cost_usd": 0.00213
   }
  ],
  "errors": [],
  "merge_groups": [
   [
    "Korean Retail Investors Hammered as Elice Plunges 32% in Record IPO Debut",
-   "Data centre infrastructure firm Eliceâs 33% plunge in âugly debutâ rekindles AI spending doubts",
+   "AI Fears Roar Back After Elice IPO Flop",
    "South Korea's Elice plunges 30% in market debut as investors reassess AI sector",
-   "Elice Plunges in Trading Debut; General Motors Falls on Forecast | Stock Movers",
-   "Elice shares fall in KOSDAQ debut after $151M IPO",
+   "Data centre infrastructure firm Eliceâs 33% plunge in âugly debutâ rekindles AI spending doubts",
    "IPO Stock Crash: South Korea’s Elice Bring Warning Bells for AI",
+   "Elice Plunges in Trading Debut; General Motors Falls on Forecast | Stock Movers",
    "Data center stocks slide as Korea IPO plunges 30%, pressuring tech sentiment"
   ],
   [
-   "GCASH PARENT MAKES PSE HISTORY: Mynt shares flat in record IPO debut",
-   "GCash owner erases gains in debut after record Philippines IPO",
-   "GCash parent Mynt closes at IPO price on market debut, raises P60.9 billion",
-   "Mynt makes market debut after record Philippine IPO"
-  ],
-  [
-   "GE Aerospace raises profit outlook as engine repairs defy fuel shock, Boeing costs loom",
    "GE Aerospace beats estimates, raises guidance on strong demand",
+   "GE Aerospace raises profit outlook as engine repairs defy fuel shock, Boeing costs loom",
    "GE Stock Slides Despite Higher Guidance As Costs Rise, Insurance Business Swings To A Loss: CEO Says Company Continues To 'Build Momentum'"
   ],
   [
-   "Salesforce announces $5.66 billion deal for Braze, sending BRZE stock soaring 50%",
+   "RTX Stocks Rise as Earnings Gain Includes a 25-Cent Recovery",
+   "RTX lifts 2026 forecasts as aerospace, defense demand drives record backlog"
+  ],
+  [
+   "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+   "September data shows housing market in a deep freeze",
+   "US single-family housing starts, building permits tumble in September"
+  ],
+  [
+   "Salesforce deepens AI bets with $5.66 billion Braze deal",
    "Salesforce’s stock falls as investors chafe at the cost of latest AI purchase"
   ],
   [
-   "US single-family housing starts, building permits tumble in September",
-   "US Housing Starts Fall to One of the Worst Paces Since Pandemic"
+   "Canadian Dollar Hits Nearly One-Month High After Alberta Vote",
+   "Canada awaits Alberta referendum results after Carney urges voters to reject separation"
   ]
  ],
  "brief": [
   {
-   "headline": "Korean retail investors hit as Elice plunges 32%",
-   "detail": "Elice fell 32% in a record IPO debut, hitting Korean retail investors and rekindling doubts about AI spending.",
+   "headline": "Korean Elice plunges 32% in record IPO debut",
+   "detail": "Elice shares plunged 32% in a record Korean IPO debut, hammering retail investors and raising doubts about AI-sector valuations.",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLWUtQkhIOW04aV94UmlyaVhrc1JxQzZtZk90SFd3UkpBS3VFZ1RCY1VXZERYOVk3T1lVRFR6Y3RCVEt5ZVBIeU40QllISGxXZ09fMXRxTTRBcWI0UnVGUHJuUUVvZUEybDV6SFM1Mm9TVEtoT2JYbVZjNjhNNE1LZHhxSVVNWHhMd1FKMXhSQXh6LTA4NlAwNUwtU09PMlhpWkNlaVRuQXdDclM2c2VCRi1qVXZFZw?oc=5"
   },
   {
-   "headline": "GCash parent Mynt flat in record IPO debut",
-   "detail": "GCash parent Mynt's shares were flat in a record IPO debut, a milestone for the Philippine Stock Exchange.",
+   "headline": "GCash parent Mynt makes record Philippine IPO debut",
+   "detail": "Mynt, the GCash parent, made Philippine Stock Exchange history in a record IPO, with its shares flat on debut.",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSnJCUXZuNnhjRHdMZUdNbzdPSzg5Mm5qbHpQaURpU1Rxb2JiMUV3RHNRb1dTZjBFZFVQU3h1c2FsZ3d2bjJIQnlZdk1abXZGQndLcU9JWWhnYlZZd2U1eDU0aGxWOUhkbkJTVFNXbUhCMG1tY1c4b3p4d0xSdFNNeXlJOXFVUzVQU3pZUWU3SjRmMTZGMXlFdWYzVGNCYkdGd0lGYXo2bTZESHMzTWVvNmRzYw?oc=5"
   },
   {
-   "headline": "Silgan and AIP to buy Trivium in $3.4B deal",
-   "detail": "Silgan and AIP agreed to acquire Trivium in a US$3.4B deal, while Ardagh sold a minority stake.",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcU5Qd1lnUnAxckd1Q0tkV29jVG82a0tEOFNqdHllNEdteEVxeE5GMVcxSGFoa1l3SUpONnMtT0tqWXdXcnR6ZzZCQmdEVmdZUDFhOUtjdnhyaGRHMFJ6d2h4M0twRm5UVFZLaXYya251M3dEYThKZ1JrdExqS0xHMjlHMk9EUm9lbnRV?oc=5"
+   "headline": "SpaceX investors press Musk on Tesla merger",
+   "detail": "Ahead of SpaceX's results, SpaceX investors are pressing Elon Musk on a Tesla merger, according to Reuters.",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNUluMVVLVk9ZUmpHeTZNSkduQVlaYWtydVZ3WEptUWc0SXpqUGZ4ckZmOGM4X3JwY0V0WjJfelhvdWRLRTdZRUdnYUxwM0NRZWZGY0M4blhETWlzVnlQY0JMSEdRZFBDaG5MNW1jck9zaEdQdUs4bzhRSjdaX0xsV0xqN1RjWmRuRzAwMFZxamVNTlNuanFhVExaV3RDMEw2RmtSODg4RzB1RzRERWFz?oc=5"
   },
   {
-   "headline": "Salesforce to buy Braze for $5.66 billion",
-   "detail": "Braze shareholders will receive $47.50 per share in cash, and BRZE stock soared 50% on the announced deal.",
-   "link": "https://www.cnbc.com/2026/10/20/salesforce-braze-acquisition-deal.html"
+   "headline": "OpenAI seeks $30 billion at $1.4 trillion valuation",
+   "detail": "OpenAI is seeking to raise $30 billion at a $1.4 trillion valuation, ahead of an Anthropic IPO.",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTDExQTVwNkZHR3gxQ29nUjdVOHZTcDAySnloT2o4eEpYR2NtRUlBTXExN05xZ2ZVXzJ3dV81M0VKNXU3MU94QzZqaVdyVHRoWDdjQ0M0ZGhKR1JMbG1TRzFfam5JOEZrMU1aZGREYTltdlBkMVRRcFNUWDFtcXVZalM4a3JZdnQ5MmI1VDBmV1FMdFd4VThKTm9SOUlzYzNhTXpYcGZSU0NOU2xXSzBZMENlZFVwREo0Z3hJZFd30gG6AUFVX3lxTE9BUlgzQlBFTFV0MXh2LVJDVmlRWGhhWkoyblAzQVdhR0x3VmtKVVJKVmpFajd6azdaYTNNS2ZSdDNCZHBoR0YzOFZJOHhuY2hocXlKd3hmWUoxLXB0Y0xMaVR0eEJRZ0p4QklrTlV5N3VEZVNDb2phU3R5TVFVT3ozdng5WHdUMTN0a2d3Y2hFUW5lbElIa25JWk1iUS1hWlhSX3k2b3U4NXFRdXBKaV84bnlnWnItamdoUQ?oc=5"
   },
   {
-   "headline": "GE Aerospace raises profit outlook on engine repairs",
-   "detail": "GE Aerospace raised its profit outlook as engine repairs defied a fuel shock, though Boeing costs loom.",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNnVUT0tINU83dGVFSG5iTnFZNFlyQk9vT3lHZEY0dU5rUUFJRGlTYndPWEdiM2M0a0lKLU5FUW5CV2JvZ2NJTDI5MXlkVk85NlFwOU1XdUk0VzdKZ2FpZXJDUUJNMlZWZURPcVpXLWVKQzZ4SUcyYkEwQnhZY2xUd0VIc3g3dHEyU0RncnZrVkV5MzQtTGdWbFAwXzJzR1RNU1BBb2pjdm5EcVBaTVZtajBzV1B4XzRHY2YyaG93YXR1Z05ESGR4TlAxR0N6Q2xq?oc=5"
+   "headline": "GE Aerospace beats estimates and raises guidance",
+   "detail": "GE Aerospace beat estimates and raised its guidance on strong demand, a signal of continued momentum in aerospace.",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdDhFTl9PNW5HRHljTE5wS0VMX0NFVHVERGtWZE5PYy1VWjg1SnR4N3V1c1k5N29TVUtiVEhPZmpwSlFLRnZaMllucU9tMTB3VDZfZmlqQjFXUFUwaUhxbnQyZnVSdlFaQlB5bjhhcjJpN0hYejF0UHBRSDlnMWVwbDM5SjVoVzhCa3BoSThwd21VNkZEMlI4bmxCOFlibnM5cS03a0M4S2YzaTJzdEE?oc=5"
   }
  ],
  "summaries": {
   "requested": 24,
   "rejected_ungrounded": 0,
-  "applied": 20
+  "applied": 24
  },
- "generated": "2026-10-20T15:32+00:00",
- "total_cost_usd": 0.00365
+ "generated": "2026-10-20T18:45+00:00",
+ "total_cost_usd": 0.00467
 }
