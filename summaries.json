@@ -2,19 +2,31 @@
   {
     "week": "2026-W43",
     "label": "Week of October 19\u201323, 2026",
-    "generated": "2026-10-20T20:12:40.478118+00:00",
+    "generated": "2026-10-20T23:59:49.075157+00:00",
     "bullets": [
       {
-        "headline": "SpaceX investors, ahead of results, press Musk on Tesla merger",
+        "headline": "Musk calls Tesla-SpaceX merger a 'good idea' as SpaceX posts first profit as a public company",
         "source": "Reuters",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNUluMVVLVk9ZUmpHeTZNSkduQVlaYWtydVZ3WEptUWc0SXpqUGZ4ckZmOGM4X3JwY0V0WjJfelhvdWRLRTdZRUdnYUxwM0NRZWZGY0M4blhETWlzVnlQY0JMSEdRZFBDaG5MNW1jck9zaEdQdUs4bzhRSjdaX0xsV0xqN1RjWmRuRzAwMFZxamVNTlNuanFhVExaV3RDMEw2RmtSODg4RzB1RzRERWFz?oc=5"
+        "section": "Stock Market & Equities",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONHZoMzBtaGg1TmlMN19NRUEzM1lOZkpYb1ZXeWlLTnR4SkxObm1xbDBlN0RsQ2huaHBCMzRxU0VLb3ZPSS1ZeEdhampNY3VNclpoU2xGOWpoQjNfVzVDTHpqOVVRd0pZcVY3eGlpVkxjWTRrMGh4aWtCbVJVVnZ1Nnd1RkU1dFNtcUZCUnVxX1pRWXRTd09QUnpodWJSeEhpS3BKcmxsQkM1aFA1eExGSkNMMVIteV93OXZWa0Q2Vl9yUQ?oc=5"
+      },
+      {
+        "headline": "Netflix posts higher Q3 profit but revenue growth worries pull shares lower",
+        "source": "AP",
+        "section": "Stock Market & Equities",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNG55a2pnNEJXZ1IxbGZacC1XZDA3NGFkUGZuR1oxdDdoTUI2alZpMTh5ZUlfVFB2WHBQTnJhTDE1b1JQRGJYZjhNN3FiY19laEdkT0ZzMzFudU1PMUpNcTFaWWRWSVZUN0hvYnlQZHlhRzhOZDdlelZMUUFFNXItOHJoNk9HRkFMeWF3a05ZMi1Kdk41?oc=5"
       },
       {
         "headline": "Anthropic is AI trade's last big hope for a major IPO this year",
         "source": "CNBC",
         "section": "Stock Market & Equities",
         "link": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html"
+      },
+      {
+        "headline": "NAR pending home sales index falls to record low in September",
+        "source": "HousingWire",
+        "section": "Real Estate & REITs",
+        "link": "https://www.housingwire.com/articles/pending-home-sales-record-low/"
       },
       {
         "headline": "3M tops forecasts for Q3 profit and full-year guidance; shares climb",
@@ -27,27 +39,15 @@
         "source": "Bloomberg",
         "section": "Tech & Fintech",
         "link": "https://www.bloomberg.com/news/articles/2026-10-20/salesforce-to-buy-marketing-platform-braze-for-5-7-billion"
-      },
-      {
-        "headline": "Mastercard Launches Stablecoin Security as Banks Face New Fraud and Compliance Risks",
-        "source": "FinanceFeeds",
-        "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUjRMQnRRdWRpemdWNjZNQVJaQXhpWjlXd2RyMmdaWGhteTF6ZWlrYmxCVWMwRU9TWGhlMVRYM2ppaWhKcWdiTTVDX2dqNVVKTVRsSUd6UU96MXpjYjd4eGp5SjJNRVgtV2tiZjcyb0VBdmtpZDRtR1JIQ043eE1wcjN6b253MjJRbl92bF8tNWhBVUFHV0xkWHZQeGxnUjA0eDEybC1OeGhZeXNCbG9j?oc=5"
-      },
-      {
-        "headline": "NAR pending home sales index falls to record low in September",
-        "source": "HousingWire",
-        "section": "Real Estate & REITs",
-        "link": "https://www.housingwire.com/articles/pending-home-sales-record-low/"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 314,
-      "Macro & Economy": 193,
-      "Investment Banking & Deals": 236,
-      "Real Estate & REITs": 191,
-      "Earnings & Results": 235,
-      "Tech & Fintech": 309
+      "Stock Market & Equities": 348,
+      "Macro & Economy": 208,
+      "Investment Banking & Deals": 253,
+      "Real Estate & REITs": 214,
+      "Earnings & Results": 276,
+      "Tech & Fintech": 337
     }
   },
   {

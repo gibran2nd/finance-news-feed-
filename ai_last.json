@@ -4,25 +4,24 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 13033,
-   "output_tokens": 2310,
-   "cost_usd": 0.00246
+   "input_tokens": 12515,
+   "output_tokens": 3174,
+   "cost_usd": 0.00284
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3359,
-   "output_tokens": 3462,
-   "cost_usd": 0.00207
+   "input_tokens": 2923,
+   "output_tokens": 3156,
+   "cost_usd": 0.00187
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Korean Retail Investors Hammered as Elice Plunges 32% in Record IPO Debut",
-   "Elice Crashes 32% and AI Funding Fears Return",
-   "South Korea's Elice plunges 30% in market debut as investors reassess AI sector",
+   "Elice IPO: Korean AI cloud firm falls 32% on its first trading day",
    "Data centre infrastructure firm Eliceâs 33% plunge in âugly debutâ rekindles AI spending doubts",
+   "Elice Crashes 32% and AI Funding Fears Return",
    "AI Fears Roar Back After Elice IPO Flop"
   ],
   [
@@ -30,18 +29,27 @@
    "GCash owner erases gains in debut after record Philippines IPO"
   ],
   [
-   "GE Aerospace beats estimates, raises guidance on strong demand",
-   "GE Aerospace raises profit outlook as engine repairs defy fuel shock, Boeing costs loom",
-   "GE Stock Slides Despite Higher Guidance As Costs Rise, Insurance Business Swings To A Loss: CEO Says Company Continues To 'Build Momentum'"
+   "NAR pending home sales index falls to record low in September",
+   "Pending home sales sink to 25-year low as buyers flee high mortgage rates"
   ],
   [
-   "Salesforce deepens AI bets with $5.66 billion Braze deal",
-   "Salesforce’s stock falls as investors chafe at the cost of latest AI purchase"
+   "Netflix shares fall over 5% after hours on soft current quarter revenue guidance",
+   "Netflix co-CEO Sarandos says 'we could do better' after weak forecast",
+   "Netflix vows to revive viewership trends, but investors hit ‘sell’ on the stock"
   ],
   [
+   "Capital One's strong quarter and progressing Discover integration are rewarded on Wall Street",
+   "Capital One Profit Beats as Lender’s Revenue Rises More Than 6%"
+  ],
+  [
+   "Stocks Make a U-Turn on Hopes of U.S.-Iran Diplomacy",
    "GM shares sink as automaker signals rising cost pressures",
    "GM Stock: Good Earnings, a Massive Buyback, and Tanking Shaes",
    "GM Beat Expectations on Almost Everything: The Stock Now Eyes Its Worst Day in 15 Months"
+  ],
+  [
+   "Adidas Lifts Profit View After U.S. Tariff Refunds, Record Quarterly Performance",
+   "Germany's Adidas raises full-year profit outlook after record quarter"
   ],
   [
    "RTX Stocks Rise as Earnings Gain Includes a 25-Cent Recovery",
@@ -50,36 +58,36 @@
  ],
  "brief": [
   {
-   "headline": "Elice plunges 32% in record Korean IPO debut",
-   "detail": "Korean data center firm Elice plunged 32% in its market debut, reigniting fears about AI spending and the AI trade.",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLWUtQkhIOW04aV94UmlyaVhrc1JxQzZtZk90SFd3UkpBS3VFZ1RCY1VXZERYOVk3T1lVRFR6Y3RCVEt5ZVBIeU40QllISGxXZ09fMXRxTTRBcWI0UnVGUHJuUUVvZUEybDV6SFM1Mm9TVEtoT2JYbVZjNjhNNE1LZHhxSVVNWHhMd1FKMXhSQXh6LTA4NlAwNUwtU09PMlhpWkNlaVRuQXdDclM2c2VCRi1qVXZFZw?oc=5"
+   "headline": "Anthropic revenue reaches $16.3 billion as S-1 outlines IPO risks",
+   "detail": "A preliminary S-1 filing shows Anthropic revenue of $16.3 billion and outlines risks tied to its planned IPO.",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLVctZDNJSWFwdWY4ZndCclJYSUF2ZEtxeVRXUFVfaDRZazNVaWtaU0hUX0NqZU1uTEd6aElZOG1yaEtWRWF0NmhTSGxGNzdmajJYQjl1MjVkUE92RmZpVXFWdGhlZ0tKT0hKZktXSUlFazZjVVBsSHFqLTBsZmEzMHMtM3dDeXFqT3liMHBkLU5MWU11YUE?oc=5"
   },
   {
-   "headline": "GE Aerospace beats estimates and raises guidance",
-   "detail": "GE Aerospace beat estimates and raised guidance on strong demand, though its shares slid as costs rose.",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdDhFTl9PNW5HRHljTE5wS0VMX0NFVHVERGtWZE5PYy1VWjg1SnR4N3V1c1k5N29TVUtiVEhPZmpwSlFLRnZaMllucU9tMTB3VDZfZmlqQjFXUFUwaUhxbnQyZnVSdlFaQlB5bjhhcjJpN0hYejF0UHBRSDlnMWVwbDM5SjVoVzhCa3BoSThwd21VNkZEMlI4bmxCOFlibnM5cS03a0M4S2YzaTJzdEE?oc=5"
+   "headline": "Mastercard launches stablecoin risk screening before settlement",
+   "detail": "Mastercard has launched stablecoin risk screening that applies before settlement, a development covered by 14 outlets.",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA4ZTlydnNjbjBHVjJVT0tXUFNWU2ZyOUxBSFJwV2FvVTVMQ0xOLWFqNEdPY21UTTdMU3Q4LTZxcXZzZ1pobXZRVHRhMkkzMUxQTzRSbnFoLXZKOUliTl85TTU2QUZHdFRGZG1Oek10UWtidTQ3QWE4Q1ZXZVM?oc=5"
   },
   {
-   "headline": "SpaceX investors press Musk on Tesla merger",
-   "detail": "Ahead of SpaceX results, SpaceX investors are pressing Elon Musk on a possible Tesla merger.",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNUluMVVLVk9ZUmpHeTZNSkduQVlaYWtydVZ3WEptUWc0SXpqUGZ4ckZmOGM4X3JwY0V0WjJfelhvdWRLRTdZRUdnYUxwM0NRZWZGY0M4blhETWlzVnlQY0JMSEdRZFBDaG5MNW1jck9zaEdQdUs4bzhRSjdaX0xsV0xqN1RjWmRuRzAwMFZxamVNTlNuanFhVExaV3RDMEw2RmtSODg4RzB1RzRERWFz?oc=5"
+   "headline": "Netflix shares fall after soft current-quarter revenue guidance",
+   "detail": "Netflix shares dropped over 5% after hours on soft current-quarter revenue guidance, and co-CEO Sarandos said 'we could do better'.",
+   "link": "https://www.investing.com/news/earnings/netflix-delivers-profit-beat-slightly-narrows-fullyear-revenue-guidance-4960949"
   },
   {
-   "headline": "GCash parent Mynt's record IPO leaves shares flat",
-   "detail": "GCash parent Mynt's record Philippine IPO left its shares flat in debut, erasing earlier gains.",
+   "headline": "SpaceX posts first profit as public company; Musk backs merger",
+   "detail": "SpaceX reported its first profit as a public company, and Musk called a Tesla-SpaceX merger a 'good idea'.",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONHZoMzBtaGg1TmlMN19NRUEzM1lOZkpYb1ZXeWlLTnR4SkxObm1xbDBlN0RsQ2huaHBCMzRxU0VLb3ZPSS1ZeEdhampNY3VNclpoU2xGOWpoQjNfVzVDTHpqOVVRd0pZcVY3eGlpVkxjWTRrMGh4aWtCbVJVVnZ1Nnd1RkU1dFNtcUZCUnVxX1pRWXRTd09QUnpodWJSeEhpS3BKcmxsQkM1aFA1eExGSkNMMVIteV93OXZWa0Q2Vl9yUQ?oc=5"
+  },
+  {
+   "headline": "GCash parent Mynt's record Philippine IPO debut: shares flat",
+   "detail": "Mynt, GCash's parent, made PSE history in a record IPO, with shares flat in debut trading.",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSnJCUXZuNnhjRHdMZUdNbzdPSzg5Mm5qbHpQaURpU1Rxb2JiMUV3RHNRb1dTZjBFZFVQU3h1c2FsZ3d2bjJIQnlZdk1abXZGQndLcU9JWWhnYlZZd2U1eDU0aGxWOUhkbkJTVFNXbUhCMG1tY1c4b3p4d0xSdFNNeXlJOXFVUzVQU3pZUWU3SjRmMTZGMXlFdWYzVGNCYkdGd0lGYXo2bTZESHMzTWVvNmRzYw?oc=5"
-  },
-  {
-   "headline": "Anthropic revenue hits $16.3 billion ahead of IPO",
-   "detail": "Anthropic revenue reached $16.3 billion as its preliminary S-1 filing outlined IPO risks, according to WSJ.",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRmtySmNWd1A3SWE5Z2tQdTlpTG5ibnl6T0I2TWZyNjJfbmJSZW5MUzF1N21HTW5pMnhDWXduZm1ReGZiNEVpSDZWQU1aWUh3T0pjVnN0UWgtTUNzZk10OE5BcTNUWHl6UzhYdVRkSmQ5Q1Jsb0Q4SVBLUFpJUi1FVzN1dEkwUUp3cU1SeWtOZlRyRDUzWlRxSHFtYWh5bGFUMW1vOFNELUJDMF84SzJMUFp0V2ZQNFVKT1NpWWFOTjNHX2oxSUNzWlRXSUc?oc=5"
   }
  ],
  "summaries": {
-  "requested": 24,
+  "requested": 21,
   "rejected_ungrounded": 0,
-  "applied": 24
+  "applied": 20
  },
- "generated": "2026-10-20T20:12+00:00",
- "total_cost_usd": 0.00453
+ "generated": "2026-10-20T23:59+00:00",
+ "total_cost_usd": 0.00471
 }
