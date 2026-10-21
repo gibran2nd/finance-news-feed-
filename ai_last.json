@@ -4,90 +4,102 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12515,
-   "output_tokens": 3174,
-   "cost_usd": 0.00284
+   "input_tokens": 11910,
+   "output_tokens": 3122,
+   "cost_usd": 0.00275
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2923,
-   "output_tokens": 3156,
-   "cost_usd": 0.00187
+   "input_tokens": 2277,
+   "output_tokens": 1059,
+   "cost_usd": 0.00076
   }
  ],
  "errors": [],
  "merge_groups": [
-  [
-   "Elice IPO: Korean AI cloud firm falls 32% on its first trading day",
-   "Data centre infrastructure firm Eliceâs 33% plunge in âugly debutâ rekindles AI spending doubts",
-   "Elice Crashes 32% and AI Funding Fears Return",
-   "AI Fears Roar Back After Elice IPO Flop"
-  ],
-  [
-   "GCASH PARENT MAKES PSE HISTORY: Mynt shares flat in record IPO debut",
-   "GCash owner erases gains in debut after record Philippines IPO"
-  ],
-  [
-   "NAR pending home sales index falls to record low in September",
-   "Pending home sales sink to 25-year low as buyers flee high mortgage rates"
-  ],
   [
    "Netflix shares fall over 5% after hours on soft current quarter revenue guidance",
    "Netflix co-CEO Sarandos says 'we could do better' after weak forecast",
    "Netflix vows to revive viewership trends, but investors hit ‘sell’ on the stock"
   ],
   [
+   "Super Micro sees quarterly revenue soaring on AI server boom",
+   "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally"
+  ],
+  [
+   "Elice CEO Shrugs Off Choppy IPO, Eyes Revenue Boost",
+   "AI Neocloud Elice’s CEO Sees Sales Doubling After Shares Rebound"
+  ],
+  [
+   "Australian data center operator NextDC's shares plunge 40% after it slashes earnings forecast",
+   "Australian data centre group falls 44% on profit warning"
+  ],
+  [
+   "FirstFT: SpaceX and Tesla explore merger",
+   "A possible SpaceX-Tesla merger? Here's what people are saying"
+  ],
+  [
    "Capital One's strong quarter and progressing Discover integration are rewarded on Wall Street",
    "Capital One Profit Beats as Lender’s Revenue Rises More Than 6%"
   ],
   [
-   "Stocks Make a U-Turn on Hopes of U.S.-Iran Diplomacy",
+   "India's Jio IPO opens for public bids in record $3.2 billion sale",
+   "Dalal Street Opens: Sensex Climbs 400 Points, Nifty Over 23k, Jio IPO Begins Today"
+  ],
+  [
+   "GCASH PARENT MAKES PSE HISTORY: Mynt shares flat in record IPO debut",
+   "GCash raises profile of Philippine fintech sector with record IPO"
+  ],
+  [
+   "Australia inflation outlook ‘materially worse’, RBA deputy Hauser says",
+   "RBA Nov rate hike bets surge to over 50% after Hauser warning on inflation"
+  ],
+  [
    "GM shares sink as automaker signals rising cost pressures",
-   "GM Stock: Good Earnings, a Massive Buyback, and Tanking Shaes",
-   "GM Beat Expectations on Almost Everything: The Stock Now Eyes Its Worst Day in 15 Months"
+   "GM Stock: Good Earnings, a Massive Buyback, and Tanking Shaes"
   ],
   [
-   "Adidas Lifts Profit View After U.S. Tariff Refunds, Record Quarterly Performance",
-   "Germany's Adidas raises full-year profit outlook after record quarter"
+   "CATL’s Slower Profit Growth Fans Fears for China Battery Rivals",
+   "CATL’s Quarterly Profit Rose, But Margins Remain Under Pressure"
   ],
   [
-   "RTX Stocks Rise as Earnings Gain Includes a 25-Cent Recovery",
-   "RTX lifts 2026 forecasts as aerospace, defense demand drives record backlog"
+   "Earnings confirm SpaceX AI deal revenue ramp, says MoffettNathanson's Julie Zhu",
+   "Nasdaq, S&P 500 Futures Climb After SpaceX’s Blowout Quarter: SMCI, NFLX, GE Stocks In Focus"
   ]
  ],
  "brief": [
   {
-   "headline": "Anthropic revenue reaches $16.3 billion as S-1 outlines IPO risks",
-   "detail": "A preliminary S-1 filing shows Anthropic revenue of $16.3 billion and outlines risks tied to its planned IPO.",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLVctZDNJSWFwdWY4ZndCclJYSUF2ZEtxeVRXUFVfaDRZazNVaWtaU0hUX0NqZU1uTEd6aElZOG1yaEtWRWF0NmhTSGxGNzdmajJYQjl1MjVkUE92RmZpVXFWdGhlZ0tKT0hKZktXSUlFazZjVVBsSHFqLTBsZmEzMHMtM3dDeXFqT3liMHBkLU5MWU11YUE?oc=5"
+   "headline": "Investors await Anthropic IPO filing",
+   "detail": "Investors are eagerly awaiting Anthropic's key filing, which is expected to show whether its blockbuster IPO will stoke demand.",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZHhyVEFDc1ZMS2VkZlNsWHhpX2VuaGo0Z05NTkk4UVhLOFpHRUVWLXktelpDUmxjdC1uMmY2NjlqMS1UWW9ORkFIWFlGeVc3LUJVR3Z5ejdkTlJvSUIwbktldGRLYWhISEs4WDBMYkc0ZUxCeGItd0NPcXlsdnBGQUl3RTN5R0s4N0JVaUVXZXJqRy1oYVZGcHlvMzRmeEltNnVhS01nMzFVRVVkMmcyU2J3VEFDRjc5Z2VURFM0M2llR2ZpV0xF?oc=5"
+  },
+  {
+   "headline": "SpaceX and Tesla explore merger",
+   "detail": "FirstFT reports SpaceX and Tesla are exploring a merger, a story covered by nine outlets.",
+   "link": "https://www.ft.com/content/ae820b11-e085-44b4-a8ca-8e5fa2eeb571?syn-25a6b1a6=1"
   },
   {
    "headline": "Mastercard launches stablecoin risk screening before settlement",
-   "detail": "Mastercard has launched stablecoin risk screening that applies before settlement, a development covered by 14 outlets.",
+   "detail": "Mastercard launched stablecoin risk screening that runs before settlement, a development covered by 13 outlets.",
    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA4ZTlydnNjbjBHVjJVT0tXUFNWU2ZyOUxBSFJwV2FvVTVMQ0xOLWFqNEdPY21UTTdMU3Q4LTZxcXZzZ1pobXZRVHRhMkkzMUxQTzRSbnFoLXZKOUliTl85TTU2QUZHdFRGZG1Oek10UWtidTQ3QWE4Q1ZXZVM?oc=5"
   },
   {
-   "headline": "Netflix shares fall after soft current-quarter revenue guidance",
-   "detail": "Netflix shares dropped over 5% after hours on soft current-quarter revenue guidance, and co-CEO Sarandos said 'we could do better'.",
-   "link": "https://www.investing.com/news/earnings/netflix-delivers-profit-beat-slightly-narrows-fullyear-revenue-guidance-4960949"
-  },
-  {
-   "headline": "SpaceX posts first profit as public company; Musk backs merger",
-   "detail": "SpaceX reported its first profit as a public company, and Musk called a Tesla-SpaceX merger a 'good idea'.",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONHZoMzBtaGg1TmlMN19NRUEzM1lOZkpYb1ZXeWlLTnR4SkxObm1xbDBlN0RsQ2huaHBCMzRxU0VLb3ZPSS1ZeEdhampNY3VNclpoU2xGOWpoQjNfVzVDTHpqOVVRd0pZcVY3eGlpVkxjWTRrMGh4aWtCbVJVVnZ1Nnd1RkU1dFNtcUZCUnVxX1pRWXRTd09QUnpodWJSeEhpS3BKcmxsQkM1aFA1eExGSkNMMVIteV93OXZWa0Q2Vl9yUQ?oc=5"
-  },
-  {
-   "headline": "GCash parent Mynt's record Philippine IPO debut: shares flat",
-   "detail": "Mynt, GCash's parent, made PSE history in a record IPO, with shares flat in debut trading.",
+   "headline": "GCash parent Mynt debuts flat in record IPO",
+   "detail": "GCash parent Mynt made its Philippine Stock Exchange debut with shares flat in a record IPO, covered by eight outlets.",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSnJCUXZuNnhjRHdMZUdNbzdPSzg5Mm5qbHpQaURpU1Rxb2JiMUV3RHNRb1dTZjBFZFVQU3h1c2FsZ3d2bjJIQnlZdk1abXZGQndLcU9JWWhnYlZZd2U1eDU0aGxWOUhkbkJTVFNXbUhCMG1tY1c4b3p4d0xSdFNNeXlJOXFVUzVQU3pZUWU3SjRmMTZGMXlFdWYzVGNCYkdGd0lGYXo2bTZESHMzTWVvNmRzYw?oc=5"
+  },
+  {
+   "headline": "Netflix shares fall on soft revenue guidance",
+   "detail": "Netflix shares fell over 5% after hours on soft current-quarter revenue guidance, signalling weaker near-term revenue expectations.",
+   "link": "https://www.investing.com/news/earnings/netflix-delivers-profit-beat-slightly-narrows-fullyear-revenue-guidance-4960949"
   }
  ],
  "summaries": {
-  "requested": 21,
+  "requested": 16,
   "rejected_ungrounded": 0,
-  "applied": 20
+  "applied": 15
  },
- "generated": "2026-10-20T23:59+00:00",
- "total_cost_usd": 0.00471
+ "generated": "2026-10-21T05:04+00:00",
+ "total_cost_usd": 0.00351
 }

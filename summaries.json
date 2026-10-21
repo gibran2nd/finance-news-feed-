@@ -2,20 +2,8 @@
   {
     "week": "2026-W43",
     "label": "Week of October 19\u201323, 2026",
-    "generated": "2026-10-20T23:59:49.075157+00:00",
+    "generated": "2026-10-21T05:04:00.517468+00:00",
     "bullets": [
-      {
-        "headline": "Musk calls Tesla-SpaceX merger a 'good idea' as SpaceX posts first profit as a public company",
-        "source": "Reuters",
-        "section": "Stock Market & Equities",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONHZoMzBtaGg1TmlMN19NRUEzM1lOZkpYb1ZXeWlLTnR4SkxObm1xbDBlN0RsQ2huaHBCMzRxU0VLb3ZPSS1ZeEdhampNY3VNclpoU2xGOWpoQjNfVzVDTHpqOVVRd0pZcVY3eGlpVkxjWTRrMGh4aWtCbVJVVnZ1Nnd1RkU1dFNtcUZCUnVxX1pRWXRTd09QUnpodWJSeEhpS3BKcmxsQkM1aFA1eExGSkNMMVIteV93OXZWa0Q2Vl9yUQ?oc=5"
-      },
-      {
-        "headline": "Netflix posts higher Q3 profit but revenue growth worries pull shares lower",
-        "source": "AP",
-        "section": "Stock Market & Equities",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNG55a2pnNEJXZ1IxbGZacC1XZDA3NGFkUGZuR1oxdDdoTUI2alZpMTh5ZUlfVFB2WHBQTnJhTDE1b1JQRGJYZjhNN3FiY19laEdkT0ZzMzFudU1PMUpNcTFaWWRWSVZUN0hvYnlQZHlhRzhOZDdlelZMUUFFNXItOHJoNk9HRkFMeWF3a05ZMi1Kdk41?oc=5"
-      },
       {
         "headline": "Anthropic is AI trade's last big hope for a major IPO this year",
         "source": "CNBC",
@@ -23,10 +11,22 @@
         "link": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html"
       },
       {
+        "headline": "Musk calls Tesla-SpaceX merger a 'good idea' as SpaceX posts first profit as a public company",
+        "source": "Reuters",
+        "section": "Stock Market & Equities",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONHZoMzBtaGg1TmlMN19NRUEzM1lOZkpYb1ZXeWlLTnR4SkxObm1xbDBlN0RsQ2huaHBCMzRxU0VLb3ZPSS1ZeEdhampNY3VNclpoU2xGOWpoQjNfVzVDTHpqOVVRd0pZcVY3eGlpVkxjWTRrMGh4aWtCbVJVVnZ1Nnd1RkU1dFNtcUZCUnVxX1pRWXRTd09QUnpodWJSeEhpS3BKcmxsQkM1aFA1eExGSkNMMVIteV93OXZWa0Q2Vl9yUQ?oc=5"
+      },
+      {
         "headline": "NAR pending home sales index falls to record low in September",
         "source": "HousingWire",
         "section": "Real Estate & REITs",
         "link": "https://www.housingwire.com/articles/pending-home-sales-record-low/"
+      },
+      {
+        "headline": "United Airlines faces earnings test as fuel costs squeeze margins",
+        "source": "Investing.com",
+        "section": "Earnings & Results",
+        "link": "https://www.investing.com/news/earnings/united-airlines-faces-earnings-test-as-fuel-costs-squeeze-margins-93CH-4960455"
       },
       {
         "headline": "3M tops forecasts for Q3 profit and full-year guidance; shares climb",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 348,
-      "Macro & Economy": 208,
-      "Investment Banking & Deals": 253,
-      "Real Estate & REITs": 214,
-      "Earnings & Results": 276,
-      "Tech & Fintech": 337
+      "Stock Market & Equities": 388,
+      "Macro & Economy": 240,
+      "Investment Banking & Deals": 267,
+      "Real Estate & REITs": 224,
+      "Earnings & Results": 297,
+      "Tech & Fintech": 354
     }
   },
   {
