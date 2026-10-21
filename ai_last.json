@@ -4,75 +4,74 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 13170,
-   "output_tokens": 3438,
-   "cost_usd": 0.00304
+   "input_tokens": 13088,
+   "output_tokens": 2150,
+   "cost_usd": 0.00238
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2783,
-   "output_tokens": 2549,
-   "cost_usd": 0.00155
+   "input_tokens": 2594,
+   "output_tokens": 1316,
+   "cost_usd": 0.00092
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Aliko Dangote acquires 24.76 percent strategic stake in Kenya Pipeline Company",
-   "Dangote takes stake in Kenyan pipeline and pledges more ‘aggressive’ energy investment"
+   "SpaceX stock jumps 8% after earnings beat and Musk hints at Tesla tie-up",
+   "Tesla earnings loom after Musk calls SpaceX merger a 'good idea'",
+   "Musk Weighs Massive SpaceX Tesla Merger"
+  ],
+  [
+   "Meta Will Create New Stock Class to Fund AI Spending",
+   "Meta Plans to Issue New Non-Voting Stock, Semafor Reports"
   ],
   [
    "Jio IPO inflows power rupee’s 0.5% rally to strongest level since September",
    "Rupee strengthens for eighth consecutive day on IPO inflows; rise in crude prices cap gains"
   ],
   [
-   "Abbott cuts 2026 sales growth view, plans to spin off nutrition business",
-   "Abbott to spin out Nutrition business, cuts guidance",
-   "Abbott Stock Falls After Earnings. It’s Shedding Its Troubled Nutrition Unit."
+   "UK inflation and borrowing top forecasts in blow to Healey",
+   "Pound gains against dollar, euro as inflation data cements future rate hike bets"
   ],
   [
    "France’s borrowing costs hit 5% for first time since 2002",
    "French Bond Risk Hits 15-Year High as Risk Gauge Climbs"
-  ],
-  [
-   "UK inflation and borrowing top forecasts in blow to Healey",
-   "UK's FTSE 100 pauses as hot inflation report outweighs energy boost",
-   "Pound gains against dollar, euro as inflation data cements future rate hike bets"
   ]
  ],
  "brief": [
   {
-   "headline": "Tesla earnings loom after Musk backs SpaceX merger idea",
-   "detail": "Tesla is scheduled to update investors a day after SpaceX reported third-quarter results, and Musk called a SpaceX merger a 'good idea'.",
-   "link": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html"
+   "headline": "SpaceX beats earnings; Musk floats Tesla merger",
+   "detail": "SpaceX shares jumped 8% after its third-quarter revenue growth beat expectations, and Musk floated a potential SpaceX-Tesla merger, which investors are weighing.",
+   "link": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html"
   },
   {
-   "headline": "Anthropic to publicly file for IPO as early as Friday",
-   "detail": "Sources say Anthropic could publicly file for an IPO as early as Friday, a major step for an AI company's listing plans.",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPREpSeVQzcmx3WVBKdmRna3pObmZqMEpoN3hvcGpid1JuZEJRODNnZUg5X19DQmJDT2E5YnRqQTNwbWJwMjVPVXQ2MDBLRmNXd1VMOGFScHl6cE9GWUp3LWc0UTAzcGJtRnJiR1ZqdjNWWkZwVV9OX0Y5WkVER2RMMHhmZVBjYVR5aVN2ME1nd3BNNWdQNTFGOTMtM245MGpEOGhRTFNqSlZ0bnBwQmRHZVlLeXJOVFhCZDd3TEpnNA?oc=5"
+   "headline": "Meta plans new non-voting stock class to fund AI",
+   "detail": "Meta plans a new non-voting stock class it could use to fund heavy AI spending, and the company said it won't affect Mark Zuckerberg's voting control.",
+   "link": "https://www.wsj.com/articles/metaplatforms-meta-3q-earnings-report-2026-stock-f28d64c2?mod=rss_Technology"
   },
   {
-   "headline": "Netflix slides on weak outlook and growth worries",
-   "detail": "Netflix shares fell as its weak outlook deepened worries about viewership and revenue growth, according to Reuters.",
+   "headline": "Netflix shares slide on weak outlook",
+   "detail": "Netflix shares fell as a weak outlook deepened worries about viewership and revenue growth.",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR2NMX1phWXZ5OFZOZ09LVXF1R1Q0ckJfS0JwMm9sTFRfakN1QlVqWUwyUk8zV1UtZWFsbkRXNm01Q2N0TEdrUEtCQWJqeHVkOS14SWNHSkkwVUJGSVhKZnRPSkd5dG9FZ1hBYmFzbC15VlczeUdzamhiVFBGYWVQTTNoeG9vVjRfYjZTN3Q5MHp1OEswenI2d1NyMDRnT1AyOEFsMlIwbjRGZmI1aEZaLXlkQUQ1WWVHMm9oUW9fMFk?oc=5"
   },
   {
-   "headline": "GCash parent Mynt posts record $1 billion IPO debut",
-   "detail": "Mynt, the parent of GCash, made a record-breaking $1 billion IPO debut, a deal covered by 10 outlets.",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbENmeEZHMWpiLUl2aG1tQVZCeEJjdkk1YUZjcnF0ekJRYU5WTUZMWWx3ZGNxa3BZYnQ3cVZ0ODNvTnJGdEg0ZFdiQ2xCRV9LTUZNelBNUmFfOUJ5a3JuNGlLdnRxQnVtOWlOcVdEYk85UmhsNmw2ZjBlWnA0OG1RMEFkYlhuX21qUEJ1UFB5dlEzcE5SV19aUktvSDdfMG1VNTFwUy1YY0o2WUh00gGyAUFVX3lxTE5SNGdobGU1U1FDb0I4ZXo0YWFiWDR2X05vYm45VEdJNy1QVXhNemk3VlFoV2ZZeG5RcjM4WGVza0c1Z0ZXRFU3N29aU3RYOFVha0hIdndUeW5veWFGbFIxbnBnZ29ZUDMyRW9uR1gxTnFHczhrTEpSM1RmVTNBRnd6aFNfRnFtMTlnTGJNSHkxTnc1UnJMRHpfeWc1UUFIckNMVXRWSHVXdHpjS3BIUk9CQmc?oc=5"
+   "headline": "Meta ordered to pay $25 billion to New Mexico",
+   "detail": "A New Mexico jury found Meta misled consumers about data privacy, and the company was ordered to pay $25 billion.",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYWNTZTVrUDY5dUhLcUduTzg1NGZDUWx1VTNVbFRNV3hOcXo0TG51MDBMRm5WQU9STGRPZGhLNml2dTFMb1h2b1hLelA4QU5KV3pRLWktdDVhOEFxWDY5VW1URmZEVm9QcDg0WEp2Zmo2V1RIcFpCdk1zeFFhdU1VeHl4QUVZeGZxU3ZJLV9UUzZYWG85Ujl0RkRMbGhMd2RBWkdDNnJpbnBNQXduV3FBLXZTYlk2Y2xhVzFSbmthRFJERU0?oc=5"
   },
   {
-   "headline": "US stocks rise as SpaceX earnings boost AI trade",
-   "detail": "U.S. stocks rose as SpaceX earnings lifted the AI trade, according to WSJ coverage picked up by five outlets.",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSmEtOENDbk1wMmlSbkM0MHdhdTNrM245Y09fcWJYZHlVVWJZakV1cVFVRjhXMThHb0lHTHU5dE5RVEdYdHpZTS13UVk2MWlZWjB3czlQTFd5MVp1QlJ6QWthV2tlc3pmVTlKQU9FYmtQVklNYk1STzR3TTg4Qk94Y0hIeGFoSTVxOUJ2YWVUcw?oc=5"
+   "headline": "French borrowing costs hit 5%, highest since 2002",
+   "detail": "France's 10-year borrowing costs hit 5% for the first time since 2002, as concerns over public finances and political stability grew.",
+   "link": "https://www.ft.com/content/76f076e4-9db2-4971-8ac9-73d9f39e4876?syn-25a6b1a6=1"
   }
  ],
  "summaries": {
-  "requested": 21,
+  "requested": 20,
   "rejected_ungrounded": 0,
-  "applied": 21
+  "applied": 20
  },
- "generated": "2026-10-21T18:55+00:00",
- "total_cost_usd": 0.00459
+ "generated": "2026-10-21T20:24+00:00",
+ "total_cost_usd": 0.0033
 }
