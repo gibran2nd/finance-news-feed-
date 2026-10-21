@@ -4,102 +4,84 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 11910,
-   "output_tokens": 3122,
-   "cost_usd": 0.00275
+   "input_tokens": 12481,
+   "output_tokens": 2491,
+   "cost_usd": 0.00249
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2277,
-   "output_tokens": 1059,
-   "cost_usd": 0.00076
+   "input_tokens": 3190,
+   "output_tokens": 1613,
+   "cost_usd": 0.00113
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Netflix shares fall over 5% after hours on soft current quarter revenue guidance",
-   "Netflix co-CEO Sarandos says 'we could do better' after weak forecast",
-   "Netflix vows to revive viewership trends, but investors hit ‘sell’ on the stock"
+   "A SpaceX-Tesla Merger? Why Elon Musk Thinks It’s a Good Idea",
+   "Tesla-SpaceX deal: Wall St says inevitable but Musk says it's not certain",
+   "Futures orbit around SpaceX as Tesla merger talk cheers investors",
+   "SpaceX stock jumps 8% after earnings beat and Musk hints at Tesla tie-up",
+   "SpaceX Boosts the A.I. Rally"
   ],
   [
-   "Super Micro sees quarterly revenue soaring on AI server boom",
-   "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally"
+   "EXCLUSIVE: EBay to lay off 9% of workforce in push to simplify operations, internal memo shows",
+   "EBay to Ax 9% of Staff in Second Round of Job Cuts in 2026"
   ],
   [
-   "Elice CEO Shrugs Off Choppy IPO, Eyes Revenue Boost",
-   "AI Neocloud Elice’s CEO Sees Sales Doubling After Shares Rebound"
+   "Jio IPO inflows power rupee’s 0.5% rally to strongest level since September",
+   "Rupee strengthens for eighth consecutive day on IPO inflows; rise in crude prices cap gains"
   ],
   [
-   "Australian data center operator NextDC's shares plunge 40% after it slashes earnings forecast",
-   "Australian data centre group falls 44% on profit warning"
+   "Carrefour Shares Slump After Group Trims Guidance, Citing French Riots",
+   "French supermarket giant's shares plunge 14% after warning ‘unprecedented’ unrest will hit business"
   ],
   [
-   "FirstFT: SpaceX and Tesla explore merger",
-   "A possible SpaceX-Tesla merger? Here's what people are saying"
+   "France’s borrowing costs hit 5% for first time since 2002",
+   "French Bond Risk Hits 15-Year High as Risk Gauge Climbs"
   ],
   [
-   "Capital One's strong quarter and progressing Discover integration are rewarded on Wall Street",
-   "Capital One Profit Beats as Lender’s Revenue Rises More Than 6%"
-  ],
-  [
-   "India's Jio IPO opens for public bids in record $3.2 billion sale",
-   "Dalal Street Opens: Sensex Climbs 400 Points, Nifty Over 23k, Jio IPO Begins Today"
-  ],
-  [
-   "GCASH PARENT MAKES PSE HISTORY: Mynt shares flat in record IPO debut",
-   "GCash raises profile of Philippine fintech sector with record IPO"
+   "Aliko Dangote acquires 24.76 percent strategic stake in Kenya Pipeline Company",
+   "Dangote takes stake in Kenyan pipeline and pledges more ‘aggressive’ energy investment"
   ],
   [
    "Australia inflation outlook ‘materially worse’, RBA deputy Hauser says",
    "RBA Nov rate hike bets surge to over 50% after Hauser warning on inflation"
-  ],
-  [
-   "GM shares sink as automaker signals rising cost pressures",
-   "GM Stock: Good Earnings, a Massive Buyback, and Tanking Shaes"
-  ],
-  [
-   "CATL’s Slower Profit Growth Fans Fears for China Battery Rivals",
-   "CATL’s Quarterly Profit Rose, But Margins Remain Under Pressure"
-  ],
-  [
-   "Earnings confirm SpaceX AI deal revenue ramp, says MoffettNathanson's Julie Zhu",
-   "Nasdaq, S&P 500 Futures Climb After SpaceX’s Blowout Quarter: SMCI, NFLX, GE Stocks In Focus"
   ]
  ],
  "brief": [
   {
-   "headline": "Investors await Anthropic IPO filing",
-   "detail": "Investors are eagerly awaiting Anthropic's key filing, which is expected to show whether its blockbuster IPO will stoke demand.",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZHhyVEFDc1ZMS2VkZlNsWHhpX2VuaGo0Z05NTkk4UVhLOFpHRUVWLXktelpDUmxjdC1uMmY2NjlqMS1UWW9ORkFIWFlGeVc3LUJVR3Z5ejdkTlJvSUIwbktldGRLYWhISEs4WDBMYkc0ZUxCeGItd0NPcXlsdnBGQUl3RTN5R0s4N0JVaUVXZXJqRy1oYVZGcHlvMzRmeEltNnVhS01nMzFVRVVkMmcyU2J3VEFDRjc5Z2VURFM0M2llR2ZpV0xF?oc=5"
+   "headline": "SpaceX shares jump on earnings beat and Tesla merger talk",
+   "detail": "SpaceX shares jumped 8% after reporting surging third-quarter revenue growth, and Elon Musk floated a potential SpaceX-Tesla merger that investors are cheering.",
+   "link": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html"
   },
   {
-   "headline": "SpaceX and Tesla explore merger",
-   "detail": "FirstFT reports SpaceX and Tesla are exploring a merger, a story covered by nine outlets.",
-   "link": "https://www.ft.com/content/ae820b11-e085-44b4-a8ca-8e5fa2eeb571?syn-25a6b1a6=1"
+   "headline": "Netflix slides as weak outlook deepens viewership and revenue worries",
+   "detail": "Netflix shares fell as a weak outlook intensified investor worries about viewership and revenue growth, a story covered by 10 outlets.",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR2NMX1phWXZ5OFZOZ09LVXF1R1Q0ckJfS0JwMm9sTFRfakN1QlVqWUwyUk8zV1UtZWFsbkRXNm01Q2N0TEdrUEtCQWJqeHVkOS14SWNHSkkwVUJGSVhKZnRPSkd5dG9FZ1hBYmFzbC15VlczeUdzamhiVFBGYWVQTTNoeG9vVjRfYjZTN3Q5MHp1OEswenI2d1NyMDRnT1AyOEFsMlIwbjRGZmI1aEZaLXlkQUQ1WWVHMm9oUW9fMFk?oc=5"
   },
   {
-   "headline": "Mastercard launches stablecoin risk screening before settlement",
-   "detail": "Mastercard launched stablecoin risk screening that runs before settlement, a development covered by 13 outlets.",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA4ZTlydnNjbjBHVjJVT0tXUFNWU2ZyOUxBSFJwV2FvVTVMQ0xOLWFqNEdPY21UTTdMU3Q4LTZxcXZzZ1pobXZRVHRhMkkzMUxQTzRSbnFoLXZKOUliTl85TTU2QUZHdFRGZG1Oek10UWtidTQ3QWE4Q1ZXZVM?oc=5"
+   "headline": "Jio Platforms IPO fully subscribed in under 100 minutes",
+   "detail": "Jio Platforms' IPO was fully subscribed in under 100 minutes in a record-breaking debut, with IPO inflows also lifting the rupee.",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX2NlZXUxRVE3ZE5MOEQzeXcwM29KZnBKX1R0SE1LZjhDMU5sd0RTNEtZT2RxV3BDOGREbDhqYUxqWjA1cFQzWW1nYzRReHY3MndBV3BWcDVpTUx2WjVrdEl4MU1qbEtKVUZMY2RlYnRmRkVOYXZvTmNBMmljQUFaT0xNY25uR045eFBQbGFrbDZmaTRqR3E2M1ZYX1h4ZXBQUmJqbXNZT2oySkxDNXZiU09PTjhxNTRFTG9kakhnbk_SAcYBQVVfeXFMTkhDTG1nTHdvTThWX2RFTEpfNVpyS0hJdmhGQlBJM09acXgzZ3RBWUJHSllZNmhIUGViNGtlSUtjUk1zTkFUVWw4ejRxU3VQa0otWEFvUlZXejRFVzExVWpBTU1IN1BpUktxWWNzR3R4UEJOWUVvemgwSENSb2JpSGxnWDIxYXE5QWV1WE9iZ01YbDVPc2JSVTB3TmlSbUJCbGJNaDlpUW02cXJwc09JNXgyYS0tYjQ2Wm45aXMxQXNGdlp6WlhR?oc=5"
   },
   {
-   "headline": "GCash parent Mynt debuts flat in record IPO",
-   "detail": "GCash parent Mynt made its Philippine Stock Exchange debut with shares flat in a record IPO, covered by eight outlets.",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSnJCUXZuNnhjRHdMZUdNbzdPSzg5Mm5qbHpQaURpU1Rxb2JiMUV3RHNRb1dTZjBFZFVQU3h1c2FsZ3d2bjJIQnlZdk1abXZGQndLcU9JWWhnYlZZd2U1eDU0aGxWOUhkbkJTVFNXbUhCMG1tY1c4b3p4d0xSdFNNeXlJOXFVUzVQU3pZUWU3SjRmMTZGMXlFdWYzVGNCYkdGd0lGYXo2bTZESHMzTWVvNmRzYw?oc=5"
+   "headline": "United Airlines slashes 2026 profit outlook on fuel prices",
+   "detail": "United Airlines cut its annual profit outlook as fuel prices kept climbing, though travelers continue booking despite higher fares.",
+   "link": "https://www.cnbc.com/2026/10/20/united-airlines-ual-3q-2026-earnings.html"
   },
   {
-   "headline": "Netflix shares fall on soft revenue guidance",
-   "detail": "Netflix shares fell over 5% after hours on soft current-quarter revenue guidance, signalling weaker near-term revenue expectations.",
-   "link": "https://www.investing.com/news/earnings/netflix-delivers-profit-beat-slightly-narrows-fullyear-revenue-guidance-4960949"
+   "headline": "eBay to cut 9% of workforce in second round of 2026 job cuts",
+   "detail": "eBay will eliminate 9% of its workforce, according to a person familiar with the matter, marking its second round of job cuts this year.",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-21/ebay-to-cut-9-of-staff-to-streamline-operations-reuters-says"
   }
  ],
  "summaries": {
-  "requested": 16,
+  "requested": 24,
   "rejected_ungrounded": 0,
-  "applied": 15
+  "applied": 23
  },
- "generated": "2026-10-21T05:04+00:00",
- "total_cost_usd": 0.00351
+ "generated": "2026-10-21T15:49+00:00",
+ "total_cost_usd": 0.00362
 }
