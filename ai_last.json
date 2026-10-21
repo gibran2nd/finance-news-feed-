@@ -4,84 +4,75 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12481,
-   "output_tokens": 2491,
-   "cost_usd": 0.00249
+   "input_tokens": 13170,
+   "output_tokens": 3438,
+   "cost_usd": 0.00304
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3190,
-   "output_tokens": 1613,
-   "cost_usd": 0.00113
+   "input_tokens": 2783,
+   "output_tokens": 2549,
+   "cost_usd": 0.00155
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "A SpaceX-Tesla Merger? Why Elon Musk Thinks It’s a Good Idea",
-   "Tesla-SpaceX deal: Wall St says inevitable but Musk says it's not certain",
-   "Futures orbit around SpaceX as Tesla merger talk cheers investors",
-   "SpaceX stock jumps 8% after earnings beat and Musk hints at Tesla tie-up",
-   "SpaceX Boosts the A.I. Rally"
-  ],
-  [
-   "EXCLUSIVE: EBay to lay off 9% of workforce in push to simplify operations, internal memo shows",
-   "EBay to Ax 9% of Staff in Second Round of Job Cuts in 2026"
+   "Aliko Dangote acquires 24.76 percent strategic stake in Kenya Pipeline Company",
+   "Dangote takes stake in Kenyan pipeline and pledges more ‘aggressive’ energy investment"
   ],
   [
    "Jio IPO inflows power rupee’s 0.5% rally to strongest level since September",
    "Rupee strengthens for eighth consecutive day on IPO inflows; rise in crude prices cap gains"
   ],
   [
-   "Carrefour Shares Slump After Group Trims Guidance, Citing French Riots",
-   "French supermarket giant's shares plunge 14% after warning ‘unprecedented’ unrest will hit business"
+   "Abbott cuts 2026 sales growth view, plans to spin off nutrition business",
+   "Abbott to spin out Nutrition business, cuts guidance",
+   "Abbott Stock Falls After Earnings. It’s Shedding Its Troubled Nutrition Unit."
   ],
   [
    "France’s borrowing costs hit 5% for first time since 2002",
    "French Bond Risk Hits 15-Year High as Risk Gauge Climbs"
   ],
   [
-   "Aliko Dangote acquires 24.76 percent strategic stake in Kenya Pipeline Company",
-   "Dangote takes stake in Kenyan pipeline and pledges more ‘aggressive’ energy investment"
-  ],
-  [
-   "Australia inflation outlook ‘materially worse’, RBA deputy Hauser says",
-   "RBA Nov rate hike bets surge to over 50% after Hauser warning on inflation"
+   "UK inflation and borrowing top forecasts in blow to Healey",
+   "UK's FTSE 100 pauses as hot inflation report outweighs energy boost",
+   "Pound gains against dollar, euro as inflation data cements future rate hike bets"
   ]
  ],
  "brief": [
   {
-   "headline": "SpaceX shares jump on earnings beat and Tesla merger talk",
-   "detail": "SpaceX shares jumped 8% after reporting surging third-quarter revenue growth, and Elon Musk floated a potential SpaceX-Tesla merger that investors are cheering.",
-   "link": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html"
+   "headline": "Tesla earnings loom after Musk backs SpaceX merger idea",
+   "detail": "Tesla is scheduled to update investors a day after SpaceX reported third-quarter results, and Musk called a SpaceX merger a 'good idea'.",
+   "link": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html"
   },
   {
-   "headline": "Netflix slides as weak outlook deepens viewership and revenue worries",
-   "detail": "Netflix shares fell as a weak outlook intensified investor worries about viewership and revenue growth, a story covered by 10 outlets.",
+   "headline": "Anthropic to publicly file for IPO as early as Friday",
+   "detail": "Sources say Anthropic could publicly file for an IPO as early as Friday, a major step for an AI company's listing plans.",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPREpSeVQzcmx3WVBKdmRna3pObmZqMEpoN3hvcGpid1JuZEJRODNnZUg5X19DQmJDT2E5YnRqQTNwbWJwMjVPVXQ2MDBLRmNXd1VMOGFScHl6cE9GWUp3LWc0UTAzcGJtRnJiR1ZqdjNWWkZwVV9OX0Y5WkVER2RMMHhmZVBjYVR5aVN2ME1nd3BNNWdQNTFGOTMtM245MGpEOGhRTFNqSlZ0bnBwQmRHZVlLeXJOVFhCZDd3TEpnNA?oc=5"
+  },
+  {
+   "headline": "Netflix slides on weak outlook and growth worries",
+   "detail": "Netflix shares fell as its weak outlook deepened worries about viewership and revenue growth, according to Reuters.",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR2NMX1phWXZ5OFZOZ09LVXF1R1Q0ckJfS0JwMm9sTFRfakN1QlVqWUwyUk8zV1UtZWFsbkRXNm01Q2N0TEdrUEtCQWJqeHVkOS14SWNHSkkwVUJGSVhKZnRPSkd5dG9FZ1hBYmFzbC15VlczeUdzamhiVFBGYWVQTTNoeG9vVjRfYjZTN3Q5MHp1OEswenI2d1NyMDRnT1AyOEFsMlIwbjRGZmI1aEZaLXlkQUQ1WWVHMm9oUW9fMFk?oc=5"
   },
   {
-   "headline": "Jio Platforms IPO fully subscribed in under 100 minutes",
-   "detail": "Jio Platforms' IPO was fully subscribed in under 100 minutes in a record-breaking debut, with IPO inflows also lifting the rupee.",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX2NlZXUxRVE3ZE5MOEQzeXcwM29KZnBKX1R0SE1LZjhDMU5sd0RTNEtZT2RxV3BDOGREbDhqYUxqWjA1cFQzWW1nYzRReHY3MndBV3BWcDVpTUx2WjVrdEl4MU1qbEtKVUZMY2RlYnRmRkVOYXZvTmNBMmljQUFaT0xNY25uR045eFBQbGFrbDZmaTRqR3E2M1ZYX1h4ZXBQUmJqbXNZT2oySkxDNXZiU09PTjhxNTRFTG9kakhnbk_SAcYBQVVfeXFMTkhDTG1nTHdvTThWX2RFTEpfNVpyS0hJdmhGQlBJM09acXgzZ3RBWUJHSllZNmhIUGViNGtlSUtjUk1zTkFUVWw4ejRxU3VQa0otWEFvUlZXejRFVzExVWpBTU1IN1BpUktxWWNzR3R4UEJOWUVvemgwSENSb2JpSGxnWDIxYXE5QWV1WE9iZ01YbDVPc2JSVTB3TmlSbUJCbGJNaDlpUW02cXJwc09JNXgyYS0tYjQ2Wm45aXMxQXNGdlp6WlhR?oc=5"
+   "headline": "GCash parent Mynt posts record $1 billion IPO debut",
+   "detail": "Mynt, the parent of GCash, made a record-breaking $1 billion IPO debut, a deal covered by 10 outlets.",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbENmeEZHMWpiLUl2aG1tQVZCeEJjdkk1YUZjcnF0ekJRYU5WTUZMWWx3ZGNxa3BZYnQ3cVZ0ODNvTnJGdEg0ZFdiQ2xCRV9LTUZNelBNUmFfOUJ5a3JuNGlLdnRxQnVtOWlOcVdEYk85UmhsNmw2ZjBlWnA0OG1RMEFkYlhuX21qUEJ1UFB5dlEzcE5SV19aUktvSDdfMG1VNTFwUy1YY0o2WUh00gGyAUFVX3lxTE5SNGdobGU1U1FDb0I4ZXo0YWFiWDR2X05vYm45VEdJNy1QVXhNemk3VlFoV2ZZeG5RcjM4WGVza0c1Z0ZXRFU3N29aU3RYOFVha0hIdndUeW5veWFGbFIxbnBnZ29ZUDMyRW9uR1gxTnFHczhrTEpSM1RmVTNBRnd6aFNfRnFtMTlnTGJNSHkxTnc1UnJMRHpfeWc1UUFIckNMVXRWSHVXdHpjS3BIUk9CQmc?oc=5"
   },
   {
-   "headline": "United Airlines slashes 2026 profit outlook on fuel prices",
-   "detail": "United Airlines cut its annual profit outlook as fuel prices kept climbing, though travelers continue booking despite higher fares.",
-   "link": "https://www.cnbc.com/2026/10/20/united-airlines-ual-3q-2026-earnings.html"
-  },
-  {
-   "headline": "eBay to cut 9% of workforce in second round of 2026 job cuts",
-   "detail": "eBay will eliminate 9% of its workforce, according to a person familiar with the matter, marking its second round of job cuts this year.",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-21/ebay-to-cut-9-of-staff-to-streamline-operations-reuters-says"
+   "headline": "US stocks rise as SpaceX earnings boost AI trade",
+   "detail": "U.S. stocks rose as SpaceX earnings lifted the AI trade, according to WSJ coverage picked up by five outlets.",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSmEtOENDbk1wMmlSbkM0MHdhdTNrM245Y09fcWJYZHlVVWJZakV1cVFVRjhXMThHb0lHTHU5dE5RVEdYdHpZTS13UVk2MWlZWjB3czlQTFd5MVp1QlJ6QWthV2tlc3pmVTlKQU9FYmtQVklNYk1STzR3TTg4Qk94Y0hIeGFoSTVxOUJ2YWVUcw?oc=5"
   }
  ],
  "summaries": {
-  "requested": 24,
+  "requested": 21,
   "rejected_ungrounded": 0,
-  "applied": 23
+  "applied": 21
  },
- "generated": "2026-10-21T15:49+00:00",
- "total_cost_usd": 0.00362
+ "generated": "2026-10-21T18:55+00:00",
+ "total_cost_usd": 0.00459
 }
