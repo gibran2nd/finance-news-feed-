@@ -4,85 +4,69 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12353,
-   "output_tokens": 3439,
-   "cost_usd": 0.00295
+   "input_tokens": 13086,
+   "output_tokens": 3727,
+   "cost_usd": 0.00317
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3285,
-   "output_tokens": 3335,
-   "cost_usd": 0.002
+   "input_tokens": 3403,
+   "output_tokens": 1766,
+   "cost_usd": 0.00122
   }
  ],
  "errors": [],
  "merge_groups": [
   [
+   "Meta stock sinks 7% as AI spend pushes free cash flow negative",
+   "Meta’s credit risk indicator jumps to record high after results"
+  ],
+  [
    "American Airlines forecasts bigger loss in 2026 on fuel spike, plans to slow growth next year",
    "American Airlines Cuts Full-Year Outlook Again as Fuel Costs Climb"
   ],
   [
-   "Meta sell-off drags US tech stocks lower as AI spending fears flare up",
-   "Meta falls as investors balance Muse growth with rising AI costs"
+   "Procter & Gamble earnings beat as sales rise 4%, boosted by laundry and home products",
+   "Spotify Rallies on Subscribers; Hermès falls on China Sales | Stock Movers"
   ],
   [
-   "Meta’s Zuckerberg Tax Strategy Explained",
-   "Meta wants to pay for its broad AI buildout with a newly created class of stock"
-  ],
-  [
-   "Fireblocks pours cold water on reports of $2.5bn acquisition talks with Visa",
-   "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa"
-  ],
-  [
-   "Jobless claims near the lowest since the 1960s as low-fire trend continues",
-   "US Initial Jobless Claims Fall to Three-Month Low of 194,000"
-  ],
-  [
-   "Turkey Cuts Interest Rate for First Time Since Start of Iran War",
-   "Turkey Delivers Cautious Rate Cut, Leaves Room for Another"
-  ],
-  [
-   "Lockheed Martin Bumps Up Yearly Outlook as Backlog Hits Record",
+   "Lockheed Martin Raises Full-Year Outlook Following Third-Quarter Beat; Shares Jump",
    "Lockheed lifts annual forecast as missile, jet production ramps up"
-  ],
-  [
-   "IBM Q3: A Beat On Everything, Except For Guidance",
-   "IBM maintains full-year outlook as software growth lifts margins"
   ]
  ],
  "brief": [
   {
-   "headline": "Tesla shares slip after capex cut",
-   "detail": "Tesla shares slipped after a capex cut raised doubts over Musk's AI and robotics push.",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU2hUYVoxVEgxUmdpSW1qZ0ZlcTJnRUJPLVhjUS12cExoTDBZbFlfNHVmejZoVFhBZ3VxNTc1NThRVkZnVTNvVUJXYThLcTduSjlGVkVlX0xiTDhNSkNjN09lblZJeVZEWW9BZXRqS05PY2tBRUxzU3NaSFlxdDY2V1JGMHBpbFdzRlIwTlRXQ2twVHN5MEhIQjVIMXJQVzlzWHo5aFo2alM4X1hjSlBEcGVlZ0V3WHhrN2cybWxKTU5Edw?oc=5"
+   "headline": "EQT to buy Qiagen for $12.1B, taking it private",
+   "detail": "EQT agreed to acquire diagnostics provider Qiagen for $12.1 billion and plans to take it private.",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORE51N0EzdGxYYXVoYVh2ZjNfamhtRlcwZ2g2QXRZem9tU3AxMWk3ZVFrTXlVbGlPcm96WTZMUmFJSUo1VEd2TXpHT0hSZ1VKc3cyWTI5dW9zREhPR0FQd3J5b1kwMmVzWGJScnlpRTRkTTVWNU94bWl5UklYc3AxMDNBdnE0TXJONmlEblJRb2ROVFRBUXpnS0lBY0xYUE02bEdRdEw5X1JIdG5aNUtKM3pqSExxUl8yM2E5N0hMQVZvX2xwbXVPcA?oc=5"
   },
   {
-   "headline": "EQT leads €10.8B Qiagen take-private",
-   "detail": "EQT leads a €46.50-a-share buyout of Qiagen in a €10.8B take-private, a major private equity deal.",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY1VpWDVhZWs2NmdMQzR6UXk2ZTVLY0hEYTlXcHFWMEdBbU02NDJ5MW9mU2x0bmNuay1LWmpCTURBeEZoLXBSbUxHZEFkX0pfWWNQMC10bjhtOGZjWDM3ZWhHS3lTelFMYXZqbVpKUnJOZzhZWWlTMHduUWxKN0NjZE9pb2JISjZIbTZaV05sZmIzVWhwSUc2cE45dno?oc=5"
+   "headline": "Meta shares sink 7% on AI spending",
+   "detail": "Meta stock fell 7% as AI spend pushed free cash flow negative, and its five-year credit default swap prices hit all-time highs.",
+   "link": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
   },
   {
-   "headline": "Barclays to cut 5,000 jobs via AI",
-   "detail": "Barclays is set to slash 5,000 jobs in an AI-powered cost-cutting drive.",
-   "link": "https://www.investing.com/news/economy-news/barclays-to-slash-5000-jobs-in-aipowered-costcutting-drive-4965189"
+   "headline": "Musk pours $366M into campaigns; SpaceX, Tesla stakes high",
+   "detail": "Musk's largest political bet is on the Senate, where control could shape investigations, federal spending and regulations affecting SpaceX and Tesla.",
+   "link": "https://www.cnbc.com/2026/10/22/elon-musk-midterm-election-spacex-tesla.html"
   },
   {
-   "headline": "Meta plans new stock class to fund AI",
-   "detail": "Meta plans a newly created class of stock to help pay for its broad AI models and services buildout.",
-   "link": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/"
+   "headline": "American Airlines cuts 2026 forecast again on fuel costs",
+   "detail": "American forecasts a bigger 2026 loss on a fuel spike and is the fourth major U.S. carrier to cut its forecast this month.",
+   "link": "https://www.cnbc.com/2026/10/22/american-airlines-aal-q3-2026-earnings.html"
   },
   {
-   "headline": "Meta sell-off drags tech stocks on AI spending",
-   "detail": "Meta's market value fell more than $100bn after it forecast 'hundreds of billions of dollars' in spending, dragging US tech stocks lower.",
-   "link": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1"
+   "headline": "Meta faces $25 billion penalty in New Mexico case",
+   "detail": "A landmark courtroom victory this week against Meta gives New Mexico's attorney general a $25 billion penalty, a major win for the state.",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-22/meta-s-25-billion-penalty-is-massive-win-for-ag-in-small-state"
   }
  ],
  "summaries": {
   "requested": 25,
   "rejected_ungrounded": 0,
-  "applied": 23
+  "applied": 20
  },
- "generated": "2026-10-22T15:46+00:00",
- "total_cost_usd": 0.00495
+ "generated": "2026-10-22T18:50+00:00",
+ "total_cost_usd": 0.00439
 }
