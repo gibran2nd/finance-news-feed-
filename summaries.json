@@ -2,19 +2,19 @@
   {
     "week": "2026-W43",
     "label": "Week of October 19\u201323, 2026",
-    "generated": "2026-10-22T00:04:33.636232+00:00",
+    "generated": "2026-10-22T05:05:46.635560+00:00",
     "bullets": [
-      {
-        "headline": "Elon Musk\u2019s SpaceX reports a profit and he hints at a possible merger with Tesla",
-        "source": "AP",
-        "section": "Stock Market & Equities",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYlJVZExxcE9vRWtKZWQwc3pCMHQ3SUdoaC15bW1qam9DNFVRYzliR05EZk9rVm1yeEhOVnEwQm0zVndrVjhPTlZmVncweWtrZlFmUEtJdGxwbFlDMFZyaFU1MmIwYmtoQW1xRHJOMmZnbG1tYkdGWlRyVWViWGFMcVl1T0N6U09yb3I0ZHdUaVZhWHcyM0E?oc=5"
-      },
       {
         "headline": "Netflix slides as weak outlook deepens worries on viewership, revenue growth",
         "source": "Reuters",
         "section": "Stock Market & Equities",
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR2NMX1phWXZ5OFZOZ09LVXF1R1Q0ckJfS0JwMm9sTFRfakN1QlVqWUwyUk8zV1UtZWFsbkRXNm01Q2N0TEdrUEtCQWJqeHVkOS14SWNHSkkwVUJGSVhKZnRPSkd5dG9FZ1hBYmFzbC15VlczeUdzamhiVFBGYWVQTTNoeG9vVjRfYjZTN3Q5MHp1OEswenI2d1NyMDRnT1AyOEFsMlIwbjRGZmI1aEZaLXlkQUQ1WWVHMm9oUW9fMFk?oc=5"
+      },
+      {
+        "headline": "Elon Musk\u2019s SpaceX reports a profit and he hints at a possible merger with Tesla",
+        "source": "AP",
+        "section": "Stock Market & Equities",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYlJVZExxcE9vRWtKZWQwc3pCMHQ3SUdoaC15bW1qam9DNFVRYzliR05EZk9rVm1yeEhOVnEwQm0zVndrVjhPTlZmVncweWtrZlFmUEtJdGxwbFlDMFZyaFU1MmIwYmtoQW1xRHJOMmZnbG1tYkdGWlRyVWViWGFMcVl1T0N6U09yb3I0ZHdUaVZhWHcyM0E?oc=5"
       },
       {
         "headline": "Anthropic in talks with neocloud Nscale over second multibillion-dollar deal, source tells CNBC",
@@ -23,16 +23,16 @@
         "link": "https://www.cnbc.com/2026/10/20/anthropic-nscale-data-center-deal.html"
       },
       {
-        "headline": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/"
-      },
-      {
-        "headline": "Mastercard launches AI-powered benefits assistant",
+        "headline": "Mynt IPO breaks records in Philippines",
         "source": "Finextra",
         "section": "Tech & Fintech",
-        "link": "https://www.finextra.com/pressarticle/111395/mastercard-launches-ai-powered-benefits-assistant?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "link": "https://www.finextra.com/newsarticle/48613/mynt-ipo-breaks-records-in-philippines?utm_medium=rssfinextra&utm_source=finextrafeed"
+      },
+      {
+        "headline": "Mastercard Launches Stablecoin Security as Banks Face New Fraud and Compliance Risks",
+        "source": "FinanceFeeds",
+        "section": "Tech & Fintech",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUjRMQnRRdWRpemdWNjZNQVJaQXhpWjlXd2RyMmdaWGhteTF6ZWlrYmxCVWMwRU9TWGhlMVRYM2ppaWhKcWdiTTVDX2dqNVVKTVRsSUd6UU96MXpjYjd4eGp5SjJNRVgtV2tiZjcyb0VBdmtpZDRtR1JIQ043eE1wcjN6b253MjJRbl92bF8tNWhBVUFHV0xkWHZQeGxnUjA0eDEybC1OeGhZeXNCbG9j?oc=5"
       },
       {
         "headline": "NAR pending home sales index falls to record low in September",
@@ -42,12 +42,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 545,
-      "Macro & Economy": 328,
-      "Investment Banking & Deals": 368,
-      "Real Estate & REITs": 308,
-      "Earnings & Results": 455,
-      "Tech & Fintech": 501
+      "Stock Market & Equities": 589,
+      "Macro & Economy": 356,
+      "Investment Banking & Deals": 386,
+      "Real Estate & REITs": 315,
+      "Earnings & Results": 482,
+      "Tech & Fintech": 515
     }
   },
   {
