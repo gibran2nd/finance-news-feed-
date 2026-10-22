@@ -4,16 +4,16 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 13086,
-   "output_tokens": 3727,
-   "cost_usd": 0.00317
+   "input_tokens": 13247,
+   "output_tokens": 1789,
+   "cost_usd": 0.00222
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3403,
-   "output_tokens": 1766,
-   "cost_usd": 0.00122
+   "input_tokens": 3346,
+   "output_tokens": 1659,
+   "cost_usd": 0.00116
   }
  ],
  "errors": [],
@@ -23,50 +23,42 @@
    "Meta’s credit risk indicator jumps to record high after results"
   ],
   [
-   "American Airlines forecasts bigger loss in 2026 on fuel spike, plans to slow growth next year",
-   "American Airlines Cuts Full-Year Outlook Again as Fuel Costs Climb"
-  ],
-  [
-   "Procter & Gamble earnings beat as sales rise 4%, boosted by laundry and home products",
-   "Spotify Rallies on Subscribers; Hermès falls on China Sales | Stock Movers"
-  ],
-  [
-   "Lockheed Martin Raises Full-Year Outlook Following Third-Quarter Beat; Shares Jump",
-   "Lockheed lifts annual forecast as missile, jet production ramps up"
+   "French debt risk premium reaches euro zone sovereign crisis levels",
+   "French Government-Bond Yields Jump, Spread Widens as Treasury Yields Fall"
   ]
  ],
  "brief": [
   {
-   "headline": "EQT to buy Qiagen for $12.1B, taking it private",
-   "detail": "EQT agreed to acquire diagnostics provider Qiagen for $12.1 billion and plans to take it private.",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORE51N0EzdGxYYXVoYVh2ZjNfamhtRlcwZ2g2QXRZem9tU3AxMWk3ZVFrTXlVbGlPcm96WTZMUmFJSUo1VEd2TXpHT0hSZ1VKc3cyWTI5dW9zREhPR0FQd3J5b1kwMmVzWGJScnlpRTRkTTVWNU94bWl5UklYc3AxMDNBdnE0TXJONmlEblJRb2ROVFRBUXpnS0lBY0xYUE02bEdRdEw5X1JIdG5aNUtKM3pqSExxUl8yM2E5N0hMQVZvX2xwbXVPcA?oc=5"
-  },
-  {
-   "headline": "Meta shares sink 7% on AI spending",
-   "detail": "Meta stock fell 7% as AI spend pushed free cash flow negative, and its five-year credit default swap prices hit all-time highs.",
-   "link": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
-  },
-  {
-   "headline": "Musk pours $366M into campaigns; SpaceX, Tesla stakes high",
-   "detail": "Musk's largest political bet is on the Senate, where control could shape investigations, federal spending and regulations affecting SpaceX and Tesla.",
+   "headline": "SpaceX and Tesla face high stakes as Musk spends $366 million",
+   "detail": "Musk's biggest political bet is on the Senate, where control could shape investigations, federal spending and regulations affecting SpaceX and Tesla.",
    "link": "https://www.cnbc.com/2026/10/22/elon-musk-midterm-election-spacex-tesla.html"
   },
   {
-   "headline": "American Airlines cuts 2026 forecast again on fuel costs",
-   "detail": "American forecasts a bigger 2026 loss on a fuel spike and is the fourth major U.S. carrier to cut its forecast this month.",
-   "link": "https://www.cnbc.com/2026/10/22/american-airlines-aal-q3-2026-earnings.html"
+   "headline": "EQT to acquire Qiagen for $12.1B, taking it private",
+   "detail": "EQT agreed to acquire Qiagen for $12.1 billion and plans to take the tools and diagnostics provider private.",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORE51N0EzdGxYYXVoYVh2ZjNfamhtRlcwZ2g2QXRZem9tU3AxMWk3ZVFrTXlVbGlPcm96WTZMUmFJSUo1VEd2TXpHT0hSZ1VKc3cyWTI5dW9zREhPR0FQd3J5b1kwMmVzWGJScnlpRTRkTTVWNU94bWl5UklYc3AxMDNBdnE0TXJONmlEblJRb2ROVFRBUXpnS0lBY0xYUE02bEdRdEw5X1JIdG5aNUtKM3pqSExxUl8yM2E5N0hMQVZvX2xwbXVPcA?oc=5"
   },
   {
-   "headline": "Meta faces $25 billion penalty in New Mexico case",
-   "detail": "A landmark courtroom victory this week against Meta gives New Mexico's attorney general a $25 billion penalty, a major win for the state.",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-22/meta-s-25-billion-penalty-is-massive-win-for-ag-in-small-state"
+   "headline": "Meta stock sinks 7% as AI spending pushes free cash flow negative",
+   "detail": "Prices for Meta's five-year credit default swaps are reaching all-time highs as investors signal growing credit concerns.",
+   "link": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
+  },
+  {
+   "headline": "AI stocks undercut markets worldwide as oil hits highest since May",
+   "detail": "AI stocks weighed on markets worldwide while oil climbed to its highest price since May, according to AP.",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbG9Bb3haUmhvOWFmQ0t6bWoyLThHN0pFV21XNjVOVXpsVmFBUEFhSk9HcC1ZYkV3eFhqT2d1SEFSQldtdm16YVM5UW1nRU5yc1JGRVkteEhNZmx0eEpOck1HdnNXNW1TSnh4YmRHU3dyeGdXdzdUZ3JsdFNHVUZwWEZrQVRXUWtrbHlJbDh1eDBSVU9iOUJScQ?oc=5"
+  },
+  {
+   "headline": "American Airlines forecasts bigger 2026 loss on fuel spike",
+   "detail": "American Airlines is the fourth major U.S. carrier to cut its 2026 forecast this month because of a spike in fuel costs.",
+   "link": "https://www.cnbc.com/2026/10/22/american-airlines-aal-q3-2026-earnings.html"
   }
  ],
  "summaries": {
-  "requested": 25,
+  "requested": 24,
   "rejected_ungrounded": 0,
-  "applied": 20
+  "applied": 21
  },
- "generated": "2026-10-22T18:50+00:00",
- "total_cost_usd": 0.00439
+ "generated": "2026-10-22T20:21+00:00",
+ "total_cost_usd": 0.00338
 }
