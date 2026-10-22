@@ -2,7 +2,7 @@
   {
     "week": "2026-W43",
     "label": "Week of October 19\u201323, 2026",
-    "generated": "2026-10-21T20:24:36.444611+00:00",
+    "generated": "2026-10-22T00:04:33.636232+00:00",
     "bullets": [
       {
         "headline": "Elon Musk\u2019s SpaceX reports a profit and he hints at a possible merger with Tesla",
@@ -23,31 +23,31 @@
         "link": "https://www.cnbc.com/2026/10/20/anthropic-nscale-data-center-deal.html"
       },
       {
+        "headline": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/"
+      },
+      {
+        "headline": "Mastercard launches AI-powered benefits assistant",
+        "source": "Finextra",
+        "section": "Tech & Fintech",
+        "link": "https://www.finextra.com/pressarticle/111395/mastercard-launches-ai-powered-benefits-assistant?utm_medium=rssfinextra&utm_source=finextrafeed"
+      },
+      {
         "headline": "NAR pending home sales index falls to record low in September",
         "source": "HousingWire",
         "section": "Real Estate & REITs",
         "link": "https://www.housingwire.com/articles/pending-home-sales-record-low/"
-      },
-      {
-        "headline": "Meta ordered to pay $25 billion in case related to Cambridge Analytica scandal",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/10/21/meta-ordered-to-pay-25-billion-in-case-related-to-cambridge-analytica-scandal/"
-      },
-      {
-        "headline": "United Airlines faces earnings test as fuel costs squeeze margins",
-        "source": "Investing.com",
-        "section": "Earnings & Results",
-        "link": "https://www.investing.com/news/earnings/united-airlines-faces-earnings-test-as-fuel-costs-squeeze-margins-93CH-4960455"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 508,
-      "Macro & Economy": 313,
-      "Investment Banking & Deals": 355,
-      "Real Estate & REITs": 290,
-      "Earnings & Results": 413,
-      "Tech & Fintech": 479
+      "Stock Market & Equities": 545,
+      "Macro & Economy": 328,
+      "Investment Banking & Deals": 368,
+      "Real Estate & REITs": 308,
+      "Earnings & Results": 455,
+      "Tech & Fintech": 501
     }
   },
   {
