@@ -4,93 +4,77 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12370,
-   "output_tokens": 3429,
-   "cost_usd": 0.00295
+   "input_tokens": 12507,
+   "output_tokens": 3436,
+   "cost_usd": 0.00297
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2837,
-   "output_tokens": 2749,
-   "cost_usd": 0.00166
+   "input_tokens": 2612,
+   "output_tokens": 1186,
+   "cost_usd": 0.00085
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "IPO listings, share price today: Tonbo Imaging vs Zetwerk vs Bonfiglioli vs Sahajanand - Who won debut race on NSE, BSE?",
-   "Zetwerk Shares List At 5.5% Premium, Stock Makes Positive Market Debut At ₹159.25 On NSE"
-  ],
-  [
    "Volvo Cars plunges 22% as CEO says China sales slump came 'faster than we thought'",
    "Volvo Cars shares in record plunge on widening losses, job cuts"
+  ],
+  [
+   "American Express Plans to Cut 5% of Global Jobs. The Stock Is Falling on Earnings.",
+   "AmEx lifts 2026 profit forecast, plans to cut 5% of workforce"
   ],
   [
    "SK Hynix Stock Jumps After Scrapping U.S. IPO of Memory-Chip Unit",
    "SK Hynix shares rebound after initial drop on scrapped Solidigm IPO plans"
   ],
   [
-   "BASF raises Evonik offer to €24 a share, sources say",
-   "BASF Increases Bid for Chemicals Rival Evonik to Over €11 Billion"
-  ],
-  [
-   "Jio’s Record IPO Draws Strong Demand, Defying India Market Rout",
-   "Ambani's Jio becomes most subscribed Indian IPO with $77 billion in bids"
-  ],
-  [
-   "Infosys Q2 net profit rises 6.4% to ₹7,838 cr, cuts guidance on weak demand",
-   "Infosys cuts forecast as AI spending shift deepens North America slowdown"
-  ],
-  [
-   "American Express is slashing around 3,500 jobs globally in an attempt to put a cap on rising costs",
-   "AmEx lifts 2026 profit forecast, plans to cut 5% of workforce"
-  ],
-  [
    "US business activity cools in October; strong demand fueling price pressures",
    "US Business Activity Expands, Prices Surge Most Since 2022"
   ],
   [
-   "US Consumer Sentiment Slips to Five-Month Low on Inflation Woes",
+   "US Consumer Sentiment Slips to Five-Month Low on Inflation",
    "Consumer Sentiment Declined Slightly in October"
   ],
   [
-   "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
-   "Bloom Energy slides as Q3 beat-and-raise clouded by cash outflows, expansion costs"
+   "Infosys cuts forecast as AI spending shift deepens North America slowdown",
+   "Infosys cuts guidance; Zetwerk's muted market debut"
   ]
  ],
  "brief": [
   {
-   "headline": "HSBC launches regulated RedCoin stablecoin for PayMe users",
-   "detail": "HSBC launched a regulated stablecoin called RedCoin for 3.3 million PayMe users and payments at 100,000 merchants, a story covered by 25 outlets.",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNHljTGxIQy1uSVpBQWlCRnc5Q2R0dlowQjMybEdqcjhyNjRkN01BS0lqWDF2ZE8wa1JPMy15ZnNGYlJEaWIzWUdrZVBnYTBab1FWYTh5VTJIbmEwRkFLeFhMRjFWMk1ZNnRDM0x1WnhRNU1mSmUxMC1LMjFHVnlJMFhvQ3NaQVF6NWhaSDJIVXpUaFpzclBxUmROUFl2cGNsd3BSVW1fVE1NTkoxM1M1OUVPankzOUdtbS1UU054NXNIcWhBZUZZ?oc=5"
+   "headline": "HSBC launches first stablecoin for Hong Kong dollar payments",
+   "detail": "HSBC's new stablecoin brings Hong Kong dollar payments to 3.3 million users, a launch covered by 28 outlets.",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeTlEZ1JIQnVuM0RjS05fVklTUG9ONUNDSVpCQUo0bzE4c3JVZkxTZnJYbGh2ZnhiXzhkZUg4eHMzSlhPUEZuaWpiRk9vbHZaM1VVUzg5OWNuVG9STGV2VFIyU1FZblAxN05wYkx5UVJ0SVAxN294b2p5Q1ZLNmhMQUpIN1VmQ05yc0pZWmdYRFNBSXlqMk1vc05OeW8?oc=5"
   },
   {
-   "headline": "OpenAI targets $1.25 trillion valuation in new funding round",
-   "detail": "OpenAI is targeting a $1.25 trillion valuation in a new funding round, as a rout in the AI trade faded and gave global stock investors some respite.",
-   "link": "https://www.bloomberg.com/news/videos/2026-10-23/the-pulse-10-232026-video"
+   "headline": "Wall Street falls as AI-led selloff hits stocks",
+   "detail": "Wall Street dipped after an AI-led selloff, with SpaceX worries also hitting telecom stocks, according to Reuters.",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQR01KeXBjdXBubVRzTlJfWWJTMHctb2hFS2pVT21ydWtZNzBaMldxd1c2ZUJGNWhIeGV6MUxvQVZvSl9GdFh5QThQbFpuT0IwYi02Y3JGM19YSWJ3LXMtb29RbS1WZUljdGtsS2dockxHVm5SWnBSMzJpM0Y4RFItdW5SMzFsdXg2LWtrYWE1SC1TQlkxOERJZHNtQVREdw?oc=5"
   },
   {
-   "headline": "Jio's record IPO draws strong demand despite India market rout",
-   "detail": "Jio Platforms' $3.1 billion IPO drew strong institutional demand, defying an India market rout and making it the country's biggest-ever share sale.",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-23/jio-s-record-ipo-draws-strong-demand-defying-india-market-rout"
+   "headline": "Four Indian IPOs list today: Tonbo, Zetwerk, Bonfiglioli, Sahajanand",
+   "detail": "Tonbo, Zetwerk, Bonfiglioli and Sahajanand listed in today's IPOs, a session covered by eight outlets.",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUktoZ2FwLVdzSVcwMkN3czNTRTVxSlZtcTBpYXBiaUdOVEd5S00zV19NUVhEYkZwSHlFUE12eTNUZ19iOU1XMkhBV0pqNl9vTUhRRWpyNG5rZnFteWpwRFNzMEZhTEV0YUxFcURjbVBQNVZNa3RWMkhPTkZNNTFNZmdwN0dLYTZBTjlJblVNQk1tQ1Q2VUctM2QyYjI1a1M5cmZFbDFySDg4REdBTG9NZjFlSmZTeThrUDhoY01KbzdxeDRZTTBNNjNENDZwRUU2bTg3SmpXYw?oc=5"
   },
   {
-   "headline": "BASF raises Evonik takeover bid to over €11 billion",
-   "detail": "BASF has boosted its takeover offer for Evonik Industries to more than €11 billion ($12.3 billion), according to people familiar with the matter.",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-23/basf-increases-bid-for-chemicals-rival-evonik-to-over-11-billion"
+   "headline": "Anthropic IPO seen driving gains for Iconiq, Spark, GIC",
+   "detail": "Anthropic's upcoming IPO is expected to drive large gains for investors Iconiq, Spark and GIC, per Yahoo Finance.",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTXN5QU96R0tFUVNHOWRWZDhqOTBGSGZmWUlmZ09MZFFNalEtYmlsSlVOUXFOY09SWFhjRml1bkZZYUxTU1JWN1gzb0NEeHBLNlUtbGd0MFk1cGExTFJXUWh6RG45Q2lOWkhPMGFGMGEyWk0wNWhMVUpnaFhlSVRQTWEtdU81M3Nsa29DSzRVMA?oc=5"
   },
   {
-   "headline": "Euro sinks on French debt worries as yen gains on AI rout",
-   "detail": "The euro fell on French debt worries while the yen gained during an AI-driven rout, a currency move relevant to traders watching global markets.",
-   "link": "https://www.investing.com/news/economy-news/yen-shines-as-ai-jitters-spur-safehaven-rush-4967941"
+   "headline": "Meta says AI spending is exploding, but so is opportunity",
+   "detail": "Meta's heavy AI spending is rising sharply, but the company argues the opportunity ahead is growing as well.",
+   "link": "https://seekingalpha.com/article/4956924-meta-ai-spending-is-exploding-but-so-is-the-opportunity?source=feed_tag_earnings"
   }
  ],
  "summaries": {
-  "requested": 20,
-  "rejected_ungrounded": 0,
-  "applied": 20
+  "requested": 18,
+  "rejected_ungrounded": 1,
+  "applied": 16
  },
- "generated": "2026-10-23T15:37+00:00",
- "total_cost_usd": 0.00461
+ "generated": "2026-10-23T18:43+00:00",
+ "total_cost_usd": 0.00382
 }
