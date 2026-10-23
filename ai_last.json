@@ -4,77 +4,77 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12507,
-   "output_tokens": 3436,
-   "cost_usd": 0.00297
+   "input_tokens": 13179,
+   "output_tokens": 2861,
+   "cost_usd": 0.00275
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2612,
-   "output_tokens": 1186,
-   "cost_usd": 0.00085
+   "input_tokens": 2945,
+   "output_tokens": 1406,
+   "cost_usd": 0.001
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Volvo Cars plunges 22% as CEO says China sales slump came 'faster than we thought'",
-   "Volvo Cars shares in record plunge on widening losses, job cuts"
-  ],
-  [
    "American Express Plans to Cut 5% of Global Jobs. The Stock Is Falling on Earnings.",
    "AmEx lifts 2026 profit forecast, plans to cut 5% of workforce"
+  ],
+  [
+   "Volvo Cars plunges 22% as CEO says China sales slump came 'faster than we thought'",
+   "Volvo Cars shares in record plunge on widening losses, job cuts"
   ],
   [
    "SK Hynix Stock Jumps After Scrapping U.S. IPO of Memory-Chip Unit",
    "SK Hynix shares rebound after initial drop on scrapped Solidigm IPO plans"
   ],
   [
-   "US business activity cools in October; strong demand fueling price pressures",
-   "US Business Activity Expands, Prices Surge Most Since 2022"
+   "Housing leaders weigh in on Trump’s scaled-back EO",
+   "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers"
   ],
   [
    "US Consumer Sentiment Slips to Five-Month Low on Inflation",
    "Consumer Sentiment Declined Slightly in October"
   ],
   [
-   "Infosys cuts forecast as AI spending shift deepens North America slowdown",
-   "Infosys cuts guidance; Zetwerk's muted market debut"
+   "Earnings Central: Infosys cuts guidance, IndusInd rebounds, JSW Steel and Adani Power shine, Friday had it all",
+   "Infosys cuts forecast as AI spending shift deepens North America slowdown"
   ]
  ],
  "brief": [
   {
    "headline": "HSBC launches first stablecoin for Hong Kong dollar payments",
-   "detail": "HSBC's new stablecoin brings Hong Kong dollar payments to 3.3 million users, a launch covered by 28 outlets.",
+   "detail": "HSBC launched its first stablecoin, bringing Hong Kong dollar payments to 3.3 million users, a launch covered by 27 outlets.",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeTlEZ1JIQnVuM0RjS05fVklTUG9ONUNDSVpCQUo0bzE4c3JVZkxTZnJYbGh2ZnhiXzhkZUg4eHMzSlhPUEZuaWpiRk9vbHZaM1VVUzg5OWNuVG9STGV2VFIyU1FZblAxN05wYkx5UVJ0SVAxN294b2p5Q1ZLNmhMQUpIN1VmQ05yc0pZWmdYRFNBSXlqMk1vc05OeW8?oc=5"
   },
   {
-   "headline": "Wall Street falls as AI-led selloff hits stocks",
-   "detail": "Wall Street dipped after an AI-led selloff, with SpaceX worries also hitting telecom stocks, according to Reuters.",
+   "headline": "Wall Street dips after AI-led selloff",
+   "detail": "US stocks fell after an AI-led selloff, with SpaceX worries also hitting telecom shares, a move that matters for market sentiment.",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQR01KeXBjdXBubVRzTlJfWWJTMHctb2hFS2pVT21ydWtZNzBaMldxd1c2ZUJGNWhIeGV6MUxvQVZvSl9GdFh5QThQbFpuT0IwYi02Y3JGM19YSWJ3LXMtb29RbS1WZUljdGtsS2dockxHVm5SWnBSMzJpM0Y4RFItdW5SMzFsdXg2LWtrYWE1SC1TQlkxOERJZHNtQVREdw?oc=5"
   },
   {
-   "headline": "Four Indian IPOs list today: Tonbo, Zetwerk, Bonfiglioli, Sahajanand",
-   "detail": "Tonbo, Zetwerk, Bonfiglioli and Sahajanand listed in today's IPOs, a session covered by eight outlets.",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUktoZ2FwLVdzSVcwMkN3czNTRTVxSlZtcTBpYXBiaUdOVEd5S00zV19NUVhEYkZwSHlFUE12eTNUZ19iOU1XMkhBV0pqNl9vTUhRRWpyNG5rZnFteWpwRFNzMEZhTEV0YUxFcURjbVBQNVZNa3RWMkhPTkZNNTFNZmdwN0dLYTZBTjlJblVNQk1tQ1Q2VUctM2QyYjI1a1M5cmZFbDFySDg4REdBTG9NZjFlSmZTeThrUDhoY01KbzdxeDRZTTBNNjNENDZwRUU2bTg3SmpXYw?oc=5"
+   "headline": "OpenAI targets $1.25 trillion valuation in new funding",
+   "detail": "OpenAI wants to raise around $30 billion in a fresh funding round that could value the ChatGPT maker at $1.25 trillion, per people familiar.",
+   "link": "https://www.bloomberg.com/news/videos/2026-10-23/openai-sets-target-valuation-of-1-25-trillion-video"
   },
   {
-   "headline": "Anthropic IPO seen driving gains for Iconiq, Spark, GIC",
-   "detail": "Anthropic's upcoming IPO is expected to drive large gains for investors Iconiq, Spark and GIC, per Yahoo Finance.",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTXN5QU96R0tFUVNHOWRWZDhqOTBGSGZmWUlmZ09MZFFNalEtYmlsSlVOUXFOY09SWFhjRml1bkZZYUxTU1JWN1gzb0NEeHBLNlUtbGd0MFk1cGExTFJXUWh6RG45Q2lOWkhPMGFGMGEyWk0wNWhMVUpnaFhlSVRQTWEtdU81M3Nsa29DSzRVMA?oc=5"
+   "headline": "Volvo Cars plunges 22% on China sales slump",
+   "detail": "Volvo Cars shares fell 22% after its CEO said the China sales slump came faster than expected, hurting free cash flow.",
+   "link": "https://www.cnbc.com/2026/10/23/volvo-cars-q3-earnings-job-cuts.html"
   },
   {
-   "headline": "Meta says AI spending is exploding, but so is opportunity",
-   "detail": "Meta's heavy AI spending is rising sharply, but the company argues the opportunity ahead is growing as well.",
-   "link": "https://seekingalpha.com/article/4956924-meta-ai-spending-is-exploding-but-so-is-the-opportunity?source=feed_tag_earnings"
+   "headline": "American Express to cut 5% of global jobs",
+   "detail": "Amex plans to cut 5% of its global workforce and lifted its 2026 profit forecast, while its stock fell on earnings.",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdVppTUl1QlQyejZmMWdpelhSYTRtSHBUX1M1Y0pVN0FsSFpUS1lDbWMxb21LRlAtYzE3blhLVDgxTHROcjVKY2s2TlNHOV8wenROV0hQZVNXSzlPWWlKcGh3NnhGbmRGcFc0bi1ITFUyZDU1dnFTeTBLWngwSExmVE1WUmktRE1wZTdQSw?oc=5"
   }
  ],
  "summaries": {
-  "requested": 18,
-  "rejected_ungrounded": 1,
-  "applied": 16
+  "requested": 22,
+  "rejected_ungrounded": 0,
+  "applied": 22
  },
- "generated": "2026-10-23T18:43+00:00",
- "total_cost_usd": 0.00382
+ "generated": "2026-10-23T20:08+00:00",
+ "total_cost_usd": 0.00375
 }
