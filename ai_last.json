@@ -4,77 +4,69 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 13179,
-   "output_tokens": 2861,
-   "cost_usd": 0.00275
+   "input_tokens": 13485,
+   "output_tokens": 2857,
+   "cost_usd": 0.00278
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2945,
-   "output_tokens": 1406,
-   "cost_usd": 0.001
+   "input_tokens": 2776,
+   "output_tokens": 2734,
+   "cost_usd": 0.00164
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "American Express Plans to Cut 5% of Global Jobs. The Stock Is Falling on Earnings.",
-   "AmEx lifts 2026 profit forecast, plans to cut 5% of workforce"
+   "Stock Selloff Continues as Oil Surges",
+   "American Express profits rise; company plans to cut workforce by 5%, or about 3,500 employees"
   ],
   [
-   "Volvo Cars plunges 22% as CEO says China sales slump came 'faster than we thought'",
-   "Volvo Cars shares in record plunge on widening losses, job cuts"
+   "Instacart in talks with DoorDash and Uber for sale, The Information reports",
+   "Instacart Considers a Potential Sale, Sparking Share Rally"
   ],
   [
-   "SK Hynix Stock Jumps After Scrapping U.S. IPO of Memory-Chip Unit",
-   "SK Hynix shares rebound after initial drop on scrapped Solidigm IPO plans"
+   "Trump to cut Canadian tariffs after pressure from Republicans",
+   "Coffins and Canoes From Canada Get 50% Tariff Under New Trump Order"
   ],
   [
    "Housing leaders weigh in on Trump’s scaled-back EO",
    "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers"
-  ],
-  [
-   "US Consumer Sentiment Slips to Five-Month Low on Inflation",
-   "Consumer Sentiment Declined Slightly in October"
-  ],
-  [
-   "Earnings Central: Infosys cuts guidance, IndusInd rebounds, JSW Steel and Adani Power shine, Friday had it all",
-   "Infosys cuts forecast as AI spending shift deepens North America slowdown"
   ]
  ],
  "brief": [
   {
-   "headline": "HSBC launches first stablecoin for Hong Kong dollar payments",
-   "detail": "HSBC launched its first stablecoin, bringing Hong Kong dollar payments to 3.3 million users, a launch covered by 27 outlets.",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeTlEZ1JIQnVuM0RjS05fVklTUG9ONUNDSVpCQUo0bzE4c3JVZkxTZnJYbGh2ZnhiXzhkZUg4eHMzSlhPUEZuaWpiRk9vbHZaM1VVUzg5OWNuVG9STGV2VFIyU1FZblAxN05wYkx5UVJ0SVAxN294b2p5Q1ZLNmhMQUpIN1VmQ05yc0pZWmdYRFNBSXlqMk1vc05OeW8?oc=5"
+   "headline": "HSBC launches Hong Kong dollar stablecoin for everyday payments",
+   "detail": "HSBC launched a Hong Kong dollar stablecoin for everyday payments, the most widely covered story today with 28 outlets.",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOckFRb0tPUkFndjBMN1dtQ3I5dzBmWkJHaTU5amVtWTdLWlVKbDkyTnprejhNLW1yU2hFSXE3RmpTdFM5MDlGdEQ5MGR2VnVLZm9pZGh3WVRINFVpM1dDaVpfVU1xdFRJM0FNb3lsQk1FX1JSMERWbXI4WlVsM0VpVzlQRmlpZlNJZFNHd0x6MWRfQ0MxTDdHTlMtWGMycklQTFZiT0pn?oc=5"
   },
   {
-   "headline": "Wall Street dips after AI-led selloff",
-   "detail": "US stocks fell after an AI-led selloff, with SpaceX worries also hitting telecom shares, a move that matters for market sentiment.",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQR01KeXBjdXBubVRzTlJfWWJTMHctb2hFS2pVT21ydWtZNzBaMldxd1c2ZUJGNWhIeGV6MUxvQVZvSl9GdFh5QThQbFpuT0IwYi02Y3JGM19YSWJ3LXMtb29RbS1WZUljdGtsS2dockxHVm5SWnBSMzJpM0Y4RFItdW5SMzFsdXg2LWtrYWE1SC1TQlkxOERJZHNtQVREdw?oc=5"
+   "headline": "Anthropic faces pressure over November IPO timing",
+   "detail": "Market pressures could lead Anthropic to stay private and wait, as time is running out to file key paperwork.",
+   "link": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories"
   },
   {
-   "headline": "OpenAI targets $1.25 trillion valuation in new funding",
-   "detail": "OpenAI wants to raise around $30 billion in a fresh funding round that could value the ChatGPT maker at $1.25 trillion, per people familiar.",
+   "headline": "Zetwerk shares list at premium on NSE",
+   "detail": "Zetwerk shares listed at a 5.5% premium and debuted at ₹159.25 on the NSE, covered by seven outlets.",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNjhaUzZYWi1lbjdmdG9nekFjNWFCYjhrVWtWNi1oLTN3OGFQUXBjcHY1V25LSS1jeGtzVER6NEpZTzBZNlcxWlI2TnRHVzRsVFY1a2hZODUzR3duNmMyMlhJRFI0NVhZUDY1SWdaTmRadkhLZ1cxazJFeWFadHZ6WnYwS3dhbWVfYlV0bkgtY1lXNHUwbmZXWHpJQzlyZlhNTVNaYlVWNE1UdGtDWm5NbDhjb015bzRRbFhsYWtUQVItQdIBxwFBVV95cUxOOVpQV0hXVElBemVpSFp3ZDVZUzlkUFZidDZwNUMtd252NW5iWjJxbDJEdC1iVThNSEd6enFpc290WnBWc3A3RXNXNFBJREh6WWVlQXZ3c1M5enhtN0U3V1BvVllMWVcxeWxVOG1TdWUtRm45b1lqVnlJcjJDR1IzS3hXTEo5OWsyeXlyN19WQnZkREhiVDVWbWZ4aGdyWUY1TkJkaDE5d0JsR0xISk9HUzB4S011Qjc5Rkt1LW1fUExnU1BDWE40?oc=5"
+  },
+  {
+   "headline": "OpenAI targets $1.25 trillion valuation in new funding round",
+   "detail": "OpenAI wants to raise around $30 billion in a fresh round that could value the ChatGPT maker at $1.25 trillion.",
    "link": "https://www.bloomberg.com/news/videos/2026-10-23/openai-sets-target-valuation-of-1-25-trillion-video"
   },
   {
-   "headline": "Volvo Cars plunges 22% on China sales slump",
-   "detail": "Volvo Cars shares fell 22% after its CEO said the China sales slump came faster than expected, hurting free cash flow.",
-   "link": "https://www.cnbc.com/2026/10/23/volvo-cars-q3-earnings-job-cuts.html"
-  },
-  {
-   "headline": "American Express to cut 5% of global jobs",
-   "detail": "Amex plans to cut 5% of its global workforce and lifted its 2026 profit forecast, while its stock fell on earnings.",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdVppTUl1QlQyejZmMWdpelhSYTRtSHBUX1M1Y0pVN0FsSFpUS1lDbWMxb21LRlAtYzE3blhLVDgxTHROcjVKY2s2TlNHOV8wenROV0hQZVNXSzlPWWlKcGh3NnhGbmRGcFc0bi1ITFUyZDU1dnFTeTBLWngwSExmVE1WUmktRE1wZTdQSw?oc=5"
+   "headline": "American Express profits rise as it plans job cuts",
+   "detail": "American Express reported rising profits while planning to cut about 3,500 employees, or 5% of its workforce.",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNckVEY1RFUEFnZW9KWG1mUGZjRTR0QmtfNWF2cFo5TzhaZU04NW5xcWhoM0txVERvRkJmd095dV9lNWU5bjk0UzNKSDJlM2YyNUpXRHNkeUt5ZmNySk9HX25QYUxSSGJmRF9wQVlwTF9WaW5HYkNUTWtRMkFYOG1DaWJ3V3VYakhLRDNkNzZaU0s1Y2t0eW9raHhBbFVPVUU?oc=5"
   }
  ],
  "summaries": {
-  "requested": 22,
+  "requested": 20,
   "rejected_ungrounded": 0,
-  "applied": 22
+  "applied": 19
  },
- "generated": "2026-10-23T20:08+00:00",
- "total_cost_usd": 0.00375
+ "generated": "2026-10-23T23:54+00:00",
+ "total_cost_usd": 0.00442
 }
