@@ -4,67 +4,79 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 13360,
-   "output_tokens": 2583,
-   "cost_usd": 0.00263
+   "input_tokens": 12689,
+   "output_tokens": 2820,
+   "cost_usd": 0.00268
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3287,
-   "output_tokens": 1655,
-   "cost_usd": 0.00116
+   "input_tokens": 2514,
+   "output_tokens": 1152,
+   "cost_usd": 0.00083
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Bloom Energy earnings beat by $0.25, revenue topped estimates",
-   "Bloom Energy Lifts Outlook, Logs Higher Profit",
-   "Bloom Energy Smashes Revenue Records With 138% Surge and Raises Guidance, Yet Shares Tumble on Wall Street: What It Means for Investors"
+   "SK Hynix shares rebound after initial drop on scrapped Solidigm IPO plans",
+   "SK Hynix says Solidigm suspends review of US IPO, citing market volatility",
+   "SK Hynix Pulls Plug on Memory-Chip Unit U.S. IPO on Market Jitters"
+  ],
+  [
+   "India's Zetwerk rises over 5% in trading debut after $518 million IPO",
+   "Zetwerk Manufacturing lists at 5% premium over IPO price"
   ],
   [
    "Western Digital Profit Grows on Data Storage Demand, Higher Pricing",
-   "Western Digital earnings beat by $0.56, revenue topped estimates",
-   "Western Digital Falls as AI Worries Overshadow Solid Outlook"
+   "Western Digital earnings beat by $0.56, revenue topped estimates"
   ],
   [
-   "Meta stock sinks 7% as AI spend pushes free cash flow negative",
-   "Meta’s credit risk indicator jumps to record high after results"
+   "Japan core inflation exceeds BOJ target, cements near-term rate hike chance",
+   "Japan core inflation in September surges to its highest this year at 2.1%"
+  ],
+  [
+   "UK consumer confidence tumbles ahead of Healey’s budget, GfK reports",
+   "U.K. Consumer Confidence Suffers Biggest Drop Since Pandemic",
+   "‘Relentless’ cost of living pressures behind collapse in UK consumer confidence"
+  ],
+  [
+   "US Treasury proposes tighter rules on investing in sensitive Chinese tech",
+   "US Proposes Curbs on Investment in Chinese Biotech Firms"
   ]
  ],
  "brief": [
   {
-   "headline": "EQT agrees to buy Qiagen for $12.1B, taking it private",
-   "detail": "EQT plans to acquire Qiagen for $12.1 billion and take the tools and diagnostics provider private.",
+   "headline": "EQT to acquire Qiagen for $12.1 billion",
+   "detail": "EQT agreed to acquire Qiagen for $12.1B and plans to take the tools and diagnostics provider private.",
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORE51N0EzdGxYYXVoYVh2ZjNfamhtRlcwZ2g2QXRZem9tU3AxMWk3ZVFrTXlVbGlPcm96WTZMUmFJSUo1VEd2TXpHT0hSZ1VKc3cyWTI5dW9zREhPR0FQd3J5b1kwMmVzWGJScnlpRTRkTTVWNU94bWl5UklYc3AxMDNBdnE0TXJONmlEblJRb2ROVFRBUXpnS0lBY0xYUE02bEdRdEw5X1JIdG5aNUtKM3pqSExxUl8yM2E5N0hMQVZvX2xwbXVPcA?oc=5"
   },
   {
-   "headline": "Meta stock sinks 7% as AI spend pushes free cash flow negative",
-   "detail": "Prices for Meta's five-year credit default swaps are reaching all-time highs as investors signal growing credit concerns.",
+   "headline": "Meta stock sinks 7% on negative free cash flow",
+   "detail": "Meta shares fell 7% as AI spending pushed free cash flow negative, and its five-year credit default swap prices hit all-time highs.",
    "link": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
   },
   {
-   "headline": "OpenAI eyes $30B raise at $1.25T valuation before IPO",
-   "detail": "TechCrunch reports the round would break records as the most highly valued private company ever.",
+   "headline": "SK Hynix halts review of Solidigm US IPO",
+   "detail": "SK Hynix suspended its review of a U.S. IPO for memory-chip unit Solidigm, citing market volatility.",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNakIxS1gtNjFlNDJKUVl5cUZZTGlsamY3UG5ST0Y5UjEyU1RUSmx2Skh3aXZIRE95MjFUdHdXOFhVZVpRZmVUclRwSVJMNUVnYWFSOXFRRzdYWXNBbDJxZlBMbXlmVGYtQ09KOWtrWnJZTXdEQmRzeHNDUi0tMGJoWXVmaHNqZTkyRm1CQmFUcUE4OEN3YnJWQ2M1cEo0d1hNQ3BzVVVLakd2SXVo?oc=5"
+  },
+  {
+   "headline": "OpenAI eyes $30 billion raise at $1.25 trillion valuation",
+   "detail": "OpenAI is reportedly working on a new $30 billion raise at a $1.25 trillion valuation ahead of an IPO.",
    "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
   },
   {
-   "headline": "SpaceX says Tesla merger would need Musk's approval",
-   "detail": "SpaceX said any potential merger with Tesla would require approval from Elon Musk.",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPekJwbzJpb0hnTHRJeE8yRWNyNzM3QjF2MkQxbzVSak1vNUJmQ3ctRWd2Q2stNTlzcnppeTc4MXRra3pXZHlfVUYtZEptbFN0RWxCa0Jrcl9SRHNaWWJkUkxaUXU3aVRvcGFTRUNwbWdiS2l6RmdpLTdERGdrdzJCMlA4c1hxNHV3a1NYMzRfdUxVRldYc2hkMmxsRXJCY2JCaURRNlZBZTh0UQ?oc=5"
-  },
-  {
-   "headline": "Anthropic IPO filing may come soon as AI stocks slide",
-   "detail": "The Economic Times reports an Anthropic IPO filing may come tomorrow as AI stocks face fresh pressure.",
-   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNendjWmJHdG5qdV9tcHZFSVA1VkRxNTF4bFQwa3dhLWxuR3Zza2ZqWkQtT2Y1Y3FOb0VjRHRrMzI2cHQxdmlmdEdmeFdVMlJTWm1VY3prVU90M0VCTVZ3enZZSV9VTkI0VDRsendHYTI5TDdKQzZZWENLS3RWdC1hV0dUYzlRUDZuc2xZYlhHVVlfSHdNd2tmcVdCcjA0YTVDd0tjak5BS01DVUFnNjllLWVFODV5RXZzZ0RRZ0dPdk42TEtHdU4tQXYzbmFmdWNFV3l3b21YT3lkN2ZiY0Y0Um5Ndm5vTHJ5c1B1Z055MzdQYzBtMWloVDEyNC00SUYwaUFsNlRad29mTDRfX00zVERn0gGXAkFVX3lxTE51NkNYNFhMcUo0ZHNpWXI0UFhDMTY4R0ROMWpKbGZFTVpJQ3l0Ym1nNU43UEdIZC05djhCZVg2Ym5vZXRjdVc5d0hCdnN1bkx3ZEVQSnh4Y2dkOGdSc1hzS1pidzM2RU5xZXdSNWQ5anpXYm5uQ1dFY09OQVZVWkt3N2xKZ0Nfdm5mOXNKUTZuaVRDLXNkUXJiTUR2cmZ6MzBOTjVXS3ljaE5SM2lpc2l6QlRTZHRyZnFxRkphZ29hbGpkeUFOcmxJbFlaSWI1R21oMHFaZ1JnWEZRRDVQNjgzQVNySjE3R0Vzb3Z5TkNQYzJ1NEpjMVVWandtWm5laWJsSndNOU5LekpxU3YzeHRiTlBiYTlwNA?oc=5"
+   "headline": "Houthi attacks on Saudi Arabia push oil higher",
+   "detail": "Houthi rebels stepped up attacks on Saudi Arabia, and Saudi Aramco had to evacuate its headquarters, sending oil higher.",
+   "link": "https://www.bloomberg.com/news/videos/2026-10-22/houthis-step-up-attacks-on-saudi-sending-oil-higher-video"
   }
  ],
  "summaries": {
-  "requested": 23,
-  "rejected_ungrounded": 0,
-  "applied": 22
+  "requested": 18,
+  "rejected_ungrounded": 1,
+  "applied": 17
  },
- "generated": "2026-10-23T00:03+00:00",
- "total_cost_usd": 0.00379
+ "generated": "2026-10-23T05:05+00:00",
+ "total_cost_usd": 0.00351
 }
