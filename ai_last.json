@@ -4,61 +4,67 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 13247,
-   "output_tokens": 1789,
-   "cost_usd": 0.00222
+   "input_tokens": 13360,
+   "output_tokens": 2583,
+   "cost_usd": 0.00263
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3346,
-   "output_tokens": 1659,
+   "input_tokens": 3287,
+   "output_tokens": 1655,
    "cost_usd": 0.00116
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Meta stock sinks 7% as AI spend pushes free cash flow negative",
-   "Meta’s credit risk indicator jumps to record high after results"
+   "Bloom Energy earnings beat by $0.25, revenue topped estimates",
+   "Bloom Energy Lifts Outlook, Logs Higher Profit",
+   "Bloom Energy Smashes Revenue Records With 138% Surge and Raises Guidance, Yet Shares Tumble on Wall Street: What It Means for Investors"
   ],
   [
-   "French debt risk premium reaches euro zone sovereign crisis levels",
-   "French Government-Bond Yields Jump, Spread Widens as Treasury Yields Fall"
+   "Western Digital Profit Grows on Data Storage Demand, Higher Pricing",
+   "Western Digital earnings beat by $0.56, revenue topped estimates",
+   "Western Digital Falls as AI Worries Overshadow Solid Outlook"
+  ],
+  [
+   "Meta stock sinks 7% as AI spend pushes free cash flow negative",
+   "Meta’s credit risk indicator jumps to record high after results"
   ]
  ],
  "brief": [
   {
-   "headline": "SpaceX and Tesla face high stakes as Musk spends $366 million",
-   "detail": "Musk's biggest political bet is on the Senate, where control could shape investigations, federal spending and regulations affecting SpaceX and Tesla.",
-   "link": "https://www.cnbc.com/2026/10/22/elon-musk-midterm-election-spacex-tesla.html"
-  },
-  {
-   "headline": "EQT to acquire Qiagen for $12.1B, taking it private",
-   "detail": "EQT agreed to acquire Qiagen for $12.1 billion and plans to take the tools and diagnostics provider private.",
+   "headline": "EQT agrees to buy Qiagen for $12.1B, taking it private",
+   "detail": "EQT plans to acquire Qiagen for $12.1 billion and take the tools and diagnostics provider private.",
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORE51N0EzdGxYYXVoYVh2ZjNfamhtRlcwZ2g2QXRZem9tU3AxMWk3ZVFrTXlVbGlPcm96WTZMUmFJSUo1VEd2TXpHT0hSZ1VKc3cyWTI5dW9zREhPR0FQd3J5b1kwMmVzWGJScnlpRTRkTTVWNU94bWl5UklYc3AxMDNBdnE0TXJONmlEblJRb2ROVFRBUXpnS0lBY0xYUE02bEdRdEw5X1JIdG5aNUtKM3pqSExxUl8yM2E5N0hMQVZvX2xwbXVPcA?oc=5"
   },
   {
-   "headline": "Meta stock sinks 7% as AI spending pushes free cash flow negative",
+   "headline": "Meta stock sinks 7% as AI spend pushes free cash flow negative",
    "detail": "Prices for Meta's five-year credit default swaps are reaching all-time highs as investors signal growing credit concerns.",
    "link": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
   },
   {
-   "headline": "AI stocks undercut markets worldwide as oil hits highest since May",
-   "detail": "AI stocks weighed on markets worldwide while oil climbed to its highest price since May, according to AP.",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbG9Bb3haUmhvOWFmQ0t6bWoyLThHN0pFV21XNjVOVXpsVmFBUEFhSk9HcC1ZYkV3eFhqT2d1SEFSQldtdm16YVM5UW1nRU5yc1JGRVkteEhNZmx0eEpOck1HdnNXNW1TSnh4YmRHU3dyeGdXdzdUZ3JsdFNHVUZwWEZrQVRXUWtrbHlJbDh1eDBSVU9iOUJScQ?oc=5"
+   "headline": "OpenAI eyes $30B raise at $1.25T valuation before IPO",
+   "detail": "TechCrunch reports the round would break records as the most highly valued private company ever.",
+   "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
   },
   {
-   "headline": "American Airlines forecasts bigger 2026 loss on fuel spike",
-   "detail": "American Airlines is the fourth major U.S. carrier to cut its 2026 forecast this month because of a spike in fuel costs.",
-   "link": "https://www.cnbc.com/2026/10/22/american-airlines-aal-q3-2026-earnings.html"
+   "headline": "SpaceX says Tesla merger would need Musk's approval",
+   "detail": "SpaceX said any potential merger with Tesla would require approval from Elon Musk.",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPekJwbzJpb0hnTHRJeE8yRWNyNzM3QjF2MkQxbzVSak1vNUJmQ3ctRWd2Q2stNTlzcnppeTc4MXRra3pXZHlfVUYtZEptbFN0RWxCa0Jrcl9SRHNaWWJkUkxaUXU3aVRvcGFTRUNwbWdiS2l6RmdpLTdERGdrdzJCMlA4c1hxNHV3a1NYMzRfdUxVRldYc2hkMmxsRXJCY2JCaURRNlZBZTh0UQ?oc=5"
+  },
+  {
+   "headline": "Anthropic IPO filing may come soon as AI stocks slide",
+   "detail": "The Economic Times reports an Anthropic IPO filing may come tomorrow as AI stocks face fresh pressure.",
+   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNendjWmJHdG5qdV9tcHZFSVA1VkRxNTF4bFQwa3dhLWxuR3Zza2ZqWkQtT2Y1Y3FOb0VjRHRrMzI2cHQxdmlmdEdmeFdVMlJTWm1VY3prVU90M0VCTVZ3enZZSV9VTkI0VDRsendHYTI5TDdKQzZZWENLS3RWdC1hV0dUYzlRUDZuc2xZYlhHVVlfSHdNd2tmcVdCcjA0YTVDd0tjak5BS01DVUFnNjllLWVFODV5RXZzZ0RRZ0dPdk42TEtHdU4tQXYzbmFmdWNFV3l3b21YT3lkN2ZiY0Y0Um5Ndm5vTHJ5c1B1Z055MzdQYzBtMWloVDEyNC00SUYwaUFsNlRad29mTDRfX00zVERn0gGXAkFVX3lxTE51NkNYNFhMcUo0ZHNpWXI0UFhDMTY4R0ROMWpKbGZFTVpJQ3l0Ym1nNU43UEdIZC05djhCZVg2Ym5vZXRjdVc5d0hCdnN1bkx3ZEVQSnh4Y2dkOGdSc1hzS1pidzM2RU5xZXdSNWQ5anpXYm5uQ1dFY09OQVZVWkt3N2xKZ0Nfdm5mOXNKUTZuaVRDLXNkUXJiTUR2cmZ6MzBOTjVXS3ljaE5SM2lpc2l6QlRTZHRyZnFxRkphZ29hbGpkeUFOcmxJbFlaSWI1R21oMHFaZ1JnWEZRRDVQNjgzQVNySjE3R0Vzb3Z5TkNQYzJ1NEpjMVVWandtWm5laWJsSndNOU5LekpxU3YzeHRiTlBiYTlwNA?oc=5"
   }
  ],
  "summaries": {
-  "requested": 24,
+  "requested": 23,
   "rejected_ungrounded": 0,
-  "applied": 21
+  "applied": 22
  },
- "generated": "2026-10-22T20:21+00:00",
- "total_cost_usd": 0.00338
+ "generated": "2026-10-23T00:03+00:00",
+ "total_cost_usd": 0.00379
 }
