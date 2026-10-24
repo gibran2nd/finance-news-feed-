@@ -4,69 +4,69 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 13485,
-   "output_tokens": 2857,
-   "cost_usd": 0.00278
+   "input_tokens": 13362,
+   "output_tokens": 3087,
+   "cost_usd": 0.00288
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2776,
-   "output_tokens": 2734,
-   "cost_usd": 0.00164
+   "input_tokens": 2599,
+   "output_tokens": 3813,
+   "cost_usd": 0.00217
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Stock Selloff Continues as Oil Surges",
-   "American Express profits rise; company plans to cut workforce by 5%, or about 3,500 employees"
+   "The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.",
+   "Crown Castle Stock and Others Get a Huge Boost From SpaceX’s Cell Tower Push"
   ],
   [
-   "Instacart in talks with DoorDash and Uber for sale, The Information reports",
-   "Instacart Considers a Potential Sale, Sparking Share Rally"
+   "US LNG Project Developer Funded by Russia’s Novatek, FT Says",
+   "US executives quit $25bn gas venture over claims of secret Russian control"
   ],
   [
    "Trump to cut Canadian tariffs after pressure from Republicans",
    "Coffins and Canoes From Canada Get 50% Tariff Under New Trump Order"
   ],
   [
-   "Housing leaders weigh in on Trump’s scaled-back EO",
-   "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers"
+   "Instacart in talks with DoorDash and Uber for sale, The Information reports",
+   "Instacart Considers a Potential Sale, Sparking Share Rally"
   ]
  ],
  "brief": [
   {
-   "headline": "HSBC launches Hong Kong dollar stablecoin for everyday payments",
-   "detail": "HSBC launched a Hong Kong dollar stablecoin for everyday payments, the most widely covered story today with 28 outlets.",
+   "headline": "HSBC launches Hong Kong dollar stablecoin for payments",
+   "detail": "HSBC launched a Hong Kong dollar stablecoin aimed at everyday payments, a move covered by 28 outlets.",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOckFRb0tPUkFndjBMN1dtQ3I5dzBmWkJHaTU5amVtWTdLWlVKbDkyTnprejhNLW1yU2hFSXE3RmpTdFM5MDlGdEQ5MGR2VnVLZm9pZGh3WVRINFVpM1dDaVpfVU1xdFRJM0FNb3lsQk1FX1JSMERWbXI4WlVsM0VpVzlQRmlpZlNJZFNHd0x6MWRfQ0MxTDdHTlMtWGMycklQTFZiT0pn?oc=5"
   },
   {
-   "headline": "Anthropic faces pressure over November IPO timing",
-   "detail": "Market pressures could lead Anthropic to stay private and wait, as time is running out to file key paperwork.",
+   "headline": "American Express profits rise as firm plans 5% job cuts",
+   "detail": "American Express reported higher profits while planning to cut its workforce by 5%, or about 3,500 employees.",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNckVEY1RFUEFnZW9KWG1mUGZjRTR0QmtfNWF2cFo5TzhaZU04NW5xcWhoM0txVERvRkJmd095dV9lNWU5bjk0UzNKSDJlM2YyNUpXRHNkeUt5ZmNySk9HX25QYUxSSGJmRF9wQVlwTF9WaW5HYkNUTWtRMkFYOG1DaWJ3V3VYakhLRDNkNzZaU0s1Y2t0eW9raHhBbFVPVUU?oc=5"
+  },
+  {
+   "headline": "Anthropic faces time pressure on a November IPO",
+   "detail": "A portfolio manager said Anthropic could stay private if market pressures keep building, as key IPO paperwork deadlines approach.",
    "link": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories"
   },
   {
-   "headline": "Zetwerk shares list at premium on NSE",
-   "detail": "Zetwerk shares listed at a 5.5% premium and debuted at ₹159.25 on the NSE, covered by seven outlets.",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNjhaUzZYWi1lbjdmdG9nekFjNWFCYjhrVWtWNi1oLTN3OGFQUXBjcHY1V25LSS1jeGtzVER6NEpZTzBZNlcxWlI2TnRHVzRsVFY1a2hZODUzR3duNmMyMlhJRFI0NVhZUDY1SWdaTmRadkhLZ1cxazJFeWFadHZ6WnYwS3dhbWVfYlV0bkgtY1lXNHUwbmZXWHpJQzlyZlhNTVNaYlVWNE1UdGtDWm5NbDhjb015bzRRbFhsYWtUQVItQdIBxwFBVV95cUxOOVpQV0hXVElBemVpSFp3ZDVZUzlkUFZidDZwNUMtd252NW5iWjJxbDJEdC1iVThNSEd6enFpc290WnBWc3A3RXNXNFBJREh6WWVlQXZ3c1M5enhtN0U3V1BvVllMWVcxeWxVOG1TdWUtRm45b1lqVnlJcjJDR1IzS3hXTEo5OWsyeXlyN19WQnZkREhiVDVWbWZ4aGdyWUY1TkJkaDE5d0JsR0xISk9HUzB4S011Qjc5Rkt1LW1fUExnU1BDWE40?oc=5"
-  },
-  {
-   "headline": "OpenAI targets $1.25 trillion valuation in new funding round",
-   "detail": "OpenAI wants to raise around $30 billion in a fresh round that could value the ChatGPT maker at $1.25 trillion.",
+   "headline": "OpenAI targets $1.25 trillion valuation in new funding",
+   "detail": "OpenAI wants to raise around $30 billion in a fresh funding round that could value the ChatGPT maker at $1.25 trillion.",
    "link": "https://www.bloomberg.com/news/videos/2026-10-23/openai-sets-target-valuation-of-1-25-trillion-video"
   },
   {
-   "headline": "American Express profits rise as it plans job cuts",
-   "detail": "American Express reported rising profits while planning to cut about 3,500 employees, or 5% of its workforce.",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNckVEY1RFUEFnZW9KWG1mUGZjRTR0QmtfNWF2cFo5TzhaZU04NW5xcWhoM0txVERvRkJmd095dV9lNWU5bjk0UzNKSDJlM2YyNUpXRHNkeUt5ZmNySk9HX25QYUxSSGJmRF9wQVlwTF9WaW5HYkNUTWtRMkFYOG1DaWJ3V3VYakhLRDNkNzZaU0s1Y2t0eW9raHhBbFVPVUU?oc=5"
+   "headline": "Trump eases some Canadian tariffs amid Republican pressure",
+   "detail": "The president will ease some levies to help candidates facing tough US Senate election battles, after pressure from Republicans.",
+   "link": "https://www.ft.com/content/d3d12f54-fcf0-400c-96f1-484aea980be5?syn-25a6b1a6=1"
   }
  ],
  "summaries": {
-  "requested": 20,
+  "requested": 19,
   "rejected_ungrounded": 0,
   "applied": 19
  },
- "generated": "2026-10-23T23:54+00:00",
- "total_cost_usd": 0.00442
+ "generated": "2026-10-24T04:50+00:00",
+ "total_cost_usd": 0.00505
 }
