@@ -2,7 +2,7 @@
   {
     "week": "2026-W43",
     "label": "Week of October 19\u201323, 2026",
-    "generated": "2026-10-24T04:50:06.665317+00:00",
+    "generated": "2026-10-24T16:28:24.013187+00:00",
     "bullets": [
       {
         "headline": "STABLECOINS | HSBC Launches RedCoin, a Hong Kong Dollar-Backed Stablecoin",
@@ -29,25 +29,25 @@
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRWVrSU05RXd3Q0RmUmhPdUJGT1ZlOWpFcWY4QWM1QjYtdXVBOFJPd194U3V2Qlp3Vk5VLXN5S1VyMW9qdjR6aGNRbDFCYVBrVk9TYlRoelNJUEZBaDJQZDRpREotVEk2M01IMzNZekVoeWEzV1lxMTViTjJ1WlZFMTdhbWNSdEFUSFVHd21yTmVHc3o2RVdNME9fQVJIU3p1M3A3LXVjM2pYU05waVBWNEtOcXJlUQ?oc=5"
       },
       {
-        "headline": "Anthropic is AI trade's last big hope for a major IPO this year",
-        "source": "CNBC",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html"
-      },
-      {
         "headline": "SpaceX and Tesla boards form special committees to review merger",
         "source": "TechCrunch",
         "section": "Tech & Fintech",
         "link": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/"
+      },
+      {
+        "headline": "Tesla earnings loom after Musk calls SpaceX merger a 'good idea'",
+        "source": "CNBC",
+        "section": "Tech & Fintech",
+        "link": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 978,
-      "Macro & Economy": 542,
-      "Investment Banking & Deals": 589,
-      "Real Estate & REITs": 487,
-      "Earnings & Results": 781,
-      "Tech & Fintech": 823
+      "Stock Market & Equities": 1007,
+      "Macro & Economy": 553,
+      "Investment Banking & Deals": 620,
+      "Real Estate & REITs": 497,
+      "Earnings & Results": 819,
+      "Tech & Fintech": 851
     }
   },
   {

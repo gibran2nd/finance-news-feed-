@@ -4,20 +4,29 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 13362,
-   "output_tokens": 3087,
-   "cost_usd": 0.00288
+   "input_tokens": 12199,
+   "output_tokens": 2573,
+   "cost_usd": 0.00251
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2599,
-   "output_tokens": 3813,
-   "cost_usd": 0.00217
+   "input_tokens": 2132,
+   "output_tokens": 2200,
+   "cost_usd": 0.00131
   }
  ],
  "errors": [],
  "merge_groups": [
+  [
+   "Trump to cut Canadian tariffs after pressure from Republicans",
+   "Trump ends tariffs on some Canadian products, as Senator Collins faces close race",
+   "Coffins and Canoes From Canada Get 50% Tariff Under New Trump Order"
+  ],
+  [
+   "Instacart in talks with DoorDash and Uber for sale, The Information reports",
+   "Instacart Is Pursuing a Sale, Report Says. Here’s What Makes It Enticing."
+  ],
   [
    "The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.",
    "Crown Castle Stock and Others Get a Huge Boost From SpaceX’s Cell Tower Push"
@@ -25,48 +34,40 @@
   [
    "US LNG Project Developer Funded by Russia’s Novatek, FT Says",
    "US executives quit $25bn gas venture over claims of secret Russian control"
-  ],
-  [
-   "Trump to cut Canadian tariffs after pressure from Republicans",
-   "Coffins and Canoes From Canada Get 50% Tariff Under New Trump Order"
-  ],
-  [
-   "Instacart in talks with DoorDash and Uber for sale, The Information reports",
-   "Instacart Considers a Potential Sale, Sparking Share Rally"
   ]
  ],
  "brief": [
   {
-   "headline": "HSBC launches Hong Kong dollar stablecoin for payments",
-   "detail": "HSBC launched a Hong Kong dollar stablecoin aimed at everyday payments, a move covered by 28 outlets.",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOckFRb0tPUkFndjBMN1dtQ3I5dzBmWkJHaTU5amVtWTdLWlVKbDkyTnprejhNLW1yU2hFSXE3RmpTdFM5MDlGdEQ5MGR2VnVLZm9pZGh3WVRINFVpM1dDaVpfVU1xdFRJM0FNb3lsQk1FX1JSMERWbXI4WlVsM0VpVzlQRmlpZlNJZFNHd0x6MWRfQ0MxTDdHTlMtWGMycklQTFZiT0pn?oc=5"
+   "headline": "Polymarket Fires CMO as HSBC Launches RedCoin Stablecoin",
+   "detail": "Polymarket fired its CMO while HSBC launched the RedCoin stablecoin to 3.3 million Hong Kong users, a move covered by 25 outlets.",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbjFFUmZWSjdxb2M3VUJvOUJCbXdtX04xWmlkeXNoWXZKZGF6bFZKSWRPUmhkdFVBVVNmNGVNdERBdW5IbUx3TDNuYWd4SG1CTG9yQzNLOS11TUdYMEphdFRRb0NRNzFteXpHMXRzdHV6d3FhRU5SWV9HOFZ1M3o0MVdCVnhzX0NvaXlLdENIVmprWWFMX2tmXzdxdTMyNmt6Wlk4cnE2U0hVb3VmZGgyNmp3?oc=5"
   },
   {
-   "headline": "American Express profits rise as firm plans 5% job cuts",
-   "detail": "American Express reported higher profits while planning to cut its workforce by 5%, or about 3,500 employees.",
+   "headline": "Anthropic Targets Mid-November IPO as OpenAI Seeks $30B",
+   "detail": "Anthropic's IPO targets mid-November as OpenAI races for $30 billion at a $1.25 trillion to $1.4 trillion valuation.",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxON25yQ1JZRlBFX2tadnBIN0pRQWkydDlBaFdpZXdPejF3cndjMzFzV3EzYThUQjZNOGJrZk11VFQwZG41S0ZTMGUtTVYyX0QyY09BTUtNZkswOGI1UzBLeENUMWtpTW1tT216UXV2bGtaUXlwSUdoVUYwWjJqYzhQcUtsNXJKNnlxU2xXaU9MWVJOUGF6UmMxSTNYNWIzeTJYVktsc3J0VXNIS1VoUWNhb2ZtZmFMUQ?oc=5"
+  },
+  {
+   "headline": "American Express Profits Rise; Plans 5% Workforce Cut",
+   "detail": "American Express reported rising profits and plans to cut about 5% of its workforce, or about 3,500 employees.",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNckVEY1RFUEFnZW9KWG1mUGZjRTR0QmtfNWF2cFo5TzhaZU04NW5xcWhoM0txVERvRkJmd095dV9lNWU5bjk0UzNKSDJlM2YyNUpXRHNkeUt5ZmNySk9HX25QYUxSSGJmRF9wQVlwTF9WaW5HYkNUTWtRMkFYOG1DaWJ3V3VYakhLRDNkNzZaU0s1Y2t0eW9raHhBbFVPVUU?oc=5"
   },
   {
-   "headline": "Anthropic faces time pressure on a November IPO",
-   "detail": "A portfolio manager said Anthropic could stay private if market pressures keep building, as key IPO paperwork deadlines approach.",
-   "link": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories"
-  },
-  {
-   "headline": "OpenAI targets $1.25 trillion valuation in new funding",
-   "detail": "OpenAI wants to raise around $30 billion in a fresh funding round that could value the ChatGPT maker at $1.25 trillion.",
-   "link": "https://www.bloomberg.com/news/videos/2026-10-23/openai-sets-target-valuation-of-1-25-trillion-video"
-  },
-  {
-   "headline": "Trump eases some Canadian tariffs amid Republican pressure",
-   "detail": "The president will ease some levies to help candidates facing tough US Senate election battles, after pressure from Republicans.",
+   "headline": "Trump to Cut Canadian Tariffs After Republican Pressure",
+   "detail": "The president will ease some levies to help Republican candidates facing tough US Senate election battles, according to the FT.",
    "link": "https://www.ft.com/content/d3d12f54-fcf0-400c-96f1-484aea980be5?syn-25a6b1a6=1"
+  },
+  {
+   "headline": "Stocks Fall as Oil Surges; SK Hynix Scraps US IPO",
+   "detail": "US stocks sold off as oil surged, while SK Hynix scrapped a US IPO plan for its flash-memory subsidiary and American Express cut 5% of headcount.",
+   "link": "https://www.wsj.com/finance/stocks/stock-selloff-continues-as-oil-surges-a6d20245?mod=rss_markets_main"
   }
  ],
  "summaries": {
-  "requested": 19,
+  "requested": 14,
   "rejected_ungrounded": 0,
-  "applied": 19
+  "applied": 11
  },
- "generated": "2026-10-24T04:50+00:00",
- "total_cost_usd": 0.00505
+ "generated": "2026-10-24T16:28+00:00",
+ "total_cost_usd": 0.00382
 }
