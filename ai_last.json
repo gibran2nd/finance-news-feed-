@@ -4,20 +4,24 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 11411,
-   "output_tokens": 2226,
-   "cost_usd": 0.00225
+   "input_tokens": 11141,
+   "output_tokens": 2550,
+   "cost_usd": 0.00239
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 1736,
-   "output_tokens": 742,
-   "cost_usd": 0.00054
+   "input_tokens": 1542,
+   "output_tokens": 668,
+   "cost_usd": 0.00049
   }
  ],
  "errors": [],
  "merge_groups": [
+  [
+   "Jio Platforms IPO Listing on Oct 28: GMP Signals 22% Gains for Investors",
+   "Jio IPO GMP today: All eyes on telecom major’s mega listing this week. What is grey market signalling?"
+  ],
   [
    "Audi to build $4bn US plant as it grapples with tariffs",
    "Audi defends decision to stand by Trump on $4 billion US factory in Georgia"
@@ -29,36 +33,36 @@
  ],
  "brief": [
   {
-   "headline": "Anthropic files for IPO, with reported plans under review",
-   "detail": "Anthropic's IPO filing status and reported plans are covered by three outlets, making it a notable listing for investment banking readers.",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE82YVM5Szd2V3VFVFotR0Z4TjBCY2ZNUnBCTm9TX0pKaTZ2NDl0eGx5dElCa2p0VUhfNlZiMTdyLVdNT1VIbXJveEdfUm9QS3hYcEd6YmF3a1JkY2lHT3RjMm1ZOTdqRWU4dDJ0czlrdFJqT0hhOG95dGREY1I?oc=5"
+   "headline": "Jio IPO draws record $77 billion in bids",
+   "detail": "Jio's IPO drew a record $77 billion in bids, signaling very strong investor demand for the telecom major's mega listing.",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSzFqZVlfV2NVam91WTRZNTVhNTFSZkd4WUp3X2Y3TUJ2VHlVM0RUdXB2TFV2REpwVGlldTdDem9nNHRVcWd6RUZXNzhaa3NSMHg0WVlDN2MyZUtKZlRYZTR5VURBdGpIUXNXMnpjNzBGaG9yR3FNU1BreUJsaEgyNk5xM2lDUzJhUUJkVy1fMk1GSzJEVmxwWE96elZPcmFLdDVrSFRQcVVtM0xlX0c5Z1JudjF0NC0t?oc=5"
   },
   {
-   "headline": "UAE closes more beaches over Gulf oil spill",
-   "detail": "The UAE closed more beaches as a Gulf oil spill raised environmental concerns, a development covered by three outlets.",
-   "link": "https://www.investing.com/news/economy-news/uae-closes-more-beaches-as-gulf-oil-spill-raises-environmental-concerns-4971057"
+   "headline": "Musk says SpaceX raised $40 billion in debt",
+   "detail": "Musk said SpaceX raised $40 billion in a debt deal and predicted a neocloud shakeout, according to Reuters.",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUXFtN2R4aGlycUhma055anhqaWRzSVFqRHg3NDJHQXpJb1ZXZGtqZF8wSENhc2xNTjlBNmJyMWdzaWdQZmU2d0NvWDJ1VzI4RlVCUG1ERDFnWlJpUmlEdTJDZUt2ckM1bjBleS11a3ZQaDF1QjByVzNYV1Y4YV9CWEFOYWFVaHhhM1l3d29kQm55MjFUUTlZWm9mVnlnamJBUWg3NWVR?oc=5"
   },
   {
-   "headline": "Netanyahu rebuked over plan to use crypto against sanctions",
-   "detail": "Netanyahu was rebuked for a plan to use crypto to bypass economic sanctions, a story covered by three outlets.",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdEZIYi1YYkZXSDlUeWN0cUgzdzdudTFUNlF5bHE1eVM4Z1NZeUFxVWZrVXp3d0N1dnRRWU5iYzZSc3J5QlJiQ3c4bllDUXFJcFFFdjNGeTFPbGhxc2VRZjYzV1dLSmtKX2JqQlpfd2U4RTFmWUhoRGFtVUVtVWRSc0NBZjc0NjhUdUVLNmM2dDVBYUxLOWRob3BwWkY2bnBKSlhnSGc0aXVfTEZ5RjBsTDJ3?oc=5"
-  },
-  {
-   "headline": "Audi to build $4bn US plant amid tariff pressure",
-   "detail": "Audi announced a $4 billion US plant at a Trump rally in Georgia as it seeks relief from the president's tariffs.",
+   "headline": "Audi plans $4 billion US plant amid tariff pressure",
+   "detail": "Audi announced a $4 billion US plant at a Trump rally in Georgia as it and Volkswagen seek relief from tariffs.",
    "link": "https://www.ft.com/content/8f034740-12a8-47fe-9010-149f87e70f8e?syn-25a6b1a6=1"
   },
   {
-   "headline": "Indonesia cuts pipeline gas exports to Singapore",
-   "detail": "Indonesia cut pipeline gas exports to Singapore by about 9%, a supply move covered by two outlets.",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMVVkTFlZc0hWcDVneTJjckZnXy1kYjhtX1BYaUlZR1JwTlBJMTRzbU1jWm1yQTVqQUZ5Rl92QndOdk1wTFhoUVZUTHU5NTQ1WjFXd1YwcHJZb21JWEw1MmJVUlZRTDc2VTEzU0VyNlVIeXN2cUNOVWlKV3h3dm9Ud21RQU9ZbmdnU2lFaVU5SDMyUG9pcEI5aGF1NEo1TGZCUkxuUjQ2YjdQX0Vj?oc=5"
+   "headline": "Bon Secours nears $6 billion Surgery Partners takeover",
+   "detail": "Bon Secours is nearing a roughly $6 billion takeover of Bain-backed Surgery Partners, the FT reports, a major healthcare deal.",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZHhFbmVwamhSR2FoM1lWYmlObXluV0FYcEEtaXV1MUEzaVB0UkI3bnVvYkZlczliTUdfMVhJanJxdGI2UzZrdjQzVGN5aDVZdWhxblJRdHNMblF3SGNyX1BxODFESFUwMkVnb0p4dk00emFsNE5YclRuTlRYRVM4dzJLZHNLU28tZnAxdGoyVi1YLUVHZ29TaFhDdFRtLTBqYkl3VTk4TGtCUzR2X1kxZU5ZVHdSZFpjLVRDMGxlTFBqUGhIcFpjektuQnlfcEZL?oc=5"
+  },
+  {
+   "headline": "Fed expected to hold rates before midterm elections",
+   "detail": "The Federal Reserve is expected to hold rates steady just days before the US midterm elections, Barron's reports, shaping market expectations.",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbTQ5RFRleGl4LS0yYV92Ry04Yy1tdlN5WU5KQ2dhd3ZDYmlXSGQ2NmI1Q3RXQy12eHNYQWk5VElIYUlHaFNENkwyMElXZ1JzLUxzVTBWN2Rya0FIQzhjU2tFS0pRNnBTam9WbXZtZ3JnZGhRcXVEQ0xmVDd1NXNIMTVnUTNLTUZwSHVaQmZUWUZYeEhHb2NPMklId3RRZXZQRDktLTlQZjZtelBYUGxzTXB2c21pSVNUcEpKXw?oc=5"
   }
  ],
  "summaries": {
-  "requested": 11,
+  "requested": 10,
   "rejected_ungrounded": 0,
-  "applied": 11
+  "applied": 10
  },
- "generated": "2026-10-25T16:59+00:00",
- "total_cost_usd": 0.00279
+ "generated": "2026-10-25T23:56+00:00",
+ "total_cost_usd": 0.00288
 }
