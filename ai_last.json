@@ -4,32 +4,23 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12199,
-   "output_tokens": 2573,
-   "cost_usd": 0.00251
+   "input_tokens": 11327,
+   "output_tokens": 2490,
+   "cost_usd": 0.00238
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2132,
-   "output_tokens": 2200,
-   "cost_usd": 0.00131
+   "input_tokens": 2052,
+   "output_tokens": 871,
+   "cost_usd": 0.00064
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Trump to cut Canadian tariffs after pressure from Republicans",
-   "Trump ends tariffs on some Canadian products, as Senator Collins faces close race",
-   "Coffins and Canoes From Canada Get 50% Tariff Under New Trump Order"
-  ],
-  [
-   "Instacart in talks with DoorDash and Uber for sale, The Information reports",
-   "Instacart Is Pursuing a Sale, Report Says. Here’s What Makes It Enticing."
-  ],
-  [
-   "The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.",
-   "Crown Castle Stock and Others Get a Huge Boost From SpaceX’s Cell Tower Push"
+   "Swiss drug developer Windward Bio files for US IPO",
+   "Novo Nordisk-Backed Windward Bio Group Files for US IPO, Plans Nasdaq Listing Under 'WWB'"
   ],
   [
    "US LNG Project Developer Funded by Russia’s Novatek, FT Says",
@@ -38,36 +29,36 @@
  ],
  "brief": [
   {
-   "headline": "Polymarket Fires CMO as HSBC Launches RedCoin Stablecoin",
-   "detail": "Polymarket fired its CMO while HSBC launched the RedCoin stablecoin to 3.3 million Hong Kong users, a move covered by 25 outlets.",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbjFFUmZWSjdxb2M3VUJvOUJCbXdtX04xWmlkeXNoWXZKZGF6bFZKSWRPUmhkdFVBVVNmNGVNdERBdW5IbUx3TDNuYWd4SG1CTG9yQzNLOS11TUdYMEphdFRRb0NRNzFteXpHMXRzdHV6d3FhRU5SWV9HOFZ1M3o0MVdCVnhzX0NvaXlLdENIVmprWWFMX2tmXzdxdTMyNmt6Wlk4cnE2U0hVb3VmZGgyNmp3?oc=5"
-  },
-  {
-   "headline": "Anthropic Targets Mid-November IPO as OpenAI Seeks $30B",
-   "detail": "Anthropic's IPO targets mid-November as OpenAI races for $30 billion at a $1.25 trillion to $1.4 trillion valuation.",
+   "headline": "Anthropic eyes mid-November IPO as OpenAI races for $30B",
+   "detail": "Anthropic's IPO is reportedly targeted for mid-November while OpenAI races for $30 billion at a $1.25T-$1.4T valuation.",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxON25yQ1JZRlBFX2tadnBIN0pRQWkydDlBaFdpZXdPejF3cndjMzFzV3EzYThUQjZNOGJrZk11VFQwZG41S0ZTMGUtTVYyX0QyY09BTUtNZkswOGI1UzBLeENUMWtpTW1tT216UXV2bGtaUXlwSUdoVUYwWjJqYzhQcUtsNXJKNnlxU2xXaU9MWVJOUGF6UmMxSTNYNWIzeTJYVktsc3J0VXNIS1VoUWNhb2ZtZmFMUQ?oc=5"
   },
   {
-   "headline": "American Express Profits Rise; Plans 5% Workforce Cut",
-   "detail": "American Express reported rising profits and plans to cut about 5% of its workforce, or about 3,500 employees.",
+   "headline": "American Express profits rise and it cuts 5% of staff",
+   "detail": "American Express reported higher profits and plans to cut about 5% of its workforce, or roughly 3,500 employees.",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNckVEY1RFUEFnZW9KWG1mUGZjRTR0QmtfNWF2cFo5TzhaZU04NW5xcWhoM0txVERvRkJmd095dV9lNWU5bjk0UzNKSDJlM2YyNUpXRHNkeUt5ZmNySk9HX25QYUxSSGJmRF9wQVlwTF9WaW5HYkNUTWtRMkFYOG1DaWJ3V3VYakhLRDNkNzZaU0s1Y2t0eW9raHhBbFVPVUU?oc=5"
   },
   {
-   "headline": "Trump to Cut Canadian Tariffs After Republican Pressure",
-   "detail": "The president will ease some levies to help Republican candidates facing tough US Senate election battles, according to the FT.",
-   "link": "https://www.ft.com/content/d3d12f54-fcf0-400c-96f1-484aea980be5?syn-25a6b1a6=1"
+   "headline": "SpaceX's mobile push hits telecom stocks again",
+   "detail": "Reports of Starlink talks with cell-tower owners worried shareholders of Verizon, AT&T and T-Mobile, weighing on telecom stocks.",
+   "link": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories"
   },
   {
-   "headline": "Stocks Fall as Oil Surges; SK Hynix Scraps US IPO",
-   "detail": "US stocks sold off as oil surged, while SK Hynix scrapped a US IPO plan for its flash-memory subsidiary and American Express cut 5% of headcount.",
-   "link": "https://www.wsj.com/finance/stocks/stock-selloff-continues-as-oil-surges-a6d20245?mod=rss_markets_main"
+   "headline": "UK to inject £20.4 billion into state-backed lenders",
+   "detail": "The UK plans to inject £20.4 billion into state-backed lenders in its budget, according to FT reporting.",
+   "link": "https://www.investing.com/news/economy-news/uk-to-inject-204-billion-into-statebacked-lenders-in-budget-ft-reports-4970689"
+  },
+  {
+   "headline": "Trump to cut Canadian tariffs after Republican pressure",
+   "detail": "President Trump will ease some levies on Canada to help Republican candidates facing tough US Senate election battles, per the FT.",
+   "link": "https://www.ft.com/content/d3d12f54-fcf0-400c-96f1-484aea980be5?syn-25a6b1a6=1"
   }
  ],
  "summaries": {
-  "requested": 14,
+  "requested": 13,
   "rejected_ungrounded": 0,
-  "applied": 11
+  "applied": 13
  },
- "generated": "2026-10-24T16:28+00:00",
- "total_cost_usd": 0.00382
+ "generated": "2026-10-25T00:04+00:00",
+ "total_cost_usd": 0.00302
 }
