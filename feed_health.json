@@ -4,13 +4,13 @@
     "label": "WSJ",
     "url": "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain",
     "status": "ok",
-    "fresh": 51,
-    "kept": 51,
+    "fresh": 50,
+    "kept": 50,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Stock Market & Equities | Bloomberg": {
     "section": "Stock Market & Equities",
@@ -18,12 +18,12 @@
     "url": "https://feeds.bloomberg.com/markets/news.rss",
     "status": "ok",
     "fresh": 20,
-    "kept": 9,
+    "kept": 10,
     "junk": 0,
-    "off_topic": 11,
-    "last_run": "2026-10-25T00:04+00:00",
+    "off_topic": 10,
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Stock Market & Equities | FT": {
     "section": "Stock Market & Equities",
@@ -34,9 +34,9 @@
     "kept": 25,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Stock Market & Equities | MarketWatch": {
     "section": "Stock Market & Equities",
@@ -44,12 +44,12 @@
     "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
     "status": "ok",
     "fresh": 10,
-    "kept": 4,
+    "kept": 7,
     "junk": 0,
-    "off_topic": 6,
-    "last_run": "2026-10-25T00:04+00:00",
+    "off_topic": 3,
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Stock Market & Equities | CNBC": {
     "section": "Stock Market & Equities",
@@ -60,22 +60,22 @@
     "kept": 5,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Stock Market & Equities | Reuters/AP/Barron's markets search": {
     "section": "Stock Market & Equities",
     "label": "Reuters/AP/Barron's markets search",
     "url": "https://news.google.com/rss/search?q=%28stocks+OR+%22Wall+Street%22+OR+shares+OR+S%26P%29+%28site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abarrons.com%29+when%3A1d&hl=en-US&gl=US&ceid=US:en",
     "status": "ok",
-    "fresh": 99,
-    "kept": 30,
-    "junk": 0,
-    "off_topic": 69,
-    "last_run": "2026-10-25T00:04+00:00",
+    "fresh": 100,
+    "kept": 27,
+    "junk": 1,
+    "off_topic": 72,
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Macro & Economy | WSJ": {
     "section": "Macro & Economy",
@@ -86,22 +86,22 @@
     "kept": 18,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Macro & Economy | Bloomberg": {
     "section": "Macro & Economy",
     "label": "Bloomberg",
     "url": "https://feeds.bloomberg.com/economics/news.rss",
     "status": "ok",
-    "fresh": 4,
-    "kept": 4,
+    "fresh": 5,
+    "kept": 5,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Macro & Economy | FT": {
     "section": "Macro & Economy",
@@ -112,9 +112,9 @@
     "kept": 25,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Macro & Economy | CNBC": {
     "section": "Macro & Economy",
@@ -125,22 +125,22 @@
     "kept": 7,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Macro & Economy | NYT": {
     "section": "Macro & Economy",
     "label": "NYT",
     "url": "https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml",
     "status": "ok",
-    "fresh": 4,
-    "kept": 4,
+    "fresh": 3,
+    "kept": 3,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Macro & Economy | Investing.com": {
     "section": "Macro & Economy",
@@ -148,12 +148,12 @@
     "url": "https://www.investing.com/rss/news_14.rss",
     "status": "ok",
     "fresh": 10,
-    "kept": 7,
+    "kept": 5,
     "junk": 0,
-    "off_topic": 3,
-    "last_run": "2026-10-25T00:04+00:00",
+    "off_topic": 5,
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Macro & Economy | Federal Reserve": {
     "section": "Macro & Economy",
@@ -164,8 +164,8 @@
     "kept": 0,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
-    "consecutive_failures": 7,
+    "last_run": "2026-10-25T16:59+00:00",
+    "consecutive_failures": 8,
     "last_success": "2026-10-23T05:05+00:00"
   },
   "Macro & Economy | Project Syndicate": {
@@ -177,9 +177,9 @@
     "kept": 4,
     "junk": 0,
     "off_topic": 16,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Macro & Economy | Fed & rates search": {
     "section": "Macro & Economy",
@@ -190,9 +190,9 @@
     "kept": 96,
     "junk": 1,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Investment Banking & Deals | DealBook": {
     "section": "Investment Banking & Deals",
@@ -203,9 +203,9 @@
     "kept": 11,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Investment Banking & Deals | PE Hub": {
     "section": "Investment Banking & Deals",
@@ -216,8 +216,8 @@
     "kept": 0,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
-    "consecutive_failures": 12,
+    "last_run": "2026-10-25T16:59+00:00",
+    "consecutive_failures": 13,
     "last_success": "2026-10-22T05:05+00:00"
   },
   "Investment Banking & Deals | PEI": {
@@ -229,8 +229,8 @@
     "kept": 0,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
-    "consecutive_failures": 13,
+    "last_run": "2026-10-25T16:59+00:00",
+    "consecutive_failures": 14,
     "last_success": "2026-10-22T00:04+00:00"
   },
   "Investment Banking & Deals | Crunchbase News": {
@@ -242,9 +242,9 @@
     "kept": 10,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Investment Banking & Deals | Money Stuff": {
     "section": "Investment Banking & Deals",
@@ -255,48 +255,48 @@
     "kept": 4,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Investment Banking & Deals | M&A search": {
     "section": "Investment Banking & Deals",
     "label": "M&A search",
     "url": "https://news.google.com/rss/search?q=%28intitle%3Aacquire+OR+intitle%3Aacquires+OR+intitle%3Aacquisition+OR+intitle%3Amerger+OR+intitle%3Abuyout+OR+intitle%3Atakeover+OR+intitle%3A%22take-private%22+OR+intitle%3A%22to+buy%22%29+%28site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abloomberg.com+OR+site%3Awsj.com+OR+site%3Aft.com+OR+site%3Acnbc.com+OR+site%3Abarrons.com+OR+site%3Aaxios.com+OR+site%3Anytimes.com+OR+site%3Amarketwatch.com%29+when%3A2d&hl=en-US&gl=US&ceid=US:en",
     "status": "ok",
-    "fresh": 37,
-    "kept": 35,
+    "fresh": 39,
+    "kept": 37,
     "junk": 1,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Investment Banking & Deals | IPO search": {
     "section": "Investment Banking & Deals",
     "label": "IPO search",
     "url": "https://news.google.com/rss/search?q=IPO+%28prices+OR+files+OR+debut+OR+%22going+public%22+OR+%22S-1%22%29+when%3A2d&hl=en-US&gl=US&ceid=US:en",
     "status": "ok",
-    "fresh": 82,
-    "kept": 71,
-    "junk": 9,
+    "fresh": 35,
+    "kept": 27,
+    "junk": 7,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Investment Banking & Deals | Private equity search": {
     "section": "Investment Banking & Deals",
     "label": "Private equity search",
     "url": "https://news.google.com/rss/search?q=%22private+equity%22+%28acquire+OR+buyout+OR+stake+OR+fundraise+OR+%22closes+fund%22%29+when%3A2d&hl=en-US&gl=US&ceid=US:en",
     "status": "ok",
-    "fresh": 55,
-    "kept": 45,
-    "junk": 9,
+    "fresh": 51,
+    "kept": 38,
+    "junk": 13,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Real Estate & REITs | Commercial Observer": {
     "section": "Real Estate & REITs",
@@ -307,9 +307,9 @@
     "kept": 16,
     "junk": 1,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Real Estate & REITs | Bisnow": {
     "section": "Real Estate & REITs",
@@ -320,9 +320,9 @@
     "kept": 22,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Real Estate & REITs | HousingWire": {
     "section": "Real Estate & REITs",
@@ -333,9 +333,9 @@
     "kept": 10,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Real Estate & REITs | Connect CRE": {
     "section": "Real Estate & REITs",
@@ -346,9 +346,9 @@
     "kept": 10,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Real Estate & REITs | CNBC": {
     "section": "Real Estate & REITs",
@@ -359,35 +359,35 @@
     "kept": 3,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Real Estate & REITs | WSJ": {
     "section": "Real Estate & REITs",
     "label": "WSJ",
     "url": "https://feeds.content.dowjones.io/public/rss/latestnewsrealestate",
     "status": "ok",
-    "fresh": 24,
-    "kept": 17,
+    "fresh": 25,
+    "kept": 18,
     "junk": 1,
     "off_topic": 6,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Real Estate & REITs | REIT deals search": {
     "section": "Real Estate & REITs",
     "label": "REIT deals search",
     "url": "https://news.google.com/rss/search?q=REIT+%28acquisition+OR+acquire+OR+merger+OR+sells+OR+buys%29+when%3A3d&hl=en-US&gl=US&ceid=US:en",
     "status": "ok",
-    "fresh": 44,
-    "kept": 35,
-    "junk": 9,
+    "fresh": 24,
+    "kept": 20,
+    "junk": 4,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Earnings & Results | Seeking Alpha": {
     "section": "Earnings & Results",
@@ -398,9 +398,9 @@
     "kept": 19,
     "junk": 1,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Earnings & Results | Investing.com": {
     "section": "Earnings & Results",
@@ -411,9 +411,9 @@
     "kept": 10,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Earnings & Results | CNBC": {
     "section": "Earnings & Results",
@@ -424,9 +424,9 @@
     "kept": 17,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Earnings & Results | Earnings search": {
     "section": "Earnings & Results",
@@ -437,35 +437,35 @@
     "kept": 100,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Earnings & Results | Guidance search": {
     "section": "Earnings & Results",
     "label": "Guidance search",
     "url": "https://news.google.com/rss/search?q=%28%22raises+guidance%22+OR+%22cuts+guidance%22+OR+%22raised+its+forecast%22+OR+%22lowered+its+forecast%22+OR+%22full-year+outlook%22%29+when%3A2d&hl=en-US&gl=US&ceid=US:en",
     "status": "ok",
-    "fresh": 32,
-    "kept": 29,
-    "junk": 3,
+    "fresh": 28,
+    "kept": 23,
+    "junk": 5,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Tech & Fintech | Bloomberg": {
     "section": "Tech & Fintech",
     "label": "Bloomberg",
     "url": "https://feeds.bloomberg.com/technology/news.rss",
     "status": "ok",
-    "fresh": 9,
-    "kept": 9,
+    "fresh": 14,
+    "kept": 14,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Tech & Fintech | WSJ": {
     "section": "Tech & Fintech",
@@ -473,12 +473,12 @@
     "url": "https://feeds.content.dowjones.io/public/rss/RSSWSJD",
     "status": "ok",
     "fresh": 34,
-    "kept": 10,
+    "kept": 9,
     "junk": 0,
-    "off_topic": 24,
-    "last_run": "2026-10-25T00:04+00:00",
+    "off_topic": 25,
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Tech & Fintech | CNBC": {
     "section": "Tech & Fintech",
@@ -489,9 +489,9 @@
     "kept": 13,
     "junk": 0,
     "off_topic": 17,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Tech & Fintech | TechCrunch": {
     "section": "Tech & Fintech",
@@ -499,12 +499,12 @@
     "url": "https://techcrunch.com/feed/",
     "status": "ok",
     "fresh": 20,
-    "kept": 7,
+    "kept": 4,
     "junk": 0,
-    "off_topic": 13,
-    "last_run": "2026-10-25T00:04+00:00",
+    "off_topic": 16,
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Tech & Fintech | Finextra": {
     "section": "Tech & Fintech",
@@ -515,9 +515,9 @@
     "kept": 33,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Tech & Fintech | CoinDesk": {
     "section": "Tech & Fintech",
@@ -528,21 +528,21 @@
     "kept": 25,
     "junk": 0,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   },
   "Tech & Fintech | Fintech search": {
     "section": "Tech & Fintech",
     "label": "Fintech search",
     "url": "https://news.google.com/rss/search?q=%28fintech+OR+neobank+OR+%22payments+startup%22+OR+stablecoin%29+%28raises+OR+launches+OR+acquires+OR+funding%29+when%3A2d&hl=en-US&gl=US&ceid=US:en",
     "status": "ok",
-    "fresh": 60,
-    "kept": 52,
-    "junk": 8,
+    "fresh": 56,
+    "kept": 39,
+    "junk": 17,
     "off_topic": 0,
-    "last_run": "2026-10-25T00:04+00:00",
+    "last_run": "2026-10-25T16:59+00:00",
     "consecutive_failures": 0,
-    "last_success": "2026-10-25T00:04+00:00"
+    "last_success": "2026-10-25T16:59+00:00"
   }
 }

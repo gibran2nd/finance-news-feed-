@@ -4,61 +4,61 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 11327,
-   "output_tokens": 2490,
-   "cost_usd": 0.00238
+   "input_tokens": 11411,
+   "output_tokens": 2226,
+   "cost_usd": 0.00225
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2052,
-   "output_tokens": 871,
-   "cost_usd": 0.00064
+   "input_tokens": 1736,
+   "output_tokens": 742,
+   "cost_usd": 0.00054
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Swiss drug developer Windward Bio files for US IPO",
-   "Novo Nordisk-Backed Windward Bio Group Files for US IPO, Plans Nasdaq Listing Under 'WWB'"
+   "Audi to build $4bn US plant as it grapples with tariffs",
+   "Audi defends decision to stand by Trump on $4 billion US factory in Georgia"
   ],
   [
-   "US LNG Project Developer Funded by Russia’s Novatek, FT Says",
-   "US executives quit $25bn gas venture over claims of secret Russian control"
+   "Brazil Election: Lula Rallies Supporters for One Last Comeback",
+   "Lula, Bolsonaro rally supporters on final day before Brazil presidential runoff"
   ]
  ],
  "brief": [
   {
-   "headline": "Anthropic eyes mid-November IPO as OpenAI races for $30B",
-   "detail": "Anthropic's IPO is reportedly targeted for mid-November while OpenAI races for $30 billion at a $1.25T-$1.4T valuation.",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxON25yQ1JZRlBFX2tadnBIN0pRQWkydDlBaFdpZXdPejF3cndjMzFzV3EzYThUQjZNOGJrZk11VFQwZG41S0ZTMGUtTVYyX0QyY09BTUtNZkswOGI1UzBLeENUMWtpTW1tT216UXV2bGtaUXlwSUdoVUYwWjJqYzhQcUtsNXJKNnlxU2xXaU9MWVJOUGF6UmMxSTNYNWIzeTJYVktsc3J0VXNIS1VoUWNhb2ZtZmFMUQ?oc=5"
+   "headline": "Anthropic files for IPO, with reported plans under review",
+   "detail": "Anthropic's IPO filing status and reported plans are covered by three outlets, making it a notable listing for investment banking readers.",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE82YVM5Szd2V3VFVFotR0Z4TjBCY2ZNUnBCTm9TX0pKaTZ2NDl0eGx5dElCa2p0VUhfNlZiMTdyLVdNT1VIbXJveEdfUm9QS3hYcEd6YmF3a1JkY2lHT3RjMm1ZOTdqRWU4dDJ0czlrdFJqT0hhOG95dGREY1I?oc=5"
   },
   {
-   "headline": "American Express profits rise and it cuts 5% of staff",
-   "detail": "American Express reported higher profits and plans to cut about 5% of its workforce, or roughly 3,500 employees.",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNckVEY1RFUEFnZW9KWG1mUGZjRTR0QmtfNWF2cFo5TzhaZU04NW5xcWhoM0txVERvRkJmd095dV9lNWU5bjk0UzNKSDJlM2YyNUpXRHNkeUt5ZmNySk9HX25QYUxSSGJmRF9wQVlwTF9WaW5HYkNUTWtRMkFYOG1DaWJ3V3VYakhLRDNkNzZaU0s1Y2t0eW9raHhBbFVPVUU?oc=5"
+   "headline": "UAE closes more beaches over Gulf oil spill",
+   "detail": "The UAE closed more beaches as a Gulf oil spill raised environmental concerns, a development covered by three outlets.",
+   "link": "https://www.investing.com/news/economy-news/uae-closes-more-beaches-as-gulf-oil-spill-raises-environmental-concerns-4971057"
   },
   {
-   "headline": "SpaceX's mobile push hits telecom stocks again",
-   "detail": "Reports of Starlink talks with cell-tower owners worried shareholders of Verizon, AT&T and T-Mobile, weighing on telecom stocks.",
-   "link": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories"
+   "headline": "Netanyahu rebuked over plan to use crypto against sanctions",
+   "detail": "Netanyahu was rebuked for a plan to use crypto to bypass economic sanctions, a story covered by three outlets.",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdEZIYi1YYkZXSDlUeWN0cUgzdzdudTFUNlF5bHE1eVM4Z1NZeUFxVWZrVXp3d0N1dnRRWU5iYzZSc3J5QlJiQ3c4bllDUXFJcFFFdjNGeTFPbGhxc2VRZjYzV1dLSmtKX2JqQlpfd2U4RTFmWUhoRGFtVUVtVWRSc0NBZjc0NjhUdUVLNmM2dDVBYUxLOWRob3BwWkY2bnBKSlhnSGc0aXVfTEZ5RjBsTDJ3?oc=5"
   },
   {
-   "headline": "UK to inject £20.4 billion into state-backed lenders",
-   "detail": "The UK plans to inject £20.4 billion into state-backed lenders in its budget, according to FT reporting.",
-   "link": "https://www.investing.com/news/economy-news/uk-to-inject-204-billion-into-statebacked-lenders-in-budget-ft-reports-4970689"
+   "headline": "Audi to build $4bn US plant amid tariff pressure",
+   "detail": "Audi announced a $4 billion US plant at a Trump rally in Georgia as it seeks relief from the president's tariffs.",
+   "link": "https://www.ft.com/content/8f034740-12a8-47fe-9010-149f87e70f8e?syn-25a6b1a6=1"
   },
   {
-   "headline": "Trump to cut Canadian tariffs after Republican pressure",
-   "detail": "President Trump will ease some levies on Canada to help Republican candidates facing tough US Senate election battles, per the FT.",
-   "link": "https://www.ft.com/content/d3d12f54-fcf0-400c-96f1-484aea980be5?syn-25a6b1a6=1"
+   "headline": "Indonesia cuts pipeline gas exports to Singapore",
+   "detail": "Indonesia cut pipeline gas exports to Singapore by about 9%, a supply move covered by two outlets.",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMVVkTFlZc0hWcDVneTJjckZnXy1kYjhtX1BYaUlZR1JwTlBJMTRzbU1jWm1yQTVqQUZ5Rl92QndOdk1wTFhoUVZUTHU5NTQ1WjFXd1YwcHJZb21JWEw1MmJVUlZRTDc2VTEzU0VyNlVIeXN2cUNOVWlKV3h3dm9Ud21RQU9ZbmdnU2lFaVU5SDMyUG9pcEI5aGF1NEo1TGZCUkxuUjQ2YjdQX0Vj?oc=5"
   }
  ],
  "summaries": {
-  "requested": 13,
+  "requested": 11,
   "rejected_ungrounded": 0,
-  "applied": 13
+  "applied": 11
  },
- "generated": "2026-10-25T00:04+00:00",
- "total_cost_usd": 0.00302
+ "generated": "2026-10-25T16:59+00:00",
+ "total_cost_usd": 0.00279
 }

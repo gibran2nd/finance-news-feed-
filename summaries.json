@@ -2,7 +2,7 @@
   {
     "week": "2026-W43",
     "label": "Week of October 19\u201323, 2026",
-    "generated": "2026-10-25T00:04:59.442271+00:00",
+    "generated": "2026-10-25T16:59:52.910828+00:00",
     "bullets": [
       {
         "headline": "STABLECOINS | HSBC Launches RedCoin, a Hong Kong Dollar-Backed Stablecoin",
@@ -11,16 +11,22 @@
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4ySTVZYmlBdXlURG5pemxKOV9rMHpVeWtEY3lCMUg5a3B4WkItazNyV2g1TVNHLVp1WkNuRVpab0YtalZaaHoxRUZYZ1BKMkZULTkta195d2NTQXdNNzlaaA?oc=5"
       },
       {
-        "headline": "Netflix slides as weak outlook deepens worries on viewership, revenue growth",
+        "headline": "GCash owner Mynt edges higher in record Philippine IPO amid Asian selloff",
         "source": "Reuters",
         "section": "Stock Market & Equities",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR2NMX1phWXZ5OFZOZ09LVXF1R1Q0ckJfS0JwMm9sTFRfakN1QlVqWUwyUk8zV1UtZWFsbkRXNm01Q2N0TEdrUEtCQWJqeHVkOS14SWNHSkkwVUJGSVhKZnRPSkd5dG9FZ1hBYmFzbC15VlczeUdzamhiVFBGYWVQTTNoeG9vVjRfYjZTN3Q5MHp1OEswenI2d1NyMDRnT1AyOEFsMlIwbjRGZmI1aEZaLXlkQUQ1WWVHMm9oUW9fMFk?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdmFOcnFpcDFRNGFKUFNtcFVPY2hINkdvd2cteTh6QnhKaDA2TktIcmlyV3NueEc4Qm5YWXZOcTB4U2YwTEM5WVViOF9IUkFiVHRtS0pPYkdQR2FyOWd6ak5zcmdLTEdhLS1CNXlrV05sQ2hjRllFd2lLaVhjZ0dwdXRjRkczMGlSb1hMTHBtVnlFOEhUVnQ1RmhHZ3lXLXd6dlhiMjRxNFYxbktydWotYzFn?oc=5"
       },
       {
-        "headline": "Mynt makes market debut after record Philippine IPO",
-        "source": "BusinessWorld Online",
+        "headline": "Netflix shares fall more than 6% on lower Q4 revenue outlook",
+        "source": "CNBC",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT2M1N2lYMS1QYTI3eEE4ZFBRZS1PNDRKOVhvQ2N6TXNYc3hEU25VNUFMN204aG8ycHlTV1RoUmJQQkR3Zkk1RFR0bk1kMllYSDBQcmxXNTFhTUY1VmpGcVkyMEhueHk1UklER3hyUE40eDJSQjF1Y3ViSUpyQ2IwVFN4N1BJLVVyOWluclJEcUplTXo3QnQ4LXlfMDh5b250bzNYeTRCeDBtYkF5ODY4?oc=5"
+      },
+      {
+        "headline": "Anthropic\u2019s S-1 leaks (again)\u2014here\u2019s a look at the massive losses on the income statement",
+        "source": "Fortune",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMnk3T0ZTWUpoVGNwWHJXeWg1cGx5OWdDVHZBdk51Q05JYVRRbVN1QkMyUkR5SjIzZkhNdFJYaTVkSi1zWFNablJUUlNTWHc1NTE5bkxweXNIbnFVMTVERDJibTBWbFltWGE1YWxPdEhCS2RCRmROQ1AtZnF1RXh5VHlfYU1KekI3VFBJN0JfaHFfSndFOEJMSUkzcFlfMk1zazl6cWJqRGE1cjQ?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5fTWd2NkxkQ3U5XzBnd1MwYWx4Qk5hN3dCenBUbDhVdG1MMVNnQlhxZmJyZkhTQjBtUmZJRGlDazZxd0poWHdyNlhfUlJYWTJfMC16SThVS2ZDZGdkY3lCbWdycVRjcEl4WTdsYlptNzRUbEMtRDVfWEpZUQ?oc=5"
       },
       {
         "headline": "Zuckerberg makes deal with Meta to help him pay billionaire tax if it passes",
@@ -33,21 +39,15 @@
         "source": "TechCrunch",
         "section": "Tech & Fintech",
         "link": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/"
-      },
-      {
-        "headline": "Tesla earnings loom after Musk calls SpaceX merger a 'good idea'",
-        "source": "CNBC",
-        "section": "Tech & Fintech",
-        "link": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 1033,
-      "Macro & Economy": 567,
-      "Investment Banking & Deals": 632,
-      "Real Estate & REITs": 503,
-      "Earnings & Results": 832,
-      "Tech & Fintech": 856
+      "Stock Market & Equities": 1076,
+      "Macro & Economy": 597,
+      "Investment Banking & Deals": 657,
+      "Real Estate & REITs": 508,
+      "Earnings & Results": 866,
+      "Tech & Fintech": 901
     }
   },
   {
