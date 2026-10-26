@@ -4,86 +4,84 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12209,
-   "output_tokens": 2288,
-   "cost_usd": 0.00236
+   "input_tokens": 12501,
+   "output_tokens": 2552,
+   "cost_usd": 0.00253
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2133,
-   "output_tokens": 946,
-   "cost_usd": 0.00069
+   "input_tokens": 2735,
+   "output_tokens": 1920,
+   "cost_usd": 0.00123
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Anthropic files S-1 for IPO, with $417bn in compute commitments",
-   "Anthropic formally preps for initial public stock offering in major step for AI company",
-   "Anthropic set to make stock market debut as questions swirl about safety of AI"
+   "Anthropic Files IPO Paperwork Ahead of Expected Stock Market Debut",
+   "Anthropic Drops Its S-1, Giving Market Glimpse Into Finances",
+   "Anthropic’s I.P.O. Prospectus Spells Out a Future of Promise and Peril"
   ],
   [
    "HealthSpan Partners to Acquire Surgery Partners in $5.7 Billion Deal, Taking Company Private",
-   "Bon Secours’ HealthSpan to buy Surgery Partners in $5.7B deal",
-   "Bon Secours Mercy Health to acquire majority stake in Surgery Partners in $5.7B deal",
-   "Bon Secours agrees $5.7bn takeover of Bain-backed Surgery Partners"
+   "Bon Secours agrees $5.7bn takeover of Bain-backed Surgery Partners",
+   "Bon Secours’ HealthSpan to buy Surgery Partners in $5.7B deal"
   ],
   [
-   "Shock Lula Win Derails $6 Billion in Equity Sales as Banks Reel",
-   "Brazilian Markets Crash After Lula’s Surprise Election Win Stuns Investors",
-   "Brazil’s markets tumble as investors bet Lula will add to fiscal pain",
-   "Brazilian Stocks Tumble After Lula’s Shock Win. The Country’s Path Is Unworkable."
+   "Meta eyes record $95 billion equity raise to fund AI expansion",
+   "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering"
   ],
   [
    "Audi Building $4B Plant in C. Georgia",
    "Audi Announces Its First U.S. Factory; Nvidia, Micron Drive Earnings Boom"
   ],
   [
-   "Pakistan Hikes Interest Rate to Curb Inflation Risks",
-   "Pakistan central bank raises key rate to 12% amid inflation"
+   "Treasury Yields Little Changed, French Bonds Outperform",
+   "French bonds rally after Moody’s rating reprieve"
   ],
   [
-   "Musk's grim outlook hits neoclouds as debt concerns mount",
-   "Musk Is Predicting ‘Guppy-level Death’ for Scores of A.I. Companies"
+   "OMERS buys minority stake in A$27B lender La Trobe from Brookfield",
+   "Brookfield adds Canadian pension giant to La Trobe’s register"
   ],
   [
-   "Verizon raises 2026 outlook after record customer growth",
-   "Verizon lifts annual forecasts, signs more than $2 billion AI infrastructure deal with AWS"
+   "Brazilian Stocks Tumble After Lula’s Shock Win. It Could Create a Buying Opportunity.",
+   "Brazilian Markets Crash After Lula’s Surprise Election Win Stuns Investors",
+   "One-Day Wipeout Tops 60% For the Hardest-Hit Brazilian Stocks"
   ]
  ],
  "brief": [
   {
-   "headline": "Anthropic files for IPO with $417bn compute commitments",
-   "detail": "Anthropic filed an S-1 for an IPO, with $417bn in compute commitments, a story covered by 69 outlets.",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMlljZVlDZ1R2WTJDbHRMT0xQaTNQSENuRzM1cV9yZnphZC1ueTR3M0g5Skp0OTFqSlNMS3RwQkxWV1JPUzI5VkVnUnVPY2VjMEFjU0xWRGlhVmhfZHdTUzdIdEJBcUlHak1kcEdkaEJ5d2kwX2RtakdpamV5V041M0FDbFdxSGhQQ05LN1VFUFFkdVlVQ1VlYjJGcGFvazU0eFNpNC1hci0?oc=5"
+   "headline": "Anthropic files IPO paperwork ahead of expected stock debut",
+   "detail": "Anthropic has filed IPO paperwork ahead of an expected stock market debut, drawing wide coverage across 112 outlets.",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMEduSFdhU2VXZWdFRUdXeTNRUXNUZE9JcE1Ndmo4SE94dllGVXUzUkZ3M1E5dlNCSmZNT1A0S2VMcm5qZU12cHItX0lYYmRqSVhFdlNtMGd0TnQwbzQzdGpTTDd4TG16NWlxbkw3dFc5NXgwa3NBMjRFTHFRQVA3VFlCMThnX25feTdrVlZTWnZqZ1hXWEgyaUNuSm40NWwtMzJFakNFVmFNSDgwa2h3Z0Ixcmg0WkJvcjR1QkxrTUdlaFlkdmJSSVZnUUZ3WEU?oc=5"
   },
   {
    "headline": "Meta eyes record $95 billion equity raise for AI",
-   "detail": "Meta is reportedly eyeing a record $95 billion equity raise to fund its AI expansion.",
+   "detail": "Meta is looking to raise $95 billion through stock-related deals that stretch into early next year, to fund AI expansion.",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPclhjOFJvYkM0S0hLUmxaY0l2X3hCdWI0N1prZlo2QXhXdmt5T0pNQVpFODVpYzgycWdZcHM2NkZ2LTdaMEVUVlpTXzVFUzc2ZEdVdlpTeThUVkZtc3V4cEFTelk5bDd2Z0dfRDFsb0dGQ0MxRXhYMExFZTlXVkNjRXF6TDBLalZ5ZTFBbFMyX24wMVBTQW1GQkJNRjNYWTRiVGJJWWdialBfV1oyQUZNN3I4RQ?oc=5"
   },
   {
-   "headline": "HealthSpan Partners to acquire Surgery Partners for $5.7B",
+   "headline": "HealthSpan to take Surgery Partners private in $5.7B deal",
    "detail": "HealthSpan Partners agreed to acquire Surgery Partners in a $5.7 billion deal that takes the company private.",
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQy1oRGxOeTN5RThFYWtSNWoxZFBZcjlFTTJkc3J4YXlTRlYydW1wQTg0YWxzY3R3Y0tHV1YzZDZXNVBwbFdhT0ZVUTZkOElXMjdYV3l5YXV2TnJyT2U1MENNa29qUFBOODE0N1VCUUxOTGUzWFgwNVJWZzNxVXJMYUZtY3daX1hFTG1DMmNCZ2NSQk1Hd3lraWR4WUNkV2p5Z0U5TDZUSkY1NGFldnZsanNlVTNJWjcyeGt4aXQ5SS0ydGgzWVEzSw?oc=5"
   },
   {
-   "headline": "Brazil stocks slump to two-month low after Lula win",
-   "detail": "Brazil's main stock index fell to a two-month low after Lula's surprise election victory stunned investors.",
-   "link": "https://www.wsj.com/finance/brazils-surprise-election-outcome-set-to-batter-stocks-real-35253aa8?mod=rss_markets_main"
+   "headline": "Microsoft offers buyouts to around 60,000 employees",
+   "detail": "Microsoft is offering buyouts to around 60,000 employees as it looks to contain costs.",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY3V6RnhJNUdQRC1uU19vNFk4YUR3MVlHbmpOdnUxMGo4R2RoWVhvXzAzTGczekw4akxaVjB3VzF4bHRhRFZFTFJ5eGY0ZGFOZ2NtcTBQa0RqZlgzVHlQb0pUcVJjN3RBM3lZTFhjaTNCM3JXLWxzR1F3NTZDLU0teHZyb2FpX2xzajM1UlpVVFRDTmhTRFhpeVR1WWxaT1dva0E0TEVoTjllb3hMSDVFVkRYTnpaQXRhZ0w3ZU9vR1hhQQ?oc=5"
   },
   {
-   "headline": "Microsoft offers voluntary buyouts to 60,000 employees",
-   "detail": "Microsoft is offering voluntary buyouts to 60,000 employees as it balances rapid AI build-out with capital efficiency.",
-   "link": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html"
+   "headline": "Brazilian stocks tumble after Lula's surprise election win",
+   "detail": "Brazil's main stock market index dropped to a two-month low after Lula secured a surprise election victory.",
+   "link": "https://www.wsj.com/finance/brazils-surprise-election-outcome-set-to-batter-stocks-real-35253aa8?mod=rss_markets_main"
   }
  ],
  "summaries": {
-  "requested": 14,
-  "rejected_ungrounded": 1,
-  "applied": 13
+  "requested": 21,
+  "rejected_ungrounded": 0,
+  "applied": 21
  },
- "generated": "2026-10-26T17:06+00:00",
- "total_cost_usd": 0.00305
+ "generated": "2026-10-26T20:09+00:00",
+ "total_cost_usd": 0.00376
 }
