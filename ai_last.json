@@ -4,29 +4,24 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12501,
-   "output_tokens": 2552,
-   "cost_usd": 0.00253
+   "input_tokens": 12435,
+   "output_tokens": 2259,
+   "cost_usd": 0.00237
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2735,
-   "output_tokens": 1920,
-   "cost_usd": 0.00123
+   "input_tokens": 2524,
+   "output_tokens": 2568,
+   "cost_usd": 0.00154
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Anthropic Files IPO Paperwork Ahead of Expected Stock Market Debut",
-   "Anthropic Drops Its S-1, Giving Market Glimpse Into Finances",
-   "Anthropic’s I.P.O. Prospectus Spells Out a Future of Promise and Peril"
-  ],
-  [
-   "HealthSpan Partners to Acquire Surgery Partners in $5.7 Billion Deal, Taking Company Private",
-   "Bon Secours agrees $5.7bn takeover of Bain-backed Surgery Partners",
-   "Bon Secours’ HealthSpan to buy Surgery Partners in $5.7B deal"
+   "Anthropic files for potentially the biggest IPO ever as CEO warns of risk to humanity from AI",
+   "Anthropic’s I.P.O. Prospectus Spells Out a Future of Promise and Peril",
+   "Anthropic Drops Its S-1, Giving Market Glimpse Into Finances"
   ],
   [
    "Meta eyes record $95 billion equity raise to fund AI expansion",
@@ -37,51 +32,51 @@
    "Audi Announces Its First U.S. Factory; Nvidia, Micron Drive Earnings Boom"
   ],
   [
-   "Treasury Yields Little Changed, French Bonds Outperform",
-   "French bonds rally after Moody’s rating reprieve"
-  ],
-  [
-   "OMERS buys minority stake in A$27B lender La Trobe from Brookfield",
-   "Brookfield adds Canadian pension giant to La Trobe’s register"
-  ],
-  [
-   "Brazilian Stocks Tumble After Lula’s Shock Win. It Could Create a Buying Opportunity.",
    "Brazilian Markets Crash After Lula’s Surprise Election Win Stuns Investors",
-   "One-Day Wipeout Tops 60% For the Hardest-Hit Brazilian Stocks"
+   "One-Day Wipeout Tops 60% For the Hardest-Hit Brazilian Stocks",
+   "Brazilian Stocks Tumble After Lula’s Shock Win. It Could Create a Buying Opportunity."
+  ],
+  [
+   "JetBlue posts bigger loss on fuel costs, but CEO says margins improving",
+   "JetBlue shares soar over 11% on strong revenue outlook despite Q3 miss"
+  ],
+  [
+   "Verizon Beats and Raises Guidance While Warning the FCC About SpaceX’s Phone Network",
+   "Verizon Sees Customer Surge, But Competition Fears Persist"
   ]
  ],
  "brief": [
   {
-   "headline": "Anthropic files IPO paperwork ahead of expected stock debut",
-   "detail": "Anthropic has filed IPO paperwork ahead of an expected stock market debut, drawing wide coverage across 112 outlets.",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMEduSFdhU2VXZWdFRUdXeTNRUXNUZE9JcE1Ndmo4SE94dllGVXUzUkZ3M1E5dlNCSmZNT1A0S2VMcm5qZU12cHItX0lYYmRqSVhFdlNtMGd0TnQwbzQzdGpTTDd4TG16NWlxbkw3dFc5NXgwa3NBMjRFTHFRQVA3VFlCMThnX25feTdrVlZTWnZqZ1hXWEgyaUNuSm40NWwtMzJFakNFVmFNSDgwa2h3Z0Ixcmg0WkJvcjR1QkxrTUdlaFlkdmJSSVZnUUZ3WEU?oc=5"
+   "headline": "Anthropic files for potentially biggest IPO ever",
+   "detail": "Anthropic filed for a potentially record IPO as its CEO warned of risks to humanity from AI, drawing coverage from 120 outlets.",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbVJpVjFkbEpRYlkyRk5KcWhidGJtT281NW9adU1IU3ZjWUdmSTRDUTE3SkF2UmpYbHZIaU5VbTlFLVAxaXBvbnZPVGx3Zk1qVEswVWhiN2tNUjVodUxRb3kyaXpOd0V0SUpKMEhxT25IOGVGakJIbkw1RjdfbmJUUV8xSXRmOWRKYjBndU1JdDF5U2VIVE92R1k5WFNlZV9BRnVPTFpFbUgyQlRNbVY5dDhfd1M1T1ZfRk55UHo5QzBQTktVVlF2VzN1Qk95NlAwYklPcGtPX1JVLWRYWmttZngzRGdqZw?oc=5"
   },
   {
-   "headline": "Meta eyes record $95 billion equity raise for AI",
-   "detail": "Meta is looking to raise $95 billion through stock-related deals that stretch into early next year, to fund AI expansion.",
+   "headline": "Meta eyes record $95 billion equity raise",
+   "detail": "Meta is eyeing a record $95 billion equity raise to fund its AI expansion, a move that could reshape how big tech finances AI spending.",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPclhjOFJvYkM0S0hLUmxaY0l2X3hCdWI0N1prZlo2QXhXdmt5T0pNQVpFODVpYzgycWdZcHM2NkZ2LTdaMEVUVlpTXzVFUzc2ZEdVdlpTeThUVkZtc3V4cEFTelk5bDd2Z0dfRDFsb0dGQ0MxRXhYMExFZTlXVkNjRXF6TDBLalZ5ZTFBbFMyX24wMVBTQW1GQkJNRjNYWTRiVGJJWWdialBfV1oyQUZNN3I4RQ?oc=5"
   },
   {
-   "headline": "HealthSpan to take Surgery Partners private in $5.7B deal",
-   "detail": "HealthSpan Partners agreed to acquire Surgery Partners in a $5.7 billion deal that takes the company private.",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQy1oRGxOeTN5RThFYWtSNWoxZFBZcjlFTTJkc3J4YXlTRlYydW1wQTg0YWxzY3R3Y0tHV1YzZDZXNVBwbFdhT0ZVUTZkOElXMjdYV3l5YXV2TnJyT2U1MENNa29qUFBOODE0N1VCUUxOTGUzWFgwNVJWZzNxVXJMYUZtY3daX1hFTG1DMmNCZ2NSQk1Hd3lraWR4WUNkV2p5Z0U5TDZUSkY1NGFldnZsanNlVTNJWjcyeGt4aXQ5SS0ydGgzWVEzSw?oc=5"
-  },
-  {
    "headline": "Microsoft offers buyouts to around 60,000 employees",
-   "detail": "Microsoft is offering buyouts to around 60,000 employees as it looks to contain costs.",
+   "detail": "Microsoft is offering buyouts to around 60,000 employees to contain costs, according to Reuters.",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY3V6RnhJNUdQRC1uU19vNFk4YUR3MVlHbmpOdnUxMGo4R2RoWVhvXzAzTGczekw4akxaVjB3VzF4bHRhRFZFTFJ5eGY0ZGFOZ2NtcTBQa0RqZlgzVHlQb0pUcVJjN3RBM3lZTFhjaTNCM3JXLWxzR1F3NTZDLU0teHZyb2FpX2xzajM1UlpVVFRDTmhTRFhpeVR1WWxaT1dva0E0TEVoTjllb3hMSDVFVkRYTnpaQXRhZ0w3ZU9vR1hhQQ?oc=5"
   },
   {
-   "headline": "Brazilian stocks tumble after Lula's surprise election win",
-   "detail": "Brazil's main stock market index dropped to a two-month low after Lula secured a surprise election victory.",
+   "headline": "Brazilian markets crash after Lula's surprise win",
+   "detail": "Brazil's main stock index fell to a two-month low after Lula's surprise election victory stunned investors.",
    "link": "https://www.wsj.com/finance/brazils-surprise-election-outcome-set-to-batter-stocks-real-35253aa8?mod=rss_markets_main"
+  },
+  {
+   "headline": "EQT to buy Range Resources in $13 billion deal",
+   "detail": "EQT agreed to buy Range Resources in a $13 billion deal that would create the top US gas producer.",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUDJYcWR4d21YUDJHMFFqVWNnWFlwZDQ2M25TQmFzcVZKNGUzb0lGeWRCcEUxclB5eWJBV3ExWjBDTEVvY1RiYkd0cUlHaGx4SE5sMFpGV2ZCM2JJSWdYUFBvNUhzd0s5amc3NUtBbVZxbVVMQU5JU3JTbVhxOFFRak1IZTliVlRsM2llLThFRWVRZU0?oc=5"
   }
  ],
  "summaries": {
-  "requested": 21,
+  "requested": 19,
   "rejected_ungrounded": 0,
-  "applied": 21
+  "applied": 19
  },
- "generated": "2026-10-26T20:09+00:00",
- "total_cost_usd": 0.00376
+ "generated": "2026-10-26T21:15+00:00",
+ "total_cost_usd": 0.00391
 }
