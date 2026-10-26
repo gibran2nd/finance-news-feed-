@@ -1,5 +1,56 @@
 [
   {
+    "week": "2026-W44",
+    "label": "Week of October 26\u201330, 2026",
+    "generated": "2026-10-26T17:06:39.462180+00:00",
+    "bullets": [
+      {
+        "headline": "Anthropic's IPO filing shows explosive growth, risks and staggering costs",
+        "source": "Reuters",
+        "section": "Stock Market & Equities",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQLVVZWVV6TXQtR3ZqaWZKZERKZ3J3VVpIZlNtUjVfRjdTS0tuVTlRQ0F0UzRhcW9Hd2hxR1BtNzF4UVBVYXBpTkc0Rmozb3pRekc2RVNnOVBYd19KUGZ5VE1UN29haXQ2M0w0Qk1QTm5INk5KRlhxLUR6Q3REWHR3OG9EYkpFMGJUUm5HMGFiX3pBLXhZMHV5Qkgwdlc0RTczMnhOc3Q4NFpORFE5SlRfRkVDOWdmZw?oc=5"
+      },
+      {
+        "headline": "Meta announces $95 billion stock offering to fund AI expansion",
+        "source": "CNBC",
+        "section": "Tech & Fintech",
+        "link": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html"
+      },
+      {
+        "headline": "SpaceX locks in $40B GPU financing deal with Apollo",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
+      },
+      {
+        "headline": "Apollo acquires minority stake in Abu Dhabi\u2019s Mubadala Capital",
+        "source": "Pensions & Investments",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVHdBLW5NbVJJaS1PeVdkV3F0eG1Lc1BvMzdIakl2OGdHQURPSkc5R1lULXRXUHBXVGFGQU5jR3V0NnloZDVkM1FjdENnWEtwUXAwWVl5YzZBT29uT1BWRU91TndIZURPTVFtR3d2NFlna3hjRHo5LWo3czhiQkVxNU9Ta2wwWkVmWGlz?oc=5"
+      },
+      {
+        "headline": "Gold Futures Rise on Softer Oil, With Focus on Fed",
+        "source": "WSJ",
+        "section": "Stock Market & Equities",
+        "link": "https://www.wsj.com/finance/commodities-futures/gold-flat-hovering-below-4-000-oz-fad3282f?mod=rss_markets_main"
+      },
+      {
+        "headline": "Microsoft Will Offer Buyouts to 60,000 Employees",
+        "source": "Bloomberg",
+        "section": "Tech & Fintech",
+        "link": "https://www.bloomberg.com/news/videos/2026-10-26/microsoft-offers-buyouts-to-60-000-employees-video"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 109,
+      "Macro & Economy": 63,
+      "Investment Banking & Deals": 136,
+      "Real Estate & REITs": 46,
+      "Earnings & Results": 52,
+      "Tech & Fintech": 104
+    }
+  },
+  {
     "week": "2026-W43",
     "label": "Week of October 19\u201323, 2026",
     "generated": "2026-10-25T23:56:34.243290+00:00",
