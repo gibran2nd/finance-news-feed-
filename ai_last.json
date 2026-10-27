@@ -4,89 +4,82 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12571,
-   "output_tokens": 2774,
-   "cost_usd": 0.00264
+   "input_tokens": 12665,
+   "output_tokens": 2225,
+   "cost_usd": 0.00238
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2724,
-   "output_tokens": 1367,
-   "cost_usd": 0.00096
+   "input_tokens": 3022,
+   "output_tokens": 3074,
+   "cost_usd": 0.00184
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Anthropic Files for IPO With $16.3B Revenue and Massive AI Spending",
-   "Anthropic S-1: $16.3B Revenue, Nasdaq Ticker ANT",
-   "AI’s Game-Changing IPO"
+   "Anthropic files for massive IPO while warning its AI could pose ‘existential risks’",
+   "AI’s Game-Changing IPO",
+   "Anthropic S-1: $16.3B Revenue, Nasdaq Ticker ANT"
   ],
   [
-   "Advent Announces $30 Billion Fundraise for Global Investments",
-   "Advent's $30B Buyout Push"
-  ],
-  [
-   "Boeing shares slide on a disappointing cash flow update. Why this dip is buyable",
-   "The big reason Boeing’s stock is falling so hard after earnings"
-  ],
-  [
-   "JetBlue shares rally after airline flags 'disconnect' between earnings and bond rout",
-   "JetBlue stock surges 20% as company outlook calms investors",
-   "JetBlue Earnings: Stock Soars—Here’s Why"
-  ],
-  [
-   "HSBC announces share buyback of up to $1 billion as third-quarter profit meets estimates",
    "European shares shrug off HSBC miss as other earnings, oil relief lift sentiment",
-   "Breakingviews - COMMENTARY: HSBC shocker plays on big bank growth fears",
-   "FTSE 100 falls 82 points as HSBC plunges 7.5% and Reckitt cuts full-year outlook"
+   "Breakingviews - COMMENTARY: HSBC shocker plays on big bank growth fears"
   ],
   [
-   "UPS beats quarterly expectations, raises full-year guidance again",
-   "UPS Earnings Deliver Good News for the U.S. Economy"
-  ],
-  [
-   "Microsoft offers buyouts to around 60,000 employees to contain costs",
-   "Microsoft Is Trying to Shed a Lot of Workers. Just Don’t Call It a Layoff."
+   "UPS Raises Guidance Again as Pricing Outruns Volume",
+   "UPS Rises 5% as Q3 Beat Lifts Full-Year Outlook; FedEx Inches Higher"
   ],
   [
    "SoFi Says It's Well Positioned for Economic Uncertainty",
    "SoFi beat Q3 2026 earnings estimates and raised its outlook"
+  ],
+  [
+   "Robinhood shares fall 5% as crypto slump weighs on profits, offsetting gains in new businesses",
+   "Robinhood's crypto revenue fell 55% from last year, but topped Street forecasts"
+  ],
+  [
+   "JetBlue Surges 19% as Airline Reaffirms Profitability Outlook | Closing Bell",
+   "JetBlue stock surges 20% as company outlook calms investors"
+  ],
+  [
+   "Microsoft Is Trying to Shed a Lot of Workers. Just Don’t Call It a Layoff.",
+   "Microsoft offers buyouts to around 60,000 employees to contain costs"
   ]
  ],
  "brief": [
   {
-   "headline": "Anthropic files for IPO, disclosing $16.3B in revenue",
-   "detail": "Anthropic has filed for an IPO with the SEC, letting the public see its financials for the first time, with $16.3B in revenue reported.",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRjF0cGl0ZHlYMndCMzE5SC1fWktFdVlMZWd0MVBYVXZJTkpOVTNKWGxzUExsZHAwOEpQR1Bud2Z4Qi1BOTc1T3lQSjEzNGJXUVlkeF9tNkpfU3JLMFViVkdxMTljY2RUOUd6NjYtejFBUTdtT1hDQjMwbDNNYkFBLVc0QV9BbDRJSkJYU1N5ak1Menl1c1diR25KSWwxRWpGakhTUmVDY1E5Z2VnUm5wcw?oc=5"
+   "headline": "Anthropic files for massive IPO, warning of existential risks",
+   "detail": "Anthropic filed for a massive IPO while warning its AI could pose 'existential risks', drawing attention from investors and finance readers to the company's public debut.",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU3VJRXZuTTdsNDdoMi1EQlRYdl9FZnNibTQ2QTR5Z204bm92S0Juc1ZrTWhndnFMNGRMc2dUTFBmOVo5XzdWUTNmMVhfOWpOaktXUTNBM3hsR2tJbnd5eXc2aGhwSi1lUUNUN05ILU5WRDRkZkVBekszNTBvWk9lTERZM19lQUphcV9scnM5Rm1PbU9EMXJUSFNOU3l6dw?oc=5"
   },
   {
    "headline": "Meta eyes record $97.5 billion equity raise for AI",
-   "detail": "Meta is reportedly eyeing a record $97.5 billion equity raise to fund its AI expansion, according to Investing.com.",
+   "detail": "Meta is eyeing a record $97.5 billion equity raise to fund its AI expansion, a deal size that would matter to equity and capital markets watchers.",
    "link": "https://www.investing.com/news/economy-news/meta-eyes-record-975-billion-equity-raise-to-fund-ai-expansion-4975360"
   },
   {
    "headline": "Microsoft offers buyouts to around 60,000 employees",
-   "detail": "Microsoft is offering buyouts to around 60,000 employees to contain costs, as Skydance also seeks voluntary exits.",
+   "detail": "Microsoft is offering buyouts to around 60,000 employees to contain costs, a major cost-cutting move covered by six outlets.",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY3V6RnhJNUdQRC1uU19vNFk4YUR3MVlHbmpOdnUxMGo4R2RoWVhvXzAzTGczekw4akxaVjB3VzF4bHRhRFZFTFJ5eGY0ZGFOZ2NtcTBQa0RqZlgzVHlQb0pUcVJjN3RBM3lZTFhjaTNCM3JXLWxzR1F3NTZDLU0teHZyb2FpX2xzajM1UlpVVFRDTmhTRFhpeVR1WWxaT1dva0E0TEVoTjllb3hMSDVFVkRYTnpaQXRhZ0w3ZU9vR1hhQQ?oc=5"
   },
   {
-   "headline": "HSBC announces up to $1 billion buyback",
-   "detail": "HSBC announced a share buyback of up to $1 billion as its third-quarter profit met estimates.",
-   "link": "https://www.cnbc.com/2026/10/27/hsbc-third-quarter-profit-.html"
+   "headline": "DoorDash nears roughly $17 billion Instacart takeover",
+   "detail": "DoorDash is in advanced talks to acquire Instacart parent Maplebear for roughly $17 billion, according to Bloomberg, a large deal for dealmaking watchers.",
+   "link": "https://www.bloomberg.com/news/videos/2026-10-27/doordash-is-said-to-near-17b-takeover-of-instacart-video"
   },
   {
-   "headline": "Ares Capital to buy Apollo's MFIC for $2.6B",
-   "detail": "Ares Capital is set to buy Apollo's MFIC in a $2.6 billion deal, according to Reuters.",
+   "headline": "Ares Capital to buy Apollo's MFIC for $2.6 billion",
+   "detail": "Ares Capital is set to buy Apollo's MFIC in a $2.6 billion deal, a notable private credit transaction for investment banking and private markets readers.",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbEhWMG56WWx5aDBUbHlkdkZXQ19zakRDcjgyYzhjak9UTktQOU1jT0F3anF6bmgyVFB3M2M4TjI0Z2ZFN0FIVDZIWDluZTRnSnV6QWNsLWM2ZnE4VS1ncjlUc2RYZXg4V1pSZFhvc0V6TDFUSmJYMWtnbUp0U0Ezd2FKc2tNNUlQM0dHSjhrdzk3LWxkbEtTODJ0NGpYcWJZa3pRdko1c3V1OHp5ZVJLOWtFd2k0SXRfNGRFQUxHVG9VZw?oc=5"
   }
  ],
  "summaries": {
-  "requested": 20,
-  "rejected_ungrounded": 1,
-  "applied": 19
+  "requested": 23,
+  "rejected_ungrounded": 0,
+  "applied": 21
  },
- "generated": "2026-10-27T19:39+00:00",
- "total_cost_usd": 0.0036
+ "generated": "2026-10-27T21:03+00:00",
+ "total_cost_usd": 0.00422
 }
