@@ -4,81 +4,75 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12048,
-   "output_tokens": 2811,
-   "cost_usd": 0.00261
+   "input_tokens": 11863,
+   "output_tokens": 2317,
+   "cost_usd": 0.00234
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2666,
-   "output_tokens": 1621,
-   "cost_usd": 0.00108
+   "input_tokens": 2556,
+   "output_tokens": 1254,
+   "cost_usd": 0.00088
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Anthropic IPO Filing: $965B Mark, Nasdaq ANT [2026]",
-   "Anthropic’s big financial reveal",
-   "AI & Tech Brief: Anthropic’s S-1",
-   "Anthropic plans to go public at a time when AI tokens have never been cheaper"
+   "Meta eyes record $97.5 billion equity raise to fund AI expansion",
+   "Anthropic and the AI cluster effect in fundraising"
   ],
   [
-   "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
-   "Meta eyes record $95 billion equity raise to fund AI expansion"
+   "Microsoft offers buyouts to around 60,000 employees to contain costs",
+   "Microsoft Is Trying to Shed a Lot of Workers. Just Don’t Call It a Layoff."
   ],
   [
-   "A possible DoorDash-Instacart deal is all about keeping up with Walmart and Amazon, analysts say",
-   "DoorDash in talks to buy Instacart in roughly $17 billion deal, source says"
+   "JetBlue stock surges 20% as company outlook calms investors",
+   "JetBlue Earnings: Stock Soars—Here’s Why",
+   "JetBlue shares rally as airline seeks to calm financial concerns"
   ],
   [
-   "JetBlue posts bigger loss on fuel costs, but CEO says margins improving",
-   "JetBlue Brings Some Relief to Investors With Third-Quarter Performance"
+   "UPS beats quarterly expectations, raises full-year guidance again",
+   "UPS Earnings Deliver Good News for the U.S. Economy"
   ],
   [
-   "South Korea’s economy grows faster than expected in third quarter",
-   "South Korea’s Economy Beats Forecasts on AI-Driven Chip Boom"
+   "U.S. Consumer Confidence Improved in October, Conference Board Says",
+   "US Consumer Confidence Rises for First Time in Four Months"
   ],
   [
-   "Whirlpool Plunges After Cutting Outlook For Third Time This Year",
-   "Whirlpool Heading for Full-Year Loss as Costs Mount and Sales Fall"
+   "PayPal Raises Guidance as Turnaround Strategy Shows Promise",
+   "PayPal Beats Earnings Estimates. Does It Now Have a Shorter Path to Recovery?"
   ],
   [
-   "Memory Chip Giants Worth $2 Trillion Face Test to Prove AI Isn't a Bubble",
-   "Memory Titans Test AI Demand While Bubble Fears Transfix Markets"
-  ],
-  [
-   "Lula faces a fiscal reckoning after Brazil’s market rout",
-   "Brazilian Stocks Tumble After Lula’s Shock Win. It Could Create a Buying Opportunity.",
-   "Analysts forecast Brazil market plunge after Lula turnaround win"
+   "Corning Earnings Show It’s Deeply Dependent on AI Demand. Why That Could Be Bad.",
+   "Corning Profit Surges on AI Demand"
   ]
  ],
  "brief": [
   {
-   "headline": "Anthropic reveals IPO filing valuing it at $965 billion",
-   "detail": "Anthropic's IPO filing reportedly marks the company at $965 billion and lists ticker ANT on Nasdaq, drawing wide coverage.",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaWhlN1pRcFFXZmR0Qm0xNEJSaVpCVWIyLXZQR2pBdDVJUG5WWTVJVEFDS1djeW1KbEEzMjVDMlp1VTNqTlZxVktRVFdrX0VYX2hWUVNBZmJ0TFU5ZkNZbFJLSERfMFJRTTZxcEhiRUJBRmVrbjRqanFFcXJ3OU1hVnJfT2N5eTM4Z2gw?oc=5"
+   "headline": "Anthropic's IPO highlights risks of the AI business",
+   "detail": "Anthropic's much-anticipated IPO is giving potential investors some perspective on the risky business of artificial intelligence.",
+   "link": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html"
   },
   {
-   "headline": "Meta plans record $95 billion equity raise for AI expansion",
-   "detail": "Meta is looking to raise a total of $95 billion through stock-related deals stretching into early next year, to fund AI expansion.",
-   "link": "https://www.marketwatch.com/story/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering-d816fec2?mod=mw_rss_topstories"
+   "headline": "Ares Capital to buy Apollo's MFIC for $2.6 billion",
+   "detail": "Ares Capital agreed to buy Apollo's MFIC in a $2.6 billion deal, a sizable transaction in the investment banking and deals space.",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbEhWMG56WWx5aDBUbHlkdkZXQ19zakRDcjgyYzhjak9UTktQOU1jT0F3anF6bmgyVFB3M2M4TjI0Z2ZFN0FIVDZIWDluZTRnSnV6QWNsLWM2ZnE4VS1ncjlUc2RYZXg4V1pSZFhvc0V6TDFUSmJYMWtnbUp0U0Ezd2FKc2tNNUlQM0dHSjhrdzk3LWxkbEtTODJ0NGpYcWJZa3pRdko1c3V1OHp5ZVJLOWtFd2k0SXRfNGRFQUxHVG9VZw?oc=5"
   },
   {
-   "headline": "Microsoft offers buyouts to about 60,000 employees",
-   "detail": "Microsoft is offering buyouts to around 60,000 employees, a move aimed at containing costs.",
+   "headline": "Meta eyes record $97.5 billion equity raise for AI",
+   "detail": "Meta is pursuing a record $97.5 billion equity raise to fund its AI expansion, a move that would give investors a sense of the scale of AI spending.",
+   "link": "https://www.investing.com/news/economy-news/meta-eyes-record-975-billion-equity-raise-to-fund-ai-expansion-4975360"
+  },
+  {
+   "headline": "Microsoft offers buyouts to around 60,000 employees",
+   "detail": "Microsoft is offering buyouts to around 60,000 employees to contain costs, a major workforce move by a large tech company.",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY3V6RnhJNUdQRC1uU19vNFk4YUR3MVlHbmpOdnUxMGo4R2RoWVhvXzAzTGczekw4akxaVjB3VzF4bHRhRFZFTFJ5eGY0ZGFOZ2NtcTBQa0RqZlgzVHlQb0pUcVJjN3RBM3lZTFhjaTNCM3JXLWxzR1F3NTZDLU0teHZyb2FpX2xzajM1UlpVVFRDTmhTRFhpeVR1WWxaT1dva0E0TEVoTjllb3hMSDVFVkRYTnpaQXRhZ0w3ZU9vR1hhQQ?oc=5"
   },
   {
-   "headline": "DoorDash in talks to buy Instacart for about $17 billion",
-   "detail": "DoorDash is reportedly in talks to buy Instacart in a deal of roughly $17 billion, according to a source.",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONkI1dVc1WGVsRGwyMkZtNFFfR3NpaFR2M2JTQ05POTBkZ29lSVpuelFJVWFCTC1tNEJ3Y0F6YUxHWUJkWjJqcm1KWnhNajVxNk5iUFZuck9ZV0tOVEdxYjlxcG0ycUk5UUlyU3l6bnpJY0NFMDJqcXJ4cWJGeUJRbTV5YTVtQy1CSXlTUmZn?oc=5"
-  },
-  {
-   "headline": "Brazil's market rout raises fiscal pressure on Lula",
-   "detail": "Concerns about economic management triggered Brazil's worst day for its currency in more than 25 years, raising fiscal reckoning fears.",
-   "link": "https://www.ft.com/content/0231b234-14dc-4ff0-8263-e1063b0a25d5?syn-25a6b1a6=1"
+   "headline": "Coca-Cola raises earnings outlook despite weak North America demand",
+   "detail": "Coca-Cola raised its earnings outlook even as it sees lackluster demand in North America; its stock has climbed about 32% this year.",
+   "link": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html"
   }
  ],
  "summaries": {
@@ -86,6 +80,6 @@
   "rejected_ungrounded": 0,
   "applied": 20
  },
- "generated": "2026-10-27T05:19+00:00",
- "total_cost_usd": 0.00369
+ "generated": "2026-10-27T16:10+00:00",
+ "total_cost_usd": 0.00322
 }
