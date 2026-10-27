@@ -4,70 +4,88 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 11750,
-   "output_tokens": 2472,
-   "cost_usd": 0.00241
+   "input_tokens": 12048,
+   "output_tokens": 2811,
+   "cost_usd": 0.00261
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2617,
-   "output_tokens": 1270,
-   "cost_usd": 0.0009
+   "input_tokens": 2666,
+   "output_tokens": 1621,
+   "cost_usd": 0.00108
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Anthropic files for blockbuster IPO that could value AI giant at $2 trillion",
+   "Anthropic IPO Filing: $965B Mark, Nasdaq ANT [2026]",
+   "Anthropic’s big financial reveal",
    "AI & Tech Brief: Anthropic’s S-1",
-   "Anthropic’s I.P.O. Prospectus Spells Out a Future of Promise and Peril"
+   "Anthropic plans to go public at a time when AI tokens have never been cheaper"
   ],
   [
    "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
    "Meta eyes record $95 billion equity raise to fund AI expansion"
   ],
   [
-   "DoorDash in talks to buy Instacart in roughly $17 billion deal, source says",
-   "A possible DoorDash-Instacart deal is all about keeping up with Walmart and Amazon, analysts say"
+   "A possible DoorDash-Instacart deal is all about keeping up with Walmart and Amazon, analysts say",
+   "DoorDash in talks to buy Instacart in roughly $17 billion deal, source says"
+  ],
+  [
+   "JetBlue posts bigger loss on fuel costs, but CEO says margins improving",
+   "JetBlue Brings Some Relief to Investors With Third-Quarter Performance"
   ],
   [
    "South Korea’s economy grows faster than expected in third quarter",
-   "S. Korea Growth Tops Forecast as Chip Boom Masks Weak Demand"
+   "South Korea’s Economy Beats Forecasts on AI-Driven Chip Boom"
+  ],
+  [
+   "Whirlpool Plunges After Cutting Outlook For Third Time This Year",
+   "Whirlpool Heading for Full-Year Loss as Costs Mount and Sales Fall"
+  ],
+  [
+   "Memory Chip Giants Worth $2 Trillion Face Test to Prove AI Isn't a Bubble",
+   "Memory Titans Test AI Demand While Bubble Fears Transfix Markets"
+  ],
+  [
+   "Lula faces a fiscal reckoning after Brazil’s market rout",
+   "Brazilian Stocks Tumble After Lula’s Shock Win. It Could Create a Buying Opportunity.",
+   "Analysts forecast Brazil market plunge after Lula turnaround win"
   ]
  ],
  "brief": [
   {
-   "headline": "Anthropic files for IPO that could value AI giant at $2 trillion",
-   "detail": "Anthropic filed for a blockbuster IPO that could value the AI giant at $2 trillion, a story covered by 136 outlets.",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdmhsUEhtVXNlcmMyUGtLTGtTZ1c2TU9ianFaLU1BdGlEa0RWaHNqWG9CeG42YmRuMWdFb2hvVEY4VUpOZlBOalJNV29sV1gtQzNOTHNPUDhVR1dHQ1NMaVM3Z0p1UGhSQ2dzX2JrX3huUmJYR0trX3h5OUNFVWE5UlpkQmMzUnFoekZnMFZSeTg2NjNiVHUxejZzVE5hYWEwejNZRmlHUjFCTHZtS2xDMDFobw?oc=5"
+   "headline": "Anthropic reveals IPO filing valuing it at $965 billion",
+   "detail": "Anthropic's IPO filing reportedly marks the company at $965 billion and lists ticker ANT on Nasdaq, drawing wide coverage.",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaWhlN1pRcFFXZmR0Qm0xNEJSaVpCVWIyLXZQR2pBdDVJUG5WWTVJVEFDS1djeW1KbEEzMjVDMlp1VTNqTlZxVktRVFdrX0VYX2hWUVNBZmJ0TFU5ZkNZbFJLSERfMFJRTTZxcEhiRUJBRmVrbjRqanFFcXJ3OU1hVnJfT2N5eTM4Z2gw?oc=5"
   },
   {
-   "headline": "Microsoft offers buyouts to about 60,000 employees",
-   "detail": "Microsoft is offering buyouts to around 60,000 employees to contain costs, according to Reuters.",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY3V6RnhJNUdQRC1uU19vNFk4YUR3MVlHbmpOdnUxMGo4R2RoWVhvXzAzTGczekw4akxaVjB3VzF4bHRhRFZFTFJ5eGY0ZGFOZ2NtcTBQa0RqZlgzVHlQb0pUcVJjN3RBM3lZTFhjaTNCM3JXLWxzR1F3NTZDLU0teHZyb2FpX2xzajM1UlpVVFRDTmhTRFhpeVR1WWxaT1dva0E0TEVoTjllb3hMSDVFVkRYTnpaQXRhZ0w3ZU9vR1hhQQ?oc=5"
-  },
-  {
-   "headline": "Meta pursues record $95 billion stock-related fundraising",
-   "detail": "Meta is looking to raise $95 billion through stock-related deals, with Nvidia, AMD and Broadcom possibly buying $35 billion of shares.",
+   "headline": "Meta plans record $95 billion equity raise for AI expansion",
+   "detail": "Meta is looking to raise a total of $95 billion through stock-related deals stretching into early next year, to fund AI expansion.",
    "link": "https://www.marketwatch.com/story/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering-d816fec2?mod=mw_rss_topstories"
   },
   {
-   "headline": "Wall Street banks, Blackstone line up $63B for Anthropic chips",
-   "detail": "Banks and Blackstone are lining up $63 billion to finance Broadcom AI chips for Anthropic, according to Reuters.",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZU9zQUUycTh6SXBkQ25GQUJKTWJabmR3Q1gtYXlZWDJSUWk2cmxGWWRsUlZlSTdVNEtsdDY5d0hVakZ1ZkVDMDFiV2NrdjFaQnNVZUxRMjNESzluZFVBc0s3YU9pZjNZMVR1WEdIOVFrc2phbnRZYWpuYnRXY29Rd0FiVnItWTR1akVvNXhfWDAyNHJId040M2R0Q29HZTAwVzYxUl9OVy0wNWFrV2M3ME1Td25NUGI5cnhOY2JyQUVFS3ZOUGdEZVh1X2pQZWp4NGc?oc=5"
+   "headline": "Microsoft offers buyouts to about 60,000 employees",
+   "detail": "Microsoft is offering buyouts to around 60,000 employees, a move aimed at containing costs.",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY3V6RnhJNUdQRC1uU19vNFk4YUR3MVlHbmpOdnUxMGo4R2RoWVhvXzAzTGczekw4akxaVjB3VzF4bHRhRFZFTFJ5eGY0ZGFOZ2NtcTBQa0RqZlgzVHlQb0pUcVJjN3RBM3lZTFhjaTNCM3JXLWxzR1F3NTZDLU0teHZyb2FpX2xzajM1UlpVVFRDTmhTRFhpeVR1WWxaT1dva0E0TEVoTjllb3hMSDVFVkRYTnpaQXRhZ0w3ZU9vR1hhQQ?oc=5"
   },
   {
-   "headline": "DoorDash in talks to buy Instacart for about $17B",
-   "detail": "DoorDash is in talks to buy Instacart in a roughly $17 billion deal, according to a source, per Reuters.",
+   "headline": "DoorDash in talks to buy Instacart for about $17 billion",
+   "detail": "DoorDash is reportedly in talks to buy Instacart in a deal of roughly $17 billion, according to a source.",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONkI1dVc1WGVsRGwyMkZtNFFfR3NpaFR2M2JTQ05POTBkZ29lSVpuelFJVWFCTC1tNEJ3Y0F6YUxHWUJkWjJqcm1KWnhNajVxNk5iUFZuck9ZV0tOVEdxYjlxcG0ycUk5UUlyU3l6bnpJY0NFMDJqcXJ4cWJGeUJRbTV5YTVtQy1CSXlTUmZn?oc=5"
+  },
+  {
+   "headline": "Brazil's market rout raises fiscal pressure on Lula",
+   "detail": "Concerns about economic management triggered Brazil's worst day for its currency in more than 25 years, raising fiscal reckoning fears.",
+   "link": "https://www.ft.com/content/0231b234-14dc-4ff0-8263-e1063b0a25d5?syn-25a6b1a6=1"
   }
  ],
  "summaries": {
-  "requested": 19,
+  "requested": 20,
   "rejected_ungrounded": 0,
-  "applied": 15
+  "applied": 20
  },
- "generated": "2026-10-27T00:39+00:00",
- "total_cost_usd": 0.00331
+ "generated": "2026-10-27T05:19+00:00",
+ "total_cost_usd": 0.00369
 }
