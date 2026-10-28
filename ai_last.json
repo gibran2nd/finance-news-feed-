@@ -4,91 +4,101 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 13111,
-   "output_tokens": 2853,
-   "cost_usd": 0.00274
+   "input_tokens": 12179,
+   "output_tokens": 2934,
+   "cost_usd": 0.00268
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2825,
-   "output_tokens": 1438,
-   "cost_usd": 0.001
+   "input_tokens": 2491,
+   "output_tokens": 1300,
+   "cost_usd": 0.0009
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Meta eyes record $97.5 billion equity raise to fund AI expansion",
-   "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership"
+   "Ambani’s Jio surges 21% in Mumbai debut after record $3.2 billion India IPO By Reuters",
+   "Meta- and Google-backed Jio Platforms’ shares soar over 21% on trading debut after record IPO",
+   "Jio shares surge 21% in market debut after blockbuster India IPO",
+   "Jio Looks to Break India Mega-IPO Jinx With a Strong Stock-Market Debut",
+   "Reliance's telecom giant Jio rises in debut after India's largest IPO"
   ],
   [
-   "AI’s Game-Changing IPO",
-   "Anthropic S-1: $16.3B Revenue, Nasdaq Ticker ANT",
-   "CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending"
+   "SK Hynix unveils $75 billion shareholder return plan after posting record profit",
+   "SK Hynix Posts Record Profit Amid AI Rush",
+   "SK Hynix third-quarter profit sharply beats estimates on AI memory boost"
+  ],
+  [
+   "Visa Earnings Beats Estimates as Payments Volume Rises 9%",
+   "Visa results beat estimates as resilient customers keep up spending"
+  ],
+  [
+   "Boeing shares slide on a disappointing cash flow update. Why this dip is buyable",
+   "The big reason Boeing’s stock is falling so hard after earnings"
   ],
   [
    "UPS Raises Guidance Again as Pricing Outruns Volume",
-   "UPS Rises 5% as Q3 Beat Lifts Full-Year Outlook; FedEx Inches Higher"
-  ],
-  [
-   "SK Hynix third-quarter profit sharply beats estimates on AI memory boost",
-   "SK Hynix Q3 profit beats expectations, vows $75 bln in shareholder returns",
-   "SK Hynix Posts Record Profit Amid AI Rush"
+   "UPS lifts full-year outlook as revenue grows across all segments"
   ],
   [
    "Robinhood profit misses estimates as crypto trading slows",
    "Robinhood shares fall 5% as crypto slump weighs on profits, offsetting gains in new businesses"
   ],
   [
-   "JetBlue Surges 19% as Airline Reaffirms Profitability Outlook | Closing Bell",
-   "JetBlue stock surges 20% as company outlook calms investors"
+   "Stocks get AI lift, kiwi slides on RBNZ’s surprise hold",
+   "New Zealand Central Bank Surprises Markets With Rate Hold",
+   "New Zealand Unexpectedly Holds Interest Rates Steady; Kiwi Falls",
+   "RBNZ unexpectedly holds rates at 2.75% in split vote, signals further hikes likely",
+   "Morning Bid: RBNZ throws markets a curveball"
   ],
   [
-   "Visa results beat estimates as resilient customers keep up spending",
-   "Visa Reports Higher Profit on Payment Volumes, Transactions Growth"
+   "StanChart raises 2026 income outlook after Q3 profit beats forecasts",
+   "Standard Chartered GAAP EPS of $0.67, revenue of $5.78B beats by $70M; updates FY2026 outlook",
+   "Standard Chartered Quarterly Net Profit Jumps, Raises Income Guidance"
   ],
   [
-   "Seagate Stock Falls as Record-Breaking Earnings Aren’t Enough",
-   "Seagate Posts Soaring Profit on Continued Data-Storage Demand"
+   "Baker Hughes rounds out oilfield services earnings with lower quarterly profit",
+   "Baker Hughes Revenue Lifted by Growing Demand From Energy, Industrial Markets"
   ],
   [
-   "European shares shrug off HSBC miss as other earnings, oil relief lift sentiment",
-   "Breakingviews - COMMENTARY: HSBC shocker plays on big bank growth fears"
+   "Australia’s Inflation Continued to Accelerate in September",
+   "Australian Inflation Exceeds Estimate Ahead of RBA Meeting"
   ]
  ],
  "brief": [
   {
-   "headline": "Meta plans record equity raise to fund AI expansion",
-   "detail": "Meta is reportedly seeking a record $97.5 billion equity raise to fund its AI expansion, one of the largest such raises on record.",
-   "link": "https://www.investing.com/news/economy-news/meta-eyes-record-975-billion-equity-raise-to-fund-ai-expansion-4975360"
+   "headline": "VCs and Amazon to profit from Anthropic's IPO",
+   "detail": "Coverage says venture investors will make billions from Anthropic's IPO, while Amazon is set to make much more.",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPY0hza3dNdjUwV2kxTjduRGwzRjluVTU0TXJiRWY2WElramdvXzR1MGJtazJ5RXNvcXFrQ3JEVklNdnpCb2E1bUQ5cmRhNmxmM0tpS2hfZHZrZWRQaGtqSWNmZElVMXBvVWU2MUZ4b3hxdEI5U2JwNzFEVGFWMWcyV0xKNnlMSUpVTU5HM2dINHhUeTRFd2hXS2JtRGh0UWpNaWRZRzNDV2RxUlgxS0dJSEIydnk4eFE?oc=5"
   },
   {
-   "headline": "Anthropic files S-1 with $16.3B revenue, Nasdaq ticker ANT",
-   "detail": "Anthropic's S-1 filing shows $16.3 billion in revenue and a planned Nasdaq listing under ticker ANT, giving investors their first look at its financials.",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOGREUFVsZXRQT2VmSUVRcDRHSjVaSmlXallCRjEtVjQxbWlzeU5aR09PQTJIT2VGb0RONTFwaDY1RWZoS3lfUmFDVGRLWmVma0JOOGV0NWk5czhJWEJHMDFsSTBpSW8yXzExTkhjbEdtNzNMNmpOcTdYUWZOaGVYYld3dk1GVEc2MmNOZjllQnJUQQ?oc=5"
+   "headline": "Jio shares jump 21% in Mumbai debut",
+   "detail": "Ambani's Jio rose 21% in its Mumbai debut after a record $3.2 billion India IPO, according to Reuters.",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT2M1WWxxaTdYaC1ZYTZrY0RhZzZTekVGN1lmQVVpNXJWaE5BU2k4Y1dseV9tRERISkdLY2JuZ3RqeUJBY00wd0l3VnZGckhKUHlsdnFMNW9UUkdQLXFNUlJueGU0dlNzT3EzSUs3QjZxNkQzc1RFbGYwZFY0MzZUYWxtUW5wWk01NVZiTEI4WHFySDN1a19yTGh5S2xCRmVWTk5yVnVDMlFUeDh4cmtJYWZUa292S2p4eVNYZER6NWdlNDZ3R280?oc=5"
   },
   {
-   "headline": "SK Hynix Q3 profit beats expectations, boosts shareholder returns",
-   "detail": "SK Hynix's third-quarter profit beat expectations, and the chipmaker vowed $75 billion in shareholder returns, reflecting strong AI memory demand.",
-   "link": "https://www.investing.com/news/earnings/sk-hynix-q3-profit-beats-expectations-vows-75-bln-in-shareholders-returns-4977255"
+   "headline": "SK Hynix unveils $75 billion shareholder return plan",
+   "detail": "SK Hynix announced the $75 billion return plan after posting record profit, a major move for investors in the chipmaker.",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcy1XMnJsZEJsNUwxOVB1LWhGV2dXellEM1dVVmYxc0ZKYk9oMEs2WEJGcmZsLWFiUUQxREdWOFFvUXYwV2VUWHF6M2NBbURtWVJqWHd2clVISmdKVGEzQzdJRngwcUFPYUlBZFJndG5WRTBUcENrUG9Hci1NMGxpSFV5X3hRWXdmZ05ISkpwZUpaRmdTemFrYXk5Qk1BbWN2dEZXY05hTS1lWHc2QTQtZ1NB?oc=5"
   },
   {
-   "headline": "Coca-Cola raises earnings outlook despite weak North America demand",
-   "detail": "Coca-Cola raised its earnings outlook even as it sees lackluster demand in North America, with its stock up about 32% this year.",
-   "link": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html"
+   "headline": "Meta plans to raise $95 billion for AI spending",
+   "detail": "Meta announced plans to raise $95 billion for AI infrastructure, while Nvidia and AMD will invest $4 billion in Meta.",
+   "link": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html"
   },
   {
-   "headline": "Ares Capital to buy Apollo's MFIC in $2.6B deal",
-   "detail": "Ares Capital agreed to buy Apollo's MFIC in a $2.6 billion deal, a significant consolidation move in the investment banking and deals space.",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbEhWMG56WWx5aDBUbHlkdkZXQ19zakRDcjgyYzhjak9UTktQOU1jT0F3anF6bmgyVFB3M2M4TjI0Z2ZFN0FIVDZIWDluZTRnSnV6QWNsLWM2ZnE4VS1ncjlUc2RYZXg4V1pSZFhvc0V6TDFUSmJYMWtnbUp0U0Ezd2FKc2tNNUlQM0dHSjhrdzk3LWxkbEtTODJ0NGpYcWJZa3pRdko1c3V1OHp5ZVJLOWtFd2k0SXRfNGRFQUxHVG9VZw?oc=5"
+   "headline": "RBNZ unexpectedly holds rates, kiwi slides",
+   "detail": "New Zealand's central bank surprised markets with a 4-3 split hold while saying further hikes are still likely, pushing the kiwi lower.",
+   "link": "https://www.investing.com/news/economy-news/stocks-get-ai-lift-dollar-holds-steady-ahead-of-fed-decision-4977355"
   }
  ],
  "summaries": {
-  "requested": 21,
+  "requested": 19,
   "rejected_ungrounded": 0,
-  "applied": 20
+  "applied": 17
  },
- "generated": "2026-10-28T00:37+00:00",
- "total_cost_usd": 0.00374
+ "generated": "2026-10-28T05:58+00:00",
+ "total_cost_usd": 0.00358
 }

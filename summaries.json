@@ -2,7 +2,7 @@
   {
     "week": "2026-W44",
     "label": "Week of October 26\u201330, 2026",
-    "generated": "2026-10-28T00:37:34.341546+00:00",
+    "generated": "2026-10-28T05:58:26.361870+00:00",
     "bullets": [
       {
         "headline": "Asian stocks surge as Anthropic IPO lifts sentiment ahead of earnings, central banks",
@@ -23,6 +23,12 @@
         "link": "https://www.investing.com/news/economy-news/meta-eyes-record-975-billion-equity-raise-to-fund-ai-expansion-4975360"
       },
       {
+        "headline": "Jio shares surge 21% in market debut after blockbuster India IPO",
+        "source": "TechCrunch",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUkozOENxTExJSm9xVl9IXzkwWlhlclE5bnpKemg5T1BhZWxaVm9zejI5SHdRZzlibndTNTVNVGlxUXNGVkVadkxwTmZFWHpaWklGOU1PTlREdG1rTC1Uc0pZZkRiM05ERjloZGVkeXZlWjAwOGVrbmViTFZCZk9fS0NNOGZXQXFQVDVxNFNNd0RvaV9NOHZwOUNmVXRtUHM?oc=5"
+      },
+      {
         "headline": "Microsoft offers a quarter of its global workforce voluntary buyouts as AI spending accelerates",
         "source": "AP",
         "section": "Stock Market & Equities",
@@ -33,21 +39,15 @@
         "source": "PEI Private Equity",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOEdDc1AtX1RWYXdSZlJQQ2FOMkh0M3h5YlE1N0UxMXhWT2lzeTBxdDE1S2xLZTBzNWdEdWgwdWJWSFFWaHV0azE5NFFCVGVSTzZZYTI3V3BrUG42TjZzV2s5bDJtRmRsR1BNUTZzYzBaM2NsMlRlQmcyTHI3Zk0xNk9saTJrYzQ0a1Jsb040XzFkYUdDcjd0LUM1T25KN3JWR0RPS3p5Z3ZXMUlwRWY2cmpYTW1iM2tIVGNXOUdScllfQQ?oc=5"
-      },
-      {
-        "headline": "Apollo acquires minority stake in Abu Dhabi\u2019s Mubadala Capital",
-        "source": "Pensions & Investments",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVHdBLW5NbVJJaS1PeVdkV3F0eG1Lc1BvMzdIakl2OGdHQURPSkc5R1lULXRXUHBXVGFGQU5jR3V0NnloZDVkM1FjdENnWEtwUXAwWVl5YzZBT29uT1BWRU91TndIZURPTVFtR3d2NFlna3hjRHo5LWo3czhiQkVxNU9Ta2wwWkVmWGlz?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 429,
-      "Macro & Economy": 226,
-      "Investment Banking & Deals": 394,
-      "Real Estate & REITs": 196,
-      "Earnings & Results": 345,
-      "Tech & Fintech": 315
+      "Stock Market & Equities": 461,
+      "Macro & Economy": 253,
+      "Investment Banking & Deals": 418,
+      "Real Estate & REITs": 202,
+      "Earnings & Results": 375,
+      "Tech & Fintech": 331
     }
   },
   {
