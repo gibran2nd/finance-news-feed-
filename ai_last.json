@@ -4,74 +4,90 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 11391,
-   "output_tokens": 2406,
-   "cost_usd": 0.00234
+   "input_tokens": 12601,
+   "output_tokens": 3106,
+   "cost_usd": 0.00281
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3012,
-   "output_tokens": 3296,
-   "cost_usd": 0.00195
+   "input_tokens": 3005,
+   "output_tokens": 3577,
+   "cost_usd": 0.00209
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Jio Platforms Debuts at 21.4% Premium, Ends 26.7% Above IPO Price",
-   "Emotions Run High as Ambani’s Jio Makes Sizzling Trading Debut",
-   "Jio’s IPO surge ends Tata’s reign as most valuable India group",
-   "Jio Platforms Shares Surge 21% In Mumbai Debut After $3 Billion India IPO: 6 outlets compared",
-   "Reliance’s Jio soars on market debut after Indian record $3.1bn IPO",
-   "Meta-Backed Jio Platforms Shares Surge 21.5% On Trading Debut After $3.2bn IPO",
-   "Jio Platforms breaks large-IPO debut jinx, delivers second-best listing gain after LG Electronics"
+   "Fed holds rates steady as expected, though two policymakers prefer 25 bps hike",
+   "FOMC holds rates steady, markets rise modestly",
+   "Fed leaves rates unchanged as it awaits ’accumulation of more information’",
+   "Fed holds interest rates as expected and upgrades view on economy",
+   "Fed Says More Data Will Help Next Decision as It Stands Pat",
+   "Key Takeaways From Fed Decision to Hold Rates Steady"
   ],
   [
-   "Wendy's gets $1.4 billion take-private offer from Peltz-led group",
-   "Wendy’s, struggling with beef prices and growing competition, gets a buyout offer"
+   "Jio Platforms Shares Surge 21% In Mumbai Debut After $3 Billion India IPO: 6 outlets compared",
+   "Jio Platforms Debuts at 21.4% Premium, Ends 26.7% Above IPO Price",
+   "Reliance’s Jio soars on market debut after Indian record $3.1bn IPO",
+   "Meta-Backed Jio Platforms Shares Surge 21.5% On Trading Debut After $3.2bn IPO",
+   "Jio’s IPO surge ends Tata’s reign as most valuable India group"
+  ],
+  [
+   "Oracle stock pops 12% as long-term revenue forecast and clarity on financing ease debt concerns",
+   "Here’s what just sent Oracle’s stock soaring",
+   "Oracle Jumps After Projecting Return to Positive Cash Flow"
   ],
   [
    "Bank of Canada raises key interest rate, says another hike possible",
    "Bank of Canada Raises Interest Rates to 2.5%, First Hike Since 2023"
   ],
   [
-   "Britain's finance minister hikes bank tax to 6%, less than lenders feared",
-   "Healey Raises UK Banks Tax, Vows to Keep Finances Stable"
+   "Wendy's gets $1.4 billion take-private offer from Peltz-led group",
+   "Wendy’s, struggling with beef prices and growing competition, gets a buyout offer",
+   "Wendy’s buyout offer suggests the burger chain’s overhaul could be very expensive"
+  ],
+  [
+   "US crude and distillate inventories fall, gasoline stocks rise, EIA says",
+   "U.S. Crude Oil Stockpiles Fall for Fourth Straight Week"
+  ],
+  [
+   "Weil Gotshal Leaders Discussing Plan to Wind Down Law Firm",
+   "The Firm That Pioneered Bankruptcy Law Is on the Brink Itself"
   ]
  ],
  "brief": [
   {
-   "headline": "Jio Platforms shares surge in Mumbai debut",
-   "detail": "Jio Platforms shares surged 21% in their Mumbai debut after a $3 billion India IPO, according to six outlets covering the listing.",
+   "headline": "Jio Platforms shares surge 21% in Mumbai debut",
+   "detail": "Jio Platforms shares jumped 21% on their Mumbai trading debut following a $3 billion India IPO.",
    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQU3N2UGtSRnFOaHNvOTlrZm1nTHhWbllaUGxpMXdfVWstTTJ3dHg5dlRsVXVkQVhJZTNaNWNwUThGbk5zZUdzTUVscGR1LXBhSHpKZVBFYkhnUGpGOFltWFVKOXNYQWh4TVkyWFFQVWp2ZFFRSTN1bGROTzRzVC1NaUUyaTQxeXUzVFJxVnBDYnEwdzlPN1BCRl83TGVlZXJjLWFJSmduTnNERzhWMmJuUWtvdTRNWGQzaWVYY1JSQ1I5dFhSRWkzLXItZ1R5MXdDWi1OTWg3TmFFSE5BV1E?oc=5"
   },
   {
-   "headline": "Prediction markets shape Anthropic IPO expectations",
-   "detail": "Prediction market bets are setting the tone for Anthropic's much-awaited IPO, a deal covered by 44 outlets.",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JZ19UYXVJMG9Kb0lkSFV1a1pYd2NmYTJzYUhkYm9PQnNVUHBDQlQ2UTUxOHA3UVViZ3k3YnNWb3FGVGZZLWlWYTBsanlONGU2QWlaY3U3MFQxVkN4TEE3YXNCZzZWTmFzdzdlZGp3?oc=5"
+   "headline": "Fed holds rates steady as expected, two officials want a hike",
+   "detail": "The Federal Reserve kept interest rates unchanged as expected, though two policymakers preferred a 25 basis point hike.",
+   "link": "https://www.investing.com/news/economy-news/fed-holds-rates-steady-as-expected-4980406"
   },
   {
-   "headline": "US stocks steady before Fed rate decision",
-   "detail": "US stocks held steady as markets counted down to a Federal Reserve decision on interest rates.",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWjdOaHZoX3J6U1JBZU92Q1VkV2F0OFI0WUo5b2l0UHh5WXVNWDZHVElxNktfMUh0WEh6REdiVXZxWlNHdm1hV2RBMHE1TnZjamY4dDA5VWZlMjhDV3I0Z1I4MDh4WDJnbG9fRVBZZW1FZHZCaHVPRUhMc29Fa0ZDNVJ5X3NYVFUteDhlVXNtVzN0cHc?oc=5"
+   "headline": "Oracle stock pops 12% on long-term revenue forecast",
+   "detail": "Oracle forecast fiscal 2030 revenue of $225 billion and said it will limit fundraising over that stretch to $20 billion, easing debt concerns.",
+   "link": "https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html"
   },
   {
-   "headline": "UK budget cuts energy bills, raises bank taxes",
-   "detail": "The UK budget cuts household energy costs, raises taxes on banks and directs billions toward defense, Ukraine and artificial intelligence.",
-   "link": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html"
-  },
-  {
-   "headline": "Wendy's receives $1.4 billion take-private offer",
-   "detail": "Wendy's received a $1.4 billion take-private offer from a Peltz-led group as it struggles with beef prices and growing competition.",
+   "headline": "Wendy's receives $1.4 billion take-private offer from Peltz-led group",
+   "detail": "Trian Fund Management's Nelson Peltz offered $1.4 billion for Wendy's, which says it requires significant capital investment to get back on track.",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYnFKUDFDOS1hQ2VWYzRDVXdvOHJ6dkhDeG5ITElPUzc5SkdZN2FxMXhVeFJpb2JEZlJZN0ZzdUVIQ3VuUC0xeEhrVTZza2RNNHpTQmx3bkh0VjBwSE1sWFdTdXV5dDdibmtnOXBRZWtoMzMzUnRSOTQzclNHRnc2UVlHQlJncE1NYmFFMFlwZGt4RjU3YmJiS0VibUNpUXV0M3M3czRsbW5HQnM?oc=5"
+  },
+  {
+   "headline": "Coca-Cola raises guidance again, but investors sell the beat",
+   "detail": "Coca-Cola raised its guidance again, yet investors sold the stock despite the earnings beat.",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPemdVMTVuVmZ2NVhuZUhrX3piVWxfdzF2djNVR1NPNlJUejM3T0FPdDZuMXV4ZW81enNQM1FHcFZzVjBUZ01TV2JUc3RNcVpyWE5uU1A1WUQ5aFd6ZUtoMkZNLXk0R3ctTTNjMnBmMWtVMEt3dEZCdzhVaW5mS1JJUlhEenFUMnlpSkRWMV9wZGVJQnJhVVMtc1I0NA?oc=5"
   }
  ],
  "summaries": {
-  "requested": 24,
+  "requested": 23,
   "rejected_ungrounded": 0,
-  "applied": 22
+  "applied": 21
  },
- "generated": "2026-10-28T16:57+00:00",
- "total_cost_usd": 0.00429
+ "generated": "2026-10-28T19:53+00:00",
+ "total_cost_usd": 0.0049
 }
