@@ -2,7 +2,7 @@
   {
     "week": "2026-W44",
     "label": "Week of October 26\u201330, 2026",
-    "generated": "2026-10-28T05:58:26.361870+00:00",
+    "generated": "2026-10-28T16:57:28.763420+00:00",
     "bullets": [
       {
         "headline": "Asian stocks surge as Anthropic IPO lifts sentiment ahead of earnings, central banks",
@@ -13,8 +13,14 @@
       {
         "headline": "Coca-Cola hikes earnings outlook, even as it sees lackluster demand in North America",
         "source": "CNBC",
-        "section": "Earnings & Results",
-        "link": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html"
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1taE5MWmhpaklKUU4xbEktNk4wWnZMdzQtcWJSbFM0RzdjbElvYmpNcTVjRGZoWU5HQm9wOGRLOG5QOXN4SjRzb1NMRzJJMGlXTWR4WVI0RGVvYjBCREE1MHN0Rnh1eE10SWhMNzlUMmp1TDA20gF6QVVfeXFMTU9lQ210bDdkYUZoNlBQVUx0WFNySzVlYTFUcnNxQ2FRSjFiMjhhZTMxQUxBa0Q4QldtdnpIYU5SUjFpLVcxY1FsYnBUU3l4N0U2Yzc4RHcxM2tkYWtqczdCNTNSR2ZXZlhNMXpKR0tZbDRWTFVrWVpnYWc?oc=5"
+      },
+      {
+        "headline": "Jio Platforms Debuts at 21.4% Premium, Ends 26.7% Above IPO Price",
+        "source": "The Indian Awaaz",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUGozQWlMZE0zSmJpSUtTNURkQTA3b2NKLXl1a1M2V0pRQXFrWnRTXzVDQThMb0FPbnBMNGNlVGRhaXp2cUFfLWwzc1NWdVpTVmk3WVFzRUtDQThvcTFWOXVvSUl5OE1jQUFNTlh6LThtUmI1Rk5LNkotR1hFUTdNbmphdm5Va2swQzh2YlZnd3dhWmdz?oc=5"
       },
       {
         "headline": "Meta eyes record $97.5 billion equity raise to fund AI expansion",
@@ -23,31 +29,25 @@
         "link": "https://www.investing.com/news/economy-news/meta-eyes-record-975-billion-equity-raise-to-fund-ai-expansion-4975360"
       },
       {
-        "headline": "Jio shares surge 21% in market debut after blockbuster India IPO",
-        "source": "TechCrunch",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUkozOENxTExJSm9xVl9IXzkwWlhlclE5bnpKemg5T1BhZWxaVm9zejI5SHdRZzlibndTNTVNVGlxUXNGVkVadkxwTmZFWHpaWklGOU1PTlREdG1rTC1Uc0pZZkRiM05ERjloZGVkeXZlWjAwOGVrbmViTFZCZk9fS0NNOGZXQXFQVDVxNFNNd0RvaV9NOHZwOUNmVXRtUHM?oc=5"
-      },
-      {
         "headline": "Microsoft offers a quarter of its global workforce voluntary buyouts as AI spending accelerates",
         "source": "AP",
         "section": "Stock Market & Equities",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTldBUWstVmdxYTcxUVFWbWVEazFJU01MLUZJQzdKNkhDeWxnM01KVmVGQzZ0MnhCZFZUeURFR3c3NHJiU19CUGJFSXlWcUlhRkphS0hENkRRT2d4aUVaVTFCTDBXYmpHd3A3MEJMeC1ucl93MlEyTldwNzRENjZLVUI1MmwyRkxKMHpWTE5rNFZHRGd6NlE?oc=5"
       },
       {
-        "headline": "Bain Capital to stay on as HealthSpan agrees $5.7bn Surgery Partners take-private",
-        "source": "PEI Private Equity",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOEdDc1AtX1RWYXdSZlJQQ2FOMkh0M3h5YlE1N0UxMXhWT2lzeTBxdDE1S2xLZTBzNWdEdWgwdWJWSFFWaHV0azE5NFFCVGVSTzZZYTI3V3BrUG42TjZzV2s5bDJtRmRsR1BNUTZzYzBaM2NsMlRlQmcyTHI3Zk0xNk9saTJrYzQ0a1Jsb040XzFkYUdDcjd0LUM1T25KN3JWR0RPS3p5Z3ZXMUlwRWY2cmpYTW1iM2tIVGNXOUdScllfQQ?oc=5"
+        "headline": "Wall Street Awaits Fed Interest Rate Decision, Results From Alphabet and Microsoft",
+        "source": "Bloomberg",
+        "section": "Stock Market & Equities",
+        "link": "https://www.bloomberg.com/news/videos/2026-10-28/bloomberg-surveillance-10-28-2026-video"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 461,
-      "Macro & Economy": 253,
-      "Investment Banking & Deals": 418,
-      "Real Estate & REITs": 202,
-      "Earnings & Results": 375,
-      "Tech & Fintech": 331
+      "Stock Market & Equities": 559,
+      "Macro & Economy": 317,
+      "Investment Banking & Deals": 477,
+      "Real Estate & REITs": 232,
+      "Earnings & Results": 458,
+      "Tech & Fintech": 409
     }
   },
   {

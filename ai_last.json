@@ -4,101 +4,74 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12179,
-   "output_tokens": 2934,
-   "cost_usd": 0.00268
+   "input_tokens": 11391,
+   "output_tokens": 2406,
+   "cost_usd": 0.00234
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2491,
-   "output_tokens": 1300,
-   "cost_usd": 0.0009
+   "input_tokens": 3012,
+   "output_tokens": 3296,
+   "cost_usd": 0.00195
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Ambani’s Jio surges 21% in Mumbai debut after record $3.2 billion India IPO By Reuters",
-   "Meta- and Google-backed Jio Platforms’ shares soar over 21% on trading debut after record IPO",
-   "Jio shares surge 21% in market debut after blockbuster India IPO",
-   "Jio Looks to Break India Mega-IPO Jinx With a Strong Stock-Market Debut",
-   "Reliance's telecom giant Jio rises in debut after India's largest IPO"
+   "Jio Platforms Debuts at 21.4% Premium, Ends 26.7% Above IPO Price",
+   "Emotions Run High as Ambani’s Jio Makes Sizzling Trading Debut",
+   "Jio’s IPO surge ends Tata’s reign as most valuable India group",
+   "Jio Platforms Shares Surge 21% In Mumbai Debut After $3 Billion India IPO: 6 outlets compared",
+   "Reliance’s Jio soars on market debut after Indian record $3.1bn IPO",
+   "Meta-Backed Jio Platforms Shares Surge 21.5% On Trading Debut After $3.2bn IPO",
+   "Jio Platforms breaks large-IPO debut jinx, delivers second-best listing gain after LG Electronics"
   ],
   [
-   "SK Hynix unveils $75 billion shareholder return plan after posting record profit",
-   "SK Hynix Posts Record Profit Amid AI Rush",
-   "SK Hynix third-quarter profit sharply beats estimates on AI memory boost"
+   "Wendy's gets $1.4 billion take-private offer from Peltz-led group",
+   "Wendy’s, struggling with beef prices and growing competition, gets a buyout offer"
   ],
   [
-   "Visa Earnings Beats Estimates as Payments Volume Rises 9%",
-   "Visa results beat estimates as resilient customers keep up spending"
+   "Bank of Canada raises key interest rate, says another hike possible",
+   "Bank of Canada Raises Interest Rates to 2.5%, First Hike Since 2023"
   ],
   [
-   "Boeing shares slide on a disappointing cash flow update. Why this dip is buyable",
-   "The big reason Boeing’s stock is falling so hard after earnings"
-  ],
-  [
-   "UPS Raises Guidance Again as Pricing Outruns Volume",
-   "UPS lifts full-year outlook as revenue grows across all segments"
-  ],
-  [
-   "Robinhood profit misses estimates as crypto trading slows",
-   "Robinhood shares fall 5% as crypto slump weighs on profits, offsetting gains in new businesses"
-  ],
-  [
-   "Stocks get AI lift, kiwi slides on RBNZ’s surprise hold",
-   "New Zealand Central Bank Surprises Markets With Rate Hold",
-   "New Zealand Unexpectedly Holds Interest Rates Steady; Kiwi Falls",
-   "RBNZ unexpectedly holds rates at 2.75% in split vote, signals further hikes likely",
-   "Morning Bid: RBNZ throws markets a curveball"
-  ],
-  [
-   "StanChart raises 2026 income outlook after Q3 profit beats forecasts",
-   "Standard Chartered GAAP EPS of $0.67, revenue of $5.78B beats by $70M; updates FY2026 outlook",
-   "Standard Chartered Quarterly Net Profit Jumps, Raises Income Guidance"
-  ],
-  [
-   "Baker Hughes rounds out oilfield services earnings with lower quarterly profit",
-   "Baker Hughes Revenue Lifted by Growing Demand From Energy, Industrial Markets"
-  ],
-  [
-   "Australia’s Inflation Continued to Accelerate in September",
-   "Australian Inflation Exceeds Estimate Ahead of RBA Meeting"
+   "Britain's finance minister hikes bank tax to 6%, less than lenders feared",
+   "Healey Raises UK Banks Tax, Vows to Keep Finances Stable"
   ]
  ],
  "brief": [
   {
-   "headline": "VCs and Amazon to profit from Anthropic's IPO",
-   "detail": "Coverage says venture investors will make billions from Anthropic's IPO, while Amazon is set to make much more.",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPY0hza3dNdjUwV2kxTjduRGwzRjluVTU0TXJiRWY2WElramdvXzR1MGJtazJ5RXNvcXFrQ3JEVklNdnpCb2E1bUQ5cmRhNmxmM0tpS2hfZHZrZWRQaGtqSWNmZElVMXBvVWU2MUZ4b3hxdEI5U2JwNzFEVGFWMWcyV0xKNnlMSUpVTU5HM2dINHhUeTRFd2hXS2JtRGh0UWpNaWRZRzNDV2RxUlgxS0dJSEIydnk4eFE?oc=5"
+   "headline": "Jio Platforms shares surge in Mumbai debut",
+   "detail": "Jio Platforms shares surged 21% in their Mumbai debut after a $3 billion India IPO, according to six outlets covering the listing.",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQU3N2UGtSRnFOaHNvOTlrZm1nTHhWbllaUGxpMXdfVWstTTJ3dHg5dlRsVXVkQVhJZTNaNWNwUThGbk5zZUdzTUVscGR1LXBhSHpKZVBFYkhnUGpGOFltWFVKOXNYQWh4TVkyWFFQVWp2ZFFRSTN1bGROTzRzVC1NaUUyaTQxeXUzVFJxVnBDYnEwdzlPN1BCRl83TGVlZXJjLWFJSmduTnNERzhWMmJuUWtvdTRNWGQzaWVYY1JSQ1I5dFhSRWkzLXItZ1R5MXdDWi1OTWg3TmFFSE5BV1E?oc=5"
   },
   {
-   "headline": "Jio shares jump 21% in Mumbai debut",
-   "detail": "Ambani's Jio rose 21% in its Mumbai debut after a record $3.2 billion India IPO, according to Reuters.",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT2M1WWxxaTdYaC1ZYTZrY0RhZzZTekVGN1lmQVVpNXJWaE5BU2k4Y1dseV9tRERISkdLY2JuZ3RqeUJBY00wd0l3VnZGckhKUHlsdnFMNW9UUkdQLXFNUlJueGU0dlNzT3EzSUs3QjZxNkQzc1RFbGYwZFY0MzZUYWxtUW5wWk01NVZiTEI4WHFySDN1a19yTGh5S2xCRmVWTk5yVnVDMlFUeDh4cmtJYWZUa292S2p4eVNYZER6NWdlNDZ3R280?oc=5"
+   "headline": "Prediction markets shape Anthropic IPO expectations",
+   "detail": "Prediction market bets are setting the tone for Anthropic's much-awaited IPO, a deal covered by 44 outlets.",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JZ19UYXVJMG9Kb0lkSFV1a1pYd2NmYTJzYUhkYm9PQnNVUHBDQlQ2UTUxOHA3UVViZ3k3YnNWb3FGVGZZLWlWYTBsanlONGU2QWlaY3U3MFQxVkN4TEE3YXNCZzZWTmFzdzdlZGp3?oc=5"
   },
   {
-   "headline": "SK Hynix unveils $75 billion shareholder return plan",
-   "detail": "SK Hynix announced the $75 billion return plan after posting record profit, a major move for investors in the chipmaker.",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcy1XMnJsZEJsNUwxOVB1LWhGV2dXellEM1dVVmYxc0ZKYk9oMEs2WEJGcmZsLWFiUUQxREdWOFFvUXYwV2VUWHF6M2NBbURtWVJqWHd2clVISmdKVGEzQzdJRngwcUFPYUlBZFJndG5WRTBUcENrUG9Hci1NMGxpSFV5X3hRWXdmZ05ISkpwZUpaRmdTemFrYXk5Qk1BbWN2dEZXY05hTS1lWHc2QTQtZ1NB?oc=5"
+   "headline": "US stocks steady before Fed rate decision",
+   "detail": "US stocks held steady as markets counted down to a Federal Reserve decision on interest rates.",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWjdOaHZoX3J6U1JBZU92Q1VkV2F0OFI0WUo5b2l0UHh5WXVNWDZHVElxNktfMUh0WEh6REdiVXZxWlNHdm1hV2RBMHE1TnZjamY4dDA5VWZlMjhDV3I0Z1I4MDh4WDJnbG9fRVBZZW1FZHZCaHVPRUhMc29Fa0ZDNVJ5X3NYVFUteDhlVXNtVzN0cHc?oc=5"
   },
   {
-   "headline": "Meta plans to raise $95 billion for AI spending",
-   "detail": "Meta announced plans to raise $95 billion for AI infrastructure, while Nvidia and AMD will invest $4 billion in Meta.",
-   "link": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html"
+   "headline": "UK budget cuts energy bills, raises bank taxes",
+   "detail": "The UK budget cuts household energy costs, raises taxes on banks and directs billions toward defense, Ukraine and artificial intelligence.",
+   "link": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html"
   },
   {
-   "headline": "RBNZ unexpectedly holds rates, kiwi slides",
-   "detail": "New Zealand's central bank surprised markets with a 4-3 split hold while saying further hikes are still likely, pushing the kiwi lower.",
-   "link": "https://www.investing.com/news/economy-news/stocks-get-ai-lift-dollar-holds-steady-ahead-of-fed-decision-4977355"
+   "headline": "Wendy's receives $1.4 billion take-private offer",
+   "detail": "Wendy's received a $1.4 billion take-private offer from a Peltz-led group as it struggles with beef prices and growing competition.",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYnFKUDFDOS1hQ2VWYzRDVXdvOHJ6dkhDeG5ITElPUzc5SkdZN2FxMXhVeFJpb2JEZlJZN0ZzdUVIQ3VuUC0xeEhrVTZza2RNNHpTQmx3bkh0VjBwSE1sWFdTdXV5dDdibmtnOXBRZWtoMzMzUnRSOTQzclNHRnc2UVlHQlJncE1NYmFFMFlwZGt4RjU3YmJiS0VibUNpUXV0M3M3czRsbW5HQnM?oc=5"
   }
  ],
  "summaries": {
-  "requested": 19,
+  "requested": 24,
   "rejected_ungrounded": 0,
-  "applied": 17
+  "applied": 22
  },
- "generated": "2026-10-28T05:58+00:00",
- "total_cost_usd": 0.00358
+ "generated": "2026-10-28T16:57+00:00",
+ "total_cost_usd": 0.00429
 }
