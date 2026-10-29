@@ -4,110 +4,94 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12406,
-   "output_tokens": 2970,
-   "cost_usd": 0.00273
+   "input_tokens": 11955,
+   "output_tokens": 3732,
+   "cost_usd": 0.00306
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2721,
-   "output_tokens": 1344,
-   "cost_usd": 0.00094
+   "input_tokens": 2416,
+   "output_tokens": 1539,
+   "cost_usd": 0.00101
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Microsoft’s strong quarter backs up its stock rebound. Here's our new price target",
-   "Microsoft stock up over 2% after hours as Azure strength drives FQ1 results beat",
-   "Microsoft Quarterly Profit Soars as Cloud Growth Accelerates",
-   "Microsoft's Big Bets on AI Start to Pay Off"
-  ],
-  [
-   "Google misses Wall Street expectations, Alphabet stock sinks in early after-hours trading",
-   "Google Shares Fall 10% as Growth in Search Revenue Slows"
-  ],
-  [
-   "Oracle stock pops 12% as long-term revenue forecast and clarity on financing ease debt concerns",
-   "Here’s what just sent Oracle’s stock soaring"
-  ],
-  [
-   "ServiceNow shares plummet in extended trading on mixed Q3 results",
-   "ServiceNow’s stock slides as earnings miss clouds a raised AI outlook"
+   "Federal Reserve holds fire on interest rates despite intensifying inflation",
+   "Fed holds rates steady despite concerns over inflation",
+   "FOMC holds rates steady, markets rise modestly",
+   "US Stock Futures Decline, Fed Keeps Rates Steady: Markets Wrap",
+   "Fed Pauses Interest Rates as CRE Market Preps for December Hike"
   ],
   [
    "Billionaire Ambani’s Jio jumps 21pc in market debut after record US$3.2b India IPO",
-   "Jio Platforms Debuts at 21.4% Premium, Ends 26.7% Above IPO Price"
+   "Jio Platforms Debuts at 21.4% Premium, Ends 26.7% Above IPO Price",
+   "Jio Platforms Extends Gains After Stellar D-Street Debut; Market Cap Tops Rs 13.5 Lakh Crore",
+   "Jio Hits $137 Billion Valuation After Record India IPO",
+   "Jio Platforms Adds $36 Billion in Value After India IPO Surge",
+   "Jio Breaks the Mega-IPO Jinx With Record Delivery Volumes to Boot"
   ],
   [
-   "Fortinet’s stock is taking a dive after earnings. Here’s why.",
-   "Fortinet Beats Expectations But Rosier Outlook Apparently Not Rosy Enough"
+   "Microsoft stock up over 2% after hours as Azure strength drives FQ1 results beat",
+   "Microsoft’s strong quarter backs up its stock rebound. Here's our new price target",
+   "Microsoft Quarterly Profit Soars as Cloud Growth Accelerates"
   ],
   [
-   "Bank of Canada Rate Hike Hurts Housing Market Already in Slump",
-   "Bank of Canada raises key interest rate, says another hike possible"
+   "Samsung Electronics Reports Q3 Revenue of KRW 195.3T; shares fall on profit miss",
+   "Samsung Shares Slump as Investors Fret Over Delay in Return Plan",
+   "CLSA Analyst: Samsung Shares Fell on Lack of Buybacks"
   ],
   [
-   "Airbus holds annual targets, bets on year-end delivery surge",
-   "Airbus profits drop as plane deliveries slow"
+   "ECB to hold rates as investors focus on French bonds, Lagarde’s future",
+   "ECB Set to Hold Rates to Assess France and Energy Risks"
   ],
   [
-   "GE Vernova shares slip despite a beat-and-raise. What the sellers are getting wrong",
-   "GE Vernova boosts grid push with $9 billion Trench deal, lifts revenue forecast"
+   "Sprouts Farmers Market cuts FY26 outlook as cyclospora fallout lingers",
+   "Sprouts Stock Plunges After Earnings Miss. Consumers Are Visiting the Grocer Less Often."
   ],
   [
-   "T-Mobile Profit, Revenue Rise on Postpaid Growth",
-   "T-Mobile Boosts Profit, Accounts as Network and Offers Resonate"
+   "Big Caring launches IPO valuing Malaysian pharmacy chain at $2 billion",
+   "Biggest Pharmacy Chain in Malaysia Plans $565 Million Share Sale"
   ],
   [
    "FedEx's soft holiday-quarter outlook doesn't change our view on the stock",
    "FedEx margins decline as it pays more to hire truckers, shares fall"
-  ],
-  [
-   "Fed's Warsh announces changes in how future FOMC meetings will go",
-   "Fed Will Hold Fewer Rate-Setting Meetings Starting Next Year",
-   "US Short-End Yields Fall After Warsh Signals Fewer Fed Meetings"
-  ],
-  [
-   "Fed holds rates steady as expected, though two policymakers prefer 25 bps hike",
-   "Fed holds rates steady despite concerns over inflation",
-   "FOMC holds rates steady, markets rise modestly",
-   "Federal Reserve holds fire on interest rates despite intensifying inflation"
   ]
  ],
  "brief": [
   {
-   "headline": "Fed holds rates steady; two officials favor a hike",
-   "detail": "The Federal Reserve kept rates unchanged, though two policymakers preferred a 25 basis point hike, per Investing.com.",
-   "link": "https://www.investing.com/news/economy-news/fed-holds-rates-steady-as-expected-4980406"
+   "headline": "Fed holds rates steady despite intensifying inflation concerns",
+   "detail": "The Federal Reserve held interest rates steady despite intensifying inflation, leaving the rate path unclear for markets and investors.",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOb01WZnNoVWtvSG5SMU1hTzNBQkF4V2JVTWY1ZVV2bFdiYjlMM3FXakV1UXJyU2l3a290U2VZU1hQMHZ4dHZrSlV4Z0x4c01Gc0pBZ3BHMzl2MUJGd0ZEdTNPUWJqUi13T2V5YVJURWNFa19GTS05dkJFVUJIUUZJTElreWQ?oc=5"
   },
   {
-   "headline": "Ambani's Jio jumps 21% in market debut after record IPO",
-   "detail": "Jio shares rose 21% in debut after a record US$3.2 billion India IPO, ending 26.7% above IPO price.",
+   "headline": "Jio Platforms jumps 21% in record India IPO market debut",
+   "detail": "Ambani's Jio Platforms jumped 21% in its market debut after a record US$3.2 billion India IPO, with its valuation later reported at $137 billion.",
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdUNUNjd5SlVkYi0zank4azFhUDFYZjhNNm8yZXJrVGlaZERsdFBBS0VOc1ZGaW9EMjd2d1dnRjdCU1NEY3VXOHJYVTdCRS11QUhtNnpkdDdCcExNZUdzMmNnY2dtT1ZWRlozT0R1TTgwMS1aSHNOazhCOTBTMFh1VmNza2habEdDRGRjOWtYenlRN2pkS2plcEhYOEZCUHVqdVhDQ0RocWpqbTZMcHY4SUw5cHY5TThaNDlvdFZVeFBwYTlhNVNiZkpn0gHPAUFVX3lxTE92NnFJOHUxX1VveUVTbjAyMlBPeEQzNVlxYU9jYWptUE5vZUlxcGFFbUdnbDh2VkU2T2tCZ0EwZV9BQ2FJNUxlTDZzQ2c4TGtlYlgzSkRjeW5oTmczT2ZoQjBYb1RqcHNud0JtcXFmd1ZvUlBGbWJpRGRJdWFfM3lKYm4zUlB3LVlmOXl6T0VJSU1MNjhCZzFtQmVjWmpFZUpMdDkteTl1bkZWclZMYWtsR1N0c0c2eHFVekxubkxOOHVEWnJvejFzREJTeVRSdw?oc=5"
   },
   {
-   "headline": "Robinhood CFO comments on Anthropic's IPO prospectus",
-   "detail": "Robinhood's CFO shared views on Anthropic's IPO prospectus, a story covered by 33 outlets.",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYTFUYlczNE9XenRKMzF5bXotSFhzQmVveURNenRkcThsTGQ1eENhZWRPUllNUEJneldxclh3NTdIZUtjdGxpeUxhQ2FlbFZqRDNLWlZWTDhwLUFWZUNkSjhGLTQxSE9SOXJXcXB4MlYyZGlwT0N5amo0M19jdWRmVWV6UE1ZZnFuM3EtS3ROV3I1ZkxLaXdwd3pEbEJKXzNzWS1RUnJWVE1HOXdHbTdSdVc0OFd3NEt1YWdBLXlaQ0NoOUI3?oc=5"
-  },
-  {
-   "headline": "Microsoft stock rises after hours on Azure strength",
-   "detail": "Microsoft shares rose over 2% after hours as Azure strength drove a fiscal first-quarter results beat.",
+   "headline": "Microsoft shares rise after hours on Azure-driven results beat",
+   "detail": "Microsoft shares rose over 2% after hours as Azure strength drove a fiscal first-quarter results beat, with quarterly profit soaring on cloud growth.",
    "link": "https://www.investing.com/news/earnings/microsoft-stock-rises-over-4-after-hours-on-quarterly-results-beat-4980704"
   },
   {
-   "headline": "Google misses Wall Street expectations; Alphabet shares sink",
-   "detail": "Google missed Wall Street expectations, and Alphabet stock sank in early after-hours trading.",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR25CYmFOU2xObG0wQ1N1eTI1WktadzJwZl8tdmFXV3N3eGJRWGw3T0VjaWJBMmliTXVfVlFaNDlzU1FVTnpySjhJZ0dmOVZWZ2dCY2FRVDV3ZktrZkg2OV9ZdnZNZzdENkRSR1p5aE1oalJPS0NKYVRoOWRqanI0blR3S2oybzU2bkJ5dTFkX1BBekJ0aTdmQUJyQ0JGYVhZVEw5Zkpwdms?oc=5"
+   "headline": "Samsung shares fall after Q3 profit miss and no buyback plan",
+   "detail": "Samsung Electronics reported Q3 revenue of KRW 195.3T, but shares fell after a profit miss and no new shareholder return plan.",
+   "link": "https://seekingalpha.com/news/4659867-samsung-electronics-reports-q3-revenue-of-krw-1953t-shares-fall-on-profit-miss?source=feed_tag_earnings"
+  },
+  {
+   "headline": "Anthropic could begin marketing its IPO the week of Nov. 9",
+   "detail": "Anthropic's IPO marketing could begin the week of Nov. 9, a major listing story covered by 26 outlets.",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaWxSYlJBMTl5Rlp6ZWZOYTdaTFowaFBqTXlUT2Itb211bllhNVNIRExwRVdCQXVTd3ZzUzRVYjZodDNLTE5KUlBxUkJNTEc1dXp0UnBXbTNmaXN6WVl4a1pzaDNia09HT3EyNkpfcUJ6WXF4dXMwQ043Nm84YTJzSW1YcGRJUQ?oc=5"
   }
  ],
  "summaries": {
-  "requested": 20,
+  "requested": 18,
   "rejected_ungrounded": 0,
-  "applied": 20
+  "applied": 18
  },
- "generated": "2026-10-29T01:07+00:00",
- "total_cost_usd": 0.00367
+ "generated": "2026-10-29T06:05+00:00",
+ "total_cost_usd": 0.00407
 }
