@@ -4,94 +4,110 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 13101,
-   "output_tokens": 2266,
-   "cost_usd": 0.00244
+   "input_tokens": 12406,
+   "output_tokens": 2970,
+   "cost_usd": 0.00273
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3170,
-   "output_tokens": 1586,
-   "cost_usd": 0.00111
+   "input_tokens": 2721,
+   "output_tokens": 1344,
+   "cost_usd": 0.00094
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Fed holds rates steady as expected, though two policymakers prefer 25 bps hike",
-   "Fed leaves rates unchanged as it awaits ’accumulation of more information’",
-   "Fed leaves interest rates unchanged, as expected",
-   "Fed holds interest rates as expected and upgrades view on economy",
-   "Fed Says More Data Will Help Next Decision as It Stands Pat",
-   "Key Takeaways From Fed Decision to Hold Rates Steady"
-  ],
-  [
-   "Jio Platforms Shares Surge 21% In Mumbai Debut After $3 Billion India IPO: 6 outlets compared",
-   "Jio Platforms Debuts at 21.4% Premium, Ends 26.7% Above IPO Price",
-   "Ambani’s Jio soars nearly 27 percent on debut after India’s biggest IPO",
-   "Reliance’s Jio soars on market debut after Indian record $3.1bn IPO"
-  ],
-  [
+   "Microsoft’s strong quarter backs up its stock rebound. Here's our new price target",
+   "Microsoft stock up over 2% after hours as Azure strength drives FQ1 results beat",
    "Microsoft Quarterly Profit Soars as Cloud Growth Accelerates",
-   "Microsoft stock up over 2% after hours as Azure strength drives FQ1 results beat"
+   "Microsoft's Big Bets on AI Start to Pay Off"
   ],
   [
-   "Wendy's gets $1.4 billion take-private offer from Peltz-led group",
-   "Wendy’s, struggling with beef prices and growing competition, gets a buyout offer",
-   "Wendy’s buyout offer suggests the burger chain’s overhaul could be very expensive"
-  ],
-  [
-   "Breaking Down Alphabet's Disappointing Earnings Report",
-   "Google Misses Estimates as Growth in Search Revenue Slows"
+   "Google misses Wall Street expectations, Alphabet stock sinks in early after-hours trading",
+   "Google Shares Fall 10% as Growth in Search Revenue Slows"
   ],
   [
    "Oracle stock pops 12% as long-term revenue forecast and clarity on financing ease debt concerns",
-   "Here’s what just sent Oracle’s stock soaring",
-   "Oracle Jumps After Projecting Return to Positive Cash Flow"
+   "Here’s what just sent Oracle’s stock soaring"
   ],
   [
-   "Bank of Canada raises key interest rate, says another hike possible",
-   "Bank of Canada Rate Hike Hurts Housing Market Already in Slump"
+   "ServiceNow shares plummet in extended trading on mixed Q3 results",
+   "ServiceNow’s stock slides as earnings miss clouds a raised AI outlook"
   ],
   [
-   "The UK cuts energy bills, taxes banks and boosts defense in high-stakes budget",
-   "Here Are the Key UK Budget Measures Announced by John Healey",
-   "UK’s Healey offers billions of pounds of help for households amid global economic storms"
+   "Billionaire Ambani’s Jio jumps 21pc in market debut after record US$3.2b India IPO",
+   "Jio Platforms Debuts at 21.4% Premium, Ends 26.7% Above IPO Price"
+  ],
+  [
+   "Fortinet’s stock is taking a dive after earnings. Here’s why.",
+   "Fortinet Beats Expectations But Rosier Outlook Apparently Not Rosy Enough"
+  ],
+  [
+   "Bank of Canada Rate Hike Hurts Housing Market Already in Slump",
+   "Bank of Canada raises key interest rate, says another hike possible"
+  ],
+  [
+   "Airbus holds annual targets, bets on year-end delivery surge",
+   "Airbus profits drop as plane deliveries slow"
+  ],
+  [
+   "GE Vernova shares slip despite a beat-and-raise. What the sellers are getting wrong",
+   "GE Vernova boosts grid push with $9 billion Trench deal, lifts revenue forecast"
+  ],
+  [
+   "T-Mobile Profit, Revenue Rise on Postpaid Growth",
+   "T-Mobile Boosts Profit, Accounts as Network and Offers Resonate"
+  ],
+  [
+   "FedEx's soft holiday-quarter outlook doesn't change our view on the stock",
+   "FedEx margins decline as it pays more to hire truckers, shares fall"
+  ],
+  [
+   "Fed's Warsh announces changes in how future FOMC meetings will go",
+   "Fed Will Hold Fewer Rate-Setting Meetings Starting Next Year",
+   "US Short-End Yields Fall After Warsh Signals Fewer Fed Meetings"
+  ],
+  [
+   "Fed holds rates steady as expected, though two policymakers prefer 25 bps hike",
+   "Fed holds rates steady despite concerns over inflation",
+   "FOMC holds rates steady, markets rise modestly",
+   "Federal Reserve holds fire on interest rates despite intensifying inflation"
   ]
  ],
  "brief": [
   {
-   "headline": "Fed holds rates steady, two officials favor a hike",
-   "detail": "The Federal Reserve held rates steady as expected, but two policymakers preferred a 25 bps hike, keeping inflation risks in focus.",
+   "headline": "Fed holds rates steady; two officials favor a hike",
+   "detail": "The Federal Reserve kept rates unchanged, though two policymakers preferred a 25 basis point hike, per Investing.com.",
    "link": "https://www.investing.com/news/economy-news/fed-holds-rates-steady-as-expected-4980406"
   },
   {
-   "headline": "Anthropic's IPO filing raises four unanswered questions",
-   "detail": "Bloomberg unpacks Anthropic's 300-plus page prospectus, highlighting four questions the filing leaves unanswered for investors.",
-   "link": "https://www.bloomberg.com/news/newsletters/2026-10-28/four-unanswered-questions-from-anthropic-s-ipo-filing"
+   "headline": "Ambani's Jio jumps 21% in market debut after record IPO",
+   "detail": "Jio shares rose 21% in debut after a record US$3.2 billion India IPO, ending 26.7% above IPO price.",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdUNUNjd5SlVkYi0zank4azFhUDFYZjhNNm8yZXJrVGlaZERsdFBBS0VOc1ZGaW9EMjd2d1dnRjdCU1NEY3VXOHJYVTdCRS11QUhtNnpkdDdCcExNZUdzMmNnY2dtT1ZWRlozT0R1TTgwMS1aSHNOazhCOTBTMFh1VmNza2habEdDRGRjOWtYenlRN2pkS2plcEhYOEZCUHVqdVhDQ0RocWpqbTZMcHY4SUw5cHY5TThaNDlvdFZVeFBwYTlhNVNiZkpn0gHPAUFVX3lxTE92NnFJOHUxX1VveUVTbjAyMlBPeEQzNVlxYU9jYWptUE5vZUlxcGFFbUdnbDh2VkU2T2tCZ0EwZV9BQ2FJNUxlTDZzQ2c4TGtlYlgzSkRjeW5oTmczT2ZoQjBYb1RqcHNud0JtcXFmd1ZvUlBGbWJpRGRJdWFfM3lKYm4zUlB3LVlmOXl6T0VJSU1MNjhCZzFtQmVjWmpFZUpMdDkteTl1bkZWclZMYWtsR1N0c0c2eHFVekxubkxOOHVEWnJvejFzREJTeVRSdw?oc=5"
   },
   {
-   "headline": "Jio Platforms shares surge 21% in Mumbai debut",
-   "detail": "Jio Platforms shares rose 21% in their Mumbai debut after a $3 billion India IPO, one of the country's biggest listings.",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQU3N2UGtSRnFOaHNvOTlrZm1nTHhWbllaUGxpMXdfVWstTTJ3dHg5dlRsVXVkQVhJZTNaNWNwUThGbk5zZUdzTUVscGR1LXBhSHpKZVBFYkhnUGpGOFltWFVKOXNYQWh4TVkyWFFQVWp2ZFFRSTN1bGROTzRzVC1NaUUyaTQxeXUzVFJxVnBDYnEwdzlPN1BCRl83TGVlZXJjLWFJSmduTnNERzhWMmJuUWtvdTRNWGQzaWVYY1JSQ1I5dFhSRWkzLXItZ1R5MXdDWi1OTWg3TmFFSE5BV1E?oc=5"
+   "headline": "Robinhood CFO comments on Anthropic's IPO prospectus",
+   "detail": "Robinhood's CFO shared views on Anthropic's IPO prospectus, a story covered by 33 outlets.",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYTFUYlczNE9XenRKMzF5bXotSFhzQmVveURNenRkcThsTGQ1eENhZWRPUllNUEJneldxclh3NTdIZUtjdGxpeUxhQ2FlbFZqRDNLWlZWTDhwLUFWZUNkSjhGLTQxSE9SOXJXcXB4MlYyZGlwT0N5amo0M19jdWRmVWV6UE1ZZnFuM3EtS3ROV3I1ZkxLaXdwd3pEbEJKXzNzWS1RUnJWVE1HOXdHbTdSdVc0OFd3NEt1YWdBLXlaQ0NoOUI3?oc=5"
   },
   {
-   "headline": "Microsoft quarterly profit soars as cloud growth accelerates",
-   "detail": "Microsoft's cloud growth continued to accelerate, lifting profit and easing investor worries about returns from the AI build-out.",
-   "link": "https://www.wsj.com/tech/microsoft-msft-q1-earnings-report-2027-stock-5809ce40?mod=rss_Technology"
+   "headline": "Microsoft stock rises after hours on Azure strength",
+   "detail": "Microsoft shares rose over 2% after hours as Azure strength drove a fiscal first-quarter results beat.",
+   "link": "https://www.investing.com/news/earnings/microsoft-stock-rises-over-4-after-hours-on-quarterly-results-beat-4980704"
   },
   {
-   "headline": "Alphabet earnings miss estimates on search concerns",
-   "detail": "Alphabet's quarterly sales and profit missed estimates, with investors watching whether it can protect its search business from AI.",
-   "link": "https://www.bloomberg.com/news/videos/2026-10-28/breaking-down-alphabet-s-disappointing-earnings-report-video"
+   "headline": "Google misses Wall Street expectations; Alphabet shares sink",
+   "detail": "Google missed Wall Street expectations, and Alphabet stock sank in early after-hours trading.",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR25CYmFOU2xObG0wQ1N1eTI1WktadzJwZl8tdmFXV3N3eGJRWGw3T0VjaWJBMmliTXVfVlFaNDlzU1FVTnpySjhJZ0dmOVZWZ2dCY2FRVDV3ZktrZkg2OV9ZdnZNZzdENkRSR1p5aE1oalJPS0NKYVRoOWRqanI0blR3S2oybzU2bkJ5dTFkX1BBekJ0aTdmQUJyQ0JGYVhZVEw5Zkpwdms?oc=5"
   }
  ],
  "summaries": {
-  "requested": 24,
+  "requested": 20,
   "rejected_ungrounded": 0,
-  "applied": 24
+  "applied": 20
  },
- "generated": "2026-10-28T21:24+00:00",
- "total_cost_usd": 0.00355
+ "generated": "2026-10-29T01:07+00:00",
+ "total_cost_usd": 0.00367
 }
