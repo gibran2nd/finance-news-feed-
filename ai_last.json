@@ -4,94 +4,105 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 11955,
-   "output_tokens": 3732,
-   "cost_usd": 0.00306
+   "input_tokens": 12319,
+   "output_tokens": 3686,
+   "cost_usd": 0.00307
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2416,
-   "output_tokens": 1539,
-   "cost_usd": 0.00101
+   "input_tokens": 2954,
+   "output_tokens": 3046,
+   "cost_usd": 0.00182
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Federal Reserve holds fire on interest rates despite intensifying inflation",
-   "Fed holds rates steady despite concerns over inflation",
-   "FOMC holds rates steady, markets rise modestly",
-   "US Stock Futures Decline, Fed Keeps Rates Steady: Markets Wrap",
-   "Fed Pauses Interest Rates as CRE Market Preps for December Hike"
+   "Google Erases a Record $500 Billion as AI Eats Into Sales",
+   "Nasdaq falls as Alphabet set for record loss amid AI spending woes"
   ],
   [
-   "Billionaire Ambani’s Jio jumps 21pc in market debut after record US$3.2b India IPO",
-   "Jio Platforms Debuts at 21.4% Premium, Ends 26.7% Above IPO Price",
-   "Jio Platforms Extends Gains After Stellar D-Street Debut; Market Cap Tops Rs 13.5 Lakh Crore",
-   "Jio Hits $137 Billion Valuation After Record India IPO",
-   "Jio Platforms Adds $36 Billion in Value After India IPO Surge",
-   "Jio Breaks the Mega-IPO Jinx With Record Delivery Volumes to Boot"
+   "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
+   "US Economy Grows a Faster-Than-Expected 3.4%, Most in a Year",
+   "Robust consumer spending, AI-related investment power US economy in third quarter"
   ],
   [
-   "Microsoft stock up over 2% after hours as Azure strength drives FQ1 results beat",
-   "Microsoft’s strong quarter backs up its stock rebound. Here's our new price target",
-   "Microsoft Quarterly Profit Soars as Cloud Growth Accelerates"
+   "Lagarde Quits ECB to Shed Neutrality, Enter Political Fray",
+   "ECB holds rates as Lagarde announces early departure",
+   "The politics of President Lagarde's European Central Bank early exit — and who could replace her",
+   "Earnings lift European shares ahead of ECB decision, Lagarde resigns"
   ],
   [
-   "Samsung Electronics Reports Q3 Revenue of KRW 195.3T; shares fall on profit miss",
-   "Samsung Shares Slump as Investors Fret Over Delay in Return Plan",
-   "CLSA Analyst: Samsung Shares Fell on Lack of Buybacks"
+   "ECB holds rates as Lagarde announces early departure",
+   "Lagarde Downplays Risk of Inflation Broadening as ECB Holds"
   ],
   [
-   "ECB to hold rates as investors focus on French bonds, Lagarde’s future",
-   "ECB Set to Hold Rates to Assess France and Energy Risks"
+   "ECB flags December hike but sees yield rise hitting growth",
+   "ECB Officials Are Ready to Raise Interest Rates in December"
   ],
   [
-   "Sprouts Farmers Market cuts FY26 outlook as cyclospora fallout lingers",
-   "Sprouts Stock Plunges After Earnings Miss. Consumers Are Visiting the Grocer Less Often."
+   "Dollar steady after Fed hold leaves rate path murky",
+   "Here are five key takeaways from the Fed rate decision and Warsh news conference"
   ],
   [
-   "Big Caring launches IPO valuing Malaysian pharmacy chain at $2 billion",
-   "Biggest Pharmacy Chain in Malaysia Plans $565 Million Share Sale"
+   "Caterpillar Plunges As Earnings Beat Fails To Soothe AI Jitters",
+   "Caterpillar sticks to annual sales forecast amid cost pressures, shares dive",
+   "Caterpillar’s stock is sinking. Here’s what that means for the Dow."
   ],
   [
-   "FedEx's soft holiday-quarter outlook doesn't change our view on the stock",
-   "FedEx margins decline as it pays more to hire truckers, shares fall"
+   "Merck tops quarterly estimates, hikes profit outlook as new Keytruda form shows strength",
+   "Merck Earnings Blow Past Estimates. Why Wall Street Has Its Eyes on the Coming Year."
+  ],
+  [
+   "Monte dei Paschi shareholders reject exchange offer to acquire Banco BPM",
+   "Paschi Investors Deal Crushing Blow to CEO in Win for Intesa"
+  ],
+  [
+   "Josh Kushner and OpenAI-backed group agree deal for US home security firm",
+   "Home security firm ADT to be taken private by Thrive Holdings for $7.6 billion"
+  ],
+  [
+   "Adidas sees Europe rebound in fourth quarter, streaks ahead in China By Reuters",
+   "Adidas Confirms Record-Breaking Q3 Results, Raises Guidance"
+  ],
+  [
+   "Burger King’s Turnaround Attracts Price-Conscious Diners as Sales Rise",
+   "Restaurant Brands reports mixed results as Burger King's U.S. turnaround shows signs of success"
   ]
  ],
  "brief": [
   {
-   "headline": "Fed holds rates steady despite intensifying inflation concerns",
-   "detail": "The Federal Reserve held interest rates steady despite intensifying inflation, leaving the rate path unclear for markets and investors.",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOb01WZnNoVWtvSG5SMU1hTzNBQkF4V2JVTWY1ZVV2bFdiYjlMM3FXakV1UXJyU2l3a290U2VZU1hQMHZ4dHZrSlV4Z0x4c01Gc0pBZ3BHMzl2MUJGd0ZEdTNPUWJqUi13T2V5YVJURWNFa19GTS05dkJFVUJIUUZJTElreWQ?oc=5"
+   "headline": "Anthropic files for IPO, revealing details in S-1",
+   "detail": "Anthropic has filed for an IPO, and Citywire's coverage examines what its S-1 registration statement reveals.",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaXhEbENaWkY0czJIN0Rha1pJREYxVVJoclpLSHF4TVVQLWpkRkxIUW56YkdEcE14cDYxWmtPOE9OREFQY1F3dVNZaUpoTGZSamlIaTVKcVJLSEZiWWJtSGUxN0JnY2UwdzVqN2VLOXhiTmNfdDZERlhVT0hUbXR5clV4eVBvcWE2emNpSVBXbUFVUQ?oc=5"
   },
   {
-   "headline": "Jio Platforms jumps 21% in record India IPO market debut",
-   "detail": "Ambani's Jio Platforms jumped 21% in its market debut after a record US$3.2 billion India IPO, with its valuation later reported at $137 billion.",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdUNUNjd5SlVkYi0zank4azFhUDFYZjhNNm8yZXJrVGlaZERsdFBBS0VOc1ZGaW9EMjd2d1dnRjdCU1NEY3VXOHJYVTdCRS11QUhtNnpkdDdCcExNZUdzMmNnY2dtT1ZWRlozT0R1TTgwMS1aSHNOazhCOTBTMFh1VmNza2habEdDRGRjOWtYenlRN2pkS2plcEhYOEZCUHVqdVhDQ0RocWpqbTZMcHY4SUw5cHY5TThaNDlvdFZVeFBwYTlhNVNiZkpn0gHPAUFVX3lxTE92NnFJOHUxX1VveUVTbjAyMlBPeEQzNVlxYU9jYWptUE5vZUlxcGFFbUdnbDh2VkU2T2tCZ0EwZV9BQ2FJNUxlTDZzQ2c4TGtlYlgzSkRjeW5oTmczT2ZoQjBYb1RqcHNud0JtcXFmd1ZvUlBGbWJpRGRJdWFfM3lKYm4zUlB3LVlmOXl6T0VJSU1MNjhCZzFtQmVjWmpFZUpMdDkteTl1bkZWclZMYWtsR1N0c0c2eHFVekxubkxOOHVEWnJvejFzREJTeVRSdw?oc=5"
+   "headline": "Google erases record $500 billion as AI eats into sales",
+   "detail": "Alphabet shares fell more than 13%, erasing over $500 billion in its biggest-ever market plunge after disappointing search results.",
+   "link": "https://www.bloomberg.com/news/videos/2026-10-29/google-erases-a-record-500b-as-ai-eats-into-sales-video"
   },
   {
-   "headline": "Microsoft shares rise after hours on Azure-driven results beat",
-   "detail": "Microsoft shares rose over 2% after hours as Azure strength drove a fiscal first-quarter results beat, with quarterly profit soaring on cloud growth.",
-   "link": "https://www.investing.com/news/earnings/microsoft-stock-rises-over-4-after-hours-on-quarterly-results-beat-4980704"
+   "headline": "US third-quarter GDP beats forecasts at 3.4% growth",
+   "detail": "GDP rose a better-than-expected 3.4% as September inflation accelerated, with PCE inflation projected at a 3.7% annual rate.",
+   "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
   },
   {
-   "headline": "Samsung shares fall after Q3 profit miss and no buyback plan",
-   "detail": "Samsung Electronics reported Q3 revenue of KRW 195.3T, but shares fell after a profit miss and no new shareholder return plan.",
-   "link": "https://seekingalpha.com/news/4659867-samsung-electronics-reports-q3-revenue-of-krw-1953t-shares-fall-on-profit-miss?source=feed_tag_earnings"
+   "headline": "Lagarde to step down early from ECB presidency",
+   "detail": "ECB President Christine Lagarde will step down on Feb. 7 next year, prompting debate over who could replace her.",
+   "link": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html"
   },
   {
-   "headline": "Anthropic could begin marketing its IPO the week of Nov. 9",
-   "detail": "Anthropic's IPO marketing could begin the week of Nov. 9, a major listing story covered by 26 outlets.",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaWxSYlJBMTl5Rlp6ZWZOYTdaTFowaFBqTXlUT2Itb211bllhNVNIRExwRVdCQXVTd3ZzUzRVYjZodDNLTE5KUlBxUkJNTEc1dXp0UnBXbTNmaXN6WVl4a1pzaDNia09HT3EyNkpfcUJ6WXF4dXMwQ043Nm84YTJzSW1YcGRJUQ?oc=5"
+   "headline": "DoorDash agrees $17 billion deal for Instacart",
+   "detail": "DoorDash struck a $17 billion deal for US rival Instacart in a mega grocery delivery bet.",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORW5SOWQwSzcyUFRocHlTSmRhdWJtN2QzXzRCM3FPSjdXeDlBREVZSERWdGRiZUQ3OU1kMldlT3J1TnpwUFl3dEk1S1hkM0lpYmlDTlNfcllDdWc4VkYzZ2hzT0FmNm4zY2JNOEtJYUx4OVN4X045a2pXLWs5Wk9sMHdrMWFFMFI5R0VXV09uLTV4TFpnNTBPV3BNUHMxM2o2dEloNlJpWks2NjJUci13Vzd3QXlPeXdVQVpsUlhaQ1JyZk81aU5sdw?oc=5"
   }
  ],
  "summaries": {
-  "requested": 18,
+  "requested": 22,
   "rejected_ungrounded": 0,
-  "applied": 18
+  "applied": 13
  },
- "generated": "2026-10-29T06:05+00:00",
- "total_cost_usd": 0.00407
+ "generated": "2026-10-29T17:18+00:00",
+ "total_cost_usd": 0.00489
 }

@@ -2,7 +2,7 @@
   {
     "week": "2026-W44",
     "label": "Week of October 26\u201330, 2026",
-    "generated": "2026-10-29T06:05:08.537764+00:00",
+    "generated": "2026-10-29T17:18:01.738408+00:00",
     "bullets": [
       {
         "headline": "Asian stocks surge as Anthropic IPO lifts sentiment ahead of earnings, central banks",
@@ -11,16 +11,16 @@
         "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdEdzTDdxbEtNX1l6VDJMdF9NTGpUNEJPYy1jaUo2SkllaGhJZnZvNzZOOTd5MkZHV3p5T2ZhcjlkcWduOXp5elFKREQ0bFBib0pXUzNKdGI2QmE3eWZxRlktZXhSZG0tQzQ4U1dXNWxOZktiZVZvc1pNUERsYUFLVUJYSQ?oc=5"
       },
       {
-        "headline": "Google misses Wall Street expectations, Alphabet stock sinks in early after-hours trading",
+        "headline": "A potentially historic drop for Alphabet\u2019s stock drags the US market lower",
         "source": "AP",
         "section": "Stock Market & Equities",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR25CYmFOU2xObG0wQ1N1eTI1WktadzJwZl8tdmFXV3N3eGJRWGw3T0VjaWJBMmliTXVfVlFaNDlzU1FVTnpySjhJZ0dmOVZWZ2dCY2FRVDV3ZktrZkg2OV9ZdnZNZzdENkRSR1p5aE1oalJPS0NKYVRoOWRqanI0blR3S2oybzU2bkJ5dTFkX1BBekJ0aTdmQUJyQ0JGYVhZVEw5Zkpwdms?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSWE2NlZVNmVDNUoyd0IzVGhKeDFtWFV0VEYwdU0xeWNGdk1mdGdCZFI1OTM2aE5fbTh1Rk55S3lubUdIMkc1UVY3d2xsUm9IOHZJdFNFSmlKSkVZdFNOTERLbzlTN2VjSEUxZnZleElyQ1Z5WHRQNl9KY25xZjVhQ0s3YWtyTDNUQWFQQWlB?oc=5"
       },
       {
-        "headline": "Meta- and Google-backed Jio Platforms\u2019 shares soar over 21% on trading debut after record IPO",
+        "headline": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
         "source": "CNBC",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9XZTZrLU5EVk95TWVhM1pNbHREcC1CUHR6dzJvY0FRREVPYzVFVndLSVF1Wng1TFdhVV96YkkzcEFMS01UZHctVXhPa2oxZ2hsdU1nR0hGT2RHYjVqVVpkeFhONkRsN2wweGQw0gFwQVVfeXFMTUZ1Qk4teUJ6dGxsT1BzNjdaa291aERheHRWYUFlX2FqOUJmV0xGSVZsR3I0VmJiclZ6Qlg5dEVnMnhnSzQyMGZ3bkJfeXFQSTk2TkhCMmQ0UHhNb1J3dWkzRXRiWEI5LWYwYW1fWGw3Yg?oc=5"
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
       },
       {
         "headline": "Coca-Cola raises guidance again, but investors sell the beat",
@@ -29,25 +29,25 @@
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPemdVMTVuVmZ2NVhuZUhrX3piVWxfdzF2djNVR1NPNlJUejM3T0FPdDZuMXV4ZW81enNQM1FHcFZzVjBUZ01TV2JUc3RNcVpyWE5uU1A1WUQ5aFd6ZUtoMkZNLXk0R3ctTTNjMnBmMWtVMEt3dEZCdzhVaW5mS1JJUlhEenFUMnlpSkRWMV9wZGVJQnJhVVMtc1I0NA?oc=5"
       },
       {
-        "headline": "The Federal Reserve is expected to hold interest rates steady this week for reasons that have as much to do with what Fed officials have said as with what the economy is doing",
-        "source": "WSJ",
-        "section": "Macro & Economy",
-        "link": "https://www.wsj.com/economy/central-banking/why-the-fed-is-expected-to-hold-rates-steady-despite-a-case-for-raising-them-3761e47f?mod=rss_socialeconomyfeed"
+        "headline": "DoorDash to acquire Instacart for $17B",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/"
       },
       {
-        "headline": "Meta eyes record $97.5 billion equity raise to fund AI expansion",
+        "headline": "Samsung posts record Q3 earnings; shares slide as net profit misses estimates",
         "source": "Investing.com",
-        "section": "Macro & Economy",
-        "link": "https://www.investing.com/news/economy-news/meta-eyes-record-975-billion-equity-raise-to-fund-ai-expansion-4975360"
+        "section": "Earnings & Results",
+        "link": "https://www.investing.com/news/earnings/samsung-posts-record-quarterly-profit-as-aidriven-chip-demand-surges-4981297"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 690,
-      "Macro & Economy": 405,
-      "Investment Banking & Deals": 538,
-      "Real Estate & REITs": 294,
-      "Earnings & Results": 624,
-      "Tech & Fintech": 512
+      "Stock Market & Equities": 789,
+      "Macro & Economy": 490,
+      "Investment Banking & Deals": 592,
+      "Real Estate & REITs": 330,
+      "Earnings & Results": 768,
+      "Tech & Fintech": 606
     }
   },
   {
