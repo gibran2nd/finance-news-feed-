@@ -4,31 +4,37 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12756,
-   "output_tokens": 2807,
-   "cost_usd": 0.00268
+   "input_tokens": 11698,
+   "output_tokens": 3313,
+   "cost_usd": 0.00283
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2694,
-   "output_tokens": 1301,
-   "cost_usd": 0.00092
+   "input_tokens": 2589,
+   "output_tokens": 1168,
+   "cost_usd": 0.00084
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
-   "Robust consumer spending, AI-related investment power US economy in third quarter"
+   "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks",
+   "Reddit Falls on Pivot to Curb Logged-Out Users’ Access"
   ],
   [
-   "Inflation heats up again, data shows, days before midterm elections where cost of living dominates",
-   "US inflation heats up in September; consumer spending rises"
+   "Amazon reported booming cloud revenue but otherwise missed expectations",
+   "No One Wanted These Amazon Earnings, Thill Says"
   ],
   [
-   "Lagarde Quits ECB to Shed Neutrality, Enter Political Fray",
-   "The politics of President Lagarde's European Central Bank early exit — and who could replace her"
+   "Intel stock plunges 16% as chipmaker blames PC slowdown for weak guidance",
+   "Intel shares drop 18% on Israel factory blast, PC weakness",
+   "What Intel's CEO Had to Say About Forecast, Demand",
+   "Supply Constraints a Swing Factor for Intel, Seaport's Goldberg Says"
+  ],
+  [
+   "The politics of President Lagarde's European Central Bank early exit — and who could replace her",
+   "Lagarde Quits ECB Early, French Debt: Global Return"
   ],
   [
    "ECB Officials Are Ready to Raise Interest Rates in December",
@@ -36,58 +42,55 @@
    "ECB flags December hike but sees yield rise hitting growth"
   ],
   [
-   "VIEW ECB keeps rates unchanged; euro and bond yields fall",
-   "Euro Could Trade-Range Bound Vs Dollar After ECB Decision"
+   "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
+   "Robust consumer spending, AI-related investment power US economy in third quarter",
+   "US Economy Grows Most in a Year on Strong Spending, Investment"
   ],
   [
-   "Google Sales Miss Reignites AI Fears, Microsoft Eyes $25B Debt Offering",
-   "Microsoft Turns to Bond Market as AI Spending Grows"
+   "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
+   "Rivian tops Q3 estimates and raises guidance as R2 drives growth By Investing.com"
   ],
   [
-   "Wall Street slides as Alphabet revenue miss revives AI capex jitters",
-   "Google Sales Miss Reignites AI Fears, Microsoft Eyes $25B Debt Offering"
+   "Starbucks international business disappoints but U.S. stores outperform",
+   "A Starbucks turnaround is brewing — but perhaps not quickly enough"
   ],
   [
-   "Caterpillar Plunges As Earnings Beat Fails To Soothe AI Jitters",
+   "Caterpillar slides on Q3 earnings",
    "Caterpillar sticks to annual sales forecast amid cost pressures, shares dive"
-  ],
-  [
-   "Josh Kushner and OpenAI-backed group agree deal for US home security firm",
-   "Home security firm ADT to be taken private by Thrive Holdings for $7.6 billion"
   ]
  ],
  "brief": [
   {
-   "headline": "Anthropic files for IPO under ticker ANT",
-   "detail": "Anthropic has officially filed for an IPO under the ticker ANT, a filing covered by 29 outlets and of major interest to deal-focused readers.",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE80Ujc3c3U2RkdZZUY5WFhMVWkwR0FSQXZqQThPTV9nOFpKbDU1clBOTTh1aURUTXZCTWE2VWM3VkJMSEpxNDh3OWxERDVzVzh5NzRrWFhxaHRGbmlqUUlEcE1fYl9xVWdjSTVIZVpaSDBTUQ?oc=5"
-  },
-  {
-   "headline": "Alphabet revenue miss revives AI spending worries",
-   "detail": "Wall Street slid after Alphabet's revenue miss revived jitters about AI capital spending, a story covered by 10 outlets.",
+   "headline": "Wall Street slides as Alphabet revenue misses, reviving AI spending worries",
+   "detail": "Alphabet's revenue missed expectations, reviving investor concern about AI capital spending and pushing Wall Street lower.",
    "link": "https://www.investing.com/news/economy-news/wall-street-slides-as-alphabet-revenue-miss-revives-ai-capex-jitters-4984885"
   },
   {
-   "headline": "DoorDash agrees $17 billion deal for Instacart",
-   "detail": "DoorDash struck a $17 billion deal for US rival Instacart in a major bet on grocery delivery consolidation.",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORW5SOWQwSzcyUFRocHlTSmRhdWJtN2QzXzRCM3FPSjdXeDlBREVZSERWdGRiZUQ3OU1kMldlT3J1TnpwUFl3dEk1S1hkM0lpYmlDTlNfcllDdWc4VkYzZ2hzT0FmNm4zY2JNOEtJYUx4OVN4X045a2pXLWs5Wk9sMHdrMWFFMFI5R0VXV09uLTV4TFpnNTBPV3BNUHMxM2o2dEloNlJpWks2NjJUci13Vzd3QXlPeXdVQVpsUlhaQ1JyZk81aU5sdw?oc=5"
+   "headline": "Reddit shares sink on weak guidance and login requirement plans",
+   "detail": "Reddit shares fell on weak sales guidance and plans to require official accounts as Google search traffic shrinks.",
+   "link": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html"
+  },
+  {
+   "headline": "Eli Lilly price target raised as obesity-drug boom continues",
+   "detail": "The raised target reflects Mounjaro and Zepbound driving Lilly's growth, with the author seeing more growth to be had.",
+   "link": "https://www.cnbc.com/investingclub/2026/10/29/were-raising-our-eli-lilly-price-target-as-obesity-drug-boom-continues.html"
   },
   {
    "headline": "US third-quarter GDP beats expectations at 3.4%",
-   "detail": "Third-quarter U.S. GDP rose a better-than-expected 3.4% even as September inflation accelerated, according to CNBC.",
+   "detail": "GDP rose a better-than-expected 3.4% in the third quarter, even as September inflation accelerated.",
    "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
   },
   {
-   "headline": "Lagarde to step down early as ECB president",
-   "detail": "ECB President Christine Lagarde will step down on Feb. 7 next year, prompting debate over who could replace her.",
-   "link": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html"
+   "headline": "DoorDash strikes $17 billion deal for Instacart",
+   "detail": "DoorDash agreed to buy US rival Instacart for $17 billion, a major bet on mega grocery delivery.",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORW5SOWQwSzcyUFRocHlTSmRhdWJtN2QzXzRCM3FPSjdXeDlBREVZSERWdGRiZUQ3OU1kMldlT3J1TnpwUFl3dEk1S1hkM0lpYmlDTlNfcllDdWc4VkYzZ2hzT0FmNm4zY2JNOEtJYUx4OVN4X045a2pXLWs5Wk9sMHdrMWFFMFI5R0VXV09uLTV4TFpnNTBPV3BNUHMxM2o2dEloNlJpWks2NjJUci13Vzd3QXlPeXdVQVpsUlhaQ1JyZk81aU5sdw?oc=5"
   }
  ],
  "summaries": {
-  "requested": 21,
+  "requested": 19,
   "rejected_ungrounded": 0,
-  "applied": 21
+  "applied": 18
  },
- "generated": "2026-10-29T19:52+00:00",
- "total_cost_usd": 0.0036
+ "generated": "2026-10-29T21:29+00:00",
+ "total_cost_usd": 0.00367
 }
