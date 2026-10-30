@@ -4,54 +4,40 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12316,
-   "output_tokens": 3562,
-   "cost_usd": 0.00301
+   "input_tokens": 11893,
+   "output_tokens": 3238,
+   "cost_usd": 0.00281
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2888,
-   "output_tokens": 2936,
-   "cost_usd": 0.00176
+   "input_tokens": 2373,
+   "output_tokens": 1249,
+   "cost_usd": 0.00086
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Binance temporarily suspends withdrawals after apparent hack",
-   "Binance hack drained wallets backing customer assets, reserve data shows",
-   "Tether, Circle freeze $2.38 billion after Binance reports security incident",
-   "Binance Founder Says Exchange May Be Victim of Biggest-Ever Crypto Heist"
+   "Analysts react as Binance freezes assets after $6.3 billion security breach",
+   "Crypto's longtime foe, North Korea's Lazarus Group, likely behind Binance hack: blockchain sleuths",
+   "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
+   "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain",
+   "Cryptocurrencies Slide as News of Major Hack Spooks Markets",
+   "Binance temporarily suspends withdrawals after apparent hack"
   ],
   [
-   "Intel plunges on a major guidance miss. What went wrong — and how to proceed",
-   "Weak quarter for Intel sends shivers through cooling chip stocks",
-   "What Intel's CEO Had to Say About Forecast, Demand",
-   "Supply Constraints a Swing Factor for Intel, Seaport's Goldberg Says"
+   "ServiceNow shares plunge 25% after earnings revive AI disruption fears",
+   "ServiceNow Stock Is Worst in S&P 500 After a Key Revenue Measure Fell Short"
   ],
   [
-   "We're cutting our Amazon price target after a rough quarter. But it isn't all bad",
-   "No One Wanted These Amazon Earnings, Thill Says"
-  ],
-  [
-   "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks",
-   "Reddit Falls on Pivot to Curb Logged-Out Users’ Access"
-  ],
-  [
-   "Coinbase net income surges 66% in third quarter, benefiting from bitcoin investment gains",
-   "Coinbase Returns to Profitability While Posting Another Revenue Drop"
-  ],
-  [
-   "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
-   "RIVN Jumps 5% After-Hours As Rivian Lifts Full-Year Outlook And Reaffirms Volkswagen Partnership",
-   "Rivian Earnings: Stock Rises on Signs of Life in the EV Market"
-  ],
-  [
-   "Starbucks serves up a solid quarter and full-year outlook. Why we're staying invested",
-   "Starbucks international business disappoints but U.S. stores outperform",
-   "Starbucks US Sales Beat Estimates, Extending Growth Run",
-   "A Starbucks turnaround is brewing — but perhaps not quickly enough"
+   "BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013",
+   "Analysts react to BOJ decision to keep rates steady",
+   "BOJ keeps interest rates steady, signals further rate hikes",
+   "BOJ Inflation Target Signal Supports Yen Gains, Strategists Say",
+   "Bank of Japan Holds Fire While Signaling Rate Hikes Ahead",
+   "JPY/USD: BOJ Holds Benchmark Rate Steady as Expected After September Hike",
+   "BOJ declares victory in hitting price target, signals near-term hikes"
   ],
   [
    "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
@@ -59,59 +45,46 @@
    "US Economy Grows Most in a Year on Strong Spending, Investment"
   ],
   [
-   "ECB Officials Are Ready to Raise Interest Rates in December",
-   "ECB governors see December hike likely followed by pause, sources say",
-   "ECB flags December hike but sees yield rise hitting growth"
+   "The story of Anthropic in three numbers",
+   "RICARDO SMITH | Anthropic files for IPO amid AI scrutiny"
   ],
   [
-   "Lagarde Exits ECB After Big Wins, Some Errors and a Long Goodbye",
-   "Lagarde Quits ECB Early, French Debt: Global Return"
-  ],
-  [
-   "OpenAI-backed Thrive Holdings acquires ADT",
-   "Why Josh Kushner’s Firm Just Spent $7.6 Billion on a 150-Year-Old Company"
-  ],
-  [
-   "Bambusa Therapeutics prices upsized IPO at $16 per share",
-   "Bambusa raises $169M in Nasdaq debut, riding biotech IPO rebound"
-  ],
-  [
-   "Sandisk Posts Strong Profit, Upbeat Outlook on Growing AI Demand",
-   "Sandisk sees revenue nearly quintuple — and its stock is heading higher"
+   "Christine Lagarde: the unlikely central banker who steered Europe through multiple crises",
+   "Lagarde Exits ECB After Big Wins, Some Errors and a Long Goodbye"
   ]
  ],
  "brief": [
   {
-   "headline": "Binance hack drains funds; Tether and Circle freeze coins",
-   "detail": "Binance temporarily suspended withdrawals after an apparent hack, and hackers may have taken at least $1.7 billion, with Tether and Circle freezing billions in coins.",
-   "link": "https://www.wsj.com/finance/currencies/binance-founder-says-exchange-may-be-victim-of-biggest-ever-crypto-heist-24a82e5f?mod=rss_markets_main"
+   "headline": "Anthropic files for IPO amid AI scrutiny",
+   "detail": "Anthropic filed for an initial public offering amid scrutiny of AI, a deal covered by 20 outlets today.",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTXhVZnkzMGZIc0FjX1JSMThiSWVaSGJqQmdzcHRiRWJfMXdNSUJLRGNzbl9iRHhtV0hqdncxNUZCWTJtUmMxaXJqdnFzSG1BbEhFczJoMlV3UmxHaU1UY2lUc3JMeXQ3MUlydkJqekpkSXhfZjRLVjlJYTE0VTlXMGZwZGdxTzNDeVJfTHV0cG9LOXcwclM4eXl1QUlJeXc5eGJMeS1VQQ?oc=5"
   },
   {
-   "headline": "Amazon sinks as AI spending eclipses fastest cloud growth",
-   "detail": "Amazon shares sank as AI spending overshadowed its fastest cloud growth in five years, following a rare double earnings miss.",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQXhDSjU4RmlrZmUyT0E5dzJNbmJNaXBBdGhndktXeGUtZVItTWlpNDBZcXR5LTZDMjFOdzdXenRpTnhNd01pZXBXX0V0OTVlYkMtVlJnN2l4YS1QeENxeWlzUUN6bDZkeThpc1VBMUZDQjFYcGxrQWFrVzBVOXdueV9Tb0drZjZ4T3JYWmRXS2MwWnMwMGpoT05FU1lUVWhRbXlPZEpYUjZQbnlrQWh3SGdsTQ?oc=5"
+   "headline": "Binance freezes assets after $6.3 billion security breach",
+   "detail": "Binance froze assets after a $6.3 billion security breach, and analysts reacted to the incident.",
+   "link": "https://www.investing.com/news/economy-news/analysts-react-as-binance-freezes-assets-after-63-billion-security-breach-4985760"
   },
   {
-   "headline": "Intel plunges on major guidance miss",
-   "detail": "Intel shares plunged after a major guidance miss, and analysts say further downside is possible, though selling now won't erase losses already taken.",
-   "link": "https://www.cnbc.com/investingclub/2026/10/29/intel-plunges-on-a-major-guidance-miss-what-went-wrong-how-to-proceed.html"
+   "headline": "Bank of Japan holds rates, says inflation reached 2% target",
+   "detail": "The BOJ kept its benchmark rate unchanged in an 8-1 vote while signalling underlying inflation had reached its 2% target, a milestone.",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-30/boj-holds-benchmark-rate-steady-as-expected-after-september-hike"
   },
   {
-   "headline": "DoorDash strikes $17 billion deal for Instacart",
-   "detail": "DoorDash agreed to a $17 billion deal for US rival Instacart in a mega grocery delivery bet, according to Reuters.",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORW5SOWQwSzcyUFRocHlTSmRhdWJtN2QzXzRCM3FPSjdXeDlBREVZSERWdGRiZUQ3OU1kMldlT3J1TnpwUFl3dEk1S1hkM0lpYmlDTlNfcllDdWc4VkYzZ2hzT0FmNm4zY2JNOEtJYUx4OVN4X045a2pXLWs5Wk9sMHdrMWFFMFI5R0VXV09uLTV4TFpnNTBPV3BNUHMxM2o2dEloNlJpWks2NjJUci13Vzd3QXlPeXdVQVpsUlhaQ1JyZk81aU5sdw?oc=5"
-  },
-  {
-   "headline": "US third-quarter GDP beats forecasts at 3.4%",
-   "detail": "Third-quarter U.S. GDP rose a better-than-expected 3.4% even as September inflation accelerated, according to CNBC.",
+   "headline": "US third-quarter GDP grows 3.4%, beating expectations",
+   "detail": "GDP rose a better-than-expected 3.4% in the third quarter as September inflation accelerated, with consumer spending and AI investment driving growth.",
    "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+  },
+  {
+   "headline": "ServiceNow shares plunge 25% after weak third-quarter results",
+   "detail": "ServiceNow's stock had its worst day ever on underwhelming third-quarter results, reviving fears about AI disruption to its business.",
+   "link": "https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html"
   }
  ],
  "summaries": {
-  "requested": 21,
+  "requested": 18,
   "rejected_ungrounded": 0,
-  "applied": 20
+  "applied": 16
  },
- "generated": "2026-10-30T01:12+00:00",
- "total_cost_usd": 0.00477
+ "generated": "2026-10-30T06:05+00:00",
+ "total_cost_usd": 0.00367
 }

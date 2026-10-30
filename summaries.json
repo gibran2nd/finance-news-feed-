@@ -2,7 +2,7 @@
   {
     "week": "2026-W44",
     "label": "Week of October 26\u201330, 2026",
-    "generated": "2026-10-30T01:12:40.406541+00:00",
+    "generated": "2026-10-30T06:05:51.547301+00:00",
     "bullets": [
       {
         "headline": "Asian stocks surge as Anthropic IPO lifts sentiment ahead of earnings, central banks",
@@ -17,10 +17,16 @@
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSWE2NlZVNmVDNUoyd0IzVGhKeDFtWFV0VEYwdU0xeWNGdk1mdGdCZFI1OTM2aE5fbTh1Rk55S3lubUdIMkc1UVY3d2xsUm9IOHZJdFNFSmlKSkVZdFNOTERLbzlTN2VjSEUxZnZleElyQ1Z5WHRQNl9KY25xZjVhQ0s3YWtyTDNUQWFQQWlB?oc=5"
       },
       {
-        "headline": "We're raising our price target on Eli Lilly as the obesity-drug boom rolls on",
+        "headline": "Meta- and Google-backed Jio Platforms\u2019 shares soar over 21% on trading debut after record IPO",
         "source": "CNBC",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9XZTZrLU5EVk95TWVhM1pNbHREcC1CUHR6dzJvY0FRREVPYzVFVndLSVF1Wng1TFdhVV96YkkzcEFMS01UZHctVXhPa2oxZ2hsdU1nR0hGT2RHYjVqVVpkeFhONkRsN2wweGQw0gFwQVVfeXFMTUZ1Qk4teUJ6dGxsT1BzNjdaa291aERheHRWYUFlX2FqOUJmV0xGSVZsR3I0VmJiclZ6Qlg5dEVnMnhnSzQyMGZ3bkJfeXFQSTk2TkhCMmQ0UHhNb1J3dWkzRXRiWEI5LWYwYW1fWGw3Yg?oc=5"
+      },
+      {
+        "headline": "Eli Lilly (NYSE:LLY) Beats Q3 Estimates, Raises Guidance as Shares Jump",
+        "source": "ChartMill",
         "section": "Earnings & Results",
-        "link": "https://www.cnbc.com/investingclub/2026/10/29/were-raising-our-eli-lilly-price-target-as-obesity-drug-boom-continues.html"
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcjV5YnFqWjV5Qk93bUZkRG1GbmtVM0ZFS2RlUXg4bUc3UGNyLXVxcnBaQVZfV25ZWFIyYVdOLTNCS0drc1prVlRaNGhZeWI4dEJtNnFCbEJ2UjlHV2VHYVZjOGN4R19Db29RbVRvdGFYV3FXQVFBYmNiWFNwdmpRN1U3U0ZmUFVjNEpnbktLS0t2dEI5U1l4MzBvVW9yOEhaUmwxay10MDgzOXhHeHRHNVZ6alJBUXlxTEE?oc=5"
       },
       {
         "headline": "Coca-Cola raises guidance again, but investors sell the beat",
@@ -33,21 +39,15 @@
         "source": "TechCrunch",
         "section": "Tech & Fintech",
         "link": "https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/"
-      },
-      {
-        "headline": "DoorDash to Buy Rival Instacart in $17 Billion Deal",
-        "source": "Bloomberg",
-        "section": "Stock Market & Equities",
-        "link": "https://www.bloomberg.com/news/videos/2026-10-29/doordash-to-buy-rival-instacart-in-17-billion-deal-video"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 899,
-      "Macro & Economy": 524,
-      "Investment Banking & Deals": 623,
-      "Real Estate & REITs": 372,
-      "Earnings & Results": 925,
-      "Tech & Fintech": 680
+      "Stock Market & Equities": 941,
+      "Macro & Economy": 562,
+      "Investment Banking & Deals": 636,
+      "Real Estate & REITs": 379,
+      "Earnings & Results": 961,
+      "Tech & Fintech": 704
     }
   },
   {
