@@ -4,87 +4,96 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 11893,
-   "output_tokens": 3238,
-   "cost_usd": 0.00281
+   "input_tokens": 12296,
+   "output_tokens": 3029,
+   "cost_usd": 0.00274
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2373,
-   "output_tokens": 1249,
-   "cost_usd": 0.00086
+   "input_tokens": 2787,
+   "output_tokens": 2706,
+   "cost_usd": 0.00163
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Analysts react as Binance freezes assets after $6.3 billion security breach",
-   "Crypto's longtime foe, North Korea's Lazarus Group, likely behind Binance hack: blockchain sleuths",
-   "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
-   "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain",
-   "Cryptocurrencies Slide as News of Major Hack Spooks Markets",
-   "Binance temporarily suspends withdrawals after apparent hack"
+   "North Korean hackers blamed for stealing record $6.3B in Binance breach",
+   "Clues Point to Familiar Culprit in Massive Binance Crypto Heist: North Korea"
   ],
   [
-   "ServiceNow shares plunge 25% after earnings revive AI disruption fears",
-   "ServiceNow Stock Is Worst in S&P 500 After a Key Revenue Measure Fell Short"
+   "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart",
+   "What we know about the $6.3bn Binance hack"
   ],
   [
+   "Intel stock heads for worst day in more than 50 years, wiping $12 billion off government's stake",
+   "After Intel’s historic stock drop, analysts say there’s no reason to buy the dip"
+  ],
+  [
+   "Amazon, Intel Earnings Add Fuel to Tech Selloff",
+   "Stocks Fall After Amazon and Intel Deal Another Blow to AI Trade",
+   "Nasdaq hits near three-month low as Amazon, Intel deepen AI capex concerns",
+   "Tech scare trade hits Nasdaq futures while crypto reels from its biggest-ever hack"
+  ],
+  [
+   "Gilead-Backed Aspen Neuroscience Shares Decline 2% After US IPO",
+   "ASPE IPO News - Parkinson’s disease biotech Aspen Neuroscience prices IPO at $15, the low end of the range"
+  ],
+  [
+   "Dermatology Biotech Bambusa Slides 7% After $168.9 Million IPO",
+   "Bambusa Therapeutics prices upsized IPO at $16 per share"
+  ],
+  [
+   "Eurozone Economy Slows as French Debt Worries Mount",
+   "Euro zone economy slows to 0.4% growth in Q3 as crisis-hit France contracts"
+  ],
+  [
+   "Bank of Japan holds rates and guides to further tightening",
    "BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013",
-   "Analysts react to BOJ decision to keep rates steady",
-   "BOJ keeps interest rates steady, signals further rate hikes",
-   "BOJ Inflation Target Signal Supports Yen Gains, Strategists Say",
-   "Bank of Japan Holds Fire While Signaling Rate Hikes Ahead",
-   "JPY/USD: BOJ Holds Benchmark Rate Steady as Expected After September Hike",
-   "BOJ declares victory in hitting price target, signals near-term hikes"
+   "Analysts react to BOJ decision to keep rates steady"
   ],
   [
-   "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
-   "Robust consumer spending, AI-related investment power US economy in third quarter",
-   "US Economy Grows Most in a Year on Strong Spending, Investment"
+   "Fed’s Barkin signals further rate hikes ahead with pace remaining the key question",
+   "Fed’s Barkin Indicates Backing for ‘Gradual’ Rate Increases"
   ],
   [
-   "The story of Anthropic in three numbers",
-   "RICARDO SMITH | Anthropic files for IPO amid AI scrutiny"
-  ],
-  [
-   "Christine Lagarde: the unlikely central banker who steered Europe through multiple crises",
-   "Lagarde Exits ECB After Big Wins, Some Errors and a Long Goodbye"
+   "General Dynamics tops quarterly estimates on robust Gulfstream, marine bookings",
+   "General Dynamics Logs Higher Profit, Revenue"
   ]
  ],
  "brief": [
   {
-   "headline": "Anthropic files for IPO amid AI scrutiny",
-   "detail": "Anthropic filed for an initial public offering amid scrutiny of AI, a deal covered by 20 outlets today.",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTXhVZnkzMGZIc0FjX1JSMThiSWVaSGJqQmdzcHRiRWJfMXdNSUJLRGNzbl9iRHhtV0hqdncxNUZCWTJtUmMxaXJqdnFzSG1BbEhFczJoMlV3UmxHaU1UY2lUc3JMeXQ3MUlydkJqekpkSXhfZjRLVjlJYTE0VTlXMGZwZGdxTzNDeVJfTHV0cG9LOXcwclM4eXl1QUlJeXc5eGJMeS1VQQ?oc=5"
+   "headline": "North Korean hackers blamed for record $6.3B Binance breach",
+   "detail": "Hackers working for North Korea are suspected of hacking a Binance employee's laptop, enabling a record $6.3 billion crypto theft.",
+   "link": "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/"
   },
   {
-   "headline": "Binance freezes assets after $6.3 billion security breach",
-   "detail": "Binance froze assets after a $6.3 billion security breach, and analysts reacted to the incident.",
-   "link": "https://www.investing.com/news/economy-news/analysts-react-as-binance-freezes-assets-after-63-billion-security-breach-4985760"
+   "headline": "Intel stock heads for worst day in over 50 years",
+   "detail": "Intel's shares are heading for their worst day in more than 50 years, wiping $12 billion off the government's stake amid AI spending worries.",
+   "link": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
   },
   {
-   "headline": "Bank of Japan holds rates, says inflation reached 2% target",
-   "detail": "The BOJ kept its benchmark rate unchanged in an 8-1 vote while signalling underlying inflation had reached its 2% target, a milestone.",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-30/boj-holds-benchmark-rate-steady-as-expected-after-september-hike"
+   "headline": "Amazon and Intel results deepen tech selloff",
+   "detail": "The tech selloff intensified after Amazon and Intel results compounded worries around the AI trade, and the Nasdaq composite slumped more than 2%.",
+   "link": "https://www.wsj.com/finance/stocks/ai-selloff-deepens-oil-jumps-and-crypto-falls-4703d21b?mod=rss_markets_main"
   },
   {
-   "headline": "US third-quarter GDP grows 3.4%, beating expectations",
-   "detail": "GDP rose a better-than-expected 3.4% in the third quarter as September inflation accelerated, with consumer spending and AI investment driving growth.",
-   "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+   "headline": "Anthropic's S1 filing finally released",
+   "detail": "The S1 filing from Anthropic has been released, and Google had a pretty bad week, according to Bloomberg's The Rundown.",
+   "link": "https://www.bloomberg.com/news/videos/2026-10-30/anthropic-s-s1-google-s-ai-problem-the-rundown-video"
   },
   {
-   "headline": "ServiceNow shares plunge 25% after weak third-quarter results",
-   "detail": "ServiceNow's stock had its worst day ever on underwhelming third-quarter results, reviving fears about AI disruption to its business.",
-   "link": "https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html"
+   "headline": "DoorDash agrees $17 billion deal for Instacart",
+   "detail": "DoorDash has struck a $17 billion deal for US rival Instacart in a mega bet on grocery delivery.",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORW5SOWQwSzcyUFRocHlTSmRhdWJtN2QzXzRCM3FPSjdXeDlBREVZSERWdGRiZUQ3OU1kMldlT3J1TnpwUFl3dEk1S1hkM0lpYmlDTlNfcllDdWc4VkYzZ2hzT0FmNm4zY2JNOEtJYUx4OVN4X045a2pXLWs5Wk9sMHdrMWFFMFI5R0VXV09uLTV4TFpnNTBPV3BNUHMxM2o2dEloNlJpWks2NjJUci13Vzd3QXlPeXdVQVpsUlhaQ1JyZk81aU5sdw?oc=5"
   }
  ],
  "summaries": {
-  "requested": 18,
+  "requested": 21,
   "rejected_ungrounded": 0,
-  "applied": 16
+  "applied": 20
  },
- "generated": "2026-10-30T06:05+00:00",
- "total_cost_usd": 0.00367
+ "generated": "2026-10-30T16:55+00:00",
+ "total_cost_usd": 0.00437
 }
