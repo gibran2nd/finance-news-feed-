@@ -4,16 +4,16 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12757,
-   "output_tokens": 2077,
-   "cost_usd": 0.00231
+   "input_tokens": 13037,
+   "output_tokens": 2751,
+   "cost_usd": 0.00268
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3308,
-   "output_tokens": 4141,
-   "cost_usd": 0.0024
+   "input_tokens": 3236,
+   "output_tokens": 3303,
+   "cost_usd": 0.00198
   }
  ],
  "errors": [],
@@ -21,64 +21,64 @@
   [
    "Binance hack: Investigators in a 'cat and mouse game' to recover $6.3 billion in stolen funds",
    "$6.3bn in 30 minutes: how the world’s biggest heist unfolded",
-   "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart",
-   "Binance’s $6.3 Billion Cyber Heist Shows Crypto Vulnerabilities",
    "North Korean hackers blamed for stealing record $6.3B in Binance breach",
-   "Clues Point to Familiar Culprit in Massive Binance Crypto Heist: North Korea"
+   "Clues Point to Familiar Culprit in Massive Binance Crypto Heist: North Korea",
+   "Binance’s $6.3 Billion Cyber Heist Shows Crypto Vulnerabilities"
   ],
   [
-   "As Anthropic finally files for IPO, rising risks aren’t slowing the AI buildout – yet",
+   "Intel stock heads for worst day in more than 50 years, wiping $12 billion off government's stake",
+   "Intel Plunges 29% on Weak Outlook as Tech Selloff Deepens | Closing Bell",
+   "The Week the Cracks in the AI Trade Grew Deeper"
+  ],
+  [
+   "Anthropic files for IPO",
    "Anthropic's S1 | Google's AI Problem | The Rundown"
-  ],
-  [
-   "Intel Tumbles on PC Outlook, AWS CEO on AI Spending and Growth",
-   "Intel stock heads for worst day in more than 50 years, wiping $12 billion off government's stake"
   ],
   [
    "Nigeria-focused fintech OPay raises $304mn in New York IPO at near-$4bn valuation",
    "OPay prices IPO at $19 per share on the New York Stock Exchange By Investing.com"
   ],
   [
-   "Dermatology Biotech Bambusa Slides 7% After $168.9 Million IPO",
-   "Bambusa Therapeutics prices upsized IPO at $16 per share"
+   "Weil Gotshal Wind-Down Means 447K-SF Vacancy at GM Building",
+   "Weil, Gotshal’s Collapse Is Perfectly Timed for Manhattan’s Office Market"
   ],
   [
-   "Bank of Japan holds rates and guides to further tightening",
-   "Analysts react to BOJ decision to keep rates steady"
+   "Analysts react as Binance freezes assets after $6.3 billion security breach",
+   "Experts divided over Binance hack asset freezes, warn recovery is another matter"
   ]
  ],
  "brief": [
   {
-   "headline": "Binance suffers record $6.3 billion crypto hack",
-   "detail": "More than $6 billion in crypto was stolen from Binance, and investigators are racing to recover funds before North Korea-linked hackers can launder them.",
+   "headline": "Binance suffers $6.3 billion crypto hack, linked to North Korea",
+   "detail": "More than $6 billion in crypto was stolen, prompting a race to recover the funds before North Korea-linked hackers can launder them into cash.",
    "link": "https://www.cnbc.com/2026/10/30/binance-hack-stolen-crypto-recovery.html"
   },
   {
-   "headline": "Anthropic files for IPO as AI risks mount",
-   "detail": "Anthropic has finally filed for an IPO, while rising risks have not yet slowed the AI buildout, according to SiliconANGLE.",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOT0VQcnJaNTVPZ01peURHS1Y5Zm1lUHFDU1BjbzBzZHpRWVI3Und6R3o1UnZBd09ZaGMxOURIc3IyWTdVcTU4ZTFxTE93X1g0bkNvaXhvZVFmNUVSQ2xjOHJYSjNOODVXVnU3c1ZoUTRUc3lDZVZpYUVpVnlFbEZ5MWJsRWxINUY5RHhjOTZxdEl4aS1vZm5Uc3FjSWRSMklPSkFVaHAyUERRbjVhVXp3eG9rNGJ0SEJ4RXc?oc=5"
-  },
-  {
-   "headline": "Intel stock posts worst day in over 50 years",
-   "detail": "Intel shares headed for their worst day in more than 50 years, wiping $12 billion off the government's stake, as investors worry about AI spending payoffs.",
+   "headline": "Intel suffers worst day in over 50 years",
+   "detail": "Intel shares fell 29% on a weak outlook, wiping $12 billion off the government's stake as investors question whether AI spending will pay off.",
    "link": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
   },
   {
-   "headline": "Amazon and Intel results deepen tech selloff",
-   "detail": "Disappointing results from Amazon and Intel intensified the tech selloff and worries around the AI trade, with the Nasdaq composite slumping more than 2%.",
-   "link": "https://www.wsj.com/finance/stocks/ai-selloff-deepens-oil-jumps-and-crypto-falls-4703d21b?mod=rss_markets_main"
+   "headline": "Anthropic files for IPO",
+   "detail": "Anthropic has filed for an IPO, a listing of major interest to investors following the AI trade.",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ybFYySHQ2QVdZd2d1U0xuODdlVjVHRGc4UlpyTmtVTGJ2VE9lVVU5ZWZiS1lkTEdrUm5CTC1DRnpRRWtnVkVHbXlaQWM3eGlWNGE3a3dGWklCZDV4eVNHMG9FR293aVNNXzh4SDZBUGg2SVF6RUNz?oc=5"
   },
   {
-   "headline": "Nasdaq 100 heads for third correction this year",
-   "detail": "Investors dumped big tech stocks after a slew of disappointing earnings, putting the Nasdaq 100 on course for its third technical correction of 2026.",
+   "headline": "Nasdaq 100 hits third correction of 2026",
+   "detail": "Investors dumped big tech stocks after disappointing earnings, putting the Nasdaq 100 on course for its third technical correction this year.",
    "link": "https://www.bloomberg.com/news/articles/2026-10-30/nasdaq-100-ndx-ndq-qqq-hits-third-correction-of-2026-on-unwinding-tech-bets"
+  },
+  {
+   "headline": "CD&R reportedly targets $40bn Global Payments buyout",
+   "detail": "According to the FT, private equity firm CD&R is targeting a buyout of Global Payments, a payments processor with an enterprise value of about $40 billion.",
+   "link": "https://www.finextra.com/newsarticle/48681/pe-firm-cdr-targets-buyout-of-40bn-global-payments---ft?utm_medium=rssfinextra&utm_source=finextrafeed"
   }
  ],
  "summaries": {
-  "requested": 26,
+  "requested": 25,
   "rejected_ungrounded": 1,
   "applied": 23
  },
- "generated": "2026-10-30T19:42+00:00",
- "total_cost_usd": 0.00471
+ "generated": "2026-10-30T21:13+00:00",
+ "total_cost_usd": 0.00466
 }

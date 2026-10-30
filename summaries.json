@@ -2,7 +2,7 @@
   {
     "week": "2026-W44",
     "label": "Week of October 26\u201330, 2026",
-    "generated": "2026-10-30T19:42:56.060911+00:00",
+    "generated": "2026-10-30T21:13:35.843736+00:00",
     "bullets": [
       {
         "headline": "Asian stocks surge as Anthropic IPO lifts sentiment ahead of earnings, central banks",
@@ -17,10 +17,16 @@
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSWE2NlZVNmVDNUoyd0IzVGhKeDFtWFV0VEYwdU0xeWNGdk1mdGdCZFI1OTM2aE5fbTh1Rk55S3lubUdIMkc1UVY3d2xsUm9IOHZJdFNFSmlKSkVZdFNOTERLbzlTN2VjSEUxZnZleElyQ1Z5WHRQNl9KY25xZjVhQ0s3YWtyTDNUQWFQQWlB?oc=5"
       },
       {
-        "headline": "Binance hack: Investigators in a 'cat and mouse game' to recover $6.3 billion in stolen funds",
+        "headline": "Reddit stock plunges 30% after weak outlook, heads for worst day ever",
         "source": "CNBC",
+        "section": "Earnings & Results",
+        "link": "https://www.cnbc.com/2026/10/30/reddit-stock-q3-earnings.html"
+      },
+      {
+        "headline": "North Korean hackers blamed for stealing record $6.3B in Binance breach",
+        "source": "TechCrunch",
         "section": "Tech & Fintech",
-        "link": "https://www.cnbc.com/2026/10/30/binance-hack-stolen-crypto-recovery.html"
+        "link": "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/"
       },
       {
         "headline": "Jio Platforms Shares Soar 28% Since Market Debut",
@@ -33,21 +39,15 @@
         "source": "ChartMill",
         "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcjV5YnFqWjV5Qk93bUZkRG1GbmtVM0ZFS2RlUXg4bUc3UGNyLXVxcnBaQVZfV25ZWFIyYVdOLTNCS0drc1prVlRaNGhZeWI4dEJtNnFCbEJ2UjlHV2VHYVZjOGN4R19Db29RbVRvdGFYV3FXQVFBYmNiWFNwdmpRN1U3U0ZmUFVjNEpnbktLS0t2dEI5U1l4MzBvVW9yOEhaUmwxay10MDgzOXhHeHRHNVZ6alJBUXlxTEE?oc=5"
-      },
-      {
-        "headline": "Coca-Cola raises guidance again, but investors sell the beat",
-        "source": "ABC Money",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPemdVMTVuVmZ2NVhuZUhrX3piVWxfdzF2djNVR1NPNlJUejM3T0FPdDZuMXV4ZW81enNQM1FHcFZzVjBUZ01TV2JUc3RNcVpyWE5uU1A1WUQ5aFd6ZUtoMkZNLXk0R3ctTTNjMnBmMWtVMEt3dEZCdzhVaW5mS1JJUlhEenFUMnlpSkRWMV9wZGVJQnJhVVMtc1I0NA?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 1058,
-      "Macro & Economy": 629,
-      "Investment Banking & Deals": 708,
-      "Real Estate & REITs": 423,
-      "Earnings & Results": 1068,
-      "Tech & Fintech": 795
+      "Stock Market & Equities": 1077,
+      "Macro & Economy": 633,
+      "Investment Banking & Deals": 725,
+      "Real Estate & REITs": 435,
+      "Earnings & Results": 1076,
+      "Tech & Fintech": 805
     }
   },
   {
