@@ -4,96 +4,81 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12296,
-   "output_tokens": 3029,
-   "cost_usd": 0.00274
+   "input_tokens": 12757,
+   "output_tokens": 2077,
+   "cost_usd": 0.00231
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2787,
-   "output_tokens": 2706,
-   "cost_usd": 0.00163
+   "input_tokens": 3308,
+   "output_tokens": 4141,
+   "cost_usd": 0.0024
   }
  ],
  "errors": [],
  "merge_groups": [
   [
+   "Binance hack: Investigators in a 'cat and mouse game' to recover $6.3 billion in stolen funds",
+   "$6.3bn in 30 minutes: how the world’s biggest heist unfolded",
+   "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart",
+   "Binance’s $6.3 Billion Cyber Heist Shows Crypto Vulnerabilities",
    "North Korean hackers blamed for stealing record $6.3B in Binance breach",
    "Clues Point to Familiar Culprit in Massive Binance Crypto Heist: North Korea"
   ],
   [
-   "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart",
-   "What we know about the $6.3bn Binance hack"
+   "As Anthropic finally files for IPO, rising risks aren’t slowing the AI buildout – yet",
+   "Anthropic's S1 | Google's AI Problem | The Rundown"
   ],
   [
-   "Intel stock heads for worst day in more than 50 years, wiping $12 billion off government's stake",
-   "After Intel’s historic stock drop, analysts say there’s no reason to buy the dip"
+   "Intel Tumbles on PC Outlook, AWS CEO on AI Spending and Growth",
+   "Intel stock heads for worst day in more than 50 years, wiping $12 billion off government's stake"
   ],
   [
-   "Amazon, Intel Earnings Add Fuel to Tech Selloff",
-   "Stocks Fall After Amazon and Intel Deal Another Blow to AI Trade",
-   "Nasdaq hits near three-month low as Amazon, Intel deepen AI capex concerns",
-   "Tech scare trade hits Nasdaq futures while crypto reels from its biggest-ever hack"
-  ],
-  [
-   "Gilead-Backed Aspen Neuroscience Shares Decline 2% After US IPO",
-   "ASPE IPO News - Parkinson’s disease biotech Aspen Neuroscience prices IPO at $15, the low end of the range"
+   "Nigeria-focused fintech OPay raises $304mn in New York IPO at near-$4bn valuation",
+   "OPay prices IPO at $19 per share on the New York Stock Exchange By Investing.com"
   ],
   [
    "Dermatology Biotech Bambusa Slides 7% After $168.9 Million IPO",
    "Bambusa Therapeutics prices upsized IPO at $16 per share"
   ],
   [
-   "Eurozone Economy Slows as French Debt Worries Mount",
-   "Euro zone economy slows to 0.4% growth in Q3 as crisis-hit France contracts"
-  ],
-  [
    "Bank of Japan holds rates and guides to further tightening",
-   "BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013",
    "Analysts react to BOJ decision to keep rates steady"
-  ],
-  [
-   "Fed’s Barkin signals further rate hikes ahead with pace remaining the key question",
-   "Fed’s Barkin Indicates Backing for ‘Gradual’ Rate Increases"
-  ],
-  [
-   "General Dynamics tops quarterly estimates on robust Gulfstream, marine bookings",
-   "General Dynamics Logs Higher Profit, Revenue"
   ]
  ],
  "brief": [
   {
-   "headline": "North Korean hackers blamed for record $6.3B Binance breach",
-   "detail": "Hackers working for North Korea are suspected of hacking a Binance employee's laptop, enabling a record $6.3 billion crypto theft.",
-   "link": "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/"
+   "headline": "Binance suffers record $6.3 billion crypto hack",
+   "detail": "More than $6 billion in crypto was stolen from Binance, and investigators are racing to recover funds before North Korea-linked hackers can launder them.",
+   "link": "https://www.cnbc.com/2026/10/30/binance-hack-stolen-crypto-recovery.html"
   },
   {
-   "headline": "Intel stock heads for worst day in over 50 years",
-   "detail": "Intel's shares are heading for their worst day in more than 50 years, wiping $12 billion off the government's stake amid AI spending worries.",
+   "headline": "Anthropic files for IPO as AI risks mount",
+   "detail": "Anthropic has finally filed for an IPO, while rising risks have not yet slowed the AI buildout, according to SiliconANGLE.",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOT0VQcnJaNTVPZ01peURHS1Y5Zm1lUHFDU1BjbzBzZHpRWVI3Und6R3o1UnZBd09ZaGMxOURIc3IyWTdVcTU4ZTFxTE93X1g0bkNvaXhvZVFmNUVSQ2xjOHJYSjNOODVXVnU3c1ZoUTRUc3lDZVZpYUVpVnlFbEZ5MWJsRWxINUY5RHhjOTZxdEl4aS1vZm5Uc3FjSWRSMklPSkFVaHAyUERRbjVhVXp3eG9rNGJ0SEJ4RXc?oc=5"
+  },
+  {
+   "headline": "Intel stock posts worst day in over 50 years",
+   "detail": "Intel shares headed for their worst day in more than 50 years, wiping $12 billion off the government's stake, as investors worry about AI spending payoffs.",
    "link": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
   },
   {
    "headline": "Amazon and Intel results deepen tech selloff",
-   "detail": "The tech selloff intensified after Amazon and Intel results compounded worries around the AI trade, and the Nasdaq composite slumped more than 2%.",
+   "detail": "Disappointing results from Amazon and Intel intensified the tech selloff and worries around the AI trade, with the Nasdaq composite slumping more than 2%.",
    "link": "https://www.wsj.com/finance/stocks/ai-selloff-deepens-oil-jumps-and-crypto-falls-4703d21b?mod=rss_markets_main"
   },
   {
-   "headline": "Anthropic's S1 filing finally released",
-   "detail": "The S1 filing from Anthropic has been released, and Google had a pretty bad week, according to Bloomberg's The Rundown.",
-   "link": "https://www.bloomberg.com/news/videos/2026-10-30/anthropic-s-s1-google-s-ai-problem-the-rundown-video"
-  },
-  {
-   "headline": "DoorDash agrees $17 billion deal for Instacart",
-   "detail": "DoorDash has struck a $17 billion deal for US rival Instacart in a mega bet on grocery delivery.",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORW5SOWQwSzcyUFRocHlTSmRhdWJtN2QzXzRCM3FPSjdXeDlBREVZSERWdGRiZUQ3OU1kMldlT3J1TnpwUFl3dEk1S1hkM0lpYmlDTlNfcllDdWc4VkYzZ2hzT0FmNm4zY2JNOEtJYUx4OVN4X045a2pXLWs5Wk9sMHdrMWFFMFI5R0VXV09uLTV4TFpnNTBPV3BNUHMxM2o2dEloNlJpWks2NjJUci13Vzd3QXlPeXdVQVpsUlhaQ1JyZk81aU5sdw?oc=5"
+   "headline": "Nasdaq 100 heads for third correction this year",
+   "detail": "Investors dumped big tech stocks after a slew of disappointing earnings, putting the Nasdaq 100 on course for its third technical correction of 2026.",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-30/nasdaq-100-ndx-ndq-qqq-hits-third-correction-of-2026-on-unwinding-tech-bets"
   }
  ],
  "summaries": {
-  "requested": 21,
-  "rejected_ungrounded": 0,
-  "applied": 20
+  "requested": 26,
+  "rejected_ungrounded": 1,
+  "applied": 23
  },
- "generated": "2026-10-30T16:55+00:00",
- "total_cost_usd": 0.00437
+ "generated": "2026-10-30T19:42+00:00",
+ "total_cost_usd": 0.00471
 }
