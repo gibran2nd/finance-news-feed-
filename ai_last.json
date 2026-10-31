@@ -4,82 +4,72 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12279,
-   "output_tokens": 2642,
-   "cost_usd": 0.00255
+   "input_tokens": 12554,
+   "output_tokens": 2452,
+   "cost_usd": 0.00248
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2572,
-   "output_tokens": 3070,
-   "cost_usd": 0.00179
+   "input_tokens": 3027,
+   "output_tokens": 3570,
+   "cost_usd": 0.00209
   }
  ],
  "errors": [],
  "merge_groups": [
   [
+   "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve",
    "$6.3 billion Binance hack is largest crypto theft on record",
-   "Binance hack: Investigators in a 'cat and mouse game' to recover $6.3 billion in stolen funds",
-   "Hackers steal $6.3bn in crypto assets from Binance",
    "$6.3bn in 30 minutes: how the world’s biggest heist unfolded",
    "Behind the Scenes of Crypto’s Biggest Nightmare: a Record-Breaking Cyber Heist",
-   "North Korean hackers blamed for stealing record $6.3B in Binance breach",
-   "Clues Point to Familiar Culprit in Massive Binance Crypto Heist: North Korea"
+   "Binance Heist Shows Power of Suspected North Korean Hackers"
   ],
   [
-   "Intel Plunges 29% on Weak Outlook as Tech Selloff Deepens | Closing Bell",
-   "Intel’s stock crashes, knocking $12B from government’s stake"
-  ],
-  [
-   "SoftBank-backed OPay raises $304 million in US IPO",
-   "Opay Shares Fail to Trade After Raising $304 Million in US IPO",
-   "Fintech OPay Raises $304 Million Ahead of NYSE Debut: NYSE Content Update",
-   "Davis Polk-Led Fintech Startup OPay Prices $304M IPO",
-   "OPay prices IPO at $19 per share on the New York Stock Exchange",
-   "OPay prices IPO at $19 per ADS, raising $304 million By Investing.com"
-  ],
-  [
-   "Weil Gotshal Wind-Down Means 447K-SF Vacancy at GM Building",
-   "Weil, Gotshal’s Collapse Is Perfectly Timed for Manhattan’s Office Market"
+   "Intel’s stock crashes, knocking $12B from government’s stake",
+   "After Intel’s historic stock drop, analysts say there’s no reason to buy the dip"
   ],
   [
    "Fitch Cuts France’s Outlook to Negative on Weaker Growth, Widening Deficit",
    "France Gets Budget Warning as Fitch Turns Negative on Rating"
+  ],
+  [
+   "Weil, Gotshal’s Collapse Is Perfectly Timed for Manhattan’s Office Market",
+   "Weil Gotshal Wind-Down Means 447K-SF Vacancy at GM Building"
   ]
  ],
  "brief": [
   {
-   "headline": "Binance hack: $6.3 billion in crypto stolen",
-   "detail": "North Korea-linked hackers stole about $6.3 billion from Binance, and investigators are racing to recover the funds before they can be laundered into cash.",
+   "headline": "Binance suffers record $6.3 billion crypto theft",
+   "detail": "Binance says a security breach affected about $6.3 billion in assets, with roughly $3 billion frozen and losses to be covered.",
    "link": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html"
   },
   {
-   "headline": "Nasdaq 100 enters third technical correction this year",
-   "detail": "Investors dumped big tech stocks after a slew of disappointing earnings, putting the Nasdaq 100 on course for its third correction of 2026.",
+   "headline": "Reddit shares plunge 30% on weak outlook",
+   "detail": "Reddit shares sank after weak Q4 sales guidance and a plan to test requiring users to log in to see content.",
+   "link": "https://www.cnbc.com/2026/10/30/reddit-stock-q3-earnings.html"
+  },
+  {
+   "headline": "Nasdaq 100 heads for third correction this year",
+   "detail": "Investors dumped big tech stocks after disappointing earnings, putting the Nasdaq 100 on course for its third technical correction of 2026.",
    "link": "https://www.bloomberg.com/news/articles/2026-10-30/nasdaq-100-ndx-ndq-qqq-hits-third-correction-of-2026-on-unwinding-tech-bets"
   },
   {
-   "headline": "Intel shares plunge 29% on weak outlook",
-   "detail": "Intel fell 29% on a weak outlook as the tech selloff deepened, and the drop knocked $12 billion off the government's stake in the company.",
-   "link": "https://www.bloomberg.com/news/videos/2026-10-30/intel-plunges-on-weak-outlook-closing-bell-video"
-  },
-  {
-   "headline": "Anthropic publicly files S-1 for proposed Nasdaq IPO",
-   "detail": "Anthropic has publicly filed its S-1 registration statement for a proposed initial public offering on the Nasdaq exchange.",
+   "headline": "Anthropic files public S-1 for proposed Nasdaq IPO",
+   "detail": "Anthropic has filed a public S-1 for its proposed Nasdaq IPO, a key step toward going public.",
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNXVSRG9paWJpSDlOQThuemQ4Qmg0dGpvYkluS05oV0NvNDRQLXNHdzZfOWd6N1hTc2dKMHhhNkdBQ19uY08tZ293dWxkVnJSOVM1N016RUpYbkY0d1JkYk5mdGJFbjg2c1pocUkxNDJSN3d5Ukg5S0JJejAydzA4b0MyT2lLUHlXdHc?oc=5"
   },
   {
-   "headline": "Reddit stock plunges 30% after weak outlook",
-   "detail": "Reddit shares sank after weak Q4 sales guidance and a plan to test requiring users to log in to see content, heading for their worst day ever.",
-   "link": "https://www.cnbc.com/2026/10/30/reddit-stock-q3-earnings.html"
+   "headline": "Intel stock crashes, erasing $12 billion from government stake",
+   "detail": "Intel shares crashed as PC sales weaken and AI demand gobbles memory and components, pushing PC prices up; the drop knocked $12 billion off the government's stake.",
+   "link": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
   }
  ],
  "summaries": {
-  "requested": 20,
+  "requested": 25,
   "rejected_ungrounded": 1,
-  "applied": 17
+  "applied": 24
  },
- "generated": "2026-10-31T06:30+00:00",
- "total_cost_usd": 0.00434
+ "generated": "2026-10-31T07:11+00:00",
+ "total_cost_usd": 0.00457
 }
