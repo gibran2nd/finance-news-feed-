@@ -4,32 +4,25 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 11274,
-   "output_tokens": 3476,
-   "cost_usd": 0.00287
+   "input_tokens": 11281,
+   "output_tokens": 3315,
+   "cost_usd": 0.00279
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2404,
-   "output_tokens": 2770,
-   "cost_usd": 0.00163
+   "input_tokens": 2626,
+   "output_tokens": 1382,
+   "cost_usd": 0.00095
   }
  ],
  "errors": [],
  "merge_groups": [
   [
    "Binance says it has covered 90% of losses from $6.3 billion hack so far",
+   "Crypto exchanges call for quick moves to bolster defenses after Binance heist",
    "$6.3bn in 30 minutes: how the world’s biggest heist unfolded",
    "Behind the Scenes of Crypto’s Biggest Nightmare: a Record-Breaking Cyber Heist"
-  ],
-  [
-   "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round",
-   "OpenAI Funding Target Cut by $10 Billion as AI Slumps, FT Says"
-  ],
-  [
-   "Rating agency Fitch hits France with unscheduled outlook downgrade",
-   "Fitch revises France's outlook to 'negative' on worsening debt dynamics"
   ],
   [
    "Bank of England weighs raising cap on high-risk mortgages to five times income: FT",
@@ -38,40 +31,48 @@
   [
    "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
    "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution"
+  ],
+  [
+   "Rating agency Fitch hits France with unscheduled outlook downgrade",
+   "Fitch revises France's outlook to 'negative' on worsening debt dynamics"
+  ],
+  [
+   "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round",
+   "OpenAI Funding Target Cut by $10 Billion as AI Slumps, FT Says"
   ]
  ],
  "brief": [
   {
    "headline": "Binance has covered 90% of losses from $6.3 billion hack",
-   "detail": "Binance says it has covered 90% of losses from the $6.3 billion hack so far, which the FT describes as the world's biggest heist.",
+   "detail": "Binance says it has covered 90% of losses from the $6.3 billion hack, which the FT describes as crypto theft at an unprecedented scale.",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV05QRmVQbjJDUTZkNzRFaTA5VVp5RE9Bd2ctMkxITEVaZnNLZVVzdkx5aHBUUFZYOTJCb19YRFJRM2I1RW5QS0JJUmowaUtsVjlnaTExaWJDM2NsLVJINlJQZ0JHdlUyb05LS0kyRGdRMHlyVWdYRHFJOTNlbFRZc0plbkc2SE1nOHB1SklPVVNUVnhFY3lYdWtR?oc=5"
   },
   {
-   "headline": "US stocks slide as Amazon, Intel earnings spark AI selling",
-   "detail": "Amazon and Intel earnings triggered more selling over AI spending concerns, pushing US stocks lower.",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPemJPWElvMW9JX2pxLThMQ1VVVDhyaGhjelVIZC12OFk2VjNCOVpVQy1hYkdQRUlpOERsWG9XZDk1SkVtZmxCQlB5V0M0bjZQeUNEOGJpVC1xaGFtaTN3dTJBdzVRWDUwVFZlcDFpMFByMl9zRmxhZjFMX2VrZldZaTdTSVViTThneVdweHpfOVpkUW8wekQyem9sMUFmNFE3YlJnVHJmOTJxLWc?oc=5"
-  },
-  {
    "headline": "OpenAI cuts fundraising goal to up to $20 billion",
-   "detail": "OpenAI is now seeking up to $20 billion in its latest round, which is still in progress and has not closed, so figures may change.",
+   "detail": "OpenAI is now seeking up to $20 billion in its latest round, which has not closed, so the figures are subject to change.",
    "link": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html"
   },
   {
-   "headline": "Anthropic IPO may give US retail investors 15-20% allocation",
-   "detail": "Bloomberg reported a possible 15% to 20% allocation for US retail investors in Anthropic's IPO.",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQN0l5MFFHeHBTcGZHMk8xRHV6VS05UU82a3FYaVgzWC1jV2NnVEhKYWFHMC0yWWJweFFNTkV1eUM3SlU1SDZYZG9pYVBwajRzNWFlSFBhVWMtNjJscnRmdDJjemRhdnFDbW9GYlRhb0pOb281SVNMSE1Vc0FSZDhlcFJJNVcxNTBrMXRKeXlaajE0MVZzNC1LQXVPSURpQWZSdWM5OTRxVQ?oc=5"
+   "headline": "US stocks slide as Amazon, Intel earnings spark AI selling",
+   "detail": "Amazon and Intel earnings sparked more selling in AI-linked stocks, pushing US stocks lower and deepening concerns about AI capital spending.",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPemJPWElvMW9JX2pxLThMQ1VVVDhyaGhjelVIZC12OFk2VjNCOVpVQy1hYkdQRUlpOERsWG9XZDk1SkVtZmxCQlB5V0M0bjZQeUNEOGJpVC1xaGFtaTN3dTJBdzVRWDUwVFZlcDFpMFByMl9zRmxhZjFMX2VrZldZaTdTSVViTThneVdweHpfOVpkUW8wekQyem9sMUFmNFE3YlJnVHJmOTJxLWc?oc=5"
   },
   {
-   "headline": "Fitch hits France with unscheduled outlook downgrade",
-   "detail": "The move came hours after data showed an unexpected contraction in third-quarter economic output.",
-   "link": "https://www.ft.com/content/852b05a1-4090-4aee-afc6-4d4c353ef3cf?syn-25a6b1a6=1"
+   "headline": "OPay makes NYSE debut, raising $304 million in IPO",
+   "detail": "The emerging-markets fintech raised $304 million in a $19-per-share public offering as it made its NYSE debut.",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPV0I1TElnUDBJZEk2MTQ1SzV2ZG45NnNnTTU1SWVFd2xUQXR1RnRFNXV4NF92T185eFdoTWc4eUhWdnE0T203d09ZdjBUdE9lWGFWeFdlYkFsTTBfcG5HdS1sV3dFQkpqUmxhak5TUk5GNVU4Sl9CUEsyd1lwVmY5Q3RfOWZNSkZLZ2NqXy0zZWFfaUd4U1dZNzJxU1dJYnNmV0ZJZUExSk1xVERvS0VCVnRkN2dlUXFPSkdPLTd5UXktY004b3c?oc=5"
+  },
+  {
+   "headline": "Anthropic IPO may allot 15% to 20% to US retail",
+   "detail": "Bloomberg reported a possible 15% to 20% US retail allocation for Anthropic's IPO, which is a key detail for individual investors.",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQN0l5MFFHeHBTcGZHMk8xRHV6VS05UU82a3FYaVgzWC1jV2NnVEhKYWFHMC0yWWJweFFNTkV1eUM3SlU1SDZYZG9pYVBwajRzNWFlSFBhVWMtNjJscnRmdDJjemRhdnFDbW9GYlRhb0pOb281SVNMSE1Vc0FSZDhlcFJJNVcxNTBrMXRKeXlaajE0MVZzNC1LQXVPSURpQWZSdWM5OTRxVQ?oc=5"
   }
  ],
  "summaries": {
-  "requested": 19,
+  "requested": 21,
   "rejected_ungrounded": 0,
-  "applied": 19
+  "applied": 20
  },
- "generated": "2026-10-31T21:20+00:00",
- "total_cost_usd": 0.0045
+ "generated": "2026-10-31T22:00+00:00",
+ "total_cost_usd": 0.00374
 }
