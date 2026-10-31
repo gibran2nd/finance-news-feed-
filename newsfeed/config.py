@@ -116,7 +116,7 @@ DJ   = "https://feeds.content.dowjones.io/public/rss/{}"
 FEEDS = {
     "Stock Market & Equities": {
         "icon":  "📈",
-        "color": "#22c55e",
+        "color": "#34d399",
         "sources": [
             ("WSJ",           DJ.format("RSSMarketsMain")),
             ("Bloomberg",     "https://feeds.bloomberg.com/markets/news.rss", {"filter": True}),
@@ -129,7 +129,7 @@ FEEDS = {
     },
     "Macro & Economy": {
         "icon":  "🏛️",
-        "color": "#3b82f6",
+        "color": "#60a5fa",
         "sources": [
             ("WSJ",               DJ.format("socialeconomyfeed")),
             ("Bloomberg",         "https://feeds.bloomberg.com/economics/news.rss"),
@@ -167,7 +167,7 @@ FEEDS = {
     },
     "Real Estate & REITs": {
         "icon":  "🏢",
-        "color": "#06b6d4",
+        "color": "#22d3ee",
         "sources": [
             ("Commercial Observer", "https://commercialobserver.com/feed/"),
             ("Bisnow",              "https://www.bisnow.com/national/rss"),
@@ -181,7 +181,7 @@ FEEDS = {
     },
     "Earnings & Results": {
         "icon":  "📊",
-        "color": "#ec4899",
+        "color": "#f472b6",
         "sources": [
             ("Seeking Alpha", "https://seekingalpha.com/tag/earnings/feed.xml"),
             ("Investing.com", "https://www.investing.com/rss/news_1062.rss"),
@@ -194,7 +194,7 @@ FEEDS = {
     },
     "Tech & Fintech": {
         "icon":  "💻",
-        "color": "#8b5cf6",
+        "color": "#fbbf24",
         "sources": [
             ("Bloomberg",   "https://feeds.bloomberg.com/technology/news.rss"),
             ("WSJ",         DJ.format("RSSWSJD"), {"filter": True}),

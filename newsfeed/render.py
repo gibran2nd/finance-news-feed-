@@ -13,7 +13,7 @@ from .recaps import get_week_key
 
 # ── TradingView Economic Calendar (plain string — outside f-string) ──────────
 CALENDAR_HTML = """\
-  <div class="tradingview-widget-container" style="min-height:450px">
+  <div class="tv-panel"><div class="tradingview-widget-container" style="min-height:450px">
     <div class="tradingview-widget-container__widget"></div>
     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
     {
@@ -26,9 +26,46 @@ CALENDAR_HTML = """\
       "countryFilter": "us"
     }
     </script>
-  </div>"""
+  </div></div>"""
 # Shared CSS lives in static/styles.css (inlined into each page)
 COMMON_STYLES = (Path(__file__).parent / "static" / "styles.css").read_text(encoding="utf-8")
+
+# Section accents that aren't feed sections
+TOP_COLOR, CAREERS_COLOR, CALENDAR_COLOR, PREMIUM_COLOR, BRIEF_COLOR = (
+    "#fb923c", "#f87171", "#94a3b8", "#eab308", "#34d399")
+NAV_NAMES = {"Stock Market & Equities": "Markets", "Macro & Economy": "Macro",
+             "Investment Banking & Deals": "Deals", "Real Estate & REITs": "Real Estate",
+             "Earnings & Results": "Earnings", "Tech & Fintech": "Tech"}
+
+LOGO_MARK = ('<svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#34d399"/>'
+             '<path d="M6 17l4.5-5 3 3L18.5 8" fill="none" stroke="#06281d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+THEME_ICONS = ('<svg class="icon-sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">'
+               '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>'
+               '<svg class="icon-moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+               '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>')
+FAVICON = ("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' rx='6' fill='%2334d399'/>"
+           "<path d='M6 17l4.5-5 3 3L18.5 8' fill='none' stroke='%2306281d' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/></svg>")
+# Runs before the page paints so nobody gets a flash of the wrong theme
+HEAD_ASSETS = f"""\
+  <link rel="icon" href="{FAVICON}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700&display=swap">
+  <script>
+    (function () {{
+      var saved = null;
+      try {{ saved = localStorage.getItem('theme'); }} catch (e) {{}}
+      var dark = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.setAttribute('data-theme', saved || (dark ? 'dark' : 'light'));
+    }})();
+  </script>"""
+THEME_JS = """\
+    document.getElementById('theme-btn').addEventListener('click', () => {
+      const root = document.documentElement;
+      const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+    });"""
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -56,13 +93,12 @@ def esc(s: str) -> str:
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
 
 
-def render_card(article: dict, color: str | None = None) -> str:
+def render_card(article: dict, color: str | None = None, lead: bool = False) -> str:
     t         = esc(article["title"])
     lk        = esc(article["link"])
     src       = esc(article["source"])
     ts        = time_ago(article["pub"])
-    c         = color or article.get("color", "#22c55e")
-    age_cls   = article.get("age_class", "age-old")
+    c         = color or article.get("color", "#34d399")
     new_badge = '<span class="new-badge">NEW</span>' if article.get("is_new") else ""
     s         = esc(article.get("summary_short") or article["summary"])
     via       = (f' <span class="card-via">— {esc(article["summary_via"])}</span>'
@@ -72,14 +108,17 @@ def render_card(article: dict, color: str | None = None) -> str:
                  '<title>Subscription may be required</title><path fill="currentColor" d="M4 7V5a4 4 0 1 1 8 0v2h1v8H3V7h1zm2 0h4V5a2 2 0 1 0-4 0v2z"/></svg>'
                  if article["source"] in PAYWALLED_PUBLISHERS else "")
     co_attr   = f' data-co="{esc("|".join(article["companies"]))}"' if article.get("companies") else ""
+    lead_cls  = " card-lead" if lead else ""
+    outlets   = (f' <span class="card-outlets">· {article["coverage"]} outlets</span>'
+                 if lead and article.get("coverage", 0) > 1 else "")
     return f"""\
-    <a class="card {age_cls}" href="{lk}" target="_blank" rel="noopener noreferrer"{co_attr}>
-      <div class="card-meta">
-        <span class="badge" style="border-color:{c};color:{c}">{src}{lock}</span>
-        <span class="ts">{new_badge}{ts}</span>
-      </div>
+    <a class="card{lead_cls}" style="--c:{c}" href="{lk}" target="_blank" rel="noopener noreferrer"{co_attr}>
       <p class="card-title">{t}</p>
       {summary_html}
+      <div class="card-meta">
+        <span class="card-src">{src}{lock}{outlets}</span>
+        <span class="ts">{new_badge}{ts}</span>
+      </div>
     </a>"""
 
 
@@ -167,17 +206,17 @@ def render_brief(brief: list[dict], generated: datetime) -> str:
     et    = _et(generated)
     label = "Morning Brief" if et.hour < 12 else "Afternoon Brief" if et.hour < 17 else "Evening Brief"
     items = "".join(
-        f'<li><a href="{esc(b["article"]["link"])}" target="_blank" rel="noopener noreferrer">'
+        f'<li><div><a href="{esc(b["article"]["link"])}" target="_blank" rel="noopener noreferrer">'
         f'<strong>{esc(b["headline"])}</strong></a> {esc(b["detail"])} '
-        f'<span class="brief-src">{esc(b["article"]["source"])}</span></li>'
+        f'<span class="brief-src">{esc(b["article"]["source"])}</span></div></li>'
         for b in brief)
     return f"""\
-  <section class="brief" id="brief">
-    <h2 class="section-heading" style="color:var(--text)">{label}
+  <section class="brief" id="brief" style="--c:{BRIEF_COLOR}">
+    <h2 class="section-heading">{label}
       <span class="brief-time">{et.strftime("%-I:%M %p ET")}</span></h2>
-    <ol class="brief-list">{items}</ol>
-    <p class="brief-note">Written by Claude (AI) from today's headlines and publisher summaries.
-      It can make mistakes — open the linked articles for the full story.</p>
+    <ol class="brief-list">{items}
+      <li class="brief-note">Written by Claude (AI) from today's headlines and publisher summaries.
+      It can make mistakes — open the linked articles for the full story.</li></ol>
   </section>
 """
 
@@ -188,7 +227,7 @@ def render_trending_bar(trending: list[tuple[str, int]]) -> str:
     chips = "".join(
         f'<button class="chip" data-co="{esc(t)}" onclick="filterByChip(this)" '
         f'title="{c} {"story" if c == 1 else "stories"} on this page">'
-        f'{esc(t)}<span class="chip-count">{c}</span></button>'
+        f'{esc(t)}</button>'
         for t, c in trending
     )
     return f"""\
@@ -201,43 +240,33 @@ def render_trending_bar(trending: list[tuple[str, int]]) -> str:
 def _render_sections_html(sections: dict, top_stories: list[dict],
                            max_per: int) -> tuple[str, str, list[str]]:
     """Returns (nav_items_html, sections_html, section_ids_list)."""
-    key_num     = 1
     section_ids = []
     nav_items   = ""
 
-    if top_stories:
-        nav_items += f'<a class="nav-item" href="#top-stories">🔥 Top Stories <kbd>{key_num}</kbd></a>\n'
-        section_ids.append("top-stories")
-        key_num += 1
-
-    for name in sections:
-        sid   = slugify(name)
-        first = name.split(" & ")[0].split(" ")[0]
-        icon  = sections[name][0]["icon"]
-        nav_items += f'    <a class="nav-item" href="#{sid}">{icon} {first} <kbd>{key_num}</kbd></a>\n'
+    def add_nav(sid: str, label: str, color: str) -> None:
+        nonlocal nav_items
+        nav_items += (f'    <a class="nav-item" href="#{sid}" style="--c:{color}"><i></i>{label}</a>\n')
         section_ids.append(sid)
-        key_num += 1
-        if name == "Investment Banking & Deals":
-            nav_items += f'    <a class="nav-item" href="#careers-recruiting">💼 Careers <kbd>{key_num}</kbd></a>\n'
-            section_ids.append("careers-recruiting")
-            key_num += 1
-        if name == "Earnings & Results":
-            nav_items += f'    <a class="nav-item" href="#economic-calendar">📅 Calendar <kbd>{key_num}</kbd></a>\n'
-            section_ids.append("economic-calendar")
-            key_num += 1
 
-    nav_items += f'    <a class="nav-item" href="#premium">🔒 Premium <kbd>{key_num}</kbd></a>\n'
-    section_ids.append("premium")
+    if top_stories:
+        add_nav("top-stories", "Top Stories", TOP_COLOR)
+
+    for name, (config, _) in sections.items():
+        add_nav(slugify(name), NAV_NAMES.get(name, name), config["color"])
+        if name == "Investment Banking & Deals":
+            add_nav("careers-recruiting", "Careers", CAREERS_COLOR)
+        if name == "Earnings & Results":
+            add_nav("economic-calendar", "Calendar", CALENDAR_COLOR)
+
+    add_nav("premium", "Premium", PREMIUM_COLOR)
 
     # ── Build section HTML ───────────────────────────────────────────────────
     sections_html = ""
     if top_stories:
-        top_cards = "\n".join(render_card(a) for a in top_stories)
+        top_cards = "\n".join(render_card(a, lead=i == 0) for i, a in enumerate(top_stories))
         sections_html += f"""\
-  <section class="section" id="top-stories" data-section>
-    <h2 class="section-heading" style="color:#f97316">
-      🔥 Top Stories <span class="pill">{len(top_stories)}</span>
-    </h2>
+  <section class="section" id="top-stories" style="--c:{TOP_COLOR}" data-section>
+    <h2 class="section-heading">Top Stories</h2>
     <div class="grid">
 {top_cards}
     </div>
@@ -246,17 +275,13 @@ def _render_sections_html(sections: dict, top_stories: list[dict],
 
     for name, (config, articles) in sections.items():
         color = config["color"]
-        icon  = config["icon"]
         sid   = slugify(name)
         shown = articles[:max_per]
-        count = len(shown)
         cards = "\n".join(render_card(a, color) for a in shown) if shown else \
                 '<p class="empty">No articles found for this period.</p>'
         sections_html += f"""\
-  <section class="section" id="{sid}" data-section>
-    <h2 class="section-heading" style="color:{color}">
-      {icon} {name} <span class="pill">{count}</span>
-    </h2>
+  <section class="section" id="{sid}" style="--c:{color}" data-section>
+    <h2 class="section-heading">{name}</h2>
     <div class="grid">
 {cards}
     </div>
@@ -264,10 +289,8 @@ def _render_sections_html(sections: dict, top_stories: list[dict],
 """
         if name == "Investment Banking & Deals":
             sections_html += f"""\
-  <section class="section" id="careers-recruiting" data-section>
-    <h2 class="section-heading" style="color:#f97316">
-      \U0001f4bc Careers &amp; Recruiting <span class="pill">{len(INTERNSHIP_RESOURCES)}</span>
-    </h2>
+  <section class="section" id="careers-recruiting" style="--c:{CAREERS_COLOR}" data-section>
+    <h2 class="section-heading">Careers &amp; Recruiting</h2>
     <div class="career-grid">
 {render_careers_section()}
     </div>
@@ -275,10 +298,8 @@ def _render_sections_html(sections: dict, top_stories: list[dict],
 """
         if name == "Earnings & Results":
             sections_html += f"""\
-  <section class="section" id="economic-calendar" data-section>
-    <h2 class="section-heading" style="color:#f59e0b">
-      \U0001f4c5 Economic Calendar
-    </h2>
+  <section class="section" id="economic-calendar" style="--c:{CALENDAR_COLOR}" data-section>
+    <h2 class="section-heading">Economic Calendar</h2>
 {CALENDAR_HTML}
   </section>
 """
@@ -296,8 +317,8 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
     nav_items, sections_html, section_ids = _render_sections_html(
         sections, top_stories, MAX_PER_SECTION
     )
-    nav_items += '    <a class="nav-item nav-ext" href="week.html">📅 Weekly</a>\n'
-    nav_items += '    <a class="nav-item nav-ext" href="recaps.html">📋 Recaps</a>\n'
+    nav_items += '    <a class="nav-item nav-ext nav-first-ext" href="week.html">Weekly</a>\n'
+    nav_items += '    <a class="nav-item nav-ext" href="recaps.html">Recaps</a>\n'
 
     market_strip    = render_market_strip(markets, generated)
     trending_bar    = render_trending_bar(trending)
@@ -322,7 +343,7 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
         )
 
     return f"""<!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -330,7 +351,7 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
   <meta property="og:title" content="Finance News Feed">
   <meta property="og:description" content="Live finance news — markets, deals, macro, real estate, earnings & careers.">
   <title>Finance News — {date_str} ({total} articles)</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+{HEAD_ASSETS}
   <style>
 {COMMON_STYLES}
   </style>
@@ -341,11 +362,11 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
 
   <header>
     <div class="header-row">
-      <div class="logo">Finance <em>News</em></div>
+      <a class="logo" href="index.html">{LOGO_MARK}Finance News</a>
       <div class="search-wrap">
         <input id="search" type="search" placeholder="Search… (press / to focus)" autocomplete="off">
       </div>
-      <button id="theme-btn" title="Toggle light/dark mode">☀️</button>
+      <button id="theme-btn" title="Toggle light/dark mode" aria-label="Toggle light or dark mode">{THEME_ICONS}</button>
       <div class="header-meta">
         <div class="date">{date_str}</div>
         <div class="updated">Updated {time_str} · updates 5&times; each market day</div>
@@ -359,10 +380,8 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
 {trending_bar}
   <main>
 {brief_html}{sections_html}
-  <section class="premium-section" id="premium">
-    <h2 class="section-heading" style="color:var(--gold)">
-      🔒 Premium Sources <span class="pill">{len(PREMIUM_SITES)}</span>
-    </h2>
+  <section class="premium-section" id="premium" style="--c:{PREMIUM_COLOR}">
+    <h2 class="section-heading">Premium Sources</h2>
     <div class="premium-grid">
 {premium_html}
     </div>
@@ -372,8 +391,8 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
   <footer>
     {footer_sources} &nbsp;|&nbsp;
     Updates before the open, after the open, midday, after the close &amp; evening &nbsp;|&nbsp;
-    <a href="week.html" style="color:inherit">📅 Weekly</a> &nbsp;|&nbsp;
-    <a href="recaps.html" style="color:inherit">📋 Recaps</a>
+    <a href="week.html" style="color:inherit">Weekly</a> &nbsp;|&nbsp;
+    <a href="recaps.html" style="color:inherit">Recaps</a>
   </footer>
 
   <button id="back-top" title="Back to top">↑</button>
@@ -419,18 +438,7 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
       }}
     }}
 
-    // ── Light / Dark Mode ────────────────────────────────────────────────────
-    const html     = document.documentElement;
-    const themeBtn = document.getElementById('theme-btn');
-    const saved    = localStorage.getItem('theme') || 'dark';
-    html.setAttribute('data-theme', saved);
-    themeBtn.textContent = saved === 'dark' ? '☀️' : '🌙';
-    themeBtn.addEventListener('click', () => {{
-      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-      html.setAttribute('data-theme', next);
-      themeBtn.textContent = next === 'dark' ? '☀️' : '🌙';
-      localStorage.setItem('theme', next);
-    }});
+{THEME_JS}
 
     // ── Back to Top ──────────────────────────────────────────────────────────
     const backTop = document.getElementById('back-top');
@@ -481,22 +489,22 @@ def build_week_html(sections: dict, top_stories: list[dict], generated: datetime
     nav_items, sections_html, section_ids = _render_sections_html(
         sections, top_stories, MAX_PER_SECTION_WEEK
     )
-    nav_items += '    <a class="nav-item nav-ext" href="index.html">← Today</a>\n'
-    nav_items += '    <a class="nav-item nav-ext" href="recaps.html">📋 Recaps</a>\n'
+    nav_items += '    <a class="nav-item nav-ext nav-first-ext" href="index.html">← Today</a>\n'
+    nav_items += '    <a class="nav-item nav-ext" href="recaps.html">Recaps</a>\n'
 
     market_strip   = render_market_strip(markets, generated)
     premium_html   = render_premium_sites()
     section_ids_js = json.dumps(section_ids)
 
     return f"""<!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Weekly finance digest — top stories from the past 7 days.">
   <meta property="og:title" content="Finance News — Weekly Digest">
   <title>Finance News — Weekly Digest ({week_range})</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📅</text></svg>">
+{HEAD_ASSETS}
   <style>
 {COMMON_STYLES}
   </style>
@@ -507,11 +515,11 @@ def build_week_html(sections: dict, top_stories: list[dict], generated: datetime
 
   <header>
     <div class="header-row">
-      <div class="logo">Finance <em>News</em> <span class="week-badge">7-DAY DIGEST</span></div>
+      <a class="logo" href="index.html">{LOGO_MARK}Finance News <span class="week-badge">7-day digest</span></a>
       <div class="search-wrap">
         <input id="search" type="search" placeholder="Search… (press / to focus)" autocomplete="off">
       </div>
-      <button id="theme-btn" title="Toggle light/dark mode">☀️</button>
+      <button id="theme-btn" title="Toggle light/dark mode" aria-label="Toggle light or dark mode">{THEME_ICONS}</button>
       <div class="header-meta">
         <div class="date">{week_range}</div>
         <div class="updated">Generated {time_str} · {total} articles</div>
@@ -524,10 +532,8 @@ def build_week_html(sections: dict, top_stories: list[dict], generated: datetime
 
   <main>
 {sections_html}
-  <section class="premium-section" id="premium">
-    <h2 class="section-heading" style="color:var(--gold)">
-      🔒 Premium Sources <span class="pill">{len(PREMIUM_SITES)}</span>
-    </h2>
+  <section class="premium-section" id="premium" style="--c:{PREMIUM_COLOR}">
+    <h2 class="section-heading">Premium Sources</h2>
     <div class="premium-grid">
 {premium_html}
     </div>
@@ -537,7 +543,7 @@ def build_week_html(sections: dict, top_stories: list[dict], generated: datetime
   <footer>
     Weekly Digest covers the past 7 days &nbsp;|&nbsp;
     <a href="index.html" style="color:inherit">← Back to Today's Feed</a> &nbsp;|&nbsp;
-    <a href="recaps.html" style="color:inherit">📋 Past Recaps</a>
+    <a href="recaps.html" style="color:inherit">Past Recaps</a>
   </footer>
 
   <button id="back-top" title="Back to top">↑</button>
@@ -557,17 +563,7 @@ def build_week_html(sections: dict, top_stories: list[dict], generated: datetime
       }});
     }});
 
-    const html     = document.documentElement;
-    const themeBtn = document.getElementById('theme-btn');
-    const saved    = localStorage.getItem('theme') || 'dark';
-    html.setAttribute('data-theme', saved);
-    themeBtn.textContent = saved === 'dark' ? '☀️' : '🌙';
-    themeBtn.addEventListener('click', () => {{
-      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-      html.setAttribute('data-theme', next);
-      themeBtn.textContent = next === 'dark' ? '☀️' : '🌙';
-      localStorage.setItem('theme', next);
-    }});
+{THEME_JS}
 
     const backTop = document.getElementById('back-top');
     window.addEventListener('scroll', () => {{
@@ -608,7 +604,7 @@ def build_recaps_html(summaries: list, generated: datetime,
     else:
         for entry in sorted_sums:
             is_current = entry["week"] == current_week
-            current_tag = '<span class="current-tag">THIS WEEK</span>' if is_current else ""
+            current_tag = '<span class="current-tag">This week</span>' if is_current else ""
             bullets_html = ""
             for b in entry.get("bullets", []):
                 src_badge = f'<span class="recap-src">{esc(b.get("source",""))}</span>'
@@ -637,14 +633,14 @@ def build_recaps_html(summaries: list, generated: datetime,
 """
 
     return f"""<!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Weekly finance news recaps — catch up on what you missed.">
   <meta property="og:title" content="Finance News — Weekly Recaps">
   <title>Finance News — Weekly Recaps</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
+{HEAD_ASSETS}
   <style>
 {COMMON_STYLES}
   </style>
@@ -655,11 +651,11 @@ def build_recaps_html(summaries: list, generated: datetime,
 
   <header>
     <div class="header-row">
-      <div class="logo">Finance <em>News</em> <span class="week-badge">RECAPS</span></div>
+      <a class="logo" href="index.html">{LOGO_MARK}Finance News <span class="week-badge">Recaps</span></a>
       <div class="search-wrap">
         <input id="search" type="search" placeholder="Search recaps…" autocomplete="off">
       </div>
-      <button id="theme-btn" title="Toggle light/dark mode">☀️</button>
+      <button id="theme-btn" title="Toggle light/dark mode" aria-label="Toggle light or dark mode">{THEME_ICONS}</button>
       <div class="header-meta">
         <div class="date">Weekly Recaps</div>
         <div class="updated">Updated {time_str} · {len(sorted_sums)} weeks archived</div>
@@ -667,15 +663,15 @@ def build_recaps_html(summaries: list, generated: datetime,
     </div>
     <nav class="section-nav">
       <a class="nav-item nav-ext" href="index.html">← Today</a>
-      <a class="nav-item nav-ext" href="week.html">📅 This Week</a>
+      <a class="nav-item nav-ext" href="week.html">This Week</a>
     </nav>
   </header>
 
   <main style="max-width:860px">
-    <h2 class="section-heading" style="color:#818cf8;margin-bottom:24px">
-      📋 Weekly Recaps <span class="pill">{len(sorted_sums)} weeks</span>
+    <h2 class="section-heading" style="--c:{TOP_COLOR}">
+      Weekly Recaps <span class="pill">{len(sorted_sums)} weeks</span>
     </h2>
-    <p style="color:var(--muted);font-size:.82rem;margin-bottom:28px">
+    <p class="recap-intro">
       Catch up on what you missed. Each recap shows the week's top cross-source stories
       and article counts per section. New entries are added automatically each week.
     </p>
@@ -684,7 +680,7 @@ def build_recaps_html(summaries: list, generated: datetime,
 
   <footer>
     <a href="index.html" style="color:inherit">← Today's Feed</a> &nbsp;|&nbsp;
-    <a href="week.html" style="color:inherit">📅 Weekly Digest</a> &nbsp;|&nbsp;
+    <a href="week.html" style="color:inherit">Weekly Digest</a> &nbsp;|&nbsp;
     Updated {date_str}
   </footer>
 
@@ -699,17 +695,7 @@ def build_recaps_html(summaries: list, generated: datetime,
       }});
     }});
 
-    const html     = document.documentElement;
-    const themeBtn = document.getElementById('theme-btn');
-    const saved    = localStorage.getItem('theme') || 'dark';
-    html.setAttribute('data-theme', saved);
-    themeBtn.textContent = saved === 'dark' ? '☀️' : '🌙';
-    themeBtn.addEventListener('click', () => {{
-      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-      html.setAttribute('data-theme', next);
-      themeBtn.textContent = next === 'dark' ? '☀️' : '🌙';
-      localStorage.setItem('theme', next);
-    }});
+{THEME_JS}
 
     const backTop = document.getElementById('back-top');
     window.addEventListener('scroll', () => {{
