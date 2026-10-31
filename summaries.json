@@ -2,7 +2,7 @@
   {
     "week": "2026-W44",
     "label": "Week of October 26\u201330, 2026",
-    "generated": "2026-10-31T22:00:45.329846+00:00",
+    "generated": "2026-10-31T22:53:24.078134+00:00",
     "bullets": [
       {
         "headline": "Anthropic files for potentially the biggest IPO ever as CEO warns of risk to humanity from AI",
@@ -39,15 +39,27 @@
         "source": "Bloomberg",
         "section": "Earnings & Results",
         "link": "https://www.bloomberg.com/news/articles/2026-10-30/tech-stocks-poised-to-drop-after-amazon-adds-to-ai-spending-fear"
+      },
+      {
+        "headline": "Updated: Lilly beats revenue forecasts, lifting full-year outlook for third straight quarter",
+        "source": "Endpoints News",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1LUUEyalQ2a2dkSUpvZC1IdTdOUjJyMXpsMlJLNDdaVEFsRWFPVUFCc0FZd3ZreWVkX0dvWW1nQ29ST1FZY0VkUWVvWS1jMUhUVzhNMVM4NkZiSXZmU1hOWFpILVVWcllQTUlJYjFuUWx0SFlTZjMyOVhB?oc=5"
+      },
+      {
+        "headline": "Fed\u2019s Musalem says a rate hike is needed \u2019soon\u2019",
+        "source": "Investing.com",
+        "section": "Macro & Economy",
+        "link": "https://www.investing.com/news/economy-news/feds-musalem-says-a-rate-hike-is-needed-soon-4988364"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 1194,
+      "Stock Market & Equities": 1196,
       "Macro & Economy": 671,
       "Investment Banking & Deals": 942,
-      "Real Estate & REITs": 457,
+      "Real Estate & REITs": 458,
       "Earnings & Results": 1149,
-      "Tech & Fintech": 863
+      "Tech & Fintech": 865
     }
   },
   {
