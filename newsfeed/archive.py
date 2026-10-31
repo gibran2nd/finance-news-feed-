@@ -12,7 +12,7 @@ from datetime import datetime, timedelta, timezone
 from .companies import find_companies
 from .config import ARCHIVE_DIR, ARCHIVE_KEEP_WEEKS, FEEDS
 from .fetch import add_display_fields, iter_sources
-from .filters import is_off_topic
+from .filters import is_junk, is_off_topic
 from .recaps import get_week_key
 
 STORED_FIELDS = ("section", "pub", "source", "feed", "title", "summary", "link")
@@ -76,7 +76,8 @@ def load_archive(since: datetime, now: datetime) -> dict[str, list[dict]]:
         for rec in _read(week):
             if rec["section"] not in FEEDS:
                 continue                       # section renamed/removed since archiving
-            if is_off_topic(rec["title"], rec["feed"] in filtered[rec["section"]]):
+            if (is_off_topic(rec["title"], rec["feed"] in filtered[rec["section"]])
+                    or is_junk(rec["title"], rec["source"])):
                 continue                       # filters tightened since archiving
             pub = datetime.fromisoformat(rec["pub"]).astimezone(timezone.utc)
             if not since <= pub <= now + timedelta(hours=1):

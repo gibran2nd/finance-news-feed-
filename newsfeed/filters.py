@@ -42,7 +42,22 @@ JUNK_TITLE_RE = re.compile("|".join([
     r"\bcramer\b",                                             # CNBC entertainment segments
     r"^we['’]re (upgrading|downgrading|buying|selling|trimming|adding)\b",  # CNBC Investing Club
     r"^(current|today['’]s|best) .*\b(rates|accounts|cards)\b",  # evergreen rate/SEO pages
+    r"^how major us stock indexes fared\b",                    # AP daily table
+    r"\btfsa\b",                                               # Canadian personal-finance SEO
 ]), re.IGNORECASE)
+
+# Recaps, newsletters, previews and opinion: fine as cards, but never the headline for a story
+ROUNDUP_RE = re.compile("|".join([
+    r"\bweek in (review|\w+ charts?)\b", r"\bweek in explainers\b", r"\bin (five|\d) charts\b",
+    r"\bweek ahead\b", r"\bloom for\b", r"\bweekly\b.*\b(recap|wrap)\b", r"\bwhat['’]s news\b", r"\bmorning bid\b",
+    r"^firstft\b", r"\bmarkets wrap\b", r"\bmarket talk\b", r"^newsletter\b", r"^live news\b",
+    r"\btop\s?\d+\b.*\bnews\b", r"^opinion\b", r"^commentary\b", r"\b(rating )?(up|down)grade\)$",
+]), re.IGNORECASE)
+WEAK_PUBLISHERS = {"Seeking Alpha", "The Motley Fool", "TIKR.com", "ChartMill"}   # opinion-led
+
+
+def is_roundup(title: str) -> bool:
+    return bool(ROUNDUP_RE.search(title))
 
 
 # Headline must mention one of these to pass on general-interest feeds (opts["filter"])
@@ -79,6 +94,11 @@ MILITARY_RE   = re.compile(r"\b(interceptors?|missiles?|troops|airstrikes?|warpl
                            re.IGNORECASE)
 MARKET_ANGLE_RE = re.compile(r"\b(stocks?|shares?|oil|markets?|yields?|earnings|contracts?)\b",
                              re.IGNORECASE)
+# So do crime stories ("held on $3 million bond")
+CRIME_RE = re.compile(r"\b(killings?|murders?|homicide|shooting|stabbing)\b", re.IGNORECASE)
+# And sports ("27-19 loss to the Packers")
+SPORTS_RE = re.compile(r"\b\d{1,3}-\d{1,3} (loss|win|victory)\b|\b(defensive|offensive) coordinator\b",
+                       re.IGNORECASE)
 
 
 def is_off_topic(title: str, filtered: bool) -> bool:
@@ -88,6 +108,8 @@ def is_off_topic(title: str, filtered: bool) -> bool:
     if not filtered:
         return False
     if MILITARY_RE.search(title) and not MARKET_ANGLE_RE.search(title):
+        return True
+    if CRIME_RE.search(title) or SPORTS_RE.search(title):
         return True
     return not FINANCE_RE.search(title)
 

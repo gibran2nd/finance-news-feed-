@@ -2,9 +2,13 @@
 from __future__ import annotations
 
 import re
+from collections import Counter
 from datetime import datetime
 
-from .config import MAX_PER_SOURCE, MAX_TOP_STORIES, PAYWALL_RANK_FACTOR, PAYWALLED_PUBLISHERS
+from .config import (FEEDS, MAJOR_PUBLISHERS, MAX_PER_COMPANY, MAX_PER_SOURCE, MAX_TOP_STORIES, PAYWALL_RANK_FACTOR,
+                     PAYWALLED_PUBLISHERS)
+from .filters import WEAK_PUBLISHERS, is_roundup
+from .sections import assign_section
 
 
 def find_trending(raw: dict[str, list[dict]], displayed: list[dict],
@@ -41,14 +45,22 @@ def spread_publishers(articles: list[dict]) -> list[dict]:
 
 
 def pick_diverse(articles: list[dict], limit: int, per_source: int = MAX_PER_SOURCE,
-                 key=lambda a: a["pub"]) -> list[dict]:
-    """Best-first selection (newest by default) with at most `per_source` cards per publisher."""
+                 key=lambda a: a["pub"], company_counts: dict[str, int] | None = None) -> list[dict]:
+    """Best-first selection (newest by default) with at most `per_source` cards per publisher.
+
+    `company_counts` is shared across the page, so one company can't fill it (see MAX_PER_COMPANY).
+    """
     counts: dict[str, int] = {}
+    company_counts = {} if company_counts is None else company_counts
     picked = []
     for a in sorted(articles, key=key, reverse=True):
-        if counts.get(a["source"], 0) >= per_source:
+        lead = a.get("lead_co")
+        if counts.get(a["source"], 0) >= per_source \
+                or (lead and company_counts.get(lead, 0) >= MAX_PER_COMPANY):
             continue
         counts[a["source"]] = counts.get(a["source"], 0) + 1
+        if lead:
+            company_counts[lead] = company_counts.get(lead, 0) + 1
         picked.append(a)
         if len(picked) >= limit:
             break
@@ -110,11 +122,12 @@ def cluster_articles(articles: list[dict]) -> list[dict]:
         for w in story_words(a):
             df[w] = df.get(w, 0) + 1
     rare_max = max(3, len(articles) // 100)
+    roundups = {id(a) for a in articles if is_roundup(a["title"])}
 
     def same_story(a: dict, b: dict) -> bool:
         wa, wb = story_words(a), story_words(b)
-        if not wa or not wb:
-            return False
+        if not wa or not wb or id(a) in roundups or id(b) in roundups:
+            return False          # a recap mentions a story without being that story
         shared  = wa & wb
         # single digits ("4 reasons", "up 3%") are too common to identify a story
         rare    = [w for w in shared if df[w] <= rare_max and w not in GENERIC_WORDS
@@ -155,24 +168,30 @@ def cluster_articles(articles: list[dict]) -> list[dict]:
 
 
 def _refresh_cluster_stats(clusters: list[dict]) -> None:
-    """Per-article copies of cluster facts: outlets covering it, major outlets, lead company."""
+    """Per-article copies of cluster facts: outlets covering it, major outlets, lead company.
+
+    Coverage counts independent reporting: a press release reposted word for word by 20 local
+    sites is one report, while each major outlet always counts.
+    """
     for c in clusters:
         majors = sum(p in MAJOR_PUBLISHERS for p in c["publishers"])
+        wordings = {frozenset(story_words(a)) for a in c["articles"]
+                    if a["source"] not in MAJOR_PUBLISHERS}
+        coverage = min(len(c["publishers"]), majors + len(wordings))
         counts: dict[str, int] = {}
         for a in c["articles"]:
             for name in a.get("companies", ()):
                 counts[name] = counts.get(name, 0) + 1
         lead = max(counts, key=counts.get) if counts else None
         for a in c["articles"]:
-            a["coverage"], a["majors"], a["lead_co"] = len(c["publishers"]), majors, lead
-
-
-# Major outlets: weighted higher when ranking Top Stories, preferred as the card shown
-MAJOR_PUBLISHERS = ["Reuters", "Bloomberg", "WSJ", "FT", "AP", "CNBC", "NYT", "DealBook",
-                    "Barron's", "MarketWatch", "Axios"]
+            a["coverage"], a["majors"], a["lead_co"] = coverage, majors, lead
 
 
 NON_HEADLINE_RE = re.compile(r"transcript|live blog|live updates|as it happened", re.IGNORECASE)
+
+
+def _is_real_headline(a: dict) -> bool:
+    return not (NON_HEADLINE_RE.search(a["title"]) or "/videos/" in a["link"])
 
 
 def _display_rank(a: dict) -> tuple:
@@ -182,12 +201,17 @@ def _display_rank(a: dict) -> tuple:
         if a["source"] in MAJOR_PUBLISHERS else 0
     companies = a.get("companies", [])
     leads_with_story_company = not a.get("lead_co") or companies[:1] == [a["lead_co"]]
-    return (not NON_HEADLINE_RE.search(a["title"]), leads_with_story_company,
+    return (_is_real_headline(a), a["source"] not in WEAK_PUBLISHERS, leads_with_story_company,
             len(companies) <= 2, a["source"] not in PAYWALLED_PUBLISHERS,
-            major, bool(a["summary"]), a["pub"])
+            bool(a["summary"]), major, a["pub"])
 
 
 RANK_HALF_LIFE_H = 12     # a story's ranking weight halves every 12 hours
+WEAK_RANK_FACTOR = 0.5    # recaps and opinion rank below reporting of the same reach
+
+
+def _is_weak(a: dict) -> bool:
+    return a["source"] in WEAK_PUBLISHERS or is_roundup(a["title"]) or not _is_real_headline(a)
 
 
 def importance_rank(now: datetime):
@@ -198,22 +222,27 @@ def importance_rank(now: datetime):
         importance = 1 + a.get("majors", 0) + 0.3 * (a.get("coverage", 1) - a.get("majors", 0))
         if a["source"] in PAYWALLED_PUBLISHERS:
             importance *= PAYWALL_RANK_FACTOR
+        if _is_weak(a):
+            importance *= WEAK_RANK_FACTOR
         return importance * 0.5 ** (age_h / RANK_HALF_LIFE_H)
     return rank
 
 
 def find_top_stories(clusters: list[dict], now: datetime, window_h: float) -> list[dict]:
-    """Stories covered by 2+ publishers, ranked by breadth of coverage then recency."""
+    """Stories with independent coverage from 2+ outlets, at least one of them major,
+    ranked by breadth of coverage then recency."""
     def score(c):
-        majors = sum(p in MAJOR_PUBLISHERS for p in c["publishers"])
-        minors = len(c["publishers"]) - majors
+        majors = c["articles"][0]["majors"]
+        minors = c["articles"][0]["coverage"] - majors
         age_h  = (now - max(a["pub"] for a in c["articles"])).total_seconds() / 3600
         return 2 * majors + 0.5 * minors + 2 * max(0.0, 1 - age_h / window_h)
 
     used_publishers: set[str] = set()
     used_companies:  set[str] = set()
     result = []
-    for c in sorted((c for c in clusters if len(c["publishers"]) >= 2), key=score, reverse=True):
+    eligible = (c for c in clusters
+                if c["articles"][0]["coverage"] >= 2 and c["articles"][0]["majors"] >= 1)
+    for c in sorted(eligible, key=score, reverse=True):
         lead = c["articles"][0].get("lead_co")
         if lead and lead in used_companies:
             continue                      # one Top Story per company (e.g. BofA fine vs BofA earnings)
@@ -290,10 +319,26 @@ def select_stories(raw: dict[str, list[dict]], limit: int, now: datetime, window
     borrow_summaries(clusters)
     top      = find_top_stories(clusters, now, window_h)
     shown    = {a["cluster"] for a in top}
-    rank     = (lambda a: (a["coverage"], a["pub"])) if by_coverage else importance_rank(now)
+    if by_coverage:
+        rank = lambda a: (not _is_weak(a), a["coverage"] + a["majors"], a["pub"])
+    else:
+        rank = importance_rank(now)
+
+    by_section: dict[str, list[dict]] = {name: [] for name in raw}
+    for c in clusters:
+        home = Counter(a["section"] for a in c["articles"]).most_common(1)[0][0]
+        name = assign_section(max(c["articles"], key=_display_rank)["title"], home, list(raw))
+        for a in c["articles"]:
+            a["section"], a["color"] = name, FEEDS[name]["color"]
+        by_section[name].extend(c["articles"])
+
+    company_counts: dict[str, int] = {}
+    for a in top:
+        if a.get("lead_co"):
+            company_counts[a["lead_co"]] = company_counts.get(a["lead_co"], 0) + 1
 
     sections = {}
-    for name, arts in raw.items():
+    for name, arts in by_section.items():
         best: dict[int, dict] = {}
         for a in arts:
             if a["cluster"] in shown:
@@ -301,6 +346,7 @@ def select_stories(raw: dict[str, list[dict]], limit: int, now: datetime, window
             cur = best.get(a["cluster"])
             if cur is None or _display_rank(a) > _display_rank(cur):
                 best[a["cluster"]] = a
-        sections[name] = pick_diverse(list(best.values()), limit, key=rank)
+        sections[name] = pick_diverse(list(best.values()), limit, key=rank,
+                                      company_counts=company_counts)
         shown |= {a["cluster"] for a in sections[name]}
     return top, sections

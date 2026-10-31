@@ -27,6 +27,7 @@ MAX_PER_SECTION      = 12
 MAX_PER_SECTION_WEEK = 20
 MAX_TOP_STORIES      = 6
 MAX_PER_SOURCE       = 3      # per publisher, per section
+MAX_PER_COMPANY      = 3      # cards led by one company, across the whole page
 LOOKBACK_HOURS       = 36
 WEEK_HOURS           = 168
 NEW_THRESHOLD_H      = 2
@@ -88,6 +89,9 @@ PAYWALLED_PUBLISHERS = {
     "WSJ", "FT", "Bloomberg", "Barron's", "NYT", "DealBook", "Money Stuff", "MarketWatch",
     "Seeking Alpha", "The Business Journals", "The Information", "The Economist", "PitchBook",
 }
+# Major outlets: weighted higher when ranking Top Stories, preferred as the card shown
+MAJOR_PUBLISHERS = ["Reuters", "Bloomberg", "WSJ", "FT", "AP", "CNBC", "NYT", "DealBook",
+                    "Barron's", "MarketWatch", "Axios"]
 PAYWALL_RANK_FACTOR = 0.8     # paywalled stories need ~25% more importance to outrank free ones
 
 # ── Feed Sources ───────────────────────────────────────────────────────────────

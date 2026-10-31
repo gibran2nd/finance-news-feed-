@@ -81,6 +81,8 @@ MANUAL = {
     "Rio Tinto": [], "BHP": [], "Novo Nordisk": [], "Sony": [], "Nintendo": [],
     "Volkswagen": [], "Stellantis": [], "Siemens": [], "SAP": [], "Shein": [], "ByteDance": [],
     "TikTok": [], "Huawei": [], "Xiaomi": [], "Temu": [], "Kroger": [], "Albertsons": [],
+    "Binance": [], "Jio": ["Jio Platforms"], "OPay": ["Opay"], "Reliance": ["Reliance Industries"],
+    "Kalshi": [], "Polymarket": [], "Revolut": [], "Klarna": [], "Mubadala": [],
 }
 
 
