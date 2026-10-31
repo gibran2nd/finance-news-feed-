@@ -72,6 +72,15 @@ SUMMARY_SCHEMA = {
 _NUMBER_RE = re.compile(r"\d+(?:[.,]\d+)*")
 
 
+# Internal metadata that must never reach readers, even if the model repeats it
+_METADATA_RE = re.compile(r",?\s*(?:a story\s+)?covered by \d+ outlets?,?(?:\s+according to [^.,]+)?",
+                          re.IGNORECASE)
+
+
+def _clean_detail(text: str) -> str:
+    return _METADATA_RE.sub("", text).strip()
+
+
 class AI:
     """One instance per build; collects results and usage for data/ai_last.json."""
 
@@ -155,7 +164,9 @@ Task 2 — brief: pick the {BRIEF_ITEMS} most important stories for finance read
 - headline: plain-English, at most 10 words
 - detail: one sentence, at most 30 words, saying what happened and why it matters — using only \
 facts stated in the headline/summary above
-- story_id: the id of the story"""
+- story_id: the id of the story
+
+Write for readers: never mention outlet counts, publishers, ids, or how this list was made."""
         data = self._call("merge_and_brief", prompt, MERGE_BRIEF_SCHEMA)
         if not data:
             return [], []
@@ -169,7 +180,7 @@ facts stated in the headline/summary above
                 continue
             used.add(sid)
             brief.append({"headline": item["headline"].strip()[:90],
-                          "detail": item["detail"].strip()[:260],
+                          "detail": _clean_detail(item["detail"])[:260],
                           "article": valid[sid][1]})
         self.log["merge_groups"] = [[valid[i][1]["title"] for i in g] for g in groups]
         self.log["brief"] = [{k: b[k] for k in ("headline", "detail")} | {"link": b["article"]["link"]}

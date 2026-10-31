@@ -280,6 +280,7 @@
     .age-fresh  { opacity: 1; }
     .age-recent { opacity: 0.80; }
     .age-old    { opacity: 0.58; }
+    #top-stories .card { opacity: 1; }   /* the day's biggest stories never look faded */
 
     .card-meta  { display: flex; align-items: center; justify-content: space-between; }
     .badge {
@@ -530,5 +531,7 @@
       .grid          { grid-template-columns: 1fr; }
       .premium-grid  { grid-template-columns: 1fr; }
       .mkt-strip     { padding: 8px 16px; }
+      .career-card.career-featured { flex-direction: column; align-items: flex-start; gap: 5px; }
+      .career-featured .career-deadline { margin-left: 0; white-space: normal; }
       .mkt-asof      { display: none; }
     }

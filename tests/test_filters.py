@@ -22,13 +22,15 @@ class JunkTests(unittest.TestCase):
                  ("We're upgrading our rating on Wells Fargo", "CNBC"),
                  ("Current Home Equity Loan Rates", "WSJ"),
                  ("Best high-yield savings accounts of October 2026", "CNBC"),
-                 ("PODCAST: Cashing in chips", "Reuters")]
+                 ("PODCAST: Cashing in chips", "Reuters"),
+                 ("- PEI Private Equity", "PEI")]
         for title, pub in cases:
             self.assertTrue(is_junk(title, pub), title)
 
     def test_publisher_aliases(self):
         self.assertEqual(normalize_publisher("Bloomberg.com"), "Bloomberg")
         self.assertEqual(normalize_publisher("Financial Times"), "FT")
+        self.assertEqual(normalize_publisher("PEI Private Equity"), "PEI")
         self.assertEqual(normalize_publisher("Investing.com Nigeria"), "Investing.com")
 
 
@@ -52,6 +54,16 @@ class RelevanceTests(unittest.TestCase):
                       "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
                       "Judge says Musk engaged in intimidation of ex-FEMA CFO Mary Comans"]:
             self.assertTrue(is_off_topic(title, True), title)
+
+    def test_politics_and_arms_with_money_words_dropped(self):
+        for title in ["Trump will rally in Iowa and Kansas after initially canceling weekend trips",
+                      "US approves a proposed $2.1 billion sale of Patriot interceptors to Ukraine"]:
+            self.assertTrue(is_off_topic(title, True), title)
+
+    def test_military_with_market_angle_kept(self):
+        for title in ["Oil jumps after missile strike on Gulf terminal",
+                      "Lockheed wins $2 billion missile contract"]:
+            self.assertFalse(is_off_topic(title, True), title)
 
     def test_advice_columns_dropped_everywhere(self):
         self.assertTrue(is_off_topic(

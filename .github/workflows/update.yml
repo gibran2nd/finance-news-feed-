@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write   # push data/ to the `data` branch
+  issues: write     # open an issue (which emails the owner) when feeds need attention
   pages: write
   id-token: write
 
@@ -64,6 +65,16 @@ jobs:
           git add -A
           git diff --staged --quiet || git commit -m "Update data $(date -u +%Y-%m-%dT%H:%MZ)"
           git push origin HEAD:data
+
+      - name: Open or update an issue if feeds need attention
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f data/feed_alerts.md ] || exit 0
+          n=$(gh issue list --state open --search 'in:title "Feeds need attention"' --json number --jq '.[0].number // empty')
+          if [ -n "$n" ]; then gh issue edit "$n" --body-file data/feed_alerts.md
+          else gh issue create --title "Feeds need attention" --body-file data/feed_alerts.md; fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

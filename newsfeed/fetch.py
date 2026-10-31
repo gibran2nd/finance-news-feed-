@@ -100,7 +100,7 @@ def parse_section(name: str, config: dict, fetched: dict, cutoff: datetime,
         result = fetched[url]
         feed   = result["feed"]
         stat   = {"section": name, "label": label, "url": url, "error": result["error"],
-                  "entries": 0, "fresh": 0, "kept": 0, "junk": 0, "off_topic": 0, "secs": round(result["secs"], 1)}
+                  "entries": 0, "newest": None, "fresh": 0, "kept": 0, "junk": 0, "off_topic": 0, "secs": round(result["secs"], 1)}
         stats.append(stat)
         if feed is None:
             continue
@@ -109,6 +109,8 @@ def parse_section(name: str, config: dict, fetched: dict, cutoff: datetime,
             pub = parse_date(entry)
             if pub and pub > max_future:      # bad/mis-parsed dates (seen on Finextra)
                 continue
+            if pub and (stat["newest"] is None or pub > stat["newest"]):
+                stat["newest"] = pub
             if not pub or pub < cutoff:
                 continue
             stat["fresh"] += 1

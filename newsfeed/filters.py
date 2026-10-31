@@ -7,7 +7,7 @@ import re
 # ── Publisher names & junk filtering ──────────────────────────────────────────
 # Google News reports publishers inconsistently ("Bloomberg.com", "Financial Times")
 PUBLISHER_ALIASES = {
-    "bloomberg.com": "Bloomberg", "financial times": "FT", "ft.com": "FT",
+    "pei private equity": "PEI", "bloomberg.com": "Bloomberg", "financial times": "FT", "ft.com": "FT",
     "the wall street journal": "WSJ", "wall street journal": "WSJ",
     "ap news": "AP", "associated press": "AP",
     "the new york times": "NYT", "new york times": "NYT", "nytimes.com": "NYT",
@@ -37,6 +37,7 @@ JUNK_TITLE_RE = re.compile("|".join([
     r"\bprice prediction\b",
     r":\s*live( levels)?$",                                     # chart-level posts
     r"^(podcast|watch|video)\b",
+    r"^\s*[-–—]\s",                                             # title is only "- Publisher"
     r"^reg - ",                                                # LSE regulatory filings
     r"\bcramer\b",                                             # CNBC entertainment segments
     r"^we['’]re (upgrading|downgrading|buying|selling|trimming|adding)\b",  # CNBC Investing Club
@@ -55,10 +56,10 @@ FINANCE_RE = re.compile(r"""\b(
     unemployment|payrolls|tariffs?|trade\ (war|deal|talks|deficit|surplus|policy)|exports?|imports?|
     dollar|currenc(y|ies)|
     oil|gold|coal|copper|lng|iron\ ore|metals?|commodit(y|ies)|prices?|wall\ street|s&p|nasdaq|dow|
-    rall(y|ies|ied)|sell-?offs?|plunges?|plunged|surges?|surged|soars?|soared|tumbles?|tumbled|
+    sell-?offs?|plunges?|plunged|surges?|surged|soars?|soared|tumbles?|tumbled|
     slumps?|slumped|sinks?|sank|dips?|analysts?|bullish|bearish|activist|shareholders?|
     billion|trillion|fintech|payments?|crypto|bitcoin|stablecoins?|
-    q[1-4]|shipments|deliveries|turnaround|buys|sells|sale|divest\w*|spin-?offs?|
+    q[1-4]|shipments|deliveries|turnaround|buys|sells|divest\w*|spin-?offs?|
     settle(s|d|ment)?|lay(s|ing)?\ off|luxury|industry|morning\ bid|
     mortgages?|housing|real\ estate|reits?|property|properties|condos?|borrow\w*|layoffs?|
     bankrupt\w*|chapter\ 11|
@@ -73,9 +74,22 @@ ADVICE_RE = re.compile(
     re.IGNORECASE)
 
 
+# War and arms stories mention dollars and "billion" without being market news
+MILITARY_RE   = re.compile(r"\b(interceptors?|missiles?|troops|airstrikes?|warplanes?|fighter jets?)\b",
+                           re.IGNORECASE)
+MARKET_ANGLE_RE = re.compile(r"\b(stocks?|shares?|oil|markets?|yields?|earnings|contracts?)\b",
+                             re.IGNORECASE)
+
+
 def is_off_topic(title: str, filtered: bool) -> bool:
     title = title.replace("’", "'")
-    return bool(ADVICE_RE.search(title)) or (filtered and not FINANCE_RE.search(title))
+    if ADVICE_RE.search(title):
+        return True
+    if not filtered:
+        return False
+    if MILITARY_RE.search(title) and not MARKET_ANGLE_RE.search(title):
+        return True
+    return not FINANCE_RE.search(title)
 
 
 def normalize_publisher(name: str) -> str:

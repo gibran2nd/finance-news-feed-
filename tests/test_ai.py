@@ -24,6 +24,13 @@ LONG = ("Bank of America reported third-quarter profit of $5.1 billion, hurt by 
 
 
 class AISafetyTests(unittest.TestCase):
+    def test_internal_metadata_removed_from_brief(self):
+        self.assertEqual(ai._clean_detail("Anthropic has filed for a record IPO, a story covered "
+                                          "by 24 outlets, according to Fox Business."),
+                         "Anthropic has filed for a record IPO.")
+        self.assertEqual(ai._clean_detail("Intel fell 29% on a weak outlook."),
+                         "Intel fell 29% on a weak outlook.")
+
     def test_ungrounded_numbers_rejected(self):
         a = art("Bank of America profit hurt by fine", summary=LONG)
         b = art("Another bank story", summary=LONG)

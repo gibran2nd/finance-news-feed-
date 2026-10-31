@@ -5,13 +5,14 @@ import json
 import os
 from datetime import datetime
 
-from .config import HEALTH_ALERT_RUNS, HEALTH_FILE
+from .config import FEED_ALERT_FILE, HEALTH_ALERT_RUNS, HEALTH_FILE, HEALTH_STALE_DAYS
 
 
 def update_feed_health(feed_stats: list[dict], now: datetime) -> tuple[dict, list[dict]]:
     """Record each source's status in HEALTH_FILE. Returns (health, sources needing attention).
 
-    A source "fails" a run when it errors or has no articles from the past week.
+    A source "fails" a run when it errors, has no articles from the past week, or its
+    newest item is older than HEALTH_STALE_DAYS (a feed that exists but stopped updating).
     """
     try:
         old = json.loads(HEALTH_FILE.read_text(encoding="utf-8"))
@@ -21,10 +22,13 @@ def update_feed_health(feed_stats: list[dict], now: datetime) -> tuple[dict, lis
     for st in feed_stats:
         key    = f"{st['section']} | {st['label']}"
         prev   = old.get(key, {})
-        failed = bool(st["error"]) or st["fresh"] == 0
+        age_d  = (now - st["newest"]).total_seconds() / 86400 if st.get("newest") else None
+        stale  = age_d is not None and age_d > HEALTH_STALE_DAYS
+        failed = bool(st["error"]) or st["fresh"] == 0 or stale
         rec = {
             "section": st["section"], "label": st["label"], "url": st["url"],
-            "status": st["error"] or ("empty" if failed else "ok"),
+            "status": st["error"] or ("empty" if st["fresh"] == 0 else "stale" if stale else "ok"),
+            "newest_age_days": round(age_d, 1) if age_d is not None else None,
             "fresh": st["fresh"], "kept": st["kept"], "junk": st["junk"],
             "off_topic": st["off_topic"], "last_run": now.isoformat(timespec="minutes"),
             "consecutive_failures": prev.get("consecutive_failures", 0) + 1 if failed else 0,
@@ -36,6 +40,15 @@ def update_feed_health(feed_stats: list[dict], now: datetime) -> tuple[dict, lis
             alerts.append(rec)
     HEALTH_FILE.parent.mkdir(parents=True, exist_ok=True)
     HEALTH_FILE.write_text(json.dumps(health, indent=2), encoding="utf-8")
+    # The workflow turns this file into a GitHub issue, which emails the repo owner
+    if alerts:
+        lines = [f"- **{r['label']}** ({r['section']}): {r['status']}, failing for "
+                 f"{r['consecutive_failures']} runs, last success {r['last_success'] or 'never'}"
+                 for r in alerts]
+        FEED_ALERT_FILE.write_text("These news sources need attention:\n\n" + "\n".join(lines) + "\n",
+                                   encoding="utf-8")
+    else:
+        FEED_ALERT_FILE.unlink(missing_ok=True)
     return health, alerts
 
 

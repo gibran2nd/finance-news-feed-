@@ -11,7 +11,8 @@ from datetime import datetime, timedelta, timezone
 
 from .companies import find_companies
 from .config import ARCHIVE_DIR, ARCHIVE_KEEP_WEEKS, FEEDS
-from .fetch import add_display_fields
+from .fetch import add_display_fields, iter_sources
+from .filters import is_off_topic
 from .recaps import get_week_key
 
 STORED_FIELDS = ("section", "pub", "source", "feed", "title", "summary", "link")
@@ -64,6 +65,8 @@ def update_archive(articles: list[dict], now: datetime) -> int:
 def load_archive(since: datetime, now: datetime) -> dict[str, list[dict]]:
     """Archived articles published in [since, now], as article dicts grouped by section."""
     out: dict[str, list[dict]] = {name: [] for name in FEEDS}
+    filtered = {name: {opts.get("label", pub) for pub, _, opts in iter_sources(cfg) if opts.get("filter")}
+                for name, cfg in FEEDS.items()}
     day, weeks = since, []
     while day <= now + timedelta(days=7):
         if get_week_key(day) not in weeks:
@@ -73,6 +76,8 @@ def load_archive(since: datetime, now: datetime) -> dict[str, list[dict]]:
         for rec in _read(week):
             if rec["section"] not in FEEDS:
                 continue                       # section renamed/removed since archiving
+            if is_off_topic(rec["title"], rec["feed"] in filtered[rec["section"]]):
+                continue                       # filters tightened since archiving
             pub = datetime.fromisoformat(rec["pub"]).astimezone(timezone.utc)
             if not since <= pub <= now + timedelta(hours=1):
                 continue

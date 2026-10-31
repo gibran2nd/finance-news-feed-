@@ -20,6 +20,8 @@ ARCHIVE_DIR          = ROOT / "data" / "archive"
 AI_LOG_FILE          = ROOT / "data" / "ai_last.json"
 ARCHIVE_KEEP_WEEKS   = 3      # current week + 2 previous (weekly page needs the last 7 days)
 HEALTH_ALERT_RUNS    = 3      # warn after this many consecutive empty/failed runs (~1 day)
+HEALTH_STALE_DAYS    = 4      # a feed with nothing newer than this counts as failed
+FEED_ALERT_FILE      = ROOT / "data" / "feed_alerts.md"   # present only when feeds need attention
 MIN_LIVE_RATIO       = 0.5    # below this share of live feeds, don't publish (keep old site)
 MAX_PER_SECTION      = 12
 MAX_PER_SECTION_WEEK = 20
@@ -69,14 +71,14 @@ INTERNSHIP_RESOURCES = [
         "firm":     "LinkedIn Finance Internships",
         "role":     "Summer 2027 Postings",
         "deadline": "Browse open applications",
-        "url":      "https://www.linkedin.com/jobs/finance-internships/",
+        "url":      "https://www.linkedin.com/jobs/search/?keywords=finance%20intern",
         "featured": False,
     },
     {
         "firm":     "Handshake",
         "role":     "Campus Finance Recruiting",
         "deadline": "College-focused internship board",
-        "url":      "https://joinhandshake.com/job-collections/finance-internships/",
+        "url":      "https://joinhandshake.com/",
         "featured": False,
     },
 ]
@@ -116,7 +118,7 @@ FEEDS = {
             ("Bloomberg",     "https://feeds.bloomberg.com/markets/news.rss", {"filter": True}),
             ("FT",            "https://www.ft.com/markets?format=rss"),
             ("MarketWatch",   DJ.format("mw_topstories"), {"filter": True}),
-            ("CNBC",          CNBC.format(10000664)),
+            ("CNBC",          CNBC.format(15839069)),
             ("Google News",   gnews('(stocks OR "Wall Street" OR shares OR S&P) (site:reuters.com OR site:apnews.com OR site:barrons.com) when:1d'),
                               {"label": "Reuters/AP/Barron's markets search", "filter": True}),
         ],
@@ -147,8 +149,8 @@ FEEDS = {
         ],
         "sources": [
             ("DealBook",        "https://rss.nytimes.com/services/xml/rss/nyt/Dealbook.xml"),
-            ("PE Hub",          "https://www.pehub.com/feed/"),
-            ("PEI",             "https://www.privateequityinternational.com/feed/"),
+            ("Google News",     gnews('site:pehub.com when:3d'), {"label": "PE Hub search"}),
+            ("Google News",     gnews('site:privateequityinternational.com when:3d'), {"label": "PEI search"}),
             ("Crunchbase News", "https://news.crunchbase.com/feed/"),
             ("Money Stuff",     "https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine.rss"),
             ("Google News",     gnews(f'(intitle:acquire OR intitle:acquires OR intitle:acquisition OR intitle:merger OR intitle:buyout OR intitle:takeover OR intitle:"take-private" OR intitle:"to buy") {TOP_OUTLETS} when:2d'),

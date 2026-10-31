@@ -47,7 +47,7 @@ def main() -> None:
     print("[🩺 Feed health]")
     health, alerts = update_feed_health(feed_stats, now)
     report_feed_health(health, alerts)
-    live = sum(r["status"] == "ok" for r in health.values())
+    live = sum(r["fresh"] > 0 for r in health.values())
     if live < MIN_LIVE_RATIO * len(health):
         print(f"\n ✗ Only {live}/{len(health)} feeds returned articles — not publishing, "
               "the previous site stays up.\n")

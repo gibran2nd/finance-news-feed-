@@ -326,7 +326,6 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="3600">
   <meta name="description" content="Live finance news — markets, deals, macro, real estate, earnings & careers.">
   <meta property="og:title" content="Finance News Feed">
   <meta property="og:description" content="Live finance news — markets, deals, macro, real estate, earnings & careers.">
