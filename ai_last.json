@@ -4,16 +4,16 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 13142,
-   "output_tokens": 2198,
-   "cost_usd": 0.00241
+   "input_tokens": 12254,
+   "output_tokens": 2438,
+   "cost_usd": 0.00244
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3115,
-   "output_tokens": 1608,
-   "cost_usd": 0.00112
+   "input_tokens": 2538,
+   "output_tokens": 1387,
+   "cost_usd": 0.00095
   }
  ],
  "errors": [],
@@ -21,63 +21,79 @@
   [
    "Binance hack: Investigators in a 'cat and mouse game' to recover $6.3 billion in stolen funds",
    "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart",
+   "Hackers steal $6.3bn in crypto assets from Binance",
+   "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve",
+   "North Korean hackers blamed for stealing record $6.3B in Binance breach",
    "$6.3bn in 30 minutes: how the world’s biggest heist unfolded",
    "Behind the Scenes of Crypto’s Biggest Nightmare: a Record-Breaking Cyber Heist",
-   "North Korean hackers blamed for stealing record $6.3B in Binance breach",
+   "Clues Point to Familiar Culprit in Massive Binance Crypto Heist: North Korea",
    "Binance arranges $6.34 billion to cover losses from record crypto hack",
-   "Clues Point to Familiar Culprit in Massive Binance Crypto Heist: North Korea"
+   "Experts divided over Binance hack asset freezes, warn recovery is another matter",
+   "Is your crypto safe? What Binance’s $6.3 billion hack means for bitcoin investors.",
+   "Opinion | An AI Halloween Market Scare",
+   "Binance’s $6.3 Billion Hack Is Just the Start of a Risky New Era"
   ],
   [
-   "Intel Plunges 29% on Weak Outlook as Tech Selloff Deepens | Closing Bell",
-   "Intel’s stock crashes, knocking $12B from government’s stake",
-   "After Intel’s historic stock drop, analysts say there’s no reason to buy the dip",
-   "The Week the Cracks in the AI Trade Grew Deeper"
-  ],
-  [
-   "Fitch Cuts France’s Outlook to Negative on Weaker Growth, Widening Deficit",
-   "France Gets Budget Warning as Fitch Turns Negative on Rating"
+   "SoftBank-backed OPay raises $304 million in US IPO",
+   "OPay prices IPO at $19 per ADS, raising $304 million By Investing.com",
+   "Davis Polk-Led Fintech Startup OPay Prices $304M IPO",
+   "Opay Shares Fail to Trade After Raising $304 Million in US IPO",
+   "Fintech OPay Raises $304 Million Ahead of NYSE Debut: NYSE Content Update"
   ],
   [
    "Weil Gotshal Wind-Down Means 447K-SF Vacancy at GM Building",
    "Weil, Gotshal’s Collapse Is Perfectly Timed for Manhattan’s Office Market"
   ],
   [
-   "Nigeria-focused fintech OPay raises $304mn in New York IPO at near-$4bn valuation",
-   "Davis Polk-Led Fintech Startup OPay Prices $304M IPO"
+   "Fitch Cuts France’s Outlook to Negative on Weaker Growth, Widening Deficit",
+   "France Gets Budget Warning as Fitch Turns Negative on Rating"
+  ],
+  [
+   "Trump Says GOP Leaders Asked Him to Reconsider Canceled Rallies",
+   "Trump will rally in Iowa and Kansas after initially canceling weekend trips before midterms"
+  ],
+  [
+   "Hedge Fund Arini Offloads $800 Million in Debt as Losses Deepen",
+   "Arini Gets Bids on Junk Debt From Pimco, Oaktree as Losses Mount"
+  ],
+  [
+   "Intel Plunges 29% on Weak Outlook as Tech Selloff Deepens | Closing Bell",
+   "Intel’s stock crashes, knocking $12B from government’s stake",
+   "The Week the Cracks in the AI Trade Grew Deeper"
   ]
  ],
  "brief": [
   {
-   "headline": "Anthropic files for potentially record-breaking IPO",
-   "detail": "Anthropic has filed for an IPO that could be record-breaking, according to Renaissance Capital's weekly US IPO recap covered by 25 outlets.",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOU2QxZVlmM1llVzNGY2FGUndlU3kxRlNodVVBejZWMTk2ZkdtNW9wYjdXYU9kYnQtamFOa0kyWVRFc2JtRUhiUmJPNU9Ycnpqdl9pU3JYMllfdGNmdG5pNnNOOGh6MmgwbERyaXVzeGcyU3VWQVQzMWh5WmduUTI2T0tMdUNiQ3N0eTJ3dTMzaEw4VmhFNUJ0Ny1mbDlMbjlxMnFQZENhY243TWFseGZsdGhId3hwOUtJcU1kdUJ3N2dRWWZBNUtKMQ?oc=5"
-  },
-  {
-   "headline": "Binance loses over $6 billion in crypto hack",
-   "detail": "Reportedly North Korea-linked hackers stole more than $6 billion in crypto from Binance, setting off a race to recover funds before they are laundered.",
+   "headline": "Hackers steal $6.3 billion in crypto from Binance",
+   "detail": "North Korean-linked hackers stole about $6.3 billion from Binance, setting off a race to recover funds before they are laundered.",
    "link": "https://www.cnbc.com/2026/10/30/binance-hack-stolen-crypto-recovery.html"
   },
   {
+   "headline": "Anthropic files for potential record-breaking IPO",
+   "detail": "Anthropic has filed for a potentially record-breaking IPO, a story covered by 24 outlets, according to Fox Business.",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4SHRoZGdtWnYtTXJWSWliMnNNakFwbUhrempSUzFZQ3g4MjA1X3RZUmlXbzc2cWJ4cTd6OWRTeFZPX3NkS0RQUGFCM1lPNm1ZQlZjYVR6WTFGa0k?oc=5"
+  },
+  {
    "headline": "Intel plunges 29% on weak outlook",
-   "detail": "Intel shares plunged 29% on a weak outlook as the tech selloff deepened, according to Bloomberg's closing market coverage.",
+   "detail": "Intel shares fell 29% on a weak outlook as the tech selloff deepened, a move that adds to pressure on AI-linked stocks.",
    "link": "https://www.bloomberg.com/news/videos/2026-10-30/intel-plunges-on-weak-outlook-closing-bell-video"
   },
   {
-   "headline": "Reddit plunges 30% on weak outlook",
-   "detail": "Reddit shares sank 30% after weak Q4 sales guidance and a plan to test requiring users to log in, heading for their worst day ever.",
-   "link": "https://www.cnbc.com/2026/10/30/reddit-stock-q3-earnings.html"
+   "headline": "U.S. stocks slide as AI selling spreads",
+   "detail": "U.S. stocks slid as Amazon and Intel earnings sparked more AI selling, weighing on investor sentiment across the market.",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPemJPWElvMW9JX2pxLThMQ1VVVDhyaGhjelVIZC12OFk2VjNCOVpVQy1hYkdQRUlpOERsWG9XZDk1SkVtZmxCQlB5V0M0bjZQeUNEOGJpVC1xaGFtaTN3dTJBdzVRWDUwVFZlcDFpMFByMl9zRmxhZjFMX2VrZldZaTdTSVViTThneVdweHpfOVpkUW8wekQyem9sMUFmNFE3YlJnVHJmOTJxLWc?oc=5"
   },
   {
-   "headline": "US stocks slide on Amazon, Intel AI selling",
-   "detail": "U.S. stocks slid as Amazon and Intel earnings sparked more selling tied to AI, according to the Wall Street Journal.",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPemJPWElvMW9JX2pxLThMQ1VVVDhyaGhjelVIZC12OFk2VjNCOVpVQy1hYkdQRUlpOERsWG9XZDk1SkVtZmxCQlB5V0M0bjZQeUNEOGJpVC1xaGFtaTN3dTJBdzVRWDUwVFZlcDFpMFByMl9zRmxhZjFMX2VrZldZaTdTSVViTThneVdweHpfOVpkUW8wekQyem9sMUFmNFE3YlJnVHJmOTJxLWc?oc=5"
+   "headline": "Reddit stock plunges 30% after weak outlook",
+   "detail": "Reddit shares sank 30% after weak Q4 sales guidance and a planned test requiring users to log in to see content.",
+   "link": "https://www.cnbc.com/2026/10/30/reddit-stock-q3-earnings.html"
   }
  ],
  "summaries": {
-  "requested": 24,
+  "requested": 19,
   "rejected_ungrounded": 0,
-  "applied": 22
+  "applied": 10
  },
- "generated": "2026-10-31T00:55+00:00",
- "total_cost_usd": 0.00353
+ "generated": "2026-10-31T05:59+00:00",
+ "total_cost_usd": 0.00339
 }
