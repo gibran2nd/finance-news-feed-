@@ -4,16 +4,16 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12554,
-   "output_tokens": 2452,
-   "cost_usd": 0.00248
+   "input_tokens": 12464,
+   "output_tokens": 3175,
+   "cost_usd": 0.00283
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
    "input_tokens": 3027,
-   "output_tokens": 3570,
-   "cost_usd": 0.00209
+   "output_tokens": 3525,
+   "cost_usd": 0.00207
   }
  ],
  "errors": [],
@@ -41,8 +41,18 @@
  "brief": [
   {
    "headline": "Binance suffers record $6.3 billion crypto theft",
-   "detail": "Binance says a security breach affected about $6.3 billion in assets, with roughly $3 billion frozen and losses to be covered.",
+   "detail": "Binance says a security breach affected about $6.3 billion in assets, the largest crypto theft on record, and roughly $3 billion has been frozen.",
    "link": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html"
+  },
+  {
+   "headline": "Nasdaq 100 heads for third correction this year",
+   "detail": "Investors dumped big tech stocks after a slew of disappointing earnings, putting the Nasdaq 100 on course for its third technical correction of 2026.",
+   "link": "https://www.bloomberg.com/news/articles/2026-10-30/nasdaq-100-ndx-ndq-qqq-hits-third-correction-of-2026-on-unwinding-tech-bets"
+  },
+  {
+   "headline": "Anthropic publicly files S-1 for Nasdaq IPO",
+   "detail": "Anthropic has made its S-1 filing public for a proposed Nasdaq initial public offering.",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNXVSRG9paWJpSDlOQThuemQ4Qmg0dGpvYkluS05oV0NvNDRQLXNHdzZfOWd6N1hTc2dKMHhhNkdBQ19uY08tZ293dWxkVnJSOVM1N016RUpYbkY0d1JkYk5mdGJFbjg2c1pocUkxNDJSN3d5Ukg5S0JJejAydzA4b0MyT2lLUHlXdHc?oc=5"
   },
   {
    "headline": "Reddit shares plunge 30% on weak outlook",
@@ -50,18 +60,8 @@
    "link": "https://www.cnbc.com/2026/10/30/reddit-stock-q3-earnings.html"
   },
   {
-   "headline": "Nasdaq 100 heads for third correction this year",
-   "detail": "Investors dumped big tech stocks after disappointing earnings, putting the Nasdaq 100 on course for its third technical correction of 2026.",
-   "link": "https://www.bloomberg.com/news/articles/2026-10-30/nasdaq-100-ndx-ndq-qqq-hits-third-correction-of-2026-on-unwinding-tech-bets"
-  },
-  {
-   "headline": "Anthropic files public S-1 for proposed Nasdaq IPO",
-   "detail": "Anthropic has filed a public S-1 for its proposed Nasdaq IPO, a key step toward going public.",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNXVSRG9paWJpSDlOQThuemQ4Qmg0dGpvYkluS05oV0NvNDRQLXNHdzZfOWd6N1hTc2dKMHhhNkdBQ19uY08tZ293dWxkVnJSOVM1N016RUpYbkY0d1JkYk5mdGJFbjg2c1pocUkxNDJSN3d5Ukg5S0JJejAydzA4b0MyT2lLUHlXdHc?oc=5"
-  },
-  {
-   "headline": "Intel stock crashes, erasing $12 billion from government stake",
-   "detail": "Intel shares crashed as PC sales weaken and AI demand gobbles memory and components, pushing PC prices up; the drop knocked $12 billion off the government's stake.",
+   "headline": "Intel stock crashes, cutting $12 billion from government stake",
+   "detail": "Intel is suffering as PC sales weaken, with AI demand for memory and other components pushing PC prices higher.",
    "link": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
   }
  ],
@@ -70,6 +70,6 @@
   "rejected_ungrounded": 1,
   "applied": 24
  },
- "generated": "2026-10-31T07:11+00:00",
- "total_cost_usd": 0.00457
+ "generated": "2026-10-31T07:42+00:00",
+ "total_cost_usd": 0.0049
 }
