@@ -4,23 +4,23 @@
   {
    "name": "merge_and_brief",
    "stop_reason": "end_turn",
-   "input_tokens": 12464,
-   "output_tokens": 3175,
-   "cost_usd": 0.00283
+   "input_tokens": 12536,
+   "output_tokens": 3505,
+   "cost_usd": 0.00301
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3027,
-   "output_tokens": 3525,
-   "cost_usd": 0.00207
+   "input_tokens": 3165,
+   "output_tokens": 3126,
+   "cost_usd": 0.00188
   }
  ],
  "errors": [],
  "merge_groups": [
   [
    "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve",
-   "$6.3 billion Binance hack is largest crypto theft on record",
+   "What to know about the $6.3B hack on Binance, likely the biggest-ever crypto theft",
    "$6.3bn in 30 minutes: how the world’s biggest heist unfolded",
    "Behind the Scenes of Crypto’s Biggest Nightmare: a Record-Breaking Cyber Heist",
    "Binance Heist Shows Power of Suspected North Korean Hackers"
@@ -40,36 +40,36 @@
  ],
  "brief": [
   {
-   "headline": "Binance suffers record $6.3 billion crypto theft",
-   "detail": "Binance says a security breach affected about $6.3 billion in assets, the largest crypto theft on record, and roughly $3 billion has been frozen.",
-   "link": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html"
+   "headline": "$6.3B Binance hack likely biggest crypto theft ever",
+   "detail": "Suspected North Korean hackers took $6.3 billion from crypto exchange Binance, an unprecedented scale of crypto theft.",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaS1PbC12ckM5dTFzWDZISy0zcmVfWjc2ODREc1dFMnlOem5RUmpWWGdxR2dKSlNQS0JrZXVvZGI4VDN2aXRQQkpIaHF4bWdwSjJvYjduMkFQUmdDaEdGS01lQThMQXpjTS02SW5YenA5U0ZQZUZsazg5SnhyZzFZel9YWTZqUmVVYUcxYTEyTDl3V3Z5dEZ6RTZCS3U5ZkUwWFBna2hDNnZ3dHo0?oc=5"
   },
   {
-   "headline": "Nasdaq 100 heads for third correction this year",
-   "detail": "Investors dumped big tech stocks after a slew of disappointing earnings, putting the Nasdaq 100 on course for its third technical correction of 2026.",
+   "headline": "Nasdaq 100 enters third correction of 2026",
+   "detail": "Investors dumped big tech stocks after disappointing earnings, pushing the Nasdaq 100 into its third technical correction this year.",
    "link": "https://www.bloomberg.com/news/articles/2026-10-30/nasdaq-100-ndx-ndq-qqq-hits-third-correction-of-2026-on-unwinding-tech-bets"
   },
   {
-   "headline": "Anthropic publicly files S-1 for Nasdaq IPO",
-   "detail": "Anthropic has made its S-1 filing public for a proposed Nasdaq initial public offering.",
+   "headline": "Anthropic files publicly for proposed Nasdaq IPO",
+   "detail": "Anthropic has filed a public S-1 for its proposed Nasdaq listing, a formal step toward offering its shares to investors.",
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNXVSRG9paWJpSDlOQThuemQ4Qmg0dGpvYkluS05oV0NvNDRQLXNHdzZfOWd6N1hTc2dKMHhhNkdBQ19uY08tZ293dWxkVnJSOVM1N016RUpYbkY0d1JkYk5mdGJFbjg2c1pocUkxNDJSN3d5Ukg5S0JJejAydzA4b0MyT2lLUHlXdHc?oc=5"
   },
   {
-   "headline": "Reddit shares plunge 30% on weak outlook",
-   "detail": "Reddit shares sank after weak Q4 sales guidance and a plan to test requiring users to log in to see content.",
-   "link": "https://www.cnbc.com/2026/10/30/reddit-stock-q3-earnings.html"
+   "headline": "Intel shares crash, erasing $12 billion from government stake",
+   "detail": "Intel is being hurt by falling PC sales as AI demand pushes up memory and component costs, raising PC prices.",
+   "link": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
   },
   {
-   "headline": "Intel stock crashes, cutting $12 billion from government stake",
-   "detail": "Intel is suffering as PC sales weaken, with AI demand for memory and other components pushing PC prices higher.",
-   "link": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
+   "headline": "Fitch moves France's outlook to negative",
+   "detail": "Fitch cited weaker growth, higher borrowing costs and a wider deficit, a move highlighting how quickly France's public finances are souring.",
+   "link": "https://www.wsj.com/world/europe/fitch-lowers-frances-outlook-to-negative-from-stable-27de23a3?mod=rss_socialeconomyfeed"
   }
  ],
  "summaries": {
-  "requested": 25,
-  "rejected_ungrounded": 1,
+  "requested": 26,
+  "rejected_ungrounded": 0,
   "applied": 24
  },
- "generated": "2026-10-31T07:42+00:00",
- "total_cost_usd": 0.0049
+ "generated": "2026-10-31T07:45+00:00",
+ "total_cost_usd": 0.00489
 }
