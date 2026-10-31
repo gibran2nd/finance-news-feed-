@@ -7,8 +7,8 @@ from datetime import datetime
 
 from .config import (FEEDS, MAJOR_PUBLISHERS, MAX_PER_COMPANY, MAX_PER_SOURCE, MAX_TOP_STORIES, PAYWALL_RANK_FACTOR,
                      PAYWALLED_PUBLISHERS)
-from .filters import WEAK_PUBLISHERS, is_roundup
-from .sections import assign_section
+from .filters import WEAK_PUBLISHERS, is_roundup, is_soft_headline
+from .sections import assign_section, classify
 
 
 def find_trending(raw: dict[str, list[dict]], displayed: list[dict],
@@ -212,6 +212,16 @@ WEAK_RANK_FACTOR = 0.5    # recaps and opinion rank below reporting of the same 
 
 def _is_weak(a: dict) -> bool:
     return a["source"] in WEAK_PUBLISHERS or is_roundup(a["title"]) or not _is_real_headline(a)
+
+
+def home_picks(articles: list[dict], limit: int, section: str) -> list[dict]:
+    """A section's best front-page headlines, keeping its order within each group: strong
+    headlines about the sector, then other strong ones, then soft ones to fill any gaps."""
+    def group(a: dict) -> int:
+        if _is_weak(a) or is_soft_headline(a["title"]):
+            return 2
+        return 0 if classify(a["title"]) == section else 1
+    return sorted(articles, key=group)[:limit]
 
 
 def importance_rank(now: datetime):

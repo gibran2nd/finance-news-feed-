@@ -60,6 +60,16 @@ def is_roundup(title: str) -> bool:
     return bool(ROUNDUP_RE.search(title))
 
 
+# Fine on All Stories, but the front page has room for only a few headlines per sector
+SOFT_HEADLINE_RE = re.compile(
+    r"\?$|\bour take\b|\b(buy|sell) these stocks\b|\bbefore it['’]s too late\b"
+    r"|\bgets? an? (buy|sell|hold)\b|\bbest stocks?\b|\baccuses\b.*\btakeover\b", re.IGNORECASE)
+
+
+def is_soft_headline(title: str) -> bool:
+    return bool(SOFT_HEADLINE_RE.search(title))
+
+
 # Headline must mention one of these to pass on general-interest feeds (opts["filter"])
 FINANCE_RE = re.compile(r"""\b(
     stocks?|shares?|equit(y|ies)|markets?|investors?|investing|investment|traders?|trading|
@@ -85,7 +95,8 @@ FINANCE_RE = re.compile(r"""\b(
 ADVICE_RE = re.compile(
     r"\bmy (wife|husband|partner|girlfriend|boyfriend|fianc\w*|mom|dad|mother|father|son|"
     r"daughter|brother|sister|parents|family|financial advis[eo]r|planner)\b"
-    r"|\b(i'?m|i am) (a |an )?\d{2}\b|\bshould i\b|\bcan i\b|\bam i\b",
+    r"|\b(i'?m|i am) (a |an )?\d{2}\b|\bshould i\b|\bcan i\b|\bam i\b"
+    r"|\bwe'?re in our \d0s\b",
     re.IGNORECASE)
 
 

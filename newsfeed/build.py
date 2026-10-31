@@ -7,14 +7,14 @@ from datetime import datetime, timezone, timedelta
 
 from .ai import AI
 from .archive import load_archive, update_archive
-from .config import DATA_FILE, FEEDS, WEEK_DATA_FILE, LOOKBACK_HOURS, MAX_PER_SECTION, MAX_PER_SECTION_WEEK, MIN_LIVE_RATIO, OUTPUT_DIR, OUTPUT_FILE, RECAPS_FILE, WEEK_FILE, WEEK_HOURS
+from .config import ALL_FILE, CALENDAR_FILE, CAREERS_FILE, DATA_FILE, FEEDS, WEEK_DATA_FILE, LOOKBACK_HOURS, MAX_PER_SECTION, MAX_PER_SECTION_WEEK, MIN_LIVE_RATIO, OUTPUT_DIR, OUTPUT_FILE, RECAPS_FILE, WEEK_FILE, WEEK_HOURS
 from .export import write_page_data
 from .fetch import fetch_all, parse_section
 from .markets import fetch_market_snapshot
 from .health import report_feed_health, update_feed_health
 from .recaps import build_week_summary, load_summaries, save_summaries
 from .rates import fetch_rates
-from .render import build_html, build_recaps_html, build_week_html
+from .render import build_all_html, build_calendar_html, build_careers_html, build_html, build_recaps_html, build_week_html
 from .stories import find_trending, importance_rank, select_stories
 from .wire import fetch_wire
 
@@ -68,13 +68,10 @@ def main() -> None:
           f"{sum(map(len, sections_raw_week.values()))} in the last 7 days\n")
 
     print("[🔥 Selecting stories]")
-    ai    = AI()
-    brief: list[dict] = []
+    ai = AI()
 
     def ai_merge(clusters):
-        groups, items = ai.merge_and_brief(clusters, importance_rank(now))
-        brief.extend(items)
-        return groups
+        return ai.merge_stories(clusters, importance_rank(now))
 
     top_stories, picked_main = select_stories(sections_raw_main, MAX_PER_SECTION, now,
                                               LOOKBACK_HOURS, by_coverage=False,
@@ -112,7 +109,7 @@ def main() -> None:
     ai.condense_summaries(displayed)
     ai.save_log(now)
     if ai.enabled:
-        print(f"  → AI: {len(brief)} brief items, {len(ai.log.get('merge_groups', []))} merges, "
+        print(f"  → AI: {len(ai.log.get('merge_groups', []))} merges, "
               f"summaries {ai.log.get('summaries')}, cost ${ai.log['total_cost_usd']}")
     for err in ai.log["errors"]:
         print(f"  ⚠ AI: {err}")
@@ -139,22 +136,22 @@ def main() -> None:
     print(f"  → {len(summaries)} weeks stored\n")
 
     # ── Generate pages ───────────────────────────────────────────────────────
-    page = build_html(sections_main, top_stories, now, markets, trending, health, brief, rates, wire)
-    OUTPUT_FILE.write_text(page, encoding="utf-8")
-
-    week_page = build_week_html(sections_week, top_stories_week, now, markets)
-    WEEK_FILE.write_text(week_page, encoding="utf-8")
-
-    recaps_page = build_recaps_html(summaries, now, markets)
-    RECAPS_FILE.write_text(recaps_page, encoding="utf-8")
+    pages = {
+        OUTPUT_FILE:   build_html(sections_main, top_stories, now, markets, rates, health),
+        ALL_FILE:      build_all_html(sections_main, top_stories, now, markets, rates, wire),
+        WEEK_FILE:     build_week_html(sections_week, top_stories_week, now, markets, rates),
+        RECAPS_FILE:   build_recaps_html(summaries, now, markets, rates),
+        CALENDAR_FILE: build_calendar_html(now, markets, rates),
+        CAREERS_FILE:  build_careers_html(now, markets, rates),
+    }
+    for path, html in pages.items():
+        path.write_text(html, encoding="utf-8")
 
     write_page_data(DATA_FILE, now, top_stories, picked_main,
-                    markets=markets or [], brief=brief, trending=trending,
+                    markets=markets or [], trending=trending,
                     rates=rates, wire=wire)
     write_page_data(WEEK_DATA_FILE, now, top_stories_week, picked_week)
 
-    print(f" Saved → {OUTPUT_FILE}")
-    print(f" Saved → {WEEK_FILE}")
-    print(f" Saved → {RECAPS_FILE}")
+    print(f" Saved → {', '.join(p.name for p in pages)}")
     print(f" Saved → {DATA_FILE.name}, {WEEK_DATA_FILE.name}")
     print(f' Run:   open "{OUTPUT_FILE}"\n')

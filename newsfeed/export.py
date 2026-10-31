@@ -33,7 +33,7 @@ def _story(a: dict) -> dict:
 
 
 def write_page_data(path: Path, generated: datetime, top: list[dict],
-                    sections: dict[str, list[dict]], *, markets=None, brief=None,
+                    sections: dict[str, list[dict]], *, markets=None,
                     trending=None, rates=None, wire=None) -> None:
     data = {
         "generated":   generated.isoformat(timespec="seconds"),
@@ -44,9 +44,6 @@ def write_page_data(path: Path, generated: datetime, top: list[dict],
     if markets is not None:
         data["markets"] = [{k: m[k] for k in ("key", "label", "kind", "price", "change",
                                                "change_pct", "spark")} for m in markets]
-    if brief is not None:
-        data["brief"] = [{"headline": b["headline"], "detail": b["detail"],
-                          "story": _story(b["article"])} for b in brief]
     if trending is not None:
         data["trending"] = [{"company": name, "stories_on_page": n} for name, n in trending]
     if rates is not None:

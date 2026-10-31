@@ -29,7 +29,7 @@ SECTION_RULES = [
                           r"|profits?|net (?:income|loss)|revenue|same-store|full-year|annual forecast"
                           r"|guidance|(?:beats?|tops|misses) (?:estimates|forecasts|expectations)"
                           r"|(?:raises|lifts|cuts) (?:\w+ )?(?:outlook|forecast))\b")),
-    (STOCKS, re.compile(r"\b(?i:stocks|wall street|s&p(?: 500)?|nasdaq|dow|futures|sell-?off|treasuries)\b")),
+    (STOCKS, re.compile(r"\b(?i:stocks|wall street(?! journal)|s&p(?: 500)?|nasdaq|dow|futures|sell-?off|treasuries)\b")),
     (TECH, re.compile(r"\bAI\b|\b(?i:chipmakers?|semiconductors?|data centers?|software)\b")),
 ]
 

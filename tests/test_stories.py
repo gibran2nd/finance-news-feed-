@@ -86,5 +86,22 @@ class BorrowSummaryTests(unittest.TestCase):
         self.assertEqual(a["summary"], "")
 
 
+
+class HomePickTests(unittest.TestCase):
+    def test_soft_headlines_only_fill_gaps(self):
+        soft = art("Bank of America says buy these stocks ahead of earnings")
+        question = art("Is Carter's cheap enough?", source="CNBC")
+        hard = [art(f"Company {i} reports record profit", source="Bloomberg") for i in range(3)]
+        picks = stories.home_picks([soft, question] + hard, 4, "Stock Market & Equities")
+        self.assertEqual(picks[:3], hard)
+        self.assertEqual(len(picks), 4)
+
+    def test_sector_stories_come_first(self):
+        politics = art("Senegal lawmakers reject budget")
+        market = art("Wall Street slides as stocks tumble")
+        picks = stories.home_picks([politics, market], 2, "Stock Market & Equities")
+        self.assertEqual(picks, [market, politics])
+
+
 if __name__ == "__main__":
     unittest.main()

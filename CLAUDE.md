@@ -5,7 +5,8 @@ A static finance news site. It fetches RSS feeds, picks and dedupes stories, add
 ## Status (2026-10-31)
 - Live: data overhaul, market strip, trending, importance ranking, archive, Claude layer, `data.json`, CI tests, market-hours schedule, quick-fix batch from the October audit, story selection (sections by content, recaps kept out of Top Stories, independent-coverage counts, page-wide company limit).
 - Redesign shipped: dark tinted panels, lead Top Story, market tiles, both themes following the device setting. The owner rejected photos and newspaper layouts; polish this format rather than replacing it. The site is meant as a quick read across sectors.
-- Next: link-preview image, summaries for Google News cards.
+- Headlines-first layout shipped: the front page is 8 Top Stories and 4 titles per sector, with no summaries. Markets and rates rotate in the header. All Stories, Calendar and Careers have their own pages. The Morning Brief and Trending were removed on purpose.
+- Next: recaps and weekly pages (the owner's next idea), link-preview image, summaries for Google News cards.
 - Known gap: about 40% of cards have no summary, because Google News items carry none. Trade press (PEI) still rarely reaches the page.
 - To check: the economic calendar's contents in a real browser. The feed-alert issue step hasn't fired yet.
 
@@ -20,8 +21,8 @@ There's no virtual environment here, and `.gitignore` doesn't cover one. Make it
 - `config.py`: feeds, limits and link lists. Start here for settings.
 - `fetch.py`: feeds to article dicts. `filters.py`: junk, relevance and publisher cleanup.
 - `stories.py`: clustering, Top Stories, section picks, trending. `sections.py`: which section a story belongs in. `companies.py`: company detection, from `newsfeed/data/companies.json`.
-- `ai.py`: brief, merges and summaries, with a check that numbers match the source. `markets.py`: Yahoo with a CNBC fallback. `rates.py`: Treasury curve, New York Fed rate and bond ETFs. `wire.py`: filtered FinancialJuice headlines, shown in their own panel rather than the story sections.
-- `render.py` and `newsfeed/static/`: the pages. `export.py`: JSON copies. `archive.py`, `recaps.py`, `health.py`: history and feed health.
+- `ai.py`: merges and summaries, with a check that numbers match the source. `markets.py`: Yahoo with a CNBC fallback. `rates.py`: Treasury curve, New York Fed rate and bond ETFs. `wire.py`: filtered FinancialJuice headlines, shown in their own panel rather than the story sections.
+- `render.py` and `newsfeed/static/`: the pages. The front page is meant for scanning titles, so check its phone height after layout changes. `export.py`: JSON copies. `archive.py`, `recaps.py`, `health.py`: history and feed health.
 
 ## Rules
 - `.github/workflows/update.yml` runs the tests first, so a failing test stops publishing. cron-job.org triggers runs on a market-hours schedule through a GitHub token that expires within a year; GitHub's own cron is a daily backup.

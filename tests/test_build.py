@@ -44,6 +44,8 @@ RUNNER = textwrap.dedent('''
         return f"<rss><channel><title>t</title>{items}</channel></rss>"
     fetch.fetch_feed = lambda url: (feedparser.parse(rss(url)), None)
     build.fetch_market_snapshot = lambda: None
+    build.fetch_rates = lambda now: None
+    build.fetch_wire = lambda now: []
     build.main()
 ''')
 
@@ -69,20 +71,30 @@ class EndToEndTests(unittest.TestCase):
 
     def test_pages_and_data_written(self):
         out = self.tmp / "output"
-        for name in ("index.html", "week.html", "recaps.html", "data.json", "week-data.json"):
+        for name in ("index.html", "all.html", "calendar.html", "careers.html", "week.html", "recaps.html",
+                     "data.json", "week-data.json"):
             self.assertTrue((out / name).exists(), name)
         for name in ("summaries.json", "feed_health.json", "ai_last.json"):
             self.assertTrue((self.tmp / "data" / name).exists(), name)
         self.assertTrue(list((self.tmp / "data" / "archive").glob("*.json")))
 
     def test_no_story_twice_and_json_matches_html(self):
-        html = (self.tmp / "output" / "index.html").read_text()
+        html = (self.tmp / "output" / "all.html").read_text()
         titles = re.findall(r'class="card-title">(.*?)</p>', html)
         self.assertEqual(len(titles), len(set(titles)))
         data = json.loads((self.tmp / "output" / "data.json").read_text())
         n = len(data["top_stories"]) + sum(len(s["stories"]) for s in data["sections"])
         self.assertEqual(n, len(titles))
         self.assertEqual(sum("Bank of America" in t for t in titles), 1)
+
+    def test_front_page_is_short_headlines_only(self):
+        html = (self.tmp / "output" / "index.html").read_text()
+        rows = re.findall(r'class="row-title">(.*?)</span>', html)
+        self.assertTrue(rows)
+        self.assertEqual(len(rows), len(set(rows)))
+        self.assertNotIn('class="card-summary"', html)
+        data = json.loads((self.tmp / "output" / "data.json").read_text())
+        self.assertLessEqual(len(rows), len(data["top_stories"]) + 4 * len(data["sections"]))
 
 
 if __name__ == "__main__":
