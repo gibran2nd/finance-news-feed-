@@ -4,7 +4,7 @@ A static finance news site. It fetches RSS feeds, picks and dedupes stories, add
 
 ## Status (2026-10-31)
 - Live: data overhaul, market strip, trending, importance ranking, archive, Claude layer, `data.json`, CI tests, market-hours schedule, quick-fix batch from the October audit.
-- Next: (1) scheduled runs arrive 3.5–6 hours late; move to an outside trigger (cron-job.org calling `workflow_dispatch`, needs a token from the user). (2) Story selection: sort sections by content rather than feed order, better Top Story headlines, weekly over-grouping, weak recap sources, missing summaries, remaining duplicates, trade press (PEI) outranked. (3) Redesign, mockups first, plus link-preview image.
+- Next: (1) Story selection: sort sections by content rather than feed order, better Top Story headlines, weekly over-grouping, weak recap sources, missing summaries, remaining duplicates, trade press (PEI) outranked. (2) Redesign, mockups first, plus link-preview image.
 - To check: the economic calendar's contents in a real browser. The feed-alert issue step hasn't fired yet.
 
 ## Commands
@@ -22,7 +22,7 @@ There's no virtual environment here, and `.gitignore` doesn't cover one. Make it
 - `render.py` and `newsfeed/static/`: the pages. `export.py`: JSON copies. `archive.py`, `recaps.py`, `health.py`: history and feed health.
 
 ## Rules
-- `.github/workflows/update.yml` runs the tests first, so a failing test stops publishing. It runs on a market-hours schedule.
+- `.github/workflows/update.yml` runs the tests first, so a failing test stops publishing. cron-job.org triggers runs on a market-hours schedule through a GitHub token that expires within a year; GitHub's own cron is a daily backup.
 - Bot data lives on the `data` branch, checked out into `data/`. Never commit it to `main`. `data/` and `output/` are generated.
 - The AI layer uses Haiku 5.5 at about $0.50 a month. That was a deliberate choice, so don't upgrade the model without asking.
 - Work on a branch and push to `main` only when verified. A push to `main` goes to the public site.
