@@ -31,8 +31,8 @@ CALENDAR_HTML = """\
 COMMON_STYLES = (Path(__file__).parent / "static" / "styles.css").read_text(encoding="utf-8")
 
 # Section accents that aren't feed sections
-TOP_COLOR, CAREERS_COLOR, CALENDAR_COLOR, PREMIUM_COLOR, BRIEF_COLOR = (
-    "#fb923c", "#f87171", "#94a3b8", "#eab308", "#34d399")
+TOP_COLOR, CAREERS_COLOR, CALENDAR_COLOR, PREMIUM_COLOR, BRIEF_COLOR, WIRE_COLOR, RATES_COLOR = (
+    "#fb923c", "#f87171", "#94a3b8", "#eab308", "#34d399", "#fb7185", "#38bdf8")
 NAV_NAMES = {"Stock Market & Equities": "Markets", "Macro & Economy": "Macro",
              "Investment Banking & Deals": "Deals", "Real Estate & REITs": "Real Estate",
              "Earnings & Results": "Earnings", "Tech & Fintech": "Tech"}
@@ -221,6 +221,65 @@ def render_brief(brief: list[dict], generated: datetime) -> str:
 """
 
 
+def _change_cls(value: float) -> str:
+    return "flat" if not value else "up" if value > 0 else "down"
+
+
+def render_rates(rates: dict | None) -> str:
+    """Yield curve, policy rate and bond ETFs. Yields use the market strip's up/down colors."""
+    if not rates:
+        return ""
+
+    def tile(label, value, change, cls):
+        return (f'<div class="mkt-item mkt-{cls}"><span class="mkt-label">{esc(label)}</span>'
+                f'<span class="mkt-price">{value}</span><span class="mkt-change">{change}</span></div>')
+
+    tiles = ""
+    if rates["fed"]:
+        fed = rates["fed"]
+        tiles += tile("Fed Funds", f'{fed["effr"]:.2f}%',
+                      f'tgt {fed["target_low"]:.2f}–{fed["target_high"]:.2f}', "flat")
+    for t in rates["tenors"]:
+        tiles += tile(t["label"], f'{t["level"]:.2f}%', f'{t["change_bp"]:+d} bp', _change_cls(t["change_bp"]))
+    tiles += tile("2s10s", f'{rates["spread_2s10s"]:+d} bp', f'{rates["spread_change"]:+d} bp',
+                  _change_cls(rates["spread_change"]))
+    for b in rates["bonds"]:
+        tiles += tile(f'{b["symbol"]} {b["label"]}', f'${b["price"]:.2f}', f'{b["change_pct"]:+.2f}%',
+                      _change_cls(b["change_pct"]))
+    return f"""\
+  <section class="rates" id="rates" style="--c:{RATES_COLOR}">
+    <h2 class="section-heading">Rates &amp; Bonds
+      <span class="brief-time">Treasury close {esc(rates["date"])}</span></h2>
+    <div class="rates-grid">{tiles}</div>
+    <p class="panel-note">Sources: U.S. Treasury, New York Fed, Yahoo Finance (bond ETF prices).</p>
+  </section>
+"""
+
+
+def _wire_text(item: dict) -> str:
+    p = item["print"]
+    if not p:
+        return esc(item["title"])
+    estimate = f' vs {esc(p["forecast"])} est.' if p["forecast"] else ""
+    return f'<strong>{esc(p["name"])}: {esc(p["actual"])}</strong>{estimate}, prev. {esc(p["previous"])}'
+
+
+def render_wire(wire: list[dict]) -> str:
+    if not wire:
+        return ""
+    rows = "".join(
+        f'<li class="wire-item"><a href="{esc(w["link"])}" target="_blank" rel="noopener noreferrer">'
+        f'<span class="ts">{time_ago(w["pub"])}</span><span>{_wire_text(w)}</span></a></li>'
+        for w in wire)
+    return f"""\
+  <section class="wire" id="wire" data-section style="--c:{WIRE_COLOR}">
+    <h2 class="section-heading">Headline Wire
+      <a class="wire-credit" href="https://www.financialjuice.com/home" target="_blank" rel="noopener noreferrer">via FinancialJuice</a></h2>
+    <ul class="wire-list">{rows}</ul>
+  </section>
+"""
+
+
 def render_trending_bar(trending: list[tuple[str, int]]) -> str:
     if not trending:
         return ""
@@ -238,7 +297,7 @@ def render_trending_bar(trending: list[tuple[str, int]]) -> str:
 
 
 def _render_sections_html(sections: dict, top_stories: list[dict],
-                           max_per: int) -> tuple[str, str, list[str]]:
+                           max_per: int, desk_html: str = "") -> tuple[str, str, list[str]]:
     """Returns (nav_items_html, sections_html, section_ids_list)."""
     section_ids = []
     nav_items   = ""
@@ -250,6 +309,8 @@ def _render_sections_html(sections: dict, top_stories: list[dict],
 
     if top_stories:
         add_nav("top-stories", "Top Stories", TOP_COLOR)
+    if desk_html:
+        add_nav("desk", "Wire &amp; Rates", RATES_COLOR)
 
     for name, (config, _) in sections.items():
         add_nav(slugify(name), NAV_NAMES.get(name, name), config["color"])
@@ -272,6 +333,7 @@ def _render_sections_html(sections: dict, top_stories: list[dict],
     </div>
   </section>
 """
+    sections_html += desk_html
 
     for name, (config, articles) in sections.items():
         color = config["color"]
@@ -309,13 +371,17 @@ def _render_sections_html(sections: dict, top_stories: list[dict],
 
 def build_html(sections: dict, top_stories: list[dict], generated: datetime,
                markets: list[dict] | None, trending: list[tuple[str, int]], health: dict,
-               brief: list[dict] | None = None) -> str:
+               brief: list[dict] | None = None, rates: dict | None = None,
+               wire: list[dict] | None = None) -> str:
     date_str  = _et(generated).strftime("%A, %B %-d, %Y")
     time_str  = _et(generated).strftime("%-I:%M %p ET")
     total     = sum(len(arts) for _, arts in sections.values()) + len(top_stories)
 
+    wire_html, rates_html = render_wire(wire or []), render_rates(rates)
+    desk_html = (f'  <div class="desk" id="desk">\n{wire_html}{rates_html}  </div>\n'
+                 if wire_html or rates_html else "")
     nav_items, sections_html, section_ids = _render_sections_html(
-        sections, top_stories, MAX_PER_SECTION
+        sections, top_stories, MAX_PER_SECTION, desk_html
     )
     nav_items += '    <a class="nav-item nav-ext nav-first-ext" href="week.html">Weekly</a>\n'
     nav_items += '    <a class="nav-item nav-ext" href="recaps.html">Recaps</a>\n'
@@ -404,7 +470,7 @@ def build_html(sections: dict, top_stories: list[dict], generated: datetime,
       let visible = 0;
       document.querySelectorAll('[data-section]').forEach(section => {{
         let sv = 0;
-        section.querySelectorAll('.card').forEach(card => {{
+        section.querySelectorAll('.card, .wire-item').forEach(card => {{
           const ok = match(card);
           card.style.display = ok ? '' : 'none';
           if (ok) {{ sv++; visible++; }}

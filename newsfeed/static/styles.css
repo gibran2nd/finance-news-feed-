@@ -250,7 +250,7 @@
     /* ── Layout ── */
     main { max-width: 1376px; margin: 0 auto; padding: 16px 28px 72px; }
 
-    .section, .premium-section, .brief {
+    .section, .premium-section, .brief, .wire, .rates {
       position: relative;
       background-color: var(--panel);
       background-image: linear-gradient(180deg, color-mix(in srgb, var(--c) 9%, transparent), transparent 96px);
@@ -261,7 +261,7 @@
       scroll-margin-top: 110px;
       overflow: hidden;
     }
-    .section::before, .premium-section::before, .brief::before {
+    .section::before, .premium-section::before, .brief::before, .wire::before, .rates::before {
       content: "";
       position: absolute;
       inset: 0 0 auto;
@@ -523,12 +523,30 @@
       font-size: .76rem;
     }
 
+    /* ── Headline Wire and Rates ── */
+    .desk { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 18px; margin-bottom: 18px; scroll-margin-top: 110px; }
+    .desk > section { margin-bottom: 0; min-width: 0; }
+    .desk > section:only-child { grid-column: 1 / -1; }
+    .wire-credit { margin-left: auto; font-size: .75rem; font-weight: 500; color: var(--muted); letter-spacing: 0; text-decoration: none; text-transform: none; }
+    .wire-credit:hover { color: var(--ct); }
+    .wire-list { list-style: none; margin: 0 2px; }
+    .wire-item + .wire-item { border-top: 1px solid var(--border); }
+    .wire-item a { display: grid; grid-template-columns: 62px minmax(0, 1fr); gap: 10px; padding: 8px 0; color: var(--text); text-decoration: none; font-size: .88rem; line-height: 1.4; }
+    .wire-item a:hover span:last-child { color: var(--ct); }
+    .wire-item .ts { font-size: .74rem; color: var(--muted); padding-top: 1px; }
+    .wire-item strong { font-weight: 650; }
+    .rates-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+    .rates-grid .mkt-item { grid-template-columns: minmax(0, 1fr); grid-template-areas: "label" "price" "change"; }
+    .rates-grid .mkt-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .panel-note { margin-top: 10px; font-size: .72rem; color: var(--muted); }
+
     /* ── Responsive ── */
     @media (max-width: 1040px) {
       #top-stories .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .card-lead { grid-row: auto; }
       .card-lead .card-title { font-size: 1.7rem; }
       .brief-list { grid-template-columns: 1fr; }
+      .desk { grid-template-columns: minmax(0, 1fr); }
     }
     @media (max-width: 680px) {
       .mkt-strip, .header-row, .section-nav, .trending-bar { padding-left: 16px; padding-right: 16px; }
@@ -539,7 +557,10 @@
       .header-meta   { display: none; }
       #theme-btn     { margin-left: auto; }
       main           { padding: 12px 10px 72px; }
-      .section, .premium-section, .brief { padding: 13px 10px 12px; margin-bottom: 12px; scroll-margin-top: 150px; }
+      .section, .premium-section, .brief, .wire, .rates { padding: 13px 10px 12px; margin-bottom: 12px; scroll-margin-top: 150px; }
+      .desk { gap: 12px; margin-bottom: 12px; scroll-margin-top: 150px; }
+      .rates-grid { gap: 6px; }
+      .rates-grid .mkt-item { padding: 8px 9px; }
       .grid, #top-stories .grid, .premium-grid, .career-grid { grid-template-columns: minmax(0, 1fr); }
       .card-lead     { grid-column: auto; padding: 15px 15px 11px; }
       .card-lead .card-title { font-size: 1.35rem; }

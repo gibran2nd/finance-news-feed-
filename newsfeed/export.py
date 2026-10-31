@@ -34,7 +34,7 @@ def _story(a: dict) -> dict:
 
 def write_page_data(path: Path, generated: datetime, top: list[dict],
                     sections: dict[str, list[dict]], *, markets=None, brief=None,
-                    trending=None) -> None:
+                    trending=None, rates=None, wire=None) -> None:
     data = {
         "generated":   generated.isoformat(timespec="seconds"),
         "top_stories": [_story(a) for a in top],
@@ -49,4 +49,9 @@ def write_page_data(path: Path, generated: datetime, top: list[dict],
                           "story": _story(b["article"])} for b in brief]
     if trending is not None:
         data["trending"] = [{"company": name, "stories_on_page": n} for name, n in trending]
+    if rates is not None:
+        data["rates"] = rates
+    if wire is not None:
+        data["wire"] = [{"title": w["title"], "link": w["link"], "source": "FinancialJuice",
+                         "published": w["pub"].isoformat(timespec="seconds")} for w in wire]
     path.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

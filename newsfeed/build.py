@@ -13,8 +13,10 @@ from .fetch import fetch_all, parse_section
 from .markets import fetch_market_snapshot
 from .health import report_feed_health, update_feed_health
 from .recaps import build_week_summary, load_summaries, save_summaries
+from .rates import fetch_rates
 from .render import build_html, build_recaps_html, build_week_html
 from .stories import find_trending, importance_rank, select_stories
+from .wire import fetch_wire
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -95,6 +97,16 @@ def main() -> None:
         if os.environ.get("GITHUB_ACTIONS"):
             print("::warning title=Market data unavailable::Yahoo and CNBC both failed; market strip hidden")
 
+    print("[🏦 Rates & wire]")
+    rates = fetch_rates(now)
+    wire  = fetch_wire(now)
+    print(f"  → curve {rates['date'] if rates else 'unavailable (panel hidden)'}; {len(wire)} wire items\n")
+    if os.environ.get("GITHUB_ACTIONS"):
+        if not rates:
+            print("::warning title=Rates unavailable::Treasury curve failed; rates panel hidden")
+        if not wire:
+            print("::warning title=Wire unavailable::FinancialJuice returned nothing; wire panel hidden")
+
     print("[🔥 Trending Companies]")
     displayed = top_stories + [a for arts in picked_main.values() for a in arts]
     ai.condense_summaries(displayed)
@@ -127,7 +139,7 @@ def main() -> None:
     print(f"  → {len(summaries)} weeks stored\n")
 
     # ── Generate pages ───────────────────────────────────────────────────────
-    page = build_html(sections_main, top_stories, now, markets, trending, health, brief)
+    page = build_html(sections_main, top_stories, now, markets, trending, health, brief, rates, wire)
     OUTPUT_FILE.write_text(page, encoding="utf-8")
 
     week_page = build_week_html(sections_week, top_stories_week, now, markets)
@@ -137,7 +149,8 @@ def main() -> None:
     RECAPS_FILE.write_text(recaps_page, encoding="utf-8")
 
     write_page_data(DATA_FILE, now, top_stories, picked_main,
-                    markets=markets or [], brief=brief, trending=trending)
+                    markets=markets or [], brief=brief, trending=trending,
+                    rates=rates, wire=wire)
     write_page_data(WEEK_DATA_FILE, now, top_stories_week, picked_week)
 
     print(f" Saved → {OUTPUT_FILE}")

@@ -20,7 +20,7 @@ There's no virtual environment here, and `.gitignore` doesn't cover one. Make it
 - `config.py`: feeds, limits and link lists. Start here for settings.
 - `fetch.py`: feeds to article dicts. `filters.py`: junk, relevance and publisher cleanup.
 - `stories.py`: clustering, Top Stories, section picks, trending. `sections.py`: which section a story belongs in. `companies.py`: company detection, from `newsfeed/data/companies.json`.
-- `ai.py`: brief, merges and summaries, with a check that numbers match the source. `markets.py`: Yahoo with a CNBC fallback.
+- `ai.py`: brief, merges and summaries, with a check that numbers match the source. `markets.py`: Yahoo with a CNBC fallback. `rates.py`: Treasury curve, New York Fed rate and bond ETFs. `wire.py`: filtered FinancialJuice headlines, shown in their own panel rather than the story sections.
 - `render.py` and `newsfeed/static/`: the pages. `export.py`: JSON copies. `archive.py`, `recaps.py`, `health.py`: history and feed health.
 
 ## Rules
