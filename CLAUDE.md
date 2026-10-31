@@ -4,7 +4,8 @@ A static finance news site. It fetches RSS feeds, picks and dedupes stories, add
 
 ## Status (2026-10-31)
 - Live: data overhaul, market strip, trending, importance ranking, archive, Claude layer, `data.json`, CI tests, market-hours schedule, quick-fix batch from the October audit, story selection (sections by content, recaps kept out of Top Stories, independent-coverage counts, page-wide company limit).
-- Next: redesign, mockups first, plus link-preview image.
+- Redesign shipped: dark tinted panels, lead Top Story, market tiles, both themes following the device setting. The owner rejected photos and newspaper layouts; polish this format rather than replacing it. The site is meant as a quick read across sectors.
+- Next: link-preview image, summaries for Google News cards.
 - Known gap: about 40% of cards have no summary, because Google News items carry none. Trade press (PEI) still rarely reaches the page.
 - To check: the economic calendar's contents in a real browser. The feed-alert issue step hasn't fired yet.
 
