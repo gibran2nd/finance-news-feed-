@@ -4,45 +4,38 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 10622,
-   "output_tokens": 1096,
-   "cost_usd": 0.00161
+   "input_tokens": 10440,
+   "output_tokens": 1315,
+   "cost_usd": 0.0017
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 1598,
-   "output_tokens": 733,
-   "cost_usd": 0.00053
+   "input_tokens": 1386,
+   "output_tokens": 600,
+   "cost_usd": 0.00044
   }
  ],
  "errors": [],
  "merge_groups": [
   [
    "OPEC+ keeps December oil output targets steady as Iran war continues to disrupt flows",
-   "OPEC+ Leaves Oil Output Targets Unchanged for December",
-   "OPEC+ Sticks With Plan for Steady Oil Output Quotas in December",
-   "OPEC+ agrees in principle to keep oil output targets steady in December, sources say"
+   "OPEC+ Leaves Oil Output Targets Unchanged for December"
   ],
   [
-   "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
-   "Judge allows NAACP lawsuit over xAI data center pollution to move forward"
+   "Australian home prices fall for seventh month, looming rate hike adds to pain",
+   "Australia’s Home Prices Fall Further Ahead of Expected Rate Hike"
   ],
   [
-   "South Korea exports surge 93.7% in October, fastest growth since 1974",
-   "S. Korea Exports Extend Robust Growth as Chip Boom Continues",
-   "South Korea’s Chip-Led Exports Accelerate, Bringing $1 Trln Annual Target Closer"
-  ],
-  [
-   "Saudi Arabia’s economy contracts 3.8% as war disrupts oil production",
-   "Saudi Economy Shrank at Slower Pace Before Houthi Escalation"
+   "South Korea’s Chip-Led Exports Accelerate, Bringing $1 Trln Annual Target Closer",
+   "S. Korea Exports Extend Robust Growth as Chip Boom Continues"
   ]
  ],
  "summaries": {
-  "requested": 11,
+  "requested": 9,
   "rejected_ungrounded": 0,
-  "applied": 10
+  "applied": 8
  },
- "generated": "2026-11-01T17:36+00:00",
+ "generated": "2026-11-01T23:00+00:00",
  "total_cost_usd": 0.00214
 }
