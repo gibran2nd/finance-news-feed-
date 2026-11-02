@@ -4,53 +4,63 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 10797,
-   "output_tokens": 1974,
-   "cost_usd": 0.00207
+   "input_tokens": 11414,
+   "output_tokens": 1725,
+   "cost_usd": 0.002
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2285,
-   "output_tokens": 1113,
-   "cost_usd": 0.00078
+   "input_tokens": 2750,
+   "output_tokens": 2717,
+   "cost_usd": 0.00163
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Coal India arm SECL files draft papers for IPO; promoter to offload 66.81 crore shares",
+   "Marvell to buy Lumentum in $115 billion deal in AI data-center bet",
+   "Marvell’s AI Megadeal Hands Wall Street Multiple M&A Milestones"
+  ],
+  [
+   "Anthropic releases amended IPO prospectus with third-quarter financials",
+   "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1"
+  ],
+  [
+   "Coal India files DRHP to sell 10% stake in subsidiary SECL through IPO",
    "Coal India files draft red herring prospectus for South Eastern Coalfields IPO",
-   "SECL Files DRHP with SEBI for Proposed IPO"
+   "Coal India's arm files IPO papers with Sebi; promoter to offload shares"
   ],
   [
    "Alstom shares plunge after it cuts guidance, plans overhaul in second warning",
-   "Alstom shares tumble 28% after train maker cuts profit forecast",
    "Alstom plunges as it slashes outlook second time in 2026"
+  ],
+  [
+   "Estee Lauder Lifts Full-Year Outlook Following Fiscal First-Quarter Beat",
+   "Estee Lauder Posts Higher Profit, Sales as Turnaround Bears Fruit"
   ],
   [
    "Reliance Industries Surges Most in Nine Months on Earnings Beat",
    "India's Reliance posts best day in over six years as oil business, Jio Platforms lift outlook"
   ],
   [
+   "Bank of England poised to raise rates but may push back on bets for more",
+   "BOE to Raise Rates for First Time Since 2023, Survey Shows"
+  ],
+  [
    "Temperature soars at Swedish grocery store freezers, one store blames hackers",
    "Belgian, Swedish Supermarkets Report New Suspected Freezer Hack"
   ],
   [
-   "BOE to Raise Rates for First Time Since 2023, Survey Shows",
-   "Bank of England poised to raise rates but may push back on bets for more",
-   "BOE Expected to Join Peers in Raising Key Rate"
-  ],
-  [
    "EAAA India Alternatives IPO Listing Today: Check Share Price and Listing Gains",
-   "EAAA India Alternatives Shares Debut Muted, Up 1% from IPO"
+   "EAAA India Alternatives makes flat debut; shares list at 0.63% premium to IPO price"
   ]
  ],
  "summaries": {
-  "requested": 17,
+  "requested": 22,
   "rejected_ungrounded": 0,
-  "applied": 13
+  "applied": 21
  },
- "generated": "2026-11-02T12:00+00:00",
- "total_cost_usd": 0.00285
+ "generated": "2026-11-02T15:00+00:00",
+ "total_cost_usd": 0.00363
 }

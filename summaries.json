@@ -2,13 +2,37 @@
   {
     "week": "2026-W45",
     "label": "Week of November 2\u20136, 2026",
-    "generated": "2026-11-02T12:00:26.275391+00:00",
+    "generated": "2026-11-02T15:00:48.822990+00:00",
     "bullets": [
       {
-        "headline": "OpenAI deepens Abu Dhabi foothold as Sam Altman inks deals spanning energy, government and investment",
+        "headline": "Marvell to buy Lumentum in all-stock deal, a massive bet on AI connectivity",
         "source": "CNBC",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/11/02/marvell-lumentum-ai-deal.html"
+      },
+      {
+        "headline": "Binance users withdraw $5bn in wake of hack",
+        "source": "Finextra",
         "section": "Tech & Fintech",
-        "link": "https://www.cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html"
+        "link": "https://www.finextra.com/newsarticle/48683/binance-users-withdraw-5bn-in-wake-of-hack?utm_medium=rssfinextra&utm_source=finextrafeed"
+      },
+      {
+        "headline": "Abu Dhabi's ADNOC, G42 sign deal with OpenAI as Sam Altman travels to UAE",
+        "source": "Reuters",
+        "section": "Tech & Fintech",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTWMxZGNac0g1UDJOemxSbHJnU1g4cllCaWZxdzJEWVBIU2R6aG83R2RlMk9HV19ZTmYxSUMzRjBJU19pbXN6QWV6bHJCQXlJYlFRVEdEVFVQRFl3cTREcWlGUU5aOHc1VDRWQTIxZk0wWHo2a1F0MVZhTWp6VXRPUHQ4TjlONXE2LTc1UEVBY1VYYW56V3IyeFJnNWQwUnppaTNYc1ROTTgzZXN3WTg5SXJscm5BOHZD?oc=5"
+      },
+      {
+        "headline": "Anthropic Set For Mega IPO: World's Biggest Listings Ranked",
+        "source": "NDTV",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV2s3SnRKcEZUTVBVMk9JdkEtem5Ec1VWb1NWUmtkS01UR0VIdjVJeGdGRENkRmVveHNpV01uTEFFODF3WEdacHQxTk80eTNBMlBYWDUzWVdfcFRSTzluVDJ2NjlNNWc4M29UT1pGWktmVmJhQVB3NEhmWS1zakhpaEViRU1zaDV4ZmZ3RXJkYjlueVh0ZXB5amFZRnZaMWvSAacBQVVfeXFMUEttZlY1eTRmQ1FqMlRNVmdDY3pzakpvMTdZeHpSTy14Rl9BVVNKdzROVjVDU3MxaEZIblFpRW1FLVR0VGZxbEJaVWlzYlZqTVl0aWYzdjFNQmprZzhQOXFkei11NTMzWks0UWF3b0J2Z0ZlQzFiTmNxdzhyMUh3ZHNDNFB6d2F1LUN0cTRxT1dNNmRBQjRpeFo4cFNuT1VyQlpwTnB3U1k?oc=5"
+      },
+      {
+        "headline": "Alphabet kicks off \u20ac6 billion bond sale, tests appetite for tech debt",
+        "source": "Investing.com",
+        "section": "Stock Market & Equities",
+        "link": "https://www.investing.com/news/economy-news/alphabet-kicks-off-6-billion-bond-sale-tests-appetite-for-tech-debt-4991954"
       },
       {
         "headline": "Blackstone leads $3.1bn investment in LNG Canada stake",
@@ -17,49 +41,25 @@
         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNV3ZKOFctVHBsZmJRUjVSZllCR05OZGtpNVYtbllFVi1XeWo4Si1nYm9hT1BWRVFwYzVLMTNuaF9PMWk2aFlSMFplbnZxVXhQa21QZ2txb0poVTZtSVlRNmszUW52TmFLbVNoZmludVo5U3ZWMmx4am1iN2d0MFIyeDJPSTFQOXpzUG01UXdhVWI?oc=5"
       },
       {
-        "headline": "U.S. Treasury, European Bond Yields Fall as Oil Prices Drop",
-        "source": "WSJ",
-        "section": "Macro & Economy",
-        "link": "https://www.wsj.com/finance/investing/treasury-yields-little-changed-in-asian-trade-ahead-of-midterms-key-data-this-week-c5a1fdb3?mod=rss_markets_main"
-      },
-      {
-        "headline": "PREVIEW Apple's new CEO Ternus to face first earnings test as memory costs surge",
-        "source": "Reuters",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTUl3TDYxM3pONVd4QUM2TVlWdnRRY28tSnNuN1YwT3JibW1hX1hsYTByY3dJcURaLW56QXc3dVU3WlFaOXlLOXJjd09MTVZtNWxKam1WRlh2THFxSHJobUdnc1hQNVJTaDNULTNGcGhMTVg0b2piUDRNdnUwOXhpQ0U1cTI2Zzg1VV94MXhxYmhHdlBJcW04OU9mVHJGVXAxdFpPQVZVUGJNa3h1UmhGM2xTajV3bkJfQnRBeFk5bjZwNGxJ?oc=5"
-      },
-      {
-        "headline": "Tech stocks have made big V-shaped rebounds five times in 30 months \u2014 and now Deutsche Bank forecasts another bounce",
-        "source": "MarketWatch",
-        "section": "Stock Market & Equities",
-        "link": "https://www.marketwatch.com/story/tech-stocks-have-made-big-v-shaped-rebounds-five-times-in-30-months-and-now-deutsche-bank-forecasts-another-bounce-0a552a62?mod=mw_rss_topstories"
-      },
-      {
-        "headline": "Reliance Adds Record $19 Billion in Market Value on Profit Beat",
+        "headline": "Apple\u2019s $1 Trillion Rally Leaves No Room for Error on Earnings",
         "source": "Bloomberg",
         "section": "Earnings & Results",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-02/reliance-industries-surges-most-in-nine-months-on-earnings-beat"
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTjc5RkZlVlNFVy1jRUNDbnhCZGJLd3JWTWVMMnV6LUlWaUpxNWFNSmRrTFVWMmFwaDVmSERlTTlVdzZEVHJmVmViemgzMnB3dXBha01ZeXg2a2ZNNEQ5dzN3RWgyQktQVFRYZnRkWko4aTduQjliWTljSmQzYlBiSnJWSU5POVZtRVNtNnBGc2NEc3lFVEs1Y2l5QXpZa1p4bndfcUFaU1VIVVp0NFF0XzlB?oc=5"
       },
       {
-        "headline": "Glencore plans CEO pay overhaul to speed up windfall after any takeover",
-        "source": "FT",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaTRqTXljRlU0Zml5VFVSY05nNkJZallXREpURm5jY1lMOFRycDZkeFgzQ1ZxYVp2LUFLYXpJaExUcU9JVktqRkJ6elY1RXBHU0k1T1pMRkRhR1I1Ymp5Ull0clYtMWo5UTlGS0cxTFAyUVN0YmxYcGVfVmVheGpjSmNsUXo?oc=5"
-      },
-      {
-        "headline": "OPay IPO: NYSE Listing Halted Amid Regulatory Inquiry",
-        "source": "Blueprint Newspapers",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ER1Fxbl9VUWNPU2JLLXJabGNMeks1Z3JJVlROME12TWd0cHN3TEF2QzZzcThFWHpfRXlQVjBPREpLQUVObmxTZFhLQkREN2VCa0k2UlpfTm1lM0Y0LUhuR2ZWRWFvV0V4V29NNUlR?oc=5"
+        "headline": "Oracle\u2019s stock falls as the company details plan to raise $20 billion",
+        "source": "MarketWatch",
+        "section": "Tech & Fintech",
+        "link": "https://www.marketwatch.com/story/oracles-stock-falls-as-the-company-details-plan-to-raise-20-billion-f03f5e16?mod=mw_rss_topstories"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 89,
-      "Macro & Economy": 47,
-      "Investment Banking & Deals": 81,
-      "Real Estate & REITs": 10,
-      "Earnings & Results": 42,
-      "Tech & Fintech": 69
+      "Stock Market & Equities": 131,
+      "Macro & Economy": 65,
+      "Investment Banking & Deals": 105,
+      "Real Estate & REITs": 22,
+      "Earnings & Results": 85,
+      "Tech & Fintech": 107
     }
   },
   {
