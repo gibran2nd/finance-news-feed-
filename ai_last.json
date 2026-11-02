@@ -4,38 +4,53 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 10440,
-   "output_tokens": 1315,
-   "cost_usd": 0.0017
+   "input_tokens": 10797,
+   "output_tokens": 1974,
+   "cost_usd": 0.00207
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 1386,
-   "output_tokens": 600,
-   "cost_usd": 0.00044
+   "input_tokens": 2285,
+   "output_tokens": 1113,
+   "cost_usd": 0.00078
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "OPEC+ keeps December oil output targets steady as Iran war continues to disrupt flows",
-   "OPEC+ Leaves Oil Output Targets Unchanged for December"
+   "Coal India arm SECL files draft papers for IPO; promoter to offload 66.81 crore shares",
+   "Coal India files draft red herring prospectus for South Eastern Coalfields IPO",
+   "SECL Files DRHP with SEBI for Proposed IPO"
   ],
   [
-   "Australian home prices fall for seventh month, looming rate hike adds to pain",
-   "Australia’s Home Prices Fall Further Ahead of Expected Rate Hike"
+   "Alstom shares plunge after it cuts guidance, plans overhaul in second warning",
+   "Alstom shares tumble 28% after train maker cuts profit forecast",
+   "Alstom plunges as it slashes outlook second time in 2026"
   ],
   [
-   "South Korea’s Chip-Led Exports Accelerate, Bringing $1 Trln Annual Target Closer",
-   "S. Korea Exports Extend Robust Growth as Chip Boom Continues"
+   "Reliance Industries Surges Most in Nine Months on Earnings Beat",
+   "India's Reliance posts best day in over six years as oil business, Jio Platforms lift outlook"
+  ],
+  [
+   "Temperature soars at Swedish grocery store freezers, one store blames hackers",
+   "Belgian, Swedish Supermarkets Report New Suspected Freezer Hack"
+  ],
+  [
+   "BOE to Raise Rates for First Time Since 2023, Survey Shows",
+   "Bank of England poised to raise rates but may push back on bets for more",
+   "BOE Expected to Join Peers in Raising Key Rate"
+  ],
+  [
+   "EAAA India Alternatives IPO Listing Today: Check Share Price and Listing Gains",
+   "EAAA India Alternatives Shares Debut Muted, Up 1% from IPO"
   ]
  ],
  "summaries": {
-  "requested": 9,
+  "requested": 17,
   "rejected_ungrounded": 0,
-  "applied": 8
+  "applied": 13
  },
- "generated": "2026-11-01T23:00+00:00",
- "total_cost_usd": 0.00214
+ "generated": "2026-11-02T12:00+00:00",
+ "total_cost_usd": 0.00285
 }

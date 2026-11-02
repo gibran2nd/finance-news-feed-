@@ -1,5 +1,68 @@
 [
   {
+    "week": "2026-W45",
+    "label": "Week of November 2\u20136, 2026",
+    "generated": "2026-11-02T12:00:26.275391+00:00",
+    "bullets": [
+      {
+        "headline": "OpenAI deepens Abu Dhabi foothold as Sam Altman inks deals spanning energy, government and investment",
+        "source": "CNBC",
+        "section": "Tech & Fintech",
+        "link": "https://www.cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html"
+      },
+      {
+        "headline": "Blackstone leads $3.1bn investment in LNG Canada stake",
+        "source": "Financial-News.co.uk",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNV3ZKOFctVHBsZmJRUjVSZllCR05OZGtpNVYtbllFVi1XeWo4Si1nYm9hT1BWRVFwYzVLMTNuaF9PMWk2aFlSMFplbnZxVXhQa21QZ2txb0poVTZtSVlRNmszUW52TmFLbVNoZmludVo5U3ZWMmx4am1iN2d0MFIyeDJPSTFQOXpzUG01UXdhVWI?oc=5"
+      },
+      {
+        "headline": "U.S. Treasury, European Bond Yields Fall as Oil Prices Drop",
+        "source": "WSJ",
+        "section": "Macro & Economy",
+        "link": "https://www.wsj.com/finance/investing/treasury-yields-little-changed-in-asian-trade-ahead-of-midterms-key-data-this-week-c5a1fdb3?mod=rss_markets_main"
+      },
+      {
+        "headline": "PREVIEW Apple's new CEO Ternus to face first earnings test as memory costs surge",
+        "source": "Reuters",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTUl3TDYxM3pONVd4QUM2TVlWdnRRY28tSnNuN1YwT3JibW1hX1hsYTByY3dJcURaLW56QXc3dVU3WlFaOXlLOXJjd09MTVZtNWxKam1WRlh2THFxSHJobUdnc1hQNVJTaDNULTNGcGhMTVg0b2piUDRNdnUwOXhpQ0U1cTI2Zzg1VV94MXhxYmhHdlBJcW04OU9mVHJGVXAxdFpPQVZVUGJNa3h1UmhGM2xTajV3bkJfQnRBeFk5bjZwNGxJ?oc=5"
+      },
+      {
+        "headline": "Tech stocks have made big V-shaped rebounds five times in 30 months \u2014 and now Deutsche Bank forecasts another bounce",
+        "source": "MarketWatch",
+        "section": "Stock Market & Equities",
+        "link": "https://www.marketwatch.com/story/tech-stocks-have-made-big-v-shaped-rebounds-five-times-in-30-months-and-now-deutsche-bank-forecasts-another-bounce-0a552a62?mod=mw_rss_topstories"
+      },
+      {
+        "headline": "Reliance Adds Record $19 Billion in Market Value on Profit Beat",
+        "source": "Bloomberg",
+        "section": "Earnings & Results",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/reliance-industries-surges-most-in-nine-months-on-earnings-beat"
+      },
+      {
+        "headline": "Glencore plans CEO pay overhaul to speed up windfall after any takeover",
+        "source": "FT",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaTRqTXljRlU0Zml5VFVSY05nNkJZallXREpURm5jY1lMOFRycDZkeFgzQ1ZxYVp2LUFLYXpJaExUcU9JVktqRkJ6elY1RXBHU0k1T1pMRkRhR1I1Ymp5Ull0clYtMWo5UTlGS0cxTFAyUVN0YmxYcGVfVmVheGpjSmNsUXo?oc=5"
+      },
+      {
+        "headline": "OPay IPO: NYSE Listing Halted Amid Regulatory Inquiry",
+        "source": "Blueprint Newspapers",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ER1Fxbl9VUWNPU2JLLXJabGNMeks1Z3JJVlROME12TWd0cHN3TEF2QzZzcThFWHpfRXlQVjBPREpLQUVObmxTZFhLQkREN2VCa0k2UlpfTm1lM0Y0LUhuR2ZWRWFvV0V4V29NNUlR?oc=5"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 89,
+      "Macro & Economy": 47,
+      "Investment Banking & Deals": 81,
+      "Real Estate & REITs": 10,
+      "Earnings & Results": 42,
+      "Tech & Fintech": 69
+    }
+  },
+  {
     "week": "2026-W44",
     "label": "Week of October 26\u201330, 2026",
     "generated": "2026-11-01T23:00:25.580723+00:00",
