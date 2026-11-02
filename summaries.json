@@ -2,19 +2,19 @@
   {
     "week": "2026-W45",
     "label": "Week of November 2\u20136, 2026",
-    "generated": "2026-11-02T18:00:28.448593+00:00",
+    "generated": "2026-11-02T21:22:09.450652+00:00",
     "bullets": [
+      {
+        "headline": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
+        "source": "CNBC",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa3kyWXdEcHgycUZOWm9STGRhbGpfNVVTOXJKeVYybElhR2JnVDgwdHdDem5LX19FX2FaTkJxRVNRd3RReHFrcVg4WXhUX2lUYTZ6ZzFSS3phcEJfc1ZtNFc5cWktTVlqX05RTTVYV212RTV3WjRJcTZyNkZiN2k4XzdiVkxfdjB5V3JVRzhB?oc=5"
+      },
       {
         "headline": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet",
         "source": "Reuters",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelFpUlRuWUdrd3oyYkZTNkxFMW9mQlBTY01YTl9ERVRsYTc1VGNWQjR1VF90aEcwY01sTDNXN3NiWVBZNTY4aGVFSlR3WlBlb0laSkptRS1EMF9fMGlna1BXSVExN2dFVGlTNWMyQzYyM1RsYm5pMGxXOWxhbmp1UGRYVjk3RVA0b25WWVZPcFZMS05IOE1CTUgzY1BsQWY3MW5DbDF1bGs1M185UlM4cjlB?oc=5"
-      },
-      {
-        "headline": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
-        "source": "CNBC",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
       },
       {
         "headline": "Oracle Kicks Off $20 Billion Capital Raise for AI Plan",
@@ -23,43 +23,43 @@
         "link": "https://www.bloomberg.com/news/articles/2026-11-02/oracle-is-offering-10-billion-of-high-grade-dollar-bonds"
       },
       {
+        "headline": "Alphabet kicks off \u20ac6 billion bond sale, tests appetite for tech debt",
+        "source": "Investing.com",
+        "section": "Stock Market & Equities",
+        "link": "https://www.investing.com/news/economy-news/alphabet-kicks-off-6-billion-bond-sale-tests-appetite-for-tech-debt-4991954"
+      },
+      {
         "headline": "Marriott Lifts Full-Year Outlook as RevPAR Growth Drives Third-Quarter Beat",
         "source": "Yahoo Finance",
         "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZkxvbDV5eS1nRVhkeTZnMTh6MkVNSFQxbUlmRklwVGxyVDBsTEdNT1NsTDNtcTQzWkJnbTVXdWZrQ3ZxT2ZQRVpaRl9QeWlLYjdzN0E2OVhEb0p0cGpEWWkybmozSjN4N2stZnVvdDJ2amUzUzVocUZLVl9uRzQ5OUZQMHotb0l3SV9lNnQxZVd1d1EybFFUcEh3cHlhSlZh?oc=5"
       },
       {
-        "headline": "Binance users withdraw $5bn in wake of hack",
-        "source": "Finextra",
+        "headline": "Bankers swing to negative view on funding costs: Survey; $6B Binance heist provokes stablecoin freeze dilemma\u2014and more in Bankers' Hours",
+        "source": "LinkedIn",
         "section": "Tech & Fintech",
-        "link": "https://www.finextra.com/newsarticle/48683/binance-users-withdraw-5bn-in-wake-of-hack?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeGFLZXhfLVQ2TEZXWTlMcmVXaVBScUpteFp4ZHZxUnVJTkdHNnh0U0l2ZjFWZ0dNRlhINHBSb0d2YU5RWVpVV0ZfZ3hOWWhlRm5kckN3N1hyOVNjd2pKbm5DYlI4eTE5VHUwVXhuNF9VUWFrLWlzVGxtUXU3cW9JYXBRb0FiM2tsQk1oMk14TWdLVlJFcnpRT0Z6Z0Q?oc=5"
       },
       {
-        "headline": "U.S. Treasury, European Bond Yields Fall as Oil Prices Drop",
-        "source": "WSJ",
+        "headline": "How soon gas prices could go down now that oil is tumbling",
+        "source": "MarketWatch",
         "section": "Macro & Economy",
-        "link": "https://www.wsj.com/finance/investing/treasury-yields-little-changed-in-asian-trade-ahead-of-midterms-key-data-this-week-c5a1fdb3?mod=rss_markets_main"
+        "link": "https://www.marketwatch.com/story/how-soon-gas-prices-could-go-down-now-that-oil-is-tumbling-a1140dc2?mod=mw_rss_topstories"
       },
       {
-        "headline": "Bank of England poised to raise rates but may push back on bets for more",
-        "source": "Investing.com",
+        "headline": "Bank of England set to raise rates to 4% in push to quell inflation",
+        "source": "FT",
         "section": "Macro & Economy",
-        "link": "https://www.investing.com/news/economy-news/bank-of-england-poised-to-raise-rates-but-may-push-back-on-bets-for-more-4989788"
-      },
-      {
-        "headline": "OPay IPO: NYSE Listing Halted Amid Regulatory Inquiry",
-        "source": "Blueprint Newspapers",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ER1Fxbl9VUWNPU2JLLXJabGNMeks1Z3JJVlROME12TWd0cHN3TEF2QzZzcThFWHpfRXlQVjBPREpLQUVObmxTZFhLQkREN2VCa0k2UlpfTm1lM0Y0LUhuR2ZWRWFvV0V4V29NNUlR?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQV1dtRFFpVXU3ZkM4b1RrUU10VDM0R0VjcWY1b09pZ0ZWUzE2Ym9OZVIxT2hBMDRLU0k0S0tsSVlwU3FIX2NMODNlWENHbHpvZ1pEWUJMQS1FSVRJeGFwakt2UEVVanhIU3NqTktnS1BhWDlTMVdraDJLaU5LLW03dnlRbHk?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 166,
-      "Macro & Economy": 80,
-      "Investment Banking & Deals": 133,
-      "Real Estate & REITs": 48,
-      "Earnings & Results": 111,
-      "Tech & Fintech": 133
+      "Stock Market & Equities": 188,
+      "Macro & Economy": 93,
+      "Investment Banking & Deals": 155,
+      "Real Estate & REITs": 72,
+      "Earnings & Results": 144,
+      "Tech & Fintech": 161
     }
   },
   {

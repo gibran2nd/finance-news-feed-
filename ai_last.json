@@ -4,47 +4,38 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11615,
-   "output_tokens": 1380,
-   "cost_usd": 0.00185
+   "input_tokens": 12402,
+   "output_tokens": 1844,
+   "cost_usd": 0.00216
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3232,
-   "output_tokens": 2225,
-   "cost_usd": 0.00144
+   "input_tokens": 3564,
+   "output_tokens": 2477,
+   "cost_usd": 0.00159
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "In one of the largest deals in tech history, Marvell buys Lumentum for $115B",
-   "Marvell’s AI Megadeal Hands Wall Street Multiple M&A Milestones"
+   "El Nino poses ’meaningful risk’ of higher inflation in 2027, SF Fed paper says",
+   "El Niño Could Raise US Inflation, Boost Jobs in 2027: Fed Study"
   ],
   [
    "Upcoming IPO: Coal India unit South Eastern Coalfields files papers – How much funds to be raised and other key facts",
-   "Coal India's arm files IPO papers with Sebi; promoter to offload shares",
-   "SECL IPO Moves Ahead as Coal India Files 10% Stake Sale Plan"
+   "Coal India's arm files IPO papers with Sebi; promoter to offload shares"
   ],
   [
-   "Alstom shares plunge after it cuts guidance, plans overhaul in second warning",
-   "European shares subdued as investors weigh Middle East talks; Alstom tanks"
-  ],
-  [
-   "U.S. Factory Activity Expands in October",
+   "Booming U.S. manufacturers can’t keep up with demand — and high inflation isn’t helping",
    "US Factory Activity Picks Up, Production Grows Most Since 2021"
-  ],
-  [
-   "Canadian manufacturing contracts for first time in 2026 as tariffs hit demand",
-   "Canada Manufacturing Sector PMI Slips Into Contraction Territory"
   ]
  ],
  "summaries": {
-  "requested": 26,
+  "requested": 29,
   "rejected_ungrounded": 0,
-  "applied": 26
+  "applied": 27
  },
- "generated": "2026-11-02T18:00+00:00",
- "total_cost_usd": 0.00329
+ "generated": "2026-11-02T21:22+00:00",
+ "total_cost_usd": 0.00375
 }
