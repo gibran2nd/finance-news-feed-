@@ -2,7 +2,7 @@
   {
     "week": "2026-W45",
     "label": "Week of November 2\u20136, 2026",
-    "generated": "2026-11-02T21:22:09.450652+00:00",
+    "generated": "2026-11-02T22:00:28.865767+00:00",
     "bullets": [
       {
         "headline": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
@@ -29,6 +29,12 @@
         "link": "https://www.investing.com/news/economy-news/alphabet-kicks-off-6-billion-bond-sale-tests-appetite-for-tech-debt-4991954"
       },
       {
+        "headline": "Upcoming IPO: Coal India unit South Eastern Coalfields files papers \u2013 How much funds to be raised and other key facts",
+        "source": "Livemint",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQZkZSTlVIbkR5VG5SWXhFMWxoVDFpcmhiYTk5SDJ6TXBnaE03VWVyM090NHRHZGV1MDc4WU9wSjdrUkNDaGFOU2xScTBzRndRMl8wTE1Yb0oySXpkRkkzOVo4Ym9NMi1XQVZlYmY3MWVudVVJdk9QRjRTSFR0OFhCOVhkdlZJM2sxc09tWTcyZDJMYjBOOURmdU50M21CUTYwMk1qWm8wV2lyQ2tzZW14cmRjZE40SjEycVVWNGZVemxDamhmaUpaS0txMzJ4M3VHWDFteVZRR0hsZ25FRU9UZmwza2lWRGd2RUM1Ti1RWl9LRVp3cmo3UUtQM2p1VmPSAYQCQVVfeXFMTU44MFlmR2FTUDVRTzV3YXNyM2FkN0cxQW9QVWp4dGJXcGN3YnN3WGxYS3I3RUF1UzRvU1lLM0dUYl9UWEtJOFJfY2hfQ2hwSkRzQXNWZnFGUnpmcG9hbUpfRWZFQlVZMlRHeHNvUmF3NlRyOEpwR2ludk1RWGF0TFg0UG5BaUpzRUh1dEZudzJIQkhLVng4R1ZpZzlCQlRZekNJMjhfV0VkTEswQU9CS1RTeDdfOEpMOUtaaE5vU3lINmY0d05OWTRTMnRDNHM2aWU2MnZURWFqTjNQUVZqRU9Yb0JLMlhiVVpUWFl5Mm1TOUZQR25rOHdJMGwwTGFXZ2QxSTg?oc=5"
+      },
+      {
         "headline": "Marriott Lifts Full-Year Outlook as RevPAR Growth Drives Third-Quarter Beat",
         "source": "Yahoo Finance",
         "section": "Earnings & Results",
@@ -41,25 +47,19 @@
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeGFLZXhfLVQ2TEZXWTlMcmVXaVBScUpteFp4ZHZxUnVJTkdHNnh0U0l2ZjFWZ0dNRlhINHBSb0d2YU5RWVpVV0ZfZ3hOWWhlRm5kckN3N1hyOVNjd2pKbm5DYlI4eTE5VHUwVXhuNF9VUWFrLWlzVGxtUXU3cW9JYXBRb0FiM2tsQk1oMk14TWdLVlJFcnpRT0Z6Z0Q?oc=5"
       },
       {
-        "headline": "How soon gas prices could go down now that oil is tumbling",
-        "source": "MarketWatch",
-        "section": "Macro & Economy",
-        "link": "https://www.marketwatch.com/story/how-soon-gas-prices-could-go-down-now-that-oil-is-tumbling-a1140dc2?mod=mw_rss_topstories"
-      },
-      {
-        "headline": "Bank of England set to raise rates to 4% in push to quell inflation",
-        "source": "FT",
-        "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQV1dtRFFpVXU3ZkM4b1RrUU10VDM0R0VjcWY1b09pZ0ZWUzE2Ym9OZVIxT2hBMDRLU0k0S0tsSVlwU3FIX2NMODNlWENHbHpvZ1pEWUJMQS1FSVRJeGFwakt2UEVVanhIU3NqTktnS1BhWDlTMVdraDJLaU5LLW03dnlRbHk?oc=5"
+        "headline": "PREVIEW Apple's new CEO Ternus to face first earnings test as memory costs surge",
+        "source": "Reuters",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTUl3TDYxM3pONVd4QUM2TVlWdnRRY28tSnNuN1YwT3JibW1hX1hsYTByY3dJcURaLW56QXc3dVU3WlFaOXlLOXJjd09MTVZtNWxKam1WRlh2THFxSHJobUdnc1hQNVJTaDNULTNGcGhMTVg0b2piUDRNdnUwOXhpQ0U1cTI2Zzg1VV94MXhxYmhHdlBJcW04OU9mVHJGVXAxdFpPQVZVUGJNa3h1UmhGM2xTajV3bkJfQnRBeFk5bjZwNGxJ?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 188,
-      "Macro & Economy": 93,
-      "Investment Banking & Deals": 155,
-      "Real Estate & REITs": 72,
-      "Earnings & Results": 144,
-      "Tech & Fintech": 161
+      "Stock Market & Equities": 204,
+      "Macro & Economy": 94,
+      "Investment Banking & Deals": 167,
+      "Real Estate & REITs": 77,
+      "Earnings & Results": 178,
+      "Tech & Fintech": 181
     }
   },
   {

@@ -4,38 +4,43 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 12402,
-   "output_tokens": 1844,
-   "cost_usd": 0.00216
+   "input_tokens": 12190,
+   "output_tokens": 1645,
+   "cost_usd": 0.00204
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3564,
-   "output_tokens": 2477,
-   "cost_usd": 0.00159
+   "input_tokens": 3649,
+   "output_tokens": 4071,
+   "cost_usd": 0.0024
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "El Nino poses ’meaningful risk’ of higher inflation in 2027, SF Fed paper says",
-   "El Niño Could Raise US Inflation, Boost Jobs in 2027: Fed Study"
+   "Apple earnings beat by $0.11, revenue topped estimates",
+   "Apple Beats Wall Street Expectations With Boost From Higher Prices"
+  ],
+  [
+   "Palantir raises full-year outlook after third-quarter revenue jumps 96%",
+   "Palantir earnings reveal a major AI turning point"
+  ],
+  [
+   "Oil Tumbles, but Stocks Fail To Launch",
+   "In one of the largest deals in tech history, Marvell buys Lumentum for $115B"
   ],
   [
    "Upcoming IPO: Coal India unit South Eastern Coalfields files papers – How much funds to be raised and other key facts",
-   "Coal India's arm files IPO papers with Sebi; promoter to offload shares"
-  ],
-  [
-   "Booming U.S. manufacturers can’t keep up with demand — and high inflation isn’t helping",
-   "US Factory Activity Picks Up, Production Grows Most Since 2021"
+   "SECL IPO Moves Ahead as Coal India Files 10% Stake Sale Plan",
+   "SECL Files DRHP with SEBI for Proposed IPO"
   ]
  ],
  "summaries": {
-  "requested": 29,
+  "requested": 30,
   "rejected_ungrounded": 0,
-  "applied": 27
+  "applied": 26
  },
- "generated": "2026-11-02T21:22+00:00",
- "total_cost_usd": 0.00375
+ "generated": "2026-11-02T22:00+00:00",
+ "total_cost_usd": 0.00444
 }
