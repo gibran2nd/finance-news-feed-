@@ -4,63 +4,47 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11414,
-   "output_tokens": 1725,
-   "cost_usd": 0.002
+   "input_tokens": 11615,
+   "output_tokens": 1380,
+   "cost_usd": 0.00185
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2750,
-   "output_tokens": 2717,
-   "cost_usd": 0.00163
+   "input_tokens": 3232,
+   "output_tokens": 2225,
+   "cost_usd": 0.00144
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Marvell to buy Lumentum in $115 billion deal in AI data-center bet",
+   "In one of the largest deals in tech history, Marvell buys Lumentum for $115B",
    "Marvell’s AI Megadeal Hands Wall Street Multiple M&A Milestones"
   ],
   [
-   "Anthropic releases amended IPO prospectus with third-quarter financials",
-   "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1"
-  ],
-  [
-   "Coal India files DRHP to sell 10% stake in subsidiary SECL through IPO",
-   "Coal India files draft red herring prospectus for South Eastern Coalfields IPO",
-   "Coal India's arm files IPO papers with Sebi; promoter to offload shares"
+   "Upcoming IPO: Coal India unit South Eastern Coalfields files papers – How much funds to be raised and other key facts",
+   "Coal India's arm files IPO papers with Sebi; promoter to offload shares",
+   "SECL IPO Moves Ahead as Coal India Files 10% Stake Sale Plan"
   ],
   [
    "Alstom shares plunge after it cuts guidance, plans overhaul in second warning",
-   "Alstom plunges as it slashes outlook second time in 2026"
+   "European shares subdued as investors weigh Middle East talks; Alstom tanks"
   ],
   [
-   "Estee Lauder Lifts Full-Year Outlook Following Fiscal First-Quarter Beat",
-   "Estee Lauder Posts Higher Profit, Sales as Turnaround Bears Fruit"
+   "U.S. Factory Activity Expands in October",
+   "US Factory Activity Picks Up, Production Grows Most Since 2021"
   ],
   [
-   "Reliance Industries Surges Most in Nine Months on Earnings Beat",
-   "India's Reliance posts best day in over six years as oil business, Jio Platforms lift outlook"
-  ],
-  [
-   "Bank of England poised to raise rates but may push back on bets for more",
-   "BOE to Raise Rates for First Time Since 2023, Survey Shows"
-  ],
-  [
-   "Temperature soars at Swedish grocery store freezers, one store blames hackers",
-   "Belgian, Swedish Supermarkets Report New Suspected Freezer Hack"
-  ],
-  [
-   "EAAA India Alternatives IPO Listing Today: Check Share Price and Listing Gains",
-   "EAAA India Alternatives makes flat debut; shares list at 0.63% premium to IPO price"
+   "Canadian manufacturing contracts for first time in 2026 as tariffs hit demand",
+   "Canada Manufacturing Sector PMI Slips Into Contraction Territory"
   ]
  ],
  "summaries": {
-  "requested": 22,
+  "requested": 26,
   "rejected_ungrounded": 0,
-  "applied": 21
+  "applied": 26
  },
- "generated": "2026-11-02T15:00+00:00",
- "total_cost_usd": 0.00363
+ "generated": "2026-11-02T18:00+00:00",
+ "total_cost_usd": 0.00329
 }

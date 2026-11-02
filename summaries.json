@@ -2,13 +2,31 @@
   {
     "week": "2026-W45",
     "label": "Week of November 2\u20136, 2026",
-    "generated": "2026-11-02T15:00:48.822990+00:00",
+    "generated": "2026-11-02T18:00:28.448593+00:00",
     "bullets": [
       {
-        "headline": "Marvell to buy Lumentum in all-stock deal, a massive bet on AI connectivity",
+        "headline": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet",
+        "source": "Reuters",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelFpUlRuWUdrd3oyYkZTNkxFMW9mQlBTY01YTl9ERVRsYTc1VGNWQjR1VF90aEcwY01sTDNXN3NiWVBZNTY4aGVFSlR3WlBlb0laSkptRS1EMF9fMGlna1BXSVExN2dFVGlTNWMyQzYyM1RsYm5pMGxXOWxhbmp1UGRYVjk3RVA0b25WWVZPcFZMS05IOE1CTUgzY1BsQWY3MW5DbDF1bGs1M185UlM4cjlB?oc=5"
+      },
+      {
+        "headline": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
         "source": "CNBC",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/11/02/marvell-lumentum-ai-deal.html"
+        "link": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+      },
+      {
+        "headline": "Oracle Kicks Off $20 Billion Capital Raise for AI Plan",
+        "source": "Bloomberg",
+        "section": "Tech & Fintech",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/oracle-is-offering-10-billion-of-high-grade-dollar-bonds"
+      },
+      {
+        "headline": "Marriott Lifts Full-Year Outlook as RevPAR Growth Drives Third-Quarter Beat",
+        "source": "Yahoo Finance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZkxvbDV5eS1nRVhkeTZnMTh6MkVNSFQxbUlmRklwVGxyVDBsTEdNT1NsTDNtcTQzWkJnbTVXdWZrQ3ZxT2ZQRVpaRl9QeWlLYjdzN0E2OVhEb0p0cGpEWWkybmozSjN4N2stZnVvdDJ2amUzUzVocUZLVl9uRzQ5OUZQMHotb0l3SV9lNnQxZVd1d1EybFFUcEh3cHlhSlZh?oc=5"
       },
       {
         "headline": "Binance users withdraw $5bn in wake of hack",
@@ -17,49 +35,31 @@
         "link": "https://www.finextra.com/newsarticle/48683/binance-users-withdraw-5bn-in-wake-of-hack?utm_medium=rssfinextra&utm_source=finextrafeed"
       },
       {
-        "headline": "Abu Dhabi's ADNOC, G42 sign deal with OpenAI as Sam Altman travels to UAE",
-        "source": "Reuters",
-        "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTWMxZGNac0g1UDJOemxSbHJnU1g4cllCaWZxdzJEWVBIU2R6aG83R2RlMk9HV19ZTmYxSUMzRjBJU19pbXN6QWV6bHJCQXlJYlFRVEdEVFVQRFl3cTREcWlGUU5aOHc1VDRWQTIxZk0wWHo2a1F0MVZhTWp6VXRPUHQ4TjlONXE2LTc1UEVBY1VYYW56V3IyeFJnNWQwUnppaTNYc1ROTTgzZXN3WTg5SXJscm5BOHZD?oc=5"
+        "headline": "U.S. Treasury, European Bond Yields Fall as Oil Prices Drop",
+        "source": "WSJ",
+        "section": "Macro & Economy",
+        "link": "https://www.wsj.com/finance/investing/treasury-yields-little-changed-in-asian-trade-ahead-of-midterms-key-data-this-week-c5a1fdb3?mod=rss_markets_main"
       },
       {
-        "headline": "Anthropic Set For Mega IPO: World's Biggest Listings Ranked",
-        "source": "NDTV",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV2s3SnRKcEZUTVBVMk9JdkEtem5Ec1VWb1NWUmtkS01UR0VIdjVJeGdGRENkRmVveHNpV01uTEFFODF3WEdacHQxTk80eTNBMlBYWDUzWVdfcFRSTzluVDJ2NjlNNWc4M29UT1pGWktmVmJhQVB3NEhmWS1zakhpaEViRU1zaDV4ZmZ3RXJkYjlueVh0ZXB5amFZRnZaMWvSAacBQVVfeXFMUEttZlY1eTRmQ1FqMlRNVmdDY3pzakpvMTdZeHpSTy14Rl9BVVNKdzROVjVDU3MxaEZIblFpRW1FLVR0VGZxbEJaVWlzYlZqTVl0aWYzdjFNQmprZzhQOXFkei11NTMzWks0UWF3b0J2Z0ZlQzFiTmNxdzhyMUh3ZHNDNFB6d2F1LUN0cTRxT1dNNmRBQjRpeFo4cFNuT1VyQlpwTnB3U1k?oc=5"
-      },
-      {
-        "headline": "Alphabet kicks off \u20ac6 billion bond sale, tests appetite for tech debt",
+        "headline": "Bank of England poised to raise rates but may push back on bets for more",
         "source": "Investing.com",
-        "section": "Stock Market & Equities",
-        "link": "https://www.investing.com/news/economy-news/alphabet-kicks-off-6-billion-bond-sale-tests-appetite-for-tech-debt-4991954"
+        "section": "Macro & Economy",
+        "link": "https://www.investing.com/news/economy-news/bank-of-england-poised-to-raise-rates-but-may-push-back-on-bets-for-more-4989788"
       },
       {
-        "headline": "Blackstone leads $3.1bn investment in LNG Canada stake",
-        "source": "Financial-News.co.uk",
+        "headline": "OPay IPO: NYSE Listing Halted Amid Regulatory Inquiry",
+        "source": "Blueprint Newspapers",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNV3ZKOFctVHBsZmJRUjVSZllCR05OZGtpNVYtbllFVi1XeWo4Si1nYm9hT1BWRVFwYzVLMTNuaF9PMWk2aFlSMFplbnZxVXhQa21QZ2txb0poVTZtSVlRNmszUW52TmFLbVNoZmludVo5U3ZWMmx4am1iN2d0MFIyeDJPSTFQOXpzUG01UXdhVWI?oc=5"
-      },
-      {
-        "headline": "Apple\u2019s $1 Trillion Rally Leaves No Room for Error on Earnings",
-        "source": "Bloomberg",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTjc5RkZlVlNFVy1jRUNDbnhCZGJLd3JWTWVMMnV6LUlWaUpxNWFNSmRrTFVWMmFwaDVmSERlTTlVdzZEVHJmVmViemgzMnB3dXBha01ZeXg2a2ZNNEQ5dzN3RWgyQktQVFRYZnRkWko4aTduQjliWTljSmQzYlBiSnJWSU5POVZtRVNtNnBGc2NEc3lFVEs1Y2l5QXpZa1p4bndfcUFaU1VIVVp0NFF0XzlB?oc=5"
-      },
-      {
-        "headline": "Oracle\u2019s stock falls as the company details plan to raise $20 billion",
-        "source": "MarketWatch",
-        "section": "Tech & Fintech",
-        "link": "https://www.marketwatch.com/story/oracles-stock-falls-as-the-company-details-plan-to-raise-20-billion-f03f5e16?mod=mw_rss_topstories"
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ER1Fxbl9VUWNPU2JLLXJabGNMeks1Z3JJVlROME12TWd0cHN3TEF2QzZzcThFWHpfRXlQVjBPREpLQUVObmxTZFhLQkREN2VCa0k2UlpfTm1lM0Y0LUhuR2ZWRWFvV0V4V29NNUlR?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 131,
-      "Macro & Economy": 65,
-      "Investment Banking & Deals": 105,
-      "Real Estate & REITs": 22,
-      "Earnings & Results": 85,
-      "Tech & Fintech": 107
+      "Stock Market & Equities": 166,
+      "Macro & Economy": 80,
+      "Investment Banking & Deals": 133,
+      "Real Estate & REITs": 48,
+      "Earnings & Results": 111,
+      "Tech & Fintech": 133
     }
   },
   {
