@@ -4,56 +4,65 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11841,
-   "output_tokens": 2197,
-   "cost_usd": 0.00228
+   "input_tokens": 11356,
+   "output_tokens": 1673,
+   "cost_usd": 0.00197
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2906,
-   "output_tokens": 3197,
-   "cost_usd": 0.00189
+   "input_tokens": 3131,
+   "output_tokens": 1834,
+   "cost_usd": 0.00123
   }
  ],
  "errors": [],
  "merge_groups": [
+  [
+   "Binance breach puts custody at center of crypto infrastructure trade",
+   "Binance says hackers used fake job interviews and AI tools in $6.3bn hack"
+  ],
+  [
+   "AMD stock jumps 7% on earnings as data center revenue nearly doubles",
+   "AMD forecasts quarterly revenue above estimates as data-center growth accelerates",
+   "AMD Sales Forecast Tops Estimates on Soaring AI Chip Demand"
+  ],
   [
    "Pfizer raises 2026 forecasts as Eliquis, cancer drugs drive third-quarter results",
    "Pfizer Raises Full-Year Outlook Following Third-Quarter Beat",
    "Pfizer hikes full-year outlook as newer products grow, taps company veteran as new CFO"
   ],
   [
-   "Apple is falling on its latest earnings report. Why most analysts still like the stock",
-   "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test",
-   "Apple margin outlook pressures tech as reported U.S. strike lifts oil"
+   "Ferrari lifts forecasts after outperformance, Luce EV demand strong",
+   "Ferrari raises 2026 guidance after Q3 earnings beat"
   ],
   [
-   "Palantir shares retreat despite U.S. commercial sales spike",
-   "Palantir is dropping on earnings. Wall Street analysts remain bullish",
-   "PLTR Beats on Q3 Earnings and Raises Guidance: Is the Stock a Buy?"
+   "Apple margin outlook pressures tech as reported U.S. strike lifts oil",
+   "Stocks Are Mixed After Apple Earnings Disappoint",
+   "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test"
   ],
   [
-   "Shopify falls 7% after Q3 revenue and merchandise volume miss estimates",
-   "Shopify Stock Plunges. Slowing Merchandise Sales Flash a Warning Sign."
+   "Block raises full-year profit outlook as Cash App drives Q3 growth",
+   "Jack Dorsey’s Block Modestly Beats Third-Quarter Expectations"
   ],
   [
-   "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
-   "US Job Openings Jump to Four-Month High, Layoffs Decline",
-   "U.S. jobs market perks up, but it’s still not a great time to get hired",
-   "Heat returns to US labour market in latest official turnover figures",
-   "Treasuries Fall Amid Oil Price Swings, Strong Job Openings Data"
+   "Meta seeks to raise up to $25 billion in debt sale as AI spending jumps",
+   "Meta Seeks $15 Billion From US Dollar Portion of Bond Offering"
   ],
   [
-   "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
-   "Trading on US Stock Perpetuals Contracts Is Approved by CFTC"
+   "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
+   "Palantir shares retreat despite U.S. commercial sales spike"
+  ],
+  [
+   "BLS Polymers Share Price: 65% IPO Listing Gain, Outlook",
+   "BLS Polymers, SFC Environmental Tech shares make strong D-Street debut, hits upper circuit level"
   ]
  ],
  "summaries": {
-  "requested": 23,
+  "requested": 25,
   "rejected_ungrounded": 0,
-  "applied": 18
+  "applied": 23
  },
- "generated": "2026-11-03T18:59+00:00",
- "total_cost_usd": 0.00417
+ "generated": "2026-11-03T22:00+00:00",
+ "total_cost_usd": 0.0032
 }
