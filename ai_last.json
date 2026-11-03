@@ -4,46 +4,38 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11359,
-   "output_tokens": 1410,
-   "cost_usd": 0.00184
+   "input_tokens": 11841,
+   "output_tokens": 2197,
+   "cost_usd": 0.00228
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3076,
-   "output_tokens": 3492,
-   "cost_usd": 0.00205
+   "input_tokens": 2906,
+   "output_tokens": 3197,
+   "cost_usd": 0.00189
   }
  ],
  "errors": [],
  "merge_groups": [
-  [
-   "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test",
-   "Apple is falling on its latest earnings report. Why most analysts still like the stock",
-   "Apple margin outlook pressures tech as reported U.S. strike lifts oil"
-  ],
   [
    "Pfizer raises 2026 forecasts as Eliquis, cancer drugs drive third-quarter results",
    "Pfizer Raises Full-Year Outlook Following Third-Quarter Beat",
    "Pfizer hikes full-year outlook as newer products grow, taps company veteran as new CFO"
   ],
   [
+   "Apple is falling on its latest earnings report. Why most analysts still like the stock",
+   "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test",
+   "Apple margin outlook pressures tech as reported U.S. strike lifts oil"
+  ],
+  [
    "Palantir shares retreat despite U.S. commercial sales spike",
-   "Palantir is dropping on earnings. Wall Street analysts remain bullish"
+   "Palantir is dropping on earnings. Wall Street analysts remain bullish",
+   "PLTR Beats on Q3 Earnings and Raises Guidance: Is the Stock a Buy?"
   ],
   [
    "Shopify falls 7% after Q3 revenue and merchandise volume miss estimates",
-   "Shopify Stock Plunges. Slowing Merchandise Sales Flash a Warning Sign.",
-   "Shopify’s stock slides after earnings. This is what’s worrying Wall Street."
-  ],
-  [
-   "Ferrari raises 2026 guidance after Q3 earnings beat",
-   "Ferrari Lifts Guidance Again on Strong Demand for Car Customizations"
-  ],
-  [
-   "Marvell-Lumentum Deal Puts Optical Networking at the Center of the AI Boom",
-   "Marvell and Lumentum shareholders unite in panning merger deal: ‘It’s a trash offer’"
+   "Shopify Stock Plunges. Slowing Merchandise Sales Flash a Warning Sign."
   ],
   [
    "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
@@ -53,15 +45,15 @@
    "Treasuries Fall Amid Oil Price Swings, Strong Job Openings Data"
   ],
   [
-   "Australia's central bank lifts rates to 18-year high, split vote points to pause ahead",
-   "Australia raises rates to highest level since 2008 financial crisis"
+   "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
+   "Trading on US Stock Perpetuals Contracts Is Approved by CFTC"
   ]
  ],
  "summaries": {
-  "requested": 24,
+  "requested": 23,
   "rejected_ungrounded": 0,
-  "applied": 22
+  "applied": 18
  },
- "generated": "2026-11-03T18:00+00:00",
- "total_cost_usd": 0.00389
+ "generated": "2026-11-03T18:59+00:00",
+ "total_cost_usd": 0.00417
 }
