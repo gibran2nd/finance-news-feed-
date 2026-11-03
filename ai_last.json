@@ -4,59 +4,65 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 10957,
-   "output_tokens": 1806,
-   "cost_usd": 0.002
+   "input_tokens": 11176,
+   "output_tokens": 1514,
+   "cost_usd": 0.00187
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2148,
-   "output_tokens": 2258,
-   "cost_usd": 0.00134
+   "input_tokens": 2799,
+   "output_tokens": 2748,
+   "cost_usd": 0.00165
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "North Korea denies role in $6.4 billion Binance hack after FBI points to TraderTraitor",
-   "Binance co-CEO says company is in very strong financial health after $6.3 billion heist"
+   "UK investors set to be offered shares in Anthropic's stock market debut - but could face SpaceX-style scramble",
+   "Anthropic’s proposed IPO: what the S-1 sets out"
+  ],
+  [
+   "Palantir is dropping on earnings. Wall Street analysts remain bullish",
+   "Palantir shares retreat despite U.S. commercial sales spike",
+   "Palantir Growth Slows From Breakneck Pace"
+  ],
+  [
+   "Pfizer Raises Full-Year Outlook Following Third-Quarter Beat",
+   "Pfizer hikes full-year outlook as newer products grow, taps company veteran as new CFO"
+  ],
+  [
+   "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test",
+   "Apple is falling on its latest earnings report. Why most analysts still like the stock",
+   "Apple margin outlook pressures tech as reported U.S. strike lifts oil"
   ],
   [
    "Marvell-Lumentum Deal Puts Optical Networking at the Center of the AI Boom",
    "Marvell and Lumentum shareholders unite in panning merger deal: ‘It’s a trash offer’"
   ],
   [
-   "Carlyle and PAI Partners agree to sell Theramex to Cinven",
-   "Cinven to acquire Theramex",
-   "Cinven to buy menopause specialist Theramex in €2.6bn deal"
+   "Marathon beats quarterly estimates, to sell two refineries to CVR Energy",
+   "Marathon Petroleum earnings beat by $1.55, revenue topped estimates"
   ],
   [
-   "Australia raises rates to highest level since 2008 financial crisis",
-   "Australia's central bank lifts rates to 18-year high, split vote points to pause ahead"
+   "Shopify tanks 10% on Q3 GMV miss, in-line revenue",
+   "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.",
+   "Shopify Plunges as Revenue Misses for First Time Since 2022"
   ],
   [
-   "Apple margin outlook pressures tech as reported U.S. strike lifts oil",
-   "Apple forecasts rising costs, lower services; shares slip"
+   "BLS Polymers Share Price: 65% IPO Listing Gain, Outlook",
+   "Blockbuster IPO debut of BLS Polymers; 3 times premium as compared to Jio Platforms - All details for investors here"
   ],
   [
-   "Pfizer earnings beat by $0.14, revenue topped estimates",
-   "Pfizer increases annual profit forecast amid solid demand for blood thinner drug"
-  ],
-  [
-   "Dynatrace shares tumble 16% on disappointing guidance outlook",
-   "Dynatrace Inc earnings beat by $0.05, revenue topped estimates"
-  ],
-  [
-   "Brussels sets tight deadline for ECB president nominations",
-   "Eurogroup Calls for ECB Presidency Nominations by Nov. 6"
+   "Australia's central bank lifts rates to 18-year high, split vote points to pause ahead",
+   "Australia raises rates to highest level since 2008 financial crisis"
   ]
  ],
  "summaries": {
-  "requested": 16,
+  "requested": 23,
   "rejected_ungrounded": 0,
-  "applied": 14
+  "applied": 20
  },
- "generated": "2026-11-03T12:00+00:00",
- "total_cost_usd": 0.00334
+ "generated": "2026-11-03T15:00+00:00",
+ "total_cost_usd": 0.00352
 }
