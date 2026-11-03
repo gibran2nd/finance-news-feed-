@@ -2,7 +2,7 @@
   {
     "week": "2026-W45",
     "label": "Week of November 2\u20136, 2026",
-    "generated": "2026-11-03T01:00:30.599712+00:00",
+    "generated": "2026-11-03T12:00:27.212379+00:00",
     "bullets": [
       {
         "headline": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
@@ -19,7 +19,7 @@
       {
         "headline": "Apple posts stronger-than-expected Q4 revenue in first earnings report for new CEO John Ternus",
         "source": "AP",
-        "section": "Stock Market & Equities",
+        "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORkdnaXhpT3R6WTFYekZBTHdhMWZqV1k1TmpydGQxTnhLTUdyZktPbjFNSE15UXRHTzB6YzNBX19nVkZNX2dLbUdsSEh5WFBQNFFvdkV1amJqU2hSSTRPQU9FWHZONnZqU1p5U2haMnhXZjZZMUJzTjZGY3oxU1puUHBRNGJYaUg1eFhVUGEzZFZ6Zw?oc=5"
       },
       {
@@ -35,31 +35,31 @@
         "link": "https://www.investing.com/news/economy-news/alphabet-kicks-off-6-billion-bond-sale-tests-appetite-for-tech-debt-4991954"
       },
       {
+        "headline": "Binance Heist: \u2018Welcome to Our World,\u2019 CISOs Say",
+        "source": "WSJ",
+        "section": "Tech & Fintech",
+        "link": "https://www.wsj.com/pro/cybersecurity/binance-heist-welcome-to-our-world-cisos-say-1b40a4e7?mod=rss_markets_main"
+      },
+      {
         "headline": "Marriott Lifts Full-Year Outlook as RevPAR Growth Drives Third-Quarter Beat",
         "source": "Yahoo Finance",
         "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZkxvbDV5eS1nRVhkeTZnMTh6MkVNSFQxbUlmRklwVGxyVDBsTEdNT1NsTDNtcTQzWkJnbTVXdWZrQ3ZxT2ZQRVpaRl9QeWlLYjdzN0E2OVhEb0p0cGpEWWkybmozSjN4N2stZnVvdDJ2amUzUzVocUZLVl9uRzQ5OUZQMHotb0l3SV9lNnQxZVd1d1EybFFUcEh3cHlhSlZh?oc=5"
       },
       {
-        "headline": "Palantir raises full-year outlook after third-quarter revenue jumps 96%",
-        "source": "Proactive financial news",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdHhrYlZYeklrZWt6RTBrSk1MZnphcmxuOEw5OFlFZDZaUmpORFBYZkhjVnYyR0llRDNoSDBWYUpTUXR5cml0bm5FSlZxNnJiSFA1VFFMWGpvMDlWNTRvb2JKUnB3OTlMbklnMUY5SGFrOXFOYzJDM3FqU1h4dXU4d0lfbmlPeXJlRkJwZ2UzUFVfMjViZThnS0JKM2J4YjBaTFpqanNtV2g4TmlmdThBRnR6M2lXUTlUeE1xeGdrYXZLSkVqc3ZWN2EtdjdlWDNFVnoxZ1VWR0M?oc=5"
-      },
-      {
-        "headline": "Bankers swing to negative view on funding costs: Survey; $6B Binance heist provokes stablecoin freeze dilemma\u2014and more in Bankers' Hours",
-        "source": "LinkedIn",
-        "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeGFLZXhfLVQ2TEZXWTlMcmVXaVBScUpteFp4ZHZxUnVJTkdHNnh0U0l2ZjFWZ0dNRlhINHBSb0d2YU5RWVpVV0ZfZ3hOWWhlRm5kckN3N1hyOVNjd2pKbm5DYlI4eTE5VHUwVXhuNF9VUWFrLWlzVGxtUXU3cW9JYXBRb0FiM2tsQk1oMk14TWdLVlJFcnpRT0Z6Z0Q?oc=5"
+        "headline": "The election will be good news, regardless of outcome, says Morgan Stanley\u2019s chief stock-market strategist",
+        "source": "MarketWatch",
+        "section": "Stock Market & Equities",
+        "link": "https://www.marketwatch.com/story/the-election-will-be-good-news-regardless-of-outcome-says-morgan-stanleys-chief-stock-market-strategist-ffa320ed?mod=mw_rss_topstories"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 228,
-      "Macro & Economy": 114,
-      "Investment Banking & Deals": 192,
-      "Real Estate & REITs": 86,
-      "Earnings & Results": 210,
-      "Tech & Fintech": 199
+      "Stock Market & Equities": 303,
+      "Macro & Economy": 175,
+      "Investment Banking & Deals": 255,
+      "Real Estate & REITs": 107,
+      "Earnings & Results": 284,
+      "Tech & Fintech": 255
     }
   },
   {
