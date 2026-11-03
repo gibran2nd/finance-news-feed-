@@ -4,54 +4,53 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11176,
-   "output_tokens": 1514,
-   "cost_usd": 0.00187
+   "input_tokens": 11359,
+   "output_tokens": 1410,
+   "cost_usd": 0.00184
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2799,
-   "output_tokens": 2748,
-   "cost_usd": 0.00165
+   "input_tokens": 3076,
+   "output_tokens": 3492,
+   "cost_usd": 0.00205
   }
  ],
  "errors": [],
  "merge_groups": [
-  [
-   "UK investors set to be offered shares in Anthropic's stock market debut - but could face SpaceX-style scramble",
-   "Anthropic’s proposed IPO: what the S-1 sets out"
-  ],
-  [
-   "Palantir is dropping on earnings. Wall Street analysts remain bullish",
-   "Palantir shares retreat despite U.S. commercial sales spike",
-   "Palantir Growth Slows From Breakneck Pace"
-  ],
-  [
-   "Pfizer Raises Full-Year Outlook Following Third-Quarter Beat",
-   "Pfizer hikes full-year outlook as newer products grow, taps company veteran as new CFO"
-  ],
   [
    "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test",
    "Apple is falling on its latest earnings report. Why most analysts still like the stock",
    "Apple margin outlook pressures tech as reported U.S. strike lifts oil"
   ],
   [
+   "Pfizer raises 2026 forecasts as Eliquis, cancer drugs drive third-quarter results",
+   "Pfizer Raises Full-Year Outlook Following Third-Quarter Beat",
+   "Pfizer hikes full-year outlook as newer products grow, taps company veteran as new CFO"
+  ],
+  [
+   "Palantir shares retreat despite U.S. commercial sales spike",
+   "Palantir is dropping on earnings. Wall Street analysts remain bullish"
+  ],
+  [
+   "Shopify falls 7% after Q3 revenue and merchandise volume miss estimates",
+   "Shopify Stock Plunges. Slowing Merchandise Sales Flash a Warning Sign.",
+   "Shopify’s stock slides after earnings. This is what’s worrying Wall Street."
+  ],
+  [
+   "Ferrari raises 2026 guidance after Q3 earnings beat",
+   "Ferrari Lifts Guidance Again on Strong Demand for Car Customizations"
+  ],
+  [
    "Marvell-Lumentum Deal Puts Optical Networking at the Center of the AI Boom",
    "Marvell and Lumentum shareholders unite in panning merger deal: ‘It’s a trash offer’"
   ],
   [
-   "Marathon beats quarterly estimates, to sell two refineries to CVR Energy",
-   "Marathon Petroleum earnings beat by $1.55, revenue topped estimates"
-  ],
-  [
-   "Shopify tanks 10% on Q3 GMV miss, in-line revenue",
-   "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.",
-   "Shopify Plunges as Revenue Misses for First Time Since 2022"
-  ],
-  [
-   "BLS Polymers Share Price: 65% IPO Listing Gain, Outlook",
-   "Blockbuster IPO debut of BLS Polymers; 3 times premium as compared to Jio Platforms - All details for investors here"
+   "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
+   "US Job Openings Jump to Four-Month High, Layoffs Decline",
+   "U.S. jobs market perks up, but it’s still not a great time to get hired",
+   "Heat returns to US labour market in latest official turnover figures",
+   "Treasuries Fall Amid Oil Price Swings, Strong Job Openings Data"
   ],
   [
    "Australia's central bank lifts rates to 18-year high, split vote points to pause ahead",
@@ -59,10 +58,10 @@
   ]
  ],
  "summaries": {
-  "requested": 23,
+  "requested": 24,
   "rejected_ungrounded": 0,
-  "applied": 20
+  "applied": 22
  },
- "generated": "2026-11-03T15:00+00:00",
- "total_cost_usd": 0.00352
+ "generated": "2026-11-03T18:00+00:00",
+ "total_cost_usd": 0.00389
 }
