@@ -4,57 +4,53 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11359,
-   "output_tokens": 1507,
-   "cost_usd": 0.00189
+   "input_tokens": 10784,
+   "output_tokens": 1969,
+   "cost_usd": 0.00206
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3317,
-   "output_tokens": 2253,
-   "cost_usd": 0.00146
+   "input_tokens": 1895,
+   "output_tokens": 938,
+   "cost_usd": 0.00066
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "AMD stock jumps 7% on earnings as data center revenue nearly doubles",
-   "AMD forecasts quarterly revenue above estimates as data-center growth accelerates",
-   "AMD Sales Forecast Tops Estimates on Soaring AI Chip Demand"
+   "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
+   "Eurozone Inflation Rises to 4%, Driven by Energy Costs",
+   "Euro Stays Higher Vs Dollar After Eurozone Inflation Data"
   ],
   [
-   "Palantir is dropping on earnings. Wall Street analysts remain bullish",
-   "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
-   "Palantir shares retreat despite U.S. commercial sales spike"
+   "Novo shares jump as Wegovy pill sales impress, drugmaker hikes outlook",
+   "Novo raises full-year outlook on continued GLP-1 momentum",
+   "Beleaguered Novo offers relief to investors, thanks to Wegovy pill"
   ],
   [
-   "Binance breach puts custody at center of crypto infrastructure trade",
-   "Binance says hackers used fake job interviews and AI tools in $6.3bn hack"
+   "Cyberattackers Drain Money From French Bank Credit Mutuel Arkea",
+   "ZachXBT names French bank Crédit Mutuel Arkéa as suspected victim of $133 million crypto theft"
   ],
   [
-   "Stocks Are Mixed After Apple Earnings Disappoint",
-   "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test",
-   "Apple margin outlook pressures tech as reported U.S. strike lifts oil"
+   "Stock Futures Rally, Treasurys Strengthen After Democratic Sweep",
+   "US stock futures rise as investors assess Democrats' midterm sweep",
+   "Stocks rebound after Democrats’ sweep"
   ],
   [
-   "Pfizer raises 2026 forecasts as Eliquis, cancer drugs drive third-quarter results",
-   "Pfizer hikes full-year outlook as newer products grow, taps company veteran as new CFO"
+   "Gold gains 3% as dollar slides after Democratic midterm gains",
+   "Gold Climbs on Softer Dollar, Falling Treasury Yields After U.S. Midterms"
   ],
   [
-   "Ferrari lifts forecasts after outperformance, Luce EV demand strong",
-   "Ferrari raises 2026 guidance after Q3 earnings beat"
-  ],
-  [
-   "Meta seeks to raise up to $25 billion in debt sale as AI spending jumps",
-   "Meta Seeks $15 Billion From US Dollar Portion of Bond Offering"
+   "BMW takes second profit warning in stride as it ramps up cuts",
+   "BMW reports lower Q3 earnings as restructuring spells more pain towards end of year"
   ]
  ],
  "summaries": {
-  "requested": 28,
+  "requested": 14,
   "rejected_ungrounded": 0,
-  "applied": 27
+  "applied": 11
  },
- "generated": "2026-11-04T01:00+00:00",
- "total_cost_usd": 0.00335
+ "generated": "2026-11-04T12:00+00:00",
+ "total_cost_usd": 0.00272
 }

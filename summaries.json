@@ -2,13 +2,13 @@
   {
     "week": "2026-W45",
     "label": "Week of November 2\u20136, 2026",
-    "generated": "2026-11-04T01:00:27.567166+00:00",
+    "generated": "2026-11-04T12:00:28.454378+00:00",
     "bullets": [
       {
-        "headline": "Anthropic Hit $17 Billion In Third Quarter Revenue Ahead Of IPO\u2014But AI Spending Commitments Hit $900 Billion",
-        "source": "Forbes Middle East",
+        "headline": "Anthropic Reports $17 Billion Quarterly Revenue Ahead of IPO",
+        "source": "PYMNTS.com",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPODJEVUNabWlteGYyT2x0MjdWVjZaeDI1T3F0Z2hZY29Lc0VHVDdvb05oM1VscmhNQ3dxaEIwdG5uNXVNU1ZYa3JweGR3enp3NVN4bWhNd1ZqbElwOHJtWjFfb3EzcmpNTkVWUkl2YUNvcFgxdnphM0Z0ODYzQ2tFbFQ4bGtzbnpqUk5ZaXVZOFg4MHJfS0UwUkVuNTZSY29VU3Uya19CSlRqUUZKeXc4OUVzNk5NU3VBYTlySTBzSlZxcUhnMnhyODJ0bHpsR0hVbktkbDRaZlN6amRJNEpMVmZlTXNneDJZeHNIV3pfbGNOeEs0TW1kSllqVzRvdlE0ZHFxWVZWSzNncG5sYXR6SlU1ZWVsX1hrY1hsNm9fTGdGdw?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQWRzQXZvQmJYNWJJWHZUNWs5TlBjT1Atb25uZnF6NW5xOGZ6aEhEcFNqS3g4NjA4NnFwRVl6LU1pak5MX2pBOU5Hb19GWC1TbFhIYWNZSTY3ZlVNOVc4WS1QZHAzRHRuM1EtMUcyZndJQ0RvUnZzR3hWMmU4WVNHQlR4SWZ5elVTSjVSZzZaUGR3Wl85RHRsa1RfNFlGdksyZjZ6Uw?oc=5"
       },
       {
         "headline": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet",
@@ -23,6 +23,12 @@
         "link": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html"
       },
       {
+        "headline": "South Eastern Coalfields files preliminary papers with SEBI for IPO",
+        "source": "Investment Guru India",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQkRIQTFhVmFsdUF0OTl6Q08tbmJMWTk5OExKSTQydUl3VVlLOGljYlJmazI3WVo4R1ppeVREZjVxWV9vTHpPMWNhWVRwejZ6ZVdSWDN0c2xvazE5dEg3NkhQeTJzWVRoekFjRGVrSHZ2R1ktWjBEZ1laTkFVbzM0Sk5YRlNGZklISXdtY0Q3WEZwTUx6cGtDOXBvWVh1QVctNmpfVkRic21nNm9HNThmVDB3UUJaSTQ?oc=5"
+      },
+      {
         "headline": "Pfizer Q3 2026 earnings beat estimates, full-year outlook raised",
         "source": "Quartz",
         "section": "Earnings & Results",
@@ -35,31 +41,25 @@
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON2RpWDN6UThETmtkV3YyZnhDNUYyck0yU213SkJ2V2tPd0g4ck53WEY4bEtuVE9FR2UtUW0zc1hyNWE4eVg2UGxZT1Z4OS1yWHNoYTNjNlNTcWE1clRxVGZTUDF4Rm5LQUdBWUVOeTY1V1BEeURoYXVhX25uS21aRVdiYk9BMFU?oc=5"
       },
       {
+        "headline": "AMD Needs a Huge Outlook to Avoid Intel\u2019s Fate as AI Fears Rise",
+        "source": "Bloomberg",
+        "section": "Earnings & Results",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-03/amd-needs-a-huge-outlook-to-avoid-intel-s-fate-as-ai-fears-rise"
+      },
+      {
         "headline": "Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist",
         "source": "TechCrunch",
         "section": "Tech & Fintech",
         "link": "https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/"
-      },
-      {
-        "headline": "Oracle Kicks Off $20 Billion Capital Raise for AI Plan",
-        "source": "Bloomberg",
-        "section": "Tech & Fintech",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-02/oracle-is-offering-10-billion-of-high-grade-dollar-bonds"
-      },
-      {
-        "headline": "Alphabet kicks off \u20ac6 billion bond sale, tests appetite for tech debt",
-        "source": "Investing.com",
-        "section": "Stock Market & Equities",
-        "link": "https://www.investing.com/news/economy-news/alphabet-kicks-off-6-billion-bond-sale-tests-appetite-for-tech-debt-4991954"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 449,
-      "Macro & Economy": 244,
-      "Investment Banking & Deals": 397,
-      "Real Estate & REITs": 192,
-      "Earnings & Results": 496,
-      "Tech & Fintech": 396
+      "Stock Market & Equities": 531,
+      "Macro & Economy": 299,
+      "Investment Banking & Deals": 471,
+      "Real Estate & REITs": 201,
+      "Earnings & Results": 605,
+      "Tech & Fintech": 440
     }
   },
   {
