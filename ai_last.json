@@ -4,32 +4,41 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11356,
-   "output_tokens": 1673,
-   "cost_usd": 0.00197
+   "input_tokens": 11359,
+   "output_tokens": 1507,
+   "cost_usd": 0.00189
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3131,
-   "output_tokens": 1834,
-   "cost_usd": 0.00123
+   "input_tokens": 3317,
+   "output_tokens": 2253,
+   "cost_usd": 0.00146
   }
  ],
  "errors": [],
  "merge_groups": [
-  [
-   "Binance breach puts custody at center of crypto infrastructure trade",
-   "Binance says hackers used fake job interviews and AI tools in $6.3bn hack"
-  ],
   [
    "AMD stock jumps 7% on earnings as data center revenue nearly doubles",
    "AMD forecasts quarterly revenue above estimates as data-center growth accelerates",
    "AMD Sales Forecast Tops Estimates on Soaring AI Chip Demand"
   ],
   [
+   "Palantir is dropping on earnings. Wall Street analysts remain bullish",
+   "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
+   "Palantir shares retreat despite U.S. commercial sales spike"
+  ],
+  [
+   "Binance breach puts custody at center of crypto infrastructure trade",
+   "Binance says hackers used fake job interviews and AI tools in $6.3bn hack"
+  ],
+  [
+   "Stocks Are Mixed After Apple Earnings Disappoint",
+   "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test",
+   "Apple margin outlook pressures tech as reported U.S. strike lifts oil"
+  ],
+  [
    "Pfizer raises 2026 forecasts as Eliquis, cancer drugs drive third-quarter results",
-   "Pfizer Raises Full-Year Outlook Following Third-Quarter Beat",
    "Pfizer hikes full-year outlook as newer products grow, taps company veteran as new CFO"
   ],
   [
@@ -37,32 +46,15 @@
    "Ferrari raises 2026 guidance after Q3 earnings beat"
   ],
   [
-   "Apple margin outlook pressures tech as reported U.S. strike lifts oil",
-   "Stocks Are Mixed After Apple Earnings Disappoint",
-   "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test"
-  ],
-  [
-   "Block raises full-year profit outlook as Cash App drives Q3 growth",
-   "Jack Dorsey’s Block Modestly Beats Third-Quarter Expectations"
-  ],
-  [
    "Meta seeks to raise up to $25 billion in debt sale as AI spending jumps",
    "Meta Seeks $15 Billion From US Dollar Portion of Bond Offering"
-  ],
-  [
-   "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
-   "Palantir shares retreat despite U.S. commercial sales spike"
-  ],
-  [
-   "BLS Polymers Share Price: 65% IPO Listing Gain, Outlook",
-   "BLS Polymers, SFC Environmental Tech shares make strong D-Street debut, hits upper circuit level"
   ]
  ],
  "summaries": {
-  "requested": 25,
+  "requested": 28,
   "rejected_ungrounded": 0,
-  "applied": 23
+  "applied": 27
  },
- "generated": "2026-11-03T22:00+00:00",
- "total_cost_usd": 0.0032
+ "generated": "2026-11-04T01:00+00:00",
+ "total_cost_usd": 0.00335
 }
