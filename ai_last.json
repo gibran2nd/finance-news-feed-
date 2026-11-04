@@ -4,80 +4,68 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11691,
-   "output_tokens": 2700,
-   "cost_usd": 0.00252
+   "input_tokens": 11708,
+   "output_tokens": 1651,
+   "cost_usd": 0.002
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2853,
-   "output_tokens": 3454,
-   "cost_usd": 0.00201
+   "input_tokens": 3122,
+   "output_tokens": 3484,
+   "cost_usd": 0.00205
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "AMD earnings beat the Street. Here's what analysts are saying",
-   "AMD shares jump as AI-driven data-center strength fuels growth outlook"
-  ],
-  [
    "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
-   "Eurozone Inflation Rises to 4%, Driven by Energy Costs",
-   "October inflation in the Eurozone keeps ECB on course for another tightening"
-  ],
-  [
-   "Stock Futures Rally, Treasurys Strengthen After Democratic Sweep",
-   "US stock futures rise as investors assess Democrats' midterm sweep",
-   "Stocks rebound after Democrats’ sweep",
-   "Markets recover after lows as Democrats sweep House and Senate"
-  ],
-  [
-   "US Treasury shifts language, opening door to auction size changes",
-   "US Tweaks Debt-Sales Guidance, Opening Way to Auction Shifts",
-   "Treasury opens the door to changes in how it finances the growing U.S. debt. Here’s what you need to know."
-  ],
-  [
-   "McDonald’s posts better-than-expected third-quarter comparable sales",
-   "McDonald's US sales decline for first time in six quarters despite value push",
-   "McDonald’s Profit Climbs Despite Continued Sluggish Domestic Sales"
-  ],
-  [
-   "Novo shares jump as Wegovy pill sales impress, drugmaker hikes outlook",
-   "Novo raises full-year outlook on continued GLP-1 momentum"
-  ],
-  [
-   "CVS Health beats estimates, raises guidance amid split plans",
-   "CVS Raises Outlook and Reveals Breakup Plan. The Real Risk Sits in a Federal Drug Program.",
-   "CVS Raises Forecast on Health Care Benefits, Pharmacy Gains"
-  ],
-  [
-   "Tesla and SpaceX shares slide as Musk’s political push falls flat",
-   "Tesla, SpaceX Stocks Are Down. It’s the Midterms."
-  ],
-  [
-   "Crédit Mutuel Arkéa confirms cyberattack after reports of $133m crypto theft",
-   "Cyberattackers Drain Money From French Bank Credit Mutuel Arkea"
-  ],
-  [
-   "Wayfair sales jump 10% as furniture retailer says it's winning share of sluggish market",
-   "Wayfair Growth Reaches Post-Pandemic High on US Share Gains"
+   "Eurozone Inflation Rises to 4%, Driven by Energy Costs"
   ],
   [
    "Private companies added 86,000 jobs in October, slightly higher than expected, ADP says",
    "Private-Sector Hiring Remained Solid in October"
   ],
   [
-   "BMW takes second profit warning in stride as it ramps up cuts",
-   "BMW reports lower Q3 earnings as restructuring spells more pain towards end of year"
+   "Uber's profit forecast disappoints as driver shortages, Middle East conflict hurt",
+   "Uber beats on revenue even as mobility and delivery units miss estimates"
+  ],
+  [
+   "Oil tumbles below $100 on post-election peace hopes",
+   "Oil tumbles as investors weigh end to Iran war after US Democrats' midterm elections sweep"
+  ],
+  [
+   "Tesla and SpaceX shares slide as Musk’s political push falls flat",
+   "Tesla, SpaceX Stocks Are Down. It’s the Midterms."
+  ],
+  [
+   "AMD earnings beat the Street. Here's what analysts are saying",
+   "AMD shares jump as AI-driven data-center strength fuels growth outlook"
+  ],
+  [
+   "Wayfair sales jump 10% as furniture retailer says it's winning share of sluggish market",
+   "Wayfair Growth Reaches Post-Pandemic High on US Share Gains"
+  ],
+  [
+   "McDonald's US sales decline for first time in six quarters despite value push",
+   "McDonald’s posts better-than-expected third-quarter comparable sales"
+  ],
+  [
+   "US Treasury shifts language, opening door to auction size changes",
+   "US Tweaks Debt-Sales Guidance, Opening Way to Auction Shifts",
+   "Treasury opens the door to changes in how it finances the growing U.S. debt. Here’s what you need to know.",
+   "Treasury Preps Wall Street For Changes to Bond Sales"
+  ],
+  [
+   "Stocks rebound after Democrats’ sweep",
+   "Markets recover after lows as Democrats sweep House and Senate"
   ]
  ],
  "summaries": {
-  "requested": 22,
+  "requested": 26,
   "rejected_ungrounded": 0,
-  "applied": 22
+  "applied": 24
  },
- "generated": "2026-11-04T15:00+00:00",
- "total_cost_usd": 0.00453
+ "generated": "2026-11-04T18:00+00:00",
+ "total_cost_usd": 0.00405
 }
