@@ -2,7 +2,7 @@
   {
     "week": "2026-W45",
     "label": "Week of November 2\u20136, 2026",
-    "generated": "2026-11-04T19:18:51.881756+00:00",
+    "generated": "2026-11-04T22:00:28.546088+00:00",
     "bullets": [
       {
         "headline": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
@@ -35,6 +35,12 @@
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQkRIQTFhVmFsdUF0OTl6Q08tbmJMWTk5OExKSTQydUl3VVlLOGljYlJmazI3WVo4R1ppeVREZjVxWV9vTHpPMWNhWVRwejZ6ZVdSWDN0c2xvazE5dEg3NkhQeTJzWVRoekFjRGVrSHZ2R1ktWjBEZ1laTkFVbzM0Sk5YRlNGZklISXdtY0Q3WEZwTUx6cGtDOXBvWVh1QVctNmpfVkRic21nNm9HNThmVDB3UUJaSTQ?oc=5"
       },
       {
+        "headline": "Pfizer Q3 2026 earnings beat estimates, full-year outlook raised",
+        "source": "Quartz",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Vdzh4SXF3UHFOWTBwd1V0Z3puVmtka0Q3YVRXS3VhVW5FSWhQQ2NiWXV2QjRzaldqUzVGT1BZSHJTbUo0WU82QlctaEdIVldhNTlwdS1IRFFGYUNyVTNQc3VVcnBjZmR1TW5JOVI0TF9pbjBYM3c?oc=5"
+      },
+      {
         "headline": "Oracle Kicks Off $20 Billion Capital Raise for AI Plan",
         "source": "Bloomberg",
         "section": "Tech & Fintech",
@@ -45,21 +51,15 @@
         "source": "Yahoo Finance",
         "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON2RpWDN6UThETmtkV3YyZnhDNUYyck0yU213SkJ2V2tPd0g4ck53WEY4bEtuVE9FR2UtUW0zc1hyNWE4eVg2UGxZT1Z4OS1yWHNoYTNjNlNTcWE1clRxVGZTUDF4Rm5LQUdBWUVOeTY1V1BEeURoYXVhX25uS21aRVdiYk9BMFU?oc=5"
-      },
-      {
-        "headline": "AMD Beats Wall Street Expectations as it Pivots to Data-Center First Status",
-        "source": "WSJ",
-        "section": "Earnings & Results",
-        "link": "https://www.wsj.com/business/earnings/advancedmicrodevices-amd-thirdquarter-earnings-report-2026-stock-e186e911?mod=rss_Technology"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 639,
-      "Macro & Economy": 352,
-      "Investment Banking & Deals": 525,
-      "Real Estate & REITs": 246,
-      "Earnings & Results": 719,
-      "Tech & Fintech": 508
+      "Stock Market & Equities": 669,
+      "Macro & Economy": 364,
+      "Investment Banking & Deals": 532,
+      "Real Estate & REITs": 266,
+      "Earnings & Results": 771,
+      "Tech & Fintech": 533
     }
   },
   {

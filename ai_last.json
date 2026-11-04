@@ -4,42 +4,62 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11382,
-   "output_tokens": 1751,
-   "cost_usd": 0.00201
+   "input_tokens": 11559,
+   "output_tokens": 1810,
+   "cost_usd": 0.00206
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2972,
-   "output_tokens": 2728,
-   "cost_usd": 0.00166
+   "input_tokens": 3040,
+   "output_tokens": 1596,
+   "cost_usd": 0.0011
   }
  ],
  "errors": [],
  "merge_groups": [
   [
+   "Apple cements its status as tech’s biggest heavyweight with the stock’s best day in over a year",
+   "Hyperscalers and Apple surge after election results remove investor uncertainty"
+  ],
+  [
+   "Snap shares fall over 10% on third-quarter revenue miss",
+   "Snap Declines After Daily User Growth Misses Estimates"
+  ],
+  [
+   "Uber beats on revenue even as mobility and delivery units miss estimates",
+   "Uber's profit forecast disappoints as driver shortages, Middle East conflict hurt"
+  ],
+  [
    "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
    "Eurozone Inflation Rises to 4%, Driven by Energy Costs"
   ],
   [
-   "Uber's profit forecast disappoints as driver shortages, Middle East conflict hurt",
-   "Uber beats on revenue even as mobility and delivery units miss estimates"
+   "Qualcomm's smartphone chip sales miss estimates, shares fall",
+   "Qualcomm Gives Tepid Profit Outlook After Supply Costs Rise"
   ],
   [
-   "McDonald's US sales decline for first time in six quarters despite value push",
-   "McDonald’s posts better-than-expected third-quarter comparable sales"
+   "Figma sinks after earnings beat as company prioritizes long-term growth with AI changes",
+   "Figma’s stock falls as investors worry that AI momentum is coming at a high price"
   ],
   [
    "AMD earnings beat the Street. Here's what analysts are saying",
    "AMD shares jump as AI-driven data-center strength fuels growth outlook"
+  ],
+  [
+   "Wall Street Revises Treasury Sales Forecasts on Guidance Revamp",
+   "US Treasury shifts language, opening door to auction size changes"
+  ],
+  [
+   "McDonald's US sales decline for first time in six quarters despite value push",
+   "McDonald’s posts better-than-expected third-quarter comparable sales"
   ]
  ],
  "summaries": {
-  "requested": 24,
+  "requested": 25,
   "rejected_ungrounded": 0,
   "applied": 24
  },
- "generated": "2026-11-04T19:18+00:00",
- "total_cost_usd": 0.00367
+ "generated": "2026-11-04T22:00+00:00",
+ "total_cost_usd": 0.00316
 }
