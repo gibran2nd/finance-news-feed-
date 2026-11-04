@@ -4,42 +4,69 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 10784,
-   "output_tokens": 1969,
-   "cost_usd": 0.00206
+   "input_tokens": 11691,
+   "output_tokens": 2700,
+   "cost_usd": 0.00252
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 1895,
-   "output_tokens": 938,
-   "cost_usd": 0.00066
+   "input_tokens": 2853,
+   "output_tokens": 3454,
+   "cost_usd": 0.00201
   }
  ],
  "errors": [],
  "merge_groups": [
   [
+   "AMD earnings beat the Street. Here's what analysts are saying",
+   "AMD shares jump as AI-driven data-center strength fuels growth outlook"
+  ],
+  [
    "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
    "Eurozone Inflation Rises to 4%, Driven by Energy Costs",
-   "Euro Stays Higher Vs Dollar After Eurozone Inflation Data"
-  ],
-  [
-   "Novo shares jump as Wegovy pill sales impress, drugmaker hikes outlook",
-   "Novo raises full-year outlook on continued GLP-1 momentum",
-   "Beleaguered Novo offers relief to investors, thanks to Wegovy pill"
-  ],
-  [
-   "Cyberattackers Drain Money From French Bank Credit Mutuel Arkea",
-   "ZachXBT names French bank Crédit Mutuel Arkéa as suspected victim of $133 million crypto theft"
+   "October inflation in the Eurozone keeps ECB on course for another tightening"
   ],
   [
    "Stock Futures Rally, Treasurys Strengthen After Democratic Sweep",
    "US stock futures rise as investors assess Democrats' midterm sweep",
-   "Stocks rebound after Democrats’ sweep"
+   "Stocks rebound after Democrats’ sweep",
+   "Markets recover after lows as Democrats sweep House and Senate"
   ],
   [
-   "Gold gains 3% as dollar slides after Democratic midterm gains",
-   "Gold Climbs on Softer Dollar, Falling Treasury Yields After U.S. Midterms"
+   "US Treasury shifts language, opening door to auction size changes",
+   "US Tweaks Debt-Sales Guidance, Opening Way to Auction Shifts",
+   "Treasury opens the door to changes in how it finances the growing U.S. debt. Here’s what you need to know."
+  ],
+  [
+   "McDonald’s posts better-than-expected third-quarter comparable sales",
+   "McDonald's US sales decline for first time in six quarters despite value push",
+   "McDonald’s Profit Climbs Despite Continued Sluggish Domestic Sales"
+  ],
+  [
+   "Novo shares jump as Wegovy pill sales impress, drugmaker hikes outlook",
+   "Novo raises full-year outlook on continued GLP-1 momentum"
+  ],
+  [
+   "CVS Health beats estimates, raises guidance amid split plans",
+   "CVS Raises Outlook and Reveals Breakup Plan. The Real Risk Sits in a Federal Drug Program.",
+   "CVS Raises Forecast on Health Care Benefits, Pharmacy Gains"
+  ],
+  [
+   "Tesla and SpaceX shares slide as Musk’s political push falls flat",
+   "Tesla, SpaceX Stocks Are Down. It’s the Midterms."
+  ],
+  [
+   "Crédit Mutuel Arkéa confirms cyberattack after reports of $133m crypto theft",
+   "Cyberattackers Drain Money From French Bank Credit Mutuel Arkea"
+  ],
+  [
+   "Wayfair sales jump 10% as furniture retailer says it's winning share of sluggish market",
+   "Wayfair Growth Reaches Post-Pandemic High on US Share Gains"
+  ],
+  [
+   "Private companies added 86,000 jobs in October, slightly higher than expected, ADP says",
+   "Private-Sector Hiring Remained Solid in October"
   ],
   [
    "BMW takes second profit warning in stride as it ramps up cuts",
@@ -47,10 +74,10 @@
   ]
  ],
  "summaries": {
-  "requested": 14,
+  "requested": 22,
   "rejected_ungrounded": 0,
-  "applied": 11
+  "applied": 22
  },
- "generated": "2026-11-04T12:00+00:00",
- "total_cost_usd": 0.00272
+ "generated": "2026-11-04T15:00+00:00",
+ "total_cost_usd": 0.00453
 }

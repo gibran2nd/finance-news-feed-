@@ -2,7 +2,7 @@
   {
     "week": "2026-W45",
     "label": "Week of November 2\u20136, 2026",
-    "generated": "2026-11-04T12:00:28.454378+00:00",
+    "generated": "2026-11-04T15:00:31.808924+00:00",
     "bullets": [
       {
         "headline": "Anthropic Reports $17 Billion Quarterly Revenue Ahead of IPO",
@@ -23,16 +23,22 @@
         "link": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html"
       },
       {
+        "headline": "Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist",
+        "source": "TechCrunch",
+        "section": "Tech & Fintech",
+        "link": "https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/"
+      },
+      {
         "headline": "South Eastern Coalfields files preliminary papers with SEBI for IPO",
         "source": "Investment Guru India",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQkRIQTFhVmFsdUF0OTl6Q08tbmJMWTk5OExKSTQydUl3VVlLOGljYlJmazI3WVo4R1ppeVREZjVxWV9vTHpPMWNhWVRwejZ6ZVdSWDN0c2xvazE5dEg3NkhQeTJzWVRoekFjRGVrSHZ2R1ktWjBEZ1laTkFVbzM0Sk5YRlNGZklISXdtY0Q3WEZwTUx6cGtDOXBvWVh1QVctNmpfVkRic21nNm9HNThmVDB3UUJaSTQ?oc=5"
       },
       {
-        "headline": "Pfizer Q3 2026 earnings beat estimates, full-year outlook raised",
-        "source": "Quartz",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Vdzh4SXF3UHFOWTBwd1V0Z3puVmtka0Q3YVRXS3VhVW5FSWhQQ2NiWXV2QjRzaldqUzVGT1BZSHJTbUo0WU82QlctaEdIVldhNTlwdS1IRFFGYUNyVTNQc3VVcnBjZmR1TW5JOVI0TF9pbjBYM3c?oc=5"
+        "headline": "Oracle Kicks Off $20 Billion Capital Raise for AI Plan",
+        "source": "Bloomberg",
+        "section": "Tech & Fintech",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/oracle-is-offering-10-billion-of-high-grade-dollar-bonds"
       },
       {
         "headline": "Super Micro shares jump as revenue surges, and full-year outlook tops estimates",
@@ -41,25 +47,19 @@
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON2RpWDN6UThETmtkV3YyZnhDNUYyck0yU213SkJ2V2tPd0g4ck53WEY4bEtuVE9FR2UtUW0zc1hyNWE4eVg2UGxZT1Z4OS1yWHNoYTNjNlNTcWE1clRxVGZTUDF4Rm5LQUdBWUVOeTY1V1BEeURoYXVhX25uS21aRVdiYk9BMFU?oc=5"
       },
       {
-        "headline": "AMD Needs a Huge Outlook to Avoid Intel\u2019s Fate as AI Fears Rise",
-        "source": "Bloomberg",
+        "headline": "AMD Beats Wall Street Expectations as it Pivots to Data-Center First Status",
+        "source": "WSJ",
         "section": "Earnings & Results",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-03/amd-needs-a-huge-outlook-to-avoid-intel-s-fate-as-ai-fears-rise"
-      },
-      {
-        "headline": "Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/"
+        "link": "https://www.wsj.com/business/earnings/advancedmicrodevices-amd-thirdquarter-earnings-report-2026-stock-e186e911?mod=rss_Technology"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 531,
-      "Macro & Economy": 299,
-      "Investment Banking & Deals": 471,
-      "Real Estate & REITs": 201,
-      "Earnings & Results": 605,
-      "Tech & Fintech": 440
+      "Stock Market & Equities": 577,
+      "Macro & Economy": 325,
+      "Investment Banking & Deals": 499,
+      "Real Estate & REITs": 209,
+      "Earnings & Results": 662,
+      "Tech & Fintech": 487
     }
   },
   {
