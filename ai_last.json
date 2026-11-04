@@ -4,16 +4,16 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11708,
-   "output_tokens": 1651,
-   "cost_usd": 0.002
+   "input_tokens": 11382,
+   "output_tokens": 1751,
+   "cost_usd": 0.00201
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3122,
-   "output_tokens": 3484,
-   "cost_usd": 0.00205
+   "input_tokens": 2972,
+   "output_tokens": 2728,
+   "cost_usd": 0.00166
   }
  ],
  "errors": [],
@@ -23,49 +23,23 @@
    "Eurozone Inflation Rises to 4%, Driven by Energy Costs"
   ],
   [
-   "Private companies added 86,000 jobs in October, slightly higher than expected, ADP says",
-   "Private-Sector Hiring Remained Solid in October"
-  ],
-  [
    "Uber's profit forecast disappoints as driver shortages, Middle East conflict hurt",
    "Uber beats on revenue even as mobility and delivery units miss estimates"
-  ],
-  [
-   "Oil tumbles below $100 on post-election peace hopes",
-   "Oil tumbles as investors weigh end to Iran war after US Democrats' midterm elections sweep"
-  ],
-  [
-   "Tesla and SpaceX shares slide as Musk’s political push falls flat",
-   "Tesla, SpaceX Stocks Are Down. It’s the Midterms."
-  ],
-  [
-   "AMD earnings beat the Street. Here's what analysts are saying",
-   "AMD shares jump as AI-driven data-center strength fuels growth outlook"
-  ],
-  [
-   "Wayfair sales jump 10% as furniture retailer says it's winning share of sluggish market",
-   "Wayfair Growth Reaches Post-Pandemic High on US Share Gains"
   ],
   [
    "McDonald's US sales decline for first time in six quarters despite value push",
    "McDonald’s posts better-than-expected third-quarter comparable sales"
   ],
   [
-   "US Treasury shifts language, opening door to auction size changes",
-   "US Tweaks Debt-Sales Guidance, Opening Way to Auction Shifts",
-   "Treasury opens the door to changes in how it finances the growing U.S. debt. Here’s what you need to know.",
-   "Treasury Preps Wall Street For Changes to Bond Sales"
-  ],
-  [
-   "Stocks rebound after Democrats’ sweep",
-   "Markets recover after lows as Democrats sweep House and Senate"
+   "AMD earnings beat the Street. Here's what analysts are saying",
+   "AMD shares jump as AI-driven data-center strength fuels growth outlook"
   ]
  ],
  "summaries": {
-  "requested": 26,
+  "requested": 24,
   "rejected_ungrounded": 0,
   "applied": 24
  },
- "generated": "2026-11-04T18:00+00:00",
- "total_cost_usd": 0.00405
+ "generated": "2026-11-04T19:18+00:00",
+ "total_cost_usd": 0.00367
 }
