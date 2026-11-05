@@ -2,7 +2,7 @@
   {
     "week": "2026-W45",
     "label": "Week of November 2\u20136, 2026",
-    "generated": "2026-11-05T12:00:33.512994+00:00",
+    "generated": "2026-11-05T15:00:28.667203+00:00",
     "bullets": [
       {
         "headline": "Anthropic Reports $17 Billion Quarterly Revenue Ahead of IPO",
@@ -23,6 +23,12 @@
         "link": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html"
       },
       {
+        "headline": "Qualcomm\u2019s stock falls as twin forces pressure sales",
+        "source": "MarketWatch",
+        "section": "Earnings & Results",
+        "link": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories"
+      },
+      {
         "headline": "Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist",
         "source": "TechCrunch",
         "section": "Tech & Fintech",
@@ -41,25 +47,19 @@
         "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQQ01LYmJqS0swTU0ycUJqd2xFT1cxWFg0T2VwNUhlX1E3NVdzOFFGRTNaREU3a244ME5VRFE0bURUaGdDODdfWmV5cnMyTlV1THQyNEhfSDBETXpNd3ZlRXprbGxDQ2hxV3NPWHRnenpFYml0WTFwNTF0MFVVeVdEMXYwdWY2SXZYMVB6MlhMeHM2ang1WmR6cklwLVJDV1NiX0tyVkdhRl82UmlVVmVUVUlFV2hkQjYwdFloY1FXVERnOGRpbXFBdFc5eTdZMm1pOVdPUnctc3LSAd4BQVVfeXFMTnlfNjlRMFFGVWRfT1J1ZlpnNXpPWWxIN2JHWkNEUnFYbTNNTW5XdHRrT1RTT0NNeDltazRIX0FwMjAzZWwteXZDdm1ETnEtZ21uYXRZV2lENzdoVE9NWFlDZEVnNEVFM2c5Ym9lc0IwaGhfT1NvNmg3d3pDTFh4djdNdEZZOHIxRW85MnljU0Q5RHFRRVF1X2o0VmY5VzliMHRwZnBKWHZHemdlNWEtenNReHpBNUEycVJpQVZ4U3pWYmRfSlMwZUV5Q19LbG9jOGhQc2VKTlF3T0ktOGx3?oc=5"
       },
       {
-        "headline": "Bank of England poised to hike rates for first time in 3 years",
+        "headline": "Bank of England raises rates for first time since 2023, warns another move likely",
         "source": "Investing.com",
         "section": "Macro & Economy",
-        "link": "https://www.investing.com/news/economy-news/bank-of-england-poised-to-hike-rates-for-first-time-in-3-years-5001845"
-      },
-      {
-        "headline": "Oracle Kicks Off $20 Billion Capital Raise for AI Plan",
-        "source": "Bloomberg",
-        "section": "Tech & Fintech",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-02/oracle-is-offering-10-billion-of-high-grade-dollar-bonds"
+        "link": "https://www.investing.com/news/economy-news/bank-of-england-raises-rates-for-first-time-since-2023-says-more-may-come-5003538"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 768,
-      "Macro & Economy": 434,
-      "Investment Banking & Deals": 585,
-      "Real Estate & REITs": 278,
-      "Earnings & Results": 899,
-      "Tech & Fintech": 598
+      "Stock Market & Equities": 811,
+      "Macro & Economy": 470,
+      "Investment Banking & Deals": 611,
+      "Real Estate & REITs": 287,
+      "Earnings & Results": 960,
+      "Tech & Fintech": 643
     }
   },
   {

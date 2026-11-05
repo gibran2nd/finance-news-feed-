@@ -4,54 +4,44 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11614,
-   "output_tokens": 1925,
-   "cost_usd": 0.00212
+   "input_tokens": 11810,
+   "output_tokens": 1462,
+   "cost_usd": 0.00191
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2469,
-   "output_tokens": 4825,
-   "cost_usd": 0.00266
+   "input_tokens": 3038,
+   "output_tokens": 1623,
+   "cost_usd": 0.00112
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Norges Bank Holds Key Interest Rate, Signals Readiness to Tighten",
-   "Norway Keeps Rate Steady With Option of Hiking If Needed"
+   "Bank of England raises rates for first time since 2023, warns another move likely",
+   "BoE raises interest rates to 4% in bid to tame inflation",
+   "Instant view: Bank of England delivers first rate hike in three years, gilt yields rise",
+   "BoE joins the rate hike club, Australia may be done already"
   ],
   [
-   "Malaysia’s Central Bank Holds Rate Steady, Cites Resilient Growth",
-   "Malaysia Holds Rates, Vows Vigilance as Price Pressures Grow"
+   "Germany strikes deal for 50% stake in Leopard tank maker KNDS",
+   "German government close to buying half of tank maker KNDS"
   ],
   [
-   "AppLovin Is Raking in Cash as AI-Driven Revenue Accelerates",
-   "This year’s worst-performing S&P 500 stock is finally seeing some major relief"
+   "Toyota Lifts Earnings Forecast; Stock Posts Biggest Gain in 39 Years",
+   "Toyota hikes annual outlook and unveils $89 billion shareholder return plan"
   ],
   [
-   "Emirates Airline Profit Falls After Iran War Disrupts Air Traffic",
-   "Emirates Reports 66% Profit Slump on War, High Fuel Costs"
-  ],
-  [
-   "Stock Market Today: AI Stocks Under Pressure as Investors Rotate Into Other Trades",
-   "Qualcomm's smartphone chip sales miss estimates, shares fall"
-  ],
-  [
-   "Maersk shares fall despite improved outlook on surging data centre demand",
-   "Maersk Raises Guidance Again on Higher Freight Rates and Resilient Demand"
-  ],
-  [
-   "European stocks approach all-time high on Democratic sweep",
-   "Global AI Trade Unwind Propels European Stocks to Record High"
+   "Robot maker Agility starts trading today — but its steep losses are raising red flags",
+   "Nvidia-Backed Humanoid Maker Agility Goes Public in First for the US"
   ]
  ],
  "summaries": {
-  "requested": 19,
+  "requested": 25,
   "rejected_ungrounded": 0,
-  "applied": 18
+  "applied": 23
  },
- "generated": "2026-11-05T12:00+00:00",
- "total_cost_usd": 0.00478
+ "generated": "2026-11-05T15:00+00:00",
+ "total_cost_usd": 0.00303
 }
