@@ -2,7 +2,7 @@
   {
     "week": "2026-W45",
     "label": "Week of November 2\u20136, 2026",
-    "generated": "2026-11-05T15:00:28.667203+00:00",
+    "generated": "2026-11-05T18:00:26.858896+00:00",
     "bullets": [
       {
         "headline": "Anthropic Reports $17 Billion Quarterly Revenue Ahead of IPO",
@@ -17,22 +17,16 @@
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOelFpUlRuWUdrd3oyYkZTNkxFMW9mQlBTY01YTl9ERVRsYTc1VGNWQjR1VF90aEcwY01sTDNXN3NiWVBZNTY4aGVFSlR3WlBlb0laSkptRS1EMF9fMGlna1BXSVExN2dFVGlTNWMyQzYyM1RsYm5pMGxXOWxhbmp1UGRYVjk3RVA0b25WWVZPcFZMS05IOE1CTUgzY1BsQWY3MW5DbDF1bGs1M185UlM4cjlB?oc=5"
       },
       {
-        "headline": "Apple shares slide after weak margin outlook; Palantir slumps 8% after earnings",
+        "headline": "Apple posts stronger-than-expected Q4 revenue in first earnings report for new CEO John Ternus",
+        "source": "AP",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORkdnaXhpT3R6WTFYekZBTHdhMWZqV1k1TmpydGQxTnhLTUdyZktPbjFNSE15UXRHTzB6YzNBX19nVkZNX2dLbUdsSEh5WFBQNFFvdkV1amJqU2hSSTRPQU9FWHZONnZqU1p5U2haMnhXZjZZMUJzTjZGY3oxU1puUHBRNGJYaUg1eFhVUGEzZFZ6Zw?oc=5"
+      },
+      {
+        "headline": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
         "source": "CNBC",
-        "section": "Earnings & Results",
-        "link": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html"
-      },
-      {
-        "headline": "Qualcomm\u2019s stock falls as twin forces pressure sales",
-        "source": "MarketWatch",
-        "section": "Earnings & Results",
-        "link": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories"
-      },
-      {
-        "headline": "Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/"
+        "section": "Macro & Economy",
+        "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
       },
       {
         "headline": "SpaceX Stock Rises. Buying Boost Mobile Won't Fulfill Musk's Wireless Ambitions.",
@@ -47,19 +41,25 @@
         "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQQ01LYmJqS0swTU0ycUJqd2xFT1cxWFg0T2VwNUhlX1E3NVdzOFFGRTNaREU3a244ME5VRFE0bURUaGdDODdfWmV5cnMyTlV1THQyNEhfSDBETXpNd3ZlRXprbGxDQ2hxV3NPWHRnenpFYml0WTFwNTF0MFVVeVdEMXYwdWY2SXZYMVB6MlhMeHM2ang1WmR6cklwLVJDV1NiX0tyVkdhRl82UmlVVmVUVUlFV2hkQjYwdFloY1FXVERnOGRpbXFBdFc5eTdZMm1pOVdPUnctc3LSAd4BQVVfeXFMTnlfNjlRMFFGVWRfT1J1ZlpnNXpPWWxIN2JHWkNEUnFYbTNNTW5XdHRrT1RTT0NNeDltazRIX0FwMjAzZWwteXZDdm1ETnEtZ21uYXRZV2lENzdoVE9NWFlDZEVnNEVFM2c5Ym9lc0IwaGhfT1NvNmg3d3pDTFh4djdNdEZZOHIxRW85MnljU0Q5RHFRRVF1X2o0VmY5VzliMHRwZnBKWHZHemdlNWEtenNReHpBNUEycVJpQVZ4U3pWYmRfSlMwZUV5Q19LbG9jOGhQc2VKTlF3T0ktOGx3?oc=5"
       },
       {
-        "headline": "Bank of England raises rates for first time since 2023, warns another move likely",
-        "source": "Investing.com",
-        "section": "Macro & Economy",
-        "link": "https://www.investing.com/news/economy-news/bank-of-england-raises-rates-for-first-time-since-2023-says-more-may-come-5003538"
+        "headline": "AMD Needs a Huge Outlook to Avoid Intel\u2019s Fate as AI Fears Rise",
+        "source": "Bloomberg",
+        "section": "Earnings & Results",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-03/amd-needs-a-huge-outlook-to-avoid-intel-s-fate-as-ai-fears-rise"
+      },
+      {
+        "headline": "Oracle Looks to Raise $20 Billion to Fund AI Ambitions",
+        "source": "WSJ",
+        "section": "Tech & Fintech",
+        "link": "https://www.wsj.com/finance/oracle-looks-to-raise-20-billion-to-fund-ai-ambitions-582c814f?mod=rss_markets_main"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 811,
-      "Macro & Economy": 470,
-      "Investment Banking & Deals": 611,
-      "Real Estate & REITs": 287,
-      "Earnings & Results": 960,
-      "Tech & Fintech": 643
+      "Stock Market & Equities": 846,
+      "Macro & Economy": 481,
+      "Investment Banking & Deals": 637,
+      "Real Estate & REITs": 303,
+      "Earnings & Results": 1005,
+      "Tech & Fintech": 678
     }
   },
   {

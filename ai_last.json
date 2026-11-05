@@ -4,44 +4,48 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11810,
-   "output_tokens": 1462,
-   "cost_usd": 0.00191
+   "input_tokens": 11774,
+   "output_tokens": 1664,
+   "cost_usd": 0.00201
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3038,
-   "output_tokens": 1623,
-   "cost_usd": 0.00112
+   "input_tokens": 3048,
+   "output_tokens": 3217,
+   "cost_usd": 0.00191
   }
  ],
  "errors": [],
  "merge_groups": [
   [
    "Bank of England raises rates for first time since 2023, warns another move likely",
-   "BoE raises interest rates to 4% in bid to tame inflation",
-   "Instant view: Bank of England delivers first rate hike in three years, gilt yields rise",
-   "BoE joins the rate hike club, Australia may be done already"
+   "Bank of England raises interest rates to 4% in bid to tame inflation",
+   "BoE hikes rate for first time in 3 years; retreating oil prices may allow for more options ahead",
+   "Instant view: Bank of England delivers first rate hike in three years, gilt yields rise"
   ],
   [
-   "Germany strikes deal for 50% stake in Leopard tank maker KNDS",
-   "German government close to buying half of tank maker KNDS"
+   "Wendy’s rejects buyout bid and girds itself for a hostile takeover campaign",
+   "Wendy's rejects Trian-led $1.4 billion buyout offer, adopts 'poison pill' plan"
+  ],
+  [
+   "Qualcomm slides 9% after earnings, leading postelection chip stock sell-off",
+   "Qualcomm crashes, analysts flag handset weakness, margin pressure"
   ],
   [
    "Toyota Lifts Earnings Forecast; Stock Posts Biggest Gain in 39 Years",
    "Toyota hikes annual outlook and unveils $89 billion shareholder return plan"
   ],
   [
-   "Robot maker Agility starts trading today — but its steep losses are raising red flags",
-   "Nvidia-Backed Humanoid Maker Agility Goes Public in First for the US"
+   "Unemployment claims drop to 189,000, the fewest since mid-July",
+   "U.S. Jobless Claims Slide Lower Again"
   ]
  ],
  "summaries": {
-  "requested": 25,
+  "requested": 24,
   "rejected_ungrounded": 0,
-  "applied": 23
+  "applied": 21
  },
- "generated": "2026-11-05T15:00+00:00",
- "total_cost_usd": 0.00303
+ "generated": "2026-11-05T18:00+00:00",
+ "total_cost_usd": 0.00392
 }
