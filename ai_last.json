@@ -4,48 +4,45 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11774,
-   "output_tokens": 1664,
-   "cost_usd": 0.00201
+   "input_tokens": 12057,
+   "output_tokens": 1190,
+   "cost_usd": 0.0018
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3048,
-   "output_tokens": 3217,
-   "cost_usd": 0.00191
+   "input_tokens": 2969,
+   "output_tokens": 2911,
+   "cost_usd": 0.00175
   }
  ],
  "errors": [],
  "merge_groups": [
   [
    "Bank of England raises rates for first time since 2023, warns another move likely",
-   "Bank of England raises interest rates to 4% in bid to tame inflation",
+   "BoE leaves door open to further rate rises amid fears of entrenched inflation",
    "BoE hikes rate for first time in 3 years; retreating oil prices may allow for more options ahead",
-   "Instant view: Bank of England delivers first rate hike in three years, gilt yields rise"
-  ],
-  [
-   "Wendy’s rejects buyout bid and girds itself for a hostile takeover campaign",
-   "Wendy's rejects Trian-led $1.4 billion buyout offer, adopts 'poison pill' plan"
+   "Instant view: Bank of England delivers first rate hike in three years, gilt yields rise",
+   "US Midterms Came Too Late to Prevent Bank of England Rate Hike"
   ],
   [
    "Qualcomm slides 9% after earnings, leading postelection chip stock sell-off",
    "Qualcomm crashes, analysts flag handset weakness, margin pressure"
   ],
   [
-   "Toyota Lifts Earnings Forecast; Stock Posts Biggest Gain in 39 Years",
-   "Toyota hikes annual outlook and unveils $89 billion shareholder return plan"
+   "Wendy’s rejects buyout bid and girds itself for a hostile takeover campaign",
+   "Wendy's rejects Trian-led $1.4 billion buyout offer, adopts 'poison pill' plan"
   ],
   [
-   "Unemployment claims drop to 189,000, the fewest since mid-July",
-   "U.S. Jobless Claims Slide Lower Again"
+   "Toyota Lifts Earnings Forecast; Stock Posts Biggest Gain in 39 Years",
+   "Toyota hikes annual outlook and unveils $89 billion shareholder return plan"
   ]
  ],
  "summaries": {
   "requested": 24,
   "rejected_ungrounded": 0,
-  "applied": 21
+  "applied": 24
  },
- "generated": "2026-11-05T18:00+00:00",
- "total_cost_usd": 0.00392
+ "generated": "2026-11-05T19:27+00:00",
+ "total_cost_usd": 0.00355
 }
