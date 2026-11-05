@@ -4,62 +4,53 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11559,
-   "output_tokens": 1810,
-   "cost_usd": 0.00206
+   "input_tokens": 11555,
+   "output_tokens": 1573,
+   "cost_usd": 0.00194
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3040,
-   "output_tokens": 1596,
-   "cost_usd": 0.0011
+   "input_tokens": 3179,
+   "output_tokens": 6309,
+   "cost_usd": 0.00347
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Apple cements its status as tech’s biggest heavyweight with the stock’s best day in over a year",
-   "Hyperscalers and Apple surge after election results remove investor uncertainty"
+   "Qualcomm's smartphone chip sales miss estimates, shares fall",
+   "Qualcomm Revenue Falls as Handset Slowdown Offsets Automotive Gains",
+   "Qualcomm stock drops 6% on weak earnings forecast as memory shortage weighs on smartphone sales",
+   "Qualcomm Gives Tepid Profit Outlook After Supply Costs Rise"
   ],
   [
-   "Snap shares fall over 10% on third-quarter revenue miss",
-   "Snap Declines After Daily User Growth Misses Estimates"
+   "Arm forecasts third-quarter revenue above estimates on AI spending boom",
+   "Arm Holdings Sales Climb 27% on AI Demand",
+   "Arm Fails to Impress Investors With AI-Fueled Sales Forecast"
   ],
   [
    "Uber beats on revenue even as mobility and delivery units miss estimates",
    "Uber's profit forecast disappoints as driver shortages, Middle East conflict hurt"
   ],
   [
-   "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
-   "Eurozone Inflation Rises to 4%, Driven by Energy Costs"
-  ],
-  [
-   "Qualcomm's smartphone chip sales miss estimates, shares fall",
-   "Qualcomm Gives Tepid Profit Outlook After Supply Costs Rise"
+   "Snap shares fall over 10% on third-quarter revenue miss",
+   "Snap Declines After Daily User Growth Misses Estimates"
   ],
   [
    "Figma sinks after earnings beat as company prioritizes long-term growth with AI changes",
    "Figma’s stock falls as investors worry that AI momentum is coming at a high price"
   ],
   [
-   "AMD earnings beat the Street. Here's what analysts are saying",
-   "AMD shares jump as AI-driven data-center strength fuels growth outlook"
-  ],
-  [
-   "Wall Street Revises Treasury Sales Forecasts on Guidance Revamp",
-   "US Treasury shifts language, opening door to auction size changes"
-  ],
-  [
-   "McDonald's US sales decline for first time in six quarters despite value push",
-   "McDonald’s posts better-than-expected third-quarter comparable sales"
+   "Brazil's central bank ends run of rate cuts after Lula election win",
+   "Brazil’s Central Bank Stops Easing Cycle as Inflation Remains High"
   ]
  ],
  "summaries": {
-  "requested": 25,
+  "requested": 26,
   "rejected_ungrounded": 0,
-  "applied": 24
+  "applied": 26
  },
- "generated": "2026-11-04T22:00+00:00",
- "total_cost_usd": 0.00316
+ "generated": "2026-11-05T01:00+00:00",
+ "total_cost_usd": 0.00541
 }
