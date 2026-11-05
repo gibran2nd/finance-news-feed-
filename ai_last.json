@@ -4,53 +4,54 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11555,
-   "output_tokens": 1573,
-   "cost_usd": 0.00194
+   "input_tokens": 11614,
+   "output_tokens": 1925,
+   "cost_usd": 0.00212
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3179,
-   "output_tokens": 6309,
-   "cost_usd": 0.00347
+   "input_tokens": 2469,
+   "output_tokens": 4825,
+   "cost_usd": 0.00266
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Qualcomm's smartphone chip sales miss estimates, shares fall",
-   "Qualcomm Revenue Falls as Handset Slowdown Offsets Automotive Gains",
-   "Qualcomm stock drops 6% on weak earnings forecast as memory shortage weighs on smartphone sales",
-   "Qualcomm Gives Tepid Profit Outlook After Supply Costs Rise"
+   "Norges Bank Holds Key Interest Rate, Signals Readiness to Tighten",
+   "Norway Keeps Rate Steady With Option of Hiking If Needed"
   ],
   [
-   "Arm forecasts third-quarter revenue above estimates on AI spending boom",
-   "Arm Holdings Sales Climb 27% on AI Demand",
-   "Arm Fails to Impress Investors With AI-Fueled Sales Forecast"
+   "Malaysia’s Central Bank Holds Rate Steady, Cites Resilient Growth",
+   "Malaysia Holds Rates, Vows Vigilance as Price Pressures Grow"
   ],
   [
-   "Uber beats on revenue even as mobility and delivery units miss estimates",
-   "Uber's profit forecast disappoints as driver shortages, Middle East conflict hurt"
+   "AppLovin Is Raking in Cash as AI-Driven Revenue Accelerates",
+   "This year’s worst-performing S&P 500 stock is finally seeing some major relief"
   ],
   [
-   "Snap shares fall over 10% on third-quarter revenue miss",
-   "Snap Declines After Daily User Growth Misses Estimates"
+   "Emirates Airline Profit Falls After Iran War Disrupts Air Traffic",
+   "Emirates Reports 66% Profit Slump on War, High Fuel Costs"
   ],
   [
-   "Figma sinks after earnings beat as company prioritizes long-term growth with AI changes",
-   "Figma’s stock falls as investors worry that AI momentum is coming at a high price"
+   "Stock Market Today: AI Stocks Under Pressure as Investors Rotate Into Other Trades",
+   "Qualcomm's smartphone chip sales miss estimates, shares fall"
   ],
   [
-   "Brazil's central bank ends run of rate cuts after Lula election win",
-   "Brazil’s Central Bank Stops Easing Cycle as Inflation Remains High"
+   "Maersk shares fall despite improved outlook on surging data centre demand",
+   "Maersk Raises Guidance Again on Higher Freight Rates and Resilient Demand"
+  ],
+  [
+   "European stocks approach all-time high on Democratic sweep",
+   "Global AI Trade Unwind Propels European Stocks to Record High"
   ]
  ],
  "summaries": {
-  "requested": 26,
+  "requested": 19,
   "rejected_ungrounded": 0,
-  "applied": 26
+  "applied": 18
  },
- "generated": "2026-11-05T01:00+00:00",
- "total_cost_usd": 0.00541
+ "generated": "2026-11-05T12:00+00:00",
+ "total_cost_usd": 0.00478
 }
