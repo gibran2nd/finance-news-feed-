@@ -4,16 +4,16 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 12057,
-   "output_tokens": 1190,
-   "cost_usd": 0.0018
+   "input_tokens": 12128,
+   "output_tokens": 2622,
+   "cost_usd": 0.00252
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2969,
-   "output_tokens": 2911,
-   "cost_usd": 0.00175
+   "input_tokens": 2725,
+   "output_tokens": 3153,
+   "cost_usd": 0.00185
   }
  ],
  "errors": [],
@@ -22,27 +22,50 @@
    "Bank of England raises rates for first time since 2023, warns another move likely",
    "BoE leaves door open to further rate rises amid fears of entrenched inflation",
    "BoE hikes rate for first time in 3 years; retreating oil prices may allow for more options ahead",
-   "Instant view: Bank of England delivers first rate hike in three years, gilt yields rise",
    "US Midterms Came Too Late to Prevent Bank of England Rate Hike"
   ],
   [
-   "Qualcomm slides 9% after earnings, leading postelection chip stock sell-off",
-   "Qualcomm crashes, analysts flag handset weakness, margin pressure"
+   "Mexico’s central bank cuts key rate to 6.25%",
+   "Banxico Surprises With Cut to 6.25%, Signals Extended Hold"
   ],
   [
    "Wendy’s rejects buyout bid and girds itself for a hostile takeover campaign",
    "Wendy's rejects Trian-led $1.4 billion buyout offer, adopts 'poison pill' plan"
   ],
   [
-   "Toyota Lifts Earnings Forecast; Stock Posts Biggest Gain in 39 Years",
-   "Toyota hikes annual outlook and unveils $89 billion shareholder return plan"
+   "Toyota raises profit projection for the year as sales hold up",
+   "Toyota Lifts Earnings Forecast; Stock Posts Biggest Gain in 39 Years"
+  ],
+  [
+   "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
+   "Wall Street Gets $2.5 Trillion AI Reality Check With Historic Rout of Tech Stocks"
+  ],
+  [
+   "Traders flock to Treasury market for safety as tech-led stock selloff deepens",
+   "Treasuries Soar as Tech-Stock Selloff Stokes Haven Demand"
+  ],
+  [
+   "The October jobs report is out Friday. Here's everything to expect",
+   "After tech-stock rout, October jobs report could bring relief — or more pain"
+  ],
+  [
+   "Paraguay’s President Resigns as Collapse of Bank With Close Ties to Him Sparks Crisis",
+   "Explainer-What is ueno bank and how did it trigger Paraguay’s political crisis?"
+  ],
+  [
+   "Carney uses higher oil revenue to spend on tax incentives, infrastructure in second Canadian budget",
+   "Canada Budget 2026: Carney Relaxes Foreign Buyer Ban, Adds Billions For Housing"
+  ],
+  [
+   "IonQ Sees Revenue Quadrupling on Quantum Computing Demand",
+   "IonQ CEO Doubles Down on Vision for Quantum Dominance After Blowout Earnings"
   ]
  ],
  "summaries": {
-  "requested": 24,
+  "requested": 22,
   "rejected_ungrounded": 0,
-  "applied": 24
+  "applied": 20
  },
- "generated": "2026-11-05T19:27+00:00",
- "total_cost_usd": 0.00355
+ "generated": "2026-11-05T22:00+00:00",
+ "total_cost_usd": 0.00437
 }
