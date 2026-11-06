@@ -4,50 +4,46 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11527,
-   "output_tokens": 1813,
-   "cost_usd": 0.00206
+   "input_tokens": 12457,
+   "output_tokens": 1523,
+   "cost_usd": 0.00201
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2239,
-   "output_tokens": 2214,
-   "cost_usd": 0.00133
+   "input_tokens": 2610,
+   "output_tokens": 1311,
+   "cost_usd": 0.00092
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Marc Lore's Wonder confidentially files for a US IPO",
-   "Wonder Files for IPO; Its $9.65B Value Is 14.8x Grubhub’s"
+   "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
+   "US Jobs Report October 2026: Key Takeaways on Employment, Payrolls",
+   "Treasury Yields, Dollar React to Payrolls Upward Surprise",
+   "Traders raise bets of Fed rate hike after jobs report",
+   "Treasuries Stumble as Strong Jobs Data Backs Fed-Hike Bets",
+   "10-year Treasury yield rises after much stronger-than-expected October jobs report"
+  ],
+  [
+   "Canada’s unemployment rate reaches six-month high",
+   "Canada Jobless Rate Rises to 6.7%, Employment Falls"
   ],
   [
    "Taiwan Activates Market-Stabilization Measures to Stem AI Bleeding",
    "Taiwan Steps In to Calm Investor Nerves After Bruising AI Rout"
   ],
   [
-   "IREN tops quarterly revenue estimates, delays some Microsoft AI infrastructure deliveries",
-   "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request"
-  ],
-  [
-   "Bloomin’ Brands rises on Q3 beat despite soft Q4 outlook",
-   "Bloomin Brands earnings beat by $0.06, revenue topped estimates"
-  ],
-  [
-   "Delek US beats Q3 estimates on strong refining margins",
-   "Delek US Holdings earnings beat by $2.89, revenue topped estimates"
-  ],
-  [
-   "Monzo explores venture funding after Nubank talks fail",
-   "Monzo Weighs New Funding at £7.5 Billion Valuation as Buyout Talks Stall"
+   "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
+   "Asian Equities Tumble as AI Selloff Deepens"
   ]
  ],
  "summaries": {
-  "requested": 18,
+  "requested": 19,
   "rejected_ungrounded": 0,
   "applied": 18
  },
- "generated": "2026-11-06T12:00+00:00",
- "total_cost_usd": 0.00339
+ "generated": "2026-11-06T15:00+00:00",
+ "total_cost_usd": 0.00293
 }
