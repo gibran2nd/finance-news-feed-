@@ -4,56 +4,46 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 12128,
-   "output_tokens": 2622,
+   "input_tokens": 12026,
+   "output_tokens": 2631,
    "cost_usd": 0.00252
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2725,
-   "output_tokens": 3153,
-   "cost_usd": 0.00185
+   "input_tokens": 2715,
+   "output_tokens": 1506,
+   "cost_usd": 0.00102
   }
  ],
  "errors": [],
  "merge_groups": [
   [
+   "IREN tops quarterly revenue estimates, delays some Microsoft AI infrastructure deliveries",
+   "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request"
+  ],
+  [
+   "Sony ADR earnings beat by $0.08, revenue topped estimates",
+   "Japan’s Sony reports a hefty profit on the back of its blockbuster ‘Spider-Man’ movie"
+  ],
+  [
    "Bank of England raises rates for first time since 2023, warns another move likely",
-   "BoE leaves door open to further rate rises amid fears of entrenched inflation",
-   "BoE hikes rate for first time in 3 years; retreating oil prices may allow for more options ahead",
    "US Midterms Came Too Late to Prevent Bank of England Rate Hike"
   ],
   [
-   "Mexico’s central bank cuts key rate to 6.25%",
-   "Banxico Surprises With Cut to 6.25%, Signals Extended Hold"
+   "How a Banking Scandal Is Taking Down Trump’s Ally in Paraguay",
+   "Paraguay’s President Resigns as Collapse of Bank With Close Ties to Him Sparks Crisis"
   ],
   [
-   "Wendy’s rejects buyout bid and girds itself for a hostile takeover campaign",
-   "Wendy's rejects Trian-led $1.4 billion buyout offer, adopts 'poison pill' plan"
+   "Why Investors Are Searching for Hope in Home Builders",
+   "There is a whiff of postelection optimism about the housing market that is boosting the battered shares of home builders in an otherwise volatile stock market"
   ],
   [
-   "Toyota raises profit projection for the year as sales hold up",
-   "Toyota Lifts Earnings Forecast; Stock Posts Biggest Gain in 39 Years"
+   "Cloudflare’s stock mounts a big comeback after fastest sales surge in nearly 4 years",
+   "Cloudflare Stock Surges on Lifted Full-Year Outlook, Third-Quarter Revenue Growth"
   ],
   [
-   "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
-   "Wall Street Gets $2.5 Trillion AI Reality Check With Historic Rout of Tech Stocks"
-  ],
-  [
-   "Traders flock to Treasury market for safety as tech-led stock selloff deepens",
-   "Treasuries Soar as Tech-Stock Selloff Stokes Haven Demand"
-  ],
-  [
-   "The October jobs report is out Friday. Here's everything to expect",
-   "After tech-stock rout, October jobs report could bring relief — or more pain"
-  ],
-  [
-   "Paraguay’s President Resigns as Collapse of Bank With Close Ties to Him Sparks Crisis",
-   "Explainer-What is ueno bank and how did it trigger Paraguay’s political crisis?"
-  ],
-  [
-   "Carney uses higher oil revenue to spend on tax incentives, infrastructure in second Canadian budget",
+   "Canada’s budget uses higher oil revenue to spend on tax incentives, infrastructure",
    "Canada Budget 2026: Carney Relaxes Foreign Buyer Ban, Adds Billions For Housing"
   ],
   [
@@ -66,6 +56,6 @@
   "rejected_ungrounded": 0,
   "applied": 20
  },
- "generated": "2026-11-05T22:00+00:00",
- "total_cost_usd": 0.00437
+ "generated": "2026-11-06T01:00+00:00",
+ "total_cost_usd": 0.00354
 }
