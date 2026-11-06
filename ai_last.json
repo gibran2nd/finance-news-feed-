@@ -4,46 +4,54 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 12457,
-   "output_tokens": 1523,
-   "cost_usd": 0.00201
+   "input_tokens": 12221,
+   "output_tokens": 2188,
+   "cost_usd": 0.00232
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2610,
-   "output_tokens": 1311,
-   "cost_usd": 0.00092
+   "input_tokens": 2847,
+   "output_tokens": 1552,
+   "cost_usd": 0.00106
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
+   "U.S. Employers Add 165,000 Jobs in October in Surprisingly Strong Report",
+   "Friday’s Jobs Report: Hiring Soars, Adding 165K Payrolls; Unemployment Ticks Down",
    "US Jobs Report October 2026: Key Takeaways on Employment, Payrolls",
+   "Strong Hiring Reinforces a Sturdy Job Market",
    "Treasury Yields, Dollar React to Payrolls Upward Surprise",
-   "Traders raise bets of Fed rate hike after jobs report",
+   "10-year Treasury yield rises after much stronger-than-expected October jobs report",
    "Treasuries Stumble as Strong Jobs Data Backs Fed-Hike Bets",
-   "10-year Treasury yield rises after much stronger-than-expected October jobs report"
+   "US Treasuries Stumble as Strong Labor Market Lifts Fed-Hike Bets",
+   "VIEW Strong October jobs report sends yields higher",
+   "Jobs Report Smashes Expectations"
   ],
   [
-   "Canada’s unemployment rate reaches six-month high",
+   "Canada’s unemployment rate hits six-month high as economy sheds jobs in October",
    "Canada Jobless Rate Rises to 6.7%, Employment Falls"
   ],
   [
-   "Taiwan Activates Market-Stabilization Measures to Stem AI Bleeding",
-   "Taiwan Steps In to Calm Investor Nerves After Bruising AI Rout"
+   "Contest to Succeed ECB Head Lagarde Is Officially a Two-Horse Race",
+   "Central banking veterans Knot and de Cos in race to replace Lagarde at ECB"
   ],
   [
-   "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
-   "Asian Equities Tumble as AI Selloff Deepens"
+   "DraftKings’ expensive bet on prediction markets is crushing its stock",
+   "DraftKings Plunges on 2027 Forecast That Misses Estimates"
+  ],
+  [
+   "U.S. Consumer Mood Improved but Remained Gloomy This Month",
+   "US Consumer Sentiment Improves, Fueled by Independents"
   ]
  ],
  "summaries": {
-  "requested": 19,
+  "requested": 22,
   "rejected_ungrounded": 0,
-  "applied": 18
+  "applied": 17
  },
- "generated": "2026-11-06T15:00+00:00",
- "total_cost_usd": 0.00293
+ "generated": "2026-11-06T18:00+00:00",
+ "total_cost_usd": 0.00338
 }
