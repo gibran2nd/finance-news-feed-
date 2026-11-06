@@ -4,58 +4,50 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 12026,
-   "output_tokens": 2631,
-   "cost_usd": 0.00252
+   "input_tokens": 11527,
+   "output_tokens": 1813,
+   "cost_usd": 0.00206
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2715,
-   "output_tokens": 1506,
-   "cost_usd": 0.00102
+   "input_tokens": 2239,
+   "output_tokens": 2214,
+   "cost_usd": 0.00133
   }
  ],
  "errors": [],
  "merge_groups": [
   [
+   "Marc Lore's Wonder confidentially files for a US IPO",
+   "Wonder Files for IPO; Its $9.65B Value Is 14.8x Grubhub’s"
+  ],
+  [
+   "Taiwan Activates Market-Stabilization Measures to Stem AI Bleeding",
+   "Taiwan Steps In to Calm Investor Nerves After Bruising AI Rout"
+  ],
+  [
    "IREN tops quarterly revenue estimates, delays some Microsoft AI infrastructure deliveries",
    "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request"
   ],
   [
-   "Sony ADR earnings beat by $0.08, revenue topped estimates",
-   "Japan’s Sony reports a hefty profit on the back of its blockbuster ‘Spider-Man’ movie"
+   "Bloomin’ Brands rises on Q3 beat despite soft Q4 outlook",
+   "Bloomin Brands earnings beat by $0.06, revenue topped estimates"
   ],
   [
-   "Bank of England raises rates for first time since 2023, warns another move likely",
-   "US Midterms Came Too Late to Prevent Bank of England Rate Hike"
+   "Delek US beats Q3 estimates on strong refining margins",
+   "Delek US Holdings earnings beat by $2.89, revenue topped estimates"
   ],
   [
-   "How a Banking Scandal Is Taking Down Trump’s Ally in Paraguay",
-   "Paraguay’s President Resigns as Collapse of Bank With Close Ties to Him Sparks Crisis"
-  ],
-  [
-   "Why Investors Are Searching for Hope in Home Builders",
-   "There is a whiff of postelection optimism about the housing market that is boosting the battered shares of home builders in an otherwise volatile stock market"
-  ],
-  [
-   "Cloudflare’s stock mounts a big comeback after fastest sales surge in nearly 4 years",
-   "Cloudflare Stock Surges on Lifted Full-Year Outlook, Third-Quarter Revenue Growth"
-  ],
-  [
-   "Canada’s budget uses higher oil revenue to spend on tax incentives, infrastructure",
-   "Canada Budget 2026: Carney Relaxes Foreign Buyer Ban, Adds Billions For Housing"
-  ],
-  [
-   "IonQ Sees Revenue Quadrupling on Quantum Computing Demand",
-   "IonQ CEO Doubles Down on Vision for Quantum Dominance After Blowout Earnings"
+   "Monzo explores venture funding after Nubank talks fail",
+   "Monzo Weighs New Funding at £7.5 Billion Valuation as Buyout Talks Stall"
   ]
  ],
  "summaries": {
-  "requested": 22,
+  "requested": 18,
   "rejected_ungrounded": 0,
-  "applied": 20
+  "applied": 18
  },
- "generated": "2026-11-06T01:00+00:00",
- "total_cost_usd": 0.00354
+ "generated": "2026-11-06T12:00+00:00",
+ "total_cost_usd": 0.00339
 }
