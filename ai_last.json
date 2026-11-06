@@ -4,16 +4,16 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 12417,
-   "output_tokens": 2368,
-   "cost_usd": 0.00243
+   "input_tokens": 12677,
+   "output_tokens": 1873,
+   "cost_usd": 0.0022
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2754,
-   "output_tokens": 1890,
-   "cost_usd": 0.00122
+   "input_tokens": 3394,
+   "output_tokens": 2117,
+   "cost_usd": 0.0014
   }
  ],
  "errors": [],
@@ -21,40 +21,32 @@
   [
    "U.S. Employers Add 165,000 Jobs in October in Surprisingly Strong Report",
    "Friday’s Jobs Report: Hiring Soars, Adding 165K Payrolls; Unemployment Ticks Down",
-   "US Jobs Report October 2026: Key Takeaways on Employment, Payrolls",
-   "Jobs Report Smashes Expectations",
    "Strong Hiring Reinforces a Sturdy Job Market",
-   "VIEW Strong October jobs report sends yields higher",
-   "Treasury Yields, Dollar React to Payrolls Upward Surprise",
-   "Treasuries Stumble as Strong Jobs Data Backs Fed-Hike Bets",
-   "US Treasuries Stumble as Strong Labor Market Lifts Fed-Hike Bets"
+   "Four things to note from Friday's US jobs report",
+   "VIEW Strong October jobs report sends yields higher"
   ],
   [
-   "Canada’s unemployment rate hits six-month high as economy sheds jobs in October",
-   "Canada Jobless Rate Rises to 6.7%, Employment Falls"
+   "Canadian dollar hits nearly three-week low on surprise jobs loss",
+   "Canada’s unemployment rate hits six-month high as economy sheds jobs in October"
+  ],
+  [
+   "Bank of England raises rates for first time since 2023, warns another move likely",
+   "Analysts expect one more BoE rate hike, likely Feb, after 4% move"
   ],
   [
    "Contest to Succeed ECB Head Lagarde Is Officially a Two-Horse Race",
    "Central banking veterans Knot and de Cos in race to replace Lagarde at ECB"
   ],
   [
-   "DraftKings’ expensive bet on prediction markets is crushing its stock",
-   "DraftKings Plunges on 2027 Forecast That Misses Estimates"
-  ],
-  [
    "Bessent, Greer Raise Concerns on China Trade Deal Actions",
    "US warns China it must ‘immediately’ meet terms of Busan trade deal"
-  ],
-  [
-   "U.S. Consumer Mood Improved but Remained Gloomy This Month",
-   "US Consumer Sentiment Improves, Fueled by Independents"
   ]
  ],
  "summaries": {
-  "requested": 20,
+  "requested": 26,
   "rejected_ungrounded": 0,
-  "applied": 10
+  "applied": 20
  },
- "generated": "2026-11-06T18:50+00:00",
- "total_cost_usd": 0.00365
+ "generated": "2026-11-06T22:00+00:00",
+ "total_cost_usd": 0.0036
 }

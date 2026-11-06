@@ -2,7 +2,7 @@
   {
     "week": "2026-W45",
     "label": "Week of November 2\u20136, 2026",
-    "generated": "2026-11-06T18:50:23.764013+00:00",
+    "generated": "2026-11-06T22:00:24.472818+00:00",
     "bullets": [
       {
         "headline": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
@@ -29,16 +29,16 @@
         "link": "https://commercialobserver.com/2026/11/u-s-employers-add-165000-jobs-in-october-in-surprisingly-strong-report/"
       },
       {
-        "headline": "SpaceX to Get Under 10% of Revenue From US Government, Musk Says",
-        "source": "Bloomberg",
-        "section": "Earnings & Results",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-06/spacex-to-get-under-10-of-revenue-from-us-government-musk-says"
-      },
-      {
         "headline": "Moderna raises its revenue outlook \u2014 but all eyes are on what happens next with its experimental cancer vaccine",
         "source": "MarketWatch",
         "section": "Earnings & Results",
         "link": "https://www.marketwatch.com/story/modernas-stock-jumps-after-biotech-raises-sales-outlook-65363127?mod=mw_rss_topstories"
+      },
+      {
+        "headline": "SpaceX to Get Under 10% of Revenue From US Government, Musk Says",
+        "source": "Bloomberg",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcjJvSGdpNUVSSXYyaUJDX0VDdUJYMzVLOGR2ZGljUE42QTZKQjNFSDZjZjhFdGU3N2pLeVNidFo4UG02WFNvRkJubzdfaTlwZjBEaTB5TlRfZnU3YUNzRHFYQzZXWVdPMzRfVUtLMlk0TDZ0R2tLN2dua0pkUzl1bWdiM3ptOURmaEpKeUNqS0JoTFlQWmFoWC1STm0xM19ZSERlYUhGTkttcFhVSjlYZFlYcw?oc=5"
       },
       {
         "headline": "Bank of England raises rates for first time since 2023, warns another move likely",
@@ -54,12 +54,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 1112,
-      "Macro & Economy": 614,
-      "Investment Banking & Deals": 733,
-      "Real Estate & REITs": 395,
-      "Earnings & Results": 1277,
-      "Tech & Fintech": 842
+      "Stock Market & Equities": 1138,
+      "Macro & Economy": 628,
+      "Investment Banking & Deals": 748,
+      "Real Estate & REITs": 414,
+      "Earnings & Results": 1297,
+      "Tech & Fintech": 866
     }
   },
   {
