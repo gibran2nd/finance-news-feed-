@@ -4,16 +4,16 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 12221,
-   "output_tokens": 2188,
-   "cost_usd": 0.00232
+   "input_tokens": 12417,
+   "output_tokens": 2368,
+   "cost_usd": 0.00243
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2847,
-   "output_tokens": 1552,
-   "cost_usd": 0.00106
+   "input_tokens": 2754,
+   "output_tokens": 1890,
+   "cost_usd": 0.00122
   }
  ],
  "errors": [],
@@ -22,13 +22,12 @@
    "U.S. Employers Add 165,000 Jobs in October in Surprisingly Strong Report",
    "Friday’s Jobs Report: Hiring Soars, Adding 165K Payrolls; Unemployment Ticks Down",
    "US Jobs Report October 2026: Key Takeaways on Employment, Payrolls",
+   "Jobs Report Smashes Expectations",
    "Strong Hiring Reinforces a Sturdy Job Market",
-   "Treasury Yields, Dollar React to Payrolls Upward Surprise",
-   "10-year Treasury yield rises after much stronger-than-expected October jobs report",
-   "Treasuries Stumble as Strong Jobs Data Backs Fed-Hike Bets",
-   "US Treasuries Stumble as Strong Labor Market Lifts Fed-Hike Bets",
    "VIEW Strong October jobs report sends yields higher",
-   "Jobs Report Smashes Expectations"
+   "Treasury Yields, Dollar React to Payrolls Upward Surprise",
+   "Treasuries Stumble as Strong Jobs Data Backs Fed-Hike Bets",
+   "US Treasuries Stumble as Strong Labor Market Lifts Fed-Hike Bets"
   ],
   [
    "Canada’s unemployment rate hits six-month high as economy sheds jobs in October",
@@ -43,15 +42,19 @@
    "DraftKings Plunges on 2027 Forecast That Misses Estimates"
   ],
   [
+   "Bessent, Greer Raise Concerns on China Trade Deal Actions",
+   "US warns China it must ‘immediately’ meet terms of Busan trade deal"
+  ],
+  [
    "U.S. Consumer Mood Improved but Remained Gloomy This Month",
    "US Consumer Sentiment Improves, Fueled by Independents"
   ]
  ],
  "summaries": {
-  "requested": 22,
+  "requested": 20,
   "rejected_ungrounded": 0,
-  "applied": 17
+  "applied": 10
  },
- "generated": "2026-11-06T18:00+00:00",
- "total_cost_usd": 0.00338
+ "generated": "2026-11-06T18:50+00:00",
+ "total_cost_usd": 0.00365
 }
