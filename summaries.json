@@ -2,7 +2,7 @@
   {
     "week": "2026-W45",
     "label": "Week of November 2\u20136, 2026",
-    "generated": "2026-11-06T22:00:24.472818+00:00",
+    "generated": "2026-11-07T01:00:25.951136+00:00",
     "bullets": [
       {
         "headline": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
@@ -35,16 +35,16 @@
         "link": "https://www.marketwatch.com/story/modernas-stock-jumps-after-biotech-raises-sales-outlook-65363127?mod=mw_rss_topstories"
       },
       {
-        "headline": "SpaceX to Get Under 10% of Revenue From US Government, Musk Says",
-        "source": "Bloomberg",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcjJvSGdpNUVSSXYyaUJDX0VDdUJYMzVLOGR2ZGljUE42QTZKQjNFSDZjZjhFdGU3N2pLeVNidFo4UG02WFNvRkJubzdfaTlwZjBEaTB5TlRfZnU3YUNzRHFYQzZXWVdPMzRfVUtLMlk0TDZ0R2tLN2dua0pkUzl1bWdiM3ptOURmaEpKeUNqS0JoTFlQWmFoWC1STm0xM19ZSERlYUhGTkttcFhVSjlYZFlYcw?oc=5"
-      },
-      {
         "headline": "Bank of England raises rates for first time since 2023, warns another move likely",
         "source": "Investing.com",
         "section": "Macro & Economy",
         "link": "https://www.investing.com/news/economy-news/bank-of-england-raises-rates-for-first-time-since-2023-says-more-may-come-5003538"
+      },
+      {
+        "headline": "SpaceX to Get Under 10% of Revenue From US Government, Musk Says",
+        "source": "Bloomberg",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcjJvSGdpNUVSSXYyaUJDX0VDdUJYMzVLOGR2ZGljUE42QTZKQjNFSDZjZjhFdGU3N2pLeVNidFo4UG02WFNvRkJubzdfaTlwZjBEaTB5TlRfZnU3YUNzRHFYQzZXWVdPMzRfVUtLMlk0TDZ0R2tLN2dua0pkUzl1bWdiM3ptOURmaEpKeUNqS0JoTFlQWmFoWC1STm0xM19ZSERlYUhGTkttcFhVSjlYZFlYcw?oc=5"
       },
       {
         "headline": "Japanese video game company Nintendo reports rising profit, falling sales",
@@ -54,12 +54,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 1138,
-      "Macro & Economy": 628,
-      "Investment Banking & Deals": 748,
-      "Real Estate & REITs": 414,
-      "Earnings & Results": 1297,
-      "Tech & Fintech": 866
+      "Stock Market & Equities": 1155,
+      "Macro & Economy": 633,
+      "Investment Banking & Deals": 753,
+      "Real Estate & REITs": 423,
+      "Earnings & Results": 1310,
+      "Tech & Fintech": 869
     }
   },
   {
