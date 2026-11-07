@@ -4,29 +4,26 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 12729,
-   "output_tokens": 1333,
-   "cost_usd": 0.00194
+   "input_tokens": 11778,
+   "output_tokens": 1536,
+   "cost_usd": 0.00195
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2851,
-   "output_tokens": 2921,
-   "cost_usd": 0.00175
+   "input_tokens": 3044,
+   "output_tokens": 1456,
+   "cost_usd": 0.00103
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "U.S. Employers Add 165,000 Jobs in October in Surprisingly Strong Report",
-   "Why didn’t the strong jobs report send mortgage rates skyrocketing?",
-   "Four things to note from Friday's US jobs report",
-   "Strong Hiring Reinforces a Sturdy Job Market",
-   "VIEW Strong October jobs report sends yields higher",
-   "San Francisco Fed president on jobs report: This is good news for American workers",
-   "US continues to generate jobs, yet inflation is eroding the spending power of millions of Americans",
-   "A disturbing employment trend is hiding beneath the latest strong job numbers"
+   "U.S. Adds 165k Jobs in October; Unemployment Rate Ticks Down to 4.1%",
+   "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
+   "US labor market regains ground as job growth surges, unemployment rate falls to 4.1%",
+   "Charting the Global Economy: Job Growth in US Tops All Forecasts",
+   "Four things to note from Friday's US jobs report"
   ],
   [
    "Contest to Succeed ECB Head Lagarde Is Officially a Two-Horse Race",
@@ -34,10 +31,10 @@
   ]
  ],
  "summaries": {
-  "requested": 22,
+  "requested": 23,
   "rejected_ungrounded": 0,
-  "applied": 20
+  "applied": 23
  },
- "generated": "2026-11-07T01:00+00:00",
- "total_cost_usd": 0.00369
+ "generated": "2026-11-07T14:00+00:00",
+ "total_cost_usd": 0.00298
 }
