@@ -2,7 +2,7 @@
   {
     "week": "2026-W45",
     "label": "Week of November 2\u20136, 2026",
-    "generated": "2026-11-07T17:22:17.761515+00:00",
+    "generated": "2026-11-07T23:00:27.622993+00:00",
     "bullets": [
       {
         "headline": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
@@ -23,6 +23,12 @@
         "link": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/"
       },
       {
+        "headline": "Berkshire Hathaway buys back $9.6 billion of its own stock but its profits declined",
+        "source": "AP",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONm1sSktDYTlXMklSU3JMV21ZR2NCM2w4aG1xbUpwMTRJQlB6TVJJWTlyRzlsMURveU45cV9kX3oyczZ1Y1Bid01wLTV4d1g5Qzl4VUFkS0FpVWp0Qm14OEpEQmR5UmdocmlaRm9pQzd3TkVGRTJYdjZVcmtJZm5LMU1SeHVCc0FqWkRqcTRVcWM?oc=5"
+      },
+      {
         "headline": "U.S. Employers Add 165,000 Jobs in October in Surprisingly Strong Report",
         "source": "Commercial Observer",
         "section": "Macro & Economy",
@@ -35,31 +41,25 @@
         "link": "https://www.marketwatch.com/story/modernas-stock-jumps-after-biotech-raises-sales-outlook-65363127?mod=mw_rss_topstories"
       },
       {
-        "headline": "Berkshire Hathaway B earnings beat by $4.55, revenue topped estimates",
+        "headline": "Binance says hackers used fake job interviews and AI tools in $6.3bn hack",
+        "source": "Finextra",
+        "section": "Tech & Fintech",
+        "link": "https://www.finextra.com/newsarticle/48694/binance-says-hackers-used-fake-job-interviews-and-ai-tools-in-63bn-hack?utm_medium=rssfinextra&utm_source=finextrafeed"
+      },
+      {
+        "headline": "Bank of England raises rates for first time since 2023, warns another move likely",
         "source": "Investing.com",
-        "section": "Earnings & Results",
-        "link": "https://www.investing.com/news/earnings/berkshire-hathaway-b-earnings-beat-by-455-revenue-topped-estimates-5009895"
-      },
-      {
-        "headline": "Bank of England Strikes Hawkish Tone With First Hike Since 2023",
-        "source": "Bloomberg",
         "section": "Macro & Economy",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-05/bank-of-england-unanimously-hikes-rates-warns-of-4-9-inflation"
-      },
-      {
-        "headline": "Elon Musk Says SpaceX Sales Are \u2018Exploding\u2019\u2014and Forecasts Revenue Twice Wall Street\u2019s Estimate",
-        "source": "Barron's",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUmNBOVZudDlZREhxOTBldFJEbEI4Wlg4M3ZSdGlPSlNPa25YZDE5UXVoWl9nWU16V3htR2hBcmU3ZVBZaENHbF9QdDcyZFZoVHhpeDFMUll3bURFaUFPd1pIZDlxNjJtZG94WEpCLXpDeFVSdktVZGxrTnJiOTBObzNETDE?oc=5"
+        "link": "https://www.investing.com/news/economy-news/bank-of-england-raises-rates-for-first-time-since-2023-says-more-may-come-5003538"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 1209,
-      "Macro & Economy": 666,
-      "Investment Banking & Deals": 820,
+      "Stock Market & Equities": 1220,
+      "Macro & Economy": 671,
+      "Investment Banking & Deals": 837,
       "Real Estate & REITs": 427,
-      "Earnings & Results": 1378,
-      "Tech & Fintech": 885
+      "Earnings & Results": 1386,
+      "Tech & Fintech": 893
     }
   },
   {
