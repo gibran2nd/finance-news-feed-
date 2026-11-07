@@ -4,37 +4,37 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11778,
-   "output_tokens": 1536,
-   "cost_usd": 0.00195
+   "input_tokens": 11056,
+   "output_tokens": 1611,
+   "cost_usd": 0.00191
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3044,
-   "output_tokens": 1456,
-   "cost_usd": 0.00103
+   "input_tokens": 2835,
+   "output_tokens": 1288,
+   "cost_usd": 0.00093
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "U.S. Adds 165k Jobs in October; Unemployment Rate Ticks Down to 4.1%",
-   "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
+   "Hiring Defied Expectations With 165,000 Jobs Added in October",
    "US labor market regains ground as job growth surges, unemployment rate falls to 4.1%",
    "Charting the Global Economy: Job Growth in US Tops All Forecasts",
-   "Four things to note from Friday's US jobs report"
+   "Four things to note from Friday's US jobs report",
+   "US Jobs Surge Raises Odds of December Fed Hike"
   ],
   [
-   "Contest to Succeed ECB Head Lagarde Is Officially a Two-Horse Race",
-   "Central banking veterans Knot and de Cos in race to replace Lagarde at ECB"
+   "Berkshire Hathaway accelerates stock buybacks, operating profit falls",
+   "Berkshire Hathaway’s Quarterly Profit Falls After Investment Gains Shrink"
   ]
  ],
  "summaries": {
-  "requested": 23,
+  "requested": 21,
   "rejected_ungrounded": 0,
-  "applied": 23
+  "applied": 21
  },
- "generated": "2026-11-07T14:00+00:00",
- "total_cost_usd": 0.00298
+ "generated": "2026-11-07T17:22+00:00",
+ "total_cost_usd": 0.00284
 }
