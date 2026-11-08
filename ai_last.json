@@ -4,35 +4,31 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 10936,
-   "output_tokens": 1664,
-   "cost_usd": 0.00193
+   "input_tokens": 10522,
+   "output_tokens": 1588,
+   "cost_usd": 0.00185
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 1580,
-   "output_tokens": 679,
-   "cost_usd": 0.0005
+   "input_tokens": 1513,
+   "output_tokens": 1597,
+   "cost_usd": 0.00095
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Amber Enterprises Arm IL JIN Electronics Files DRHP For Rs 2,500 Cr IPO",
-   "Amber Enterprises subsidiary files for IPO with SEBI"
-  ],
-  [
-   "Berkshire Hathaway speeds up stock buybacks, though profit falls",
-   "Berkshire Hathaway buys back $9.6 billion of its own stock but its profits declined"
-  ],
-  [
-   "Indian shares consolidate in Diwali session after seven-day rally",
-   "Indian Stocks Snap Diwali Win Streak in First Drop Since 2017"
+   "New Zealanders won't know for weeks who won the election as neither side secures clear victory",
+   "Conservative bloc takes a slim lead in New Zealand election that’s still too close to call"
   ],
   [
    "China energy investment to hit $940 billion in 2026 as grid spending rises",
    "China Set to Lead World in Energy Investment in 2026, CCTV Says"
+  ],
+  [
+   "Berkshire Hathaway speeds up stock buybacks, though profit falls",
+   "Berkshire Hathaway buys back $9.6 billion of its own stock but its profits declined"
   ],
   [
    "For Trump’s Fed Ambitions, a Democratic Senate Poses the Biggest Hurdle Yet",
@@ -43,15 +39,19 @@
    "Moog earnings in focus: Can margins hold after blowout quarter?"
   ],
   [
-   "Paraguay’s ousted president faces prosecutors after his removal over bank collapse",
-   "Impeached Paraguay Leader Charged Over Shock Implosion Of Bank"
+   "Hakeem Jeffries Must Navigate a Democratic Party With Competing Priorities",
+   "How a Talent War Spelled Doom for the Traditional Law Firm"
+  ],
+  [
+   "Indian shares consolidate in Diwali session after seven-day rally",
+   "Indian Stocks Snap Diwali Win Streak in First Drop Since 2017"
   ]
  ],
  "summaries": {
   "requested": 11,
   "rejected_ungrounded": 0,
-  "applied": 9
+  "applied": 11
  },
- "generated": "2026-11-08T17:34+00:00",
- "total_cost_usd": 0.00243
+ "generated": "2026-11-08T23:00+00:00",
+ "total_cost_usd": 0.0028
 }

@@ -2,13 +2,13 @@
   {
     "week": "2026-W45",
     "label": "Week of November 2\u20136, 2026",
-    "generated": "2026-11-08T17:34:40.189270+00:00",
+    "generated": "2026-11-08T23:00:27.620928+00:00",
     "bullets": [
       {
-        "headline": "Anthropic Hit $17 Billion In Third Quarter Revenue Ahead Of IPO\u2014But AI Spending Commitments Hit $900 Billion",
-        "source": "Forbes Middle East",
+        "headline": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
+        "source": "CNBC",
         "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPODJEVUNabWlteGYyT2x0MjdWVjZaeDI1T3F0Z2hZY29Lc0VHVDdvb05oM1VscmhNQ3dxaEIwdG5uNXVNU1ZYa3JweGR3enp3NVN4bWhNd1ZqbElwOHJtWjFfb3EzcmpNTkVWUkl2YUNvcFgxdnphM0Z0ODYzQ2tFbFQ4bGtzbnpqUk5ZaXVZOFg4MHJfS0UwUkVuNTZSY29VU3Uya19CSlRqUUZKeXc4OUVzNk5NU3VBYTlySTBzSlZxcUhnMnhyODJ0bHpsR0hVbktkbDRaZlN6amRJNEpMVmZlTXNneDJZeHNIV3pfbGNOeEs0TW1kSllqVzRvdlE0ZHFxWVZWSzNncG5sYXR6SlU1ZWVsX1hrY1hsNm9fTGdGdw?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa3kyWXdEcHgycUZOWm9STGRhbGpfNVVTOXJKeVYybElhR2JnVDgwdHdDem5LX19FX2FaTkJxRVNRd3RReHFrcVg4WXhUX2lUYTZ6ZzFSS3phcEJfc1ZtNFc5cWktTVlqX05RTTVYV212RTV3WjRJcTZyNkZiN2k4XzdiVkxfdjB5V3JVRzhB?oc=5"
       },
       {
         "headline": "Coca-Cola's India bottler Hindustan Coca-Cola files for IPO",
@@ -17,10 +17,10 @@
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPczVmZ1Z5a2JtX2N0cndmT0dZV1ZVXzZwWlZPQTRQczlJeUQ4aldhdXdmZngzWVhJby1TQmlHZEFSZzFfR0pZbGE4aFVwVE5ZRW42R2tqVWNWc0JRYlktdVN0c29WX3dnakctZTZSUFRJRGswcXNrV1MwdHZQblhjdENjY2o0R0JULVlrRnM4NkZyUHNJVldqVy1jbTBNSTFIdXJTcA?oc=5"
       },
       {
-        "headline": "Marvell to buy Lumentum in all-stock deal, a massive bet on AI connectivity",
-        "source": "CNBC",
+        "headline": "In one of the largest deals in tech history, Marvell buys Lumentum for $115B",
+        "source": "TechCrunch",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/11/02/marvell-lumentum-ai-deal.html"
+        "link": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/"
       },
       {
         "headline": "U.S. Employers Add 165,000 Jobs in October in Surprisingly Strong Report",
@@ -41,10 +41,10 @@
         "link": "https://www.marketwatch.com/story/modernas-stock-jumps-after-biotech-raises-sales-outlook-65363127?mod=mw_rss_topstories"
       },
       {
-        "headline": "Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist",
-        "source": "TechCrunch",
+        "headline": "Binance says hackers used fake job interviews and AI tools in $6.3bn hack",
+        "source": "Finextra",
         "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/"
+        "link": "https://www.finextra.com/newsarticle/48694/binance-says-hackers-used-fake-job-interviews-and-ai-tools-in-63bn-hack?utm_medium=rssfinextra&utm_source=finextrafeed"
       },
       {
         "headline": "Bank of England raises rates for first time since 2023, warns another move likely",
@@ -54,12 +54,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 1283,
-      "Macro & Economy": 693,
-      "Investment Banking & Deals": 872,
-      "Real Estate & REITs": 443,
-      "Earnings & Results": 1420,
-      "Tech & Fintech": 918
+      "Stock Market & Equities": 1307,
+      "Macro & Economy": 700,
+      "Investment Banking & Deals": 886,
+      "Real Estate & REITs": 451,
+      "Earnings & Results": 1425,
+      "Tech & Fintech": 936
     }
   },
   {
