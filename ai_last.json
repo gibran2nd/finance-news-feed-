@@ -4,38 +4,52 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 10997,
-   "output_tokens": 1960,
-   "cost_usd": 0.00208
+   "input_tokens": 11029,
+   "output_tokens": 1114,
+   "cost_usd": 0.00166
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2640,
-   "output_tokens": 1234,
-   "cost_usd": 0.00088
+   "input_tokens": 1454,
+   "output_tokens": 654,
+   "cost_usd": 0.00047
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Hiring Defied Expectations With 165,000 Jobs Added in October",
-   "Charting the Global Economy: Job Growth in US Tops All Forecasts",
-   "US labor market regains ground as job growth surges, unemployment rate falls to 4.1%",
-   "Four things to note from Friday's US jobs report",
-   "US Jobs Surge Raises Odds of December Fed Hike",
-   "San Francisco Fed president on jobs report: This is good news for American workers"
+   "Amber Enterprises Arm IL JIN Electronics Files DRHP For Rs 2,500 Cr IPO",
+   "Amber Enterprises subsidiary files for IPO with SEBI",
+   "IL JIN Electronics files draft papers for Rs 2,500-cr IPO",
+   "IL JIN Electronics files DRHP with SEBI for Rs 2,500-crore IPO"
   ],
   [
-   "New Chief of Staff, Chain Reaction Tech Selloff",
-   "Stephen Miller Is Trump’s New Chief of Staff"
+   "Berkshire Hathaway speeds up stock buybacks, though profit falls",
+   "Berkshire Hathaway buys back $9.6 billion of its own stock but its profits declined"
+  ],
+  [
+   "China energy investment to hit $940 billion in 2026 as grid spending rises",
+   "China Set to Lead World in Energy Investment in 2026, CCTV Says"
+  ],
+  [
+   "New Zealanders won't know for weeks who won the election as neither side secures clear victory",
+   "Conservative bloc takes a slim lead in New Zealand election that’s still too close to call"
+  ],
+  [
+   "Paraguay’s ousted president faces prosecutors after his removal over bank collapse",
+   "Impeached Paraguay Leader Charged Over Shock Implosion Of Bank"
+  ],
+  [
+   "Indian shares consolidate in Diwali session after seven-day rally",
+   "Indian Stocks Snap Diwali Win Streak in First Drop Since 2017"
   ]
  ],
  "summaries": {
-  "requested": 20,
+  "requested": 10,
   "rejected_ungrounded": 0,
-  "applied": 20
+  "applied": 9
  },
- "generated": "2026-11-07T23:00+00:00",
- "total_cost_usd": 0.00296
+ "generated": "2026-11-08T14:00+00:00",
+ "total_cost_usd": 0.00213
 }
