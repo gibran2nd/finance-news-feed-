@@ -4,52 +4,54 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11029,
-   "output_tokens": 1114,
-   "cost_usd": 0.00166
+   "input_tokens": 10936,
+   "output_tokens": 1664,
+   "cost_usd": 0.00193
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 1454,
-   "output_tokens": 654,
-   "cost_usd": 0.00047
+   "input_tokens": 1580,
+   "output_tokens": 679,
+   "cost_usd": 0.0005
   }
  ],
  "errors": [],
  "merge_groups": [
   [
    "Amber Enterprises Arm IL JIN Electronics Files DRHP For Rs 2,500 Cr IPO",
-   "Amber Enterprises subsidiary files for IPO with SEBI",
-   "IL JIN Electronics files draft papers for Rs 2,500-cr IPO",
-   "IL JIN Electronics files DRHP with SEBI for Rs 2,500-crore IPO"
+   "Amber Enterprises subsidiary files for IPO with SEBI"
   ],
   [
    "Berkshire Hathaway speeds up stock buybacks, though profit falls",
    "Berkshire Hathaway buys back $9.6 billion of its own stock but its profits declined"
   ],
   [
+   "Indian shares consolidate in Diwali session after seven-day rally",
+   "Indian Stocks Snap Diwali Win Streak in First Drop Since 2017"
+  ],
+  [
    "China energy investment to hit $940 billion in 2026 as grid spending rises",
    "China Set to Lead World in Energy Investment in 2026, CCTV Says"
   ],
   [
-   "New Zealanders won't know for weeks who won the election as neither side secures clear victory",
-   "Conservative bloc takes a slim lead in New Zealand election that’s still too close to call"
+   "For Trump’s Fed Ambitions, a Democratic Senate Poses the Biggest Hurdle Yet",
+   "A Democratic Senate majority would be the broadest check yet on the president’s efforts to control the central bank"
+  ],
+  [
+   "All eyes on Moog earnings amid record U.S. defense budget growth",
+   "Moog earnings in focus: Can margins hold after blowout quarter?"
   ],
   [
    "Paraguay’s ousted president faces prosecutors after his removal over bank collapse",
    "Impeached Paraguay Leader Charged Over Shock Implosion Of Bank"
-  ],
-  [
-   "Indian shares consolidate in Diwali session after seven-day rally",
-   "Indian Stocks Snap Diwali Win Streak in First Drop Since 2017"
   ]
  ],
  "summaries": {
-  "requested": 10,
+  "requested": 11,
   "rejected_ungrounded": 0,
   "applied": 9
  },
- "generated": "2026-11-08T14:00+00:00",
- "total_cost_usd": 0.00213
+ "generated": "2026-11-08T17:34+00:00",
+ "total_cost_usd": 0.00243
 }
