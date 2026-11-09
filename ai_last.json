@@ -4,46 +4,50 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 12075,
-   "output_tokens": 1400,
-   "cost_usd": 0.00191
+   "input_tokens": 12639,
+   "output_tokens": 2215,
+   "cost_usd": 0.00237
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2835,
-   "output_tokens": 3800,
-   "cost_usd": 0.00218
+   "input_tokens": 3137,
+   "output_tokens": 5077,
+   "cost_usd": 0.00285
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Nvidia’s shares slide as chip giant probes CEO over spy claims",
+   "Jensen Huang’s Affair Rings Alarm Bells for Nvidia Investors",
    "Nvidia shares drop after co. investigates whether CEO was 'target of a foreign intelligence effort'"
-  ],
-  [
-   "Oil prices hit 10-week low after Trump says strikes on Iran ‘highly unlikely’",
-   "Oil Slides More Than 3% as Trump Downplays Prospect of New Iran Strikes"
   ],
   [
    "Barkin Says Appropriate Direction of Monetary Policy Relatively Straightforward",
    "Richmond Fed’s Barkin urges careful approach to policy moves"
   ],
   [
-   "KKR profit hits record as asset sales, fees surge",
-   "KKR Profit Rises on Fee-Related Earnings Growth"
+   "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+   "A key report for where inflation stood in October comes out Tuesday. Here's what to expect"
   ],
   [
    "NY Fed survey finds Americans more worried over future jobless levels",
    "Steady Inflation Outlook, Mixed Views for Jobs in NY Fed Survey"
+  ],
+  [
+   "KKR’s Profit Grows as Fee-Related Earnings Hits Record",
+   "KKR’s Nuttall Says Firm to Be Cautious With AI Bets"
+  ],
+  [
+   "California voters reject measure to shred environmental red tape",
+   "California Rejects Construction Fast-Track Measure, Approves Billions for Housing"
   ]
  ],
  "summaries": {
-  "requested": 22,
-  "rejected_ungrounded": 0,
-  "applied": 19
+  "requested": 25,
+  "rejected_ungrounded": 1,
+  "applied": 24
  },
- "generated": "2026-11-09T18:00+00:00",
- "total_cost_usd": 0.00409
+ "generated": "2026-11-09T21:53+00:00",
+ "total_cost_usd": 0.00522
 }

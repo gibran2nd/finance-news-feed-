@@ -2,13 +2,19 @@
   {
     "week": "2026-W46",
     "label": "Week of November 9\u201313, 2026",
-    "generated": "2026-11-09T18:00:40.146567+00:00",
+    "generated": "2026-11-09T21:53:57.737848+00:00",
     "bullets": [
       {
-        "headline": "Nvidia stock falls 5% as scrutiny turns to Jensen Huang\u2019s relationship with alleged Chinese spy",
-        "source": "CNBC",
+        "headline": "Nvidia's shares slide as chip giant probes CEO over spy claims",
+        "source": "Reuters",
         "section": "Tech & Fintech",
-        "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcUVlREFfdFVvdmk1OXFEamNOcFVZTGJFX1gxZkhjYjhXNTFnZkJqUmpLLTliVmRCZUNtRGdHSDZ2cVBvRXlLdldZSG1rVmFfMFk5M1dKNnBnVnNnUzZ1NmVSNkRWakkyNktBZmhGbzJwYkh5YTZBekVPY3pyUU9lTXY1WGt4TkhLcHVPTldJb1k3MGVPdzBLcTIyVzNuRUpyRGt5cDJpMV91QzdjcWFtQy1MekMwU3lkRlNXUFNn?oc=5"
+      },
+      {
+        "headline": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
+        "source": "CNBC",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html"
       },
       {
         "headline": "China Producer Inflation Accelerates to Over Four-Year High",
@@ -17,49 +23,43 @@
         "link": "https://www.wsj.com/economy/china-producer-inflation-accelerates-to-over-four-year-high-a31d4985?mod=rss_socialeconomyfeed"
       },
       {
-        "headline": "Citi, HSBC bet on India as oil slide, AI rotation fuel market revival",
-        "source": "Reuters",
-        "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZGhBSG5USUdjc1BWelIxb215ZlBXRjhSbGZiLVRGYzZWaE9nYXhUdHU5alNZa0xhRFZ4QnlnTnhRb0s1Z3NDTTVTV1ZMdm82N0lYMVhpb2I1VlRqeUZkVFJ1WnpPNTd1VFRjX3dvZE1MZmxwc29seXBhT3RHUnA1MlYyTjZSWVhscHpCQlBKSXRoRVFvMWtWdnZCQzB6RTJhczVvVQ?oc=5"
-      },
-      {
-        "headline": "UniCredit Profit at Record as Orcel Eyes Commerzbank Control",
-        "source": "Bloomberg",
+        "headline": "Huang allegations, Berkshire earnings, AI regulations - What\u2019s moving markets",
+        "source": "Investing.com",
         "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORjZpV0hqX0owd3l2ZHZQbmNPR3dOdVh2OGpqcjhwNWFtZlRUaHJ6dS1PQTRMNHpTVHlwY3Z2eklMenlyT1pfcm9TdDRCT3FJOUNVLVdLdy1PTHhJcXFOYTZGOFY2V3psZWZzN0NudTdITlF3SWltanMtZVJpdVhmb29Ta3dTNTlheldTQS1kOHRQNWtBelpqRGtSUUZMdy1vblBhcnUyRWNhUGMyNlFuQzVaMkM?oc=5"
+        "link": "https://www.investing.com/news/economy-news/huang-allegations-berkshire-earnings-ai-regulations--whats-moving-markets-5010590"
       },
       {
-        "headline": "Fed\u2019s Barkin Says Policy Direction Clear, But Needs Careful Pace",
+        "headline": "Citi Strategists Cut US Stocks, Upgrade Europe After AI Turmoil",
         "source": "Bloomberg",
-        "section": "Macro & Economy",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-09/fed-s-barkin-says-policy-direction-clear-but-needs-careful-pace"
-      },
-      {
-        "headline": "The biggest takeaway from Berkshire Hathaway\u2019s latest quarter isn\u2019t the $357 billion cash or its stock buybacks",
-        "source": "MarketWatch",
         "section": "Tech & Fintech",
-        "link": "https://www.marketwatch.com/story/the-biggest-takeaway-from-berkshire-hathaways-latest-quarter-isnt-the-357-billion-cash-or-its-stock-buybacks-3069f6a9?mod=mw_rss_topstories"
+        "link": "https://www.bloomberg.com/news/articles/2026-11-09/citi-strategists-cut-us-stocks-upgrade-europe-after-ai-turmoil"
       },
       {
-        "headline": "What We Know About The Anthropic IPO Leading In To Debut",
-        "source": "TheBull.com.au",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV21rOHFfeWotSlMtX2p4ZVNZQkVscXl1Zm1kZ2Q0aTh2ZXMyRWxLNTJnQ3BDaVBUYU8zelhWajlselJ5cDBBNjdZcFU0S2pWYXI0d3c4dW40TXFEQTZ2S25tYmRxVkRnMnhEVWJJU0R1ZzlMMDNRZTFuNGlNcGZXeHlBa0h3bUpqcDE0STlR?oc=5"
+        "headline": "KKR\u2019s Profit Grows as Fee-Related Earnings Hits Record",
+        "source": "Commercial Observer",
+        "section": "Earnings & Results",
+        "link": "https://commercialobserver.com/2026/11/kkr-q3-2026/"
       },
       {
-        "headline": "Oil Falls on Unconfirmed Report That Iran Eased Hormuz Demands",
-        "source": "Bloomberg",
+        "headline": "UniCredit prepares to call Commerzbank shareholder vote as profit surges",
+        "source": "Reuters",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQ3ZsazZOZld4ZWtidEkzSmJJdk9EX3RkY2dPRVV3eS1yblc1QnV3OVh3MVVWM0o2MEFSUjFQY2FOd1Badm0wSGRGSnN2cmJmU2ZwVWNCV1J5SWh3cmJDdnMyX1Z4VUtZVkRRM0dCZ1ktbXNXdnhWZzZTUTBZcXRBaHg0Y1Q2RG5LVWtsNExhQk9jXzFMVnhOT0x5NHhuNjl4ZUFScTd5WkVQYVdLZGR4anpUVFIybW4yXzlMU19pbWIycWZaMm1saG0tTHE?oc=5"
+      },
+      {
+        "headline": "FDA adds rare vision-loss warning to popular GLP-1 drugs",
+        "source": "AP",
         "section": "Stock Market & Equities",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-09/oil-falls-on-unconfirmed-report-that-iran-eased-hormuz-demands"
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWVZSQ09GWGpSaFhYeklfRVNZVUNsNGtycVZrOTJ1eXUzSEl3OFhpUnF3eTVJSWNCT0QxR19JXzhrNU5rOUFjclhnS2hxb0ZSazRjNjhKcWo1ZlV4RFl0ZzZDWjVmcm9ZN2xiZzlqR3c0RWxvSnJPOFRFRkdlZVJWMUd4SDRNOE1XckNLZFpnOUxhMmpf?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 141,
-      "Macro & Economy": 75,
-      "Investment Banking & Deals": 55,
-      "Real Estate & REITs": 45,
-      "Earnings & Results": 100,
-      "Tech & Fintech": 113
+      "Stock Market & Equities": 184,
+      "Macro & Economy": 98,
+      "Investment Banking & Deals": 67,
+      "Real Estate & REITs": 75,
+      "Earnings & Results": 141,
+      "Tech & Fintech": 147
     }
   },
   {
