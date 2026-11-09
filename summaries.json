@@ -2,7 +2,7 @@
   {
     "week": "2026-W46",
     "label": "Week of November 9\u201313, 2026",
-    "generated": "2026-11-09T12:00:30.806028+00:00",
+    "generated": "2026-11-09T15:00:27.756522+00:00",
     "bullets": [
       {
         "headline": "Nvidia stock falls 5% as scrutiny turns to Jensen Huang\u2019s relationship with alleged Chinese spy",
@@ -23,37 +23,43 @@
         "link": "https://www.wsj.com/economy/china-producer-inflation-accelerates-to-over-four-year-high-a31d4985?mod=rss_socialeconomyfeed"
       },
       {
-        "headline": "Oil Falls on Unconfirmed Report That Iran Eased Hormuz Demands",
-        "source": "Bloomberg",
-        "section": "Stock Market & Equities",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-09/oil-falls-on-unconfirmed-report-that-iran-eased-hormuz-demands"
-      },
-      {
         "headline": "UniCredit Profit at Record as Orcel Eyes Commerzbank Control",
         "source": "Bloomberg",
         "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORjZpV0hqX0owd3l2ZHZQbmNPR3dOdVh2OGpqcjhwNWFtZlRUaHJ6dS1PQTRMNHpTVHlwY3Z2eklMenlyT1pfcm9TdDRCT3FJOUNVLVdLdy1PTHhJcXFOYTZGOFY2V3psZWZzN0NudTdITlF3SWltanMtZVJpdVhmb29Ta3dTNTlheldTQS1kOHRQNWtBelpqRGtSUUZMdy1vblBhcnUyRWNhUGMyNlFuQzVaMkM?oc=5"
       },
       {
-        "headline": "SoftBank Corp raises full-year outlook after record H1 revenue, operating profit",
-        "source": "Yahoo Finance",
+        "headline": "KKR profit hits record as asset sales, fees surge",
+        "source": "Investing.com",
         "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORFZ1czNmY0h2dXduRF9EYzFaMnVOQUFLSk91cGZ1MkVqWnZPMGpsSGo4dzItbkw3X2p5YUo1dkFKUDltUlRJWkdBcFBrQVdCeWhUUEF2V3FFYlZ2Yk9MZlc4QTh4SnpWR3V4cDFqbFZNRld4cUpTY3BYUnREdGhoaVBPYnhfNWRtdEE?oc=5"
+        "link": "https://www.investing.com/news/economy-news/kkr-profit-hits-record-as-asset-sales-fees-surge-5011467"
       },
       {
-        "headline": "German exports rise more than expected in September",
-        "source": "Investing.com",
+        "headline": "Oil Falls on Unconfirmed Report That Iran Eased Hormuz Demands",
+        "source": "Bloomberg",
+        "section": "Stock Market & Equities",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-09/oil-falls-on-unconfirmed-report-that-iran-eased-hormuz-demands"
+      },
+      {
+        "headline": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
+        "source": "CoinDesk",
+        "section": "Tech & Fintech",
+        "link": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race"
+      },
+      {
+        "headline": "Gold gains as lower oil prices temper inflation fears; US inflation in focus",
+        "source": "Reuters",
         "section": "Macro & Economy",
-        "link": "https://www.investing.com/news/economy-news/german-exports-rise-more-than-expected-in-september-5010619"
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbEdIVXlJc2RaUEw2RmFrR2FZcXYzYlBKUG9Cdl9WUVFfalVxT0hGcGFCdW1DS3JMT2daanhDYktBeXVGNGt5TGlsOGZJVWVSMFpnT3ZVa2RBUjZYakRlVlQ3SXd1ZkpTQVNXVkpoNUZoemdycWY0MG02dVk0cWRuWG4taG5VMm9kbEluSHctTVZVMXJwWXNWSWdVcmxQeWtRSW1EWDQ2dTJ6QVV2TzhoeQ?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 63,
-      "Macro & Economy": 46,
-      "Investment Banking & Deals": 25,
-      "Real Estate & REITs": 16,
-      "Earnings & Results": 40,
-      "Tech & Fintech": 49
+      "Stock Market & Equities": 114,
+      "Macro & Economy": 61,
+      "Investment Banking & Deals": 47,
+      "Real Estate & REITs": 23,
+      "Earnings & Results": 66,
+      "Tech & Fintech": 83
     }
   },
   {

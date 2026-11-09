@@ -4,35 +4,32 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 10431,
-   "output_tokens": 1755,
-   "cost_usd": 0.00192
+   "input_tokens": 11328,
+   "output_tokens": 1173,
+   "cost_usd": 0.00172
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 1932,
-   "output_tokens": 931,
-   "cost_usd": 0.00066
+   "input_tokens": 3062,
+   "output_tokens": 6672,
+   "cost_usd": 0.00364
   }
  ],
  "errors": [],
  "merge_groups": [
   [
+   "Nvidia stock falls 5% as scrutiny turns to Jensen Huang’s relationship with alleged Chinese spy",
    "Nvidia’s shares slide as chip giant probes CEO over spy claims",
-   "Jensen Huang Puts $200 Billion Dent in Nvidia’s Stock Price"
+   "Nvidia shares drop after co. investigates whether CEO was 'target of a foreign intelligence effort'"
   ],
   [
-   "Gold Rises Above $4,100 an Ounce, With Focus on U.S. Inflation Data",
-   "Gold gains as lower oil prices temper inflation fears; US inflation in focus"
+   "Mexico’s headline inflation accelerates more than expected in October",
+   "Mexico Inflation Jumps to Put Banxico Rate Policy in Focus"
   ],
   [
-   "What Democrats must do now",
-   "What Democrats must do now"
-  ],
-  [
-   "Somnigroup cuts earnings outlook, shares fall 8% premarket",
-   "Somnigroup International earnings missed by $0.01, revenue fell short of estimates"
+   "Constellation Raises Guidance as Tech Deals Add 1,000+ MW",
+   "Constellation raises guidance after Q3 earnings jump 66%"
   ],
   [
    "Norway reins in data centre industry amid AI boom",
@@ -40,10 +37,10 @@
   ]
  ],
  "summaries": {
-  "requested": 14,
+  "requested": 26,
   "rejected_ungrounded": 0,
-  "applied": 11
+  "applied": 26
  },
- "generated": "2026-11-09T12:00+00:00",
- "total_cost_usd": 0.00258
+ "generated": "2026-11-09T15:00+00:00",
+ "total_cost_usd": 0.00536
 }
