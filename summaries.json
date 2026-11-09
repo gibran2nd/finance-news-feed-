@@ -1,5 +1,62 @@
 [
   {
+    "week": "2026-W46",
+    "label": "Week of November 9\u201313, 2026",
+    "generated": "2026-11-09T12:00:30.806028+00:00",
+    "bullets": [
+      {
+        "headline": "Nvidia stock falls 5% as scrutiny turns to Jensen Huang\u2019s relationship with alleged Chinese spy",
+        "source": "CNBC",
+        "section": "Tech & Fintech",
+        "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
+      },
+      {
+        "headline": "Citi, HSBC bet on India as oil slide, AI rotation fuel market revival",
+        "source": "Reuters",
+        "section": "Tech & Fintech",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZGhBSG5USUdjc1BWelIxb215ZlBXRjhSbGZiLVRGYzZWaE9nYXhUdHU5alNZa0xhRFZ4QnlnTnhRb0s1Z3NDTTVTV1ZMdm82N0lYMVhpb2I1VlRqeUZkVFJ1WnpPNTd1VFRjX3dvZE1MZmxwc29seXBhT3RHUnA1MlYyTjZSWVhscHpCQlBKSXRoRVFvMWtWdnZCQzB6RTJhczVvVQ?oc=5"
+      },
+      {
+        "headline": "China Producer Inflation Accelerates to Over Four-Year High",
+        "source": "WSJ",
+        "section": "Macro & Economy",
+        "link": "https://www.wsj.com/economy/china-producer-inflation-accelerates-to-over-four-year-high-a31d4985?mod=rss_socialeconomyfeed"
+      },
+      {
+        "headline": "Oil Falls on Unconfirmed Report That Iran Eased Hormuz Demands",
+        "source": "Bloomberg",
+        "section": "Stock Market & Equities",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-09/oil-falls-on-unconfirmed-report-that-iran-eased-hormuz-demands"
+      },
+      {
+        "headline": "UniCredit Profit at Record as Orcel Eyes Commerzbank Control",
+        "source": "Bloomberg",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORjZpV0hqX0owd3l2ZHZQbmNPR3dOdVh2OGpqcjhwNWFtZlRUaHJ6dS1PQTRMNHpTVHlwY3Z2eklMenlyT1pfcm9TdDRCT3FJOUNVLVdLdy1PTHhJcXFOYTZGOFY2V3psZWZzN0NudTdITlF3SWltanMtZVJpdVhmb29Ta3dTNTlheldTQS1kOHRQNWtBelpqRGtSUUZMdy1vblBhcnUyRWNhUGMyNlFuQzVaMkM?oc=5"
+      },
+      {
+        "headline": "SoftBank Corp raises full-year outlook after record H1 revenue, operating profit",
+        "source": "Yahoo Finance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORFZ1czNmY0h2dXduRF9EYzFaMnVOQUFLSk91cGZ1MkVqWnZPMGpsSGo4dzItbkw3X2p5YUo1dkFKUDltUlRJWkdBcFBrQVdCeWhUUEF2V3FFYlZ2Yk9MZlc4QTh4SnpWR3V4cDFqbFZNRld4cUpTY3BYUnREdGhoaVBPYnhfNWRtdEE?oc=5"
+      },
+      {
+        "headline": "German exports rise more than expected in September",
+        "source": "Investing.com",
+        "section": "Macro & Economy",
+        "link": "https://www.investing.com/news/economy-news/german-exports-rise-more-than-expected-in-september-5010619"
+      }
+    ],
+    "section_counts": {
+      "Stock Market & Equities": 63,
+      "Macro & Economy": 46,
+      "Investment Banking & Deals": 25,
+      "Real Estate & REITs": 16,
+      "Earnings & Results": 40,
+      "Tech & Fintech": 49
+    }
+  },
+  {
     "week": "2026-W45",
     "label": "Week of November 2\u20136, 2026",
     "generated": "2026-11-08T23:00:27.620928+00:00",

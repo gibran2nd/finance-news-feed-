@@ -4,54 +4,46 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 10522,
-   "output_tokens": 1588,
-   "cost_usd": 0.00185
+   "input_tokens": 10431,
+   "output_tokens": 1755,
+   "cost_usd": 0.00192
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 1513,
-   "output_tokens": 1597,
-   "cost_usd": 0.00095
+   "input_tokens": 1932,
+   "output_tokens": 931,
+   "cost_usd": 0.00066
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "New Zealanders won't know for weeks who won the election as neither side secures clear victory",
-   "Conservative bloc takes a slim lead in New Zealand election that’s still too close to call"
+   "Nvidia’s shares slide as chip giant probes CEO over spy claims",
+   "Jensen Huang Puts $200 Billion Dent in Nvidia’s Stock Price"
   ],
   [
-   "China energy investment to hit $940 billion in 2026 as grid spending rises",
-   "China Set to Lead World in Energy Investment in 2026, CCTV Says"
+   "Gold Rises Above $4,100 an Ounce, With Focus on U.S. Inflation Data",
+   "Gold gains as lower oil prices temper inflation fears; US inflation in focus"
   ],
   [
-   "Berkshire Hathaway speeds up stock buybacks, though profit falls",
-   "Berkshire Hathaway buys back $9.6 billion of its own stock but its profits declined"
+   "What Democrats must do now",
+   "What Democrats must do now"
   ],
   [
-   "For Trump’s Fed Ambitions, a Democratic Senate Poses the Biggest Hurdle Yet",
-   "A Democratic Senate majority would be the broadest check yet on the president’s efforts to control the central bank"
+   "Somnigroup cuts earnings outlook, shares fall 8% premarket",
+   "Somnigroup International earnings missed by $0.01, revenue fell short of estimates"
   ],
   [
-   "All eyes on Moog earnings amid record U.S. defense budget growth",
-   "Moog earnings in focus: Can margins hold after blowout quarter?"
-  ],
-  [
-   "Hakeem Jeffries Must Navigate a Democratic Party With Competing Priorities",
-   "How a Talent War Spelled Doom for the Traditional Law Firm"
-  ],
-  [
-   "Indian shares consolidate in Diwali session after seven-day rally",
-   "Indian Stocks Snap Diwali Win Streak in First Drop Since 2017"
+   "Norway reins in data centre industry amid AI boom",
+   "Norway Halts Power Connections for New Data Centers"
   ]
  ],
  "summaries": {
-  "requested": 11,
+  "requested": 14,
   "rejected_ungrounded": 0,
   "applied": 11
  },
- "generated": "2026-11-08T23:00+00:00",
- "total_cost_usd": 0.0028
+ "generated": "2026-11-09T12:00+00:00",
+ "total_cost_usd": 0.00258
 }
