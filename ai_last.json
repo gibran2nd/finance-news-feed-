@@ -4,59 +4,49 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11913,
-   "output_tokens": 2021,
-   "cost_usd": 0.0022
+   "input_tokens": 11360,
+   "output_tokens": 2458,
+   "cost_usd": 0.00236
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3100,
-   "output_tokens": 3417,
-   "cost_usd": 0.00202
+   "input_tokens": 2366,
+   "output_tokens": 1129,
+   "cost_usd": 0.0008
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Australian consumer sentiment hits four-year low in November as rates rise",
-   "Australia Consumer Confidence Slumps on Cost-of-Living Fears"
+   "Vodafone raises guidance but swings to loss on Germany impairment",
+   "Vodafone raises guidance despite German business slipping into decline",
+   "Vodafone Raises Profit Forecast After Cost-Cutting Campaign"
   ],
   [
-   "Lucid misses Wall Street’s earnings expectations, expands loan from Saudi Arabia fund",
-   "Lucid Group earnings missed by $0.05, revenue fell short of estimates"
+   "Oil falls below $90 as Trump pulls back from threat to strike Iran",
+   "Global Stocks Strengthen as Oil Dips Below $90 a Barrel",
+   "Angola’s Bonds Lead Retreat Among Emerging-Market Oil Producers"
   ],
   [
-   "Take-Two projects third-quarter bookings below estimates",
-   "Take-Two’s ‘NBA 2K’ Sales Miss Expectations Due to ‘Grand Theft Auto VI’"
+   "Singapore’s Sea Misses Profit Estimates on AI, Cloud Costs",
+   "Sea ADR earnings missed by $0.21, revenue topped estimates",
+   "Sea Limited shares tumble 9% on third quarter earnings miss"
   ],
   [
-   "Tokenization platform Securitize gains 10% postmarket on Q3 results, move into asset-backed finance",
-   "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition"
+   "Transdigm earnings beat by $0.22, revenue topped estimates",
+   "TransDigm shares fall 4% on fiscal 2027 earnings guidance miss"
   ],
   [
-   "Colombia Seeks $15 Billion IMF Deal as Fiscal Pressure Mounts",
-   "Colombia seeking large IMF loan, but no decision expected in coming weeks, sources say"
-  ],
-  [
-   "Barkin Says Appropriate Direction of Monetary Policy Relatively Straightforward",
-   "Richmond Fed’s Barkin urges careful approach to policy moves"
-  ],
-  [
-   "Oil prices hit 10-week low after Trump says strikes on Iran ‘highly unlikely’",
-   "Latest Oil Market News and Analysis for Nov. 10"
-  ],
-  [
-   "Inflation Data to Test Limits of Treasury Rally After Haven Bid",
-   "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
-   "A key report for where inflation stood in October comes out Tuesday. Here's what to expect"
+   "Bank of Japan rate debate switches to pace and timing of future hikes",
+   "Some in BOJ called for faster rate hikes, October summary shows"
   ]
  ],
  "summaries": {
-  "requested": 25,
-  "rejected_ungrounded": 1,
-  "applied": 24
+  "requested": 18,
+  "rejected_ungrounded": 0,
+  "applied": 16
  },
- "generated": "2026-11-10T01:00+00:00",
- "total_cost_usd": 0.00422
+ "generated": "2026-11-10T12:00+00:00",
+ "total_cost_usd": 0.00316
 }
