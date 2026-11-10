@@ -2,7 +2,7 @@
   {
     "week": "2026-W46",
     "label": "Week of November 9\u201313, 2026",
-    "generated": "2026-11-10T18:00:33.006286+00:00",
+    "generated": "2026-11-10T19:15:53.727033+00:00",
     "bullets": [
       {
         "headline": "Anthropic sets price range of $70 to $78 in upcoming IPO as AI lab marches towards Nasdaq",
@@ -23,10 +23,22 @@
         "link": "https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055"
       },
       {
+        "headline": "October inflation ran hot again, making a December Fed hike likely",
+        "source": "HousingWire",
+        "section": "Macro & Economy",
+        "link": "https://www.housingwire.com/articles/october-cpi-fed-hike/"
+      },
+      {
         "headline": "China Producer Inflation Accelerates to Over Four-Year High",
         "source": "WSJ",
         "section": "Macro & Economy",
         "link": "https://www.wsj.com/economy/china-producer-inflation-accelerates-to-over-four-year-high-a31d4985?mod=rss_socialeconomyfeed"
+      },
+      {
+        "headline": "SoftBank Loses $7 Billion After Big US Data Center Writedown",
+        "source": "Bloomberg",
+        "section": "Tech & Fintech",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-10/softbank-group-earnings-loss-after-ai-worries-hit-tech-stocks-masayoshi-son"
       },
       {
         "headline": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
@@ -39,27 +51,15 @@
         "source": "NewsBytes",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWGJncl8tWEVlbzloR0xlQi1NYkRwZFdKOXFVSHVEakNZV0s3NmhUb0JkWFE1Q2hDSlRNZlVEbFlJbzhlUHZ6Y1FsOFFOYnhPN2l3N1RGUVJ4amNJalJiN0wxUUN5WXFFZXlQZ1pPTDVVT21XMkxlN245UHh5X0dKVmZtV0ZyQnZrU3dpMldmam5qd3VDcG9uQ2tjYUQxdGM5cG5BNG9B?oc=5"
-      },
-      {
-        "headline": "Honda Raises Outlook Even as EV Fallout Hangs Over Carmaker",
-        "source": "Bloomberg",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdXdnRnpabXZLNXEtZW16MHRSck5mX1NLZWxfRHo2Rlg5OTVPeXROMzE5QktiRzBodE00d3dVYUdFdFNqVFl1SzByUG03RnYxWDMyMHc3bWlhb0QxOFJZaVVvbjFBZmcwa0NBbGltclZrTGw1dXZaSF9HS293UXhaZnVTUmZ2TG9SLWhEa2tCRmVVcUJicjIyY2FjaUVITHZtdkFjaGNicnBlcHV6SndF?oc=5"
-      },
-      {
-        "headline": "China\u2019s trade surplus exceeds $1tn for first 10 months of year",
-        "source": "FT",
-        "section": "Macro & Economy",
-        "link": "https://www.ft.com/content/a267d321-a489-4426-940e-1e4be712dc09?syn-25a6b1a6=1"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 356,
-      "Macro & Economy": 235,
-      "Investment Banking & Deals": 190,
-      "Real Estate & REITs": 120,
-      "Earnings & Results": 304,
-      "Tech & Fintech": 279
+      "Stock Market & Equities": 369,
+      "Macro & Economy": 250,
+      "Investment Banking & Deals": 199,
+      "Real Estate & REITs": 134,
+      "Earnings & Results": 315,
+      "Tech & Fintech": 288
     }
   },
   {
