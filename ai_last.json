@@ -4,56 +4,77 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11947,
-   "output_tokens": 1628,
-   "cost_usd": 0.00201
+   "input_tokens": 11496,
+   "output_tokens": 2257,
+   "cost_usd": 0.00228
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2201,
-   "output_tokens": 2586,
-   "cost_usd": 0.00151
+   "input_tokens": 2634,
+   "output_tokens": 1430,
+   "cost_usd": 0.00098
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
-   "Instant view: Hot October inflation report rattles markets",
-   "US CPI Report October 2026: Key Takeaways on Inflation, Consumer Price Index",
-   "October CPI Inflation Rises 0.4%, Boosting Case for December Fed Rate Hike",
-   "Monthly US inflation eased less than expected in October",
-   "Consumer Prices Rise 0.4% in October as Shelter, Food Costs Climb",
-   "US consumer prices rise above expectations in October",
-   "US Core CPI Rises by More Than Forecast, Supporting Fed Hike"
+   "CoreWeave earnings up next: Profitability in focus amid credit concerns",
+   "CoreWeave earnings put debt-fueled AI build-out under scrutiny",
+   "CoreWeave set to report Q3 results today: Cantor Fitzgerald's Brett Knoblauch on what to expect"
   ],
   [
-   "Honda raises full-year outlook despite second-quarter profit slump",
-   "Honda reports robust results on the back of healthy motorcycle sales"
+   "Smart ring maker Oura to acquire Counsel Health for $625 million",
+   "Oura to Buy On-Demand Doctor AI Service Counsel Health; Revenue Jumps 153% in Q4"
   ],
   [
-   "Vodafone raises guidance despite German business slipping into decline",
-   "Vodafone suffers huge net loss on Germany hit but raises full-year outlook"
+   "Dangote Cement shelves London listing, blames market conditions in blow to LSE",
+   "Africa’s richest man Aliko Dangote pulls London listing"
   ],
   [
    "GFL Environmental turns down buyout offer from Wall Street private equ…",
    "GFL Environmental Rejects Takeover Bids, Opts to Remain Public"
   ],
   [
-   "Africa’s richest man Aliko Dangote pulls London listing",
-   "Dangote Cement Pauses London Listing Plan After Market Selloff"
+   "Honda raises full-year outlook despite second-quarter profit slump",
+   "Honda reports robust results on the back of healthy motorcycle sales"
+  ],
+  [
+   "Data Show Households Still Managing to Meet Their Monthly Debts",
+   "Credit card debt climbs to a record $1.29 trillion, New York Fed research finds",
+   "US Household Delinquencies Rise Slightly, NY Fed Report Shows"
+  ],
+  [
+   "The UK has an inflation problem",
+   "The UK’s inflation problem"
   ],
   [
    "Oil falls below $90 as Trump pulls back from threat to strike Iran",
    "Global Stocks Strengthen as Oil Dips Below $90 a Barrel"
+  ],
+  [
+   "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+   "October CPI Inflation Rises 0.4%, Boosting Case for December Fed Rate Hike",
+   "Higher-than-expected October inflation sparks Treasury sell-off",
+   "Monthly US inflation eased less than expected in October",
+   "Dollar Set for Best Day Since September as CPI Lifts Hike Bets",
+   "Here Are the Key Takeaways From the US CPI Report for October",
+   "US Core CPI Rises by More Than Forecast, Supporting Fed Hike",
+   "Hot US inflation seals December rise and brings larger increase into play",
+   "Treasuries Slide as Hot US Inflation Cements December Rate Bets",
+   "Instant view: Hot October inflation report rattles markets",
+   "October inflation ran hot again, making a December Fed hike likely",
+   "Reaction roundup: Experts, analysts weigh in on October CPI report",
+   "Elevated Inflation Keeps Pressure on Fed to Raise Rates",
+   "Inflation runs hotter than expected as higher prices extend beyond the gas station",
+   "S&P 500 futures fall sharply after October inflation data"
   ]
  ],
  "summaries": {
-  "requested": 17,
+  "requested": 20,
   "rejected_ungrounded": 0,
-  "applied": 16
+  "applied": 14
  },
- "generated": "2026-11-10T15:00+00:00",
- "total_cost_usd": 0.00352
+ "generated": "2026-11-10T18:00+00:00",
+ "total_cost_usd": 0.00326
 }

@@ -2,7 +2,7 @@
   {
     "week": "2026-W46",
     "label": "Week of November 9\u201313, 2026",
-    "generated": "2026-11-10T15:00:34.429526+00:00",
+    "generated": "2026-11-10T18:00:33.006286+00:00",
     "bullets": [
       {
         "headline": "Anthropic sets price range of $70 to $78 in upcoming IPO as AI lab marches towards Nasdaq",
@@ -17,10 +17,10 @@
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUWZQSk5PbzdVdVhLaVFuakFlTy16TkhEdzcyaDJ6dmQyeDh1UFpBWFk3VjNrT24yZDgtNVU3cUZZODZyTFNxS3JScWdYWmxzcGFLOHNvVEJWSlBVckZHelJDcENpb0t1QkVyRkNON2hXX2hjcWRHN3piNFJxVWRDSEN3VHRWNVJZdHVRUHlhbFVUQ242emtCUXl5cmV4RVlnSWNjeEU1UklHZ3pBWGNCNUo5clRaWkVjRjNJUnVMbmlhUQ?oc=5"
       },
       {
-        "headline": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
-        "source": "CoinDesk",
+        "headline": "Fed officials open door to a half-point hike after inflation beats expectations",
+        "source": "Investing.com",
         "section": "Macro & Economy",
-        "link": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3"
+        "link": "https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055"
       },
       {
         "headline": "China Producer Inflation Accelerates to Over Four-Year High",
@@ -29,22 +29,22 @@
         "link": "https://www.wsj.com/economy/china-producer-inflation-accelerates-to-over-four-year-high-a31d4985?mod=rss_socialeconomyfeed"
       },
       {
+        "headline": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
+        "source": "CoinDesk",
+        "section": "Macro & Economy",
+        "link": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3"
+      },
+      {
         "headline": "Blackstone to acquire 16% stake in IIFL Finance for \u20b95,000cr",
         "source": "NewsBytes",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWGJncl8tWEVlbzloR0xlQi1NYkRwZFdKOXFVSHVEakNZV0s3NmhUb0JkWFE1Q2hDSlRNZlVEbFlJbzhlUHZ6Y1FsOFFOYnhPN2l3N1RGUVJ4amNJalJiN0wxUUN5WXFFZXlQZ1pPTDVVT21XMkxlN245UHh5X0dKVmZtV0ZyQnZrU3dpMldmam5qd3VDcG9uQ2tjYUQxdGM5cG5BNG9B?oc=5"
       },
       {
-        "headline": "Fed\u2019s Waller plans to support at least a quarter-point rate hike in December",
-        "source": "Investing.com",
-        "section": "Macro & Economy",
-        "link": "https://www.investing.com/news/economy-news/feds-waller-plans-to-support-at-least-a-quarterpoint-rate-hike-in-december-5014429"
-      },
-      {
-        "headline": "Inflation Data to Test Limits of Treasury Rally After Haven Bid",
+        "headline": "Honda Raises Outlook Even as EV Fallout Hangs Over Carmaker",
         "source": "Bloomberg",
-        "section": "Macro & Economy",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-10/inflation-data-to-test-limits-of-treasury-rally-after-haven-bid"
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdXdnRnpabXZLNXEtZW16MHRSck5mX1NLZWxfRHo2Rlg5OTVPeXROMzE5QktiRzBodE00d3dVYUdFdFNqVFl1SzByUG03RnYxWDMyMHc3bWlhb0QxOFJZaVVvbjFBZmcwa0NBbGltclZrTGw1dXZaSF9HS293UXhaZnVTUmZ2TG9SLWhEa2tCRmVVcUJicjIyY2FjaUVITHZtdkFjaGNicnBlcHV6SndF?oc=5"
       },
       {
         "headline": "China\u2019s trade surplus exceeds $1tn for first 10 months of year",
@@ -54,12 +54,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 327,
-      "Macro & Economy": 209,
-      "Investment Banking & Deals": 167,
-      "Real Estate & REITs": 103,
-      "Earnings & Results": 273,
-      "Tech & Fintech": 246
+      "Stock Market & Equities": 356,
+      "Macro & Economy": 235,
+      "Investment Banking & Deals": 190,
+      "Real Estate & REITs": 120,
+      "Earnings & Results": 304,
+      "Tech & Fintech": 279
     }
   },
   {
