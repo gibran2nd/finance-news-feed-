@@ -4,50 +4,59 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 12291,
-   "output_tokens": 1978,
-   "cost_usd": 0.00222
+   "input_tokens": 11913,
+   "output_tokens": 2021,
+   "cost_usd": 0.0022
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3107,
-   "output_tokens": 1636,
-   "cost_usd": 0.00113
+   "input_tokens": 3100,
+   "output_tokens": 3417,
+   "cost_usd": 0.00202
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Jensen Huang’s Affair Rings Alarm Bells for Nvidia Investors",
-   "Nvidia shares drop after co. investigates whether CEO was 'target of a foreign intelligence effort'"
+   "Australian consumer sentiment hits four-year low in November as rates rise",
+   "Australia Consumer Confidence Slumps on Cost-of-Living Fears"
   ],
   [
-   "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
-   "A key report for where inflation stood in October comes out Tuesday. Here's what to expect"
+   "Lucid misses Wall Street’s earnings expectations, expands loan from Saudi Arabia fund",
+   "Lucid Group earnings missed by $0.05, revenue fell short of estimates"
+  ],
+  [
+   "Take-Two projects third-quarter bookings below estimates",
+   "Take-Two’s ‘NBA 2K’ Sales Miss Expectations Due to ‘Grand Theft Auto VI’"
+  ],
+  [
+   "Tokenization platform Securitize gains 10% postmarket on Q3 results, move into asset-backed finance",
+   "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition"
+  ],
+  [
+   "Colombia Seeks $15 Billion IMF Deal as Fiscal Pressure Mounts",
+   "Colombia seeking large IMF loan, but no decision expected in coming weeks, sources say"
   ],
   [
    "Barkin Says Appropriate Direction of Monetary Policy Relatively Straightforward",
    "Richmond Fed’s Barkin urges careful approach to policy moves"
   ],
   [
-   "Lucid Group earnings missed by $0.05, revenue fell short of estimates",
-   "Lucid misses Wall Street’s earnings expectations, expands loan from Saudi Arabia fund"
+   "Oil prices hit 10-week low after Trump says strikes on Iran ‘highly unlikely’",
+   "Latest Oil Market News and Analysis for Nov. 10"
   ],
   [
-   "Take-Two earnings missed by $1.26, revenue fell short of estimates",
-   "Take-Two’s ‘NBA 2K’ Sales Miss Expectations Due to ‘Grand Theft Auto VI’"
-  ],
-  [
-   "KKR’s Nuttall Says Firm to Be Cautious With AI Bets",
-   "KKR’s Profit Grows as Fee-Related Earnings Hits Record"
+   "Inflation Data to Test Limits of Treasury Rally After Haven Bid",
+   "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+   "A key report for where inflation stood in October comes out Tuesday. Here's what to expect"
   ]
  ],
  "summaries": {
   "requested": 25,
-  "rejected_ungrounded": 2,
-  "applied": 22
+  "rejected_ungrounded": 1,
+  "applied": 24
  },
- "generated": "2026-11-09T22:00+00:00",
- "total_cost_usd": 0.00335
+ "generated": "2026-11-10T01:00+00:00",
+ "total_cost_usd": 0.00422
 }
