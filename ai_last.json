@@ -4,53 +4,55 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11819,
-   "output_tokens": 1529,
-   "cost_usd": 0.00195
+   "input_tokens": 11202,
+   "output_tokens": 2077,
+   "cost_usd": 0.00216
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3200,
-   "output_tokens": 6406,
-   "cost_usd": 0.00352
+   "input_tokens": 2925,
+   "output_tokens": 3643,
+   "cost_usd": 0.00211
   }
  ],
  "errors": [],
  "merge_groups": [
   [
+   "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
+   "CoreWeave beats quarterly revenue estimates as AI demand defies growing doubts",
+   "CoreWeave Boosts Annual Forecast, Easing Concerns About Slowdown",
+   "CoreWeave Meets Wall Street Expectations, Shares Rise",
+   "CoreWeave Reports Q3 Double Beat, Raises Guidance: 'This Was a Breakout Quarter'",
+   "CoreWeave stock pops as Q3 revenue beats estimates, company raises full-year outlook"
+  ],
+  [
    "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
-   "October CPI Inflation Rises 0.4%, Boosting Case for December Fed Rate Hike",
-   "Here Are the Key Takeaways From the US CPI Report for October",
    "Instant view: Hot October inflation report rattles markets",
-   "Elevated Inflation Keeps Pressure on Fed to Raise Rates",
-   "Inflation runs hotter than expected as higher prices extend beyond the gas station",
+   "S&P 500 futures fall sharply after October inflation data",
    "Higher-than-expected October inflation sparks Treasury sell-off",
-   "Hot US inflation seals December rise and brings larger increase into play",
-   "Monthly US inflation eased less than expected in October",
-   "Treasuries Slide as Hot US Inflation Cements December Rate Bets",
    "Dollar Set for Best Day Since September as CPI Lifts Hike Bets",
-   "S&P 500 futures fall sharply after October inflation data"
+   "Elevated Inflation Keeps Pressure on Fed to Raise Rates",
+   "What got more expensive for US consumers in October?",
+   "US consumer prices rise briskly for third straight month"
   ],
   [
-   "CoreWeave earnings up next: Profitability in focus amid credit concerns",
-   "CoreWeave earnings put debt-fueled AI build-out under scrutiny",
-   "CoreWeave set to report Q3 results today: Cantor Fitzgerald's Brett Knoblauch on what to expect"
+   "Oil falls below $90 as Trump pulls back from threat to strike Iran",
+   "Oil Prices Extend Decline After Trump Signals Restraint on Iran"
   ],
   [
-   "Honda raises full-year outlook despite second-quarter profit slump",
-   "Honda reports robust results on the back of healthy motorcycle sales"
-  ],
-  [
-   "Smart ring maker Oura to acquire Counsel Health for $625 million",
-   "Oura to Buy On-Demand Doctor AI Service Counsel Health; Revenue Jumps 153% in Q4"
+   "US Household Delinquencies Rise Slightly, NY Fed Report Shows",
+   "Troubled US debt levels ticked up in third quarter, New York Fed report says",
+   "Data Show Households Still Managing to Meet Their Monthly Debts",
+   "US credit card debt hits record $1.29 trillion in third quarter",
+   "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report"
   ]
  ],
  "summaries": {
-  "requested": 24,
+  "requested": 23,
   "rejected_ungrounded": 0,
-  "applied": 24
+  "applied": 22
  },
- "generated": "2026-11-10T19:15+00:00",
- "total_cost_usd": 0.00547
+ "generated": "2026-11-10T22:00+00:00",
+ "total_cost_usd": 0.00427
 }

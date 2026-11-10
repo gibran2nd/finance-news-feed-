@@ -2,7 +2,7 @@
   {
     "week": "2026-W46",
     "label": "Week of November 9\u201313, 2026",
-    "generated": "2026-11-10T19:15:53.727033+00:00",
+    "generated": "2026-11-10T22:00:29.031773+00:00",
     "bullets": [
       {
         "headline": "Anthropic sets price range of $70 to $78 in upcoming IPO as AI lab marches towards Nasdaq",
@@ -23,10 +23,10 @@
         "link": "https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055"
       },
       {
-        "headline": "October inflation ran hot again, making a December Fed hike likely",
-        "source": "HousingWire",
+        "headline": "Stocks Slide After Hot Inflation Boosts December Rate Hike Bets",
+        "source": "Bloomberg",
         "section": "Macro & Economy",
-        "link": "https://www.housingwire.com/articles/october-cpi-fed-hike/"
+        "link": "https://www.bloomberg.com/news/articles/2026-11-10/us-stock-futures-trade-mixed-with-focus-on-cpi-anthropic-ipo"
       },
       {
         "headline": "China Producer Inflation Accelerates to Over Four-Year High",
@@ -35,10 +35,10 @@
         "link": "https://www.wsj.com/economy/china-producer-inflation-accelerates-to-over-four-year-high-a31d4985?mod=rss_socialeconomyfeed"
       },
       {
-        "headline": "SoftBank Loses $7 Billion After Big US Data Center Writedown",
-        "source": "Bloomberg",
+        "headline": "GE Vernova Soars 7% as Constellation Raises Guidance, Easing Data-Center Moratorium Fears",
+        "source": "TIKR.com",
         "section": "Tech & Fintech",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-10/softbank-group-earnings-loss-after-ai-worries-hit-tech-stocks-masayoshi-son"
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd2VXcTBPSW1IeUVRamJBeFlFcXFCa0I2czNxS2F0U1VQSkY4SXRTcXgwM2oyMjBpaXZ2NHE0NzlyM1JYUERvRFZZMXpGYndfc0RaM0VSY0VLNnE2QTRrd19MS2tSS3BrWkphZWI5YlRhRmNXOHd3R0NzekVIS2hKQUthZXYzb2U5OGRZQnVOQWpEbjBsZWJaZGE2M2phU3N2eEhEX2lmbmNIbGl6YnpvYVFQMA?oc=5"
       },
       {
         "headline": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
@@ -54,12 +54,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 369,
-      "Macro & Economy": 250,
-      "Investment Banking & Deals": 199,
-      "Real Estate & REITs": 134,
-      "Earnings & Results": 315,
-      "Tech & Fintech": 288
+      "Stock Market & Equities": 410,
+      "Macro & Economy": 269,
+      "Investment Banking & Deals": 224,
+      "Real Estate & REITs": 162,
+      "Earnings & Results": 357,
+      "Tech & Fintech": 318
     }
   },
   {
