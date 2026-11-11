@@ -4,55 +4,48 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11202,
-   "output_tokens": 2077,
-   "cost_usd": 0.00216
+   "input_tokens": 11500,
+   "output_tokens": 2203,
+   "cost_usd": 0.00225
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2925,
-   "output_tokens": 3643,
-   "cost_usd": 0.00211
+   "input_tokens": 3320,
+   "output_tokens": 3896,
+   "cost_usd": 0.00228
   }
  ],
  "errors": [],
  "merge_groups": [
   [
    "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
-   "CoreWeave beats quarterly revenue estimates as AI demand defies growing doubts",
-   "CoreWeave Boosts Annual Forecast, Easing Concerns About Slowdown",
+   "CoreWeave Q3 earnings: Stock climbs after full-year outlook raised",
    "CoreWeave Meets Wall Street Expectations, Shares Rise",
-   "CoreWeave Reports Q3 Double Beat, Raises Guidance: 'This Was a Breakout Quarter'",
-   "CoreWeave stock pops as Q3 revenue beats estimates, company raises full-year outlook"
+   "CoreWeave beats quarterly revenue estimates as AI demand defies growing doubts"
   ],
   [
    "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
-   "Instant view: Hot October inflation report rattles markets",
-   "S&P 500 futures fall sharply after October inflation data",
-   "Higher-than-expected October inflation sparks Treasury sell-off",
-   "Dollar Set for Best Day Since September as CPI Lifts Hike Bets",
+   "US consumer prices rise briskly for third straight month",
    "Elevated Inflation Keeps Pressure on Fed to Raise Rates",
-   "What got more expensive for US consumers in October?",
-   "US consumer prices rise briskly for third straight month"
+   "What got more expensive for US consumers in October?"
   ],
   [
-   "Oil falls below $90 as Trump pulls back from threat to strike Iran",
-   "Oil Prices Extend Decline After Trump Signals Restraint on Iran"
+   "Barrick Mining files IPO for a new company to hold its North American gold assets",
+   "American Barrick files for NYSE IPO as controlled unit of parent Barrick Mining"
   ],
   [
-   "US Household Delinquencies Rise Slightly, NY Fed Report Shows",
-   "Troubled US debt levels ticked up in third quarter, New York Fed report says",
-   "Data Show Households Still Managing to Meet Their Monthly Debts",
+   "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report",
    "US credit card debt hits record $1.29 trillion in third quarter",
-   "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report"
+   "Troubled US debt levels ticked up in third quarter, New York Fed report says",
+   "Data Show Households Still Managing to Meet Their Monthly Debts"
   ]
  ],
  "summaries": {
-  "requested": 23,
+  "requested": 27,
   "rejected_ungrounded": 0,
-  "applied": 22
+  "applied": 27
  },
- "generated": "2026-11-10T22:00+00:00",
- "total_cost_usd": 0.00427
+ "generated": "2026-11-11T01:00+00:00",
+ "total_cost_usd": 0.00453
 }

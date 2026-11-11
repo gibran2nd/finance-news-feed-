@@ -2,7 +2,7 @@
   {
     "week": "2026-W46",
     "label": "Week of November 9\u201313, 2026",
-    "generated": "2026-11-10T22:00:29.031773+00:00",
+    "generated": "2026-11-11T01:00:25.521449+00:00",
     "bullets": [
       {
         "headline": "Anthropic sets price range of $70 to $78 in upcoming IPO as AI lab marches towards Nasdaq",
@@ -11,22 +11,34 @@
         "link": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
       },
       {
-        "headline": "Nvidia CEO's affair with alleged spy aided $7.5 billion in China chip shipments, Information reports",
-        "source": "Reuters",
-        "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUWZQSk5PbzdVdVhLaVFuakFlTy16TkhEdzcyaDJ6dmQyeDh1UFpBWFk3VjNrT24yZDgtNVU3cUZZODZyTFNxS3JScWdYWmxzcGFLOHNvVEJWSlBVckZHelJDcENpb0t1QkVyRkNON2hXX2hjcWRHN3piNFJxVWRDSEN3VHRWNVJZdHVRUHlhbFVUQ242emtCUXl5cmV4RVlnSWNjeEU1UklHZ3pBWGNCNUo5clRaWkVjRjNJUnVMbmlhUQ?oc=5"
-      },
-      {
-        "headline": "Fed officials open door to a half-point hike after inflation beats expectations",
+        "headline": "Nvidia\u2019s shares slide as chip giant probes CEO over spy claims",
         "source": "Investing.com",
-        "section": "Macro & Economy",
-        "link": "https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055"
+        "section": "Tech & Fintech",
+        "link": "https://www.investing.com/news/economy-news/nvidias-outofhour-shares-fall-as-firm-probes-ceo-jensen-huang-5010476"
       },
       {
-        "headline": "Stocks Slide After Hot Inflation Boosts December Rate Hike Bets",
+        "headline": "Alibaba AI chip unit T-Head files for Hong Kong IPO",
+        "source": "Reuters",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQR19pRkVFTE5nSE5tQkhjZGpqT09XM2x2VE9rLTlWbTExRU9sVEVjTUlDQkZHU2MwNmdTTm5RY0dQNDEyQjBDVGNMeWY2VGxXUV9hTjROOWl2VF9abWYwRmZfVGNVeVlRX0VZS1d3cl84QmVJdElBMXJDc2Z6blE0dGswakhsclRRX3RCZ18zZjNicUVxSmlNVFloRHcyVG8xV3d2ZTRaSGJmR3hFNGJEMHJBR3pKT3J6MVljQlhZX1FIU3UwMUM0S1lB?oc=5"
+      },
+      {
+        "headline": "Fed\u2019s Waller Backs December Rate Hike, Open to Larger Move",
         "source": "Bloomberg",
         "section": "Macro & Economy",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-10/us-stock-futures-trade-mixed-with-focus-on-cpi-anthropic-ipo"
+        "link": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-waller-backs-december-rate-hike-says-open-to-larger-move"
+      },
+      {
+        "headline": "China\u2019s trade surplus exceeds $1tn for first 10 months of year",
+        "source": "FT",
+        "section": "Macro & Economy",
+        "link": "https://www.ft.com/content/a267d321-a489-4426-940e-1e4be712dc09?syn-25a6b1a6=1"
+      },
+      {
+        "headline": "Barrick Mining files IPO for a new company to hold its North American gold assets",
+        "source": "The Spec",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNM3VlUThTR2szMUgtRU9FbG5VOHNXLWEzRnpaMFpHTjFYTFdzZFBMODFSMDg5WHF2eTZ4cDRLdUMwTEJ1RjZLbkpjdV8xVVBOWkVNZjVsOEVzN182ZFdJYXBtQVEtcU5vQXdIbFBXemdsVWhzdXRqcU9xckE0S2dmZGlJNkR1TkhRY3U2Vzd5MVpyUjM4NnJGNWFuWEVQdjN5c1M2S3dWRllDQkM4N1FBSHhzLWZNWWNWNjlKQ3NBd3RVUVYwcGVfWE01U3pMUE04dkJEdHFNLXZ0M2l3WmNpVWFWV3pDNU9IS2xRRFNEa2lzUFE?oc=5"
       },
       {
         "headline": "China Producer Inflation Accelerates to Over Four-Year High",
@@ -35,31 +47,19 @@
         "link": "https://www.wsj.com/economy/china-producer-inflation-accelerates-to-over-four-year-high-a31d4985?mod=rss_socialeconomyfeed"
       },
       {
-        "headline": "GE Vernova Soars 7% as Constellation Raises Guidance, Easing Data-Center Moratorium Fears",
-        "source": "TIKR.com",
-        "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd2VXcTBPSW1IeUVRamJBeFlFcXFCa0I2czNxS2F0U1VQSkY4SXRTcXgwM2oyMjBpaXZ2NHE0NzlyM1JYUERvRFZZMXpGYndfc0RaM0VSY0VLNnE2QTRrd19MS2tSS3BrWkphZWI5YlRhRmNXOHd3R0NzekVIS2hKQUthZXYzb2U5OGRZQnVOQWpEbjBsZWJaZGE2M2phU3N2eEhEX2lmbmNIbGl6YnpvYVFQMA?oc=5"
-      },
-      {
         "headline": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
         "source": "CoinDesk",
         "section": "Macro & Economy",
         "link": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3"
-      },
-      {
-        "headline": "Blackstone to acquire 16% stake in IIFL Finance for \u20b95,000cr",
-        "source": "NewsBytes",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWGJncl8tWEVlbzloR0xlQi1NYkRwZFdKOXFVSHVEakNZV0s3NmhUb0JkWFE1Q2hDSlRNZlVEbFlJbzhlUHZ6Y1FsOFFOYnhPN2l3N1RGUVJ4amNJalJiN0wxUUN5WXFFZXlQZ1pPTDVVT21XMkxlN245UHh5X0dKVmZtV0ZyQnZrU3dpMldmam5qd3VDcG9uQ2tjYUQxdGM5cG5BNG9B?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 410,
-      "Macro & Economy": 269,
-      "Investment Banking & Deals": 224,
-      "Real Estate & REITs": 162,
-      "Earnings & Results": 357,
-      "Tech & Fintech": 318
+      "Stock Market & Equities": 447,
+      "Macro & Economy": 283,
+      "Investment Banking & Deals": 250,
+      "Real Estate & REITs": 171,
+      "Earnings & Results": 392,
+      "Tech & Fintech": 329
     }
   },
   {
