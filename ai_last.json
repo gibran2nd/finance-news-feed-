@@ -4,51 +4,62 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 12863,
-   "output_tokens": 2316,
-   "cost_usd": 0.00244
+   "input_tokens": 12547,
+   "output_tokens": 1971,
+   "cost_usd": 0.00224
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2761,
-   "output_tokens": 3292,
-   "cost_usd": 0.00192
+   "input_tokens": 2791,
+   "output_tokens": 3031,
+   "cost_usd": 0.00179
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "CoreWeave stock pops 11% after outlook raise eases AI slowdown concerns",
+   "CoreWeave stock surges as Q3 revenue beats estimates, company raises full-year outlook",
    "CoreWeave raises guidance following strong third quarter",
-   "CoreWeave's earnings signal a turnaround for the stock, but analysts say it will take time",
-   "CoreWeave CEO Intrator tells CNBC he has canceled his planned share sale program",
-   "CoreWeave CEO says 'new political reality' after midterms won't slow buildout"
+   "CoreWeave stock pops 11% after outlook raise eases AI slowdown concerns",
+   "CoreWeave rallies after earnings: Here's what you need to know",
+   "CoreWeave's earnings signal a turnaround for the stock, but analysts say it will take time"
   ],
   [
-   "As higher prices seep into broader economy, Fed officials consider faster hikes",
-   "Fed officials open door to a half-percentage-point rate hike as inflation worsens",
-   "Two Federal Reserve officials suggested the central bank may need to quicken the pace of its rate increases, as the Fed’s December meeting nears"
-  ],
-  [
-   "Canada's Barrick Mining files for IPO of North American business in New York",
-   "Barrick Mining files IPO for a new company to hold its North American gold assets"
-  ],
-  [
-   "DIP Holding makes DFM debut after Dhs1.9bn IPO, valued at Dhs9.7bn",
-   "Dubai’s DIP shares jump 6% on debut after Dh1.94 billion IPO",
-   "Dubai’s first IPO of 2026 makes positive market debut"
+   "CoreWeave sparks AI cloud stock rally, lifts Nvidia as results ease bubble fears",
+   "CoreWeave Jumps, Boosting the AI Trade",
+   "U.S. Stocks Rise as CoreWeave Update Eases Some AI Worries",
+   "Wall Street set for higher open as CoreWeave results temper AI spending concerns",
+   "Nasdaq Jumps After CoreWeave Earnings",
+   "Investors Run Back to AI Stocks, Less Than a Week After a Historic Selloff",
+   "Stocks gain as CoreWeave reignites AI trade"
   ],
   [
    "Project Faro Banks Commit $270M Five-Year Funding For Dollar Stablecoin Launching H1 2027",
    "Goldman Sachs, Citigroup Back USD 270M Stablecoin Venture"
+  ],
+  [
+   "A message from the violent swings in stock markets over the past week: The fallout from an artificial-intelligence bust wouldn’t stop at the U.S.’s shores.",
+   "The Global Economy Looks Vulnerable to an AI Bust"
+  ],
+  [
+   "UK-backed AI chip startup Fractile hits $7 billion valuation in funding round",
+   "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips"
+  ],
+  [
+   "DIP Holding makes DFM debut after Dhs1.9bn IPO, valued at Dhs9.7bn",
+   "Dubai’s DIP shares jump 6% on debut after Dh1.94 billion IPO"
+  ],
+  [
+   "Enersys earnings beat by $0.02, revenue fell short of estimates",
+   "EnerSys beats EPS but misses on revenue, stock slips"
   ]
  ],
  "summaries": {
-  "requested": 21,
+  "requested": 22,
   "rejected_ungrounded": 0,
-  "applied": 19
+  "applied": 22
  },
- "generated": "2026-11-11T19:13+00:00",
- "total_cost_usd": 0.00436
+ "generated": "2026-11-11T22:05+00:00",
+ "total_cost_usd": 0.00403
 }
