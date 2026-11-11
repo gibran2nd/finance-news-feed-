@@ -2,37 +2,43 @@
   {
     "week": "2026-W46",
     "label": "Week of November 9\u201313, 2026",
-    "generated": "2026-11-11T01:00:25.521449+00:00",
+    "generated": "2026-11-11T12:00:31.623212+00:00",
     "bullets": [
       {
-        "headline": "Anthropic sets price range of $70 to $78 in upcoming IPO as AI lab marches towards Nasdaq",
+        "headline": "Anthropic opens Australian retail IPO offering as AI scrutiny intensifies",
         "source": "CNBC",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+        "link": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html"
       },
       {
-        "headline": "Nvidia\u2019s shares slide as chip giant probes CEO over spy claims",
-        "source": "Investing.com",
-        "section": "Tech & Fintech",
-        "link": "https://www.investing.com/news/economy-news/nvidias-outofhour-shares-fall-as-firm-probes-ceo-jensen-huang-5010476"
-      },
-      {
-        "headline": "Alibaba AI chip unit T-Head files for Hong Kong IPO",
+        "headline": "Nvidia CEO's affair with alleged spy aided $7.5 billion in China chip shipments, Information reports",
         "source": "Reuters",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQR19pRkVFTE5nSE5tQkhjZGpqT09XM2x2VE9rLTlWbTExRU9sVEVjTUlDQkZHU2MwNmdTTm5RY0dQNDEyQjBDVGNMeWY2VGxXUV9hTjROOWl2VF9abWYwRmZfVGNVeVlRX0VZS1d3cl84QmVJdElBMXJDc2Z6blE0dGswakhsclRRX3RCZ18zZjNicUVxSmlNVFloRHcyVG8xV3d2ZTRaSGJmR3hFNGJEMHJBR3pKT3J6MVljQlhZX1FIU3UwMUM0S1lB?oc=5"
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUWZQSk5PbzdVdVhLaVFuakFlTy16TkhEdzcyaDJ6dmQyeDh1UFpBWFk3VjNrT24yZDgtNVU3cUZZODZyTFNxS3JScWdYWmxzcGFLOHNvVEJWSlBVckZHelJDcENpb0t1QkVyRkNON2hXX2hjcWRHN3piNFJxVWRDSEN3VHRWNVJZdHVRUHlhbFVUQ242emtCUXl5cmV4RVlnSWNjeEU1UklHZ3pBWGNCNUo5clRaWkVjRjNJUnVMbmlhUQ?oc=5"
       },
       {
-        "headline": "Fed\u2019s Waller Backs December Rate Hike, Open to Larger Move",
+        "headline": "Fed officials open door to a half-point hike after inflation beats expectations",
+        "source": "Investing.com",
+        "section": "Macro & Economy",
+        "link": "https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055"
+      },
+      {
+        "headline": "Alibaba\u2019s chip design unit T-Head files for listing in Hong Kong",
+        "source": "The Edge Singapore",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTHFsUDNyeTNUbklMVF9XYXpxUFhpVjd6Wm9fc1NyalNUUFZFZjNWSmQyVGVUT3NqUE9ZWUREcWtxYlQ3TjBMdFVxQ3IyMjItMThGc0NSWTBlUHpwZ1Y4T3ZoMGZGTEwwZXNsbkVVczlpWTdUUFl3NS1JaGg3ZERGWks1M0JmR0NUSFhUNEJnUWFURTlKYWUzZnhjSFN0YUk?oc=5"
+      },
+      {
+        "headline": "CoreWeave stock pops as Q3 revenue beats estimates, company raises full-year outlook",
+        "source": "Yahoo Finance",
+        "section": "Tech & Fintech",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQUlzUVY2WTVjSmsxVU1kRFdxa0tqaXRKbDh3NXFvVmNJSjZPREtXNjIzU3ZPYldpWGc5Y3A3TnQ0R2RaSmlZejdtQktLT0k3UHB1cVh5ZndKa3F4S3E0RE9RM3FKUWN1TjJfcU1Qd0pZOUVmQzVVV2RnX0NjS0VqbS1PNjYyOFRNTjVwV0FqSW5mNndvcmtEQk4teC1xaWZKTXcwUURFTU1rWDd5QkhZbHhUSDJxNXg5eC00S1pkTEFFZFFtbjQ3bGpIRXpjUFpwdmFyVzVtQ2JYd2xseEVrTw?oc=5"
+      },
+      {
+        "headline": "Officials From Major Central Banks Signal More Rate Increases",
         "source": "Bloomberg",
         "section": "Macro & Economy",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-waller-backs-december-rate-hike-says-open-to-larger-move"
-      },
-      {
-        "headline": "China\u2019s trade surplus exceeds $1tn for first 10 months of year",
-        "source": "FT",
-        "section": "Macro & Economy",
-        "link": "https://www.ft.com/content/a267d321-a489-4426-940e-1e4be712dc09?syn-25a6b1a6=1"
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQck56UmRTZHhldlIwNFBWdEd3eHRjVTBqY0RWcnRZV2FRNEZEQ0JWdlVJdzJ2cUFTbXZjQWNybkROVkxWbGJoQ2tKWWNNNFF1ZlNTYVdodDF5d2RtYmw4WDd2Szk4SHVyazQ5dF9FajB6Skh0R1IyQlZjWTFBQU9aOS1VZzB3Tll3cXgtVFRKQ0NSdks4T0ZPV245S3hXQ29aWFY4eFJVYmFVVGZpRWpuT2Z3?oc=5"
       },
       {
         "headline": "Barrick Mining files IPO for a new company to hold its North American gold assets",
@@ -41,25 +47,19 @@
         "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNM3VlUThTR2szMUgtRU9FbG5VOHNXLWEzRnpaMFpHTjFYTFdzZFBMODFSMDg5WHF2eTZ4cDRLdUMwTEJ1RjZLbkpjdV8xVVBOWkVNZjVsOEVzN182ZFdJYXBtQVEtcU5vQXdIbFBXemdsVWhzdXRqcU9xckE0S2dmZGlJNkR1TkhRY3U2Vzd5MVpyUjM4NnJGNWFuWEVQdjN5c1M2S3dWRllDQkM4N1FBSHhzLWZNWWNWNjlKQ3NBd3RVUVYwcGVfWE01U3pMUE04dkJEdHFNLXZ0M2l3WmNpVWFWV3pDNU9IS2xRRFNEa2lzUFE?oc=5"
       },
       {
-        "headline": "China Producer Inflation Accelerates to Over Four-Year High",
-        "source": "WSJ",
-        "section": "Macro & Economy",
-        "link": "https://www.wsj.com/economy/china-producer-inflation-accelerates-to-over-four-year-high-a31d4985?mod=rss_socialeconomyfeed"
-      },
-      {
-        "headline": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
-        "source": "CoinDesk",
-        "section": "Macro & Economy",
-        "link": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3"
+        "headline": "Blackstone picks up 16% stake in NBFC IIFL Finance for Rs.5,000-Cr",
+        "source": "Venture Intelligence News",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUVVFVlpNZ3h4SU8zUjVRNkZ0ZWZVR1VtMzBPU1FGMlN2Y1VESTdoSEFsb0V3RkwxcGpmZFZKbjZiakk4YjZZTDJZTTRlM2NrOUVJZG9HUGdsaG5CNGVacHZFZ2M0b0pzQlB2UTlEakJvdzV1dDhWdDVIWm5aYTFJQVd5LVlDZUF5bElSNmtuTFNPcWRFd25FYWNDVmRLVUF3MlV3aGJ6ZDF5QlBEQUd5QWtaUG9rVC1YUml5Zw?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 447,
-      "Macro & Economy": 283,
-      "Investment Banking & Deals": 250,
-      "Real Estate & REITs": 171,
-      "Earnings & Results": 392,
-      "Tech & Fintech": 329
+      "Stock Market & Equities": 522,
+      "Macro & Economy": 336,
+      "Investment Banking & Deals": 299,
+      "Real Estate & REITs": 180,
+      "Earnings & Results": 445,
+      "Tech & Fintech": 378
     }
   },
   {

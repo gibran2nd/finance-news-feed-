@@ -4,48 +4,42 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11500,
-   "output_tokens": 2203,
-   "cost_usd": 0.00225
+   "input_tokens": 11618,
+   "output_tokens": 1608,
+   "cost_usd": 0.00197
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3320,
-   "output_tokens": 3896,
-   "cost_usd": 0.00228
+   "input_tokens": 2692,
+   "output_tokens": 1598,
+   "cost_usd": 0.00107
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
-   "CoreWeave Q3 earnings: Stock climbs after full-year outlook raised",
-   "CoreWeave Meets Wall Street Expectations, Shares Rise",
-   "CoreWeave beats quarterly revenue estimates as AI demand defies growing doubts"
+   "CoreWeave stock pops 11% after outlook raise eases AI slowdown concerns",
+   "CoreWeave beats on earnings, stock pops in extended trading",
+   "Stock Market Today: Tech Stocks Poised to Rise After CoreWeave Earnings",
+   "S&P 500, Nasdaq futures rise after CoreWeave soothes AI spending fears",
+   "US Stock Index Futures Rise as CoreWeave Helps Tech Rebound",
+   "Stocks gain as CoreWeave reignites AI trade"
   ],
   [
-   "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
-   "US consumer prices rise briskly for third straight month",
-   "Elevated Inflation Keeps Pressure on Fed to Raise Rates",
-   "What got more expensive for US consumers in October?"
+   "Nvidia shares rebound 5% as Huang faces scrutiny ahead of earnings",
+   "A look at the alleged spy who had an affair with Nvidia’s CEO"
   ],
   [
-   "Barrick Mining files IPO for a new company to hold its North American gold assets",
-   "American Barrick files for NYSE IPO as controlled unit of parent Barrick Mining"
-  ],
-  [
-   "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report",
-   "US credit card debt hits record $1.29 trillion in third quarter",
-   "Troubled US debt levels ticked up in third quarter, New York Fed report says",
-   "Data Show Households Still Managing to Meet Their Monthly Debts"
+   "DIP Holding shares surge on debut in first UAE IPO this year",
+   "Dubai’s DIP Climbs on Debut, Ending UAE’s Listings Drought"
   ]
  ],
  "summaries": {
-  "requested": 27,
+  "requested": 20,
   "rejected_ungrounded": 0,
-  "applied": 27
+  "applied": 17
  },
- "generated": "2026-11-11T01:00+00:00",
- "total_cost_usd": 0.00453
+ "generated": "2026-11-11T12:00+00:00",
+ "total_cost_usd": 0.00304
 }
