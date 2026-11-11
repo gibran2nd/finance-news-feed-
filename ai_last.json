@@ -4,55 +4,51 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 12547,
-   "output_tokens": 2161,
-   "cost_usd": 0.00234
+   "input_tokens": 12863,
+   "output_tokens": 2316,
+   "cost_usd": 0.00244
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 3122,
-   "output_tokens": 2229,
-   "cost_usd": 0.00143
+   "input_tokens": 2761,
+   "output_tokens": 3292,
+   "cost_usd": 0.00192
   }
  ],
  "errors": [],
  "merge_groups": [
   [
    "CoreWeave stock pops 11% after outlook raise eases AI slowdown concerns",
-   "CoreWeave raises guidance following strong third quarter"
+   "CoreWeave raises guidance following strong third quarter",
+   "CoreWeave's earnings signal a turnaround for the stock, but analysts say it will take time",
+   "CoreWeave CEO Intrator tells CNBC he has canceled his planned share sale program",
+   "CoreWeave CEO says 'new political reality' after midterms won't slow buildout"
   ],
   [
-   "Has Nvidia flown too close to the sun? One analyst warns of major scrutiny ahead.",
-   "Nvidia Gets Rare Downgrade as Baird Raises CEO Uncertainities"
+   "As higher prices seep into broader economy, Fed officials consider faster hikes",
+   "Fed officials open door to a half-percentage-point rate hike as inflation worsens",
+   "Two Federal Reserve officials suggested the central bank may need to quicken the pace of its rate increases, as the Fed’s December meeting nears"
   ],
   [
-   "Project Faro Banks Commit $270M Five-Year Funding For Dollar Stablecoin Launching H1 2027",
-   "Goldman Sachs, Citigroup Back USD 270M Stablecoin Venture"
-  ],
-  [
-   "Poland’s Orlen Cancels Qatar LNG Supply Deal After Months of Force Majeure",
-   "Qatar’s Loss of Polish LNG Deal Is a Serious Blow to Expansion Plans"
-  ],
-  [
-   "Cape Town fintech startup Lumepay raises $6m to build African payments network",
-   "Lumepay secures $6 million pre-seed funding to transform cross-border payments in Africa"
-  ],
-  [
-   "Barrick Mining files IPO for a new company to hold its North American gold assets",
-   "Canada's Barrick Mining files for IPO of North American business in New York"
+   "Canada's Barrick Mining files for IPO of North American business in New York",
+   "Barrick Mining files IPO for a new company to hold its North American gold assets"
   ],
   [
    "DIP Holding makes DFM debut after Dhs1.9bn IPO, valued at Dhs9.7bn",
    "Dubai’s DIP shares jump 6% on debut after Dh1.94 billion IPO",
    "Dubai’s first IPO of 2026 makes positive market debut"
+  ],
+  [
+   "Project Faro Banks Commit $270M Five-Year Funding For Dollar Stablecoin Launching H1 2027",
+   "Goldman Sachs, Citigroup Back USD 270M Stablecoin Venture"
   ]
  ],
  "summaries": {
-  "requested": 25,
+  "requested": 21,
   "rejected_ungrounded": 0,
-  "applied": 24
+  "applied": 19
  },
- "generated": "2026-11-11T18:00+00:00",
- "total_cost_usd": 0.00377
+ "generated": "2026-11-11T19:13+00:00",
+ "total_cost_usd": 0.00436
 }
