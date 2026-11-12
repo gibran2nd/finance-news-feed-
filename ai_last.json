@@ -4,20 +4,25 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 11869,
-   "output_tokens": 1411,
-   "cost_usd": 0.00189
+   "input_tokens": 12000,
+   "output_tokens": 1773,
+   "cost_usd": 0.00209
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2838,
-   "output_tokens": 1885,
-   "cost_usd": 0.00123
+   "input_tokens": 3305,
+   "output_tokens": 4111,
+   "cost_usd": 0.00239
   }
  ],
  "errors": [],
  "merge_groups": [
+  [
+   "Griffin Raises $20 Million Series B Led by Octagon Partners for Cards and Stablecoin Services: 9 outlets compared",
+   "Griffin Secures $20M Series B to Scale Agentic Banking and Stablecoin Infrastructure",
+   "Griffin Eyes Stablecoin Expansion After Raising $20 Million"
+  ],
   [
    "Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook",
    "Nebius Lowers Outlook, Addresses Worries Over Financing AI Buildout",
@@ -25,27 +30,37 @@
    "Nebius beats quarterly revenue estimates on strong AI demand"
   ],
   [
+   "Ukraine-founded drone startup UForce secures $700 million funding round at $6 billion valuation",
+   "Ukrainian defense tech startup hits $6 billion valuation as investors bet on battle-tested drones"
+  ],
+  [
+   "Brazil’s Farm Economy Woes Hit Corteva Earnings, Shares",
+   "Corteva Stock’s Wild Ride Continues. This Time, Blame Brazil."
+  ],
+  [
+   "Home sales declined in October to their lowest level since 2010, a new trough for a housing market that has been hovering near rock bottom for more than four years",
+   "Existing home sales hit a new low as rates stay high"
+  ],
+  [
    "UK economy expands 0.7% in third quarter as AI provides 'extra engine of growth'",
-   "U.K. Economy’s Resilience Continues, Boosted by AI Investment"
+   "UK growth surprise raises prospect of another BoE rate hike in December",
+   "Sterling steady after UK GDP data; Fed official up next"
   ],
   [
    "Europe's STOXX 600 reclaims record high on strong earnings, easing Mideast tensions",
-   "European shares hit record high helped by strong earnings and lower energy prices"
+   "European shares hit record high helped by strong earnings and lower energy prices",
+   "European stocks hit record high after Nvidia storm rattles Asia"
   ],
   [
-   "Foxconn Stays Bullish After Robust Quarter, Cautious About AI Data-Center Outlook",
-   "Taiwan's Foxconn bullish on outlook but warns about supply chain tightness"
-  ],
-  [
-   "Brazil inflation remains above goal despite softer-than-expected October reading",
-   "Brazil’s Inflation Ticks Up After Lula’s Win Rattles Markets"
+   "India's inflation breaches central bank's 6% limit, bolsters case for rate hikes",
+   "VIEW India's October retail inflation at 6.09% on-year"
   ]
  ],
  "summaries": {
-  "requested": 22,
+  "requested": 26,
   "rejected_ungrounded": 1,
-  "applied": 19
+  "applied": 25
  },
- "generated": "2026-11-12T15:00+00:00",
- "total_cost_usd": 0.00312
+ "generated": "2026-11-12T18:00+00:00",
+ "total_cost_usd": 0.00448
 }
