@@ -4,56 +4,66 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 12079,
-   "output_tokens": 1344,
-   "cost_usd": 0.00188
+   "input_tokens": 12678,
+   "output_tokens": 1304,
+   "cost_usd": 0.00192
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2617,
-   "output_tokens": 2726,
-   "cost_usd": 0.00162
+   "input_tokens": 2994,
+   "output_tokens": 1553,
+   "cost_usd": 0.00108
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "‘Dark Day’: Silicon Valley Mourns Nvidia’s Decision to Oust CEO",
-   "Jensen Huang's exit from Nvidia raises critical questions about the future of AI"
+   "Jensen Huang steps down and Nvidia shares drop",
+   "Jensen Huang’s Exit Will Test AI’s Stocks, and Great-Man Theory",
+   "Wall Street Whistles Past Nvidia Risk to Bet on Wobbly AI Trade",
+   "U.S. Stocks Fall as Huang Ouster Sends Shockwaves Through Tech",
+   "‘Dark Day’: Silicon Valley Mourns Nvidia’s Decision to Oust CEO"
   ],
   [
-   "Griffin Raises $20 Million Series B Led by Octagon Partners for Cards and Stablecoin Services: 9 outlets compared",
-   "Griffin Secures $20M Series B to Scale Agentic Banking and Stablecoin Infrastructure"
+   "Cerebras Systems soars on raised revenue guidance",
+   "Cerebras surges 18% after beating on quarterly revenue and announcing Microsoft deal",
+   "Cerebras Delivers Solid Outlook in Bid to Challenge Nvidia"
   ],
   [
-   "Fed to skip rate vote at October 2027 meeting under Warsh plan",
-   "Federal Reserve to Forgo Rate Decision at October 2027 Meeting",
-   "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027"
-  ],
-  [
-   "US home sales fall to lowest level since 2010 as mortgage rates soar",
-   "US labor market resilient; existing home sales hit more than 16-year low in October"
+   "Cisco Raises Sales Guidance in Sign of AI-Fueled Momentum",
+   "Cisco earnings beat by $0.08, revenue topped estimates"
   ],
   [
    "Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook",
    "Nebius beats quarterly revenue estimates on strong AI demand"
   ],
   [
-   "India's inflation breaches central bank's 6% limit, bolsters case for rate hikes",
-   "VIEW India's October retail inflation at 6.09% on-year"
+   "US home sales fall to lowest level since 2010 as mortgage rates soar",
+   "US existing-home sales hit 16-year low as rates and affordability weigh on market"
   ],
   [
-   "UK growth surprise raises prospect of another BoE rate hike in December",
+   "Fed Will Not Hold Policy Vote at October 2027 Meeting",
+   "Federal Reserve to Forgo Rate Decision at October 2027 Meeting"
+  ],
+  [
+   "Corteva shares plunge as CEO warns Brazil slump will drag on",
+   "Brazil’s Farm Economy Woes Hit Corteva Earnings, Shares"
+  ],
+  [
    "UK economy expands 0.7% in third quarter as AI provides 'extra engine of growth'",
-   "Sterling steady after UK GDP data; Fed official up next"
+   "UK growth surprise raises prospect of another BoE rate hike in December"
+  ],
+  [
+   "India's inflation breaches central bank's 6% limit, bolsters case for rate hikes",
+   "VIEW India's October retail inflation at 6.09% on-year"
   ]
  ],
  "summaries": {
-  "requested": 21,
+  "requested": 23,
   "rejected_ungrounded": 0,
-  "applied": 21
+  "applied": 22
  },
- "generated": "2026-11-12T19:29+00:00",
- "total_cost_usd": 0.0035
+ "generated": "2026-11-12T22:00+00:00",
+ "total_cost_usd": 0.003
 }
