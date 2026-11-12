@@ -4,59 +4,52 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 12352,
-   "output_tokens": 2150,
-   "cost_usd": 0.00231
+   "input_tokens": 10691,
+   "output_tokens": 1658,
+   "cost_usd": 0.0019
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2592,
-   "output_tokens": 1324,
-   "cost_usd": 0.00092
+   "input_tokens": 2413,
+   "output_tokens": 3067,
+   "cost_usd": 0.00177
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Nvidia prepares to oust Jensen Huang, WSJ reports — stock sinks",
-   "Nvidia Working With Outside Firm to Identify CEO Candidates"
+   "Nvidia stock falls 7% as investors await Jensen Huang’s fate",
+   "Nvidia Punches a Hole in Bull Case for AI Stocks",
+   "Stock Market Today: Nvidia Shares Tumble Over Leadership Crisis",
+   "Hoping to Sell Your Home in the Spring? It’s Not Looking Good"
   ],
   [
-   "Project Faro Banks Commit $270M Five-Year Funding For Dollar Stablecoin Launching H1 2027",
-   "Goldman Sachs, Citigroup Back USD 270M Stablecoin Venture"
+   "UK economy expands 0.7% in third quarter as AI provides 'extra engine of growth'",
+   "U.K. Economy’s Resilience Continues, Boosted by AI Investment",
+   "UK Economy Defies Headwinds With Strongest Growth Since 2024",
+   "UK growth surprise raises prospect of another BoE rate hike in December"
   ],
   [
-   "CoreWeave Jumps, Boosting the AI Trade",
-   "United Blocks AI Agents From Booking Flights Ahead of Holidays"
+   "Foxconn Stays Bullish After Robust Quarter, Cautious About AI Data-Center Outlook",
+   "Taiwan's Foxconn bullish on outlook but warns about supply chain tightness",
+   "Foxconn Maintains Strong Earnings Growth on Resilient AI, Tech Hardware Demand",
+   "Nvidia Partner Hon Hai Beats Profit Estimates on AI, iPhone Duo"
   ],
   [
-   "Enersys earnings beat by $0.02, revenue fell short of estimates",
-   "EnerSys beats EPS but misses on revenue, stock slips"
+   "SBM Offshore lifts 2026 revenue guidance on strong execution",
+   "SBMO: Strong execution raises guidance as FPSO demand and the project pipeline remain robust"
   ],
   [
-   "Simone Retains All Original Tenants at 1200 Waters in the Bronx",
-   "VNS Health Renews 8K-SF Lease at the Bronx’s Hutchinson Metro Center"
-  ],
-  [
-   "CoreWeave stock surges as Q3 revenue beats estimates, company raises full-year outlook",
-   "CoreWeave stock pops 11% after outlook raise eases AI slowdown concerns",
-   "CoreWeave raises guidance following strong third quarter",
-   "CoreWeave rallies after earnings: Here's what you need to know",
-   "CoreWeave sparks AI cloud stock rally, lifts Nvidia as results ease bubble fears",
-   "U.S. Stocks Rise as CoreWeave Update Eases Some AI Worries",
-   "Wall Street set for higher open as CoreWeave results temper AI spending concerns"
-  ],
-  [
-   "CoreWeave CEO Intrator tells CNBC he has canceled his planned share sale program",
-   "CoreWeave CEO says 'new political reality' after midterms won't slow buildout"
+   "European stocks hit record high after Nvidia storm rattles Asia",
+   "Europe's STOXX 600 reclaims record high on strong earnings, easing Mideast tensions"
   ]
  ],
  "summaries": {
-  "requested": 20,
+  "requested": 18,
   "rejected_ungrounded": 0,
-  "applied": 20
+  "applied": 17
  },
- "generated": "2026-11-12T01:00+00:00",
- "total_cost_usd": 0.00323
+ "generated": "2026-11-12T12:00+00:00",
+ "total_cost_usd": 0.00367
 }
