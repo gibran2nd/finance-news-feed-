@@ -4,52 +4,48 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 10691,
-   "output_tokens": 1658,
-   "cost_usd": 0.0019
+   "input_tokens": 11869,
+   "output_tokens": 1411,
+   "cost_usd": 0.00189
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2413,
-   "output_tokens": 3067,
-   "cost_usd": 0.00177
+   "input_tokens": 2838,
+   "output_tokens": 1885,
+   "cost_usd": 0.00123
   }
  ],
  "errors": [],
  "merge_groups": [
   [
-   "Nvidia stock falls 7% as investors await Jensen Huang’s fate",
-   "Nvidia Punches a Hole in Bull Case for AI Stocks",
-   "Stock Market Today: Nvidia Shares Tumble Over Leadership Crisis",
-   "Hoping to Sell Your Home in the Spring? It’s Not Looking Good"
+   "Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook",
+   "Nebius Lowers Outlook, Addresses Worries Over Financing AI Buildout",
+   "Nebius Shares Drop on Neocloud’s Disappointing Revenue Outlook",
+   "Nebius beats quarterly revenue estimates on strong AI demand"
   ],
   [
    "UK economy expands 0.7% in third quarter as AI provides 'extra engine of growth'",
-   "U.K. Economy’s Resilience Continues, Boosted by AI Investment",
-   "UK Economy Defies Headwinds With Strongest Growth Since 2024",
-   "UK growth surprise raises prospect of another BoE rate hike in December"
+   "U.K. Economy’s Resilience Continues, Boosted by AI Investment"
+  ],
+  [
+   "Europe's STOXX 600 reclaims record high on strong earnings, easing Mideast tensions",
+   "European shares hit record high helped by strong earnings and lower energy prices"
   ],
   [
    "Foxconn Stays Bullish After Robust Quarter, Cautious About AI Data-Center Outlook",
-   "Taiwan's Foxconn bullish on outlook but warns about supply chain tightness",
-   "Foxconn Maintains Strong Earnings Growth on Resilient AI, Tech Hardware Demand",
-   "Nvidia Partner Hon Hai Beats Profit Estimates on AI, iPhone Duo"
+   "Taiwan's Foxconn bullish on outlook but warns about supply chain tightness"
   ],
   [
-   "SBM Offshore lifts 2026 revenue guidance on strong execution",
-   "SBMO: Strong execution raises guidance as FPSO demand and the project pipeline remain robust"
-  ],
-  [
-   "European stocks hit record high after Nvidia storm rattles Asia",
-   "Europe's STOXX 600 reclaims record high on strong earnings, easing Mideast tensions"
+   "Brazil inflation remains above goal despite softer-than-expected October reading",
+   "Brazil’s Inflation Ticks Up After Lula’s Win Rattles Markets"
   ]
  ],
  "summaries": {
-  "requested": 18,
-  "rejected_ungrounded": 0,
-  "applied": 17
+  "requested": 22,
+  "rejected_ungrounded": 1,
+  "applied": 19
  },
- "generated": "2026-11-12T12:00+00:00",
- "total_cost_usd": 0.00367
+ "generated": "2026-11-12T15:00+00:00",
+ "total_cost_usd": 0.00312
 }

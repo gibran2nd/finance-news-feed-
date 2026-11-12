@@ -2,19 +2,19 @@
   {
     "week": "2026-W46",
     "label": "Week of November 9\u201313, 2026",
-    "generated": "2026-11-12T12:00:26.094440+00:00",
+    "generated": "2026-11-12T15:00:40.417204+00:00",
     "bullets": [
       {
-        "headline": "Anthropic sets price range of $70 to $78 in upcoming IPO as AI lab marches towards Nasdaq",
-        "source": "CNBC",
+        "headline": "All 7 Anthropic founders will each cash out about $250M in IPO",
+        "source": "TechCrunch",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMjJoMFk5cWxCTmNuUDFDbkFYSUxFUzk3ZFYwYmk5WGhhcGNOdlBRbUxidU9QZVJ4bEpQajFIWlE1Ym1adXk1LTM1dW9yUE5xX0ZEREZPQXlYVDhhWUFGd1Vqa3IwZU9hVExxNG1NU0dUcnlnLVFRWDEtaHowaXEtMjVIemxfY3ljUHNQS1YzNDhQejdCelFzWnM1bkc?oc=5"
       },
       {
-        "headline": "Nvidia and Jensen Huang face shareholder lawsuit alleging investors were misled about spy affair",
-        "source": "AP",
+        "headline": "Nvidia stock falls 7% as investors await Jensen Huang\u2019s fate",
+        "source": "CNBC",
         "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVUVJQ2VKOGljZVBJeFJCcVg5aWw2WWVaVzNlNVkwUnQ0ZzV0R09hbkx3aWRVVjhDaHpUdk96UExZSjF0TlBkY2FUeG9tVjhjdVkzRXllRndzMUJ4ZWZFa2p5QWlPRGhRc0ZXMkd5Y0tyVVdfM1gyX0Q4Y21KUEVYTFhuTnFhZWR0Wm00N29DbWU4WnRpSFpfZ1ZpSQ?oc=5"
+        "link": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
       },
       {
         "headline": "Canada's Barrick Mining files for IPO of North American business in New York",
@@ -35,31 +35,31 @@
         "link": "https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055"
       },
       {
-        "headline": "Officials From Major Central Banks Signal More Rate Increases",
+        "headline": "India\u2019s Inflation Rises, Keeping Rate-Hike Pressure on RBI",
         "source": "Bloomberg",
         "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQck56UmRTZHhldlIwNFBWdEd3eHRjVTBqY0RWcnRZV2FRNEZEQ0JWdlVJdzJ2cUFTbXZjQWNybkROVkxWbGJoQ2tKWWNNNFF1ZlNTYVdodDF5d2RtYmw4WDd2Szk4SHVyazQ5dF9FajB6Skh0R1IyQlZjWTFBQU9aOS1VZzB3Tll3cXgtVFRKQ0NSdks4T0ZPV245S3hXQ29aWFY4eFJVYmFVVGZpRWpuT2Z3?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNVZ4MjFyT0swN3MxaUhSOWNMdER0YjZhTzdkT2cwSERfbzRBM1lBM2JVaDVYQkZRTWQ2YXBST0hZNE1YdTV1WXlkVkQ0Vm50a2V4OXM2OEI4VmRTRXdUbHVqd0YwRnNSRUpDdlpfZF81enp3cmlFYW9EWDFJVS1kRy1nZkhZN0lCYnQxS09oa01RNFFLUjRuUVNyYURVQ3BSaDZ4REp1blBzYWYyT2ZWS0pZcjM?oc=5"
       },
       {
-        "headline": "CoreWeave Brings AI\u2019s Financing Concern Into Focus",
+        "headline": "Two Federal Reserve officials suggested the central bank may need to quicken the pace of its rate increases, as the Fed\u2019s December meeting nears",
         "source": "WSJ",
-        "section": "Tech & Fintech",
-        "link": "https://www.wsj.com/finance/investing/coreweave-brings-ais-financing-concern-into-focus-20f3a19e?mod=rss_markets_main"
+        "section": "Macro & Economy",
+        "link": "https://www.wsj.com/economy/central-banking/fed-forced-to-confront-case-for-bigger-and-faster-rate-rises-ac181706?mod=rss_socialeconomyfeed"
       },
       {
-        "headline": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
-        "source": "CoinDesk",
+        "headline": "CoreWeave\u2019s stock pops as new financing playbook eases debt concerns",
+        "source": "MarketWatch",
         "section": "Tech & Fintech",
-        "link": "https://www.coindesk.com/business/2026/11/10/okxice-to-debut-tokenized-stock-trading-with-strategy-coinbase-circle-this-month"
+        "link": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-financing-playbook-eases-debt-concerns-70241525?mod=mw_rss_topstories"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 740,
-      "Macro & Economy": 437,
-      "Investment Banking & Deals": 402,
-      "Real Estate & REITs": 241,
-      "Earnings & Results": 643,
-      "Tech & Fintech": 529
+      "Stock Market & Equities": 767,
+      "Macro & Economy": 455,
+      "Investment Banking & Deals": 425,
+      "Real Estate & REITs": 253,
+      "Earnings & Results": 689,
+      "Tech & Fintech": 585
     }
   },
   {
