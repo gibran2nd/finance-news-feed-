@@ -2,7 +2,7 @@
   {
     "week": "2026-W46",
     "label": "Week of November 9\u201313, 2026",
-    "generated": "2026-11-12T22:00:38.282777+00:00",
+    "generated": "2026-11-13T01:00:26.097056+00:00",
     "bullets": [
       {
         "headline": "Anthropic opens Australian retail IPO offering as AI scrutiny intensifies",
@@ -11,10 +11,10 @@
         "link": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html"
       },
       {
-        "headline": "Five ways Jensen Huang\u2019s ouster from Nvidia could damage the AI industry",
-        "source": "TechCrunch",
+        "headline": "Nvidia Lost Its Dealmaker. 6 Ways Jensen Huang's Exit Could Hit Data Centers, CRE",
+        "source": "Bisnow",
         "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/"
+        "link": "https://www.bisnow.com/news/national/data-center-development/nvidia-lost-its-dealmaker-6-ways-jensen-huang-exit-could-hit-data-centers-and-cre"
       },
       {
         "headline": "Canada's Barrick Mining files for IPO of North American business in New York",
@@ -29,10 +29,10 @@
         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTHFsUDNyeTNUbklMVF9XYXpxUFhpVjd6Wm9fc1NyalNUUFZFZjNWSmQyVGVUT3NqUE9ZWUREcWtxYlQ3TjBMdFVxQ3IyMjItMThGc0NSWTBlUHpwZ1Y4T3ZoMGZGTEwwZXNsbkVVczlpWTdUUFl3NS1JaGg3ZERGWks1M0JmR0NUSFhUNEJnUWFURTlKYWUzZnhjSFN0YUk?oc=5"
       },
       {
-        "headline": "ECB set for last rate hike in December but inflation risks keep door open for one more: Reuters poll",
+        "headline": "Cisco earnings beat by $0.08, revenue topped estimates",
         "source": "Investing.com",
-        "section": "Macro & Economy",
-        "link": "https://www.investing.com/news/economy-news/ecb-set-for-last-rate-hike-in-december-but-inflation-risks-keep-door-open-for-one-more-reuters-poll-5021053"
+        "section": "Earnings & Results",
+        "link": "https://www.investing.com/news/earnings/cisco-earnings-beat-by-008-revenue-topped-estimates-5023336"
       },
       {
         "headline": "Fed\u2019s Waller Backs December Rate Hike, Open to Larger Move",
@@ -41,25 +41,25 @@
         "link": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-waller-backs-december-rate-hike-says-open-to-larger-move"
       },
       {
-        "headline": "Treasury Yields Rise, European Bond Yields Fall",
+        "headline": "CoreWeave Brings AI\u2019s Financing Concern Into Focus",
         "source": "WSJ",
-        "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc0VSTVFyMVRIR1EtM1J2eWU0MW45b3BmWVMwTWRwbmQzcmhvVlBuTEFQNWowTEI2SUd2cngzbmZ3VXMwYTVxc2NaSTg0WnZ4VndDaHVGNWZGcFcxN1NOUWsyMHd2RTJVNjJqZ2JiQy1XRDNpM2VGRFpiX1RVaTBnM01FSTVLUXJOYkFSRnhKaFBhNzZfUUZsZGJTWlBZbjRxV29UR0k5NVJ5U3ZVdXpYZ2NLeVlKb2ZC?oc=5"
+        "section": "Tech & Fintech",
+        "link": "https://www.wsj.com/finance/investing/coreweave-brings-ais-financing-concern-into-focus-20f3a19e?mod=rss_markets_main"
       },
       {
-        "headline": "CoreWeave\u2019s stock pops as new financing playbook eases debt concerns",
-        "source": "MarketWatch",
+        "headline": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
+        "source": "CoinDesk",
         "section": "Tech & Fintech",
-        "link": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-financing-playbook-eases-debt-concerns-70241525?mod=mw_rss_topstories"
+        "link": "https://www.coindesk.com/business/2026/11/10/okxice-to-debut-tokenized-stock-trading-with-strategy-coinbase-circle-this-month"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 863,
-      "Macro & Economy": 492,
-      "Investment Banking & Deals": 459,
-      "Real Estate & REITs": 309,
-      "Earnings & Results": 773,
-      "Tech & Fintech": 677
+      "Stock Market & Equities": 888,
+      "Macro & Economy": 509,
+      "Investment Banking & Deals": 471,
+      "Real Estate & REITs": 325,
+      "Earnings & Results": 813,
+      "Tech & Fintech": 709
     }
   },
   {

@@ -4,66 +4,58 @@
   {
    "name": "merge_stories",
    "stop_reason": "end_turn",
-   "input_tokens": 12678,
-   "output_tokens": 1304,
-   "cost_usd": 0.00192
+   "input_tokens": 12227,
+   "output_tokens": 1096,
+   "cost_usd": 0.00177
   },
   {
    "name": "condense_summaries",
    "stop_reason": "end_turn",
-   "input_tokens": 2994,
-   "output_tokens": 1553,
-   "cost_usd": 0.00108
+   "input_tokens": 2800,
+   "output_tokens": 1488,
+   "cost_usd": 0.00102
   }
  ],
  "errors": [],
  "merge_groups": [
   [
    "Jensen Huang steps down and Nvidia shares drop",
-   "Jensen Huang’s Exit Will Test AI’s Stocks, and Great-Man Theory",
-   "Wall Street Whistles Past Nvidia Risk to Bet on Wobbly AI Trade",
    "U.S. Stocks Fall as Huang Ouster Sends Shockwaves Through Tech",
    "‘Dark Day’: Silicon Valley Mourns Nvidia’s Decision to Oust CEO"
   ],
   [
-   "Cerebras Systems soars on raised revenue guidance",
    "Cerebras surges 18% after beating on quarterly revenue and announcing Microsoft deal",
+   "Cerebras Raises Full-Year Outlook as Cloud Revenue Jumps 265%",
+   "'Fast Money' traders react to Cerebras shares taking off on earnings",
+   "Cerebras shares jump 17% on upbeat annual forecast, easing AI jitters",
    "Cerebras Delivers Solid Outlook in Bid to Challenge Nvidia"
   ],
   [
-   "Cisco Raises Sales Guidance in Sign of AI-Fueled Momentum",
-   "Cisco earnings beat by $0.08, revenue topped estimates"
+   "Nscale expects 14-fold revenue surge in amended IPO filing",
+   "Nscale updates IPO prospectus that shows widening loss"
   ],
   [
-   "Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook",
-   "Nebius beats quarterly revenue estimates on strong AI demand"
+   "Swiss Biotech Windward Raises $225 Million in US IPO, Placement",
+   "Windward Bio prices IPO at $17 per share on Nasdaq"
   ],
   [
-   "US home sales fall to lowest level since 2010 as mortgage rates soar",
-   "US existing-home sales hit 16-year low as rates and affordability weigh on market"
+   "Compass Sues Multiple Listing Services, Ramping Up Antitrust Row",
+   "Compass sues 15 MLSs over office exclusive rules"
   ],
   [
    "Fed Will Not Hold Policy Vote at October 2027 Meeting",
    "Federal Reserve to Forgo Rate Decision at October 2027 Meeting"
   ],
   [
-   "Corteva shares plunge as CEO warns Brazil slump will drag on",
-   "Brazil’s Farm Economy Woes Hit Corteva Earnings, Shares"
-  ],
-  [
-   "UK economy expands 0.7% in third quarter as AI provides 'extra engine of growth'",
-   "UK growth surprise raises prospect of another BoE rate hike in December"
-  ],
-  [
-   "India's inflation breaches central bank's 6% limit, bolsters case for rate hikes",
-   "VIEW India's October retail inflation at 6.09% on-year"
+   "US home sales fall to lowest level since 2010 as mortgage rates soar",
+   "US existing-home sales hit 16-year low as rates and affordability weigh on market"
   ]
  ],
  "summaries": {
   "requested": 23,
-  "rejected_ungrounded": 0,
-  "applied": 22
+  "rejected_ungrounded": 1,
+  "applied": 18
  },
- "generated": "2026-11-12T22:00+00:00",
- "total_cost_usd": 0.003
+ "generated": "2026-11-13T01:00+00:00",
+ "total_cost_usd": 0.00279
 }
