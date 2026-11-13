@@ -2,7 +2,7 @@
   {
     "week": "2026-W46",
     "label": "Week of November 9\u201313, 2026",
-    "generated": "2026-11-13T12:00:31.970809+00:00",
+    "generated": "2026-11-13T15:00:29.163262+00:00",
     "bullets": [
       {
         "headline": "Anthropic opens Australian retail IPO offering as AI scrutiny intensifies",
@@ -11,10 +11,16 @@
         "link": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html"
       },
       {
-        "headline": "Nvidia Lost Its Dealmaker. 6 Ways Jensen Huang's Exit Could Hit Data Centers, CRE",
-        "source": "Bisnow",
+        "headline": "Nvidia\u2019s Jensen Huang steps down, interim CEO appointed as stocks plummet",
+        "source": "Finextra",
         "section": "Tech & Fintech",
-        "link": "https://www.bisnow.com/news/national/data-center-development/nvidia-lost-its-dealmaker-6-ways-jensen-huang-exit-could-hit-data-centers-and-cre"
+        "link": "https://www.finextra.com/newsarticle/48756/nvidias-jensen-huang-steps-down-interim-ceo-appointed-as-stocks-plummet?utm_medium=rssfinextra&utm_source=finextrafeed"
+      },
+      {
+        "headline": "Microsoft\u2019s Outlook email hit by new outage",
+        "source": "TechCrunch",
+        "section": "Stock Market & Equities",
+        "link": "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/"
       },
       {
         "headline": "Canada's Barrick Mining files for IPO of North American business in New York",
@@ -23,22 +29,16 @@
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWENsNEszX2EtS1NZYjZXcGl4LUxBWWlDOWllSjREUXUxbnJ5V3NHOTRlSDFkdGhKX0E3SzRkMGk4T1U2NFVLRFdPMHRYRFNQUGRaZHB4TVhxazJpNVhEQlFacnUyZmdNajZHOERWTERMZFc3a1ViWkFoQkVsLUppLS1DOWE5RURzNExXRHM0M1NPYUFUMTBHcU1iaG5RdHN6M1dqN2cyLVhrSVZVWnpUcjZUQ0RvUQ?oc=5"
       },
       {
-        "headline": "Microsoft\u2019s Outlook email hit by new outage",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/"
-      },
-      {
         "headline": "Alibaba\u2019s chip design unit T-Head files for listing in Hong Kong",
         "source": "The Edge Singapore",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTHFsUDNyeTNUbklMVF9XYXpxUFhpVjd6Wm9fc1NyalNUUFZFZjNWSmQyVGVUT3NqUE9ZWUREcWtxYlQ3TjBMdFVxQ3IyMjItMThGc0NSWTBlUHpwZ1Y4T3ZoMGZGTEwwZXNsbkVVczlpWTdUUFl3NS1JaGg3ZERGWks1M0JmR0NUSFhUNEJnUWFURTlKYWUzZnhjSFN0YUk?oc=5"
       },
       {
-        "headline": "Cisco earnings beat by $0.08, revenue topped estimates",
+        "headline": "Fed sets new meeting schedule for 2027, as foretold by Warsh",
         "source": "Investing.com",
-        "section": "Earnings & Results",
-        "link": "https://www.investing.com/news/earnings/cisco-earnings-beat-by-008-revenue-topped-estimates-5023336"
+        "section": "Macro & Economy",
+        "link": "https://www.investing.com/news/economy-news/fed-sets-new-meeting-schedule-for-2027-as-foretold-by-warsh-5023024"
       },
       {
         "headline": "India\u2019s Inflation Rises, Keeping Rate-Hike Pressure on RBI",
@@ -54,12 +54,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 961,
-      "Macro & Economy": 551,
-      "Investment Banking & Deals": 493,
-      "Real Estate & REITs": 327,
-      "Earnings & Results": 861,
-      "Tech & Fintech": 748
+      "Stock Market & Equities": 997,
+      "Macro & Economy": 573,
+      "Investment Banking & Deals": 512,
+      "Real Estate & REITs": 332,
+      "Earnings & Results": 900,
+      "Tech & Fintech": 769
     }
   },
   {
