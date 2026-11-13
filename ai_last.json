@@ -1,61 +1,10 @@
 {
  "model": "claude-haiku-5-5",
- "calls": [
-  {
-   "name": "merge_stories",
-   "stop_reason": "end_turn",
-   "input_tokens": 12227,
-   "output_tokens": 1096,
-   "cost_usd": 0.00177
-  },
-  {
-   "name": "condense_summaries",
-   "stop_reason": "end_turn",
-   "input_tokens": 2800,
-   "output_tokens": 1488,
-   "cost_usd": 0.00102
-  }
+ "calls": [],
+ "errors": [
+  "merge_stories: AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgztcbjHBbiBWW6grREge'}",
+  "condense_summaries: AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgzteorLtPofuTKSYGyQb'}"
  ],
- "errors": [],
- "merge_groups": [
-  [
-   "Jensen Huang steps down and Nvidia shares drop",
-   "U.S. Stocks Fall as Huang Ouster Sends Shockwaves Through Tech",
-   "‘Dark Day’: Silicon Valley Mourns Nvidia’s Decision to Oust CEO"
-  ],
-  [
-   "Cerebras surges 18% after beating on quarterly revenue and announcing Microsoft deal",
-   "Cerebras Raises Full-Year Outlook as Cloud Revenue Jumps 265%",
-   "'Fast Money' traders react to Cerebras shares taking off on earnings",
-   "Cerebras shares jump 17% on upbeat annual forecast, easing AI jitters",
-   "Cerebras Delivers Solid Outlook in Bid to Challenge Nvidia"
-  ],
-  [
-   "Nscale expects 14-fold revenue surge in amended IPO filing",
-   "Nscale updates IPO prospectus that shows widening loss"
-  ],
-  [
-   "Swiss Biotech Windward Raises $225 Million in US IPO, Placement",
-   "Windward Bio prices IPO at $17 per share on Nasdaq"
-  ],
-  [
-   "Compass Sues Multiple Listing Services, Ramping Up Antitrust Row",
-   "Compass sues 15 MLSs over office exclusive rules"
-  ],
-  [
-   "Fed Will Not Hold Policy Vote at October 2027 Meeting",
-   "Federal Reserve to Forgo Rate Decision at October 2027 Meeting"
-  ],
-  [
-   "US home sales fall to lowest level since 2010 as mortgage rates soar",
-   "US existing-home sales hit 16-year low as rates and affordability weigh on market"
-  ]
- ],
- "summaries": {
-  "requested": 23,
-  "rejected_ungrounded": 1,
-  "applied": 18
- },
- "generated": "2026-11-13T01:00+00:00",
- "total_cost_usd": 0.00279
+ "generated": "2026-11-13T12:00+00:00",
+ "total_cost_usd": 0
 }
