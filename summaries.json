@@ -2,7 +2,7 @@
   {
     "week": "2026-W46",
     "label": "Week of November 9\u201313, 2026",
-    "generated": "2026-11-13T22:00:33.291775+00:00",
+    "generated": "2026-11-14T01:00:27.937606+00:00",
     "bullets": [
       {
         "headline": "Anthropic opens Australian retail IPO offering as AI scrutiny intensifies",
@@ -11,22 +11,28 @@
         "link": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html"
       },
       {
-        "headline": "Crunchbase Data: Nvidia\u2019s Startup Funding Deals Hit A Record. What\u2019s Next After Huang?",
-        "source": "Crunchbase News",
-        "section": "Tech & Fintech",
-        "link": "https://news.crunchbase.com/venture/huang-nvda-ai-startup-funding-record-2026/"
-      },
-      {
-        "headline": "What the Microsoft 365 outage should change in a bank\u2019s 2027 AI plan",
+        "headline": "Nvidia\u2019s Jensen Huang steps down, interim CEO appointed as stocks plummet",
         "source": "Finextra",
         "section": "Tech & Fintech",
-        "link": "https://www.finextra.com/blogposting/33467/what-the-microsoft-365-outage-should-change-in-a-banks-2027-ai-plan?utm_medium=rssfinextra&utm_source=finextrafeed"
+        "link": "https://www.finextra.com/newsarticle/48756/nvidias-jensen-huang-steps-down-interim-ceo-appointed-as-stocks-plummet?utm_medium=rssfinextra&utm_source=finextrafeed"
       },
       {
         "headline": "Canada's Barrick Mining files for IPO of North American business in New York",
         "source": "Reuters",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWENsNEszX2EtS1NZYjZXcGl4LUxBWWlDOWllSjREUXUxbnJ5V3NHOTRlSDFkdGhKX0E3SzRkMGk4T1U2NFVLRFdPMHRYRFNQUGRaZHB4TVhxazJpNVhEQlFacnUyZmdNajZHOERWTERMZFc3a1ViWkFoQkVsLUppLS1DOWE5RURzNExXRHM0M1NPYUFUMTBHcU1iaG5RdHN6M1dqN2cyLVhrSVZVWnpUcjZUQ0RvUQ?oc=5"
+      },
+      {
+        "headline": "Microsoft\u2019s Outlook email hit by new outage",
+        "source": "TechCrunch",
+        "section": "Stock Market & Equities",
+        "link": "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/"
+      },
+      {
+        "headline": "Falling Oil Prices and Bond Yields Offer Investors Some Relief",
+        "source": "Bloomberg",
+        "section": "Macro & Economy",
+        "link": "https://www.bloomberg.com/news/newsletters/2026-11-10/falling-oil-prices-and-bond-yields-offer-investors-some-relief"
       },
       {
         "headline": "Cisco Prints Strong Growth, Raises Guidance",
@@ -45,21 +51,15 @@
         "source": "Investing.com",
         "section": "Macro & Economy",
         "link": "https://www.investing.com/news/economy-news/feds-williams-says-central-bank-has-work-to-do-to-get-inflation-back-on-target-5023897"
-      },
-      {
-        "headline": "Treasuries Drop as Hot US Inflation Backs December Rate Bets",
-        "source": "Bloomberg",
-        "section": "Macro & Economy",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-10/treasuries-slide-as-hot-us-inflation-cements-december-rate-bets"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 1069,
-      "Macro & Economy": 606,
-      "Investment Banking & Deals": 549,
-      "Real Estate & REITs": 383,
-      "Earnings & Results": 956,
-      "Tech & Fintech": 820
+      "Stock Market & Equities": 1095,
+      "Macro & Economy": 611,
+      "Investment Banking & Deals": 559,
+      "Real Estate & REITs": 393,
+      "Earnings & Results": 963,
+      "Tech & Fintech": 834
     }
   },
   {
