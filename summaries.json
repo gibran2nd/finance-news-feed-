@@ -2,7 +2,7 @@
   {
     "week": "2026-W47",
     "label": "Week of November 16\u201320, 2026",
-    "generated": "2026-11-16T21:36:26.384832+00:00",
+    "generated": "2026-11-16T22:00:40.066911+00:00",
     "bullets": [
       {
         "headline": "Altimeter's Brad Gerstner aims to invest $5 billion in Anthropic IPO",
@@ -11,28 +11,28 @@
         "link": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html"
       },
       {
-        "headline": "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom",
-        "source": "Reuters",
-        "section": "Stock Market & Equities",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZEJobHpHMl90WUdVbnpzSGxLb1l3bi1BczhrN29iVW9rUzBtQWE4aFNuM2ZGS1RIQThLdEZPWmZjeExVaHhRaXBubkdqR3R3TXJYTlRqUmRYcXZxYS1pV1lyRlExUDdEUWJ3cTg4aktJVWcxbkg5UW9oeVRXLXhCZjdRQmFNeFJlLXhpWTRMM1lEUVlodGwxVHNCSE9ONTlnem0yekw1dDNraElYZGc?oc=5"
+        "headline": "Sam Altman on Nvidia without Jensen Huang: the industry will be \u2018fine\u2019",
+        "source": "TechCrunch",
+        "section": "Earnings & Results",
+        "link": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/"
       },
       {
-        "headline": "Bank of Canada Governor Tiff Macklem to step down in June 2027",
+        "headline": "Bank of Canada Governor Macklem to step down once term ends in 2027",
+        "source": "Reuters",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOExHMHhYSmZUdF9OVlBnTkQ4N29jLTA4RmFPa09hdTgzMHQ0UlhYRkZmcHU3S19ZckE1MURrQU43U3FQOU9ENTdGZHZBTUZvT2hNcExZcWVPTUUzWEhtX1BvX3lpXzVXQktFMTBybkRMaTdsM3FfVFZnYTlnUVhRSGRob2paU0JMcXA1NmxKUjI0UkRGQmVSbFhuOVliZDYwbFhXZ2ZnanpBR1lmOGc?oc=5"
+      },
+      {
+        "headline": "Canada\u2019s annual inflation rate held steady at 3.1% in October",
         "source": "Investing.com",
         "section": "Macro & Economy",
-        "link": "https://www.investing.com/news/economy-news/bank-of-canada-governor-tiff-macklem-to-step-down-in-june-2027-5030841"
+        "link": "https://www.investing.com/news/economy-news/canadas-annual-inflation-rate-held-steady-at-31-in-october-5029900"
       },
       {
-        "headline": "Canada Inflation Holds Steady at 3.1% in October",
+        "headline": "Robert Pattinson Is New James Bond in Amazon\u2019s Reboot",
         "source": "Bloomberg",
-        "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdm5hZTdPNFZwWkFFQU0xZWRId19EZGdrZkJhVHNKSDZuckxMOFhKM1VaZHJqV2hPaG4tR2RjWjVVcGx0M1l4cHROM1N1M1laTkZXc0tzZ0RXU2ZOTXBiaHEwdExvQS1WZzlUQ3RlVDlhMG5qWkxGUGxBRFFuTEhXN3p0YkJNSWlCajBLZnJpUnZPdGJGUWFXMjZ5YzF2Yjg?oc=5"
-      },
-      {
-        "headline": "Robert Pattinson cast as next James Bond",
-        "source": "CNBC",
         "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/11/16/robert-pattinson-james-bond.html"
+        "link": "https://www.bloomberg.com/news/videos/2026-11-16/robert-pattinson-is-new-james-bond-in-amazon-s-reboot-video"
       },
       {
         "headline": "Why Morgan Stanley says it\u2019s time to go \u2018max\u2019 overweight on stocks",
@@ -54,12 +54,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 159,
-      "Macro & Economy": 118,
-      "Investment Banking & Deals": 133,
-      "Real Estate & REITs": 67,
-      "Earnings & Results": 131,
-      "Tech & Fintech": 131
+      "Stock Market & Equities": 166,
+      "Macro & Economy": 122,
+      "Investment Banking & Deals": 143,
+      "Real Estate & REITs": 73,
+      "Earnings & Results": 143,
+      "Tech & Fintech": 134
     }
   },
   {
