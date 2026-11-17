@@ -2,7 +2,7 @@
   {
     "week": "2026-W47",
     "label": "Week of November 16\u201320, 2026",
-    "generated": "2026-11-17T15:00:44.783776+00:00",
+    "generated": "2026-11-17T18:00:35.268514+00:00",
     "bullets": [
       {
         "headline": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
@@ -11,16 +11,22 @@
         "link": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
       },
       {
-        "headline": "European shares fall, Nasdaq futures inch up ahead of Nvidia earnings",
-        "source": "Reuters",
+        "headline": "Sam Altman on Nvidia without Jensen Huang: the industry will be \u2018fine\u2019",
+        "source": "TechCrunch",
         "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbHY5U3ZMUmhWeEViMkJTbW9ObHlQYWRWbmdxWDhXMUdaWFRvLVdRY01oaTJJb3lmOFBiaWpQMEFlTFk5R2ttRnBaT18zaF9Jbk9od2Rza0cyMXJ6Z3JlalJDdG9neTVhQ3pJRG05SE9NQUYxZkFvQmQ5bnVfTi13amFNOA?oc=5"
+        "link": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/"
       },
       {
-        "headline": "Fed\u2019s Musalem signals multiple rate hikes likely needed before spring 2027",
+        "headline": "Lawyer for Fed\u2019s Cook says she may not participate in \u2019unfair\u2019 White House hearing",
         "source": "Investing.com",
         "section": "Macro & Economy",
-        "link": "https://www.investing.com/news/economy-news/feds-musalem-signals-multiple-rate-hikes-likely-needed-before-spring-2027-5033318"
+        "link": "https://www.investing.com/news/economy-news/lawyer-for-feds-cook-threatens-to-not-take-part-in-unfair-white-house-hearing-5033562"
+      },
+      {
+        "headline": "Fed's Musalem: US likely needs several rate hikes by spring to control inflation",
+        "source": "Reuters",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSmh3bk9iaG5YQ2V2dzZUMkQ1aGQ2LWNfdHFCWkVaOUtyWFdHS3lFTzZJTDhsQnItcnN4N2NibjRLNXZIbHVvSllBY0Jyc201azJtbUNnWkRndWlPN05sZUVaWkJBZFlTTGJzYWFFLWRqN2R6X25jRllRT1hHekZ2aFRweE5rbHM3Z3p1SHoxR2UwR1VnMWVnbWZ3ZmRHSTkyR2lhU3p1NzNFZFBjMEtRQ25iZnpwVEhBZTd3bw?oc=5"
       },
       {
         "headline": "Deutsche Bank Shares Drop After Wide-Ranging Whistleblower Leaks",
@@ -41,25 +47,19 @@
         "link": "https://www.bloomberg.com/news/articles/2026-11-17/disney-profit-beats-with-marvel-films-powering-streaming"
       },
       {
-        "headline": "A Kalshi Ad With Martha Stewart Warns Against Insider Trading",
-        "source": "DealBook",
-        "section": "Tech & Fintech",
-        "link": "https://www.nytimes.com/2026/11/17/business/dealbook/kalshi-martha-stewart-ad.html"
-      },
-      {
-        "headline": "Micron, AMD and other AI stocks fall as the chip sector\u2019s selloff intensifies",
-        "source": "MarketWatch",
-        "section": "Stock Market & Equities",
-        "link": "https://www.marketwatch.com/story/micron-amd-and-other-ai-stocks-fall-as-the-chip-sectors-selloff-intensifies-48e38bdf?mod=mw_rss_topstories"
+        "headline": "Japan\u2019s economy contracts for the first time in a year",
+        "source": "FT",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ1lPOXRFWUhnTmhxMFpXNGxVeWhIX1pKbjRFZmlRVXNOSWtnMTMxNDZyMVBrVmxIaWpBVTJqanQ4V1NhZVdsRFZobDluWkRINmFHUk43djFDVHAwSUxSM3QtZ0oxUExEUzdnaXNxSUJHS3RhSFlRUFlTZUZSZW51cTU3OV8?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 315,
-      "Macro & Economy": 236,
-      "Investment Banking & Deals": 263,
-      "Real Estate & REITs": 96,
-      "Earnings & Results": 270,
-      "Tech & Fintech": 220
+      "Stock Market & Equities": 365,
+      "Macro & Economy": 252,
+      "Investment Banking & Deals": 290,
+      "Real Estate & REITs": 114,
+      "Earnings & Results": 296,
+      "Tech & Fintech": 250
     }
   },
   {
