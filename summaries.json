@@ -2,7 +2,7 @@
   {
     "week": "2026-W47",
     "label": "Week of November 16\u201320, 2026",
-    "generated": "2026-11-17T20:25:42.432570+00:00",
+    "generated": "2026-11-17T22:00:33.641056+00:00",
     "bullets": [
       {
         "headline": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
@@ -11,10 +11,10 @@
         "link": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
       },
       {
-        "headline": "Sam Altman on Nvidia without Jensen Huang: the industry will be \u2018fine\u2019",
+        "headline": "SEC reportedly investigating Nvidia amid Huang exit",
         "source": "TechCrunch",
         "section": "Earnings & Results",
-        "link": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/"
+        "link": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/"
       },
       {
         "headline": "Lawyer for Fed\u2019s Cook says she may not participate in \u2019unfair\u2019 White House hearing",
@@ -54,12 +54,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 390,
-      "Macro & Economy": 260,
-      "Investment Banking & Deals": 306,
-      "Real Estate & REITs": 134,
-      "Earnings & Results": 320,
-      "Tech & Fintech": 263
+      "Stock Market & Equities": 410,
+      "Macro & Economy": 264,
+      "Investment Banking & Deals": 311,
+      "Real Estate & REITs": 153,
+      "Earnings & Results": 343,
+      "Tech & Fintech": 279
     }
   },
   {
