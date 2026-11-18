@@ -2,19 +2,19 @@
   {
     "week": "2026-W47",
     "label": "Week of November 16\u201320, 2026",
-    "generated": "2026-11-18T19:55:24.703021+00:00",
+    "generated": "2026-11-18T22:00:26.832159+00:00",
     "bullets": [
       {
-        "headline": "One of AI's most notorious 'doomers' stands to make billions in Anthropic's IPO",
-        "source": "CNBC",
+        "headline": "Anthropic prices blockbuster IPO at $83 a share, source says",
+        "source": "Reuters",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/11/18/jaan-tallinn-anthropic-ipo-series-a-investment.html"
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR3NST2trRTZCZkdmblYtRm5pcldXRUJTVjZkZUJ6bHJYbjFUSUJ6ZGVJNW1SMVg0ZWthVnlfVVRhZnlld192c0pBaUZSUzRZS0xGdFlYRnViSU9RYVhHWXRpVDlULS0tREUzcDhfa0NGSVIzVkFTOXBzeW5JelpBVy1RV2FFWEpwdnFhZnlqUVN0bUxWSXJaTVFzTEQxTDlFVVpkRERxQmplM0V2X3c?oc=5"
       },
       {
-        "headline": "Nvidia\u2019s startup stakes ballooned to $65B, but Huang\u2019s exit puts future deals in doubt",
-        "source": "TechCrunch",
+        "headline": "Nvidia earnings spark rally in shares and neoclouds despite Huang scandal",
+        "source": "CNBC",
         "section": "Earnings & Results",
-        "link": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/"
+        "link": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html"
       },
       {
         "headline": "Lawyer for Fed\u2019s Cook says she may not participate in \u2019unfair\u2019 White House hearing",
@@ -23,10 +23,10 @@
         "link": "https://www.investing.com/news/economy-news/lawyer-for-feds-cook-threatens-to-not-take-part-in-unfair-white-house-hearing-5033562"
       },
       {
-        "headline": "Disney beats earnings forecasts, plans to increase content spending",
-        "source": "Reuters",
+        "headline": "Disney Profit Beats With Marvel Films Powering Streaming",
+        "source": "Bloomberg",
         "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSlF0VGEwNkwyNXpITHVnR1pROEVQdnMtNXZoU2JyczE2TzE3QkI1MGVfcEJ5R2tKWnc5b0RpSTJEbnVXM3NfUEM5d3RaTkNwOVA4WnZIOXQzWkNUanJ1VXU4aWZnSDlSS3pGSlBrUU9PVEIzYlFNQlFpWkdabFhaUDVTWkw5b1o4ZWlRaDNYLUNES2hIZXJCVWJRNnR1Z09pTjNrQlp3NldiSkQ2?oc=5"
+        "link": "https://www.bloomberg.com/news/articles/2026-11-17/disney-profit-beats-with-marvel-films-powering-streaming"
       },
       {
         "headline": "Deutsche Bank Shares Drop After Wide-Ranging Whistleblower Leaks",
@@ -35,31 +35,31 @@
         "link": "https://www.wsj.com/finance/deutsche-bank-shares-drop-after-wide-ranging-whistleblower-leaks-bc550948?mod=rss_markets_main"
       },
       {
+        "headline": "Palo Alto Networks revenue rises 39% to $3.44 billion as it raises its full-year outlook",
+        "source": "MLQ.ai",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZklxcWZrVjNNV09TWFUyN183Y2RCczJjTmFJU3hWTi1yZTNQZmtoNWs1QTI0MmhYNG1YNm94WW5pM0lwOTVWdTVDVzlKeEtsZExOanpIZ2l1NGY5YWktZWZ3bFFSYXhBZ0EzVnFvUzBjYlp5TVJUdEdzU0pwWjR3eWw5bkNIYUFGQkE5YkswZGlyOU1DRHFPc1lfd09WMHRDdE5iMjdKclhFUQ?oc=5"
+      },
+      {
+        "headline": "Single-family permits telegraph a weakened 2027 building pipeline",
+        "source": "HousingWire",
+        "section": "Macro & Economy",
+        "link": "https://www.housingwire.com/articles/single-family-permits-construction-pipeline/"
+      },
+      {
         "headline": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
         "source": "CoinDesk",
         "section": "Macro & Economy",
         "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike"
-      },
-      {
-        "headline": "US Housing Starts Climb on Multifamily Construction Rebound",
-        "source": "Bloomberg",
-        "section": "Real Estate & REITs",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-18/us-housing-starts-climb-to-three-month-high-exceeding-forecast"
-      },
-      {
-        "headline": "How high must interest rates go to cool inflation? Possibly 100 basis points or more, Fed\u2019s Waller says.",
-        "source": "MarketWatch",
-        "section": "Macro & Economy",
-        "link": "https://www.marketwatch.com/story/how-high-must-interest-rates-go-to-cool-inflation-possibly-100-basis-points-or-more-feds-waller-says-e7b41cf6?mod=mw_rss_topstories"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 586,
-      "Macro & Economy": 405,
-      "Investment Banking & Deals": 462,
-      "Real Estate & REITs": 206,
-      "Earnings & Results": 514,
-      "Tech & Fintech": 461
+      "Stock Market & Equities": 619,
+      "Macro & Economy": 415,
+      "Investment Banking & Deals": 495,
+      "Real Estate & REITs": 222,
+      "Earnings & Results": 542,
+      "Tech & Fintech": 490
     }
   },
   {
