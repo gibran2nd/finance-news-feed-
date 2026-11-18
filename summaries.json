@@ -2,13 +2,13 @@
   {
     "week": "2026-W47",
     "label": "Week of November 16\u201320, 2026",
-    "generated": "2026-11-18T18:00:40.345904+00:00",
+    "generated": "2026-11-18T19:55:24.703021+00:00",
     "bullets": [
       {
-        "headline": "Anthropic IPO: AI lab considers increasing the offering as investor demand surges, sources say",
+        "headline": "One of AI's most notorious 'doomers' stands to make billions in Anthropic's IPO",
         "source": "CNBC",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+        "link": "https://www.cnbc.com/2026/11/18/jaan-tallinn-anthropic-ipo-series-a-investment.html"
       },
       {
         "headline": "Nvidia\u2019s startup stakes ballooned to $65B, but Huang\u2019s exit puts future deals in doubt",
@@ -35,31 +35,31 @@
         "link": "https://www.wsj.com/finance/deutsche-bank-shares-drop-after-wide-ranging-whistleblower-leaks-bc550948?mod=rss_markets_main"
       },
       {
-        "headline": "Fed\u2019s Musalem Says Economy to Likely Require \u2018Several\u2019 Hikes by Spring",
-        "source": "Bloomberg",
+        "headline": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
+        "source": "CoinDesk",
         "section": "Macro & Economy",
-        "link": "https://www.bloomberg.com/news/videos/2026-11-17/fed-s-musalem-several-hikes-likely-needed-by-spring-video"
+        "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike"
+      },
+      {
+        "headline": "US Housing Starts Climb on Multifamily Construction Rebound",
+        "source": "Bloomberg",
+        "section": "Real Estate & REITs",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-18/us-housing-starts-climb-to-three-month-high-exceeding-forecast"
       },
       {
         "headline": "How high must interest rates go to cool inflation? Possibly 100 basis points or more, Fed\u2019s Waller says.",
         "source": "MarketWatch",
         "section": "Macro & Economy",
         "link": "https://www.marketwatch.com/story/how-high-must-interest-rates-go-to-cool-inflation-possibly-100-basis-points-or-more-feds-waller-says-e7b41cf6?mod=mw_rss_topstories"
-      },
-      {
-        "headline": "Tencent Music Q3 revenue falls short of estimates, earnings beat",
-        "source": "Seeking Alpha",
-        "section": "Earnings & Results",
-        "link": "https://seekingalpha.com/news/4673539-tencent-music-q3-revenue-falls-short-of-estimates-earnings-beat?source=feed_tag_earnings"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 562,
-      "Macro & Economy": 388,
-      "Investment Banking & Deals": 445,
-      "Real Estate & REITs": 187,
-      "Earnings & Results": 502,
-      "Tech & Fintech": 439
+      "Stock Market & Equities": 586,
+      "Macro & Economy": 405,
+      "Investment Banking & Deals": 462,
+      "Real Estate & REITs": 206,
+      "Earnings & Results": 514,
+      "Tech & Fintech": 461
     }
   },
   {
