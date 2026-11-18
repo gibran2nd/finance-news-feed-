@@ -2,13 +2,13 @@
   {
     "week": "2026-W47",
     "label": "Week of November 16\u201320, 2026",
-    "generated": "2026-11-18T12:00:41.874471+00:00",
+    "generated": "2026-11-18T15:00:30.831454+00:00",
     "bullets": [
       {
-        "headline": "Altimeter's Brad Gerstner aims to invest $5 billion in Anthropic IPO",
+        "headline": "Retail investor enthusiasm for Anthropic IPO to rival SpaceX debut",
         "source": "CNBC",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html"
+        "link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-retail-investors.html"
       },
       {
         "headline": "Nvidia\u2019s startup stakes ballooned to $65B, but Huang\u2019s exit puts future deals in doubt",
@@ -41,25 +41,25 @@
         "link": "https://www.bloomberg.com/news/videos/2026-11-17/fed-s-musalem-several-hikes-likely-needed-by-spring-video"
       },
       {
-        "headline": "Tencent Non-GAAP EPS of RMB 7.227, revenue of RMB 207.34B",
-        "source": "Seeking Alpha",
-        "section": "Earnings & Results",
-        "link": "https://seekingalpha.com/news/4674045-tencent-non-gaap-eps-of-rmb-7227-revenue-of-rmb-20734b?source=feed_tag_earnings"
+        "headline": "How high must interest rates go to cool inflation? Possibly 100 basis points or more, Fed\u2019s Waller says.",
+        "source": "MarketWatch",
+        "section": "Macro & Economy",
+        "link": "https://www.marketwatch.com/story/how-high-must-interest-rates-go-to-cool-inflation-possibly-100-basis-points-or-more-feds-waller-says-e7b41cf6?mod=mw_rss_topstories"
       },
       {
-        "headline": "Indonesia resumes rate hikes to defend rupiah, more tightening seen",
-        "source": "Investing.com",
-        "section": "Macro & Economy",
-        "link": "https://www.investing.com/news/economy-news/indonesia-central-bank-hikes-rates-to-support-rupiah-5034987"
+        "headline": "Tencent Music Q3 revenue falls short of estimates, earnings beat",
+        "source": "Seeking Alpha",
+        "section": "Earnings & Results",
+        "link": "https://seekingalpha.com/news/4673539-tencent-music-q3-revenue-falls-short-of-estimates-earnings-beat?source=feed_tag_earnings"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 503,
-      "Macro & Economy": 345,
-      "Investment Banking & Deals": 375,
-      "Real Estate & REITs": 166,
-      "Earnings & Results": 427,
-      "Tech & Fintech": 346
+      "Stock Market & Equities": 533,
+      "Macro & Economy": 371,
+      "Investment Banking & Deals": 418,
+      "Real Estate & REITs": 170,
+      "Earnings & Results": 473,
+      "Tech & Fintech": 408
     }
   },
   {
