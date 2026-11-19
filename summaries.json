@@ -2,7 +2,7 @@
   {
     "week": "2026-W47",
     "label": "Week of November 16\u201320, 2026",
-    "generated": "2026-11-19T19:54:47.506905+00:00",
+    "generated": "2026-11-19T22:00:29.345023+00:00",
     "bullets": [
       {
         "headline": "Anthropic prices blockbuster IPO at $83 a share, source says",
@@ -11,10 +11,10 @@
         "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR3NST2trRTZCZkdmblYtRm5pcldXRUJTVjZkZUJ6bHJYbjFUSUJ6ZGVJNW1SMVg0ZWthVnlfVVRhZnlld192c0pBaUZSUzRZS0xGdFlYRnViSU9RYVhHWXRpVDlULS0tREUzcDhfa0NGSVIzVkFTOXBzeW5JelpBVy1RV2FFWEpwdnFhZnlqUVN0bUxWSXJaTVFzTEQxTDlFVVpkRERxQmplM0V2X3c?oc=5"
       },
       {
-        "headline": "Nvidia beats on Q3 revenue and earnings, stock pops slightly on results",
+        "headline": "Nvidia earnings spark rally in shares and neoclouds despite Huang scandal",
         "source": "CNBC",
         "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM20yOU9VSXBPbmtnNC10OXBjM3JCTzJMZHlla2pwVUgtQmVqNnJOVnZEZjFJR1g4czUzb2pSdkRNckVDU0JfWWRZb0FRT2xaQ20xVFVhN0tYUmpqbWhQR0dLSHdZa2VYenVMRDVGMWM5NTh2X2s4TE9QbkY0Q0JyRGZ4TTBwYmxEMVEtMndjM0s0U3l4aUxzV0s5S1NVWU1vLVR1a0xqOFBScFRXTUJkOFFJdw?oc=5"
+        "link": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html"
       },
       {
         "headline": "Lawyer for Fed\u2019s Cook says she may not participate in \u2019unfair\u2019 White House hearing",
@@ -35,6 +35,12 @@
         "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMG04RW1jbHFlN1d1WlRibnRxVXRaZE5pTlVRbzNtV183OGNOckg3QktYTlJOLW9GZDE0N2djc1hleEFRa296TkZZTGZReldNRmhwY1JCVFhYWS00SjlEenNCLVNncXR1MmV2RUxtNllqZlpzb0lWeTUycDV6WW9Fd3pURnItbDlGUExqUnp3NW5reTVVZEtxRkQ2TXdLUm9IUWtfaVhLUHI3enZ5aHc?oc=5"
       },
       {
+        "headline": "Walmart raises its outlook for the year for the 3rd time after a solid quarter",
+        "source": "AP",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeWNQOUFtUEpuRG1GT0YxZTZaektqZ3FUT2psMmZNdGw1eGQxZkdJajlwaWpPOXRScmgxRU5ZaUVUdkd6Vl9QcWVzbDhCWVN2SDlPeDliUTJUV1N4U1NOdTVmLWJQQ2xJMFRYOHg5emZCODR5THdhNks1TDBxQU1YbWRhWDRyNUZsdFp4UGJfaHdsZFdRUzVXdWd4b2FUaU1fdTZYNmtabw?oc=5"
+      },
+      {
         "headline": "Fed Minutes Show AI Fears and That a Bigger Rate Increase Is Still on the Table",
         "source": "Barron's",
         "section": "Macro & Economy",
@@ -45,21 +51,15 @@
         "source": "Reuters",
         "section": "Macro & Economy",
         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSmh3bk9iaG5YQ2V2dzZUMkQ1aGQ2LWNfdHFCWkVaOUtyWFdHS3lFTzZJTDhsQnItcnN4N2NibjRLNXZIbHVvSllBY0Jyc201azJtbUNnWkRndWlPN05sZUVaWkJBZFlTTGJzYWFFLWRqN2R6X25jRllRT1hHekZ2aFRweE5rbHM3Z3p1SHoxR2UwR1VnMWVnbWZ3ZmRHSTkyR2lhU3p1NzNFZFBjMEtRQ25iZnpwVEhBZTd3bw?oc=5"
-      },
-      {
-        "headline": "Disney's Bulls Got It Right, But I Am Not Buying (Earnings Review)",
-        "source": "Seeking Alpha",
-        "section": "Earnings & Results",
-        "link": "https://seekingalpha.com/article/4969495-disneys-bulls-got-it-right-but-i-am-not-buying-earnings-review?source=feed_tag_earnings"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 855,
-      "Macro & Economy": 507,
-      "Investment Banking & Deals": 793,
-      "Real Estate & REITs": 284,
-      "Earnings & Results": 671,
-      "Tech & Fintech": 663
+      "Stock Market & Equities": 885,
+      "Macro & Economy": 517,
+      "Investment Banking & Deals": 825,
+      "Real Estate & REITs": 302,
+      "Earnings & Results": 704,
+      "Tech & Fintech": 681
     }
   },
   {
