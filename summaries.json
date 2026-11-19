@@ -2,7 +2,7 @@
   {
     "week": "2026-W47",
     "label": "Week of November 16\u201320, 2026",
-    "generated": "2026-11-19T15:00:31.221971+00:00",
+    "generated": "2026-11-19T18:00:28.754090+00:00",
     "bullets": [
       {
         "headline": "Anthropic prices blockbuster IPO at $83 a share, source says",
@@ -11,16 +11,10 @@
         "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR3NST2trRTZCZkdmblYtRm5pcldXRUJTVjZkZUJ6bHJYbjFUSUJ6ZGVJNW1SMVg0ZWthVnlfVVRhZnlld192c0pBaUZSUzRZS0xGdFlYRnViSU9RYVhHWXRpVDlULS0tREUzcDhfa0NGSVIzVkFTOXBzeW5JelpBVy1RV2FFWEpwdnFhZnlqUVN0bUxWSXJaTVFzTEQxTDlFVVpkRERxQmplM0V2X3c?oc=5"
       },
       {
-        "headline": "Nvidia shares slightly up after days of decline ahead of earnings",
+        "headline": "'Who and what comes next': Analysts expect Nvidia investor uncertainty despite earnings beat",
         "source": "CNBC",
         "section": "Earnings & Results",
-        "link": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html"
-      },
-      {
-        "headline": "Palo Alto Networks revenue rises 39% to $3.44 billion as it raises its full-year outlook",
-        "source": "MLQ.ai",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZklxcWZrVjNNV09TWFUyN183Y2RCczJjTmFJU3hWTi1yZTNQZmtoNWs1QTI0MmhYNG1YNm94WW5pM0lwOTVWdTVDVzlKeEtsZExOanpIZ2l1NGY5YWktZWZ3bFFSYXhBZ0EzVnFvUzBjYlp5TVJUdEdzU0pwWjR3eWw5bkNIYUFGQkE5YkswZGlyOU1DRHFPc1lfd09WMHRDdE5iMjdKclhFUQ?oc=5"
+        "link": "https://www.cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html"
       },
       {
         "headline": "Lawyer for Fed\u2019s Cook says she may not participate in \u2019unfair\u2019 White House hearing",
@@ -35,31 +29,37 @@
         "link": "https://www.bloomberg.com/news/articles/2026-11-19/alibaba-s-revenue-beats-estimates-during-china-s-ai-boom"
       },
       {
-        "headline": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
-        "source": "CoinDesk",
-        "section": "Macro & Economy",
-        "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike"
-      },
-      {
         "headline": "The minutes showed almost all expected further moves, and a few who backed the hold saw it as a \u201cclose call\u201d",
         "source": "WSJ",
         "section": "Macro & Economy",
         "link": "https://www.wsj.com/economy/central-banking/fed-officials-saw-higher-rates-ahead-when-they-held-steady-last-month-ad4f3bf7?mod=rss_socialeconomyfeed"
       },
       {
+        "headline": "Fed's Musalem: US likely needs several rate hikes by spring to control inflation",
+        "source": "Reuters",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSmh3bk9iaG5YQ2V2dzZUMkQ1aGQ2LWNfdHFCWkVaOUtyWFdHS3lFTzZJTDhsQnItcnN4N2NibjRLNXZIbHVvSllBY0Jyc201azJtbUNnWkRndWlPN05sZUVaWkJBZFlTTGJzYWFFLWRqN2R6X25jRllRT1hHekZ2aFRweE5rbHM3Z3p1SHoxR2UwR1VnMWVnbWZ3ZmRHSTkyR2lhU3p1NzNFZFBjMEtRQ25iZnpwVEhBZTd3bw?oc=5"
+      },
+      {
         "headline": "Disney Stock Can Extend Its Rally After Magical Earnings Under CEO D\u2019Amaro",
         "source": "Barron's",
         "section": "Earnings & Results",
         "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaGpLaTZPb0h2OFhtak9FazFmY2xWelZPOHNIbHBSSUZZRHNpRTlTS0lrRncyOU9nTnE4dmtYam40dl9ZcmJuRW9SdG50WmM4TEh3NEVlTzN0SGNWR3NEN3l0dzN1a0tKMU9ub21SVFlQelo0VExpMG5sUVZuV1ZVMFV3?oc=5"
+      },
+      {
+        "headline": "Here\u2019s how much of Deutsche Bank\u2019s market cap has been wiped away after reports on 15 million leaked documents",
+        "source": "MarketWatch",
+        "section": "Stock Market & Equities",
+        "link": "https://www.marketwatch.com/story/heres-how-much-of-deutsche-banks-market-cap-has-been-wiped-away-after-reports-on-15-million-leaked-documents-fe3db078?mod=mw_rss_topstories"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 780,
-      "Macro & Economy": 486,
-      "Investment Banking & Deals": 714,
-      "Real Estate & REITs": 242,
-      "Earnings & Results": 643,
-      "Tech & Fintech": 607
+      "Stock Market & Equities": 825,
+      "Macro & Economy": 500,
+      "Investment Banking & Deals": 770,
+      "Real Estate & REITs": 263,
+      "Earnings & Results": 660,
+      "Tech & Fintech": 642
     }
   },
   {
