@@ -2,7 +2,7 @@
   {
     "week": "2026-W47",
     "label": "Week of November 16\u201320, 2026",
-    "generated": "2026-11-18T22:00:26.832159+00:00",
+    "generated": "2026-11-19T01:00:27.639770+00:00",
     "bullets": [
       {
         "headline": "Anthropic prices blockbuster IPO at $83 a share, source says",
@@ -11,16 +11,22 @@
         "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR3NST2trRTZCZkdmblYtRm5pcldXRUJTVjZkZUJ6bHJYbjFUSUJ6ZGVJNW1SMVg0ZWthVnlfVVRhZnlld192c0pBaUZSUzRZS0xGdFlYRnViSU9RYVhHWXRpVDlULS0tREUzcDhfa0NGSVIzVkFTOXBzeW5JelpBVy1RV2FFWEpwdnFhZnlqUVN0bUxWSXJaTVFzTEQxTDlFVVpkRERxQmplM0V2X3c?oc=5"
       },
       {
-        "headline": "Nvidia earnings spark rally in shares and neoclouds despite Huang scandal",
+        "headline": "Nvidia's Kress faces earnings test after stock drags Wall Street into the red",
         "source": "CNBC",
         "section": "Earnings & Results",
-        "link": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html"
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdzNmSS1RVThLODRNTGswVnA1OVVFYXByWjE3THEzcDBJNEt5aHphMUpTRVJhOGN3X0tLQ1ZWQ041X2hBTDVWcDRCb0xFY25sVHYzSUF4TVh0M2Y3WjI5MThrSXQzOTBZanZRUTBKa0tHWXRKejVjUVZhb0ZPZGhKeTlnVzdTOVdHS1JpNG9mVXAzOXVhZkNtcHhzaEN1bmxGQnQ3X0hpbWlWY01qY2NmaGpKWdIBuAFBVV95cUxOdGN0YWs5YlU1OTRQTXNkSFpXNlFGejdMN3JmVGZpd3BGbTlWaEJrY2pfT3NMZFkxTmRlelhtMmhXUGlzSl9sc09EYmdncnkzcjFXQ1NpbzIwaWUwZ0JNVHR6b25lUG0tZlF0TVhqdFh2ZGoycHVhaDV2akhmMHpoVkx5aHBxVl9wNm9tQm5qS2JJT1JXX1YteTNFZUhLM1Ztcmw4VXI0Z2U0RElOeVljRnBoTXNOX3VJ?oc=5"
       },
       {
-        "headline": "Lawyer for Fed\u2019s Cook says she may not participate in \u2019unfair\u2019 White House hearing",
+        "headline": "Palo Alto Networks earnings beat by $0.08, revenue topped estimates",
         "source": "Investing.com",
+        "section": "Earnings & Results",
+        "link": "https://www.investing.com/news/earnings/palo-alto-networks-earnings-beat-by-008-revenue-topped-estimates-5037091"
+      },
+      {
+        "headline": "Federal Reserve\u2019s Cook refuses to participate in White House hearing",
+        "source": "AP",
         "section": "Macro & Economy",
-        "link": "https://www.investing.com/news/economy-news/lawyer-for-feds-cook-threatens-to-not-take-part-in-unfair-white-house-hearing-5033562"
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWTZiUmxJM1FqclB2WTJsd0c2OGt4ZndCeS1KTktXaXBkV1RYRTRuaFBRbnZkN21tN1NFemZlMWhpWkllQ0thc0pXbnltVXFSRDZkRmpqOVBoY2pJZUxGdGhFazRMMURCQjNRWnRsUTB3ODdPM3hIRlNEaEhlM1VjWFhMU2MxWmpqNi1ZM1R0MGZ5S0o0QmxzMXg2VjZLX0MxMjZmc0ZpQng?oc=5"
       },
       {
         "headline": "Disney Profit Beats With Marvel Films Powering Streaming",
@@ -33,12 +39,6 @@
         "source": "WSJ",
         "section": "Stock Market & Equities",
         "link": "https://www.wsj.com/finance/deutsche-bank-shares-drop-after-wide-ranging-whistleblower-leaks-bc550948?mod=rss_markets_main"
-      },
-      {
-        "headline": "Palo Alto Networks revenue rises 39% to $3.44 billion as it raises its full-year outlook",
-        "source": "MLQ.ai",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZklxcWZrVjNNV09TWFUyN183Y2RCczJjTmFJU3hWTi1yZTNQZmtoNWs1QTI0MmhYNG1YNm94WW5pM0lwOTVWdTVDVzlKeEtsZExOanpIZ2l1NGY5YWktZWZ3bFFSYXhBZ0EzVnFvUzBjYlp5TVJUdEdzU0pwWjR3eWw5bkNIYUFGQkE5YkswZGlyOU1DRHFPc1lfd09WMHRDdE5iMjdKclhFUQ?oc=5"
       },
       {
         "headline": "Single-family permits telegraph a weakened 2027 building pipeline",
@@ -54,12 +54,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 619,
-      "Macro & Economy": 415,
-      "Investment Banking & Deals": 495,
-      "Real Estate & REITs": 222,
-      "Earnings & Results": 542,
-      "Tech & Fintech": 490
+      "Stock Market & Equities": 660,
+      "Macro & Economy": 428,
+      "Investment Banking & Deals": 562,
+      "Real Estate & REITs": 227,
+      "Earnings & Results": 562,
+      "Tech & Fintech": 514
     }
   },
   {
