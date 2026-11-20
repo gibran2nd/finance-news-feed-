@@ -2,7 +2,7 @@
   {
     "week": "2026-W47",
     "label": "Week of November 16\u201320, 2026",
-    "generated": "2026-11-20T12:00:29.905699+00:00",
+    "generated": "2026-11-20T15:00:32.191315+00:00",
     "bullets": [
       {
         "headline": "What to know about Anthropic\u2019s massive IPO as it breaks records on Wall Street",
@@ -17,22 +17,16 @@
         "link": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html"
       },
       {
-        "headline": "Walmart raises full-year outlook as third-quarter revenue rises 5.2%",
-        "source": "iNews Zoombangla",
+        "headline": "Walmart raises full-year outlook",
+        "source": "FreshPlaza",
         "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOX3ZmalRJZG1RRVhFelplMTR2TnZmc2paRW5pVTdqQzZLcEFsNDN3YnlDc09xOTlWajZydlBqYXdBUEp1RFo2TzlMY3BqMHMtcmlpSmVBZURGNF9DSkxqMWF0N2ZtOUxnOFVzM3ZFNEhsWnBkM3p4OVRIR3A5TDJqSkFaVmVqWlFRaWlCaUxDVGw1VlNqY0JkQWJ3?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZGJma25CbDRyUjRXWTczV0dxVXVTWVhYcHg2WlM4c1E4eWdVOUZUcG9ucGVPUkFmSWRRVUpQMVZuYThYNV9PRjJKNFNlcWd2azl1MUNlQU9LQXFqRDBCRGFFVXhYMVRMMDFVaWdCVXFOUXJMdUVfNlFSX1FSaXpkUVZqaEJyMmJyZW1DYkU0SVRPcGp2?oc=5"
       },
       {
         "headline": "Lawyer for Fed\u2019s Cook says she may not participate in \u2019unfair\u2019 White House hearing",
         "source": "Investing.com",
         "section": "Macro & Economy",
         "link": "https://www.investing.com/news/economy-news/lawyer-for-feds-cook-threatens-to-not-take-part-in-unfair-white-house-hearing-5033562"
-      },
-      {
-        "headline": "Palo Alto Networks\u2019 stock soars as earnings show AI has upped the stakes for cybersecurity",
-        "source": "MarketWatch",
-        "section": "Earnings & Results",
-        "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories"
       },
       {
         "headline": "Alibaba tops revenue estimates on AI cloud growth; profit up on investment gains",
@@ -51,15 +45,21 @@
         "source": "Bloomberg",
         "section": "Stock Market & Equities",
         "link": "https://www.bloomberg.com/news/articles/2026-11-19/bending-spoons-to-buy-mailchimp-from-intuit-for-3-7-billion"
+      },
+      {
+        "headline": "Palo Alto Networks\u2019 stock soars as earnings show AI has upped the stakes for cybersecurity",
+        "source": "MarketWatch",
+        "section": "Earnings & Results",
+        "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 992,
-      "Macro & Economy": 586,
-      "Investment Banking & Deals": 934,
-      "Real Estate & REITs": 334,
-      "Earnings & Results": 764,
-      "Tech & Fintech": 751
+      "Stock Market & Equities": 1029,
+      "Macro & Economy": 602,
+      "Investment Banking & Deals": 975,
+      "Real Estate & REITs": 338,
+      "Earnings & Results": 795,
+      "Tech & Fintech": 788
     }
   },
   {
