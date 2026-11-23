@@ -2,25 +2,19 @@
   {
     "week": "2026-W48",
     "label": "Week of November 23\u201327, 2026",
-    "generated": "2026-11-23T18:00:31.120597+00:00",
+    "generated": "2026-11-23T22:00:32.069413+00:00",
     "bullets": [
       {
-        "headline": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount",
+        "headline": "VIEW Nvidia reinstates Jensen Huang as CEO, igniting tech surge",
         "source": "Reuters",
-        "section": "Stock Market & Equities",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUdmOUFLaEppLU9uMl80V2x1RTg4YWg3VUc5cWZsVzNfUWJBN2pFY3BhTndKanI0U2gzZHMzZVdpeWlkVkdBMkxGZkEtNFYyYmhteTQ5MHM0NnhkN2lfVk1WcDRxZDluQzVXNll2OWhodnVmaG9qNm15SWdweEM4YmxSWXVKd21mNW9uWW82MHUyWlJLTEE?oc=5"
-      },
-      {
-        "headline": "Nvidia skyrockets 30% on Huang\u2019s return as CEO, recovering nearly all the losses since he disclosed affair",
-        "source": "CNBC",
         "section": "Tech & Fintech",
-        "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWmN5QUFQSGxDSlRyR3gxZzZQczRFSC1SNjFtY0xtMkM4cjhwbnZndkNaSW5JVDNvVVYxMDdObkhjcVZIMVpVZ2FoVFdNZ3NGQU9hckJhZUx6M0dfMERucTNVZk9aamhpRU85TE96c1pEdGUyTlhyZVRMWlNPNUJ1TG1mLTJadHltZ1Utal85WFlTb09aTXF3MTBXNG1TZ0EzeHYzUFNadw?oc=5"
       },
       {
-        "headline": "Coca-Cola Bottler Hit by EU Probe Into Abuse of Market Power",
-        "source": "Bloomberg",
+        "headline": "CrowdStrike to acquire Zscaler in a $44 billion deal that would create a cybersecurity giant",
+        "source": "AP",
         "section": "Stock Market & Equities",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-23/coca-cola-bottler-hit-by-eu-probe-into-abuse-of-market-power"
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQekFodWNTV2dTaVZ6VDJScmUybjJ3QXRURFJjeVNtQVBmOEJkYUZTNnFlMnNKalRWdFdXOWVwTjg1TFU3THJIOU9hSXNtSXZCczVaT0xDYnNKUEJUYXFXbVpTUkhTNWRFb3VIa1RDcHdOMzB4ZVV4cTZ6STBQZ2RWLWNPT2U1RGRHYjIxNEZ1QlFXQXZJMDhJeHdDLUFUc2tSUjJoejc1dGhzTWtkUS1Hb3V1V1hKbXplV3J2Zw?oc=5"
       },
       {
         "headline": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
@@ -29,16 +23,22 @@
         "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/"
       },
       {
+        "headline": "Amazon to acquire AI startup Decart's chip software, hire founders",
+        "source": "CNBC",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/11/23/amazon-decarts-ai-acquisition.html"
+      },
+      {
+        "headline": "Coca-Cola Bottler Hit by EU Probe Into Abuse of Market Power",
+        "source": "Bloomberg",
+        "section": "Stock Market & Equities",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-23/coca-cola-bottler-hit-by-eu-probe-into-abuse-of-market-power"
+      },
+      {
         "headline": "Brookfield agrees to buy specialty glass maker PGP Glass for $1.7bn from Blackstone",
         "source": "PEI",
         "section": "Investment Banking & Deals",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOUIxT29WZXkxbmkzelpSaXRyaExoY1dlN2tqSU9ZTWdpMXVVYXlhWkE2T1NETmNvOHFWQ29adVh2UFlpaUtMRkludllDZXM2N01lYXhiV3B0SnkycnF1Z3dZNl9mWFkwWmk0dzZaQWRzUW5vWjlVRFF0TlEwbDFDdFJxMTNBR3RJNURQY2Q2ekp5a2FTck5idTBPeHEtQ0xtSER6MmNqeDdfM1ViS2NucGMxZXdUbHowRjlDMjctdjZjSGxa?oc=5"
-      },
-      {
-        "headline": "Amazon snaps up Decart\u2019s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
-        "source": "TechCrunch",
-        "section": "Tech & Fintech",
-        "link": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
       },
       {
         "headline": "Consumer stocks, seen as safe bet amid cracks in AI trade, are among the S&P 500\u2019s biggest losers Monday",
@@ -54,12 +54,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 156,
-      "Macro & Economy": 101,
-      "Investment Banking & Deals": 85,
-      "Real Estate & REITs": 47,
-      "Earnings & Results": 57,
-      "Tech & Fintech": 147
+      "Stock Market & Equities": 178,
+      "Macro & Economy": 136,
+      "Investment Banking & Deals": 121,
+      "Real Estate & REITs": 86,
+      "Earnings & Results": 94,
+      "Tech & Fintech": 162
     }
   },
   {
