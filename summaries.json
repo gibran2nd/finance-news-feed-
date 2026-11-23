@@ -2,37 +2,43 @@
   {
     "week": "2026-W48",
     "label": "Week of November 23\u201327, 2026",
-    "generated": "2026-11-23T12:00:33.202058+00:00",
+    "generated": "2026-11-23T15:00:33.674006+00:00",
     "bullets": [
       {
-        "headline": "Anthropic, Nvidia shares rise in premarket trading after major tech selloff",
-        "source": "CNBC",
-        "section": "Stock Market & Equities",
-        "link": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html"
-      },
-      {
-        "headline": "CrowdStrike Reaches $44 Billion Cyber Deal for Zscaler",
-        "source": "Bloomberg",
-        "section": "Investment Banking & Deals",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-23/crowdstrike-reaches-44-billion-cybersecurity-deal-for-zscaler"
-      },
-      {
-        "headline": "EU launches antitrust probe into Coca-Cola bottler",
-        "source": "FT",
-        "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdVpuQ2tWcGRfTkhOYXpKbGJrTW5BUFRETmVJdW1IU1IyU1g5WHRnQzMtc0dtQ3Z5MHBvTGM4U1dBRnlvdHBJLXJ0UE9TNTZfQ3JIZ3NIMGN4M0ZmRC1EODlvLTA5N2htT3BqSDR6VmlBdDlvS2JWMWhRdkNOUHE1Vi11Q04?oc=5"
-      },
-      {
-        "headline": "Wall Street futures rebound as battered AI stocks gain ground",
+        "headline": "Nvidia reinstates Jensen Huang as CEO amid pressure from President Trump, investors",
         "source": "Reuters",
-        "section": "Stock Market & Equities",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNEVIVnBMbFk4UVlXOGlieWlkeWhldU5HWnFSdWNVU3BIU2YycVJnV3NWZGxGNXFMTjlKU3VuUTBnWGxZUjBtV3JCVlZjNU11MXZOT0s4V3QyRTNPNDlBRzAzX095cHphSWNSYnBTZmprLTVmdUVKd0RHc1FCbHdITU9Mb3BZMWlZM3pLQkF5MElMakFJME1WVWZOY0xJVWJnbTQ4dnpsQlNEZw?oc=5"
+        "section": "Tech & Fintech",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd19EYmc4X2wzaW5zXzZ5VXZ1cUFJbS1OYzJsZ2VSTVRnMkQteWdiN3Z0dTBlNmltdll6Vy1RWnpxVUthOF9XX3g0YmVvNWdXODJUMGpSeXdldVdYQWE3N2hCQXU3RExXSDViSWI3S2xHNVZFc0NUVmh5bGRhem5aUzdDa29xb1hH?oc=5"
       },
       {
-        "headline": "The AI data center boom is driving billions into private infrastructure",
+        "headline": "CrowdStrike to buy Zscaler in $44 billion deal as AI supercharges cyberattacks",
         "source": "CNBC",
         "section": "Tech & Fintech",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV2JVZ2puSDVnMGlmREpENzZjVDFkU1FZMXZCN2s5cFBBYkZPZVdUdm5vSGt4X25aX1g5X0ZMbjVlU0k3ZDc0SUE1X1pCQmZyTjBubzlCZGRMelpqbmJGUGc2WTFGUkpDdWlUV3hIQ3BjdHJGWEUxR3FQUndDY2lFYkR4NjFKWXI20gGOAUFVX3lxTE1OMjA2djVrTEQ0OERvR2VBc2lMSHYwcGwySWhySFpoS3hxYWR6WWZWdWFwRWpUM2lnbDVIbXREMnhCZnFyUFdCUE9fNGJzX282WWNmSS1UMENNSTNfZGhyUncwb2NqZ3ctcUFsb0NaaVo5d1Q0WTdXaHQ5OG9rS0lHeGI2WFo5Ymcyay0xZXc?oc=5"
+        "link": "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-aquisition-ai-cyberattacks.html"
+      },
+      {
+        "headline": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+        "source": "TechCrunch",
+        "section": "Investment Banking & Deals",
+        "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/"
+      },
+      {
+        "headline": "Coca-Cola Bottler Hit by EU Probe Into Abuse of Market Power",
+        "source": "Bloomberg",
+        "section": "Stock Market & Equities",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-23/coca-cola-bottler-hit-by-eu-probe-into-abuse-of-market-power"
+      },
+      {
+        "headline": "Gold Rebounds After Sharpest Weekly Decline Since March",
+        "source": "WSJ",
+        "section": "Stock Market & Equities",
+        "link": "https://www.wsj.com/finance/commodities-futures/gold-rebounds-after-sharpest-weekly-decline-since-march-deaa4b87?mod=rss_markets_main"
+      },
+      {
+        "headline": "Citi's $35-billion UK error could complicate exit from US regulatory penalty box",
+        "source": "Reuters",
+        "section": "Stock Market & Equities",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOVMxWWx3akhhdTVwTkFRU0pvbUFJSGU0MjhtY0JISTktTmRzNkJwb3B2a1JIWXluU3BZY08tX3JacHJnZjZmVXFkcU5nd2VIdDZhUEdvRFZyUnVHWWx4dGZtYlJ0QzFFX2ZKOHAxYkJselp3dXNkYWFRcGJmZ0VVMUxqNFg3UTduLXFmQThrbWZtRHpYZjhZMlc3WU1QZHdMQVRUaWVnNEEwZTZ2ZjNVU3FKMmtHaGVnaFhFNV90NkxkT1Bk?oc=5"
       },
       {
         "headline": "Brookfield To Acquire PGP Glass From Blackstone For $1.7 Billion, Marks Its Biggest PE Buyout In India",
@@ -41,25 +47,19 @@
         "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUWxNaGNtVU5feWVscHlhRDJzdnVZdm5lNnNQdFV0dFBkYWNCYWEtX0hreUszMVdMLVlFZDl3N3d4TzJoVFlOQ2toVTRwbTZCUHFCTFc4UmtTbTZrQXRuZjRPRzJDVGk5eXRQaWgwYmNIbzAzRldOaXExVGd4ZkJhUnhKQXRoV3FMVERRa1ZnNXF1WkdaUlFBWGVwTEdyVlZqUERTS3VUaXE1Z3h2LVBSczRSMEdCRVdMb1pDTThDZEZsejVHS3dRcU1uRkRBVFRPSTE3Y3ZId9IB3AFBVV95cUxPekxST3RzQkRpQU1wdmJxTUVFYm8xcFc3LWUza3VqT3E2TzFFWTMzV0hxd2wwZHA0dTFxSEE1NzNadFNKdVZHZU1BN0xTZWxzQnUxN0Z4cl9xc0szQzFoRlViY0lwcTd3MElQT3dHaUpLQkNOQXNqSG9WaUhRNklQbE1SRUFVYzJ5Yzk0eWpVbzhkOVV0M2tZcGJNWmxwQ3M0WXV6OXVFWFVnaFZZQXZaclhaUEcwT0dlMW1yRVZqU3dCbmlEa0FrbHVPZUpNNVh6LUJ3ZWk1OG1HYllx?oc=5"
       },
       {
-        "headline": "Futures bounce after AI selloff; Bessent on Nvidia probe - what\u2019s moving markets",
-        "source": "Investing.com",
-        "section": "Stock Market & Equities",
-        "link": "https://www.investing.com/news/economy-news/futures-bounce-after-ai-selloff-bessent-on-nvidia-probe--whats-moving-markets-5044447"
-      },
-      {
-        "headline": "December rate hike may not be enough but not in a rush to move again: ECB's Simkus",
-        "source": "Reuters",
-        "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRFlkZVZKRk9QVlZVX0hUNXZSMWNqTG1oVXZ2cmw4V1VOMUMxV2NVS0djLTQ1M18wLXp6cE5iWkxSMzNwd0lyVHhETVNQY2Ffd25LVzQ1TUctV3E4YWRLZkNpSEhCZTJwMVBkc2RTZDgwSU9OX0lSOTFwY0xFd2hQVHdwVnhIeHhhWXJRZmtlNllyLUs3ZGJmakNCUTBGWGJ6Wk1za2IxMkIzZXhuUFk3eVIzQUpVVEFM?oc=5"
+        "headline": "Crowdstrike to acquire Zscaler in a $44 billion deal that would create a cybersecurity giant",
+        "source": "AP",
+        "section": "Investment Banking & Deals",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQekFodWNTV2dTaVZ6VDJScmUybjJ3QXRURFJjeVNtQVBmOEJkYUZTNnFlMnNKalRWdFdXOWVwTjg1TFU3THJIOU9hSXNtSXZCczVaT0xDYnNKUEJUYXFXbVpTUkhTNWRFb3VIa1RDcHdOMzB4ZVV4cTZ6STBQZ2RWLWNPT2U1RGRHYjIxNEZ1QlFXQXZJMDhJeHdDLUFUc2tSUjJoejc1dGhzTWtkUS1Hb3V1V1hKbXplV3J2Zw?oc=5"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 79,
-      "Macro & Economy": 60,
-      "Investment Banking & Deals": 38,
-      "Real Estate & REITs": 16,
-      "Earnings & Results": 24,
-      "Tech & Fintech": 55
+      "Stock Market & Equities": 125,
+      "Macro & Economy": 86,
+      "Investment Banking & Deals": 56,
+      "Real Estate & REITs": 24,
+      "Earnings & Results": 35,
+      "Tech & Fintech": 92
     }
   },
   {
