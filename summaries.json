@@ -2,7 +2,7 @@
   {
     "week": "2026-W48",
     "label": "Week of November 23\u201327, 2026",
-    "generated": "2026-11-23T22:00:32.069413+00:00",
+    "generated": "2026-11-23T23:20:35.430404+00:00",
     "bullets": [
       {
         "headline": "VIEW Nvidia reinstates Jensen Huang as CEO, igniting tech surge",
@@ -29,10 +29,16 @@
         "link": "https://www.cnbc.com/2026/11/23/amazon-decarts-ai-acquisition.html"
       },
       {
-        "headline": "Coca-Cola Bottler Hit by EU Probe Into Abuse of Market Power",
+        "headline": "Treasury Futures Fall as Rising Stock Futures Damp Haven Demand",
         "source": "Bloomberg",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNU2FnY19ZVXo4MGlTUlpSamM4Z0Fwd2J0aGxxMWlDYXNXMkFYc2ZtSkpfRS1aQ2VLdFdKSEVPaHdmanA0NzBONHd2dFhUbXlKWE1JRGhZaXVOcG5PdlZqLU9xMGd3UWFid0NuMmpYYnByMmxad2FpZXgza2U1NHRVbDZnV2szanN3aUxROW5JSmFUQnZKbFpnbWZMdmhzQTZKanlsV0pxZWI2TTh1MzdmZGQyTmk?oc=5"
+      },
+      {
+        "headline": "EU launches antitrust probe into Coca-Cola bottler",
+        "source": "FT",
         "section": "Stock Market & Equities",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-23/coca-cola-bottler-hit-by-eu-probe-into-abuse-of-market-power"
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdVpuQ2tWcGRfTkhOYXpKbGJrTW5BUFRETmVJdW1IU1IyU1g5WHRnQzMtc0dtQ3Z5MHBvTGM4U1dBRnlvdHBJLXJ0UE9TNTZfQ3JIZ3NIMGN4M0ZmRC1EODlvLTA5N2htT3BqSDR6VmlBdDlvS2JWMWhRdkNOUHE1Vi11Q04?oc=5"
       },
       {
         "headline": "Brookfield agrees to buy specialty glass maker PGP Glass for $1.7bn from Blackstone",
@@ -45,21 +51,15 @@
         "source": "MarketWatch",
         "section": "Stock Market & Equities",
         "link": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories"
-      },
-      {
-        "headline": "DR Congo reimposes cobalt export ban to shore up prices",
-        "source": "FT",
-        "section": "Stock Market & Equities",
-        "link": "https://www.ft.com/content/7421ec30-dde5-409a-971c-64359c21ea3d?syn-25a6b1a6=1"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 178,
-      "Macro & Economy": 136,
-      "Investment Banking & Deals": 121,
-      "Real Estate & REITs": 86,
-      "Earnings & Results": 94,
-      "Tech & Fintech": 162
+      "Stock Market & Equities": 192,
+      "Macro & Economy": 139,
+      "Investment Banking & Deals": 122,
+      "Real Estate & REITs": 89,
+      "Earnings & Results": 97,
+      "Tech & Fintech": 181
     }
   },
   {
