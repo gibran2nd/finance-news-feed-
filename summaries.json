@@ -2,19 +2,19 @@
   {
     "week": "2026-W48",
     "label": "Week of November 23\u201327, 2026",
-    "generated": "2026-11-24T12:00:33.315424+00:00",
+    "generated": "2026-11-24T15:00:29.375772+00:00",
     "bullets": [
+      {
+        "headline": "Anthropic stock falls below $83 IPO price, but analysts are still largely positive",
+        "source": "CNBC",
+        "section": "Investment Banking & Deals",
+        "link": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"
+      },
       {
         "headline": "VIEW Nvidia reinstates Jensen Huang as CEO, igniting tech surge",
         "source": "Reuters",
         "section": "Tech & Fintech",
         "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWmN5QUFQSGxDSlRyR3gxZzZQczRFSC1SNjFtY0xtMkM4cjhwbnZndkNaSW5JVDNvVVYxMDdObkhjcVZIMVpVZ2FoVFdNZ3NGQU9hckJhZUx6M0dfMERucTNVZk9aamhpRU85TE96c1pEdGUyTlhyZVRMWlNPNUJ1TG1mLTJadHltZ1Utal85WFlTb09aTXF3MTBXNG1TZ0EzeHYzUFNadw?oc=5"
-      },
-      {
-        "headline": "Anthropic slips below $83 IPO price in premarket trade as debut rally fizzles out",
-        "source": "The Economic Times",
-        "section": "Investment Banking & Deals",
-        "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNd2JDQTdvd3k0TzJtWTdOLTRrSHQtMUdyZ1BTVVRCN2FvQXYyRXZ0ei1EODBuT1BUaV9TLUxtSFdRNzJ3eVY0YkhFX3ByaVBfdjdOdmVIbm50OGNyazdFamN5X0ktVW5sQ3dITVZweURNcktwdUVlUGI5bHNYaDdRb09xZEN6NFFfZkFIWkNjYzM2MEhCQ09DMXU4V3Y0TWRwcVNSMzhJeG5XX2xXemJYQmRJOGJCN3BJMmcxSGNVVEhkTEthSVlrUW9aMXR2U1RGU2s5d3NzelozVy1HSXN1YmdteGpDX1h2NjhrRExCRlcyeG44VUlNeGtEWTdIaHfSAYQCQVVfeXFMTnlFWUVnb0QyWWJNUllXWS1ZSmFiOGVGcjB6TzRacHRsSFdaWF9UenZWWDgxTmNScGdLeGFLWU5SajBFMU1Uand1bURvQV85WVJ4M3NMSjZVRm5nVmEtblVSMnFLZ2MxQ0U2dzdjNVNkLVJYQ2Q3S0hTdENWWFpiQlZURjhMbWNMMGs4T3VmcEpsTkJHbUY4T1drSjBTcUYyY3F4cFJjLTFTNGVOekMydy0ydEtLWU1KbVNTX3RmQVVraFF3SFU4LXN6cHFoM2FpTUI2OVl5emxmX2x0b2QwNEZfd0xJV2tua2dlNjJTVE1RSkRVVV9CNDl1LVJ0cHNlT0l0bVQ?oc=5"
       },
       {
         "headline": "CrowdStrike to acquire Zscaler in a $44 billion deal that would create a cybersecurity giant",
@@ -29,10 +29,10 @@
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQlFlbXJOSm44S1dkOU5UREdsRHFhdVBzYVVUUVVldkd3ZzJiVm04Y2NJRm4ydlFwUnA0eGZ4eWdnTWFUbzg5T08xYk1lNGhIN19mdGpZWndDaXowRzVoTVlscnZfZDI5Wm1qdXhwbGZLS0J0Y2NYcHFLRlhoZXp1NDdUVzdITzFOZjVsY3l0bWFZTEwxMHFv?oc=5"
       },
       {
-        "headline": "Treasury yields steady after inflation warning from New York Fed's Williams, investors await 5-year auction",
-        "source": "CNBC",
+        "headline": "Fed has \u2019work to do\u2019 to lower inflation, Williams says",
+        "source": "Investing.com",
         "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9kVk10NWJKZmMxSHlDRjExaTRUbnMtRmhRTGFta21UaHg4NGNSZndMYTRxczhZSmg5TllvWi1LekdUcGc2c2hfcnVrQnhPR0NTSjI0QU0yZHpFZldCSndPWENKaXNKV0VubXYtTW9ndVllY3hRek1B0gF8QVVfeXFMUGg3N2J0czVpMHZ6dzNPbjdfb2dmYk9NQUw2ZmVQUG00UWlJeDdEaUkzSjJQMU5DOVVXQXg4YzBkYlJldkV0aFRjNXZJM2hKckRRR3lYc2xhemdhMk9rLTk4Q2Uxc3k0Xy1yOE9QZWVpM095amUwdk1BLXlHXw?oc=5"
+        "link": "https://www.investing.com/news/economy-news/fed-has-work-to-do-to-lower-inflation-williams-says-5046374"
       },
       {
         "headline": "Amazon snaps up Decart\u2019s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
@@ -54,12 +54,12 @@
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 274,
-      "Macro & Economy": 220,
-      "Investment Banking & Deals": 205,
-      "Real Estate & REITs": 105,
-      "Earnings & Results": 144,
-      "Tech & Fintech": 244
+      "Stock Market & Equities": 315,
+      "Macro & Economy": 263,
+      "Investment Banking & Deals": 244,
+      "Real Estate & REITs": 122,
+      "Earnings & Results": 186,
+      "Tech & Fintech": 282
     }
   },
   {
