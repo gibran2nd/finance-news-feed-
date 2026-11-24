@@ -2,7 +2,7 @@
   {
     "week": "2026-W48",
     "label": "Week of November 23\u201327, 2026",
-    "generated": "2026-11-24T15:00:29.375772+00:00",
+    "generated": "2026-11-24T18:00:43.323101+00:00",
     "bullets": [
       {
         "headline": "Anthropic stock falls below $83 IPO price, but analysts are still largely positive",
@@ -29,37 +29,37 @@
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQlFlbXJOSm44S1dkOU5UREdsRHFhdVBzYVVUUVVldkd3ZzJiVm04Y2NJRm4ydlFwUnA0eGZ4eWdnTWFUbzg5T08xYk1lNGhIN19mdGpZWndDaXowRzVoTVlscnZfZDI5Wm1qdXhwbGZLS0J0Y2NYcHFLRlhoZXp1NDdUVzdITzFOZjVsY3l0bWFZTEwxMHFv?oc=5"
       },
       {
-        "headline": "Fed has \u2019work to do\u2019 to lower inflation, Williams says",
-        "source": "Investing.com",
-        "section": "Macro & Economy",
-        "link": "https://www.investing.com/news/economy-news/fed-has-work-to-do-to-lower-inflation-williams-says-5046374"
-      },
-      {
-        "headline": "Amazon snaps up Decart\u2019s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+        "headline": "Amazon\u2019s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
         "source": "TechCrunch",
         "section": "Investment Banking & Deals",
-        "link": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+        "link": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/"
+      },
+      {
+        "headline": "Xiaomi profit misses Q3 forecasts as EV and smartphone sales shrink",
+        "source": "Investing.com",
+        "section": "Earnings & Results",
+        "link": "https://www.investing.com/news/earnings/xiaomi-profit-misses-q3-forecasts-as-ev-and-smartphone-sales-shrink-5047565"
+      },
+      {
+        "headline": "Treasury Yields Fall as Investors Seek Safe Havens",
+        "source": "WSJ",
+        "section": "Macro & Economy",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN202RFVKUXpJMEl0aDZhdmV6TnZ5QjR4eDEtWVdrM0lBOV8zcEtQdW4yd3lWenJFX3IzZTB0VXYzOTZNZjJxdlJOUWE5YjFYNlc3cnAxMFdPRWNYZUtmUF9hQ1dTV0ZuOWY0Q1ZNeGRsbVJqYzdKZmhodnFFMXdWSEpGaU42a0doNHg3aEJn?oc=5"
       },
       {
         "headline": "U.S. seeks $1.1 billion seized in Binance hack as North Korean funds keep moving",
         "source": "CoinDesk",
         "section": "Tech & Fintech",
         "link": "https://www.coindesk.com/policy/2026/11/24/u-s-seeks-usd1-1-billion-seized-in-binance-hack-as-north-korean-funds-keep-moving"
-      },
-      {
-        "headline": "Coca-Cola Bottler Hit by EU Probe Into Abuse of Market Power",
-        "source": "Bloomberg",
-        "section": "Stock Market & Equities",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-23/coca-cola-bottler-hit-by-eu-probe-into-abuse-of-market-power"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 315,
-      "Macro & Economy": 263,
-      "Investment Banking & Deals": 244,
-      "Real Estate & REITs": 122,
-      "Earnings & Results": 186,
-      "Tech & Fintech": 282
+      "Stock Market & Equities": 350,
+      "Macro & Economy": 291,
+      "Investment Banking & Deals": 284,
+      "Real Estate & REITs": 143,
+      "Earnings & Results": 219,
+      "Tech & Fintech": 320
     }
   },
   {
