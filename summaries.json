@@ -2,13 +2,13 @@
   {
     "week": "2026-W48",
     "label": "Week of November 23\u201327, 2026",
-    "generated": "2026-11-24T22:00:27.817134+00:00",
+    "generated": "2026-11-25T01:00:32.931913+00:00",
     "bullets": [
       {
-        "headline": "Anthropic stock falls below $83 IPO price, but analysts are still largely positive",
+        "headline": "Anthropic shares fall below IPO price. Traders see even more pain",
         "source": "CNBC",
         "section": "Investment Banking & Deals",
-        "link": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBxSGxKSk92NThxemttMVYyMzM1OXlveU1rOEYtM2lIa2FjQjA4dW5jSEU0VDBLVWF0aHFNUjlfVllIU1gzSDVibllXSUUwYm1MWkl6azV0a19HQjdqaW0wWG1ZSmItRTZiQlRZVWVvN0lzS0ItNWMxb2dCSlnSAYIBQVVfeXFMT1p0ckc3akJrU1ZWN2RHY2tlT29GVUJWZ3FFZUhaU1lrT2xTb1lhcHR4cy0xQXdhdUdMcGlBUzYtU3Azc1B5ZzJfRUxJdmlTNmZ4RjEwQS1zeTdHX3ZITEJVbEhPamhUcjFlV0J6RzY0UjJQcjZscTd5RzBjQTNBY3FsQQ?oc=5"
       },
       {
         "headline": "VIEW Nvidia reinstates Jensen Huang as CEO, igniting tech surge",
@@ -21,6 +21,12 @@
         "source": "AP",
         "section": "Tech & Fintech",
         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQekFodWNTV2dTaVZ6VDJScmUybjJ3QXRURFJjeVNtQVBmOEJkYUZTNnFlMnNKalRWdFdXOWVwTjg1TFU3THJIOU9hSXNtSXZCczVaT0xDYnNKUEJUYXFXbVpTUkhTNWRFb3VIa1RDcHdOMzB4ZVV4cTZ6STBQZ2RWLWNPT2U1RGRHYjIxNEZ1QlFXQXZJMDhJeHdDLUFUc2tSUjJoejc1dGhzTWtkUS1Hb3V1V1hKbXplV3J2Zw?oc=5"
+      },
+      {
+        "headline": "Dell Just Reported Earnings and Raised Its Forecast by $10 Billion. Is the Stock a Buy After Tuesday's Selloff?",
+        "source": "Yahoo Finance",
+        "section": "Earnings & Results",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORWlHWllGZUZKazVoVVlPQ3hyb2poY2N4SjRObEhZcDB6R1RabEoyUXZfWjFiSmJNNi1aNGFpV05lRGtkV2NsQUdYbDV1MngydDRuQnJUSVFqeHFzOWtYdVdmcElQU1VId0p6Z3dJUTlodExYdnI2R2ktQzltMFA3SF9lUFF6VG04bHJDdGh4aFZYY1F6Z1ZLcnh5VjdvbFpq?oc=5"
       },
       {
         "headline": "Brookfield to acquire India\u2019s PGP Glass from Blackstone for $1.7bn",
@@ -41,25 +47,19 @@
         "link": "https://www.investing.com/news/earnings/xiaomi-profit-misses-q3-forecasts-as-ev-and-smartphone-sales-shrink-5047565"
       },
       {
-        "headline": "Dell's revenue doubles to $54.9 billion as its AI backlog hits a record $132.3 billion; full-year outlook raised to $202 billion",
-        "source": "MLQ.ai",
-        "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdHZrcmh3X3B5WndKekFOVmsyQ2JncVJqYWRMSXd2STB3ejlTM2VzeDJ6NlA3OThhSHZTSXNJZk9lUEFUa25fMkowSzhPRjBoVGFNcldacEU5a205V25jV0FlalZlVW9hYU5pa2EzcFJZOUxYSTZMcGtvYmZMMnhKV3BUY1duaEFMWnlHVS1hMG5VOGgtbFVMT0hGNzdjNzA3dXJsUWRMR2hHTlJvVjdRelUyUFFmakhHdEZiVFdWdG8wSjlZLVJlWWViVk42S2tfWXBFd19xcXZ1QQ?oc=5"
-      },
-      {
-        "headline": "Treasury Futures Fall as Rising Stock Futures Damp Haven Demand",
+        "headline": "OpenAI Staffer Charged With Planting Bug Released on Bond",
         "source": "Bloomberg",
-        "section": "Macro & Economy",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNU2FnY19ZVXo4MGlTUlpSamM4Z0Fwd2J0aGxxMWlDYXNXMkFYc2ZtSkpfRS1aQ2VLdFdKSEVPaHdmanA0NzBONHd2dFhUbXlKWE1JRGhZaXVOcG5PdlZqLU9xMGd3UWFid0NuMmpYYnByMmxad2FpZXgza2U1NHRVbDZnV2szanN3aUxROW5JSmFUQnZKbFpnbWZMdmhzQTZKanlsV0pxZWI2TTh1MzdmZGQyTmk?oc=5"
+        "section": "Tech & Fintech",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-24/openai-staffer-charged-with-planting-bug-released-on-bond"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 388,
-      "Macro & Economy": 323,
-      "Investment Banking & Deals": 313,
-      "Real Estate & REITs": 164,
-      "Earnings & Results": 257,
-      "Tech & Fintech": 363
+      "Stock Market & Equities": 413,
+      "Macro & Economy": 340,
+      "Investment Banking & Deals": 338,
+      "Real Estate & REITs": 171,
+      "Earnings & Results": 274,
+      "Tech & Fintech": 379
     }
   },
   {
