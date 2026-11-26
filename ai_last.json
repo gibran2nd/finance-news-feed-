@@ -2,9 +2,9 @@
  "model": "claude-haiku-5-5",
  "calls": [],
  "errors": [
-  "merge_stories: AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011ChRW8TSCbyV2tXjzsqA13'}",
-  "condense_summaries: AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011ChRWAw89WNEkcT2bzRpFG'}"
+  "merge_stories: AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011ChRjrqAMMYGLbF9ecPmJ4'}",
+  "condense_summaries: AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011ChRjumvU2xFqtcAQzVLhc'}"
  ],
- "generated": "2026-11-26T12:00+00:00",
+ "generated": "2026-11-26T15:00+00:00",
  "total_cost_usd": 0
 }
