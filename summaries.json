@@ -2,7 +2,7 @@
   {
     "week": "2026-W48",
     "label": "Week of November 23\u201327, 2026",
-    "generated": "2026-11-26T01:00:28.763623+00:00",
+    "generated": "2026-11-26T12:00:31.525624+00:00",
     "bullets": [
       {
         "headline": "Anthropic shares fall below IPO price. Traders see even more pain",
@@ -19,14 +19,20 @@
       {
         "headline": "CrowdStrike to acquire Zscaler in a $44 billion deal that would create a cybersecurity giant",
         "source": "AP",
-        "section": "Stock Market & Equities",
+        "section": "Tech & Fintech",
         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQekFodWNTV2dTaVZ6VDJScmUybjJ3QXRURFJjeVNtQVBmOEJkYUZTNnFlMnNKalRWdFdXOWVwTjg1TFU3THJIOU9hSXNtSXZCczVaT0xDYnNKUEJUYXFXbVpTUkhTNWRFb3VIa1RDcHdOMzB4ZVV4cTZ6STBQZ2RWLWNPT2U1RGRHYjIxNEZ1QlFXQXZJMDhJeHdDLUFUc2tSUjJoejc1dGhzTWtkUS1Hb3V1V1hKbXplV3J2Zw?oc=5"
       },
       {
-        "headline": "Dell Just Reported Earnings and Raised Its Forecast by $10 Billion. Is the Stock a Buy After Tuesday's Selloff?",
-        "source": "Yahoo Finance",
+        "headline": "Dell\u2019s record revenue: the company raised its forecast for 2027 to $202 billion",
+        "source": "hi-Tech.ua",
         "section": "Earnings & Results",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORWlHWllGZUZKazVoVVlPQ3hyb2poY2N4SjRObEhZcDB6R1RabEoyUXZfWjFiSmJNNi1aNGFpV05lRGtkV2NsQUdYbDV1MngydDRuQnJUSVFqeHFzOWtYdVdmcElQU1VId0p6Z3dJUTlodExYdnI2R2ktQzltMFA3SF9lUFF6VG04bHJDdGh4aFZYY1F6Z1ZLcnh5VjdvbFpq?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ1ZCbklPZ1RUZmFMdGRZSHF4dXNJaGcwZlJBYUpCQVBJNzdyZ0JyQUQwX2xSWjlVVmFPTDl1UnhmTW5PLTBnTlRZcF8xejBfdGlEUUJwN3RqRkkwWl9JdG9tWmE2cml2SXVwX24wUFpSSHg5T1BDdkJPclEzb1EwNFNHTmtwYXJCRVVxTm9UMjR5RGtlU1RyS3RCQ2FQSF9i?oc=5"
+      },
+      {
+        "headline": "South Korea\u2019s central bank seen raising rates on Thursday, once more next quarter - Reuters poll",
+        "source": "Investing.com",
+        "section": "Macro & Economy",
+        "link": "https://www.investing.com/news/economy-news/south-koreas-central-bank-seen-raising-rates-on-thursday-once-more-next-quarter--reuters-poll-5046788"
       },
       {
         "headline": "Deal Roundup: Brookfield strikes $1.7bn Blackstone glass packaging buyout; Macquarie leads $1.2bn telecoms towers deal",
@@ -41,25 +47,19 @@
         "link": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/"
       },
       {
-        "headline": "Sanofi Strikes $41 Billion Deal to Buy U.S. Drugmaker Insmed",
-        "source": "WSJ",
+        "headline": "Deutsche Bank Is Among Biggest S&P 500 Bulls With 9,000 Target",
+        "source": "Bloomberg",
         "section": "Stock Market & Equities",
-        "link": "https://www.wsj.com/business/deals/sanofi-to-buy-insmed-for-41-0-billion-36d6b07d?mod=rss_Technology"
-      },
-      {
-        "headline": "The Fed says inflation hasn\u2019t gotten any better ahead of its key December vote to raise rates",
-        "source": "MarketWatch",
-        "section": "Macro & Economy",
-        "link": "https://www.marketwatch.com/story/the-fed-says-inflation-hasnt-gotten-any-better-ahead-of-its-key-december-vote-to-raise-rates-65024d33?mod=mw_rss_topstories"
+        "link": "https://www.bloomberg.com/news/articles/2026-11-25/deutsche-bank-is-among-biggest-s-p-500-bulls-with-9-000-target"
       }
     ],
     "section_counts": {
-      "Stock Market & Equities": 660,
-      "Macro & Economy": 494,
-      "Investment Banking & Deals": 538,
-      "Real Estate & REITs": 241,
-      "Earnings & Results": 382,
-      "Tech & Fintech": 548
+      "Stock Market & Equities": 716,
+      "Macro & Economy": 556,
+      "Investment Banking & Deals": 579,
+      "Real Estate & REITs": 246,
+      "Earnings & Results": 403,
+      "Tech & Fintech": 590
     }
   },
   {
